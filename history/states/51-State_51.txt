@@ -1,0 +1,16 @@
+
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		163 208 322 508 664 1124 1382 2351 2417 2817 2837 2888 3076 3776 3882 4294 4633 4963 6687 6742 6743 6756 6757 6788 6797 6819 6825 6838 6845 6847 6928 6948 
+	}
+	history = {
+		owner = EMP
+		add_core_of = EMP
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

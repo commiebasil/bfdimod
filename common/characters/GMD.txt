@@ -1,0 +1,10 @@
+characters = {
+    GMD_coiny = {
+		name = GMD_coiny
+		portraits = { civilian = { large = GFX_GMD_coiny } }
+		country_leader = {
+			ideology = despotism
+			desc = GMD_coiny_desc
+		}
+	}
+}

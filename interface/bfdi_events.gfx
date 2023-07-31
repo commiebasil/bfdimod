@@ -1,0 +1,40 @@
+SpriteTypes = {
+	spriteType = {
+		name = GFX_GOI_event1
+		texturefile = gfx/event_pictures/GOI_event1.dds
+	}
+	spriteType = {
+		name = GFX_GOI_event2
+		texturefile = gfx/event_pictures/GOI_event2.dds
+	}
+	spriteType = {
+		name = GFX_GOI_event3
+		texturefile = gfx/event_pictures/GOI_event3.dds
+	}
+	spriteType = {
+		name = GFX_GOI_event4
+		texturefile = gfx/event_pictures/GOI_event4.dds
+	}
+	spriteType = {
+		name = GFX_GOI_event5
+		texturefile = gfx/event_pictures/GOI_event5.dds
+	}
+	spriteType = {
+		name = GFX_GOI_event6
+		texturefile = gfx/event_pictures/GOI_event6.dds
+	}
+	spriteType = {
+		name = GFX_GOI_event7
+		texturefile = gfx/event_pictures/GOI_event7.dds
+	}
+	
+	spriteType = {
+		name = GFX_bfdinews1
+		texturefile = gfx/event_pictures/bfdinews1.dds
+	}
+	
+	spriteType = {
+		name = GFX_bfdinews2
+		texturefile = gfx/event_pictures/bfdinews2.dds
+	}
+}

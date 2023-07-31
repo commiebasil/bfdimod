@@ -1,0 +1,13 @@
+state={
+	id=145
+	name="STATE_145"
+	provinces={
+		4038 4440 4903 5730 6144 6285 9529 9591 
+	}
+	history = {
+		owner = EMP
+		add_core_of = EMP
+	}
+	manpower = 10000
+	state_category = rural
+}

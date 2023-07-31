@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		idea_GOI_anarchy = {
+			picture = GOI_anarchy
+			modifier = {
+				consumer_goods_factor = 1
+				conscription = -1
+				research_speed_factor = -1
+			}
+			on_add = {
+				country_lock_all_division_template = yes
+			}
+			on_remove = {
+				country_lock_all_division_template = no
+			}
+		}
+	
+		idea_GOI_bfdi = {
+			picture = GOI_bfdi
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.05
+				monthly_population = 0.5
+			}
+		}
+	
+		idea_GOI_great_goiky_railroad = {
+			picture = GOI_great_goiky_railroad
+			modifier = {
+				supply_consumption_factor = -0.05
+				out_of_supply_factor = -0.1
+			}
+		}
+	}
+}

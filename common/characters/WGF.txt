@@ -1,0 +1,10 @@
+characters = {
+    WGF_firey = {
+		name = WGF_firey
+		portraits = { civilian = { large = GFX_WGF_firey } }
+		country_leader = {
+			ideology = stalinism
+			desc = WGF_firey_desc
+		}
+	}
+}

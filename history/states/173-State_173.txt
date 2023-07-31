@@ -1,0 +1,16 @@
+
+state={
+	id=173
+	name="STATE_173"
+	provinces={
+		696 1101 2482 2505 3047 3923 4280 4937 5013 5060 5261 5786 5824 5909 5989 5998 6356 6418 10146 10148 10156 10157 10158 10163 10164 10165 10170 10177 10180 10185 10195 10209 10212 10238 10246 
+	}
+	history={
+		owner = GOI
+		add_core_of = GOI
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

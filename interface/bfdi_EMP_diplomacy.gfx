@@ -1,0 +1,10 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_EMP_diplo_animation"
+		textureFile = "gfx/interface/EMP_diplo_animation.dds"
+		noOfFrames = 4
+		animation_rate_fps = 2
+		looping = yes
+		play_on_show = yes
+	}
+}

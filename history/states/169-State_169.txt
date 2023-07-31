@@ -1,0 +1,16 @@
+
+state={
+	id=169
+	name="STATE_169"
+	provinces={
+		607 676 711 987 1616 1619 1968 2147 2428 2542 2738 2760 3417 3703 4233 4314 5056 5413 5937 6084 6308 11444 11449 11457 11458 11463 11468 11470 
+	}
+	history={
+		owner = GOI
+		add_core_of = GOI
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		2041 2936 3263 3371 3473 3627 3753 4173 4556 6405 9588 9659 9660 9661 9667 9690 9691 9697 9701 9702 9705 9732 9733 9739 9781 
+	}
+	history = {
+		owner = EMP
+		add_core_of = EMP
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

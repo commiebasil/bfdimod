@@ -1,0 +1,28 @@
+
+
+capital = 3
+
+set_research_slots = 1
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1" 
+	election_frequency = 48 
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	neutrality = 100
+	communism = 0
+}
+
+country_lock_all_division_template = yes
+
+add_ideas = idea_EMP_no_objects_land
+
+recruit_character = EMP_unknown
+
+
+

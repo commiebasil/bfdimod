@@ -1,0 +1,21 @@
+
+state={
+	id=202
+	name="STATE_202"
+	provinces={
+		375 926 1014 1047 1347 1379 1534 1557 1591 1907 2099 2133 2553 2834 3689 3787 3962 4344 4385 4578 4757 4907 4969 5345 5545 5744 6031 6108 6300 11032 11033 11036 11045 11046 11049 11051 11055 11059 11060 11065 11070 11075 11076 11087 11088 11096 11100 11106 11121 11163 
+	}
+	history = {
+		owner = GOI
+		add_core_of = GOI
+		victory_points = { 6031 25 }
+		buildings = {
+            infrastructure = 4
+			industrial_complex = 1
+        }
+	}
+	manpower=220001
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

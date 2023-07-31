@@ -1,0 +1,13 @@
+state={
+	id=6
+	name="STATE_6"
+	provinces={
+		151 1064 1365 1745 2747 3568 4397 4477 4979 5682 6038 6213 7307 7393 7411 7450 7470 7484 7499 7542 
+	}
+	history = {
+		owner = EMP
+		add_core_of = EMP
+	}
+	manpower = 10000
+	state_category = rural
+}

@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		idea_GPR_old_alliance = {
+			picture = GPR_old_alliance
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.25
+				drift_defence_factor = -0.1
+			}
+		}
+	}
+}

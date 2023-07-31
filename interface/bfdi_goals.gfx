@@ -1,0 +1,41 @@
+SpriteTypes = {
+	SpriteType = {
+		name = "GFX_focus_GOI_continue_contest"
+		texturefile = "gfx/interface/goals/GFX_focus_GOI_continue_contest.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_GOI_final_four"
+		texturefile = "gfx/interface/goals/GFX_focus_GOI_final_four.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GOI_viewers_will_decide"
+		texturefile = "gfx/interface/goals/GFX_focus_GOI_viewers_will_decide.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GOI_burning_results"
+		texturefile = "gfx/interface/goals/GFX_focus_GOI_burning_results.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GOI_oh_my_tree"
+		texturefile = "gfx/interface/goals/GFX_focus_GOI_oh_my_tree.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GOI_congratulate_the_winner"
+		texturefile = "gfx/interface/goals/GFX_focus_GOI_congratulate_the_winner.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GOI_roll_up_the_show"
+		texturefile = "gfx/interface/goals/GFX_focus_GOI_roll_up_the_show.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GOI_back_to_normal_life"
+		texturefile = "gfx/interface/goals/GFX_focus_GOI_back_to_normal_life.dds"
+	}
+}

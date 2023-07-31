@@ -1,0 +1,16 @@
+
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		683 896 1756 2208 2624 2939 3050 3370 4305 5460 7656 7672 7694 7697 7738 7858 7859 7896 7908 7975 8036 8089 
+	}
+	history = {
+		owner = EMP
+		add_core_of = EMP
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

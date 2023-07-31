@@ -1,0 +1,16 @@
+
+state={
+	id=180
+	name="STATE_180"
+	provinces={
+		390 752 1633 1854 2240 2673 2815 2954 2956 3590 5026 5273 5486 5816 5987 10153 10176 10206 10256 10277 10284 10313 10349 10361 10396 10411 10431 10460 10480 10512 10554 10565 10613 
+	}
+	history={
+		owner = GOI
+		add_core_of = GOI
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

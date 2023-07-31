@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		idea_EMP_no_objects_land = {
+			picture = EMP_no_objects_land
+			modifier = {
+				consumer_goods_factor = 1
+				conscription = -1
+				research_speed_factor = -1
+				political_power_factor = -1
+				stability_factor = -1
+				production_speed_buildings_factor = -1
+				command_power_gain_mult = 0
+				guarantee_cost = 999
+				join_faction_tension = 999
+				justify_war_goal_time = 999
+				generate_wargoal_tension_against = 999
+			}
+			rule = {
+				can_be_called_to_war = no
+				can_create_factions = no
+				can_declare_war_on_same_ideology = no
+				can_declare_war_without_wargoal_when_in_war = no
+				can_join_factions = no
+				can_not_declare_war = yes
+				can_send_volunteers = no
+			}
+			on_add = {
+				country_lock_all_division_template = yes
+			}
+			on_remove = {
+				country_lock_all_division_template = no
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=156
+	name="STATE_156"
+	provinces={
+		1819 1923 1997 2169 2374 2518 2564 2586 3148 3442 3700 4734 4992 6297 6321 9734 9773 9804 9821 9838 9855 9871 9885 9907 9918 9950 9952 
+	}
+	history = {
+		owner = EMP
+		add_core_of = EMP
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

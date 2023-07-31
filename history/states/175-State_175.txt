@@ -1,0 +1,20 @@
+
+state={
+	id=175
+	name="STATE_175"
+	provinces={
+		101 118 154 292 300 320 402 491 748 807 887 973 1029 1474 1794 1796 2162 2458 2607 2745 3019 3110 3232 3669 4407 4643 4818 5845 11269 11287 11299 11301 11317 11333 11347 11349 11353 11363 11364 11392
+	}
+	history={
+		owner = GOI
+		add_core_of = GOI
+		victory_points = { 3110 20 }
+		buildings = {
+            infrastructure = 4
+        }
+	}
+	manpower=386522
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

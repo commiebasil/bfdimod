@@ -1,0 +1,14 @@
+focus_tree = {
+	id = EMP_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = EMP
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+}

@@ -1,0 +1,10 @@
+characters = {
+	GPR_alliance = {
+		name = GPR_alliance
+		portraits = { civilian = { large = GFX_GPR_alliance } }
+		country_leader = {
+			ideology = liberalism
+			desc = GPR_alliance_desc
+		}
+	}
+}

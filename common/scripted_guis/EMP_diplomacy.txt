@@ -1,0 +1,9 @@
+scripted_gui = {
+	EMP_diplomacy = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view
+		window_name = "EMP_diplomacy_container"
+		
+		visible = { original_tag = EMP }
+	}
+}

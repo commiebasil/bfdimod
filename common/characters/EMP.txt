@@ -1,0 +1,9 @@
+characters = {
+	EMP_unknown = {
+		name = EMP_unknown
+		portraits = { civilian = { large = GFX_EMP_unknown } }
+		country_leader = {
+			ideology = centrism
+		}
+	}
+}

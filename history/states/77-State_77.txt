@@ -1,0 +1,16 @@
+
+state={
+	id=77
+	name="STATE_77"
+	provinces={
+		1168 2770 3189 3204 3461 4138 4473 4746 4813 7488 7520 7576 7598 7629 7682 7725 7796 7815 7841 7867 7869 7895 
+	}
+	history = {
+		owner = EMP
+		add_core_of = EMP
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

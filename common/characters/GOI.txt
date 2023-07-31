@@ -1,0 +1,10 @@
+characters = {
+    GOI_power_vacuum = {
+		name = GOI_power_vacuum
+		portraits = { civilian = { large = GFX_GOI_power_vacuum } }
+		country_leader = {
+			ideology = centrism
+			desc = GOI_power_vacuum_desc
+		}
+	}
+}

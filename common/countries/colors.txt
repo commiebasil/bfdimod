@@ -1,0 +1,28 @@
+GOI = {
+	color = rgb { 98 168 50 }
+	color_ui = rgb { 98 168 50 }
+}
+EMP = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+WGF = {
+	color = rgb { 176 16 16 }
+	color_ui = rgb { 176 16 16 }
+}
+DPZ = {
+	color = rgb { 140 144 184 }
+	color_ui = rgb { 140 144 184 }
+}
+SEC = {
+	color = rgb { 120 0 0 }
+	color_ui = rgb { 120 0 0 }
+}
+GMD = {
+	color = rgb { 227 132 7 }
+	color_ui = rgb { 227 132 7 }
+}
+GPR = {
+	color = rgb { 0 100 255 }
+	color_ui = rgb { 0 100 255 }
+}

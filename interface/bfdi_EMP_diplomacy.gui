@@ -1,0 +1,24 @@
+guiTypes = {
+	containerWindowType = {
+		name = "EMP_diplomacy_container"
+		position = { x = 0 y = 0 }
+		size = { width = 540 height = -11 }
+		
+		containerWindowType = {
+			name = "EMP_diplomacy_animation_clip"
+			position = { x = 275 y = 360 }
+			size = { width = 260 height = -41 } 
+			
+			background = {
+	 			name = "EMP_diplomacy_animation_clip_bg"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+	 		}
+			iconType = {
+				name = "EMP_diplomacy_animation"
+				position = { x = -3 y = 0 }
+				quadTextureSprite = "GFX_EMP_diplo_animation"
+				pdx_tooltip = EMP_diplo_tt
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+﻿l_english:
+ #GOIKY
+ GOI_event.1.t: "Battle For Dream Island"
+ GOI_event.1.desc: "BFDI, or Battle For Dream Island, is an internet show in which various objects compete for the ultimate prize - an Island with a hotel, two restaurants and other amenities. Recently, it is gaining more and more popularity. But this show is far from the only thing that happens in the lands of Goiky. This continent is densely populated with various other objects and as a whole is a strong economic and social entity."
+ GOI_event.1.a: "In the suspense."
+ 
+ GOI_event.2.t: "Final-Four"
+ GOI_event.2.desc: "With the elimination of Spongy, there are only four possible winners left: Firey, Leafy, Flower and Bubble. The passions around the show continue to run high and it even causes serious political unrest on the continent, which is very rare in these places."
+ GOI_event.2.a: "Many won't like the winner."
+ 
+ GOI_event.3.t: "Final Results"
+ GOI_event.3.desc: "The votes are counted, possible stuffing is prevented, and in the end ... Firey came out the winner! Behind him in second place was Leafy, narrowly behind in the number of votes. The results have already been published, and the reaction of the public is not yet clear."
+ GOI_event.3.a: "Well it looks like this is the end."
+ 
+ GOI_event.4.t: "Celebrations"
+ GOI_event.4.desc: "On the occasion of Firey's victory, celebrations were held on the Dream Island. At this time, the continental Goiky was torn apart by political conflicts. Simple dissatisfaction with the winner began to develop into real political manifestations and rallies. But the riots will go away on their own, right?"
+ GOI_event.4.a: "Giant is awakening."
+ 
+ GOI_event.5.t: "Island... Dissapeared?"
+ GOI_event.5.desc: "No, it can't be. A couple of hours ago, Dream Island just... Disappeared? From him the trace has caught cold. The place, which used to be the mecca of Goiky, now reminds of itself only with enclosing walls against which water beats."
+ GOI_event.5.a: "..."
+ 
+ GOI_event.6.t: "Protests turn into uprisings!"
+ GOI_event.6.desc: "So, the conditionally unified Goiky very quickly plunges into the abyss of anarchy. On the outskirts of the continent, local governments are already being proclaimed. Looks like this is the end..."
+ GOI_event.6.a: "The future is hazy."
+ 
+ GOI_event.7.t: "Report"
+ GOI_event.7.desc: "'...The most hopeless objects were the last to leave the city; Without legs and arms, with cracks, bent, and others mutilated by this dark time. All recovery centers were destroyed or were under the control of bandits, and it was impossible to provide any clear help to these unfortunate people. The evacuation was carried out in a hurry and very unorganized, especially on the final waves, for example: in the eastern outskirts, 17 trucks were lost on the road on the 20th alone, 10 of them were stolen by local bandits, and 7 were burned. Slightly better situation in the north...'"
+ GOI_event.7.a: "Interesting excerpt."
+ 
+ #NEWS
+ bfdinews.1.t: "Firey wons Dream Island!"
+ bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result of the vote. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."
+ bfdinews.1.a: "Hate is popularity too."
+ 
+ bfdinews.2.t: "DREAM ISLAND HAS BEEN STOLEN!"
+ bfdinews.2.desc: "                          GOIKY NEWS: SPECIAL RELEASE\nAccording to our sources from the western regions, the Dream Island, the battle for which has been continuously going on for 2 years in a row, has disappeared without a trace. According to the original version, the island was bought by Leafy, who probably hid in the evil forest. Who allowed this illegal operation to be carried out and where the money was taken from is still unknown. At this time, riots swept almost the entire continent and local cities plunged into chaos. Goiky News will follow developments."
+ bfdinews.2.a: "Craziness!"

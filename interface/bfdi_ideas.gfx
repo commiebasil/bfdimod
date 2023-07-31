@@ -1,0 +1,44 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_idea_GOI_anarchy
+		texturefile = gfx/interface/ideas/idea_GOI_anarchy.dds
+	}
+	spriteType = {
+		name = GFX_idea_GOI_bfdi
+		texturefile = gfx/interface/ideas/idea_GOI_bfdi.dds
+	}
+	spriteType = {
+		name = GFX_idea_GOI_great_goiky_railroad
+		texturefile = gfx/interface/ideas/idea_GOI_great_goiky_railroad.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_EMP_no_objects_land
+		texturefile = gfx/interface/ideas/idea_EMP_no_objects_land.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_WGF_revolutionary_fire
+		texturefile = gfx/interface/ideas/idea_WGF_revolutionary_fire.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_DPZ_defenders_on_paper
+		texturefile = gfx/interface/ideas/idea_DPZ_defenders_on_paper.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_SEC_land_of_madness
+		texturefile = gfx/interface/ideas/idea_SEC_land_of_madness.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_GMD_coinys_domain
+		texturefile = gfx/interface/ideas/idea_GMD_coinys_domain.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_GPR_old_alliance
+		texturefile = gfx/interface/ideas/idea_GPR_old_alliance.dds
+	}
+}

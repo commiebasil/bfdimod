@@ -1,0 +1,7 @@
+GOI = "countries/Goiky.txt"
+EMP = "countries/Emptiness.txt"
+WGF = "countries/WGRF.txt"
+DPZ = "countries/DIPZ.txt"
+SEC = "countries/Sectants.txt"
+GMD = "countries/GCMD.txt"
+GPR = "countries/Greeny Plains Republic.txt"

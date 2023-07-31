@@ -1,0 +1,17 @@
+
+state={
+	id=194
+	name="STATE_194"
+	impassable = yes
+	provinces={
+		26 424 832 1091 1096 1298 1362 2598 2828 2940 3103 3128 3601 3879 3902 4041 4179 4334 4896 5100 5480 5625 5745 5826 5839 6050 6281 10807 10833 10871 10884 10885 10892 10929 10939 10941 10946 10947 10951 10956 10990 10996 10998 11000 11005 
+	}
+	history={
+		owner = GOI
+		add_core_of = GOI
+	}
+	manpower=618
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

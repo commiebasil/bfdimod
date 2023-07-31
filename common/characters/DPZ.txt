@@ -1,0 +1,10 @@
+characters = {
+	DPZ_tv = {
+		name = DPZ_tv
+		portraits = { civilian = { large = GFX_DPZ_tv } }
+		country_leader = {
+			ideology = centrism
+			desc = DPZ_tv_desc
+		}
+	}
+}

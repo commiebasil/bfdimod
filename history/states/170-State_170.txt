@@ -1,0 +1,20 @@
+
+state={
+	id=170
+	name="STATE_170"
+	provinces={
+		678 830 980 1150 2205 2216 2841 3642 4123 4335 4665 4839 5222 5583 5614 6107 6396 10526 10530 10533 10534 10555 10561 10567 10573 10585 10591 10598 10618 10623 10644 10649 
+	}
+	history={
+		owner = GOI
+		add_core_of = GOI
+		victory_points = { 2841 10 }
+		buildings = {
+            infrastructure = 2
+        }
+	}
+	manpower=36998
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

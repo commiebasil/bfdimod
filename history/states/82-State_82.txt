@@ -1,0 +1,13 @@
+state={
+	id=82
+	name="STATE_82"
+	provinces={
+		516 1366 2229 2370 2419 2849 3014 3571 3599 4155 4443 4673 4835 5190 5598 6328 7619 7628 7640 7737 7756 7771 7772 7784 7814 7821 7974 8024 8048 8067 
+	}
+	history = {
+		owner = EMP
+		add_core_of = EMP
+	}
+	manpower = 10000
+	state_category = rural
+}

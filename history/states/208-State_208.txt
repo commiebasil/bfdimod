@@ -1,0 +1,27 @@
+
+state={
+	id=208
+	name="STATE_208"
+
+	history={
+		owner = GOI
+		add_core_of = GOI
+		victory_points = {
+			202 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		28 63 134 202 285 454 569 645 658 1159 1247 1329 1405 1458 1490 1687 1874 1887 2027 2148 2151 2243 2501 2746 2778 2978 3086 3158 3172 3214 3227 3352 3426 3702 4056 4230 5339 5510 11314 11319 11331 11335 11346 11348 11350 11355 11362 11369 11375 11384 11395 11401 11408 
+	}
+	manpower=158222
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

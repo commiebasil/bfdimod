@@ -1,0 +1,35 @@
+add_namespace = bfdinews
+
+news_event = {
+	id = bfdinews.1
+	title = bfdinews.1.t
+	desc = bfdinews.1.desc
+	picture = GFX_bfdinews1
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bfdinews.1.a
+	}
+}
+
+news_event = {
+	id = bfdinews.2
+	title = bfdinews.2.t
+	desc = bfdinews.2.desc
+	picture = GFX_bfdinews2
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bfdinews.2.a
+	}
+}

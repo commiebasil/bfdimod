@@ -1,0 +1,172 @@
+focus_tree = {
+	id = goiky_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = GOI
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+	
+	continuous_focus_position = { x = 1200 y = 100 }
+	
+	initial_show_position = { 
+		focus = GOI_continue_contest
+	}
+	
+	focus = {
+		id = GOI_focus_continue_contest
+		x = 5
+		y = 0
+		icon = GFX_focus_GOI_continue_contest
+		cost = 2
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = GOI_event.1
+		}
+	}
+	
+	focus = {
+		id = GOI_focus_final_four
+		relative_position_id = GOI_focus_continue_contest
+		y = 1
+		icon = GFX_focus_GOI_final_four
+		cost = 5
+		prerequisite = { focus = GOI_focus_continue_contest }
+		
+		completion_reward = {
+			custom_effect_tooltip = l_GOI_final_four_ce
+			add_stability = 0.05
+			country_event = GOI_event.2
+		}
+	}
+	
+	focus = {
+		id = GOI_focus_viewers_will_decide
+		relative_position_id = GOI_focus_final_four
+		y = 2
+		icon = GFX_focus_GOI_viewers_will_decide
+		cost = 5
+		prerequisite = { focus = GOI_focus_final_four }
+		
+		completion_reward = {
+			custom_effect_tooltip = l_GOI_viewers_will_decide_ce
+			add_stability = 0.05
+			add_political_power = 15
+			country_event = GOI_event.3
+			hidden_effect = {
+				news_event = {
+					id = bfdinews.1
+					days = 10
+					random_hours = 12
+				}
+				country_event = {
+					id = GOI_event.5
+					days = 30
+					random_hours = 12
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GOI_focus_burning_results
+		relative_position_id = GOI_focus_viewers_will_decide
+		y = 1
+		x = -2
+		icon = GFX_focus_GOI_burning_results
+		cost = 1
+		prerequisite = { focus = GOI_focus_viewers_will_decide }
+		mutually_exclusive = { focus = GOI_focus_oh_my_tree }
+		
+		completion_reward = {
+			custom_effect_tooltip = l_GOI_burning_results_ce
+			add_stability = -0.05
+		}
+	}
+	
+	focus = {
+		id = GOI_focus_oh_my_tree
+		relative_position_id = GOI_focus_viewers_will_decide
+		y = 1
+		x = 2
+		icon = GFX_focus_GOI_oh_my_tree
+		cost = 1
+		prerequisite = { focus = GOI_focus_viewers_will_decide }
+		mutually_exclusive = { focus = GOI_focus_burning_results }
+		
+		completion_reward = {
+			custom_effect_tooltip = l_GOI_oh_my_tree_ce
+			add_stability = -0.05
+		}
+	}
+	
+	focus = {
+		id = GOI_focus_congratulate_the_winner
+		y = 6
+		x = 5
+		icon = GFX_focus_GOI_congratulate_the_winner
+		cost = 2
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GOI_congratulate_the_winner_ct
+				OR = {
+					has_completed_focus = GOI_focus_burning_results
+					has_completed_focus = GOI_focus_oh_my_tree
+				}
+			}
+		}
+		
+		completion_reward = {
+			country_event = GOI_event.4
+			add_stability = 0.05
+			add_political_power = 15
+		}
+	}
+	
+	focus = {
+		id = GOI_focus_roll_up_the_show
+		relative_position_id = GOI_focus_congratulate_the_winner
+		y = 1
+		icon = GFX_focus_GOI_roll_up_the_show
+		cost = 5
+		prerequisite = { focus = GOI_focus_congratulate_the_winner }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GOI_all_is_good_ct
+				NOT = { has_global_flag = island_dissapeared }
+			}
+		}
+		
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = GOI_focus_back_to_normal_life
+		relative_position_id = GOI_focus_roll_up_the_show
+		y = 2
+		icon = GFX_focus_GOI_back_to_normal_life
+		cost = 5
+		prerequisite = { focus = GOI_focus_roll_up_the_show }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GOI_all_is_good_ct
+				NOT = { has_global_flag = island_dissapeared }
+			}
+		}
+		
+		cancel_if_invalid = yes
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=211
+	name="STATE_211"
+	provinces={
+		479 969 1259 1436 1494 1518 1651 2259 2469 3809 4106 4336 4600 4783 5236 5337 5542 6103 11187 11198 11206 11213 11231 11237 11238 11240 11248 11251 11257 11261 11295 
+	}
+	history = {
+		owner = GOI
+		add_core_of = GOI
+		victory_points = { 11231 5 }
+		buildings = {
+            infrastructure = 2
+        }
+	}
+	manpower=26511
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

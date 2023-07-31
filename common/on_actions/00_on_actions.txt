@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = { EMP = { is_ai = no } }
+				GOI = { change_tag_from = EMP }
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		idea_DPZ_defenders_on_paper = {
+			picture = DPZ_defenders_on_paper
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.25
+				party_popularity_stability_factor = -0.2
+				war_support_factor = -0.1
+			}
+		}
+	}
+}

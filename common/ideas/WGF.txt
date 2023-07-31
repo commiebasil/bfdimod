@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		idea_WGF_revolutionary_fire = {
+			picture = WGF_revolutionary_fire
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.25
+				conscription_factor = 0.02
+			}
+		}
+	}
+}

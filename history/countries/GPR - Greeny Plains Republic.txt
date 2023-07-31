@@ -1,0 +1,37 @@
+
+
+capital = 193
+
+set_research_slots = 1
+
+set_technology = { basic_train = 1 }
+
+if = {
+	limit = { NOT = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+	}
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1" 
+	election_frequency = 48 
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 51
+	neutrality = 46
+	communism = 3
+}
+
+add_ideas = idea_GPR_old_alliance
+
+recruit_character = GPR_alliance
+
+
+
+
+
+

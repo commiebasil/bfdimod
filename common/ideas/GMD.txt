@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		idea_GMD_coinys_domain = {
+			picture = GMD_coinys_domain
+			modifier = {
+				political_power_gain = 0.25
+				max_command_power = 20
+				war_support_factor = 0.05
+			}
+		}
+	}
+}

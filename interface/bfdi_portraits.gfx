@@ -1,0 +1,43 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GOI_power_vacuum"
+		texturefile = "gfx/leaders/GOI/GOI_power_vacuum.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMP_unknown"
+		texturefile = "gfx/leaders/EMP/EMP_unknown.dds"
+	}
+	
+	frameAnimatedSpriteType = {
+			name = "GFX_WGF_firey"
+			texturefile = "gfx/leaders/WGF/WGF_firey.dds"
+			noOfFrames = 9
+			loadType = "INGAME"
+			transparencecheck = no
+			animation_rate_fps = 12
+			looping = yes
+			play_on_show = yes
+			pause_on_loop = 0.0
+	}
+	
+	spriteType = {
+		name = "GFX_DPZ_tv"
+		texturefile = "gfx/leaders/DPZ/DPZ_tv.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SEC_the_first"
+		texturefile = "gfx/leaders/SEC/SEC_the_first.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GMD_coiny"
+		texturefile = "gfx/leaders/GMD/GMD_coiny.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GPR_alliance"
+		texturefile = "gfx/leaders/GPR/GPR_alliance.dds"
+	}
+}

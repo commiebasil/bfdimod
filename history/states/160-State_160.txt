@@ -1,0 +1,16 @@
+
+state={
+	id=160
+	name="STATE_160"
+	provinces={
+		244 1536 1695 2021 2252 2328 2442 2800 2812 3130 3447 3722 4105 4680 5995 6171 9780 9798 9820 9837 9850 9854 9863 9880 9881 9906 9917 9922 9932 9942 9948 9949 9954 9978 9979 9984 9998 10025 10026 10032 10058 
+	}
+	history = {
+		owner = EMP
+		add_core_of = EMP
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
