@@ -46,4 +46,9 @@ spriteTypes = {
 		name = GFX_idea_TBT_silent_state
 		texturefile = gfx/interface/ideas/idea_TBT_silent_state.dds
 	}
+	
+	spriteType = {
+		name = GFX_idea_GPG_questionable_future
+		texturefile = gfx/interface/ideas/idea_GPG_questionable_future.dds
+	}
 }

@@ -184,6 +184,10 @@ country_event = {
 				id = GOI_hidden_event.6
 				days = 5
 			}
+			country_event = {
+				id = GOI_hidden_event.7
+				days = 15
+			}
 		}
     }
 }
@@ -336,6 +340,24 @@ country_event = {
 				remove_state_core = 176
 				remove_state_core = 168
 				remove_state_core = 174
+		}
+	}
+}
+
+country_event = {
+    id = GOI_hidden_event.7
+    
+    is_triggered_only = yes
+	hidden = yes
+    
+    immediate = {
+		GPG = {
+			transfer_state = 206
+			
+			add_state_core = 206
+		}
+		GOI = {
+				remove_state_core = 206
 		}
 	}
 }

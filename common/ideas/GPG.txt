@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		idea_GPG_questionable_future = {
+			picture = GPG_questionable_future
+			modifier = {
+				political_power_gain = 0.25
+				drift_defence_factor = -0.1
+				stability_factor = -0.05
+			}
+		}
+	}
+}

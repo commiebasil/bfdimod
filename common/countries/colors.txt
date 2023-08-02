@@ -30,3 +30,7 @@ TBT = {
 	color = rgb { 64 157 245 }
 	color_ui = rgb { 64 157 245 }
 }
+GPG = {
+	color = rgb { 0 96 230 }
+	color_ui = rgb { 0 96 230 }
+}

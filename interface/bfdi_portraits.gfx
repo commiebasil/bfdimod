@@ -45,4 +45,9 @@ spriteTypes = {
 		name = "GFX_TBT_teardrop"
 		texturefile = "gfx/leaders/TBT/TBT_teardrop.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_GPG_recommended_characters_council"
+		texturefile = "gfx/leaders/GPG/GPG_recommended_characters_council.dds"
+	}
 }

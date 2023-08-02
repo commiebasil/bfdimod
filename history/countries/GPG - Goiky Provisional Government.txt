@@ -1,0 +1,33 @@
+
+
+capital = 206
+
+set_research_slots = 2
+
+set_technology = { basic_train = 1 }
+
+if = {
+	limit = { NOT = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1" 
+	election_frequency = 48 
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 28
+	fascism = 23
+	communism = 24
+	neutrality = 25
+}
+
+add_ideas = idea_GPG_questionable_future
+
+recruit_character = GPG_recommended_characters_council
+
