@@ -41,4 +41,9 @@ spriteTypes = {
 		name = GFX_idea_GPR_old_alliance
 		texturefile = gfx/interface/ideas/idea_GPR_old_alliance.dds
 	}
+	
+	spriteType = {
+		name = GFX_idea_TBT_silent_state
+		texturefile = gfx/interface/ideas/idea_TBT_silent_state.dds
+	}
 }

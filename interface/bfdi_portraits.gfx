@@ -40,4 +40,9 @@ spriteTypes = {
 		name = "GFX_GPR_alliance"
 		texturefile = "gfx/leaders/GPR/GPR_alliance.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_TBT_teardrop"
+		texturefile = "gfx/leaders/TBT/TBT_teardrop.dds"
+	}
 }
