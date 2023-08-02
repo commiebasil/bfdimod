@@ -1,0 +1,10 @@
+characters = {
+	TBT_teardrop = {
+		name = TBT_teardrop
+		portraits = { civilian = { large = GFX_TBT_teardrop } }
+		country_leader = {
+			desc = TBT_teardrop_desc
+			ideology = despotism
+		}
+	}
+}

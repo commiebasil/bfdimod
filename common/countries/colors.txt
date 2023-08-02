@@ -26,3 +26,7 @@ GPR = {
 	color = rgb { 0 100 255 }
 	color_ui = rgb { 0 100 255 }
 }
+TBT = {
+	color = rgb { 64 157 245 }
+	color_ui = rgb { 64 157 245 }
+}

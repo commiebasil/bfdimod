@@ -180,6 +180,10 @@ country_event = {
 				id = GOI_hidden_event.5
 				days = 6
 			}
+			country_event = {
+				id = GOI_hidden_event.6
+				days = 5
+			}
 		}
     }
 }
@@ -304,6 +308,34 @@ country_event = {
 		GOI = {
 				remove_state_core = 193
 				remove_state_core = 203
+		}
+	}
+}
+
+country_event = {
+    id = GOI_hidden_event.6
+    
+    is_triggered_only = yes
+	hidden = yes
+    
+    immediate = {
+		TBT = {
+			transfer_state = 176
+			transfer_state = 168
+			transfer_state = 174
+			
+			add_state_core = 176
+			add_state_core = 168
+			add_state_core = 174
+			
+			176 = { set_demilitarized_zone = no }
+			168 = { set_demilitarized_zone = no }
+			174 = { set_demilitarized_zone = no }
+		}
+		GOI = {
+				remove_state_core = 176
+				remove_state_core = 168
+				remove_state_core = 174
 		}
 	}
 }
