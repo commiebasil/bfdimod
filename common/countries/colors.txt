@@ -23,8 +23,8 @@ GMD = {
 	color_ui = rgb { 227 132 7 }
 }
 GPR = {
-	color = rgb { 0 100 255 }
-	color_ui = rgb { 0 100 255 }
+	color = rgb { 50 168 56 }
+	color_ui = rgb { 50 168 56 }
 }
 TBT = {
 	color = rgb { 64 157 245 }
