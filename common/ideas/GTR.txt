@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		idea_GTR_golfball_s_lab = {
+			picture = GTR_golfball_s_lab
+			modifier = {
+				political_power_gain = 0.25
+				research_speed_factor = 0.07
+				consumer_goods_factor = 0.02
+			}
+		}
+	}
+}

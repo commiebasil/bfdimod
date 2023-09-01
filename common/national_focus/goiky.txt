@@ -83,6 +83,8 @@ focus_tree = {
 		prerequisite = { focus = GOI_focus_viewers_will_decide }
 		mutually_exclusive = { focus = GOI_focus_oh_my_tree }
 		
+		available = { always = no }
+		
 		completion_reward = {
 			custom_effect_tooltip = l_GOI_burning_results_ce
 			add_stability = -0.05
@@ -98,6 +100,8 @@ focus_tree = {
 		cost = 1
 		prerequisite = { focus = GOI_focus_viewers_will_decide }
 		mutually_exclusive = { focus = GOI_focus_burning_results }
+		
+		available = { always = no }
 		
 		completion_reward = {
 			custom_effect_tooltip = l_GOI_oh_my_tree_ce

@@ -1,0 +1,10 @@
+characters = {
+	GTR_golfball = {
+		name = GTR_golfball
+		portraits = { civilian = { large = GFX_GTR_golfball } }
+		country_leader = {
+		ideology = despotism
+		desc = GTR_golfball_desc
+		}
+	}
+}

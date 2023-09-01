@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		idea_SRR_great_goiky_railroad = {
+			picture = GOI_great_goiky_railroad
+			modifier = {
+				political_power_gain = 0.25
+				supply_consumption_factor = -0.05
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+	}
+}

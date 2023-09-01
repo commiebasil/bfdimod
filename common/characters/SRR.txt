@@ -1,0 +1,10 @@
+characters = {
+	SRR_wrench = {
+		name = SRR_wrench
+		portraits = { civilian = { large = GFX_SRR_wrench } }
+		country_leader = {
+			desc = SRR_wrench_desc
+			ideology = centrism
+		}
+	}
+}

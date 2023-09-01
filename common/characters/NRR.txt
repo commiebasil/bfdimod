@@ -1,0 +1,10 @@
+characters = {
+	NRR_administration = {
+		name = NRR_administration
+		portraits = { civilian = { large = GFX_NRR_administration } }
+		country_leader = {
+			desc = NRR_administration_desc
+			ideology = centrism
+		}
+	}
+}

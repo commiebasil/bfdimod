@@ -1,13 +1,19 @@
+
 state={
 	id=29
 	name="STATE_29"
-	provinces={
-		467 1086 1225 1367 1820 2633 2886 3195 3210 3416 3510 3586 4597 4608 6217 6304 6517 6525 6537 6546 6563 6585 6607 6609 6624 6691 6711 
-	}
-	history = {
+
+	history={
 		owner = EMP
 		add_core_of = EMP
+
 	}
-	manpower = 10000
-	state_category = rural
+
+	provinces={
+		257 467 1086 1225 1367 1424 1741 1820 2201 2616 2633 2886 3195 3210 3415 3416 3510 3586 4417 4597 4608 4747 6121 6217 6304 6517 6520 6525 6537 6546 6563 6576 6585 6607 6609 6624 6691 6711 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

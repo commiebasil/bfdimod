@@ -50,4 +50,34 @@ spriteTypes = {
 		name = "GFX_GPG_recommended_characters_council"
 		texturefile = "gfx/leaders/GPG/GPG_recommended_characters_council.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_GTR_golfball"
+		texturefile = "gfx/leaders/GTR/GTR_golfball.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGR_snowball"
+		texturefile = "gfx/leaders/GGR/GGR_snowball.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_FFT_rocky"
+		texturefile = "gfx/leaders/FFT/FFT_rocky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_BUN_eraser"
+		texturefile = "gfx/leaders/BUN/BUN_eraser.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SRR_wrench"
+		texturefile = "gfx/leaders/SRR/SRR_wrench.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_NRR_administration"
+		texturefile = "gfx/leaders/NRR/NRR_administration.dds"
+	}
 }

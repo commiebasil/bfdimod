@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		idea_BUN_criminal_state = {
+			picture = BUN_criminal_state
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = -0.05
+				consumer_goods_factor = 0.1
+			}
+		}
+	}
+}

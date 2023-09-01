@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		idea_NRR_between_two_fires = {
+			picture = NRR_between_two_fires
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				recruitable_population_factor = 0.1
+			}
+		}
+	}
+}

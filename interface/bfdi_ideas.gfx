@@ -51,4 +51,29 @@ spriteTypes = {
 		name = GFX_idea_GPG_questionable_future
 		texturefile = gfx/interface/ideas/idea_GPG_questionable_future.dds
 	}
+	
+	spriteType = {
+		name = GFX_idea_GTR_golfball_s_lab
+		texturefile = gfx/interface/ideas/idea_GTR_golfball_s_lab.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_GGR_fascist_dictatorship
+		texturefile = gfx/interface/ideas/idea_GGR_fascist_dictatorship.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_FFT_mother_anarchy
+		texturefile = gfx/interface/ideas/idea_FFT_mother_anarchy.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_BUN_criminal_state
+		texturefile = gfx/interface/ideas/idea_BUN_criminal_state.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_NRR_between_two_fires
+		texturefile = gfx/interface/ideas/idea_NRR_between_two_fires.dds
+	}
 }

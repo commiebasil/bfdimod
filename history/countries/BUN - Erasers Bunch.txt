@@ -1,0 +1,33 @@
+
+
+capital = 186
+
+set_research_slots = 2
+
+set_technology = { basic_train = 1 }
+
+if = {
+	limit = { NOT = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1" 
+	election_frequency = 48 
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 28
+	fascism = 30
+	neutrality = 41
+	communism = 1
+}
+
+add_ideas = idea_BUN_criminal_state
+
+recruit_character = BUN_eraser
+

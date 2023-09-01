@@ -34,3 +34,27 @@ GPG = {
 	color = rgb { 0 96 230 }
 	color_ui = rgb { 0 96 230 }
 }
+GTR = {
+	color = rgb { 217 217 217 }
+	color_ui = rgb { 217 217 217 }
+}
+GGR = {
+	color = rgb { 48 48 48 }
+	color_ui = rgb { 48 48 48 }
+}
+FFT = {
+	color = rgb { 173 125 125 }
+	color_ui = rgb { 173 125 125 }
+}
+BUN = {
+	color = rgb { 255 145 145 }
+	color_ui = rgb { 255 145 145 }
+}
+SRR = {
+	color = rgb { 120 207 116 }
+	color_ui = rgb { 120 207 116 }
+}
+NRR = {
+	color = rgb { 92 161 88 }
+	color_ui = rgb { 92 161 88 }
+}

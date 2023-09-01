@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+		idea_GGR_fascist_dictatorship = {
+			picture = GGR_fascist_dictatorship
+			modifier = {
+				political_power_gain = 0.25
+				war_support_factor = 0.05
+			}
+		}
+	}
+}

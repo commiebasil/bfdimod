@@ -1,13 +1,19 @@
+
 state={
 	id=27
 	name="STATE_27"
+
+	history={
+		owner = GOI
+		add_core_of = GOI
+
+	}
+
 	provinces={
-		257 1424 1741 2201 2616 3415 4417 4747 6121 6520 6576 
+		560 1073 1509 1728 2490 2578 2686 3124 3137 3174 3845 3938 4199 4900 4929 5012 5266 5508 6054 6298 11004 11039 11069 11084 11098 11105 11108 11110 11119 11130 11131 11146 11155 11162 
 	}
-	history = {
-		owner = EMP
-		add_core_of = EMP
-	}
-	manpower = 10000
-	state_category = rural
+	manpower=44516
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

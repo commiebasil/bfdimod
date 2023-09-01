@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		idea_FFT_mother_anarchy = {
+			picture = FFT_mother_anarchy
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.05
+				surrender_limit = 0.1
+				mobilization_speed = 0.05
+			}
+		}
+	}
+}

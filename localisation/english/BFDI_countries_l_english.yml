@@ -31,3 +31,27 @@
  GPG: "Goiky Provisional Government"
  GPG_DEF: "Goiky"
  GPG_ADJ: "Goikish"
+ 
+ GTR: "Goiky Technocratic Republic"
+ GTR_DEF: "GTR"
+ GTR_ADJ: "GTR"
+
+ GGR: "Großgoikysreich"
+ GGR_DEF: "Großgoikysreich"
+ GGR_ADJ: "Großgoikian"
+ 
+ FFT: "Free Territory"
+ FFT_DEF: "Free Territory"
+ FFT_ADJ: "Anarchists"
+ 
+ BUN: "Eraser's Bunch"
+ BUN_DEF: "Bunch"
+ BUN_ADJ: "Bunch"
+ 
+ SRR: "GGRR Administration - South"
+ SRR_DEF: "GGRR - South"
+ SRR_ADJ: "GGRR"
+ 
+ NRR: "GGRR Administration - North"
+ NRR_DEF: "GGRR - North"
+ NRR_ADJ: "GGRR"
