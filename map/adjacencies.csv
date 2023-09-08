@@ -4,10 +4,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1256;11136;impassable;-1;-1;-1;-1;-1;;Goiky-hills
 1256;438;impassable;-1;-1;-1;-1;-1;;Goiky-hills
 11116;438;impassable;-1;-1;-1;-1;-1;;Goiky-hills
-11259;5580;impassable;-1;-1;-1;-1;-1;;Goiky-hills
-927;11094;impassable;-1;-1;-1;-1;-1;;Goiky-hills
-927;6332;impassable;-1;-1;-1;-1;-1;;Goiky-hills
-6434;6332;impassable;-1;-1;-1;-1;-1;;Goiky-hills
+44;3162;impassable;-1;-1;-1;-1;-1;;Goiky-hills
+11259;913;impassable;-1;-1;-1;-1;-1;;Goiky-hills
+6332;3162;impassable;-1;-1;-1;-1;-1;;Goiky-hills
 11140;5766;impassable;-1;-1;-1;-1;-1;;Snow-Plateau
 503;5080;impassable;-1;-1;-1;-1;-1;;Snow-Plateau
 1909;5080;impassable;-1;-1;-1;-1;-1;;Snow-Plateau

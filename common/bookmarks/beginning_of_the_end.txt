@@ -9,6 +9,14 @@ bookmarks = {
 		
 		"GOI"={
 			history = "GOI_BEGGINING_OF_THE_END_DESC"
+			ideas = {
+				idea_GOI_anarchy
+				idea_GOI_bfdi
+				idea_GOI_great_goiky_railroad
+			}
+			focuses = {
+				GOI_focus_final_four
+			}
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
