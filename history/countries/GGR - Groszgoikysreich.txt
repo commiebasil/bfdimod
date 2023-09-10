@@ -1,6 +1,6 @@
 
 
-capital = 172
+capital = 15
 
 set_research_slots = 2
 
@@ -28,5 +28,6 @@ set_popularities = {
 add_ideas = idea_GGR_fascist_dictatorship
 
 recruit_character = GGR_snowball
+
 
 

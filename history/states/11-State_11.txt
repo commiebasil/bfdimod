@@ -6,14 +6,19 @@ state={
 	history={
 		owner = GOI
 		add_core_of = GOI
-
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10228 10
+		}
 	}
 
 	provinces={
 		180 837 1394 2460 2723 2922 3067 3290 3583 5518 5718 5813 6141 6150 10162 10169 10173 10174 10188 10189 10200 10201 10202 10213 10214 10218 10224 10228 10237 
 	}
-	manpower=10000
+	manpower=49101
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

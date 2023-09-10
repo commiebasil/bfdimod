@@ -28,4 +28,3 @@ set_popularities = {
 add_ideas = idea_SEC_land_of_madness
 
 recruit_character = SEC_the_first
-

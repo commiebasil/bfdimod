@@ -8,9 +8,19 @@ state={
 	history={
 		owner = GOI
 		add_core_of = GOI
+		buildings = {
+			infrastructure = 4
+			5824 = { naval_base = 4 }
+		}
+		victory_points = {
+			5824 20
+		}
+		victory_points = {
+			5989 10
+		}
 	}
-	manpower=10000
+	manpower=88288
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 	local_supplies=0.000
 }

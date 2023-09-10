@@ -34,4 +34,3 @@ recruit_character = GPR_alliance
 
 
 
-

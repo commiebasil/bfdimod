@@ -31,3 +31,6 @@ add_ideas = idea_DPZ_defenders_on_paper
 
 recruit_character = DPZ_tv
 
+set_country_flag = game_not_started
+
+

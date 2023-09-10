@@ -1,6 +1,6 @@
 
 
-capital = 206
+capital = 169
 
 set_research_slots = 2
 
@@ -29,4 +29,7 @@ set_popularities = {
 add_ideas = idea_FFT_mother_anarchy
 
 recruit_character = FFT_rocky
+
+set_country_flag = game_not_started
+
 

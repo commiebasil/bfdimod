@@ -123,6 +123,10 @@ focus_tree = {
 					has_completed_focus = GOI_focus_oh_my_tree
 				}
 			}
+			custom_trigger_tooltip = {
+				tooltip = l_GOI_all_is_good_ct
+				NOT = { has_global_flag = island_dissapeared }
+			}
 		}
 		
 		completion_reward = {
