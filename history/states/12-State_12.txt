@@ -3,6 +3,10 @@ state={
 	id=12
 	name="STATE_12"
 
+	resources = {
+		oil = 10
+	}
+
 	history={
 		owner = GOI
 		add_core_of = GOI

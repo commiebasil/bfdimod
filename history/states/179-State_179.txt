@@ -5,6 +5,10 @@ state={
 
 	impassable = yes
 
+	resources = {
+		oil = 91
+	}
+
 	history={
 		owner = GOI
 		add_core_of = GOI

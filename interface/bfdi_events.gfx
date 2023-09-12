@@ -29,6 +29,11 @@ SpriteTypes = {
 	}
 	
 	spriteType = {
+		name = GFX_GOI_event8
+		texturefile = gfx/event_pictures/GOI_event8.dds
+	}
+	
+	spriteType = {
 		name = GFX_bfdinews1
 		texturefile = gfx/event_pictures/bfdinews1.dds
 	}

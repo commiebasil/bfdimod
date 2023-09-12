@@ -28,6 +28,10 @@
  GOI_event.7.desc: "'...The most hopeless objects were the last to leave the city; Without legs and arms, with cracks, bent, and others mutilated by this dark time. All recovery centers were destroyed or were under the control of bandits, and it was impossible to provide any clear help to these unfortunate people. The evacuation was carried out in a hurry and very unorganized, especially on the final waves, for example: in the eastern outskirts, 17 trucks were lost on the road on the 20th alone, 10 of them were stolen by local bandits, and 7 were burned. Slightly better situation in the north...'"
  GOI_event.7.a: "Interesting excerpt."
  
+ GOI_event.8.t: "Battle for Goiky"
+ GOI_event.8.desc: "This is where our story begins. First, you need to choose one of the many fragments of Goiky, which you will lead to greatness.\n\n§RWE STRICTLY RECOMMEND TO PAUSE THE GAME!§!"
+ GOI_event.8.a: "Let's go!"
+ 
  #NEWS
  bfdinews.1.t: "Firey wons Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result of the vote. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."

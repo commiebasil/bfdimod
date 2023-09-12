@@ -212,9 +212,29 @@ country_event = {
 				id = GOI_hidden_event.13
 				days = 14
 			}
+			country_event = {
+				id = GOI_event.8
+				days = 20
+			}
 		}
     }
 }
+
+country_event = {
+    id = GOI_event.8
+    title = GOI_event.8.t
+    desc = GOI_event.8.desc
+	picture = GFX_GOI_event8
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = GOI_event.8.a
+		set_global_flag = game_started
+		custom_effect_tooltip = tt_GOI_event_8
+	}
+}
+
 
 country_event = {
     id = GOI_hidden_event.1

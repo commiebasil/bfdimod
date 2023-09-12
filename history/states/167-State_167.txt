@@ -3,6 +3,10 @@ state={
 	id=167
 	name="STATE_167"
 
+	resources = {
+		chromium = 15
+	}
+
 	history={
 		owner = GOI
 		add_core_of = GOI

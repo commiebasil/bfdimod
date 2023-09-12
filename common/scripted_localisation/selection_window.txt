@@ -1,0 +1,162 @@
+defined_text = {
+    name = SW_COUNTRYNAME
+    text = {
+        trigger = {
+            check_variable = { country_select_var = 1 }
+        }
+        localization_key = WGF
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 2 }
+        }
+        localization_key = GMD
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 3 }
+        }
+        localization_key = TBT
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 4 }
+        }
+        localization_key = DPZ
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 5 }
+        }
+        localization_key = NRR
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 6 }
+        }
+        localization_key = SEC
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 7 }
+        }
+        localization_key = GPR
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 8 }
+        }
+        localization_key = GPG
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 9 }
+        }
+        localization_key = SRR
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 10 }
+        }
+        localization_key = BUN
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 11 }
+        }
+        localization_key = GGR
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 12 }
+        }
+        localization_key = FFT
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 13 }
+        }
+        localization_key = GTR
+    }
+}
+defined_text = {
+	name = SW_COUNTRYDESC
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 1 }
+        }
+        localization_key = idea_WGF_revolutionary_fire_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 2 }
+        }
+        localization_key = idea_GMD_coinys_domain_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 3 }
+        }
+        localization_key = idea_TBT_silent_state_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 4 }
+        }
+        localization_key = idea_DPZ_defenders_on_paper_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 5 }
+        }
+        localization_key = idea_NRR_between_two_fires_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 6 }
+        }
+        localization_key = idea_SEC_land_of_madness_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 7 }
+        }
+        localization_key = idea_GPR_old_alliance_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 8 }
+        }
+        localization_key = idea_GPG_questionable_future_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 9 }
+        }
+        localization_key = idea_SRR_great_goiky_railroad_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 10 }
+        }
+        localization_key = idea_BUN_criminal_state_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 11 }
+        }
+        localization_key = idea_GGR_fascist_dictatorship_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 12 }
+        }
+        localization_key = idea_FFT_mother_anarchy_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 13 }
+        }
+        localization_key = idea_GTR_golfball_s_lab_desc
+    }
+}

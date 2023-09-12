@@ -28,6 +28,8 @@ set_popularities = {
 
 country_lock_all_division_template = yes
 
+set_variable = { country_select_var = 1 }
+
 add_ideas = idea_GOI_anarchy
 add_ideas = idea_GOI_bfdi
 add_ideas = idea_GOI_great_goiky_railroad
