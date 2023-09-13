@@ -28,11 +28,17 @@ set_popularities = {
 
 country_lock_all_division_template = yes
 
+set_stability = 0
+set_war_support = 0
+
 set_variable = { country_select_var = 1 }
 
 add_ideas = idea_GOI_anarchy
 add_ideas = idea_GOI_bfdi
 add_ideas = idea_GOI_great_goiky_railroad
+
+add_ideas = undisturbed_isolation
+add_ideas = disarmed_nation
 
 recruit_character = GOI_power_vacuum
 

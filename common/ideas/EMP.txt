@@ -7,6 +7,7 @@ ideas = {
 				conscription = -1
 				research_speed_factor = -1
 				political_power_factor = -1
+				political_power_gain = -1
 				stability_factor = -1
 				production_speed_buildings_factor = -1
 				command_power_gain_mult = 0
@@ -14,6 +15,7 @@ ideas = {
 				join_faction_tension = 999
 				justify_war_goal_time = 999
 				generate_wargoal_tension_against = 999
+				min_export = -1
 			}
 			rule = {
 				can_be_called_to_war = no

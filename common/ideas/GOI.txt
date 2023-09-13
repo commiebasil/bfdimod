@@ -6,6 +6,8 @@ ideas = {
 				consumer_goods_factor = 1
 				conscription = -1
 				research_speed_factor = -1
+				political_power_factor = -1
+				min_export = -1
 			}
 			on_add = {
 				country_lock_all_division_template = yes
@@ -18,7 +20,6 @@ ideas = {
 		idea_GOI_bfdi = {
 			picture = GOI_bfdi
 			modifier = {
-				political_power_gain = 0.25
 				stability_factor = 0.05
 				monthly_population = 0.5
 			}

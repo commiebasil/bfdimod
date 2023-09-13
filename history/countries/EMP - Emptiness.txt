@@ -22,6 +22,9 @@ country_lock_all_division_template = yes
 
 add_ideas = idea_EMP_no_objects_land
 
+add_ideas = undisturbed_isolation
+add_ideas = disarmed_nation
+
 recruit_character = EMP_unknown
 
 
