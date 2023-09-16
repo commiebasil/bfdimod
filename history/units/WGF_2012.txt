@@ -1,0 +1,42 @@
+division_template = {
+    name = "Revolutionary Brigade"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+    }
+}
+
+division_template = {
+    name = "People's Militia"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+    }
+	priority = 0
+}
+
+units = {
+	division= {
+        name = "1st Revolutionary Division"
+        location = 2533 # North-Goikyland
+        division_template = "Revolutionary Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+    }
+	division= {
+        name = "2nd Revolutionary Division"
+        location = 2533 # North-Goikyland
+        division_template = "Revolutionary Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+	division= {
+        name = "3rd Revolutionary Division"
+        location = 2314 # Yellowfield
+        division_template = "Revolutionary Brigade"
+        start_experience_factor = 0.14
+        start_equipment_factor = 0.5
+    }
+}

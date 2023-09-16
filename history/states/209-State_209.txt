@@ -3,11 +3,18 @@ state={
 	id=209
 	name="STATE_209"
 
+	resources = {
+		steel = 15
+	}
+
 	history={
 		owner = GOI
 		add_core_of = GOI
 		victory_points = {
 			2737 10 
+		}
+		victory_points = {
+			3545 15
 		}
 		buildings = {
 			infrastructure = 3

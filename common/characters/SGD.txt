@@ -1,0 +1,10 @@
+characters = {
+	SGD_robot_flower = {
+		name = SGD_robot_flower
+		portraits = { civilian = { large = GFX_SGD_robot_flower } }
+		country_leader = {
+			desc = SGD_robot_flower_desc
+			ideology = oligarchism
+		}
+	}
+}

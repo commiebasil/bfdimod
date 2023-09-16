@@ -1,0 +1,40 @@
+areas = {
+
+	north_goiky = {
+        strategic_regions = {
+            8
+            11
+			7
+			10
+        }
+    }
+
+    central_goiky = {
+		strategic_regions = {
+            3
+			4
+			5
+        }
+    }
+
+    snow_plateau = {
+        strategic_regions = {
+            6
+        }
+    }
+
+    west_goiky = {
+        strategic_regions = {
+            1 
+            2
+            9
+        }
+    }
+
+    tbd = {
+        strategic_regions = {
+            16
+        }
+    }
+	
+}

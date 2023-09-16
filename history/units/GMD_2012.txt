@@ -1,0 +1,51 @@
+division_template = {
+    name = "Object Infantry"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+    }
+}
+
+division_template = {
+    name = "Object Cavalry"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 0 }
+    }
+}
+
+units = {
+	division= {
+        name = "1st Infantry Division"
+        location = 10200 # NGRF Border
+        division_template = "Object Infantry"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+    }
+	division= {
+        name = "1st Cavalry Division"
+        location = 10228 # Berns
+        division_template = "Object Cavalry"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.6
+    }
+	division= {
+        name = "2nd Cavalry Division"
+        location = 5989 # Medal
+        division_template = "Object Cavalry"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.6
+    }
+	division= {
+        name = "3rd Cavalry Division"
+        location = 5824 # Cary
+        division_template = "Object Cavalry"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}

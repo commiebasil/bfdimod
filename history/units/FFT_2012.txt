@@ -1,0 +1,57 @@
+division_template = {
+    name = "Freedom Unit"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+    name = "Cavalry Squad"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 0 y =1  }
+	}
+}
+
+
+units = {
+	division= {
+        name = "1st Freedom Unit"
+        location = 11463 # Fascist border >:(
+        division_template = "Freedom Unit"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.8
+    }
+	division= {
+        name = "2nd Freedom Unit"
+        location = 2428 # Fascist border >:(
+        division_template = "Freedom Unit"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.7
+    }
+	division= {
+        name = "1st Cavalry Squad"
+        location = 3417 # Snowriver
+        division_template = "Cavalry Squad"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.8
+    }
+	division= {
+        name = "2nd Cavalry Squad"
+        location = 6084 # Deepforest
+        division_template = "Cavalry Squad"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.6
+    }
+	division= {
+        name = "3rd Cavalry Squad"
+        location = 711 # Gorge Town
+        division_template = "Cavalry Squad"
+        start_experience_factor = 0.6
+        start_equipment_factor = 0.9
+    }
+}

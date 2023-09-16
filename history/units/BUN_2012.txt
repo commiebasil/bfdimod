@@ -1,0 +1,54 @@
+division_template = {
+    name = "Bandits"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+}
+division_template = {
+    name = "Eraser's bunch"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 2 }
+	}
+	is_locked = yes
+	priority = 2
+	template_counter = 2
+}
+
+
+units = {
+	division= {
+        name = "Eraser's bunch"
+        location = 3944 # GGRR - S Border
+        division_template = "Eraser's bunch"
+        start_experience_factor = 0.7
+        start_equipment_factor = 1
+    }
+	division= {
+        name = "Bandits"
+        location = 5679 # Podgornyv
+        division_template = "Bandits"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+    }
+	division= {
+        name = "Bandits"
+        location = 4249 # Snowpath
+        division_template = "Bandits"
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.5
+    }
+	division= {
+        name = "Bandits"
+        location = 1013 # GGRR - S Border
+        division_template = "Bandits"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+    }
+}

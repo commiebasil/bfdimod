@@ -1,0 +1,51 @@
+division_template = {
+    name = "Objektinfantry"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+    name = "Punitive squad"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+
+units = {
+	division= {
+        name = "1st Objektinfantry-divizion"
+        location = 4731 # Shneehorn
+        division_template = "Objektinfantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.6
+    }
+	division= {
+        name = "2nd Objektinfantry-divizion"
+        location = 3001 # Bunch border
+        division_template = "Objektinfantry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.5
+    }
+	division= {
+        name = "3rd Objektinfantry-divizion"
+        location = 5051 # Wohnungmeerstadt
+        division_template = "Objektinfantry"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.5
+    }
+	division= {
+        name = "4th Objektinfantry-divizion"
+        location = 5853 # FFT border
+        division_template = "Objektinfantry"
+        start_experience_factor = 0.6
+        start_equipment_factor = 0.6
+    }
+}

@@ -76,4 +76,14 @@ spriteTypes = {
 		name = GFX_idea_NRR_between_two_fires
 		texturefile = gfx/interface/ideas/idea_NRR_between_two_fires.dds
 	}
+	
+	spriteType = {
+		name = GFX_idea_AGG_revenge
+		texturefile = gfx/interface/ideas/idea_AGG_revenge.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_SGD_transitional_regime
+		texturefile = gfx/interface/ideas/idea_SGD_transitional_regime.dds
+	}
 }

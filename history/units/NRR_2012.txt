@@ -1,0 +1,33 @@
+division_template = {
+    name = "Railroad Patrol"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 1 }
+    }
+}
+
+units = {
+	division= {
+        name = "1st Railroad Patrol"
+        location = 10570 # Midway
+        division_template = "Railroad Patrol"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+	division= {
+        name = "2nd Railroad Patrol"
+        location = 2841 # Whiteroad
+        division_template = "Railroad Patrol"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
+    }
+	division= {
+        name = "3rd Railroad Patrol"
+        location = 6396 # Cult border
+        division_template = "Railroad Patrol"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+}

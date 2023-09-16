@@ -1,0 +1,53 @@
+division_template = {
+    name = "Cultists"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+    }
+	priority = 0
+}
+
+units = {
+	division= {
+        name = "Cultists"
+        location = 10701 # Redleaf
+        division_template = "Cultists"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+	division= {
+        name = "Cultists"
+        location = 10701 # Redleaf
+        division_template = "Cultists"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+	division= {
+        name = "Cultists"
+        location = 6023 # Desert
+        division_template = "Cultists"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.5
+    }
+	division= {
+        name = "Cultists"
+        location = 730
+        division_template = "Cultists"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+	division= {
+        name = "Cultists"
+        location = 10705
+        division_template = "Cultists"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.8
+    }
+	division= {
+        name = "Cultists"
+        location = 10642
+        division_template = "Cultists"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+}

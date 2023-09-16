@@ -213,6 +213,14 @@ country_event = {
 				days = 14
 			}
 			country_event = {
+				id = GOI_hidden_event.14
+				days = 9
+			}
+			country_event = {
+				id = GOI_hidden_event.15
+				days = 6
+			}
+			country_event = {
 				id = GOI_event.8
 				days = 20
 			}
@@ -414,14 +422,14 @@ country_event = {
     
     immediate = {
 		GTR = {
-			transfer_state = 208
+			transfer_state = 209
 			
-			add_state_core = 208
+			add_state_core = 209
 			
-			208 = { set_demilitarized_zone = no }
+			209 = { set_demilitarized_zone = no }
 		}
 		GOI = {
-				remove_state_core = 208
+				remove_state_core = 209
 		}
 	}
 }
@@ -545,6 +553,52 @@ country_event = {
 		GOI = {
 			remove_state_core = 171
 			remove_state_core = 170
+		}
+	}
+}
+
+country_event = {
+    id = GOI_hidden_event.14
+    
+    is_triggered_only = yes
+	hidden = yes
+    
+    immediate = {
+		AGG = {
+			transfer_state = 183
+			
+			add_state_core = 183
+			add_state_core = 175
+			
+			183 = { set_demilitarized_zone = no }
+			
+			declare_war_on = {
+                target = SGD
+                type = annex_everything
+			}
+		}
+		GOI = {
+			remove_state_core = 183
+		}
+	}
+}
+country_event = {
+    id = GOI_hidden_event.15
+    
+    is_triggered_only = yes
+	hidden = yes
+    
+    immediate = {
+		SGD = {
+			transfer_state = 175
+			
+			add_state_core = 175
+			add_state_core = 183
+			
+			175 = { set_demilitarized_zone = no }
+		}
+		GOI = {
+			remove_state_core = 175
 		}
 	}
 }

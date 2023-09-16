@@ -80,4 +80,14 @@ spriteTypes = {
 		name = "GFX_NRR_administration"
 		texturefile = "gfx/leaders/NRR/NRR_administration.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_AGG_ice_cube"
+		texturefile = "gfx/leaders/AGG/AGG_ice_cube.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SGD_robot_flower"
+		texturefile = "gfx/leaders/SGD/SGD_robot_flower.dds"
+	}
 }

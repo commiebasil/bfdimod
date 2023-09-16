@@ -78,6 +78,18 @@ defined_text = {
         }
         localization_key = GTR
     }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 14 }
+        }
+        localization_key = AGG
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 15 }
+        }
+        localization_key = SGD
+    }
 }
 defined_text = {
 	name = SW_COUNTRYDESC
@@ -158,5 +170,17 @@ defined_text = {
             check_variable = { country_select_var = 13 }
         }
         localization_key = idea_GTR_golfball_s_lab_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 14 }
+        }
+        localization_key = idea_AGG_revenge_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 15 }
+        }
+        localization_key = idea_SGD_transitional_regime_desc
     }
 }

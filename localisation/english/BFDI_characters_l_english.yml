@@ -5,7 +5,7 @@
  EMP_unknown: "§RUnknown§!"
  
  WGF_firey: "Firey"
- WGF_firey_desc: "When Goiky fell into the abyss of anarchy, many BFDI contestants, having a big name, dispersed across the continent and headed local self-proclaimed states. Firey is no exception. When the Dream Island was stolen, Firey fled north and proclaimed the West Goiky Revolutionary Front in the local large city of North-Goikyland. Confident that there has been a misunderstanding, Firey sets out to unite Goiky and search for Leafy in order to reclaim Dream Island and turn this dark page in history of Goiky."
+ WGF_firey_desc: "When Goiky fell into the abyss of anarchy, many BFDI contestants, having a big name, dispersed across the continent and headed local self-proclaimed states. Firey is no exception. When the Dream Island was stolen, Firey fled north and proclaimed the North Goiky Revolutionary Front in the local large city of North-Goikyland. Confident that there has been a misunderstanding, Firey sets out to unite Goiky and search for Leafy in order to reclaim Dream Island and turn this dark page in history of Goiky."
  
  DPZ_tv: "TV"
  DPZ_tv_desc: "TV, as in the former object closest to the announcer, after its disappearance and the onset of anarchy, was appointed the conditional head of the so-called 'Protection Zone', although in fact all real power belongs to the local oligarchic clans."
@@ -42,3 +42,9 @@
  
  NRR_administration: "Administration"
  NRR_administration_desc: "Due to the difficult situation, the GGRR - North is under the collective leadership."
+
+ AGG_ice_cube: "Ice Cube"
+ AGG_ice_cube_desc: "Icy, now the head of the Restoration Government, is a rather quiet and vengeful person. The ideas of an ultra-totalitarian society and harsh state capitalism are mixed in her head. She sees her ultimate goal as the unification of Goiky through the military suppression of everyone who opposes it."
+ 
+ SGD_robot_flower: "Robot-Flower"
+ SGD_robot_flower_desc: "Robot-flower, after a short stay in the provisional government of Goiky, went to the south, where she managed to lead the local weak self-government in Small Goiky. She harbors long-term plans to revive the original Flower..."

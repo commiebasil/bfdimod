@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+		idea_SGD_transitional_regime = {
+			picture = SGD_transitional_regime
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = -0.05
+			}
+		}
+	}
+}

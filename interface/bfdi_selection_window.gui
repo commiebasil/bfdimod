@@ -83,6 +83,12 @@ guiTypes = {
 			pdx_tooltip = WR_GGRR_S_BTTT
 		}
 		buttonType = {
+			name = "gtr"
+			position = { x = 300 y = 335 }
+			spriteType = GFX_button_gtr
+			pdx_tooltip = WR_GTR_BTTT
+		}
+		buttonType = {
 			name = "gpg"
 			position = { x = 211 y = 283 }
 			spriteType = GFX_button_gpg
@@ -138,10 +144,16 @@ guiTypes = {
 			pdx_tooltip = WR_FREET_BTTT
 		}
 		buttonType = {
-			name = "gtr"
-			position = { x = 264 y = 425 }
-			spriteType = GFX_button_gtr
-			pdx_tooltip = WR_GTR_BTTT
+			name = "sgd"
+			position = { x = 140 y = 395 }
+			spriteType = GFX_button_sgd
+			pdx_tooltip = WR_SGD_BTTT
+		}
+		buttonType = {
+			name = "agg"
+			position = { x = 205 y = 380 }
+			spriteType = GFX_button_agg
+			pdx_tooltip = WR_AGG_BTTT
 		}
 		instantTextBoxType = {
 			name = "countryname"

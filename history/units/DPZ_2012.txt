@@ -1,0 +1,36 @@
+division_template = {
+    name = "Defensive Unit"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+    }
+}
+
+division_template = {
+    name = "Internal Security Batalion"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+    }
+	priority = 0
+}
+
+units = {
+	division= {
+        name = "1st Defensive Unit"
+        location = 2433 # Stamford
+        division_template = "Defensive Unit"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.4
+    }
+	division= {
+        name = "2nd Defensive Unit"
+        location = 10563 # Dreambridge
+        division_template = "Defensive Unit"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+}

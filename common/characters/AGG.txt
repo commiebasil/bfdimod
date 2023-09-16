@@ -1,0 +1,10 @@
+characters = {
+	AGG_ice_cube = {
+		name = AGG_ice_cube
+		portraits = { civilian = { large = GFX_AGG_ice_cube } }
+		country_leader = {
+			desc = AGG_ice_cube_desc
+			ideology = despotism
+		}
+	}
+}
