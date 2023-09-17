@@ -1,2 +1,2 @@
-# bfdimod
-A BFDI HOI4 Mod Dev Repository
+# Troubles in Goiky: a BFDI-Based HOI4 mod
+Official TIG repository
