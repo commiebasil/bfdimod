@@ -2,7 +2,7 @@ version="1.0"
 tags={
 	"Alternative History"
 }
-name="BFDI"
+name="Troubles in Goiky: a BFDI-Based HOI4 mod [WIP]"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_peace"
