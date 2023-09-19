@@ -38,4 +38,20 @@ SpriteTypes = {
 		name = "GFX_focus_GOI_back_to_normal_life"
 		texturefile = "gfx/interface/goals/GFX_focus_GOI_back_to_normal_life.dds"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_focus_WGF_our_situation"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_our_situation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_means_of_production"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_means_of_production.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_protect_the_revolution"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_protect_the_revolution.dds"
+	}
 }

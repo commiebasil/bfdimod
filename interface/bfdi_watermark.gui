@@ -1,0 +1,14 @@
+guiTypes = {
+	containerWindowType = {
+		name = "watermarkContainer"
+		position = { x = 0 y = 1000 }
+		size = { width = 392 height = 73 }
+		
+		iconType = {
+			name = "watermark"
+			spriteType = GFX_watermark
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+}

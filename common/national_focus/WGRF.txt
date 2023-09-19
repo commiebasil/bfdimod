@@ -11,4 +11,77 @@ focus_tree = {
 	
 	default = no
 	reset_on_civilwar = no
+	
+	
+	focus = {
+		id = WGF_focus_our_situation
+		x = 5
+		y = 0
+		icon = GFX_focus_WGF_our_situation
+		
+		available = { hidden_trigger = { NOT = { has_global_flag = game_started } } }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			country_event = WGF_event.1
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_means_of_production
+		y = 1
+		relative_position_id = WGF_focus_our_situation
+		icon = GFX_focus_WGF_means_of_production
+		prerequisite = { focus = WGF_focus_our_situation }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			177 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_protect_the_revolution
+		y = 2
+		relative_position_id = WGF_focus_means_of_production
+		icon = GFX_focus_WGF_protect_the_revolution
+		prerequisite = { focus = WGF_focus_means_of_production }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+			producer = WGF
+			}
+			add_manpower = 20000
+		}
+	}
 }

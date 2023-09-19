@@ -1,0 +1,10 @@
+scripted_gui = {
+	bfdi_watermark = {
+		window_name = watermarkContainer
+		context_type = player_context
+	
+		visible = {
+			has_global_flag = showwatermark
+		}
+	}
+}

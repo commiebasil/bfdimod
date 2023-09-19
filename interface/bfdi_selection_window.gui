@@ -55,6 +55,16 @@ guiTypes = {
 			}
 		}
 		
+		instantTextBoxType = {
+			name = "demoerror"
+			position = { x = 923 y = 630 }
+			text = SW_DEMOERROR
+			font = hoi_18mbs
+			maxWidth = 310
+			maxHeight = 100
+			format = CENTER
+		}
+		
 		buttonType = {
 			name = "startbutton"
 			position = { x = 1010 y = 660 }

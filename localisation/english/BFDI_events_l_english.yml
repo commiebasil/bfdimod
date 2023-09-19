@@ -32,6 +32,11 @@
  GOI_event.8.desc: "This is where our story begins. First, you need to choose one of the many fragments of Goiky, which you will lead to greatness.\n\n§RWE STRICTLY RECOMMEND TO PAUSE THE GAME!§!"
  GOI_event.8.a: "Let's go!"
  
+ #NGRF
+ WGF_event.1.t: "Revolutionary front"
+ WGF_event.1.desc: "It’s surprising, because just a couple of months ago he won the vote, he was supposed to get the island, but today he’s here. Firey often wondered where fate had taken him. In general, he changed dramatically during the days of the front. Where's Leafy? Where did the island go? These questions have not bothered him for a long time. The liberation of Goiky's objects became the main task of his existence. The short-lived relationship with Coiny quickly broke down when this traitor abandoned the cause of liberating the workers and fled to the east. But it’s okay, all the enemies of the revolution will get what they deserve."
+ WGF_event.1.a: "The fire won't go out."
+ 
  #NEWS
  bfdinews.1.t: "Firey wons Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result of the vote. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."

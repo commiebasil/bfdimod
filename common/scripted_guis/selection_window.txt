@@ -7,6 +7,15 @@ scripted_gui = {
 			has_global_flag = game_started
 		}
 		
+		triggers = {
+			demoerror_visible = {
+				NOT = { check_variable = { country_select_var = 1 } }
+			}
+			startbutton_click_enabled = {
+				check_variable = { country_select_var = 1 }
+			}
+		}
+		
 		effects = {
 			wgrf_click = {
 				set_variable = { country_select_var = 1 }

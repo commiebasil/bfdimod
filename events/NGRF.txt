@@ -1,0 +1,14 @@
+add_namespace = WGF_event
+
+country_event = {
+	id = WGF_event.1
+	title = WGF_event.1.t
+    desc = WGF_event.1.desc
+	picture = GFX_WGF_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.1.a
+	}
+}

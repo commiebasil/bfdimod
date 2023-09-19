@@ -1,4 +1,5 @@
 ﻿l_english:
+ #GOIKY
  GOI_focus_continue_contest: "Contest carries on!"
  GOI_focus_continue_contest_desc: "Battle For Dream Island is already at the finish line! The viewers is looking forward to the results.\nThere are only a few Cake as Stakes left to bring out the winner!"
  GOI_focus_final_four: "Final Four"
@@ -15,3 +16,14 @@
  GOI_focus_roll_up_the_show_desc: " "
  GOI_focus_back_to_normal_life: "Back to normal life"
  GOI_focus_back_to_normal_life_desc: " "
+ 
+ #NGRF
+ WGF_focus_our_situation: "Our situation"
+ WGF_focus_our_situation_desc: "The previously calm Goiky has now plunged into chaos, and our position in this madness is unenviable. The banner of socialism now bears only a small fragment in the north-west of Goiky, surrounded everywhere by traitors and counter-revolution. The obvious fact is the inevitable spread of the dictatorship of the proletariat throughout the continent, but for now the revolution must go on the defensive and take a good look at its situation and surroundings."
+ 
+ WGF_focus_means_of_production: "Means of production"
+ WGF_focus_means_of_production_desc: "Industry in pre-anarchic Goiky was not very developed and was mainly concentrated in the center, which is why our young socialism is now suffering. After a meeting with the Presidium, Firey sends a directive for the immediate deployment of new industries in North-Goikyland and the surrounding area."
+ 
+ WGF_focus_protect_the_revolution: "Protect the revolution"
+ WGF_focus_protect_the_revolution_desc: "The Republic is shackled on all sides. In the east, traitors and counter-revolutionaries have formed a military district and are planning a military campaign against North-Goikyland; in the south, the rotten regime is strangling our communications and external relations. The revolution needs weapons that it can hold in its hands. In old Goiky, no one thought about military production, so we will have to do titanic work to establish long-forgotten technologies."
+ 

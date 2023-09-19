@@ -5,6 +5,7 @@ on_actions = {
 				limit = { EMP = { is_ai = no } }
 				GOI = { change_tag_from = EMP }
 			}
+			set_global_flag = showwatermark
 		}
 	}
 }

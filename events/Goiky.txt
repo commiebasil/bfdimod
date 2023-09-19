@@ -154,12 +154,20 @@ country_event = {
     
     option = {
         name = GOI_event.7.a
-		206 = { add_manpower = -1200000 }
-		203 = { add_manpower = -308000 }
-		205 = { add_manpower = -196000 }
-		193 = { add_manpower = -151000 }
+		custom_effect_tooltip = tt_GOI_event_7
 		hidden_effect = {
 			set_cosmetic_tag = GOI_anarchy
+			206 = { add_manpower = -2147483 }
+			203 = { add_manpower = -418001 }
+			205 = { add_manpower = -296120 }
+			193 = { add_manpower = -151033 }
+			177 = { add_manpower = 82516 }
+			167 = { add_manpower = 26222 }
+			11 = { add_manpower = 19511 }
+			173 = { add_manpower = 74922 }
+			15 = { add_manpower = 52916 }
+			209 = { add_manpower = 91555 }
+			85 = { add_manpower = 30020 }
 			country_event = {
 				id = GOI_hidden_event.1
 				days = 3
