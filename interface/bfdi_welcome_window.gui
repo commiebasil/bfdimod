@@ -1,0 +1,64 @@
+guiTypes = {
+	containerWindowType = {
+		name = "welcomewindowContainer"
+		position = { x = 0 y = -100 }
+		size = { width = 700 height = 800 }
+		Orientation = CENTER
+		
+		containerWindowType = {
+			name = "bg"
+			position = { x = -750 y = -350 }
+			size = { width = 700 height = 350 }
+			Orientation = CENTER
+			
+			background = {
+				name = "bg"
+				spriteType = GFX_tiled_bg
+				position = { x = 0 y = 0 }
+				size = { width = 500 height = 300 }
+			}
+		}
+		
+		iconType = {
+			name = "sky"
+			spriteType = GFX_welcomewindow_bg
+			position = { x = -403 y = 43 }
+		}
+		
+		containerWindowType = {
+			name = "textbg"
+			position = { x = -570 y = -335 }
+			size = { width = 340 height = 280 }
+			Orientation = CENTER
+			
+			background = {
+				name = "textbg"
+				spriteType = GFX_tiled_paper_w_frame_bg
+				position = { x = 0 y = 0 }
+			}
+		}
+		
+		iconType = {
+			name = "mod_logo"
+			spriteType = GFX_mod_logo
+			position = { x = -400 y = -250 }
+		}
+		
+		instantTextboxType = {
+			name = "text"
+			font = hoi_20bs
+			position = { x = -200 y = 80 }
+			maxWidth = 300
+			format = centre
+			text = WW_TEXT
+		}
+		
+		buttonType = {
+			name = "play"
+			spriteType = GFX_main_lobby_button
+			buttonText = WW_PLAYBUTTON
+			buttonFont = hoi_20bs
+			position = { x = -195 y = 345 }
+		}
+	}
+}

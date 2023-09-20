@@ -6,6 +6,7 @@ on_actions = {
 				GOI = { change_tag_from = EMP }
 			}
 			set_global_flag = showwatermark
+			set_global_flag = welcome
 		}
 	}
 }
