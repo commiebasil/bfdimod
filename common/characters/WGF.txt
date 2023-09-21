@@ -1,10 +1,51 @@
 characters = {
     WGF_firey = {
 		name = WGF_firey
-		portraits = { civilian = { large = GFX_WGF_firey } }
+		portraits = { 
+			army = { 
+				large = GFX_WGF_firey
+				small = GFX_idea_WGF_firey
+			} 
+		}
 		country_leader = {
 			ideology = stalinism
 			desc = WGF_firey_desc
+		}
+		field_marshal = {
+			traits = { politically_connected war_hero trait_cautious }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 5
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = idea_WGF_firey
+			ledger = army
+			traits = { army_chief_offensive_2 }
+		}
+	}
+	
+	WGF_fsb = {
+		name = WGF_fsb
+		portraits = { civilian = { small = GFX_idea_WGF_fsb } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_WGF_fsb
+			ledger = army
+			traits = { ideological_crusader }
+		}
+	}
+	
+	WGF_cake = {
+		name = WGF_cake
+		portraits = { civilian = { small = GFX_idea_WGF_cake } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_WGF_cake
+			ledger = army
+			traits = { silent_workhorse }
 		}
 	}
 }

@@ -21,6 +21,18 @@ spriteTypes = {
 		name = GFX_idea_WGF_revolutionary_fire
 		texturefile = gfx/interface/ideas/idea_WGF_revolutionary_fire.dds
 	}
+	spriteType = {
+		name = GFX_idea_WGF_fsb
+		texturefile = gfx/interface/ideas/idea_WGF_fsb.dds
+	}
+	spriteType = {
+		name = GFX_idea_WGF_cake
+		texturefile = gfx/interface/ideas/idea_WGF_cake.dds
+	}
+	spriteType = {
+		name = GFX_idea_WGF_firey
+		texturefile = gfx/interface/ideas/idea_WGF_firey.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_DPZ_defenders_on_paper

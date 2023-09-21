@@ -1,0 +1,50 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+
+	operative = {
+		male = {
+			"GFX_portrait_operative_unknown"
+		}
+		female = {
+			"GFX_portrait_operative_unknown"
+		}
+	}
+
+	male = {
+		"GFX_portrait_unknown"
+	}
+	female = {
+		"GFX_portrait_unknown_female"
+	}
+}
+
+continent = {
+	name = goiky
+	army = {
+		male = {
+			"GFX_Portrait_Goiky_Generic_land_1"
+			"GFX_Portrait_Goiky_Generic_land_2"
+			"GFX_Portrait_Goiky_Generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Goiky_Generic_navy_1"
+			"GFX_Portrait_Goiky_Generic_navy_2"
+			"GFX_Portrait_Goiky_Generic_navy_3"
+		}
+	}
+}

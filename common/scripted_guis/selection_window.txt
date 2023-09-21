@@ -64,10 +64,6 @@ scripted_gui = {
 			}
 			
 			startbutton_click = {
-				set_global_flag = {
-					flag = game_started
-					value = 0
-				}
 				if = {
 					limit = { check_variable = { country_select_var = 1 } }
 					WGF = { change_tag_from = GOI }
@@ -151,6 +147,11 @@ scripted_gui = {
 				FFT = { load_oob = "FFT_2012" }
 				AGG = { load_oob = "AGG_2012" }
 				SGD = { load_oob = "SGD_2012" }
+				
+				set_global_flag = {
+					flag = game_started
+					value = 0
+				}
 			}
 		}
 		

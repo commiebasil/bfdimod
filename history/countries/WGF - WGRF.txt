@@ -30,5 +30,8 @@ set_popularities = {
 add_ideas = idea_WGF_revolutionary_fire
 
 recruit_character = WGF_firey
+recruit_character = WGF_fsb
+recruit_character = WGF_cake
+
 
 
