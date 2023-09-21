@@ -15,7 +15,6 @@ guiTypes = {
 				name = "bg"
 				spriteType = GFX_tiled_bg
 				position = { x = 0 y = 0 }
-				size = { width = 500 height = 300 }
 			}
 		}
 		
