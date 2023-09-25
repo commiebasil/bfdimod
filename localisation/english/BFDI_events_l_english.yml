@@ -37,6 +37,24 @@
  WGF_event.1.desc: "It’s surprising, because just a couple of months ago he won the vote, he was supposed to get the island, but today he’s here. Firey often wondered where fate had taken him. In general, he changed dramatically during the days of the front. Where's Leafy? Where did the island go? These questions have not bothered him for a long time. The liberation of Goiky's objects became the main task of his existence. The short-lived relationship with Coiny quickly broke down when this traitor abandoned the cause of liberating the workers and fled to the east. But it’s okay, all the enemies of the revolution will get what they deserve."
  WGF_event.1.a: "The fire won't go out."
  
+ WGF_event.2.t: "Case #8"
+ WGF_event.2.desc: "CONCLUSION ON CASE #8 ABOUT THE MISSING OF D.I.:\nAfter the research work carried out described on page 9 of this document and hearings of witnesses, Leafy’s guilt in the loss of people’s property, which led to particularly large economic losses, becomes undeniable. A court hearing in the case will take place in the next few months."
+ WGF_event.2.a: "Let it be so."
+ 
+ WGF_event.3.t: "Trial"
+ WGF_event.3.desc: "'...Thus, despite the absence of the accused at the trial, the evidence base of the prosecution is sufficient and indisputable to convict the accused under Articles 14.1, 16 and 51 of the legislation of the socialist republic, the revolutionary court pronounces a sentence..."
+ WGF_event.3.a: "Death by flattening'"
+ WGF_event.3.b: "Life imprisonment'"
+ WGF_event.3.c: "The court will not pass a verdict."
+ 
+ WGF_event.4.t: "Greetings from the snow plateau"
+ WGF_event.4.desc: "When we began a program to establish contacts with communist organizations throughout Goiky, we did not at all expect what we found in the snow plateau. In the south, in the snowy forests, anarcho-communists led by Rocky are waging an irreconcilable struggle against the fascist regime of Snowball! Our delegates received a warm welcome and we were able to agree on cooperation with their partisan movement. The road to supply them with equipment was also chosen, incredibly difficult and long, but there can be no obstacles to solidarity with comrades in the far east."
+ WGF_event.4.a: "They are heroes, although they are mistaken."
+ 
+ WGF_event.5.t: "Offer"
+ WGF_event.5.desc: "An interesting telegram arrived from the communists in the north: They offer military and technical cooperation, which is 'much needed for both our countries in these dark years'. Although the hostility of the northerners towards our regime is obvious, we will transfer the decision on the issue to the RCC."
+ WGF_event.5.a: "Under pressure from the left faction, the proposal passes."
+ 
  #NEWS
  bfdinews.1.t: "Firey wons Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result of the vote. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."
@@ -45,3 +63,12 @@
  bfdinews.2.t: "DREAM ISLAND HAS BEEN STOLEN!"
  bfdinews.2.desc: "                          GOIKY NEWS: SPECIAL RELEASE\nAccording to our sources from the western regions, the Dream Island, the battle for which has been continuously going on for 2 years in a row, has disappeared without a trace. According to the original version, the island was bought by Leafy, who probably hid in the evil forest. Who allowed this illegal operation to be carried out and where the money was taken from is still unknown. At this time, riots swept almost the entire continent and local cities plunged into chaos. Goiky News will follow developments."
  bfdinews.2.a: "Craziness!"
+ 
+ bfdinews.3.t: "Battle for socialism"
+ bfdinews.3.desc: "'Battle for Socialism' is an object show that was recently launched at the NGRF for the purpose of propaganda work with the population. Unlike BFDI, this show promotes the ideas of cooperation, the participants do not compete with each other, but, on the contrary, cooperate in order to achieve the goal and resist the reactionaries."
+ bfdinews.3.a: "Interesting."
+ 
+ bfdinews.4.t: "Revolutionary Manifesto"
+ bfdinews.4.desc: "In the new programmatic work 'Revolutionary Manifesto', the ideologists of the North Goiky Revolutionary Front announced the 'inevitable export of the revolution and its spread to the whole of Goiky'. Neighboring NGRF regimes have already regarded this as a threat and are preparing their militias."
+ bfdinews.4.a: "Firey has come far."
+ bfdinews.4.b: "Reactionaries tremble in fear!"

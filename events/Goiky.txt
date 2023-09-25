@@ -156,6 +156,7 @@ country_event = {
         name = GOI_event.7.a
 		custom_effect_tooltip = tt_GOI_event_7
 		hidden_effect = {
+			set_global_flag = focus_take_prevention
 			set_cosmetic_tag = GOI_anarchy
 			206 = { add_manpower = -2147483 }
 			203 = { add_manpower = -418001 }

@@ -8,5 +8,19 @@ ideas = {
 				conscription_factor = 0.02
 			}
 		}
+		idea_WGF_peoples_object_show = {
+			picture = WGF_peoples_object_show
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.25
+			}
+		}
+		idea_WGF_socialist_front = {
+			picture = WGF_socialist_front
+			modifier = {
+				communism_acceptance = 50
+				party_popularity_stability_factor = 0.1
+			}
+		}
 	}
 }

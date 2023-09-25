@@ -54,4 +54,59 @@ SpriteTypes = {
 		name = "GFX_focus_WGF_protect_the_revolution"
 		texturefile = "gfx/interface/goals/GFX_focus_WGF_protect_the_revolution.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_ideals_of_revolution"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_ideals_of_revolution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_forget_about_island"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_forget_about_island.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_socialist_realism"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_socialist_realism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_peoples_object_show"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_peoples_object_show.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_investigation"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_investigation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_trial_over_leafy"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_trial_over_leafy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_development_of_theory"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_development_of_theory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_different_but_united"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_different_but_united.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_our_struggling_friends"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_our_struggling_friends.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_the_offer"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_the_offer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_declare_our_goal"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_declare_our_goal.dds"
+	}
 }

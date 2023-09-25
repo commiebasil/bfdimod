@@ -12,3 +12,79 @@ country_event = {
 		name = WGF_event.1.a
 	}
 }
+
+country_event = {
+	id = WGF_event.2
+	title = WGF_event.2.t
+    desc = WGF_event.2.desc
+	picture = GFX_WGF_event2
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.2.a
+	}
+}
+
+country_event = {
+	id = WGF_event.3
+	title = WGF_event.3.t
+    desc = WGF_event.3.desc
+	picture = GFX_WGF_event3
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.3.a
+		add_war_support = 0.05
+		add_stability = -0.05
+	}
+	option = {
+		name = WGF_event.3.b
+		add_stability = 0.02
+	}
+	option = {
+		name = WGF_event.3.c
+		add_stability = 0.05
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = WGF_event.4
+	title = WGF_event.4.t
+    desc = WGF_event.4.desc
+	picture = GFX_WGF_event4
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.4.a
+	}
+}
+
+country_event = {
+	id = WGF_event.5
+	title = WGF_event.5.t
+    desc = WGF_event.5.desc
+	picture = GFX_WGF_event5
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.5.a
+	}
+}
+
+country_event = {
+	id = WGF_event.6
+	title = WGF_event.6.t
+    desc = WGF_event.6.desc
+	picture = GFX_WGF_event6
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.6.a
+	}
+}

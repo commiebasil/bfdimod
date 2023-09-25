@@ -152,6 +152,10 @@ scripted_gui = {
 					flag = game_started
 					value = 0
 				}
+				set_global_flag = {
+					flag = focus_take_prevention
+					value = 0
+				}
 			}
 		}
 		

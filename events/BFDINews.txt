@@ -33,3 +33,43 @@ news_event = {
 		name = bfdinews.2.a
 	}
 }
+
+news_event = {
+	id = bfdinews.3
+	title = bfdinews.3.t
+	desc = bfdinews.3.desc
+	picture = GFX_bfdinews3
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bfdinews.3.a
+	}
+}
+
+news_event = {
+	id = bfdinews.4
+	title = bfdinews.4.t
+	desc = bfdinews.4.desc
+	picture = GFX_bfdinews4
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bfdinews.4.a
+		trigger = { NOT = { tag = WGF } }
+	}
+	
+	option = {
+		name = bfdinews.4.b
+		trigger = { tag = WGF }
+	}
+}

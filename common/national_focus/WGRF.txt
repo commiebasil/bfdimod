@@ -12,14 +12,16 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 	
+	initial_show_position = { focus = WGF_focus_means_of_production }
+	
 	
 	focus = {
 		id = WGF_focus_our_situation
-		x = 5
+		x = 13
 		y = 0
 		icon = GFX_focus_WGF_our_situation
 		
-		available = { hidden_trigger = { NOT = { has_global_flag = game_started } } }
+		available = { hidden_trigger = { NOT = { has_global_flag = focus_take_prevention } } }
 		
 		cost = 10
 		
@@ -28,8 +30,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 25
-			country_event = WGF_event.1
+			add_war_support = 0.05
 		}
 	}
 	
@@ -82,6 +83,232 @@ focus_tree = {
 			producer = WGF
 			}
 			add_manpower = 20000
+			country_event = WGF_event.1
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	
+	
+	focus = {
+		id = WGF_focus_ideals_of_revolution
+		x = 6
+		y = 0
+		icon = GFX_focus_WGF_ideals_of_revolution
+		
+		available = {
+			hidden_trigger = {
+				has_completed_focus = WGF_focus_protect_the_revolution
+			}
+		}
+		
+		allow_branch = { has_completed_focus = WGF_focus_protect_the_revolution }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_forget_about_island
+		x = -2
+		y = 1
+		relative_position_id = WGF_focus_ideals_of_revolution
+		icon = GFX_focus_WGF_forget_about_island
+		prerequisite = { focus = WGF_focus_ideals_of_revolution }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_socialist_realism
+		x = -2
+		y = 1
+		relative_position_id = WGF_focus_forget_about_island
+		icon = GFX_focus_WGF_socialist_realism
+		prerequisite = { focus = WGF_focus_forget_about_island }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_peoples_object_show
+		y = 1
+		relative_position_id = WGF_focus_socialist_realism
+		icon = GFX_focus_WGF_peoples_object_show
+		prerequisite = { focus = WGF_focus_socialist_realism }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			country_event = bfdinews.3
+			add_ideas = idea_WGF_peoples_object_show
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_development_of_theory
+		x = 2
+		y = 1
+		relative_position_id = WGF_focus_ideals_of_revolution
+		icon = GFX_focus_WGF_development_of_theory
+		prerequisite = { focus = WGF_focus_ideals_of_revolution }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_investigation
+		y = 1
+		relative_position_id = WGF_focus_forget_about_island
+		icon = GFX_focus_WGF_investigation
+		prerequisite = { focus = WGF_focus_forget_about_island }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			country_event = WGF_event.2
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_trial_over_leafy
+		x = -1
+		y = 2
+		relative_position_id = WGF_focus_investigation
+		icon = GFX_focus_WGF_trial_over_leafy
+		prerequisite = { focus = WGF_focus_investigation }
+		prerequisite = { focus = WGF_focus_peoples_object_show }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			country_event = WGF_event.3
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_different_but_united
+		y = 1
+		relative_position_id = WGF_focus_development_of_theory
+		icon = GFX_focus_WGF_different_but_united
+		prerequisite = { focus = WGF_focus_development_of_theory }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			add_ideas = idea_WGF_socialist_front
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_our_struggling_friends
+		x = -1
+		y = 1
+		relative_position_id = WGF_focus_different_but_united
+		icon = GFX_focus_WGF_our_struggling_friends
+		prerequisite = { focus = WGF_focus_different_but_united }
+		mutually_exclusive = { focus = WGF_focus_the_offer }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			country_event = WGF_event.4
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_the_offer
+		x = 1
+		y = 1
+		relative_position_id = WGF_focus_different_but_united
+		icon = GFX_focus_WGF_the_offer
+		prerequisite = { focus = WGF_focus_different_but_united }
+		mutually_exclusive = { focus = WGF_focus_our_struggling_friends }
+		
+		available = { GPG = { communism > 0.3 } }
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			GPG = { country_event = WGF_event.5 }
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_declare_our_goal
+		x = 3
+		y = 1
+		relative_position_id = WGF_focus_trial_over_leafy
+		icon = GFX_focus_WGF_declare_our_goal
+		prerequisite = { focus = WGF_focus_trial_over_leafy }
+		prerequisite = { focus = WGF_focus_the_offer focus =  WGF_focus_our_struggling_friends}
+		
+		available = {
+			date > 2015.03.01
+		}
+		
+		cost = 10
+		
+		ai_will_do = {
+        base = 5
+		}
+		
+		completion_reward = {
+			country_event = bfdinews.4
 		}
 	}
 }
