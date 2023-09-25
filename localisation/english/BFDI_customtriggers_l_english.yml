@@ -1,3 +1,7 @@
 ﻿l_english:
  l_GOI_congratulate_the_winner_ct: "Contest is finished"
  l_GOI_all_is_good_ct: "All is good"
+ l_decisions_WGF_ute: "Help sended at least §Y5§! times"
+ 
+ decision_cost_ie_500_pp_50: "£infantry_equipment_text_icon §Y500§!  £pol_power  §Y50§!"
+ decision_cost_ie_500_pp_50_blocked: "£infantry_equipment_text_icon §R500§!  £pol_power  §R50§!"

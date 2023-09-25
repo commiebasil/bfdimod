@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_decisions_WGF_our_snowy_friends_map"
+		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_our_snowy_friends_map.dds"
+	}
+}

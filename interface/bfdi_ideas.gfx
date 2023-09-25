@@ -41,6 +41,10 @@ spriteTypes = {
 		name = GFX_idea_WGF_socialist_front
 		texturefile = gfx/interface/ideas/idea_WGF_socialist_front.dds
 	}
+	spriteType = {
+		name = GFX_idea_WGF_experience_of_snowy_anarchists
+		texturefile = gfx/interface/ideas/idea_WGF_experience_of_snowy_anarchists.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_DPZ_defenders_on_paper

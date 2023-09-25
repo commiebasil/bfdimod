@@ -1,0 +1,70 @@
+decisions_WGF_our_snowy_friends_category = {
+	decision_WGF_send_500_inf_eq = {
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 499
+			}
+			has_political_power > 49
+		}
+		custom_cost_text = decision_cost_ie_500_pp_50
+		days_re_enable = 20
+		days_remove = 50
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -50
+				add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = -500
+				}
+			}
+		}
+		remove_effect = {
+			FFT = {
+				random_list = {
+					50 = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 200
+							producer = WGF
+						}
+					}
+					30 = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 300
+							producer = WGF
+						}
+					}
+					15 = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 450
+							producer = WGF
+						}
+					}
+					5 = {
+						
+					}
+				}
+				add_to_variable = { var_times_sended = 1 }
+			}
+		}
+	}
+	decisions_WGF_our_snowy_friends_use_their_experience = {
+		cost = 100
+		days_re_enable = 180
+		days_remove = 20
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_decisions_WGF_ute
+				check_variable = { var_times_sended > 4 }
+			}
+		}
+		remove_effect = {
+			add_timed_idea = {
+				idea = idea_WGF_experience_of_snowy_anarchists
+				days = 180
+			}
+		}
+	}
+}

@@ -5,7 +5,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				political_power_gain = 0.25
-				conscription_factor = 0.02
+				conscription = 0.02
 			}
 		}
 		idea_WGF_peoples_object_show = {
@@ -20,6 +20,15 @@ ideas = {
 			modifier = {
 				communism_acceptance = 50
 				party_popularity_stability_factor = 0.1
+			}
+		}
+		idea_WGF_experience_of_snowy_anarchists = {
+			picture = WGF_experience_of_snowy_anarchists
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.05
+				army_org_factor = -0.05
+				army_speed_factor = 0.05
 			}
 		}
 	}

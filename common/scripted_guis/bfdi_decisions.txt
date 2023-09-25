@@ -1,0 +1,7 @@
+scripted_gui = {
+	decision_WGF_our_snowy_friends_scriptedgui = {
+		window_name = our_snowy_friends_container
+		context_type = decision_category
+		parent_window_token = decision_tab
+	}
+}
