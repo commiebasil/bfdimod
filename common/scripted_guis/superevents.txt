@@ -1,0 +1,27 @@
+scripted_gui = {
+	bfdi_superevents_scriptedgui = {
+		window_name = "bfdi_superevent_container"
+		context_type = player_context
+
+		visible = {
+			has_global_flag = superevent_visible
+		}
+		
+		triggers = {
+			superevent_dream_island_dissapear_visible = {
+				has_global_flag = superevent_dream_island_dissapear
+			}
+		}
+		
+		effects = {
+			button_click = {
+				clr_global_flag = superevent_visible
+				
+				if = {
+					limit = { has_global_flag = superevent_dream_island_dissapear }
+					clr_global_flag = superevent_dream_island_dissapear
+				}
+			}
+		}
+	}
+}

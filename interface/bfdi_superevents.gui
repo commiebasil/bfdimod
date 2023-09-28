@@ -1,0 +1,50 @@
+guiTypes = {
+	containerWindowType = {
+		name = bfdi_superevent_container
+		size = { width = 750 height = 503 }
+		position = { x = -20 y = 0 }
+		orientation = center
+		origo = center
+		moveable = no
+		click_to_front = no
+		clipping = no
+		
+		iconType = {
+			name = superevent_dream_island_dissapear
+			spriteType = GFX_superevent_dream_island_dissapear
+			position = { x = 32 y = 30 }
+		}
+		
+		iconType = {
+			name = window
+			spriteType = GFX_superevent_window
+			position = { x = 0 y = 0 }
+		}
+		
+		instantTextboxType = {
+			name = title
+			font = hoi_30header
+			position = { x = 125 y = 40 }
+			format = centre
+			maxWidth = 500
+			text = [SUPEREVENTS_TITLE]
+		}
+		
+		instantTextboxType = {
+			name = desc
+			font = hoi_20bs
+			position = { x = 380 y = 260 }
+			maxWidth = 350
+			text = [SUPEREVENTS_DESC]
+		}
+		
+		buttonType = {
+			name = button
+			spriteType = GFX_button_221x34
+			position = { x = 250 y = 415 }
+			clicksound = click_close
+			buttonText = [SUPEREVENTS_BUTTON]
+			buttonFont = "hoi_20bs"
+		}
+	}
+}

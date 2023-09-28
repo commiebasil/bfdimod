@@ -1,0 +1,29 @@
+defined_text = {
+	name = SUPEREVENTS_TITLE
+	text = {
+		trigger = {
+			has_global_flag = superevent_dream_island_dissapear
+		}
+		localization_key = BFDI_superevent_dream_island_dissapear_title
+	}
+}
+
+defined_text = {
+	name = SUPEREVENTS_DESC
+	text = {
+		trigger = {
+			has_global_flag = superevent_dream_island_dissapear
+		}
+		localization_key = BFDI_superevent_dream_island_dissapear_desc
+	}
+}
+
+defined_text = {
+	name = SUPEREVENTS_BUTTON
+	text = {
+		trigger = {
+			has_global_flag = superevent_dream_island_dissapear
+		}
+		localization_key = BFDI_superevent_dream_island_dissapear_button
+	}
+}

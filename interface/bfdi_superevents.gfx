@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_superevent_window
+		texturefile = gfx/interface/superevent_window.dds
+	}
+	
+	spriteType = {
+		name = GFX_superevent_dream_island_dissapear
+		texturefile = gfx/superevents/superevent_dream_island_dissapear.dds
+	}
+}
