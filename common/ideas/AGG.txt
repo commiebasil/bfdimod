@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		idea_AGG_revenge = {
 			picture = AGG_revenge
-			modifiers = {
+			modifier = {
 				political_power_gain = 0.25
 				war_support_factor = 0.05
 			}

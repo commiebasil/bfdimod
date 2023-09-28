@@ -24,6 +24,7 @@ characters = {
 			idea_token = idea_WGF_firey
 			ledger = army
 			traits = { army_chief_offensive_2 }
+			cost = 200
 		}
 	}
 	
@@ -46,6 +47,18 @@ characters = {
 			idea_token = idea_WGF_cake
 			ledger = army
 			traits = { silent_workhorse }
+		}
+	}
+	
+	WGF_calculator = {
+		name = WGF_calculator
+		portraits = { civilian = { small = GFX_idea_WGF_calculator } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_WGF_calculator
+			ledger = army
+			traits = { captain_of_industry }
+			available = { has_completed_focus = WGF_focus_quarterly_planning }
 		}
 	}
 }

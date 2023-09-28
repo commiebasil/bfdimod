@@ -14,7 +14,7 @@ focus_tree = {
 	continuous_focus_position = { x = 1200 y = 100 }
 	
 	initial_show_position = { 
-		focus = GOI_continue_contest
+		focus = GOI_focus_continue_contest
 	}
 	
 	focus = {

@@ -86,5 +86,65 @@ country_event = {
     
     option = {
 		name = WGF_event.6.a
+		hidden_effect = {
+			every_other_country = {
+				limit = { NOT = { tag = EMP } }
+				declare_war_on = {
+					target = WGF
+					type = annex_everything
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = WGF_event.7
+	title = WGF_event.7.t
+    desc = WGF_event.7.desc
+	picture = GFX_WGF_event7
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.7.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 426
+			producer = GMD
+		}
+		add_war_support = 0.05
+	}
+}
+
+country_event = {
+	id = WGF_event.8
+	title = WGF_event.8.t
+    desc = WGF_event.8.desc
+	picture = GFX_WGF_event8
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.8.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -426
+		}
+		add_war_support = -0.05
+	}
+}
+
+country_event = {
+	id = WGF_event.9
+	title = WGF_event.9.t
+    desc = WGF_event.9.desc
+	picture = GFX_WGF_event9
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.9.a
+		add_war_support = 0.02
 	}
 }

@@ -67,62 +67,77 @@ scripted_gui = {
 				if = {
 					limit = { check_variable = { country_select_var = 1 } }
 					WGF = { change_tag_from = GOI }
+					goto_state = 177
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 2 } }
 					GMD = { change_tag_from = GOI }
+					goto_state = 173
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 3 } }
 					TBT = { change_tag_from = GOI }
+					goto_state = 168
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 4 } }
 					DPZ = { change_tag_from = GOI }
+					goto_state = 186
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 5 } }
 					NRR = { change_tag_from = GOI }
+					goto_state = 170
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 6 } }
 					SEC = { change_tag_from = GOI }
+					goto_state = 187
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 7 } }
 					GPR = { change_tag_from = GOI }
+					goto_state = 193
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 8 } }
 					GPG = { change_tag_from = GOI }
+					goto_state = 206
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 9 } }
 					SRR = { change_tag_from = GOI }
+					goto_state = 202
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 10 } }
 					BUN = { change_tag_from = GOI }
+					goto_state = 85
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 11 } }
 					GGR = { change_tag_from = GOI }
+					goto_state = 15
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 12 } }
 					FFT = { change_tag_from = GOI }
+					goto_state = 169
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 13 } }
 					GTR = { change_tag_from = GOI }
+					goto_state = 209
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 14 } }
 					AGG = { change_tag_from = GOI }
+					goto_state = 183
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 15 } }
 					SGD = { change_tag_from = GOI }
+					goto_state = 175
 				}
 				GOI = {
 					every_owned_state = { 

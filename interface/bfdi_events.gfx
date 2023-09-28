@@ -59,6 +59,26 @@ SpriteTypes = {
 		texturefile = gfx/event_pictures/WGF_event5.dds
 	}
 	
+	spriteType = {
+		name = GFX_WGF_event6
+		texturefile = gfx/event_pictures/WGF_event6.dds
+	}
+	
+	spriteType = {
+		name = GFX_WGF_event7
+		texturefile = gfx/event_pictures/WGF_event7.dds
+	}
+	
+	spriteType = {
+		name = GFX_WGF_event8
+		texturefile = gfx/event_pictures/WGF_event8.dds
+	}
+	
+	spriteType = {
+		name = GFX_WGF_event9
+		texturefile = gfx/event_pictures/WGF_event9.dds
+	}
+	
 	
 	spriteType = {
 		name = GFX_bfdinews1

@@ -60,3 +60,39 @@
  WGF_focus_declare_our_goal: "Declare our goal"
  WGF_focus_declare_our_goal_desc: "Now that we have thoroughly prepared, our revolution can openly announce its inevitable spread throughout Goiky. The time has come to start a liberation campaign against the reactionaries!"
  
+ WGF_focus_ready_for_work_and_defense: "Ready for work and defense!"
+ WGF_focus_ready_for_work_and_defense_desc: "There cannot be a state without industry and without an army, much less a socialist state! The transformation plan drawn up by our government will lead the communities of Northern Goiky to prosperity and convince all our opponents of the undeniable superiority of socialism!"
+ 
+ WGF_focus_machines_for_objects: "Machines"
+ WGF_focus_machines_for_objects_desc: "The industry of North-Goikyland is in a deplorable situation. It is necessary to rapidly industrialize by leaps and bounds, even if this means opening workshops in the open air."
+ 
+ WGF_focus_socialist_army: "Red army"
+ WGF_focus_socialist_army_desc: "A state without an army is like an object without hands; it is absolutely unable to stand up for itself. Moreover, a socialist state needs an army more than ever. The objects of old Goiky did not need an army due to the nature of their society, but today the army is the key to the survival of any regime."
+ 
+ WGF_focus_rifles_for_objects: "Rifles"
+ WGF_focus_rifles_for_objects_desc: "The army needs weapons, and weapons are impossible without industry. Thus, the army and industry are inextricably linked. The development of the military industry is also a necessary condition for the survival of our people's state."
+ 
+ WGF_focus_all_objects_serving: "All objects serve"
+ WGF_focus_all_objects_serving_desc: "All objects with upper limbs must undergo compulsory service in our socialist army. We need to achieve at least three times the initiative over the enemy to win."
+ 
+ WGF_focus_challenge_coiny: "Challenge Coiny"
+ WGF_focus_challenge_coiny_desc: "A bold idea arose in the ranks of the generals: to cross the border 'a little' and provoke a conflict with their border guards. If we succeed, we will receive not only experience, but also a significant amount of supplies."
+ 
+ WGF_focus_industrialization_of_steppes: "Industrialization of the steppes"
+ WGF_focus_industrialization_of_steppes_desc: "60% of our territory is the Western Goiky Desert. The development of this territory by our industry will not hinder us in any way; moreover, there are significant reserves of fuel there."
+ 
+ WGF_focus_quarterly_planning: "Quarterly planning"
+ WGF_focus_quarterly_planning_desc: "A separate ministry of planning will be created to create policy plans for economic development."
+ 
+ WGF_focus_science_expansion: "Science expansion"
+ WGF_focus_science_expansion_desc: "Science is the basis for the development of productive forces. It is necessary and vital to develop this industry."
+ 
+ WGF_focus_revolutionary_tactics: "Revolutionary tactics"
+ WGF_focus_revolutionary_tactics_desc: "In pre-anarchic Goiky, no one thought about military tactics and strategy, but today we need their development like air."
+ 
+ WGF_focus_socialist_economic_miracle: "Socialist economic miracle"
+ WGF_focus_socialist_economic_miracle_desc: "A year ago, North-Goikyland was a virtual desert, but today it is the economic center of all of North Goiky! Such heights were achieved solely thanks to our socialist economy and the courage of our objects."
+ 
+ WGF_focus_operation_coinflip: "§YCOINFLIP§!"
+ WGF_focus_operation_coinflip_desc: "We do not have time to wait for the reactionaries themselves to shed water on our socialist fire. A preemptive strike against counter-revolution is the best solution. The Coiny junta in the east will be the first target of our Red Army."
+ 

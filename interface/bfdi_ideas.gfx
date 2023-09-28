@@ -45,6 +45,18 @@ spriteTypes = {
 		name = GFX_idea_WGF_experience_of_snowy_anarchists
 		texturefile = gfx/interface/ideas/idea_WGF_experience_of_snowy_anarchists.dds
 	}
+	spriteType = {
+		name = GFX_idea_WGF_red_army
+		texturefile = gfx/interface/ideas/idea_WGF_red_army.dds
+	}
+	spriteType = {
+		name = GFX_idea_WGF_calculator
+		texturefile = gfx/interface/ideas/idea_WGF_calculator.dds
+	}
+	spriteType = {
+		name = GFX_idea_WGF_economical_devastation
+		texturefile = gfx/interface/ideas/idea_WGF_economical_devastation.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_DPZ_defenders_on_paper

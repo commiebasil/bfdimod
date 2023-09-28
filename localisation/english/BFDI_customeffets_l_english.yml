@@ -6,3 +6,6 @@
  l_GOI_event6_ce: "§RGoiky falls into anarchy...§!"
  tt_GOI_event_8: "§YThe selection interface will open!§!"
  tt_GOI_event_7: "§RThe population from the central regions begins to flock to the outskirts...§!"
+ l_WGF_focus_all_objects_serving: "Modifies §YRed army§! idea by:\n- §G2%§! conscription"
+ l_WGF_operation_coinflip: "§YBattle for Goiky begins!§!"
+ l_WGF_better_situation_with_crisis: "§GWill improve the situation with devastation!§!"

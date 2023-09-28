@@ -1,0 +1,17 @@
+idea_WGF_red_army = {
+	icon = GFX_idea_WGF_red_army
+	
+	army_org_factor = 0.05
+	political_power_gain = 0.25
+	conscription = var_idea_WGF_red_army_conscription
+}
+
+idea_WGF_economical_devastation = {
+	icon = GFX_idea_WGF_economical_devastation
+	
+	consumer_goods_factor = var_WGF_economical_devastation_cgf
+	production_speed_buildings_factor = var_WGF_economical_devastation_sbf
+	production_factory_efficiency_gain_factor = var_WGF_economical_devastation_egf
+	political_power_gain = -0.25
+	research_speed_factor = var_WGF_economical_devastation_rsf
+}

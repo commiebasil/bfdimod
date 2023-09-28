@@ -49,6 +49,7 @@ focus_tree = {
 		
 		completion_reward = {
 			177 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
 					level = 1
@@ -309,6 +310,317 @@ focus_tree = {
 		
 		completion_reward = {
 			country_event = bfdinews.4
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	
+	
+	focus = {
+		id = WGF_focus_ready_for_work_and_defense
+		x = 20
+		y = 0
+		icon = GFX_focus_WGF_ready_for_work_and_defense
+	
+		available = {
+			hidden_trigger = {
+				has_completed_focus = WGF_focus_protect_the_revolution
+			}
+		}
+		
+		allow_branch = { has_completed_focus = WGF_focus_protect_the_revolution }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_machines_for_objects
+		x = -2
+		y = 1
+		relative_position_id = WGF_focus_ready_for_work_and_defense
+		icon = GFX_focus_WGF_machines_for_objects
+		prerequisite = { focus = WGF_focus_ready_for_work_and_defense }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_better_situation_with_crisis
+			add_to_variable = { var_WGF_economical_devastation_sbf = 0.1 }
+			177 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_socialist_army
+		x = 2
+		y = 1
+		relative_position_id = WGF_focus_ready_for_work_and_defense
+		icon = GFX_focus_WGF_socialist_army
+		prerequisite = { focus = WGF_focus_ready_for_work_and_defense }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			add_war_support = 0.05
+			add_dynamic_modifier = { modifier = idea_WGF_red_army }
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_rifles_for_objects
+		x = -2
+		y = 1
+		relative_position_id = WGF_focus_socialist_army
+		icon = GFX_focus_WGF_rifles_for_objects
+		prerequisite = { focus = WGF_focus_machines_for_objects }
+		prerequisite = { focus = WGF_focus_socialist_army }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_better_situation_with_crisis
+			add_to_variable = { var_WGF_economical_devastation_egf = 0.1 }
+			177 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			167 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_all_objects_serving
+		y = 2
+		relative_position_id = WGF_focus_socialist_army
+		icon = GFX_focus_WGF_all_objects_serving
+		prerequisite = { focus = WGF_focus_socialist_army }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_focus_all_objects_serving
+			add_to_variable = { var_idea_WGF_red_army_conscription = 0.02 }
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_challenge_coiny
+		x = 1
+		y = 1
+		relative_position_id = WGF_focus_socialist_army
+		icon = GFX_focus_WGF_challenge_coiny
+		prerequisite = { focus = WGF_focus_socialist_army }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 167
+					num_of_provinces = 3
+					on_win = WGF_event.7
+					on_lose = WGF_event.8
+					on_cancel = WGF_event.9
+				}
+				defender = {
+					state = 11
+					num_of_provinces = 3
+					on_win = WGF_event.7
+					on_lose = WGF_event.8
+					on_cancel = WGF_event.9
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_industrialization_of_steppes
+		x = -1
+		y = 1
+		relative_position_id = WGF_focus_machines_for_objects
+		icon = GFX_focus_WGF_industrialization_of_steppes
+		prerequisite = { focus = WGF_focus_machines_for_objects }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			12 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_quarterly_planning
+		x = 2
+		y = 2
+		relative_position_id = WGF_focus_industrialization_of_steppes
+		icon = GFX_focus_WGF_quarterly_planning
+		prerequisite = { focus = WGF_focus_industrialization_of_steppes }
+		prerequisite = { focus = WGF_focus_rifles_for_objects }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_better_situation_with_crisis
+			add_to_variable = { var_WGF_economical_devastation_cgf = -0.05 }
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_science_expansion
+		x = 1
+		y = 1
+		relative_position_id = WGF_focus_industrialization_of_steppes
+		icon = GFX_focus_WGF_science_expansion
+		prerequisite = { focus = WGF_focus_industrialization_of_steppes }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_better_situation_with_crisis
+			add_to_variable = { var_WGF_economical_devastation_rsf = 0.15 }
+			add_research_slot = 1
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_revolutionary_tactics
+		x = -1
+		y = 1
+		relative_position_id = WGF_focus_all_objects_serving
+		icon = GFX_focus_WGF_revolutionary_tactics
+		prerequisite = { focus = WGF_focus_all_objects_serving }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = doctrine
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_socialist_economic_miracle
+		x = 1
+		y = 1
+		relative_position_id = WGF_focus_quarterly_planning
+		icon = GFX_focus_WGF_socialist_economic_miracle
+		prerequisite = { focus = WGF_focus_quarterly_planning }
+		prerequisite = { focus = WGF_focus_revolutionary_tactics }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			remove_dynamic_modifier = { modifier = idea_WGF_economical_devastation }
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_operation_coinflip
+		x = 13
+		y = 6
+		icon = GFX_focus_WGF_operation_coinflip
+	
+		available = {
+			hidden_trigger = {
+				has_completed_focus = WGF_focus_declare_our_goal
+			}
+		}
+		
+		allow_branch = { has_completed_focus = WGF_focus_declare_our_goal }
+	
+		cost = 10
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_operation_coinflip
+			hidden_effect = {
+				country_event = WGF_event.6
+			}
 		}
 	}
 }

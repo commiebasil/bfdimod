@@ -55,6 +55,22 @@
  WGF_event.5.desc: "An interesting telegram arrived from the communists in the north: They offer military and technical cooperation, which is 'much needed for both our countries in these dark years'. Although the hostility of the northerners towards our regime is obvious, we will transfer the decision on the issue to the RCC."
  WGF_event.5.a: "Under pressure from the left faction, the proposal passes."
  
+ WGF_event.6.t: "That's all for now"
+ WGF_event.6.desc: "For now the demo ends here. Thanks for playing! Work on the mod continues and I will try to make more playable sides in the future. You can also participate in the development by contacting me on discord. All contacts are listed on the Steam page."
+ WGF_event.6.a: "Thanks!"
+ 
+ WGF_event.7.t: "Victory!"
+ WGF_event.7.desc: "The Coiny Junta has been defeated! Our border guards were successfully able to advance deep into enemy territory and capture military warehouses!"
+ WGF_event.7.a: "Take everything you can carry!"
+ 
+ WGF_event.8.t: "Defeat"
+ WGF_event.8.desc: "Our offensive stalled, and as a result, the troops of the Military District launched a counteroffensive and captured some of our warehouses. This is a heavy defeat for our young armed forces and the objects of northern Goiky."
+ WGF_event.8.a: "We will take revenge later"
+ 
+ WGF_event.9.t: "Negotiations"
+ WGF_event.9.desc: "Although we achieved some successes, the operation eventually floundered and the front stopped. In this regard, negotiations began and the conflict ended in a draw."
+ WGF_event.9.a: "Good."
+ 
  #NEWS
  bfdinews.1.t: "Firey wons Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result of the vote. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."
