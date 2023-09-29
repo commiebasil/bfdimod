@@ -34,6 +34,12 @@ set_popularities = {
 
 country_lock_all_division_template = yes
 
+country_event = {
+	id = GOI_event.5
+	days = 114
+	random_hours = 12
+}
+
 set_stability = 0
 set_war_support = 0
 

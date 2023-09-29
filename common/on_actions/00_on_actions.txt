@@ -9,4 +9,15 @@ on_actions = {
 			set_global_flag = welcome
 		}
 	}
+	
+	on_capitulation_immediate = {
+		effect = {
+			FROM = {
+				annex_country = {
+					target = ROOT
+					transfer_troops = no
+				}
+			}
+		}
+	}
 }

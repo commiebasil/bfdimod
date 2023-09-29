@@ -24,6 +24,13 @@ focus_tree = {
 		icon = GFX_focus_GOI_continue_contest
 		cost = 2
 		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GOI_all_is_good_ct
+				NOT = { has_global_flag = island_dissapeared }
+			}
+		}
+		
 		completion_reward = {
 			add_political_power = 15
 			country_event = GOI_event.1
@@ -37,6 +44,13 @@ focus_tree = {
 		icon = GFX_focus_GOI_final_four
 		cost = 5
 		prerequisite = { focus = GOI_focus_continue_contest }
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GOI_all_is_good_ct
+				NOT = { has_global_flag = island_dissapeared }
+			}
+		}
 		
 		completion_reward = {
 			custom_effect_tooltip = l_GOI_final_four_ce
@@ -53,6 +67,13 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = GOI_focus_final_four }
 		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GOI_all_is_good_ct
+				NOT = { has_global_flag = island_dissapeared }
+			}
+		}
+		
 		completion_reward = {
 			custom_effect_tooltip = l_GOI_viewers_will_decide_ce
 			add_stability = 0.05
@@ -62,11 +83,6 @@ focus_tree = {
 				news_event = {
 					id = bfdinews.1
 					days = 10
-					random_hours = 12
-				}
-				country_event = {
-					id = GOI_event.5
-					days = 30
 					random_hours = 12
 				}
 			}
