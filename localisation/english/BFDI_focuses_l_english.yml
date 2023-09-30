@@ -96,3 +96,8 @@
  WGF_focus_operation_coinflip: "§YCOINFLIP§!"
  WGF_focus_operation_coinflip_desc: "We do not have time to wait for the reactionaries themselves to shed water on our socialist fire. A preemptive strike against counter-revolution is the best solution. The Coiny junta in the east will be the first target of our Red Army."
  
+ #generic
+ generic_focus_industry: "Industry expansion"
+ generic_focus_army: "Army"
+ generic_focus_researches: "Technologies"
+ 

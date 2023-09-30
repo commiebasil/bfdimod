@@ -1,6 +1,12 @@
 version="1.0"
 tags={
 	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Graphics"
+	"Map"
+	"National Focuses"
+	"Sound"
 }
 name="Troubles in Goiky: a BFDI-Based HOI4 mod [WIP]"
 replace_path="common/ai_equipment"
@@ -34,3 +40,4 @@ replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="gfx/loadingscreens"
 supported_version="1.12.*"
+remote_file_id="3042998674"

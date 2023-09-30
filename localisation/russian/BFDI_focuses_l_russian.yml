@@ -95,3 +95,8 @@
  
  WGF_focus_operation_coinflip: "§YКОИНФЛИП§!"
  WGF_focus_operation_coinflip_desc: "У нас нет времени ожидать, когда реакционеры сами прольют воду на наш социалистический огонь. Превентивный удар по контрреволюции - лучшее решение. Хунта Койни на востоке будет первой целью нашей Красной Армии."
+ 
+ #generic
+ generic_focus_industry: "Развитие промышленности"
+ generic_focus_army: "Армия"
+ generic_focus_researches: "Технологии"
