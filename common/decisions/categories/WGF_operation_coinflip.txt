@@ -1,0 +1,11 @@
+decision_WGF_operation_coinflip_category = {
+	allowed = { tag = WGF }
+	visible = { 
+		has_completed_focus = WGF_focus_operation_coinflip 
+		NOT = { has_country_flag = WGF_stage1_ended }
+	}
+	priority = 15
+	icon = decision_category_operation_coinflip
+	visible_when_empty = yes
+	scripted_gui = decision_WGF_operation_coinflip_scriptedgui
+}

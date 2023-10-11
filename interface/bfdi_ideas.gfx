@@ -57,6 +57,10 @@ spriteTypes = {
 		name = GFX_idea_WGF_economical_devastation
 		texturefile = gfx/interface/ideas/idea_WGF_economical_devastation.dds
 	}
+	spriteType = {
+		name = GFX_idea_WGF_backpack
+		texturefile = gfx/interface/ideas/idea_WGF_backpack.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_DPZ_defenders_on_paper

@@ -86,15 +86,6 @@ country_event = {
     
     option = {
 		name = WGF_event.6.a
-		hidden_effect = {
-			every_other_country = {
-				limit = { NOT = { tag = EMP } }
-				declare_war_on = {
-					target = WGF
-					type = annex_everything
-				}
-			}
-		}
 	}
 }
 
@@ -146,5 +137,117 @@ country_event = {
     option = {
 		name = WGF_event.9.a
 		add_war_support = 0.02
+	}
+}
+
+country_event = {
+	id = WGF_event.10
+	title = WGF_event.10.t
+    desc = WGF_event.10.desc
+	picture = GFX_WGF_event10
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.10.a
+		add_equipment_to_stockpile = {
+			type = transport_ship
+			amount = -10
+		}
+		hidden_effect = {
+			random_list = {
+				70 = {
+					country_event = {
+					 id = WGF_event.11
+					 days = 30
+					 random_days = 5
+					 random_hours = 12
+					}
+				}
+				30 = {
+					country_event = {
+						id = WGF_event.12
+						days = 30
+						random_days = 5
+						random_hours = 12
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = WGF_event.10.b
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = WGF_event.11
+	title = WGF_event.11.t
+    desc = WGF_event.11.desc
+	picture = GFX_WGF_event11
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.11.a
+		custom_effect_tooltip = l_WGF_event11
+		set_country_flag = WGF_expeditors_resсued
+	}
+}
+
+country_event = {
+	id = WGF_event.12
+	title = WGF_event.12.t
+    desc = WGF_event.12.desc
+	picture = GFX_WGF_event12
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.12.a
+		add_political_power = -25
+	}
+}
+
+country_event = {
+	id = WGF_event.13
+	title = WGF_event.13.t
+    desc = WGF_event.13.desc
+	picture = GFX_WGF_event13
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.13.a
+		add_stability = -0.05
+		add_war_support = -0.05
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = WGF_event.14
+	title = WGF_event.14.t
+    desc = WGF_event.14.desc
+	picture = GFX_WGF_event14
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.14.a
+	}
+}
+
+country_event = {
+	id = WGF_event.15
+	title = WGF_event.15.t
+    desc = WGF_event.15.desc
+	picture = GFX_WGF_event15
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.15.a
 	}
 }

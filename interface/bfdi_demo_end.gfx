@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_demo_end_wgf_image"
+		textureFile = gfx/interface/demo_end_wgf_image.dds
+	}
+	
+	spriteType = {
+		name = "GFX_demo_end_wgf_item"
+		textureFile = gfx/interface/demo_end_wgf_item.dds
+	}
+	
+	spriteType = {
+		name = "GFX_demo_end_button_discord"
+		textureFile = gfx/interface/demo_end_button_discord.dds
+		noOfFrames = 1
+		effectFile = gfx/FX/buttonstate.lua
+	}
+}

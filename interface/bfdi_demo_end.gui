@@ -1,0 +1,95 @@
+guiTypes = {
+	containerWindowType = {
+		name = "demoend_window"
+		position = { x = -550 y = -300 }
+		size = { width = 1000 height = 600 }
+		moveable = yes
+		orientation = CENTER
+		
+		background = {
+			name = "bg"
+			spriteType = GFX_tiled_window
+		}
+		
+		containerWindowType = {
+			name = "image_bg_container"
+			position = { x = 20 y = 15 }
+			size = { width = 300 height = 571 }
+			
+			background = {
+				name = "image_bg"
+				spriteType = GFX_tiled_bg
+			}
+		}
+		
+		iconType = {
+			name = "image"
+			spriteType = GFX_demo_end_wgf_image
+			position = { x = 33 y = 28 }
+		}
+		
+		iconType = {
+			name = "item"
+			spriteType = GFX_demo_end_wgf_item
+			position = { x = 150 y = 400 }
+		}
+		
+		containerWindowType = {
+			name = "title_bg_container"
+			position = { x = 350 y = 25 }
+			size = { width = 600 height = 100 }
+			
+			background = {
+				name = "title_bg"
+				spriteType = GFX_tiled_paper_bg2
+			}
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			text = [DEMO_END_TITLE]
+			font = hoi_30header
+			position = { x = 150 y = 60 }
+			format = centre
+			maxWidth = 1000
+			maxHeight = 100
+		}
+		
+		containerWindowType = {
+			name = "text_bg_container"
+			position = { x = 350 y = 140 }
+			size = { width = 600 height = 390 }
+			
+			background = {
+				name = "text_bg"
+				spriteType = GFX_tiled_paper_bg2
+			}
+		}
+		
+		instantTextBoxType = {
+			name = "text"
+			text = demo_end_text
+			font = hoi_20bs
+			position = { x = 400 y = 150 }
+			format = centre
+			maxWidth = 500
+			maxHeight = 100
+		}
+		
+		buttonType = {
+			name = "button"
+			spriteType = GFX_button_261x34
+			position = { x = 515 y = 542 }
+			text = demo_end_button_text
+			font = hoi_18mbs
+		}
+		
+		buttonType = {
+			name = "button_discord"
+			spriteType = GFX_demo_end_button_discord
+			position = { x = 600 y = 435 }
+			pdx_tooltip = "MENU_DISCORD_TIG"
+			web_link = "https://discord.gg/3Z5EjJVDux"
+		}
+	}
+}

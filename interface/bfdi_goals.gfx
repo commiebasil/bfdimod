@@ -165,8 +165,38 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_focus_WGF_socialist_economic_miracle.dds"
 	}
 	
-	spriteType = {
+	frameAnimatedSpriteType = {
 		name = "GFX_focus_WGF_operation_coinflip"
 		texturefile = "gfx/interface/goals/GFX_focus_WGF_operation_coinflip.dds"
+		noOfFrames = 12
+		animation_rate_fps = 8
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_deploy_the_army"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_deploy_the_army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_mass_propaganda"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_mass_propaganda.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_barriers_and_pitfalls"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_barriers_and_pitfalls.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_send_saboteurs"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_send_saboteurs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_WGF_flip_the_coin"
+		texturefile = "gfx/interface/goals/GFX_focus_WGF_flip_the_coin.dds"
 	}
 }

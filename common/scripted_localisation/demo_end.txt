@@ -1,0 +1,7 @@
+defined_text = {
+	name = DEMO_END_TITLE
+	text = {
+		trigger = { original_tag = WGF }
+		localization_key = demo_end_WGF_title
+	}
+}

@@ -1,0 +1,13 @@
+spriteTypes = {
+    spriteType = {
+      name = "GFX_radio_station_cover_superevents"
+      textureFile = "gfx/interface/radio_station_cover_superevents.dds"
+      noOfFrames = 2
+    }
+	
+	spriteType = {
+      name = "GFX_radio_station_cover_bfdi_music"
+      textureFile = "gfx/interface/radio_station_cover_bfdi_music.dds"
+      noOfFrames = 2
+    }
+}

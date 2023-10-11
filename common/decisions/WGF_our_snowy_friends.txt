@@ -19,6 +19,7 @@ decisions_WGF_our_snowy_friends_category = {
 			}
 		}
 		remove_effect = {
+			add_to_variable = { var_times_sended = 1 }
 			FFT = {
 				random_list = {
 					50 = {
@@ -46,7 +47,6 @@ decisions_WGF_our_snowy_friends_category = {
 						
 					}
 				}
-				add_to_variable = { var_times_sended = 1 }
 			}
 		}
 	}

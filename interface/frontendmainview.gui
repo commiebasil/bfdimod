@@ -425,7 +425,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "homepage_button"
-			position = { x=-24 y=0 }
+			position = { x=-24000 y=0 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
@@ -433,7 +433,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "forum_button"
-			position = { x=12 y=0 }
+			position = { x=12000 y=0 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
@@ -442,7 +442,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "facebook_button"
-			position = { x=48 y=0 }
+			position = { x=48000 y=0 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
@@ -451,7 +451,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "twitter_button"
-			position = { x=84 y=0 }
+			position = { x=84000 y=0 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
@@ -460,7 +460,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "instagram_button"
-			position = { x=120 y=0 }
+			position = { x=12000 y=0 }
 			quadTextureSprite ="instagram"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_INSTAGRAM"
@@ -469,17 +469,17 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "discord_button"
-			position = { x=156 y=0 }
+			position = { x=80 y=0 }
 			quadTextureSprite ="discord"
 			#clicksound = click_default
-			pdx_tooltip = "MENU_DISCORD"
-			web_link = "https://discord.gg/hoi4"
+			pdx_tooltip = "MENU_DISCORD_TIG"
+			web_link = "https://discord.gg/3Z5EjJVDux"
 			scale = 0.9
 		}
 
 		ButtonType = {
 			name = "youtube_button"
-			position = { x=192 y=0 }
+			position = { x=19200 y=0 }
 			quadTextureSprite ="youtube"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_YOUTUBE"
@@ -488,7 +488,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "privacy_policy_button"
-			position = { x=228 y=0 } 
+			position = { x=115 y=0 } 
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"

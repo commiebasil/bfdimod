@@ -1,0 +1,92 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "custom_diff_strong_wgf"
+		modifier = diff_strong_ai_generic
+		countries = { WGF }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_gmd"
+		modifier = diff_strong_ai_generic
+		countries = { GMD }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_tbt"
+		modifier = diff_strong_ai_generic
+		countries = { TBT }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_dpz"
+		modifier = diff_strong_ai_generic
+		countries = { DPZ }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_nrr"
+		modifier = diff_strong_ai_generic
+		countries = { NRR }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_sec"
+		modifier = diff_strong_ai_generic
+		countries = { SEC }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_gpr"
+		modifier = diff_strong_ai_generic
+		countries = { GPR }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_gpg"
+		modifier = diff_strong_ai_generic
+		countries = { GPG }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_srr"
+		modifier = diff_strong_ai_generic
+		countries = { SRR }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_bun"
+		modifier = diff_strong_ai_generic
+		countries = { BUN }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_ggr"
+		modifier = diff_strong_ai_generic
+		countries = { GGR }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_fft"
+		modifier = diff_strong_ai_generic
+		countries = { FFT }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_gtr"
+		modifier = diff_strong_ai_generic
+		countries = { GTR }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_sgd"
+		modifier = diff_strong_ai_generic
+		countries = { SGD }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_agg"
+		modifier = diff_strong_ai_generic
+		countries = { AGG }
+		multiplier = 2.0
+	}
+}

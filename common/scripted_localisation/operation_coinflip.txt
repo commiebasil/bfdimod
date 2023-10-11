@@ -1,0 +1,38 @@
+defined_text = {
+	name = OC_CLOSENESS
+	text = {
+		trigger = {
+			check_variable = { var_WGF_war_closeness < 30 }
+		}
+		localization_key = decisions_WGF_coinflip_closeness_low
+	}
+	text = {
+		trigger = {
+			AND = { 
+				check_variable = { var_WGF_war_closeness > 29 }
+				check_variable = { var_WGF_war_closeness < 70 }
+			}
+		}
+		localization_key = decisions_WGF_coinflip_closeness_medium
+	}
+	
+	text = {
+		trigger = {
+				check_variable = { var_WGF_war_closeness > 69 }
+		}
+		localization_key = decisions_WGF_coinflip_closeness_high
+	}
+}
+
+defined_text = {
+	name = OC_WAR_CLOSENING_CF
+	text = {
+		trigger = {
+			WGF = { has_completed_focus = WGF_focus_operation_coinflip }
+		}
+		localization_key = l_WGF_closer_war_cf
+	}
+	text = {
+		localization_key = " "
+	}
+}

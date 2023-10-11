@@ -79,6 +79,31 @@ SpriteTypes = {
 		texturefile = gfx/event_pictures/WGF_event9.dds
 	}
 	
+	spriteType = {
+		name = GFX_WGF_event10
+		texturefile = gfx/event_pictures/WGF_event10.dds
+	}
+	
+	spriteType = {
+		name = GFX_WGF_event11
+		texturefile = gfx/event_pictures/WGF_event11.dds
+	}
+	
+	spriteType = {
+		name = GFX_WGF_event12
+		texturefile = gfx/event_pictures/WGF_event12.dds
+	}
+	
+	spriteType = {
+		name = GFX_WGF_event14
+		texturefile = gfx/event_pictures/WGF_event14.dds
+	}
+	
+	spriteType = {
+		name = GFX_WGF_event15
+		texturefile = gfx/event_pictures/WGF_event15.dds
+	}
+	
 	
 	spriteType = {
 		name = GFX_bfdinews1
@@ -98,5 +123,15 @@ SpriteTypes = {
 	spriteType = {
 		name = GFX_bfdinews4
 		texturefile = gfx/event_pictures/bfdinews4.dds
+	}
+	
+	spriteType = {
+		name = GFX_bfdinews5
+		texturefile = gfx/event_pictures/bfdinews5.dds
+	}
+	
+	spriteType = {
+		name = GFX_bfdinews6
+		texturefile = gfx/event_pictures/bfdinews6.dds
 	}
 }

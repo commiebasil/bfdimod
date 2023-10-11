@@ -3,7 +3,7 @@ characters = {
 		name = SEC_the_first
 		portraits = { civilian = { large = GFX_SEC_the_first } }
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = cultism
 			desc = SEC_the_first_desc
 		}
 	}

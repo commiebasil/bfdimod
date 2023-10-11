@@ -15,3 +15,12 @@ idea_WGF_economical_devastation = {
 	political_power_gain = -0.25
 	research_speed_factor = var_WGF_economical_devastation_rsf
 }
+
+idea_GGR_anarchists = {
+	icon = GFX_idea_GGR_anarchists
+	
+	stability_factor = var_GGR_anarchists_sf
+	political_power_gain = -0.25
+	production_speed_buildings_factor = var_GGR_anarchists_bf
+	party_popularity_stability_factor = var_GGR_anarchists_psf
+}

@@ -4,7 +4,7 @@ characters = {
 		portraits = { civilian = { large = GFX_AGG_ice_cube } }
 		country_leader = {
 			desc = AGG_ice_cube_desc
-			ideology = despotism
+			ideology = ultranationalism
 		}
 	}
 }

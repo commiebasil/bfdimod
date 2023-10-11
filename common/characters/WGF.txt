@@ -61,4 +61,17 @@ characters = {
 			available = { has_completed_focus = WGF_focus_quarterly_planning }
 		}
 	}
+	
+	WGF_backpack = {
+		name = WGF_backpack
+		portraits = { civilian = { small = GFX_idea_WGF_backpack } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_WGF_backpack
+			ledger = army
+			traits = { popular_figurehead }
+			available = { hidden_trigger = { has_country_flag = WGF_expeditors_resсued } }
+			visible = { hidden_trigger = { has_country_flag = WGF_expeditors_resсued } }
+		}
+	}
 }

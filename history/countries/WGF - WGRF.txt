@@ -44,12 +44,24 @@ recruit_character = WGF_firey
 recruit_character = WGF_fsb
 recruit_character = WGF_cake
 recruit_character = WGF_calculator
+recruit_character = WGF_backpack
 
+set_variable = { var_times_sended = 0 }
 set_variable = { var_idea_WGF_red_army_conscription = 0 }
 set_variable = { var_WGF_economical_devastation_cgf = 0.1 }
 set_variable = { var_WGF_economical_devastation_sbf = -0.25 }
 set_variable = { var_WGF_economical_devastation_egf = -0.2 }
 set_variable = { var_WGF_economical_devastation_rsf = -0.25 }
+set_variable = { var_WGF_war_closeness = 20 }
+set_variable = { var_WGF_operation_is_ready = 1 }
+
+country_event = {
+	id = WGF_event.10
+	days = 222
+	random_days = 20
+	random_hours = 12
+}
+
 
 
 

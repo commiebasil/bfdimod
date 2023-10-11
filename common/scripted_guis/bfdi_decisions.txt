@@ -5,3 +5,34 @@ scripted_gui = {
 		parent_window_token = decision_tab
 	}
 }
+
+scripted_gui = {
+	decision_WGF_operation_coinflip_scriptedgui = {
+		window_name = operation_coinflip_container
+		context_type = decision_category
+		parent_window_token = decision_tab
+		
+		triggers = {
+			button_click_enabled = {
+				check_variable = { var_WGF_war_closeness > 99 }
+				NOT = { has_country_flag = operation_prepared }
+			}
+		}
+		
+		effects = {
+			button_click = {
+				set_country_flag = operation_prepared
+				set_variable = { var_WGF_operation_is_ready = 2 }
+			}
+		}
+		
+		properties = {
+			progressbar = {
+				frame = var_WGF_war_closeness
+			}
+			coiny_icon = {
+				frame = var_WGF_operation_is_ready
+			}
+		}
+	}
+}

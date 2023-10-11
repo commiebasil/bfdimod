@@ -8,6 +8,10 @@
  WGF_DEF: "NGRF"
  WGF_ADJ: "Front"
  
+ WGF_stage2: "Goiky Socialist Republic"
+ WGF_stage2_DEF: "GSR"
+ WGF_stage2_ADJ: "Socrepublic"
+ 
  DPZ: "Dream Island Protection Zone"
  DPZ_DEF: "Zone"
  DPZ_ADJ: "Zone"

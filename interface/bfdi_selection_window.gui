@@ -165,6 +165,7 @@ guiTypes = {
 			spriteType = GFX_button_agg
 			pdx_tooltip = WR_AGG_BTTT
 		}
+		
 		instantTextBoxType = {
 			name = "countryname"
 			text = SW_COUNTRYNAME

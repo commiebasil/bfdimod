@@ -3,4 +3,64 @@ spriteTypes = {
 		name = "GFX_decisions_WGF_our_snowy_friends_map"
 		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_our_snowy_friends_map.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decisions_WGF_operation_coinflip"
+		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip.dds"
+	}
+	
+	progressbartype = {
+		name = "GFX_decisions_WGF_operation_coinflip_progressbar"
+		textureFile1 = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip_progressbar_bg.dds"
+		textureFile2 = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip_progressbar_frame.dds"
+		color = { 150 150 150 }
+		colortwo = { 143 19 19 }
+		size = {
+			x = 486
+			y = 51
+		}
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_WGF_operation_coinflip_coiny"
+		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip_coiny.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "decision_category_operation_coinflip"
+		textureFile = "gfx/interface/decisions/decision_category_operation_coinflip.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_WGF_operation_coinflip_button_bg"
+		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip_button_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_WGF_operation_coinflip_button"
+		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip_button.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_WGF_operation_coinflip_mission"
+		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip_mission.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_WGF_operation_coinflip_propaganda"
+		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip_propaganda.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_WGF_operation_coinflip_mobilization"
+		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip_mobilization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_WGF_operation_coinflip_triumph"
+		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip_triumph.dds"
+	}
 }

@@ -1,0 +1,7 @@
+soundeffect = {
+	name = bfdi_button_press
+	volume = 0.8
+	sounds = {
+		sound = bfdi_button_press
+	}
+}

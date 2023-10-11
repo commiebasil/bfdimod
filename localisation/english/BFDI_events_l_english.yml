@@ -55,9 +55,9 @@
  WGF_event.5.desc: "An interesting telegram arrived from the communists in the north: They offer military and technical cooperation, which is 'much needed for both our countries in these dark years'. Although the hostility of the northerners towards our regime is obvious, we will transfer the decision on the issue to the RCC."
  WGF_event.5.a: "Under pressure from the left faction, the proposal passes."
  
- WGF_event.6.t: "That's all for now"
- WGF_event.6.desc: "For now the demo ends here. Thanks for playing! Work on the mod continues and I will try to make more playable sides in the future. You can also participate in the development by contacting me on discord. All contacts are listed on the Steam page."
- WGF_event.6.a: "Thanks!"
+ WGF_event.6.t: "Looking East"
+ WGF_event.6.desc: "Now that the attack on the Military District was only a matter of time, many things became clear: Coiny, during his participation in the construction of the Front, initially promoted sabotage and harmful proposals. It is also possible that he was planning a military coup. In any case, it's not that important now."
+ WGF_event.6.a: "Fictitious friendship."
  
  WGF_event.7.t: "Victory!"
  WGF_event.7.desc: "The Coiny Junta has been defeated! Our border guards were successfully able to advance deep into enemy territory and capture military warehouses!"
@@ -70,6 +70,27 @@
  WGF_event.9.t: "Negotiations"
  WGF_event.9.desc: "Although we achieved some successes, the operation eventually floundered and the front stopped. In this regard, negotiations began and the conflict ended in a draw."
  WGF_event.9.a: "Good."
+ 
+ WGF_event.10.t: "Signal"
+ WGF_event.10.desc: "Our radio stations picked up a signal about a request for help, which came from North Goiky. We believe that this is an expedition that went there half of the year ago. Should we send a rescue ship?"
+ WGF_event.10.a: "Send transport vessels to the signal."
+ WGF_event.10.b: "Not really our problems."
+ 
+ WGF_event.11.t: "Successful rescue"
+ WGF_event.11.desc: "Our ships were able to successfully cross the Goyka Channel and sail to the coordinates. There we found approximately 60 objects, which were successfully transported back to the continent."
+ WGF_event.11.a: "It will be interesting to listen to their stories."
+ 
+ WGF_event.12.t: "Too late"
+ WGF_event.12.desc: "Alas, when our ships sailed to the coast, we could only find a few ration packages and traces. The fate of the group is unknown."
+ WGF_event.12.a: "Waste of time."
+ 
+ WGF_event.14.t: "Coin shine"
+ WGF_event.14.desc: "Gradually, border conflicts developed into full-fledged battles along the entire front line from the desert to the canal coast. Our troops are going on the offensive. The conflict has officially begun."
+ WGF_event.14.a: "Steady as she goes."
+ 
+ WGF_event.15.t: "Trial over Coiny"
+ WGF_event.15.desc: "- So, accused, do you admit your guilt in war crimes against the objects of Northern Goiky and against the revolution?\n- Heck you, Firey!\nThe defendant suddenly jumped out of his seat in the court room, ran up to Firey and slapped him in the face, which was followed by a retaliatory slap. Soon they were separated."
+ WGF_event.15.a: "Just like the good old days."
  
  #NEWS
  bfdinews.1.t: "Firey wons Dream Island!"
@@ -88,3 +109,11 @@
  bfdinews.4.desc: "In the new programmatic work 'Revolutionary Manifesto', the ideologists of the North Goiky Revolutionary Front announced the 'inevitable export of the revolution and its spread to the whole of Goiky'. Neighboring NGRF regimes have already regarded this as a threat and are preparing their militias."
  bfdinews.4.a: "Firey has come far."
  bfdinews.4.b: "Reactionaries tremble in fear!"
+ 
+ bfdinews.5.t: "North Goiky expedition!"
+ bfdinews.5.desc: "Good morning, dear listeners! Interesting news came from North-Goikiland: A group of pioneering expeditioners of two hundred objects set sail from there and went to North Goiky straight across the canal. Their goal is to explore the coastal regions of the continent. That's all we know for now, but we'll keep an eye on this interesting research."
+ bfdinews.5.a: "Good luck."
+ 
+ bfdinews.6.t: "Proclamation of a socialist republic"
+ bfdinews.6.desc: "Important News: A few weeks after the defeat of the Military District and after the Red Army had established control over Cary, Firey announced the creation of the Goiky Socialist Republic. This is a new page in the history of Northern Goiky and a new stage in the advancement of the 'all-goikian revolution'. Will the new republic fail or will it successfully spread its influence throughout the continent?"
+ bfdinews.6.a: "To the future."

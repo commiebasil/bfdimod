@@ -1,0 +1,5 @@
+sound = {
+	name = "bfdi_button_press"
+	file = "bfdi_button_press.wav"
+	always_load = yes
+}

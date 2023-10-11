@@ -4,3 +4,15 @@
  decisions_WGF_our_snowy_friends_category: "Our snowy friends"
  decision_WGF_send_500_inf_eq: "Send §Y500§! rifles"
  decisions_WGF_our_snowy_friends_use_their_experience: "Use their experience"
+ 
+ decision_WGF_operation_coinflip_category: "Operation §YCOINFLIP§!"
+ WGF_operation_coinflip_mission: "§YCoiny§! postpones the conflict"
+ WGF_decision_operation_coinflip_mobilization: "Mobilization of reserves"
+ WGF_decision_operation_coinflip_propaganda: "Propagandist campaign"
+ WGF_decision_operation_coinflip_triumph: "§RTRIUMPH§!"
+ 
+ decisions_WGF_coinflip_desc: "Coiny wants to play? §RWell, he'll get what he wants.§!"
+ decisions_WGF_coinflip_closeness: "[OC_CLOSENESS]"
+ decisions_WGF_coinflip_closeness_low: "§8Conflict chance:§! §7Low§!"
+ decisions_WGF_coinflip_closeness_medium: "§8Conflict chance:§! §YMedium§!"
+ decisions_WGF_coinflip_closeness_high: "§8Conflict chance:§! §RHIGH§!"

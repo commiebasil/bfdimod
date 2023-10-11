@@ -23,7 +23,7 @@ focus_tree = {
 		
 		available = { hidden_trigger = { NOT = { has_global_flag = focus_take_prevention } } }
 		
-		cost = 10
+		cost = 8 
 		
 		ai_will_do = {
         base = 5
@@ -41,7 +41,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_means_of_production
 		prerequisite = { focus = WGF_focus_our_situation }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -71,7 +71,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_protect_the_revolution
 		prerequisite = { focus = WGF_focus_means_of_production }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -104,7 +104,7 @@ focus_tree = {
 		
 		allow_branch = { has_completed_focus = WGF_focus_protect_the_revolution }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -123,7 +123,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_forget_about_island
 		prerequisite = { focus = WGF_focus_ideals_of_revolution }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -180,7 +180,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_development_of_theory
 		prerequisite = { focus = WGF_focus_ideals_of_revolution }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -198,7 +198,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_investigation
 		prerequisite = { focus = WGF_focus_forget_about_island }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -218,7 +218,7 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_investigation }
 		prerequisite = { focus = WGF_focus_peoples_object_show }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -236,7 +236,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_different_but_united
 		prerequisite = { focus = WGF_focus_development_of_theory }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -256,7 +256,7 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_different_but_united }
 		mutually_exclusive = { focus = WGF_focus_the_offer }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -278,7 +278,7 @@ focus_tree = {
 		
 		available = { GPG = { communism > 0.3 } }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -302,7 +302,7 @@ focus_tree = {
 			date > 2015.03.01
 		}
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
         base = 5
@@ -329,7 +329,7 @@ focus_tree = {
 		
 		allow_branch = { has_completed_focus = WGF_focus_protect_the_revolution }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
@@ -348,7 +348,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_machines_for_objects
 		prerequisite = { focus = WGF_focus_ready_for_work_and_defense }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
@@ -376,7 +376,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_socialist_army
 		prerequisite = { focus = WGF_focus_ready_for_work_and_defense }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
@@ -397,13 +397,15 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_machines_for_objects }
 		prerequisite = { focus = WGF_focus_socialist_army }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = l_WGF_closer_war
+			add_to_variable = { var_WGF_war_closeness = 10 }
 			custom_effect_tooltip = l_WGF_better_situation_with_crisis
 			add_to_variable = { var_WGF_economical_devastation_egf = 0.1 }
 			177 = {
@@ -432,13 +434,15 @@ focus_tree = {
 		icon = GFX_focus_WGF_all_objects_serving
 		prerequisite = { focus = WGF_focus_socialist_army }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = l_WGF_closer_war
+			add_to_variable = { var_WGF_war_closeness = 10 }
 			custom_effect_tooltip = l_WGF_focus_all_objects_serving
 			add_to_variable = { var_idea_WGF_red_army_conscription = 0.02 }
 		}
@@ -452,7 +456,11 @@ focus_tree = {
 		icon = GFX_focus_WGF_challenge_coiny
 		prerequisite = { focus = WGF_focus_socialist_army }
 	
-		cost = 10
+		cost = 8
+		
+		available = {
+			hidden_trigger = { NOT = { has_completed_focus = WGF_focus_operation_coinflip } }
+		}
 		
 		ai_will_do = {
 			base = 5
@@ -487,7 +495,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_industrialization_of_steppes
 		prerequisite = { focus = WGF_focus_machines_for_objects }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
@@ -519,7 +527,7 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_industrialization_of_steppes }
 		prerequisite = { focus = WGF_focus_rifles_for_objects }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
@@ -539,7 +547,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_science_expansion
 		prerequisite = { focus = WGF_focus_industrialization_of_steppes }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
@@ -560,13 +568,15 @@ focus_tree = {
 		icon = GFX_focus_WGF_revolutionary_tactics
 		prerequisite = { focus = WGF_focus_all_objects_serving }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = l_WGF_closer_war
+			add_to_variable = { var_WGF_war_closeness = 10 }
 			add_tech_bonus = {
 				name = doctrine
 				bonus = 0.5
@@ -585,13 +595,15 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_quarterly_planning }
 		prerequisite = { focus = WGF_focus_revolutionary_tactics }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = l_WGF_closer_war
+			add_to_variable = { var_WGF_war_closeness = 10 }
 			remove_dynamic_modifier = { modifier = idea_WGF_economical_devastation }
 		}
 	}
@@ -610,7 +622,7 @@ focus_tree = {
 		
 		allow_branch = { has_completed_focus = WGF_focus_declare_our_goal }
 	
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			base = 5
@@ -620,6 +632,157 @@ focus_tree = {
 			custom_effect_tooltip = l_WGF_operation_coinflip
 			hidden_effect = {
 				country_event = WGF_event.6
+			}
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_deploy_the_army
+		relative_position_id = WGF_focus_operation_coinflip
+		y = 1
+		x = -2
+		icon = GFX_focus_WGF_deploy_the_army
+		prerequisite = { focus = WGF_focus_operation_coinflip }
+		
+		available = {
+			has_dynamic_modifier = {
+				modifier = idea_WGF_red_army
+			}
+		}
+		allow_branch = { has_completed_focus = WGF_focus_operation_coinflip }
+			
+		cost = 5
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_closer_war
+			add_manpower = 10000
+			add_to_variable = { var_WGF_war_closeness = 10 }
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_barriers_and_pitfalls
+		prerequisite = { focus = WGF_focus_deploy_the_army }
+		relative_position_id = WGF_focus_operation_coinflip
+		y = 2
+		x = -1
+		icon = GFX_focus_WGF_barriers_and_pitfalls
+			
+		cost = 5
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_closer_war
+			167 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 2314
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 10167
+				}
+			}
+			add_to_variable = { var_WGF_war_closeness = 10 }
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_mass_propaganda
+		relative_position_id = WGF_focus_operation_coinflip
+		prerequisite = { focus = WGF_focus_operation_coinflip }
+		y = 1
+		x = 2
+		icon = GFX_focus_WGF_mass_propaganda
+		
+		allow_branch = { has_completed_focus = WGF_focus_operation_coinflip }
+			
+		cost = 5
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_closer_war
+			add_stability = 0.05
+			add_war_support = 0.1
+			add_to_variable = { var_WGF_war_closeness = 10 }
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_send_saboteurs
+		prerequisite = { focus = WGF_focus_mass_propaganda }
+		relative_position_id = WGF_focus_operation_coinflip
+		y = 2
+		x = 1
+		icon = GFX_focus_WGF_send_saboteurs
+			
+		cost = 5
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_closer_war
+			add_manpower = -200
+			hidden_effect = {
+				GMD = {
+					country_event = {
+						id = WGF_event.13
+						days = 30
+						random_hours = 12
+					}
+				}
+			}
+			add_to_variable = { var_WGF_war_closeness = 10 }
+		}
+	}
+	
+	focus = {
+		id = WGF_focus_flip_the_coin
+		relative_position_id = WGF_focus_operation_coinflip
+		prerequisite = { focus = WGF_focus_barriers_and_pitfalls }
+		prerequisite = { focus = WGF_focus_send_saboteurs }
+		y = 4
+		icon = GFX_focus_WGF_flip_the_coin
+			
+		cost = 5
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_WGF_trigger_war_closened_enough
+				has_country_flag = operation_prepared
+			}
+		}
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_WGF_focus_flip_the_coin
+			hidden_effect = {
+				declare_war_on = {
+					target = GMD
+					type = annex_everything
+				}
+				country_event = WGF_event.14
+				set_country_flag = operation_started
 			}
 		}
 	}

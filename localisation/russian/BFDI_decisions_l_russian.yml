@@ -4,3 +4,15 @@
  decisions_WGF_our_snowy_friends_category: "Наши снежные друзья"
  decision_WGF_send_500_inf_eq: "Отправить §Y500§! винтовок"
  decisions_WGF_our_snowy_friends_use_their_experience: "Использовать их опыт"
+ 
+ decision_WGF_operation_coinflip_category: "Операция §YКОИНФЛИП§!"
+ WGF_operation_coinflip_mission: "§YКойни§! отдаляет конфликт"
+ WGF_decision_operation_coinflip_mobilization: "Мобилизация резервов"
+ WGF_decision_operation_coinflip_propaganda: "Пропагандистская кампания"
+ WGF_decision_operation_coinflip_triumph: "§RТРИУМФ§!"
+ 
+ decisions_WGF_coinflip_desc: "Койни хочет поиграть? §RЧто-ж, он получит желаемое.§!"
+ decisions_WGF_coinflip_closeness: "[OC_CLOSENESS]"
+ decisions_WGF_coinflip_closeness_low: "§8Близость столкновения:§! §7Низкая§!"
+ decisions_WGF_coinflip_closeness_medium: "§8Близость столкновения:§! §YСредняя§!"
+ decisions_WGF_coinflip_closeness_high: "§8Близость столкновения:§! §RВЫСОКАЯ§!"

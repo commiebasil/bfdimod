@@ -9,10 +9,17 @@ scripted_gui = {
 		
 		triggers = {
 			demoerror_visible = {
-				NOT = { check_variable = { country_select_var = 1 } }
+				NOT = { OR = { 
+					check_variable = { country_select_var = 1 }
+					check_variable = { country_select_var = 11 }
+						}
+				}
 			}
 			startbutton_click_enabled = {
-				check_variable = { country_select_var = 1 }
+				OR = { 
+					check_variable = { country_select_var = 1 }
+					check_variable = { country_select_var = 11 }
+				}
 			}
 		}
 		

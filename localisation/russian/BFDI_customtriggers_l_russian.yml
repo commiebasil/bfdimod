@@ -2,6 +2,8 @@
  l_GOI_congratulate_the_winner_ct: "Соревнования завершены"
  l_GOI_all_is_good_ct: "Всё хорошо"
  l_decisions_WGF_ute: "Снаряжение отправлено хотя бы §Y5§! раз"
+ l_WGF_trigger_war_closened_enough: "§YОперация§! подготовлена"
+ operation_started: "Операция начата"
  
  decision_cost_ie_500_pp_50: "£infantry_equipment_text_icon §Y500§! £political_power"
  decision_cost_ie_500_pp_50_blocked: "£infantry_equipment_text_icon §R500§! £political_power"

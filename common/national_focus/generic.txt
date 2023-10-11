@@ -9,11 +9,12 @@ focus_tree = {
 				original_tag = WGF
 				original_tag = GOI
 				original_tag = EMP
+				original_tag = GGR
 			}
 		}
 	}
 	
-	default = no
+	default = yes
 	reset_on_civilwar = no
 	
 	focus = {
