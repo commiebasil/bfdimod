@@ -178,6 +178,7 @@ scripted_gui = {
 					flag = focus_take_prevention
 					value = 0
 				}
+				activate_mission = GGR_anarchists_mission
 			}
 		}
 		

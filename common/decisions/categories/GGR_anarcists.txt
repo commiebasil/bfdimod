@@ -1,0 +1,5 @@
+decision_GGR_anarcists_category = {
+	allowed = { tag = GGR }
+	priority = 15
+	visible_when_empty = yes
+}

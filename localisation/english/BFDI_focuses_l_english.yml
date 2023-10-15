@@ -121,7 +121,7 @@
  GGR_focus_militarization: "Militarization"
  GGR_focus_militarization_desc: "Look around! From all sides, the cultural and social unity of our Snowy Plateau, which has been built for many years, is mercilessly torn apart by national traitors and anarchists! We need a strong army that can protect our national bonds."
  
- GGR_focus_snowy_identity: "Snowy identity"
+ GGR_focus_snowy_identity: "Snowy Identity"
  GGR_focus_snowy_identity_desc: "It is undeniable that the objects of the Snowy Plateau are distinguished by a special unity and cultural ties, which no other region of Goiky can boast of. We must maintain the unity of our nation at all costs and spread it."
  
  GGR_focus_einheitstadt: "§REinheitstadt§!"
@@ -133,31 +133,31 @@
  GGR_focus_propaganda: "Propaganda"
  GGR_focus_propaganda_desc: "Trust in our national government is at a fairly low level. The objects of the Snowy Plateau, although distinguished by their cultural community, are quite passive in terms of political movements. One of our most important goals is to unite our communities in a great rush of national unity. To achieve this result, we need grassroots political activity of the masses, which is why propaganda is one of our first moves."
  
- GGR_focus_the_third_way: "Third Way"
- GGR_focus_the_third_way_desc: "The economy of pre-anarchist Goiky was a random, inarticulate chaos under the boot of the fifth column from Casland. We need our own economic model that will reflect the great unity of the Snow Plateau objects."
+ GGR_focus_our_way: "Third Way"
+ GGR_focus_our_way_desc: "The economy of pre-anarchist Goiky was a random, inarticulate chaos under the boot of the fifth column from Casland. We need our own economic model that will reflect the great unity of the Snow Plateau objects."
  
  GGR_focus_industrialization: "Industrialization"
  GGR_focus_industrialization_desc: "No matter how hard it is to admit it, the Plateau is one of the poorest regions of modern Goiky. It has an incredibly low population density and virtually no industry. The bastards from Casland deprived us of any technology, realizing their worthlessness, but we will still show them what the objects of the Snowy Plains are capable of."
  
- GGR_focus_geniuses_of_the_snowy_plateau: "Geniuses of the Snowy Plateau"
- GGR_focus_geniuses_of_the_snowy_plateau_desc: "There can be no economy without technological progress. The Snowy Plateau is filled with geniuses every year, so let’s direct this national impulse in the right direction."
+ GGR_focus_are_you_smarter_than_a_snowball: "Are you smarter than a Snowball?"
+ GGR_focus_are_you_smarter_than_a_snowball_desc: "There can be no economy without technological progress. The Snowy Plateau is filled with geniuses every year, so let’s direct this national impulse in the right direction."
  
  GGR_focus_snowy_vexels: "Snowy Vexels"
  GGR_focus_snowy_vexels_desc: "Giving debt to yourself is a very effective means of economic growth, albeit dangerous. But we'll be careful, right?"
  
- GGR_focus_property_of_the_wrong_objects: "Property of the 'wrong' objects"
- GGR_focus_property_of_the_wrong_objects_desc: "The essence of the elite of Goiky society has been known for a long time. Objects without upper limbs, small and weak, not only live at the expense of the workers, but also form secret fifth columns, with the help of which they control the objects under their control, pretending to be 'weak and innocent'. All of Old Goiky was imbued with this disgusting spirit, and it hit the Snowy Plateau hard. But due to the crisis, the power of the fifth column was destroyed, and we can begin to wipe out these parasites of society with peace of mind."
+ GGR_focus_wrong_objects: "'Wrong' Objects"
+ GGR_focus_wrong_objects_desc: "The essence of the elite of Goiky society has been known for a long time. Objects without upper limbs, small and weak, not only live at the expense of the workers, but also form secret fifth columns, with the help of which they control the objects under their control, pretending to be 'weak and innocent'. All of Old Goiky was imbued with this disgusting spirit, and it hit the Snowy Plateau hard. But due to the crisis, the power of the fifth column was destroyed, and we can begin to wipe out these parasites of society with peace of mind."
  
- GGR_focus_4_year_plan: "4-year plan"
- GGR_focus_4_year_plan_desc: "An important feature of our new economy will be centralization. We must not allow old Goiky practics."
+ GGR_focus_four_year_plan: "4-year plan"
+ GGR_focus_four_year_plan_desc: "An important feature of our new economy will be centralization. We must not allow old Goiky practics."
  
- GGR_focus_free_labor: "14-hours working day"
+ GGR_focus_free_labor: "Free labor"
  GGR_focus_free_labor_desc: "Parasites must work off their parasitic nature. That is why we will use the free labor of armless objects in the camps."
  
- GGR_focus_destruction_by_labor: "Destruction by labor"
+ GGR_focus_destruction_by_labor: "Destruction by Labor"
  GGR_focus_destruction_by_labor_desc: "Waste recycling is normal practice. So even after death those parasited can be useful as a material for our industry."
  
- GGR_focus_corporative_economy: "Corporative economy"
+ GGR_focus_corporative_economy: "Corporative Economy"
  GGR_focus_corporative_economy_desc: "We have achieved incredible results thanks to our ingenious economic policies. The snow plateau continues to move forward!"
  
  GGR_focus_verschneitwehr: "Verschneitwehr"
@@ -199,22 +199,22 @@
  GGR_focus_terror: "Terror"
  GGR_focus_terror_desc: "The most brutal methods of pacification and destruction must be applied to anarchists and national traitors."
  
- GGR_focus_burn_the_underground: "Burn the underground"
+ GGR_focus_burn_the_underground: "Burn the Underground"
  GGR_focus_burn_the_underground_desc: "Before we can take control of the forests, we must destroy the enemy at home. The underground is the primary target."
  
  GGR_focus_operation_wintersfest: "Operation 'Wintersfest'"
  GGR_focus_operation_wintersfest_desc: "Operation 'Wintersfest' - A plan of the high military command to destroy partisan formations on our territory using the most brutal methods."
  
- GGR_focus_popular_support: "Popular support"
+ GGR_focus_popular_support: "Popular Support"
  GGR_focus_popular_support_desc: "For the success of our nation-building, we need the ideological unity of the objects of the Snowy Plateau, and we are successfully moving towards our goal."
  
  GGR_focus_partizan_war: "Partizan War"
  GGR_focus_partizan_war_desc: "All previous operations were only preparation for our main goal - the destruction of the anarchist nest in the Snowy Woods. A huge number of objects succumbed to the heresy of these inferior ones. Well, it's time to put an end to this."
  
- GGR_focus_emphasize_our_superiority: "Emphasize our superiority"
+ GGR_focus_emphasize_our_superiority: "Emphasize our Superiority"
  GGR_focus_emphasize_our_superiority_desc: "Snow Plateau is the most sublime and noble territory of Goiky in cultural and national terms, and this is an indisputable fact. Never in Goiky's history has any region been as tightly knit as the Snowy Plains and its people."
  
- GGR_focus_demonstrative_democracy: "Demonstrative democracy"
+ GGR_focus_demonstrative_democracy: "Demonstrative Democracy"
  GGR_focus_demonstrative_democracy_desc: "In order to create some veneer of democracy, a parliament will be convened in which two parties will sit."
  
  GGR_focus_nothing_happens_here: "Nothing happens here!"

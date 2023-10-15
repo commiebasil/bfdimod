@@ -1,0 +1,27 @@
+add_namespace = GGR_event
+
+country_event = {
+	id = GGR_event.1
+	title = GGR_event.1.t
+    desc = GGR_event.1.desc
+	picture = GFX_GGR_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = GGR_event.1.a
+	}
+}
+
+country_event = {
+	id = GGR_event.2
+	title = GGR_event.2.t
+    desc = GGR_event.2.desc
+	picture = GFX_GGR_event2
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = GGR_event.2.a
+	}
+}

@@ -39,7 +39,7 @@ set_variable = { var_GGR_anarchists_sf = -0.1 }
 set_variable = { var_GGR_anarchists_bf = -0.2 }
 set_variable = { var_GGR_anarchists_psf = -0.1 }
 
-add_dynamic_modifier = { modifier = idea_GGR_anarchists }
+add_dynamic_modifier = { modifier = idea_GGR_anarchist_resistance }
 add_ideas = extensive_conscription
 add_ideas = idea_GGR_fascist_dictatorship
 
