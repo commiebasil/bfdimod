@@ -116,4 +116,8 @@ spriteTypes = {
 		name = "GFX_SGD_robot_flower"
 		texturefile = "gfx/leaders/SGD/SGD_robot_flower.dds"
 	}
+	spriteType = {
+	name = "GFX_idea_GTR_Tennisball.dds"
+	texturefile = "gfx/interface/ideas/idea_GTR_Tennisball.dds"
+	}
 }

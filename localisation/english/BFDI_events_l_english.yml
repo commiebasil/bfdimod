@@ -92,6 +92,14 @@
  WGF_event.15.desc: "- So, accused, do you admit your guilt in war crimes against the objects of Northern Goiky and against the revolution?\n- Heck you, Firey!\nThe defendant suddenly jumped out of his seat in the court room, ran up to Firey and slapped him in the face, which was followed by a retaliatory slap. Soon they were separated."
  WGF_event.15.a: "Just like the good old days."
  
+ #GTR
+ TB_found_event.1.t: "Tennis Ball found at the border!"
+ TB_found_event.1.desc: "After Tennis Ball's disappearence, Technocrats across Goiky have been franticly searching for Tennis Ball for the better part of a year. Today, he was found on our border with Eraser's Bunch. After he was found, other objects nearby treated him with care and hospility. He was quickly brought to Golf Ball, and afterwhich, they had a lengthy conversation about their friendship, and the Technocratic way." 
+ TB_found_event.1.a: "Welcome home, Tennis Ball."
+ TB_speech_event.1.t: "Tennis Ball holds a speech in the capital"
+ TB_speech_event.1.desc: "Tennis Ball held a speech in the capital today, where he talked about being enlightened by the Technocratic way. He then went on to make the crowd chant "Technocrats never die." His speech has had a massive effect on our people, and we have since noted multiple groups of objects chanting this outside of Golf Ball's lab. Golf Ball referred to it as a welcome distraction, and Tennis Ball has said it is in many ways exciting as it is anxiety inducing."
+ TB_speech_event.1.a: "From clumsy to popular..."
+ 
  #NEWS
  bfdinews.1.t: "Firey wons Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result of the vote. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."
@@ -117,3 +125,4 @@
  bfdinews.6.t: "Proclamation of a socialist republic"
  bfdinews.6.desc: "Important News: A few weeks after the defeat of the Military District and after the Red Army had established control over Cary, Firey announced the creation of the Goiky Socialist Republic. This is a new page in the history of Northern Goiky and a new stage in the advancement of the 'all-goikian revolution'. Will the new republic fail or will it successfully spread its influence throughout the continent?"
  bfdinews.6.a: "To the future."
+ 
