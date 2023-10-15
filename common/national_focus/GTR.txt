@@ -1,0 +1,153 @@
+focus_tree = { 
+	id = gtr_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = GTR
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_mass_mechanize
+		x = 10
+		y = 0
+		icon = GFX_focus_research
+
+		available = { hidden_trigger = { NOT = { has_global_flag = focus_take_prevention } } }
+
+		cost = 8
+		# search_filters = { FOCUS_FILTER_MANPOWER }  # Not necessary but recommended, like the icon.
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+		focus = {
+		id = GTR_focus_stability
+		relative_position_id = GTR_focus_mass_mechanize
+
+		y = 1
+		icon = GFX_focus_stability_test
+		
+		prerequisite = { focus = GTR_focus_mass_mechanize }
+
+		available = { hidden_trigger = { NOT = { has_global_flag = focus_take_prevention } } }
+
+		cost = 8
+		# search_filters = { FOCUS_FILTER_MANPOWER }  # Not necessary but recommended, like the icon.
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+		focus = {
+		id = GTR_focus_research_slot_2
+		relative_position_id = GTR_focus_stability
+
+		y = 1
+		icon = GFX_focus_research
+		
+		prerequisite = { focus = GTR_focus_stability }
+
+		available = { hidden_trigger = { NOT = { has_global_flag = focus_take_prevention } } }
+
+		cost = 8
+		# search_filters = { FOCUS_FILTER_MANPOWER }  # Not necessary but recommended, like the icon.
+
+		completion_reward = {
+			add_research_slot = 1
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+		focus = {
+		id = GTR_focus_GB_factory_upgrade
+		x = 5
+		y = 0
+		icon = GFX_focus_stability_test
+		
+
+		allow_branch = { has_completed_focus = GTR_focus_research_slot_2 }
+
+		cost = 8
+		# search_filters = { FOCUS_FILTER_MANPOWER }  # Not necessary but recommended, like the icon.
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = GTR_focus_reach_out_to_tennis_ball
+		relative_position_id = GTR_focus_GB_factory_upgrade
+		
+		y = 1
+		# icon = GFX_focus_stability_test
+
+		prerequisite = { focus = GTR_focus_GB_factory_upgrade }
+
+		allow_branch = { has_completed_focus = GTR_focus_research_slot_2 }
+
+		cost = 8
+		# search_filters = { FOCUS_FILTER_MANPOWER }  # Not necessary but recommended, like the icon.
+
+		completion_reward = {
+			country_event = TB_found_event.1
+		}
+	}
+		focus = {
+		id = GTR_focus_TB_speech
+		relative_position_id = GTR_focus_reach_out_to_tennis_ball
+		x = 2
+		y = 1
+		# icon = GFX_focus_stability_test
+
+		prerequisite = { focus = GTR_focus_reach_out_to_tennis_ball } 
+		prerequisite = { focus = GTR_focus_stability }
+
+		allow_branch = { has_completed_focus = GTR_focus_research_slot_2 }
+
+		cost = 8
+		# search_filters = { FOCUS_FILTER_MANPOWER }  # Not necessary but recommended, like the icon.
+
+		completion_reward = {
+			news_event = TB_speech_event.1
+		}
+	}
+			focus = {
+		id = GTR_focus_public_figure
+		relative_position_id = GTR_focus_TB_speech
+		x = 3
+		y = 2
+		# icon = GFX_focus_stability_test
+
+		prerequisite = { focus = GTR_focus_TB_speech } 
+
+		allow_branch = { has_completed_focus = GTR_focus_research_slot_2 }
+
+		cost = 8
+		# search_filters = { FOCUS_FILTER_MANPOWER }  # Not necessary but recommended, like the icon.
+
+		completion_reward = {
+			
+		}
+	}
+				focus = {
+		id = GTR_focus_stabilize
+		relative_position_id = GTR_focus_GB_factory_upgrade
+		x = -3
+		y = 1
+		# icon = GFX_focus_stability_test
+
+		prerequisite = { focus = GTR_focus_GB_factory_upgrade } 
+
+		allow_branch = { has_completed_focus = GTR_focus_research_slot_2 }
+
+		cost = 8
+		# search_filters = { FOCUS_FILTER_MANPOWER }  # Not necessary but recommended, like the icon.
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+}
+

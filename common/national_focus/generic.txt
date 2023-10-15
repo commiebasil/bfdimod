@@ -10,7 +10,6 @@ focus_tree = {
 				original_tag = GOI
 				original_tag = EMP
 				original_tag = GGR
-				original_tag = GTR
 			}
 		}
 	}
