@@ -1,0 +1,30 @@
+add_namespace = TB_found_event
+add_namespace = TB_speech_event
+
+news_event = {
+	id = TB_found_event.1
+	title = TB_found_event.1.t
+    desc = TB_found_event.1.desc
+	# picture = GFX_WGF_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = TB_found_event.1.a
+		add_stability = 0.1
+	}
+}
+
+news_event = {
+	id = TB_speech_event.1
+	title = TB_speech_event.1.t
+    desc = TB_speech_event.1.desc
+	# picture = GFX_WGF_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = TB_speech_event.1.a
+		add_political_power = 25
+	}
+}
