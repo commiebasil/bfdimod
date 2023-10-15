@@ -51,7 +51,7 @@ focus_tree = {
 			add_war_support = 0.05
 			add_popularity = {
 				ideology = fascism
-				popularity = 0.1
+				popularity = 0.05
 			}
 		}
 	}
@@ -172,9 +172,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = GGR_focus_the_third_way
+		id = GGR_focus_our_way
 		x = 21
-		icon = GFX_focus_GGR_the_third_way
+		icon = GFX_focus_GGR_our_way
 		
 		allow_branch = { has_completed_focus = GGR_focus_snowy_identity }
 		
@@ -192,12 +192,12 @@ focus_tree = {
 	
 	focus = {
 		id = GGR_focus_industrialization
-		relative_position_id = GGR_focus_the_third_way
+		relative_position_id = GGR_focus_our_way
 		y = 1
 		x = -1
 		icon = GFX_focus_GGR_industrialization
 		
-		prerequisite = { focus = GGR_focus_the_third_way }
+		prerequisite = { focus = GGR_focus_our_way }
 		
 		
 		cost = 8
@@ -220,11 +220,11 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = GGR_focus_geniuses_of_the_snowy_plateau
-		relative_position_id = GGR_focus_the_third_way
+		id = GGR_focus_are_you_smarter_than_a_snowball
+		relative_position_id = GGR_focus_our_way
 		y = 2
 		x = -1
-		icon = GFX_focus_GGR_geniuses_of_the_snowy_plateau
+		icon = GFX_focus_GGR_are_you_smarter_than_a_snowball
 		
 		prerequisite = { focus = GGR_focus_industrialization }
 		
@@ -242,7 +242,7 @@ focus_tree = {
 	
 	focus = {
 		id = GGR_focus_snowy_vexels
-		relative_position_id = GGR_focus_the_third_way
+		relative_position_id = GGR_focus_our_way
 		y = 2
 		x = -3
 		icon = GFX_focus_GGR_snowy_vexels
@@ -262,13 +262,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = GGR_focus_property_of_the_wrong_objects
-		relative_position_id = GGR_focus_the_third_way
+		id = GGR_focus_wrong_objects
+		relative_position_id = GGR_focus_our_way
 		y = 1
 		x = 1
-		icon = GFX_focus_GGR_property_of_the_wrong_objects
+		icon = GFX_focus_GGR_wrong_objects
 		
-		prerequisite = { focus = GGR_focus_the_third_way }
+		prerequisite = { focus = GGR_focus_our_way }
 		
 		cost = 8
 		
@@ -283,12 +283,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = GGR_focus_4_year_plan
-		relative_position_id = GGR_focus_the_third_way
+		id = GGR_focus_four_year_plan
+		relative_position_id = GGR_focus_our_way
 		y = 3
-		icon = GFX_focus_GGR_4_year_plan
+		icon = GFX_focus_GGR_four_year_plan
 		
-		prerequisite = { focus = GGR_focus_geniuses_of_the_snowy_plateau }
+		prerequisite = { focus = GGR_focus_are_you_smarter_than_a_snowball }
 		prerequisite = { focus = GGR_focus_free_labor }
 		
 		cost = 8
@@ -305,12 +305,12 @@ focus_tree = {
 	
 	focus = {
 		id = GGR_focus_free_labor
-		relative_position_id = GGR_focus_the_third_way
+		relative_position_id = GGR_focus_our_way
 		y = 2
 		x = 1
 		icon = GFX_focus_GGR_free_labor
 		
-		prerequisite = { focus = GGR_focus_property_of_the_wrong_objects }
+		prerequisite = { focus = GGR_focus_wrong_objects }
 		
 		cost = 8
 		
@@ -326,7 +326,7 @@ focus_tree = {
 	
 	focus = {
 		id = GGR_focus_destruction_by_labor
-		relative_position_id = GGR_focus_the_third_way
+		relative_position_id = GGR_focus_our_way
 		y = 3
 		x = 2
 		icon = GFX_focus_GGR_destruction_by_labor
@@ -347,11 +347,11 @@ focus_tree = {
 	
 	focus = {
 		id = GGR_focus_corporative_economy
-		relative_position_id = GGR_focus_the_third_way
+		relative_position_id = GGR_focus_our_way
 		y = 4
 		icon = GFX_focus_GGR_corporative_economy
 		
-		prerequisite = { focus = GGR_focus_4_year_plan }
+		prerequisite = { focus = GGR_focus_four_year_plan }
 		
 		cost = 8
 		
@@ -715,7 +715,7 @@ focus_tree = {
 		prerequisite = { focus = GGR_focus_burn_the_underground }
 		prerequisite = { focus = GGR_focus_terror }
 		
-		icon = GFX_focus_GGR_wintersfest
+		icon = GFX_focus_GGR_operation_wintersfest
 		
 		cost = 8
 		

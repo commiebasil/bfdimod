@@ -101,6 +101,10 @@ spriteTypes = {
 		name = GFX_idea_GGR_fascist_dictatorship
 		texturefile = gfx/interface/ideas/idea_GGR_fascist_dictatorship.dds
 	}
+	spriteType = {
+		name = GFX_idea_GGR_anarchist_resistance
+		texturefile = gfx/interface/ideas/idea_GGR_anarchist_resistance.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_FFT_mother_anarchy

@@ -199,4 +199,185 @@ SpriteTypes = {
 		name = "GFX_focus_WGF_flip_the_coin"
 		texturefile = "gfx/interface/goals/GFX_focus_WGF_flip_the_coin.dds"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_focus_GGR_power_of_the_strong"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_power_of_the_strong.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_militarization"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_militarization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_radicalization"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_radicalization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_snowy_identity"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_snowy_identity.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_einheitstadt"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_einheitstadt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_fight_against_anarchy"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_fight_against_anarchy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_propaganda"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_propaganda.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_whiteshirts"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_whiteshirts.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_schneeschutz"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_schneeschutz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_wrong_objects"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_wrong_objects.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_emphasize_our_superiority"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_emphasize_our_superiority.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_erweiterungsbedarf"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_erweiterungsbedarf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_demonstrative_democracy"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_demonstrative_democracy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_terror"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_terror.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_burn_the_underground"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_burn_the_underground.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_nothing_happens_here"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_nothing_happens_here.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_operation_wintersfest"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_operation_wintersfest.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_popular_support"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_popular_support.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_partizan_war"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_partizan_war.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_our_way"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_our_way.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_industrialization"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_industrialization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_snowy_vexels"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_snowy_vexels.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_are_you_smarter_than_a_snowball"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_are_you_smarter_than_a_snowball.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_four_year_plan"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_four_year_plan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_free_labor"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_free_labor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_destruction_by_labor"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_destruction_by_labor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_corporative_economy"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_corporative_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_verschneitwehr"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_verschneitwehr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_advanced_tactics"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_advanced_tactics.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_mass_mobilization"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_mass_mobilization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_law_enforcement_agencies"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_law_enforcement_agencies.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_forest_tanks"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_forest_tanks.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_penal_battalions"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_penal_battalions.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_anti_partisan_tactics"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_anti_partisan_tactics.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_expand_militia"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_expand_militia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GGR_expansionist_army"
+		texturefile = "gfx/interface/goals/GFX_focus_GGR_expansionist_army.dds"
+	}
 }

@@ -16,3 +16,7 @@
  decisions_WGF_coinflip_closeness_low: "§8Conflict chance:§! §7Low§!"
  decisions_WGF_coinflip_closeness_medium: "§8Conflict chance:§! §YMedium§!"
  decisions_WGF_coinflip_closeness_high: "§8Conflict chance:§! §RHIGH§!"
+ 
+ decision_GGR_anarcists_category: "Anarchists question"
+ GGR_anarchists_mission: "End with resistance"
+ GGR_anarchists_mission_desc: "If we do not destroy the national-traitors as soon as possible, the Snowy Plateau will plunge into chaos."

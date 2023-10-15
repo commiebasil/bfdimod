@@ -4,6 +4,7 @@
  l_decisions_WGF_ute: "Help sended at least §Y5§! times"
  l_WGF_trigger_war_closened_enough: "§YOperation§! is ready"
  operation_started: "Operation is started"
+ l_GGR_anarchists_are_suppressed: "Anarchists are supressed"
  
  decision_cost_ie_500_pp_50: "£infantry_equipment_text_icon §Y500§!  £pol_power  §Y50§!"
  decision_cost_ie_500_pp_50_blocked: "£infantry_equipment_text_icon §R500§!  £pol_power  §R50§!"

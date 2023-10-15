@@ -16,3 +16,7 @@
  decisions_WGF_coinflip_closeness_low: "§8Близость столкновения:§! §7Низкая§!"
  decisions_WGF_coinflip_closeness_medium: "§8Близость столкновения:§! §YСредняя§!"
  decisions_WGF_coinflip_closeness_high: "§8Близость столкновения:§! §RВЫСОКАЯ§!"
+ 
+ decision_GGR_anarcists_category: "Проблема с анархистами"
+ GGR_anarchists_mission: "Покончить с подпольем"
+ GGR_anarchists_mission_desc: "Если мы в кротчайшие сроки не уничтожим национал-предателей, то Снежное Плато погрузится в хаос."
