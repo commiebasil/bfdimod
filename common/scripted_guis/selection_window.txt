@@ -12,7 +12,6 @@ scripted_gui = {
 				NOT = { OR = { 
 					check_variable = { country_select_var = 1 }
 					check_variable = { country_select_var = 11 }
-					check_variable = { country_select_var = 13 }
 						}
 				}
 			}
@@ -20,7 +19,6 @@ scripted_gui = {
 				OR = { 
 					check_variable = { country_select_var = 1 }
 					check_variable = { country_select_var = 11 }
-					check_variable = { country_select_var = 13 }
 				}
 			}
 		}
