@@ -35,6 +35,13 @@ decision_WGF_operation_coinflip_category = {
 		allowed = {
 			tag = WGF
 		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 50
+				check_variable = { var_WGF_war_closeness < 100 }
+			}
+		}
 		visible = { 
 			has_completed_focus = WGF_focus_deploy_the_army 
 			NOT = { custom_trigger_tooltip = {
@@ -69,6 +76,13 @@ decision_WGF_operation_coinflip_category = {
 	WGF_decision_operation_coinflip_propaganda = {
 		allowed = {
 			tag = WGF
+		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 50
+				check_variable = { var_WGF_war_closeness < 100 }
+			}
 		}
 		visible = { 
 			has_completed_focus = WGF_focus_mass_propaganda
@@ -106,6 +120,9 @@ decision_WGF_operation_coinflip_category = {
 		allowed = {
 			tag = WGF
 		}
+		ai_will_do = {
+			base = 50
+		}
 		visible = { 
 			has_country_flag = operation_started
 		}
@@ -122,7 +139,7 @@ decision_WGF_operation_coinflip_category = {
 			custom_effect_tooltip = l_WGF_coinflip_triumph
 			hidden_effect = { 
 				set_cosmetic_tag = WGF_stage2 
-				country_event = {
+				news_event = {
 					id = bfdinews.6
 					days = 2
 					hours = 12
@@ -132,6 +149,26 @@ decision_WGF_operation_coinflip_category = {
 				182 = { add_core_of = WGF }
 			}
 			set_country_flag = WGF_stage1_ended
+		}
+	}
+	
+	WGF_decision_operation_coinflip_war_decision_ai = {
+		allowed = {
+			tag = WGF
+		}
+		visible = { is_ai = yes }
+		available = { 
+			is_ai = yes 
+			check_variable = { var_WGF_war_closeness > 99 }
+			NOT = { has_country_flag = operation_prepared }
+		}
+		ai_will_do = {
+			base = 50
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = operation_prepared
+			set_variable = { var_WGF_operation_is_ready = 2 }
 		}
 	}
 }

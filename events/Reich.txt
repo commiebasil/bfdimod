@@ -1,4 +1,5 @@
 add_namespace = GGR_event
+add_namespace = GGR_hidden_event
 
 country_event = {
 	id = GGR_event.1
@@ -23,5 +24,373 @@ country_event = {
     
     option = {
 		name = GGR_event.2.a
+	}
+}
+
+country_event = {
+	id = GGR_event.3
+	title = GGR_event.3.t
+	desc = GGR_event.3.desc
+	picture = GFX_GGR_event3
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.3.a
+	}
+}
+
+country_event = {
+	id = GGR_event.4
+	title = GGR_event.4.t
+	desc = GGR_event.4.desc
+	picture = GFX_GGR_event4
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.4.a
+		set_country_flag = grassy_appear
+		custom_effect_tooltip = l_GGR_grassy_appear
+	}
+}
+
+country_event = {
+	id = GGR_event.5
+	title = GGR_event.5.t
+	desc = {
+		text = GGR_event.5.desc_1
+		trigger = { check_variable = { suppressed_state = 1 } }
+	}
+	desc = {
+		text = GGR_event.5.desc_2
+		trigger = { check_variable = { suppressed_state = 2 } }
+	}
+	desc = {
+		text = GGR_event.5.desc_3
+		trigger = { check_variable = { suppressed_state = 3 } }
+	}
+	desc = {
+		text = GGR_event.5.desc_4
+		trigger = { check_variable = { suppressed_state = 4 } }
+	}
+	picture = GFX_GGR_event5
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.5.a
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = GGR_event.6
+	title = GGR_event.6.t
+	desc = GGR_event.6.desc
+	picture = GFX_GGR_event6
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.6.a
+		custom_effect_tooltip = l_GGR_resistance_arising
+		add_to_variable = { var_schneehorn_status = 10 }
+			if = {
+					limit = { check_variable = { var_schneehorn_status < 29 } }
+					set_variable = { var_schneehorn_status_2 = 1 } 
+				}
+			else_if = {
+				limit = { 
+					check_variable = { var_schneehorn_status > 29 } 
+					check_variable = { var_schneehorn_status < 70 } 
+				}
+				set_variable = { var_schneehorn_status_2 = 2 } 
+			}
+			else_if = {
+				limit = { check_variable = { var_schneehorn_status > 69 } }
+				set_variable = { var_schneehorn_status_2 = 3 } 
+			}
+			
+			
+			add_to_variable = { var_snowy_plains_status = 10 }
+			if = {
+					limit = { check_variable = { var_snowy_plains_status < 29 } }
+					set_variable = { var_snowy_plains_status_2 = 1 } 
+				}
+			else_if = {
+				limit = { 
+					check_variable = { var_snowy_plains_status > 29 } 
+					check_variable = { var_snowy_plains_status < 70 } 
+				}
+				set_variable = { var_snowy_plains_status_2 = 2 } 
+			}
+			else_if = {
+				limit = { check_variable = { var_snowy_plains_status > 69 } }
+				set_variable = { var_snowy_plains_status_2 = 3 } 
+			}
+			
+			
+			add_to_variable = { var_snowy_hills_status = 10 }
+			if = {
+				limit = { check_variable = { var_snowy_hills_status < 29 } }
+				set_variable = { var_snowy_hills_status_2 = 1 } 
+			}
+			else_if = {
+				limit = { 
+					check_variable = { var_snowy_hills_status > 29 } 
+					check_variable = { var_snowy_hills_status < 70 } 
+				}
+				set_variable = { var_snowy_hills_status_2 = 2 } 
+			}
+			else_if = {
+				limit = { check_variable = { var_snowy_hills_status > 69 } }
+				set_variable = { var_snowy_hills_status_2 = 3 } 
+			}
+			
+			
+			add_to_variable = { var_bottom_snowy_plateau_status = 10 }
+			if = {
+				limit = { check_variable = { var_bottom_snowy_plateau_status < 29 } }
+				set_variable = { var_bottom_snowy_plateau_status_2 = 1 } 
+			}
+			else_if = {
+				limit = { 
+					check_variable = { var_bottom_snowy_plateau_status > 29 } 
+					check_variable = { var_bottom_snowy_plateau_status < 70 } 
+				}
+				set_variable = { var_bottom_snowy_plateau_status_2 = 2 } 
+			}
+			else_if = {
+				limit = { check_variable = { var_bottom_snowy_plateau_status > 69 } }
+				set_variable = { var_bottom_snowy_plateau_status_2 = 3 } 
+			}
+	}
+}
+
+country_event = {
+	id = GGR_event.7
+	title = GGR_event.7.t
+	desc = GGR_event.7.desc
+	picture = GFX_GGR_event7
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.7.a
+		custom_effect_tooltip = l_GGR_anarchists_decisions_open
+		hidden_effect = {
+			#Making it easier for the silly bot
+			if = {
+				limit = { is_ai = yes }
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 300
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = GGR_event.8
+	title = GGR_event.8.t
+	desc = GGR_event.8.desc
+	picture = GFX_GGR_event8
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.8.a
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = GGR_grassy
+			promote_leader = yes
+			country_leader = {
+				ideology = gen_nazism
+			}
+		}
+		hidden_effect = {
+			15 = { 
+				remove_core_of = GGR
+				add_core_of = SMG
+				transfer_state_to = SMG 
+			}
+			SMG = { 
+				inherit_technology = GGR 
+				change_tag_from = GGR
+			}
+			news_event = bfdinews.7
+		}
+	}
+}
+
+country_event = {
+	id = GGR_event.9
+	title = GGR_event.9.t
+	desc = GGR_event.9.desc
+	picture = GFX_GGR_event9
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.9.a
+		custom_effect_tooltip = l_GGR_focus_burn_the_underground
+		remove_mission = GGR_anarchists_mission
+		set_country_flag = resistance_mechanic_done
+		add_to_variable = { var_GGR_anarchists_bf = 0.2 }
+	}
+}
+
+country_event = {
+	id = GGR_event.10
+	title = GGR_event.10.t
+	desc = GGR_event.10.desc
+	picture = GFX_GGR_event10
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.10.a
+		custom_effect_tooltip = l_GGR_improves_segregation
+		add_to_variable = { var_GGR_segregation_ef = 0.05 }
+		add_to_variable = { var_GGR_segregation_em = 0.05 }
+	}
+}
+
+country_event = {
+	id = GGR_event.11
+	title = GGR_event.11.t
+	desc = GGR_event.11.desc
+	picture = GFX_GGR_event11
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.11.a
+	}
+}
+
+country_event = {
+	id = GGR_event.12
+	title = GGR_event.12.t
+	desc = GGR_event.12.desc
+	picture = GFX_GGR_event12
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.12.a
+	}
+}
+
+country_event = {
+	id = GGR_event.13
+	title = GGR_event.13.t
+	desc = GGR_event.13.desc
+	picture = GFX_GGR_event13
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.13.a
+		add_manpower = -20000
+		add_war_support = -0.1
+		hidden_effect = {
+			33 = {
+				create_unit = {
+					division = "name = \"Freedom Unit\" division_template = \"Freedom Unit\" start_manpower_factor = 0.7"
+					owner = FFT
+					count = 1
+					prioritize_location = 6357
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Freedom Unit\" division_template = \"Freedom Unit\" start_manpower_factor = 0.7"
+					owner = FFT
+					count = 1
+					prioritize_location = 234
+					allow_spawning_on_enemy_provs = yes
+				}
+				create_unit = {
+					division = "name = \"Freedom Unit\" division_template = \"Freedom Unit\" start_manpower_factor = 0.7"
+					owner = FFT
+					count = 1
+					prioritize_location = 3300
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+			172 = {
+				create_unit = {
+					division = "name = \"Freedom Unit\" division_template = \"Freedom Unit\" start_manpower_factor = 0.8"
+					owner = FFT
+					count = 1
+					prioritize_location = 4498
+					allow_spawning_on_enemy_provs = yes
+				}
+			}
+		}
+	}
+}
+
+
+
+country_event = {
+	id = GGR_hidden_event.1
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		33 = { 
+			remove_core_of = GGR
+			add_core_of = FFT
+			transfer_state_to = FFT 
+		}
+		16 = { 
+			remove_core_of = GGR
+			add_core_of = EMP
+			transfer_state_to = EMP
+			set_demilitarized_zone = yes
+		}
+	}
+}
+
+country_event = {
+	id = GGR_hidden_event.2
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		172 = { 
+			remove_core_of = GGR
+			add_core_of = SPL
+			transfer_state_to = SPL 
+		}
+		143 = { 
+			remove_core_of = GGR
+			add_core_of = SPL
+			transfer_state_to = SPL 
+		}
+		SPL = { inherit_technology = GGR }
+	}
+}
+
+country_event = {
+	id = GGR_hidden_event.3
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		24 = { 
+			remove_core_of = GGR
+			add_core_of = SRI
+			transfer_state_to = SRI
+		}
+		SRI = { 
+			inherit_technology = GGR
+		}
 	}
 }

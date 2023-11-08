@@ -105,10 +105,50 @@ spriteTypes = {
 		name = GFX_idea_GGR_anarchist_resistance
 		texturefile = gfx/interface/ideas/idea_GGR_anarchist_resistance.dds
 	}
+	spriteType = {
+		name = GFX_idea_GGR_anarchist_resistance
+		texturefile = gfx/interface/ideas/idea_GGR_anarchist_resistance.dds
+	}
+	spriteType = {
+		name = GFX_idea_GGR_grassy
+		texturefile = gfx/interface/ideas/idea_GGR_grassy.dds
+	}
+	spriteType = {
+		name = GFX_idea_GGR_woody
+		texturefile = gfx/interface/ideas/idea_GGR_woody.dds
+	}
+	spriteType = {
+		name = GFX_idea_GGR_snowy_industry
+		texturefile = gfx/interface/ideas/idea_GGR_snowy_industry.dds
+	}
+	spriteType = {
+		name = GFX_idea_GGR_segregation
+		texturefile = gfx/interface/ideas/idea_GGR_segregation.dds
+	}
+	spriteType = {
+		name = GFX_idea_GGR_snowy_vexels
+		texturefile = gfx/interface/ideas/idea_GGR_snowy_vexels.dds
+	}
+	spriteType = {
+		name = GFX_idea_GGR_crayon
+		texturefile = gfx/interface/ideas/idea_GGR_crayon.dds
+	}
+	spriteType = {
+		name = GFX_idea_GGR_peoples_support
+		texturefile = gfx/interface/ideas/idea_GGR_peoples_support.dds
+	}
+	spriteType = {
+		name = GFX_idea_GGR_verschneitwehr
+		texturefile = gfx/interface/ideas/idea_GGR_verschneitwehr.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_FFT_mother_anarchy
 		texturefile = gfx/interface/ideas/idea_FFT_mother_anarchy.dds
+	}
+	spriteType = {
+		name = GFX_idea_FFT_freedom_or_death
+		texturefile = gfx/interface/ideas/idea_FFT_freedom_or_death.dds
 	}
 	
 	spriteType = {

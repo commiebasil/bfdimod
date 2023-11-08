@@ -66,6 +66,18 @@ SGD = {
 	color = rgb { 255 154 255 }
 	color_ui = rgb { 255 154 255 }
 }
+SMG = {
+	color = rgb { 130 130 130 }
+	color_ui = rgb { 130 130 130 }
+}
+SPL = {
+	color = rgb { 108 163 114 }
+	color_ui = rgb { 108 163 114 }
+}
+SRI = {
+	color = rgb { 232 198 160 }
+	color_ui = rgb { 232 198 160 }
+}
 
 D01 = {
 	color = rgb { 122 179 97 }

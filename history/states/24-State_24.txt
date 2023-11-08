@@ -1,13 +1,25 @@
+
 state={
 	id=24
 	name="STATE_24"
+
+	resources = {
+		steel = 6
+	}
+
+	history={
+		owner = GOI
+		add_core_of = GOI
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
 	provinces={
-		315 1045 1120 1196 1488 2064 3658 5638 6485 6506 6510 6548 6561 
+		45 502 629 1106 1914 2312 2334 2534 2653 2724 2881 2986 3001 3180 3797 4209 4550 4699 5080 5109 5676 5766 5859 11156 11165 11184 11212 11224 11225 11228 11234 11243 11247 11266 
 	}
-	history = {
-		owner = EMP
-		add_core_of = EMP
-	}
-	manpower = 10000
-	state_category = rural
+	manpower=41009
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

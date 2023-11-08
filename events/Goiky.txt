@@ -158,7 +158,6 @@ country_event = {
 		hidden_effect = {
 			set_global_flag = superevent_dream_island_dissapear
 			country_event = superevent.1
-			set_global_flag = focus_take_prevention
 			set_cosmetic_tag = GOI_anarchy
 			206 = { add_manpower = -2147483 }
 			203 = { add_manpower = -418001 }
@@ -455,22 +454,34 @@ country_event = {
 		GGR = {
 			transfer_state = 15
 			transfer_state = 16
+			transfer_state = 24
+			transfer_state = 33
+			transfer_state = 143
 			transfer_state = 172
 			transfer_state = 169
 			
 			add_state_core = 15
 			add_state_core = 16
+			add_state_core = 24
+			add_state_core = 33
+			add_state_core = 143
 			add_state_core = 172
 			add_state_core = 169
 			
 			15 = { set_demilitarized_zone = no }
 			16 = { set_demilitarized_zone = no }
+			24 = { set_demilitarized_zone = no }
+			33 = { set_demilitarized_zone = no }
+			143 = { set_demilitarized_zone = no }
 			172 = { set_demilitarized_zone = no }
 			169 = { set_demilitarized_zone = no }
 		}
 		GOI = {
 				remove_state_core = 15
 				remove_state_core = 16
+				remove_state_core = 24
+				remove_state_core = 33
+				remove_state_core = 143
 				remove_state_core = 172
 				remove_state_core = 169
 		}
@@ -484,6 +495,10 @@ country_event = {
 	hidden = yes
     
     immediate = {
+		GGR = {
+			remove_state_core = 169
+			add_state_claim = 169
+		}
 		FFT = {
 			transfer_state = 169
 			

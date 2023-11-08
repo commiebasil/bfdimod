@@ -2,6 +2,7 @@ category = {
 	name = "BFDI"
 	soundeffects = {
 		bfdi_button_press
+		bfdi_capitulation
 	}
 	compressor = {
 		enabled = yes

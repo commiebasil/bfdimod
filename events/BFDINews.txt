@@ -107,6 +107,71 @@ news_event = {
 	
 	option = {
 		name = bfdinews.6.a
-		set_global_flag = demo_ended
+		if = {
+			limit = { WGF = { is_ai = no } }
+			set_variable = { var_demo_end = 1 }
+			set_global_flag = demo_ended
+		}
+	}
+}
+
+news_event = {
+	id = bfdinews.7
+	title = bfdinews.7.t
+	desc = bfdinews.7.desc
+	picture = GFX_bfdinews7
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bfdinews.7.a
+		if = {
+			limit = { SMG = { is_ai = no } }
+			set_variable = { var_demo_end = 2 }
+			set_global_flag = demo_ended
+		}
+	}
+}
+
+news_event = {
+	id = bfdinews.8
+	title = bfdinews.8.t
+	desc = bfdinews.8.desc
+	picture = GFX_bfdinews8
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bfdinews.8.a
+	}
+}
+
+news_event = {
+	id = bfdinews.9
+	title = bfdinews.9.t
+	desc = bfdinews.9.desc
+	picture = GFX_bfdinews7
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bfdinews.9.a
+		if = {
+			limit = { GGR = { is_ai = no } }
+			set_variable = { var_demo_end = 3 }
+			set_global_flag = demo_ended
+		}
 	}
 }

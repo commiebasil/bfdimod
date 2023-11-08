@@ -7,16 +7,4 @@ characters = {
 		desc = GTR_golfball_desc
 		}
 	}
-	GTR_Tennisball = {
-		name = GTR_Tennisball
-		portraits = { civilian = { small = GFX_idea_GTR_Tennisball } }
-		advisor = {
-			slot = political_advisor
-			idea_token = idea_GTR_Tennisball
-			ledger = army
-			traits = { popular_figurehead }  
-			available = { hidden_trigger = { has_completed_focus = GTR_focus_public_figure } }
-			visible = { hidden_trigger = { has_completed_focus = GTR_focus_public_figure } }
-		}
-	}
 }

@@ -1,0 +1,45 @@
+scripted_gui = {
+	cap_window_scriptedgui = {
+		window_name = cap_window_container
+		context_type = player_context
+		
+		visible = {
+            OR = {
+				has_global_flag = capitulation
+			}
+        }
+		
+		effects = {
+			close_button_click = {
+				set_global_flag = {
+					flag = capitulation
+					value = 0
+				}
+				set_global_flag = {
+					flag = cap_coiny
+					value = 0
+				}
+				set_global_flag = {
+					flag = cap_firey
+					value = 0
+				}
+				set_global_flag = {
+					flag = cap_flower
+					value = 0
+				}
+				set_global_flag = {
+					flag = cap_icy
+					value = 0
+				}
+				set_global_flag = {
+					flag = cap_rocky
+					value = 0
+				}
+				set_global_flag = {
+					flag = cap_snowball
+					value = 0
+				}
+			}
+		}
+	}
+}

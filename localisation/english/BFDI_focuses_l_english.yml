@@ -220,32 +220,7 @@
  GGR_focus_nothing_happens_here: "Nothing happens here!"
  GGR_focus_nothing_happens_here_desc: "Our policy towards defective objects may raise some... questions. We just need to hide this from the public eye until the public is ready for it."
  
- #Technocratic
- GTR_focus_mass_mechanize: "Mass Mechanization"
- GTR_focus_mass_mechanize_desc: "With our advanced technology, we can mechanize the comman object, and give them some extra... brainpower..."
- 
- GTR_focus_stability: "Formalize the Union"
- GTR_focus_stability_desc: "What started as a group of Technocrats has grown into an entire society in such a short amount of time. Under Golf Ball's leadership, the armless will be armed, and the legless will be legged. Glory to the Goiky Technocratic Republic!"
-
-GTR_focus_research_slot_2: "Mechanical Arms"
-GTR_focus_research_slot_2_desc: "By giving the armless objects of our society arms, the armless are able to better utilize their brain powers, thus proving the armless can still be strong."
-
-GTR_focus_GB_factory_upgrade: "Upgrade Golf Ball's Factory"
-GTR_focus_GB_factory_upgrade_desc: "It seems our fellow Technocrats view Golf Ball's factory as a sort of national symbol. Perhaps by making it larger, we can make the people happier."
-
-GTR_focus_reach_out_to_tennis_ball: "Strengthen the Search for Tennis Ball"
-GTR_focus_reach_out_to_tennis_ball_desc: "Our good friend Tennis Ball has been missing for the better part of a year, it is time we look even harder for our lost friend. (maybe even boyfriend.......)"
-
-GTR_focus_TB_speech: "Tennis Ball's Speech"
-GTR_focus_TB_speech_desc: "Tennis Ball is proposing (WHAT?!) that we allow him to hold a speech in the capital. He says that he has something he wants the people to know, and he wants them to hear him loud and clear."
-
-GTR_focus_stabilize: "Stabilize the Republic"
-GTR_focus_stabilize_desc: "Despite our high national spirit, our country isn't very stable, and most of the population prefer to identify with the region of Goiky they are from rather than the republic. A Goikian no longer, a Technocrat you are now."
-
-GTR_focus_public_figure: "Give Tennis Ball a government position"
-GTR_focus_public_figure_desc: "Tennis Ball has been gaining popularity with the people, perhaps it is time we give him an official government position."
-
-#generic
+ #generic
  generic_focus_industry: "Industry expansion"
  generic_focus_army: "Army"
  generic_focus_researches: "Technologies"

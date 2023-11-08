@@ -3,4 +3,15 @@ spriteTypes = {
 		name = "GFX_watermark"
 		texturefile = "gfx/interface/watermark.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_cap_window_bg"
+		texturefile = "gfx/interface/cap_window_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_agency_icon_GGR_scheeschutz"
+		texturefile = "gfx/interface/agency_icon_GGR_scheeschutz.dds"
+		noOfFrames = 2
+	}
 }

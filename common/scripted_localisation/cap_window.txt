@@ -1,0 +1,27 @@
+defined_text = {
+	name = CAP_WINDOW_DESC
+	text = {
+		trigger = { has_global_flag = cap_coiny }
+		localization_key = cap_window_desc_coiny
+	}
+	text = {
+		trigger = { has_global_flag = cap_firey }
+		localization_key = cap_window_desc_firey
+	}
+	text = {
+		trigger = { has_global_flag = cap_flower }
+		localization_key = cap_window_desc_flower
+	}
+	text = {
+		trigger = { has_global_flag = cap_icy }
+		localization_key = cap_window_desc_icy
+	}
+	text = {
+		trigger = { has_global_flag = cap_rocky }
+		localization_key = cap_window_desc_rocky
+	}
+	text = {
+		trigger = { has_global_flag = cap_snowball }
+		localization_key = cap_window_desc_snowball
+	}
+}

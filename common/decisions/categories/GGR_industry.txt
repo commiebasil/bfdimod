@@ -1,0 +1,8 @@
+decision_GGR_industry_category = {
+	picture = GFX_decision_cat_GGR_industry
+	allowed = { tag = GGR }
+	visible = { has_completed_focus = GGR_focus_industrialization }
+	priority = 10
+	visible_when_empty = yes
+	icon = GFX_decision_category_generic_industry
+}

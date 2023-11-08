@@ -4,4 +4,12 @@ defined_text = {
 		trigger = { original_tag = WGF }
 		localization_key = demo_end_WGF_title
 	}
+	text = {
+		trigger = { original_tag = SMG }
+		localization_key = demo_end_GGR_title_1
+	}
+	text = {
+		trigger = { original_tag = GGR }
+		localization_key = demo_end_GGR_title_2
+	}
 }

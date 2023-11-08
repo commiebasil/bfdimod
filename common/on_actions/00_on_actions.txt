@@ -8,11 +8,19 @@ on_actions = {
 			}
 			set_global_flag = showwatermark
 			set_global_flag = welcome
+			set_global_flag = focus_take_prevention
 		}
 	}
 	
 	on_capitulation_immediate = {
 		effect = {
+			#i stole that from TNO cause idk how to make it :D
+			FROM = {
+				save_global_event_target_as = winning_country
+			}
+			ROOT = {
+				save_global_event_target_as = losing_country
+			}
 			if = {
 				limit = {
 					FROM = { tag = WGF }
@@ -25,6 +33,48 @@ on_actions = {
 						random_hours = 12
 					}
 				}
+				set_global_flag = cap_coiny
+			}
+			else_if = {
+				limit = {
+					FROM = { tag = GMD }
+					ROOT = { tag = WGF }
+				}
+				set_global_flag = cap_firey
+			}
+			else_if = {
+				limit = {
+					FROM = { tag = SGD }
+					ROOT = { tag = AGG }
+				}
+				set_global_flag = cap_icy
+			}
+			else_if = {
+				limit = {
+					FROM = { tag = AGG }
+					ROOT = { tag = SGD }
+				}
+				set_global_flag = cap_flower
+			}
+			else_if = {
+				limit = {
+					FROM = { tag = GGR }
+					ROOT = { tag = FFT }
+				}
+				set_global_flag = cap_rocky
+				GGR = {
+					news_event = {
+						id = bfdinews.9
+						days = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = { tag = FFT }
+					ROOT = { tag = GGR }
+				}
+				set_global_flag = cap_snowball
 			}
 			FROM = {
 				annex_country = {
@@ -32,6 +82,7 @@ on_actions = {
 					transfer_troops = no
 				}
 			}
+			set_global_flag = capitulation
 		}
 	}
 }

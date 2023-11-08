@@ -86,6 +86,10 @@ spriteTypes = {
 		name = "GFX_GGR_snowball"
 		texturefile = "gfx/leaders/GGR/GGR_snowball.dds"
 	}
+	spriteType = {
+		name = "GFX_GGR_grassy"
+		texturefile = "gfx/leaders/GGR/GGR_grassy.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_FFT_rocky"
@@ -116,8 +120,19 @@ spriteTypes = {
 		name = "GFX_SGD_robot_flower"
 		texturefile = "gfx/leaders/SGD/SGD_robot_flower.dds"
 	}
+	
 	spriteType = {
-	name = "GFX_idea_GTR_Tennisball.dds"
-	texturefile = "gfx/interface/ideas/idea_GTR_Tennisball.dds"
+		name = "GFX_SMG_grassy"
+		texturefile = "gfx/leaders/SMG/SMG_grassy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SPL_woody"
+		texturefile = "gfx/leaders/SPL/SPL_woody.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SRI_sketchpad"
+		texturefile = "gfx/leaders/SRI/SRI_sketchpad.dds"
 	}
 }
