@@ -149,7 +149,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "freet"
-			position = { x = 545 y = 525 }
+			position = { x = 540 y = 487 }
 			spriteType = GFX_button_freet
 			pdx_tooltip = WR_FREET_BTTT
 		}
@@ -164,6 +164,20 @@ guiTypes = {
 			position = { x = 205 y = 380 }
 			spriteType = GFX_button_agg
 			pdx_tooltip = WR_AGG_BTTT
+		}
+		
+		iconType = {
+			name = "WGF_available"
+			position = { x = 230 y = 80 }
+			spriteType = GFX_available_text
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "GGR_available"
+			position = { x = 670 y = 470 }
+			spriteType = GFX_available_text
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -185,6 +199,52 @@ guiTypes = {
 			font = hoi_20bs
 			position = { x = 925 y = 115 }
 			maxWidth = 310
+		}
+	}
+	
+	containerWindowType = {
+		name = disclaimer_container
+		position = { x = 700 y = 400 }
+		size = { width = 400 height = 300 }
+		moveable = yes
+			
+		background = {
+			name = disclaimer_bg
+			spriteType = GFX_tiled_bg
+		}
+		
+		instantTextBoxType = {
+			name = disclaimer_title
+			position = { x = 0 y = 20 }
+			text = l_disclaimer_title
+			font = hoi_30header
+			format = centre
+			maxWidth = 400
+		}
+		
+		instantTextBoxType = {
+			name = disclaimer_desc
+			position = { x = 10 y = 70 }
+			text = l_disclaimer_desc
+			font = hoi_20bs
+			format = centre
+			maxWidth = 380
+		}
+		
+		buttonType = {
+			name = agree
+			position = { x = 140 y = 170 }
+			buttonText = l_disclaimer_button_agree
+			buttonFont = hoi_20bs
+			spriteType = GFX_button_123x34
+		}
+		
+		buttonType = {
+			name = cancel
+			position = { x = 140 y = 220 }
+			buttonText = l_disclaimer_button_cancel
+			buttonFont = hoi_20bs
+			spriteType = GFX_button_123x34
 		}
 	}
 }

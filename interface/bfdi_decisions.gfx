@@ -63,4 +63,129 @@ spriteTypes = {
 		name = "GFX_decisions_WGF_operation_coinflip_triumph"
 		textureFile = "gfx/interface/decisions/GFX_decisions_WGF_operation_coinflip_triumph.dds"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_schneehorn_status"
+		textureFile = "gfx/interface/decisions/schneehorn_status.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_snowy_plains_status"
+		textureFile = "gfx/interface/decisions/snowy_plains_status.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_bottom_snowy_plateau_status"
+		textureFile = "gfx/interface/decisions/bottom_snow_plateau_status.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_snowy_hills_status"
+		textureFile = "gfx/interface/decisions/snowy_hills_status.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_great_ridge_status"
+		textureFile = "gfx/interface/decisions/great_ridge_status.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_snowy_woods_status"
+		textureFile = "gfx/interface/decisions/snowy_woods_status.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_star"
+		textureFile = "gfx/interface/decisions/star.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_map_bg"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_map_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_snowy_medal"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_snowy_medal.dds"
+	}
+	
+	spriteType = {
+		name = "decision_category_anarchists"
+		textureFile = "gfx/interface/decisions/decision_category_anarchists.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_anarchists_mission"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_anarchists_mission.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_schneehorn_separator"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_schneehorn_separator.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_snowy_plains_separator"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_snowy_plains_separator.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_snowy_hills_separator"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_snowy_hills_separator.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_bottom_snowy_plateau_separator"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_bottom_snowy_plateau_separator.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_riot_missions"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_riot_missions.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_anarchists_suppression"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_anarchists_suppression.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_distribute_weapons"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_distribute_weapons.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_arrest_leaders"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_arrest_leaders.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_industry_segregate_nonbinary"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_industry_segregate_nonbinary.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_industry_four_year_plan"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_industry_four_year_plan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_industry_snowy_vexels_mission"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_industry_snowy_vexels_mission.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GGR_industry_stop_vexels"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GGR_industry_stop_vexels.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_GGR_industry"
+		textureFile = "gfx/interface/decisions/decision_cat_GGR_industry.dds"
+	}
 }

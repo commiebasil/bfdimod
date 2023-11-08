@@ -1,0 +1,80 @@
+defined_text = {
+	name = SCHNEEHORN_STATUS
+	text = {
+		trigger = { check_variable = { var_schneehorn_status_2 = 1 } }
+		localization_key = decisions_GGR_schneehorn_status_low
+	}
+	text = {
+		trigger = { check_variable = { var_schneehorn_status_2 = 2 } }
+		localization_key = decisions_GGR_schneehorn_status_medium
+	}
+	text = {
+		trigger = { check_variable = { var_schneehorn_status_2 = 3 } }
+		localization_key = decisions_GGR_schneehorn_status_high
+	}
+}
+defined_text = {
+	name = SNOWY_PLAINS_STATUS
+	text = {
+		trigger = { check_variable = { var_snowy_plains_status_2 = 1 } }
+		localization_key = decisions_GGR_snowy_plains_status_low
+	}
+	text = {
+		trigger = { check_variable = { var_snowy_plains_status_2 = 2 } }
+		localization_key = decisions_GGR_snowy_plains_status_medium
+	}
+	text = {
+		trigger = { check_variable = { var_snowy_plains_status_2 = 3 } }
+		localization_key = decisions_GGR_snowy_plains_status_high
+	}
+}
+defined_text = {
+	name = SNOWY_HILLS_STATUS
+	text = {
+		trigger = { check_variable = { var_snowy_hills_status_2 = 1 } }
+		localization_key = decisions_GGR_snowy_hills_status_low
+	}
+	text = {
+		trigger = { check_variable = { var_snowy_hills_status_2 = 2 } }
+		localization_key = decisions_GGR_snowy_hills_status_medium
+	}
+	text = {
+		trigger = { check_variable = { var_snowy_hills_status_2 = 3 } }
+		localization_key = decisions_GGR_snowy_hills_status_high
+	}
+}
+defined_text = {
+	name = BOTTOM_SNOWY_PLATEAU_STATUS
+	text = {
+		trigger = { check_variable = { var_bottom_snowy_plateau_status_2 = 1 } }
+		localization_key = decisions_GGR_bottom_snowy_plateau_status_low
+	}
+	text = {
+		trigger = { check_variable = { var_bottom_snowy_plateau_status_2 = 2 } }
+		localization_key = decisions_GGR_bottom_snowy_plateau_status_medium
+	}
+	text = {
+		trigger = { check_variable = { var_bottom_snowy_plateau_status_2 = 3 } }
+		localization_key = decisions_GGR_bottom_snowy_plateau_status_high
+	}
+}
+
+defined_text = {
+	name = SUPPRESSED_REGION
+	text = {
+		trigger = { check_variable = { suppressed_state = 1 } }
+		localization_key = GGR_suppressed_region_schneehorn
+	}
+	text = {
+		trigger = { check_variable = { suppressed_state = 2 } }
+		localization_key = GGR_suppressed_region_snowy_plains
+	}
+	text = {
+		trigger = { check_variable = { suppressed_state = 3 } }
+		localization_key = GGR_suppressed_region_snowy_hills
+	}
+	text = {
+		trigger = { check_variable = { suppressed_state = 4 } }
+		localization_key = GGR_suppressed_region_bottom_snowy_plateau
+	}
+}

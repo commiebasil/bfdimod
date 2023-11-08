@@ -5,3 +5,11 @@
  WGF_fascism_party: "§RЗАПРЕЩЕНЫ§!"
  WGF_democratic_party: "§RЗАПРЕЩЕНЫ§!"
  WGF_radical_thoughts_party: "§RЗАПРЕЩЕНЫ§!"
+ 
+ GGR_fascism_party: "Снежный Совет"
+ GGR_neutrality_party: "§RЗАПРЕЩЕНЫ§!"
+ GGR_communism_party: "§RЗАПРЕЩЕНЫ§!"
+ GGR_democratic_party: "§RЗАПРЕЩЕНЫ§!"
+ GGR_radical_thoughts_party: "§RЗАПРЕЩЕНЫ§!"
+ GGR_neutral_party_after_focus: "ППП"
+ GGR_neutral_party_after_focus_long: "Партия Поддержки Правительства"

@@ -8,5 +8,10 @@
 music = {
     name = "superevent_dream_island_dissapear_song"
     file = "superevent_dream_island_dissapear_music.ogg"
-    volume = 0.65
+    volume = 1
+}
+music = {
+	name = "snowy_forest_invasion_music"
+	file = "snowy_forest_invasion_music.ogg"
+	volume = 1
 }

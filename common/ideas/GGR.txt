@@ -7,5 +7,13 @@ ideas = {
 				war_support_factor = 0.05
 			}
 		}
+		
+		idea_GGR_peoples_support = {
+			picture = GGR_peoples_support
+			modifier = {
+				political_power_gain = -0.25
+				fascism_drift = 0.3
+			}
+		}
 	}
 }

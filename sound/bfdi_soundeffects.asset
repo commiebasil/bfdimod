@@ -1,7 +1,12 @@
 soundeffect = {
 	name = bfdi_button_press
-	volume = 0.8
+	volume = 1
 	sounds = {
 		sound = bfdi_button_press
 	}
+}
+soundeffect = {
+	name = bfdi_capitulation
+	volume = 1
+	sounds = { sound = bfdi_capitulation }
 }

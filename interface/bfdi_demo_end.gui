@@ -24,13 +24,13 @@ guiTypes = {
 		
 		iconType = {
 			name = "image"
-			spriteType = GFX_demo_end_wgf_image
+			spriteType = GFX_demo_end_images
 			position = { x = 33 y = 28 }
 		}
 		
 		iconType = {
 			name = "item"
-			spriteType = GFX_demo_end_wgf_item
+			spriteType = GFX_demo_end_items
 			position = { x = 150 y = 400 }
 		}
 		

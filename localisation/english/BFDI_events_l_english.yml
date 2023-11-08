@@ -31,7 +31,6 @@
  GOI_event.8.t: "Battle for Goiky"
  GOI_event.8.desc: "This is where our story begins. First, you need to choose one of the many fragments of Goiky, which you will lead to greatness.\n\n§RWE STRICTLY RECOMMEND TO PAUSE THE GAME!§!"
  GOI_event.8.a: "Let's go!"
- 
  #NGRF
  WGF_event.1.t: "Revolutionary front"
  WGF_event.1.desc: "It’s surprising, because just a couple of months ago he won the vote, he was supposed to get the island, but today he’s here. Firey often wondered where fate had taken him. In general, he changed dramatically during the days of the front. Where's Leafy? Where did the island go? These questions have not bothered him for a long time. The liberation of Goiky's objects became the main task of his existence. The short-lived relationship with Coiny quickly broke down when this traitor abandoned the cause of liberating the workers and fled to the east. But it’s okay, all the enemies of the revolution will get what they deserve."
@@ -92,8 +91,66 @@
  WGF_event.15.desc: "- So, accused, do you admit your guilt in war crimes against the objects of Northern Goiky and against the revolution?\n- Heck you, Firey!\nThe defendant suddenly jumped out of his seat in the court room, ran up to Firey and slapped him in the face, which was followed by a retaliatory slap. Soon they were separated."
  WGF_event.15.a: "Just like the good old days."
  
+ WGF_event.16.t: "Supply chains are broken!"
+ WGF_event.16.desc: "After the Fascist invasion of the Snowy Forest began, it became almost impossible to continue supplying the Anarchists. Unfortunately, we will have to stop sending rifles to these comrades."
+ WGF_event.16.a: "Good luck to them."
+ #Reich
+ GGR_event.1.t: "Behind the ridge"
+ GGR_event.1.desc: "The Snowy Plateau is a wonderful region with beautiful objects, although it is quite poor. It has some features, for example: Its population, due to its isolation, is quite united and has a uniform, special culture, unlike other regions of South Goyka. It is particularly autonomous and does not depend so much on foreign trade..."
+ GGR_event.1.a: "This land needs in a strong hand."
+ 
+ GGR_event.2.t: "Snowy status-quo"
+ GGR_event.2.desc: "'Death to anarchists!' - This is where Snowball ended his speech to the fighters of the newly created militia. Doubts accumulated in him and, as if he himself, rolled into a big snowball. Anarchists occupy village after village, and his popular support is small. But he knew one thing for sure:"
+ GGR_event.2.a: "Our spirit cannot be broken."
+ 
+ GGR_event.3.t: "Wald Massacre"
+ GGR_event.3.desc: "Wald, one of the few forest settlements that remained under Reich control, was subjected to an "act of retaliation" by ultranationalist battalions. According to initial data, 506 objects of all genders and ages were killed on suspicion of collaboration with the resistance. The dead were thrown into heaps and burned. Those who could not be burned were simply thrown into ditches and pits. This incident will go down in the history of the Snowy Plateau as one of the most brutal."
+ GGR_event.3.a: "There are also excesses..."
+ 
+ GGR_event.4.t: "The Final Stretch"
+ GGR_event.4.desc: "Those damned anarchists, national traitors who tried to undermine the unity of the Snowy Plateau. Soon they will answer for their actions fairly, all that remains is to strike the final blow. Grassy was immersed in those thoughts that haunted his mind. He joined the local Whiteshirt squad quite a long time ago and showed exemplary discipline. He doesn't know about his promotion yet."
+ GGR_event.4.a: "The hand that will end anarchy."
+ 
+ GGR_event.5.t: "Resistance suppressed"
+ GGR_event.5.desc_1: "We're successfully destroyed resistance in Schneehorn region and now region fully controlled by us."
+ GGR_event.5.desc_2: "We're successfully destroyed resistance in Snowy Plains region and now region fully controlled by us."
+ GGR_event.5.desc_3: "We're successfully destroyed resistance in Snowy Hills region and now region fully controlled by us."
+ GGR_event.5.desc_4: "We're successfully destroyed resistance in Bottom Plateau region and now region fully controlled by us."
+ GGR_event.5.a: "Good work."
+ 
+ GGR_event.6.t: "Revolutionary Front supports Anarchists resistance!"
+ GGR_event.6.desc: "The Firey regime in the north, despite disagreements in state-building, managed to negotiate a supply line for equipment for the Snowy Plateau Anarchists. Although the NGRF is quite far from the Snowy Plateau geographically, it greatly raised the morale of the Anarchists in our rear."
+ GGR_event.6.a: "Curse them!"
+ 
+ GGR_event.7.t: "The Anarchist Problem"
+ GGR_event.7.desc: "Not everyone agreed with our... Quite radical methods of government building, and this creates many difficulties for us. National-traitors formed into communes and took refuge in the forests in the south, almost completely controlling them. Moreover, they propagate their corrupting ideas among the objects of our great Snowy State in the northern regions. If we do not solve this problem in the coming years, the fate of the Snowy Plateau will remain in doubt."
+ GGR_event.7.a: "Heil Snowball!"
+ 
+ GGR_event.8.t: "Snowball's Notes"
+ GGR_event.8.desc: "Interestingly, in the last months of the Snowy Reich, Snowball even learned to write, and kept some semblance of a 'diary'. The entries in it, in keeping with the times, became more and more hopeless every day. When first the Snow Hills and then the Northern Regions left the control of the Reich, Snowball wrote a short message for his followers. It served as a kind of 'manifesto' for the remaining forces in Schneehorn. After writing, Snowball likely went into battle with one of his elite units and died."
+ GGR_event.8.a: "There was no lights out. The fight continues."
+ 
+ GGR_event.9.t: "The danger of rebellion has been eliminated!"
+ GGR_event.9.desc: "The last center of resistance in our rear has been successfully destroyed, and we can now turn our attention completely towards foreign policy."
+ GGR_event.9.a: "Wonderful news."
+ 
+ GGR_event.10.t: "Profitable destruction...?"
+ GGR_event.10.desc: "A few weeks after the creation of the first concentration camp in the Snowy Hills region, one of the directors of a local manufacturing company came to Schneehorn to offer... A small contribution to the state in exchange for the free labor of concentration camp prisoners. Although segregated objects generally do not have hands, it does not hurt to force them to work."
+ GGR_event.10.a: "Business is going well."
+ 
+ GGR_event.11.t: "Some... uncertainties"
+ GGR_event.11.desc: "- Why the hell is this road blocked!?\n\n- No specific reasons are given, but driving here is strictly prohibited.\n\n- I don’t care, I have an urgent meeting in Schneehorn, open this barrier immediately, otherwise you will have big problems in the Reichsordnung!\n\n- ...Sorry, sir, but I'll get myself court-martialed if I do this. This is an order from the very top.\n\nThe irritated interlocutor, completely enraged, pressed the pedal to the floor and broke through the barrier, rushing into the distance."
+ GGR_event.11.a: "Open fire!"
+ 
+ GGR_event.12.t: "Crossing the line"
+ GGR_event.12.desc: "At 4 AM in the morning, our troops crossed the conventional border in the form of the Snowriver River and occupied bridgeheads in the Snowy Forest. The anarchists clearly did not expect such a quick invasion and are preparing their defense. The Battle of the Snowy Plateau begins."
+ GGR_event.12.a: "Forwards!"
+ 
+ GGR_event.13.t: "Mass desertion!"
+ GGR_event.13.desc: "We are faced with a big problem: The rear and reserve units treacherously went over to the side of the enemy, having been subjected to his propaganda. This significantly impacts our rear and can lead to the destruction of the front."
+ GGR_event.13.a: "Traitors!"
  #NEWS
- bfdinews.1.t: "Firey wons Dream Island!"
+ bfdinews.1.t: "Firey won Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result of the vote. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."
  bfdinews.1.a: "Hate is popularity too."
  
@@ -111,9 +168,21 @@
  bfdinews.4.b: "Reactionaries tremble in fear!"
  
  bfdinews.5.t: "North Goiky expedition!"
- bfdinews.5.desc: "Good morning, dear listeners! Interesting news came from North-Goikiland: A group of pioneering expeditioners of two hundred objects set sail from there and went to North Goiky straight across the canal. Their goal is to explore the coastal regions of the continent. That's all we know for now, but we'll keep an eye on this interesting research."
+ bfdinews.5.desc: "Good morning, dear listeners! Interesting news came from North-Goikyland: A group of pioneering expeditioners of two hundred objects set sail from there and went to North Goiky straight across the canal. Their goal is to explore the coastal regions of the continent. That's all we know for now, but we'll keep an eye on this interesting research."
  bfdinews.5.a: "Good luck."
  
  bfdinews.6.t: "Proclamation of a socialist republic"
  bfdinews.6.desc: "Important News: A few weeks after the defeat of the Military District and after the Red Army had established control over Cary, Firey announced the creation of the Goiky Socialist Republic. This is a new page in the history of Northern Goiky and a new stage in the advancement of the 'all-goikian revolution'. Will the new republic fail or will it successfully spread its influence throughout the continent?"
  bfdinews.6.a: "To the future."
+ 
+ bfdinews.7.t: "Collapse of the Snowy Plateau!"
+ bfdinews.7.desc: "Interesting news came from the Snowy Plains: The local dictatorship couldn't withstand the blows of the resistance and collapsed into fragments and self-proclaimed governments. Most likely, this will entail a serious blow to the entire cultural and national identity of the Snowy Plateau objects. In any case, our editors continue to follow developments."
+ bfdinews.7.a: "Dark times."
+ 
+ bfdinews.8.t: "Invasion of the Snowy Forest!"
+ bfdinews.8.desc: "The atmosphere in the Snowy Plateau had been heating up for several years, and now: the Reich Army crossed the border of the Snowy Forest with the aim of clearing it of Anarchists. So far the details are not clear, but most likely the war will be difficult and protracted for both sides."
+ bfdinews.8.a: "Freedom and Order collide."
+ 
+ bfdinews.9.t: "The anarchists of the Snowy Plateau are defeated!"
+ bfdinews.9.desc: "Breaking news: The Reich's armed forces have recently completed clearing the Snowy Forest of anarchist forces, and although they still have combat-ready units in the rear, they are unlikely to ever be able to recover. Although the anarchist objects would continue to resist for many years to come, they were defeated."
+ bfdinews.9.a: "Order was established in the Snowy Plateau."

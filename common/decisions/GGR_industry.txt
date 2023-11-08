@@ -1,0 +1,275 @@
+decision_GGR_industry_category = {
+	GGR_industry_four_year_plan_mission = {
+		priority = 50
+		icon = GFX_decisions_GGR_industry_four_year_plan
+		activation = { always = no }
+        available = { 
+			num_of_factories > 30
+			has_completed_focus = GGR_focus_corporative_economy
+		}
+		is_good = no
+		selectable_mission = yes
+		days_mission_timeout = 1460
+		complete_effect = {
+			add_stability = 0.1
+			add_political_power = 150
+		}
+		timeout_effect = {
+			add_stability = -0.25
+			add_political_power = -200
+		}
+    }
+	
+	GGR_industry_snowy_vexels_mission = {
+		priority = 45
+		icon = GFX_decisions_GGR_industry_snowy_vexels_mission
+		activation = { 
+			has_completed_focus = GGR_focus_snowy_vexels 
+			NOT = { has_country_flag = vexels_disabled }
+		}
+        available = { hidden_trigger = { always = no } }
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 210
+		timeout_effect = {
+			custom_effect_tooltip = l_GGR_snowy_vexels_mission
+			add_to_variable = { var_GGR_vexels_pc = 0.15 }
+		}
+    }
+	
+	GGR_industry_stop_vexels = {
+		priority = 44
+		icon = GFX_decisions_GGR_industry_stop_vexels
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 30
+				political_power_growth < 0.2
+			}
+		}
+		cost = 25
+		available = { has_completed_focus = GGR_focus_snowy_vexels }
+		visible = { has_completed_focus = GGR_focus_snowy_vexels }
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = vexels_disabled
+			remove_mission = GGR_industry_snowy_vexels_mission
+			remove_dynamic_modifier = { modifier = idea_GGR_snowy_vexels }
+		}
+	}
+	
+	GGR_industry_build_factories_in_schneehorn = {
+		priority = 40
+		icon = GFX_decision_generic_factory
+		cost = 100
+		ai_will_do = {
+			base = 10
+		}
+		highlight_states = { highlight_state_targets = { state = 15 } }
+		available = {
+			num_of_civilian_factories > 1
+		}
+		fire_only_once = yes
+        days_remove = 90
+		modifier = {
+			civilian_factory_use = 2
+        }
+		remove_effect = {
+			add_to_variable = { var_GGR_industrialization_done = 1 }
+			15 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GGR_industry_build_factories_in_snowy_hills = {
+		priority = 35
+		icon = GFX_decision_generic_factory
+		cost = 100
+		ai_will_do = {
+			base = 9
+		}
+		highlight_states = { highlight_state_targets = { state = 33 } }
+		available = {
+			num_of_civilian_factories > 1
+		}
+		fire_only_once = yes
+        days_remove = 90
+		modifier = {
+			civilian_factory_use = 2
+        }
+		remove_effect = {
+			add_to_variable = { var_GGR_industrialization_done = 1 }
+			33 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GGR_industry_build_factories_in_snowy_plains = {
+		priority = 30
+		icon = GFX_decision_generic_factory
+		cost = 100
+		ai_will_do = {
+			base = 8
+		}
+		highlight_states = { highlight_state_targets = { state = 143 } }
+		available = {
+			num_of_civilian_factories > 1
+		}
+		fire_only_once = yes
+        days_remove = 90
+		modifier = {
+			civilian_factory_use = 2
+        }
+		remove_effect = {
+			add_to_variable = { var_GGR_industrialization_done = 1 }
+			143 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GGR_industry_build_factories_in_bottom_plateau = {
+		priority = 30
+		icon = GFX_decision_generic_factory
+		cost = 100
+		ai_will_do = {
+			base = 7
+		}
+		highlight_states = { highlight_state_targets = { state = 172 } }
+		available = {
+			num_of_civilian_factories > 1
+		}
+		fire_only_once = yes
+        days_remove = 90
+		modifier = {
+			civilian_factory_use = 2
+        }
+		remove_effect = {
+			add_to_variable = { var_GGR_industrialization_done = 1 }
+			172 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GGR_industry_develop_resources_in_snowy_mountain = {
+		priority = 25
+		icon = GFX_decision_chromium
+		cost = 75
+		ai_will_do = {
+			base = 6
+		}
+		highlight_states = { highlight_state_targets = { state = 16 } }
+		available = {
+			num_of_civilian_factories > 0
+			has_tech = excavation2
+		}
+		fire_only_once = yes
+        days_remove = 60
+		modifier = {
+			civilian_factory_use = 1
+        }
+		remove_effect = {
+			16 = {
+				add_resource = {
+				type = chromium
+				amount = 8
+				}
+			}
+		}
+	}
+	
+	GGR_industry_develop_resources_in_snowy_ridge = {
+		priority = 20
+		icon = GFX_decision_steel
+		cost = 75
+		ai_will_do = {
+			base = 5
+		}
+		highlight_states = { highlight_state_targets = { state = 24 } }
+		available = {
+			num_of_civilian_factories > 0
+			has_tech = excavation2
+		}
+		fire_only_once = yes
+        days_remove = 60
+		modifier = {
+			civilian_factory_use = 1
+        }
+		remove_effect = {
+			24 = {
+				add_resource = {
+				type = steel
+				amount = 10
+				}
+			}
+		}
+	}
+	
+	GGR_industry_segregate_nonbinary = {
+		priority = 15
+		icon = GFX_decisions_GGR_industry_segregate_nonbinary
+		cost = 50
+		ai_will_do = {
+			base = 10
+		}
+		available = {
+			has_completed_focus = GGR_focus_wrong_objects
+		}
+		visible = {
+			has_completed_focus = GGR_focus_wrong_objects
+		}
+		fire_only_once = yes
+        days_remove = 30
+		modifier = {
+			weekly_manpower = -500
+        }
+		remove_effect = {
+			add_stability = 0.1
+			custom_effect_tooltip = l_GGR_segregate_nonbinary
+			add_to_variable = { var_GGR_segregation_mp = 0.1 }
+		}
+	}
+}

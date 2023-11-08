@@ -5,8 +5,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name= "GFX_selection_window_not_available"
-		texturefile = "gfx/interface/selection_window_not_available.dds"
+		name = "GFX_available_text"
+		texturefile = "gfx/interface/available.dds"
 	}
 	
 	spriteType = {

@@ -15,5 +15,14 @@ scripted_gui = {
 				}
 			}
 		}
+		
+		properties = {
+			image = {
+				frame = var_demo_end
+			}
+			item = {
+				frame = var_demo_end
+			}
+		}
 	}
 }

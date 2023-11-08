@@ -5,6 +5,12 @@
  l_WGF_trigger_war_closened_enough: "§YOperation§! is ready"
  operation_started: "Operation is started"
  l_GGR_anarchists_are_suppressed: "Anarchists are supressed"
+ l_GGR_anpower_more_than_1: "§tAnarchists§! is strong enough"
+ l_GGR_wintersfest_trigger: "§tAnarchists§! is suppressed in at least §Y2§! regions"
+ whiteshrits_done: "Focus §YWhiteshirts§! completed"
+ schneeschutz_done: "Focus §YSchneeschutz§! completed"
+ l_GGR_trigger_corporative_economy: "All §YIndustrialization§! decisions is done"
+ resistance_mechanic_done: "Resistance is suppressed"
  
  decision_cost_ie_500_pp_50: "£infantry_equipment_text_icon §Y500§!  £pol_power  §Y50§!"
  decision_cost_ie_500_pp_50_blocked: "£infantry_equipment_text_icon §R500§!  £pol_power  §R50§!"

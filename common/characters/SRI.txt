@@ -1,0 +1,9 @@
+characters = {
+	SRI_sketchpad = {
+		name = SRI_sketchpad
+		portraits = { civilian = { large = GFX_SRI_sketchpad } }
+		country_leader = {
+			ideology = despotism
+		}
+	}
+}

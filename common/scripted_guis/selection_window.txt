@@ -123,8 +123,7 @@ scripted_gui = {
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 11 } }
-					GGR = { change_tag_from = GOI }
-					goto_state = 15
+					set_global_flag = disclaimer_show
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 12 } }
@@ -146,6 +145,79 @@ scripted_gui = {
 					SGD = { change_tag_from = GOI }
 					goto_state = 175
 				}
+				
+				if = {
+					limit = { NOT = { has_global_flag = disclaimer_show } }
+					GOI = {
+						every_owned_state = { 
+							add_core_of = EMP 
+							transfer_state_to = EMP
+							remove_core_of = GOI
+						}
+					}
+					
+					WGF = { load_oob = "WGF_2012" }
+					GMD = { load_oob = "GMD_2012" }
+					TBT = { load_oob = "TBT_2012" }
+					DPZ = { load_oob = "DPZ_2012" }
+					NRR = { load_oob = "NRR_2012" }
+					SEC = { load_oob = "SEC_2012" }
+					GPR = { load_oob = "GPR_2012" }
+					GPG = { load_oob = "GPG_2012" }
+					SRR = { load_oob = "SRR_2012" }
+					GTR = { load_oob = "GTR_2012" }
+					BUN = { load_oob = "BUN_2012" }
+					GGR = { load_oob = "GGR_2012" }
+					FFT = { load_oob = "FFT_2012" }
+					AGG = { load_oob = "AGG_2012" }
+					SGD = { load_oob = "SGD_2012" }
+					
+					set_global_flag = {
+						flag = game_started
+						value = 0
+					}
+					set_global_flag = {
+						flag = focus_take_prevention
+						value = 0
+					}
+					GGR = { 
+						activate_mission = GGR_anarchists_mission 
+						country_event = {
+							id = GGR_event.7
+							days = 5
+						}
+					}
+				}
+			}
+		}
+		
+		properties = {
+			desc_flag = {
+				frame = ROOT.country_select_var
+			}
+		}
+	}
+}
+
+scripted_gui = {
+	disclaimer_window_scriptedgui = {
+		window_name = disclaimer_container
+		context_type = player_context
+	
+		visible = {
+			has_global_flag = disclaimer_show
+		}
+		
+		effects = {
+			agree_click = {
+				set_global_flag = {
+					flag = disclaimer_show
+					value = 0
+				}
+				
+				GGR = { change_tag_from = GOI }
+				goto_state = 15
+				
 				GOI = {
 					every_owned_state = { 
 						add_core_of = EMP 
@@ -153,7 +225,7 @@ scripted_gui = {
 						remove_core_of = GOI
 					}
 				}
-				
+					
 				WGF = { load_oob = "WGF_2012" }
 				GMD = { load_oob = "GMD_2012" }
 				TBT = { load_oob = "TBT_2012" }
@@ -169,7 +241,7 @@ scripted_gui = {
 				FFT = { load_oob = "FFT_2012" }
 				AGG = { load_oob = "AGG_2012" }
 				SGD = { load_oob = "SGD_2012" }
-				
+					
 				set_global_flag = {
 					flag = game_started
 					value = 0
@@ -178,13 +250,19 @@ scripted_gui = {
 					flag = focus_take_prevention
 					value = 0
 				}
-				activate_mission = GGR_anarchists_mission
+				GGR = { 
+					activate_mission = GGR_anarchists_mission 
+					country_event = {
+						id = GGR_event.7
+						days = 5
+					}
+				}
 			}
-		}
-		
-		properties = {
-			desc_flag = {
-				frame = ROOT.country_select_var
+			cancel_click = {
+				set_global_flag = {
+					flag = disclaimer_show
+					value = 0
+				}
 			}
 		}
 	}

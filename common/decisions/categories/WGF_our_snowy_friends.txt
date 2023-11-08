@@ -1,7 +1,7 @@
 decisions_WGF_our_snowy_friends_category = {
 	allowed = { tag = WGF }
 	visible = { 
-		has_completed_focus = WGF_focus_our_struggling_friends 
+		has_country_flag = anarchists_decisions
 		NOT = { has_country_flag = WGF_stage1_ended }
 	}
 	priority = 10

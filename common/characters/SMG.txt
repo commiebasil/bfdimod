@@ -1,0 +1,9 @@
+characters = {
+	SMG_grassy = {
+		name = SMG_grassy
+		portraits = { civilian = { large = GFX_SMG_grassy } }
+		country_leader = {
+			ideology = gen_nazism
+		}
+	}
+}

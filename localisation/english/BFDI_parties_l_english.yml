@@ -5,3 +5,11 @@
  WGF_fascism_party: "§RFORBIDDEN§!"
  WGF_democratic_party: "§RFORBIDDEN§!"
  WGF_radical_thoughts_party: "§RFORBIDDEN§!"
+ 
+ GGR_fascism_party: "Snowy Council"
+ GGR_neutrality_party: "§RFORBIDDEN§!"
+ GGR_communism_party: "§RFORBIDDEN§!"
+ GGR_democratic_party: "§RFORBIDDEN§!"
+ GGR_radical_thoughts_party: "§RFORBIDDEN§!"
+ GGR_neutral_party_after_focus: "GSP"
+ GGR_neutral_party_after_focus_long: "Government Support Party"

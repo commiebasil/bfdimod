@@ -34,12 +34,15 @@
  
  GGR_snowball: "Snowball"
  GGR_snowball_desc: "Thug Snowball, after the crisis in Goiky, proclaimed himself Objektführer of the South-Eastern Goiky."
+ GGR_grassy: "Grassy"
+ GGR_woody: "Woody"
+ GGR_crayon: "Crayon"
  
  FFT_rocky: "Rocky"
  FFT_rocky_desc: "It's not completely clear how Rocky got into the forests of South Goiky. In any case, now it's a living legend of anarchist self-governments. He made a huge contribution to the protection of local forests from Snowball's fascists and has a gigantic authority here."
  
  BUN_eraser: "Eraser"
- BUN_eraser_desc: "As Goiky entered his dark era, crime became ubiquitous. Such an arrangement of things could not bypass such an object as Ereiser. He led his gang, which trades in raids, robberies and terror."
+ BUN_eraser_desc: "As Goiky entered his dark era, crime became ubiquitous. Such an arrangement of things could not bypass such an object as Eraiser. He led his gang, which trades in raids, robberies and terror."
  
  SRR_wrench: "Wrench"
  SRR_wrench_desc: "Many people say: 'Work hard and you will get anything what you want'. Wrench, perhaps, can serve as an excellent result of this principle. Long career growth and now he holds the highest position in the GGRR administration. However, now he is more concerned about keeping the section of road under his control in good condition than the privileges of being in charge."
@@ -52,3 +55,9 @@
  
  SGD_robot_flower: "Robot-Flower"
  SGD_robot_flower_desc: "Robot-flower, after a short stay in the provisional government of Goiky, went to the south, where she managed to lead the local weak self-government in Small Goiky. She harbors long-term plans to revive the original Flower..."
+ 
+ SMG_grassy: "Grassy"
+ 
+ SPL_woody: "Woody"
+ 
+ SRI_sketchpad: "Sketchpad"

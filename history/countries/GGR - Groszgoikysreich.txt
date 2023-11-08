@@ -38,12 +38,58 @@ set_war_support = 0.5
 set_variable = { var_GGR_anarchists_sf = -0.1 }
 set_variable = { var_GGR_anarchists_bf = -0.2 }
 set_variable = { var_GGR_anarchists_psf = -0.1 }
+set_variable = { var_GGR_anarchists_ppg = -0.5 }
+
+set_variable = { var_schneehorn_status = 50 }
+set_variable = { var_schneehorn_status_2 = 2 }
+set_variable = { var_snowy_hills_status = 80 }
+set_variable = { var_snowy_hills_status_2 = 3 }
+set_variable = { var_snowy_plains_status = 80 }
+set_variable = { var_snowy_plains_status_2 = 3 }
+set_variable = { var_bottom_snowy_plateau_status = 80 }
+set_variable = { var_bottom_snowy_plateau_status_2 = 3 }
+set_variable = { var_suppressed_riots = 0 }
+
+set_variable = { var_agency_upgrades = 0 }
+
+set_variable = { var_GGR_industry_bs = -0.2 }
+set_variable = { var_GGR_industry_ef = -0.1 }
+set_variable = { var_GGR_industry_fr = 0.05 }
+set_variable = { var_GGR_industry_cg = 0.25 }
+set_variable = { var_GGR_industry_em = -0.1 }
+set_variable = { var_GGR_industry_rs = -0.25 }
+
+set_variable = { var_GGR_segregation_bs = 0 }
+set_variable = { var_GGR_segregation_ef = 0 }
+set_variable = { var_GGR_segregation_em = 0 }
+set_variable = { var_GGR_segregation_cg = 0 }
+set_variable = { var_GGR_segregation_rp = 0 }
+set_variable = { var_GGR_segregation_mp = -0.1 }
+set_variable = { var_GGR_segregation_sf = -0.1 }
+
+set_variable = { var_GGR_vexels_pc = 0.15 }
+
+set_variable = { var_GGR_industrialization_done = 0 }
+
+set_variable = { var_GGR_vsnw_eg = 0.03 }
+set_variable = { var_GGR_vsnw_rp = 0 }
+set_variable = { var_GGR_vsnw_tp = 0 }
+set_variable = { var_GGR_vsnw_aa = 0 }
+set_variable = { var_GGR_vsnw_ao = 0 }
+set_variable = { var_GGR_vsnw_ra = 0 }
 
 add_dynamic_modifier = { modifier = idea_GGR_anarchist_resistance }
+add_dynamic_modifier = { modifier = idea_GGR_snowy_industry }
 add_ideas = extensive_conscription
 add_ideas = idea_GGR_fascist_dictatorship
 
 recruit_character = GGR_snowball
+recruit_character = GGR_grassy
+recruit_character = GGR_woody
+recruit_character = GGR_crayon
+
+
+
 
 
 

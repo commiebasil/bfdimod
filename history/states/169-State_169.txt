@@ -2,31 +2,35 @@
 state={
 	id=169
 	name="STATE_169"
-	provinces={
-		607 676 711 987 1616 1619 1968 2147 2428 2542 2738 2760 3417 3703 4233 4314 5056 5413 5937 6084 6308 11444 11449 11457 11458 11463 11468 11470 
+	resources={
+		rubber=26.000
+		steel=5.000
 	}
-	resources = {
-		rubber = 26
-		steel = 5
-	}
+
 	history={
 		owner = GOI
 		add_core_of = GOI
 		victory_points = {
-			3417 10
+			3417 10 
 		}
 		victory_points = {
-			6084 10
+			6084 10 
 		}
 		victory_points = {
-			711 10
+			711 10 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
+
+	}
+
+	provinces={
+		578 607 676 711 987 1052 1616 1619 1782 1968 2147 2428 2542 2738 2760 3417 3564 3703 4233 4314 5056 5413 6084 6308 11398 11409 11420 11426 11444 11449 11457 11458 11463 11468 11470 
 	}
 	manpower=93511
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=5
+	local_supplies=5.000
 }

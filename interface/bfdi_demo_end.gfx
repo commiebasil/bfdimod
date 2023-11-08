@@ -1,12 +1,14 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_demo_end_wgf_image"
-		textureFile = gfx/interface/demo_end_wgf_image.dds
+		name = "GFX_demo_end_images"
+		textureFile = gfx/interface/demo_end_images.dds
+		noOfFrames = 3
 	}
 	
 	spriteType = {
-		name = "GFX_demo_end_wgf_item"
-		textureFile = gfx/interface/demo_end_wgf_item.dds
+		name = "GFX_demo_end_items"
+		textureFile = gfx/interface/demo_end_items.dds
+		noOfFrames = 3
 	}
 	
 	spriteType = {

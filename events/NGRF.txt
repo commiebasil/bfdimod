@@ -151,7 +151,7 @@ country_event = {
     option = {
 		name = WGF_event.10.a
 		add_equipment_to_stockpile = {
-			type = transport_ship
+			type = convoy
 			amount = -10
 		}
 		hidden_effect = {
@@ -249,5 +249,22 @@ country_event = {
     
     option = {
 		name = WGF_event.15.a
+	}
+}
+
+country_event = {
+	id = WGF_event.16
+	title = WGF_event.16.t
+    desc = WGF_event.16.desc
+	picture = GFX_WGF_event16
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.16.a
+		set_country_flag = {
+			flag = anarchists_decisions
+			value = 0
+		}
 	}
 }

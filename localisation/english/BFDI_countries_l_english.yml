@@ -67,3 +67,15 @@
  SGD: "Small Goiky Directorate"
  SGD_ADJ: "Directorate"
  SGD_DEF: "Directorate"
+ 
+ SMG: "Snowy Mountain Government"
+ SMG_ADJ: "Reich"
+ SMG_DEF: "Reich"
+ 
+ SPL: "Snowy Plains"
+ SPL_ADJ: "Snowy Plains"
+ SPL_DEF: "Snowy"
+ 
+ SRI: "Northern Ridge"
+ SRI_ADJ: "Ridge"
+ SRI_DEF: "Northern"

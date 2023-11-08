@@ -167,7 +167,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			country_event = bfdinews.3
+			news_event = bfdinews.3
 			add_ideas = idea_WGF_peoples_object_show
 		}
 	}
@@ -256,6 +256,15 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_different_but_united }
 		mutually_exclusive = { focus = WGF_focus_the_offer }
 		
+		available = {
+			FFT = {
+				exists = yes
+				at_war = no
+			}
+		}
+		
+		bypass_if_unavailable = yes
+		
 		cost = 8
 		
 		ai_will_do = {
@@ -264,6 +273,8 @@ focus_tree = {
 		
 		completion_reward = {
 			country_event = WGF_event.4
+			set_country_flag = anarchists_decisions
+			hidden_effect = { GGR = { country_event = GGR_event.6 } }
 		}
 	}
 	
@@ -309,7 +320,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			country_event = bfdinews.4
+			news_event = bfdinews.4
 			mark_focus_tree_layout_dirty = yes
 		}
 	}

@@ -27,7 +27,6 @@ SpriteTypes = {
 		name = GFX_GOI_event7
 		texturefile = gfx/event_pictures/GOI_event7.dds
 	}
-	
 	spriteType = {
 		name = GFX_GOI_event8
 		texturefile = gfx/event_pictures/GOI_event8.dds
@@ -38,72 +37,116 @@ SpriteTypes = {
 		name = GFX_WGF_event1
 		texturefile = gfx/event_pictures/WGF_event1.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event2
 		texturefile = gfx/event_pictures/WGF_event2.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event3
 		texturefile = gfx/event_pictures/WGF_event3.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event4
 		texturefile = gfx/event_pictures/WGF_event4.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event5
 		texturefile = gfx/event_pictures/WGF_event5.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event6
 		texturefile = gfx/event_pictures/WGF_event6.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event7
 		texturefile = gfx/event_pictures/WGF_event7.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event8
 		texturefile = gfx/event_pictures/WGF_event8.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event9
 		texturefile = gfx/event_pictures/WGF_event9.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event10
 		texturefile = gfx/event_pictures/WGF_event10.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event11
 		texturefile = gfx/event_pictures/WGF_event11.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event12
 		texturefile = gfx/event_pictures/WGF_event12.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event14
 		texturefile = gfx/event_pictures/WGF_event14.dds
 	}
-	
 	spriteType = {
 		name = GFX_WGF_event15
 		texturefile = gfx/event_pictures/WGF_event15.dds
 	}
+	spriteType = {
+		name = GFX_WGF_event16
+		texturefile = gfx/event_pictures/WGF_event16.dds
+	}
 	
+	
+	spriteType = {
+		name = GFX_GGR_event1
+		texturefile = gfx/event_pictures/GGR_event1.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event2
+		texturefile = gfx/event_pictures/GGR_event2.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event3
+		texturefile = gfx/event_pictures/GGR_event3.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event4
+		texturefile = gfx/event_pictures/GGR_event4.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event5
+		texturefile = gfx/event_pictures/GGR_event5.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event6
+		texturefile = gfx/event_pictures/GGR_event6.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event7
+		texturefile = gfx/event_pictures/GGR_event7.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event8
+		texturefile = gfx/event_pictures/GGR_event8.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event9
+		texturefile = gfx/event_pictures/GGR_event9.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event10
+		texturefile = gfx/event_pictures/GGR_event10.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event11
+		texturefile = gfx/event_pictures/GGR_event11.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event12
+		texturefile = gfx/event_pictures/GGR_event12.dds
+	}
+	spriteType = {
+		name = GFX_GGR_event13
+		texturefile = gfx/event_pictures/GGR_event13.dds
+	}
 	
 	spriteType = {
 		name = GFX_bfdinews1
@@ -114,24 +157,28 @@ SpriteTypes = {
 		name = GFX_bfdinews2
 		texturefile = gfx/event_pictures/bfdinews2.dds
 	}
-	
 	spriteType = {
 		name = GFX_bfdinews3
 		texturefile = gfx/event_pictures/bfdinews3.dds
 	}
-	
 	spriteType = {
 		name = GFX_bfdinews4
 		texturefile = gfx/event_pictures/bfdinews4.dds
 	}
-	
 	spriteType = {
 		name = GFX_bfdinews5
 		texturefile = gfx/event_pictures/bfdinews5.dds
 	}
-	
 	spriteType = {
 		name = GFX_bfdinews6
 		texturefile = gfx/event_pictures/bfdinews6.dds
+	}
+	spriteType = {
+		name = GFX_bfdinews7
+		texturefile = gfx/event_pictures/bfdinews7.dds
+	}
+	spriteType = {
+		name = GFX_bfdinews8
+		texturefile = gfx/event_pictures/bfdinews8.dds
 	}
 }

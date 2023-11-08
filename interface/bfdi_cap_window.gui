@@ -1,0 +1,78 @@
+guiTypes = {
+	containerWindowType = {
+		name = "cap_window_container"
+		position = { x = 650 y = 380 }
+		size = { width = 500 height = 360 }
+		moveable = yes
+		upsound = bfdi_capitulation
+		
+		background = {
+			name = "bg"
+			spriteType = GFX_tiled_bg
+		}
+		
+		iconType = {
+			name = "image_bg"
+			spriteType = GFX_cap_window_bg
+			position = { x = 15 y = 15 }
+		}
+		
+		containerWindowType = {
+			name = title_bg_container
+			position = { x = 25 y = 25 }
+			size = { width = 450 height = 55 }
+			
+			background = {
+				name = title_bg
+				spriteType = GFX_tiled_plain_bg_small
+			}
+		}
+		
+		instantTextboxType = {
+			name = "title"
+			text = cap_window_title
+			font = hoi_30header
+			position = { x = 50 y = 35 }
+			maxWidth = 400
+			format = centre
+		}
+		
+		containerWindowType = {
+			name = desc_bg_container
+			position = { x = 25 y = 90 }
+			size = { width = 450 height = 150 }
+			
+			background = {
+				name = desc_bg
+				spriteType = GFX_tiled_paper_bg2
+			}
+		}
+		
+		instantTextboxType = {
+			name = "participiants"
+			text = cap_window_participiants
+			font = hoi_20bs
+			maxWidth = 400
+			format = centre
+			position = { x = 50 y = 105 }
+		}
+		
+		instantTextboxType = {
+			name = "desc"
+			text = [CAP_WINDOW_DESC]
+			font = hoi_20bs
+			maxWidth = 400
+			format = centre
+			position = { x = 50 y = 200 }
+		}
+		
+		buttonType = {
+			name = "close_button"
+			text = cap_window_close_button
+			font = hoi_18mbs
+			spriteType = GFX_button_221x34
+			shortcut = ESCAPE
+			position = { x = 140 y = 285 }
+		}
+	}
+}

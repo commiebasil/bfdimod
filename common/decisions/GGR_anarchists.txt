@@ -1,0 +1,1356 @@
+#!!!!WARNING!!!!
+#CODE DOWN HERE MAY BE THE SHITTIEST THING YOU HAD EVER SEEN
+
+
+decision_GGR_anarcists_category = {
+	
+	GGR_anarchists_mission = {
+		icon = GFX_decisions_GGR_anarchists_mission
+		priority = 100
+        activation = {
+			always = no
+	    }
+		is_good = no
+		days_mission_timeout = 700
+		selectable_mission = no
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GGR_anarchists_are_suppressed
+				always = no
+			}
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GGR_bad_things_happens
+			hidden_effect = {
+				add_stability = -1
+				country_event = {
+					id = GGR_hidden_event.1
+					days = 5
+					random_days = 2
+					random_hours = 12
+				}
+				country_event = {
+					id = GGR_hidden_event.2
+					days = 10
+					random_days = 2
+					random_hours = 12
+				}
+				country_event = {
+					id = GGR_hidden_event.3
+					days = 16
+					random_days = 2
+					random_hours = 12
+				}
+				country_event = {
+					id = GGR_event.8
+					days = 18
+					random_days = 2
+					random_hours = 12
+				}
+			}
+		}
+	}
+	
+	GGR_schneehorn_separator = {
+		icon = GFX_decisions_GGR_schneehorn_separator
+		priority = 20
+        available = { always = no }
+		visible = { check_variable = { var_schneehorn_status_2 > 1 } }
+		on_map_mode = decision_view_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 15
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+    }
+	
+	GGR_sabotage_schneehorn_mission = {
+		icon = GFX_decisions_GGR_riot_missions
+		priority = 15
+        activation = {
+			check_variable = { var_schneehorn_status_2 > 1 }
+	    }
+		cancel_trigger = {
+			OR = {
+				hidden_trigger = { has_global_flag = focus_take_prevention }
+				custom_trigger_tooltip = {
+					tooltip = l_GGR_anpower_more_than_1
+					NOT = { check_variable = { var_schneehorn_status_2 > 1 } }
+				}
+			}
+		}
+		is_good = no
+		days_mission_timeout = 100
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_goes_up
+			custom_effect_tooltip = l_GGR_sabotage_mission
+			hidden_effect = {
+				if = {
+					limit = { check_variable = { var_schneehorn_status_2 = 2 } }
+					15 = {
+						random = {
+							chance = 50
+							damage_building = {
+								type = infrastructure
+								damage = 2
+							}
+						}
+						random = {
+							chance = 10
+							damage_building = {
+								type = industrial_complex
+								damage = 1
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = { check_variable = { var_schneehorn_status_2 = 3 } }
+					15 = {
+						damage_building = {
+							type = infrastructure
+							damage = 1
+						}
+						random = {
+							chance = 50
+							damage_building = {
+							type = infrastructure
+							damage = 2
+							}
+						}
+						random = {
+							chance = 30
+							damage_building = {
+								type = industrial_complex
+								damage = 1
+							}
+						}
+						add_manpower = -5000
+					}
+				}
+				
+				if = {
+					limit = { check_variable = { var_schneehorn_status < 81 } }
+					add_to_variable = { var_schneehorn_status = 20 }
+				}
+				if = {
+					limit = { check_variable = { var_schneehorn_status < 29 } }
+					set_variable = { var_schneehorn_status_2 = 1 } 
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_schneehorn_status > 29 } 
+						check_variable = { var_schneehorn_status < 70 } 
+					}
+					set_variable = { var_schneehorn_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_schneehorn_status > 69 } }
+					set_variable = { var_schneehorn_status_2 = 3 } 
+				}
+			}
+		}
+	}
+	
+	GGR_distribute_weapons_schneehorn = {
+		state_target = yes
+		targets = { state = 15 }
+		on_map_mode = map_only
+		ai_will_do = {
+			base = 30
+			modifier = {
+				add = 30
+				has_equipment = {
+					infantry_equipment > 1000
+				}
+			}
+		}
+		icon = GFX_decisions_GGR_distribute_weapons
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_schneehorn_status_2 > 1 }
+				has_completed_focus = GGR_focus_whiteshirts
+			}
+        }
+		visible = { 
+			check_variable = { var_schneehorn_status_2 > 1 } 
+			has_completed_focus = GGR_focus_whiteshirts
+		}
+		days_remove = 40
+        days_re_enable = 10
+        custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 499
+			}
+		}
+		custom_cost_text = decision_cost_ie_500
+        complete_effect = {
+            hidden_effect = {
+                add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -500
+				}
+            }
+		}
+		remove_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_days_mission_timeout = {
+					mission = GGR_sabotage_schneehorn_mission
+					days = 10
+				}
+				add_to_variable = { var_schneehorn_status = -20 }
+				if = {
+					limit = { check_variable = { var_schneehorn_status < 29 } }
+					set_variable = { var_schneehorn_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_schneehorn } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_schneehorn
+					set_variable = { suppressed_state = 1 }
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_schneehorn_status > 29 } 
+						check_variable = { var_schneehorn_status < 70 } 
+					}
+					set_variable = { var_schneehorn_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_schneehorn_status > 69 } }
+					set_variable = { var_schneehorn_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	GGR_arrest_leaders_schneehorn = {
+		state_target = yes
+		targets = { state = 15 }
+		on_map_mode = map_only
+		icon = GFX_decisions_GGR_arrest_leaders
+		ai_will_do = {
+			base = 30
+		}
+        available = {
+			has_dlc = "La Resistance"
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_schneehorn_status_2 > 1 }
+				has_completed_focus = GGR_focus_schneeschutz
+			}
+			agency_upgrade_number > GGR.var_agency_upgrades
+        }
+		visible = { 
+			has_dlc = "La Resistance"
+			check_variable = { var_schneehorn_status_2 > 1 } 
+			has_completed_focus = GGR_focus_schneeschutz
+		}
+		days_remove = 20
+        days_re_enable = 20
+        cost = 15
+        complete_effect = {
+            hidden_effect = {
+				if = {
+					limit = { check_variable = { GGR.var_agency_upgrades < 5 } }
+					add_to_variable = { GGR.var_agency_upgrades = 1 }
+				}
+            }
+		}
+		remove_effect = {
+			add_days_mission_timeout = {
+					mission = GGR_sabotage_schneehorn_mission
+					days = 30
+			}
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_to_variable = { var_schneehorn_status = -10 }
+				if = {
+					limit = { check_variable = { var_schneehorn_status < 29 } }
+					set_variable = { var_schneehorn_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_schneehorn } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_schneehorn
+					set_variable = { suppressed_state = 1 }
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_schneehorn_status > 29 } 
+						check_variable = { var_schneehorn_status < 70 } 
+					}
+					set_variable = { var_schneehorn_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_schneehorn_status > 69 } }
+					set_variable = { var_schneehorn_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	GGR_suppress_anarchists_schneehorn = {
+		icon = GFX_decisions_GGR_anarchists_suppression
+		state_target = yes
+		ai_will_do = {
+			base = 30
+		}
+		targets = { state = 15 }
+		on_map_mode = map_only
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_schneehorn_status_2 > 1 } 
+			}
+        }
+		visible = { check_variable = { var_schneehorn_status_2 > 1 } }
+		days_remove = 40
+        days_re_enable = 10
+        cost = 75
+        remove_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_days_mission_timeout = {
+					mission = GGR_sabotage_schneehorn_mission
+					days = 10
+				}
+				add_to_variable = { var_schneehorn_status = -20 }
+				if = {
+					limit = { check_variable = { var_schneehorn_status < 29 } }
+					set_variable = { var_schneehorn_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_schneehorn } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_schneehorn
+					set_variable = { suppressed_state = 1 }
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_schneehorn_status > 29 } 
+						check_variable = { var_schneehorn_status < 70 } 
+					}
+					set_variable = { var_schneehorn_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_schneehorn_status > 69 } }
+					set_variable = { var_schneehorn_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	
+	GGR_snowy_plains_separator = {
+		icon = GFX_decisions_GGR_snowy_plains_separator
+		priority = 8
+        available = { always = no }
+		visible = { check_variable = { var_snowy_plains_status_2 > 1 } }
+		on_map_mode = decision_view_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 143
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+    }
+	
+	GGR_sabotage_snowy_plains_mission = {
+		icon = GFX_decisions_GGR_riot_missions
+		priority = 5
+        activation = {
+			check_variable = { var_snowy_plains_status_2 > 1 }
+	    }
+		cancel_trigger = {
+			OR = {
+				hidden_trigger = { has_global_flag = focus_take_prevention }
+				custom_trigger_tooltip = {
+					tooltip = l_GGR_anpower_more_than_1
+					NOT = { check_variable = { var_snowy_plains_status_2 > 1 } }
+				}
+			}
+		}
+		is_good = no
+		days_mission_timeout = 100
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_goes_up
+			custom_effect_tooltip = l_GGR_sabotage_mission
+			hidden_effect = {
+				if = {
+					limit = { check_variable = { var_snowy_plains_status_2 = 2 } }
+					143 = {
+						random = {
+							chance = 50
+							damage_building = {
+								type = infrastructure
+								damage = 2
+							}
+						}
+						random = {
+							chance = 10
+							damage_building = {
+								type = industrial_complex
+								damage = 1
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = { check_variable = { var_snowy_plains_status_2 = 3 } }
+					143 = {
+						damage_building = {
+							type = infrastructure
+							damage = 1
+						}
+						random = {
+							chance = 50
+							damage_building = {
+							type = infrastructure
+							damage = 2
+							}
+						}
+						random = {
+							chance = 30
+							damage_building = {
+								type = industrial_complex
+								damage = 1
+							}
+						}
+						add_manpower = -5000
+					}
+				}
+				
+				if = {
+					limit = { check_variable = { var_snowy_plains_status < 81 } }
+					add_to_variable = { var_snowy_plains_status = 20 }
+				}
+				if = {
+					limit = { check_variable = { var_snowy_plains_status < 29 } }
+					set_variable = { var_snowy_plains_status_2 = 1 } 
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_snowy_plains_status > 29 } 
+						check_variable = { var_snowy_plains_status < 70 } 
+					}
+					set_variable = { var_snowy_plains_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_snowy_plains_status > 69 } }
+					set_variable = { var_snowy_plains_status_2 = 3 } 
+				}
+			}
+		}
+	}
+	
+	GGR_distribute_weapons_snowy_plains = {
+		state_target = yes
+		targets = { state = 143 }
+		on_map_mode = map_only
+		ai_will_do = {
+			base = 25
+			modifier = {
+				add = 30
+				has_equipment = {
+					infantry_equipment > 1000
+				}
+			}
+		}
+		icon = GFX_decisions_GGR_distribute_weapons
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_snowy_plains_status_2 > 1 }
+				has_completed_focus = GGR_focus_whiteshirts
+			}
+        }
+		visible = { 
+			check_variable = { var_snowy_plains_status_2 > 1 } 
+			has_completed_focus = GGR_focus_whiteshirts
+		}
+		days_remove = 40
+        days_re_enable = 10
+        custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 499
+			}
+		}
+		custom_cost_text = decision_cost_ie_500
+        complete_effect = {
+            hidden_effect = {
+                add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -500
+				}
+            }
+		}
+		remove_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_days_mission_timeout = {
+					mission = GGR_sabotage_snowy_plains_mission
+					days = 10
+				}
+				add_to_variable = { var_snowy_plains_status = -20 }
+				if = {
+					limit = { check_variable = { var_snowy_plains_status < 29 } }
+					set_variable = { var_snowy_plains_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_snowy_plains } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_snowy_plains
+					set_variable = { suppressed_state = 2 }
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_snowy_plains_status > 29 } 
+						check_variable = { var_snowy_plains_status < 70 } 
+					}
+					set_variable = { var_snowy_plains_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_snowy_plains_status > 69 } }
+					set_variable = { var_snowy_plains_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	GGR_arrest_leaders_snowy_plains = {
+		state_target = yes
+		targets = { state = 143 }
+		ai_will_do = {
+			base = 25
+		}
+		on_map_mode = map_only
+		icon = GFX_decisions_GGR_arrest_leaders
+        available = {
+			has_dlc = "La Resistance"
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_snowy_plains_status_2 > 1 }
+				has_completed_focus = GGR_focus_schneeschutz
+			}
+			agency_upgrade_number > GGR.var_agency_upgrades
+        }
+		visible = { 
+			has_dlc = "La Resistance"
+			check_variable = { var_snowy_plains_status_2 > 1 } 
+			has_completed_focus = GGR_focus_schneeschutz
+		}
+		days_remove = 20
+        days_re_enable = 20
+        cost = 15
+        complete_effect = {
+            hidden_effect = {
+				if = {
+					limit = { check_variable = { GGR.var_agency_upgrades < 5 } }
+					add_to_variable = { GGR.var_agency_upgrades = 1 }
+				}
+            }
+		}
+		remove_effect = {
+			add_days_mission_timeout = {
+					mission = GGR_sabotage_snowy_plains_mission
+					days = 30
+			}
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_to_variable = { var_snowy_plains_status = -10 }
+				if = {
+					limit = { check_variable = { var_snowy_plains_status < 29 } }
+					set_variable = { var_snowy_plains_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_snowy_plains } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_snowy_plains
+					set_variable = { suppressed_state = 2 }
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_snowy_plains_status > 29 } 
+						check_variable = { var_snowy_plains_status < 70 } 
+					}
+					set_variable = { var_snowy_plains_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_snowy_plains_status > 69 } }
+					set_variable = { var_snowy_plains_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	GGR_suppress_anarchists_snowy_plains = {
+		icon = GFX_decisions_GGR_anarchists_suppression
+	    state_target = yes
+		targets = { state = 143 }
+		on_map_mode = map_only
+		ai_will_do = {
+			base = 25
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_snowy_plains_status_2 > 1 }
+			}
+        }
+		visible = { check_variable = { var_snowy_plains_status_2 > 1 } }
+		days_remove = 40
+        days_re_enable = 10
+        cost = 75
+        remove_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_days_mission_timeout = {
+					mission = GGR_sabotage_snowy_plains_mission
+					days = 10
+				}
+				add_to_variable = { var_snowy_plains_status = -20 }
+				if = {
+					limit = { check_variable = { var_snowy_plains_status < 29 } }
+					set_variable = { var_snowy_plains_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_snowy_plains } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_snowy_plains
+					set_variable = { suppressed_state = 2 }
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_snowy_plains_status > 29 } 
+						check_variable = { var_snowy_plains_status < 70 } 
+					}
+					set_variable = { var_snowy_plains_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_snowy_plains_status > 69 } }
+					set_variable = { var_snowy_plains_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	
+	GGR_snowy_hills_separator = {
+		icon = GFX_decisions_GGR_snowy_hills_separator
+		priority = 3
+        available = { always = no }
+		visible = { check_variable = { var_snowy_hills_status_2 > 1 } }
+		on_map_mode = decision_view_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 33
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+    }
+	
+	GGR_sabotage_snowy_hills_mission = {
+		icon = GFX_decisions_GGR_riot_missions
+		priority = 2
+        activation = {
+			check_variable = { var_snowy_hills_status_2 > 1 }
+	    }
+		cancel_trigger = {
+			OR = {
+				hidden_trigger = { has_global_flag = focus_take_prevention }
+				custom_trigger_tooltip = {
+					tooltip = l_GGR_anpower_more_than_1
+					NOT = { check_variable = { var_snowy_hills_status_2 > 1 } }
+				}
+			}
+		}
+		is_good = no
+		days_mission_timeout = 100
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_goes_up
+			custom_effect_tooltip = l_GGR_sabotage_mission
+			hidden_effect = {
+				if = {
+					limit = { check_variable = { var_snowy_hills_status_2 = 2 } }
+					33 = {
+						random = {
+							chance = 50
+							damage_building = {
+								type = infrastructure
+								damage = 2
+							}
+						}
+						random = {
+							chance = 10
+							damage_building = {
+								type = industrial_complex
+								damage = 1
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = { check_variable = { var_snowy_hills_status_2 = 3 } }
+					33 = {
+						damage_building = {
+							type = infrastructure
+							damage = 1
+						}
+						random = {
+							chance = 50
+							damage_building = {
+							type = infrastructure
+							damage = 2
+							}
+						}
+						random = {
+							chance = 30
+							damage_building = {
+								type = industrial_complex
+								damage = 1
+							}
+						}
+						add_manpower = -5000
+					}
+				}
+				
+				if = {
+					limit = { check_variable = { var_snowy_hills_status < 81 } }
+					add_to_variable = { var_snowy_hills_status = 20 }
+				}
+				if = {
+					limit = { check_variable = { var_snowy_hills_status < 29 } }
+					set_variable = { var_snowy_hills_status_2 = 1 } 
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_snowy_hills_status > 29 } 
+						check_variable = { var_snowy_hills_status < 70 } 
+					}
+					set_variable = { var_snowy_hills_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_snowy_hills_status > 69 } }
+					set_variable = { var_snowy_hills_status_2 = 3 } 
+				}
+			}
+		}
+	}
+	
+	GGR_distribute_weapons_snowy_hills = {
+		state_target = yes
+		targets = { state = 33 }
+		on_map_mode = map_only
+		ai_will_do = {
+			base = 20
+			modifier = {
+				add = 30
+				has_equipment = {
+					infantry_equipment > 1000
+				}
+			}
+		}
+		icon = GFX_decisions_GGR_distribute_weapons
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_snowy_hills_status_2 > 1 }
+				has_completed_focus = GGR_focus_whiteshirts
+			}
+        }
+		visible = { 
+			check_variable = { var_snowy_hills_status_2 > 1 } 
+			has_completed_focus = GGR_focus_whiteshirts
+		}
+		days_remove = 40
+        days_re_enable = 10
+        custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 499
+			}
+		}
+		custom_cost_text = decision_cost_ie_500
+		complete_effect = {
+            hidden_effect = {
+                add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -500
+				}
+            }
+		}
+        remove_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_days_mission_timeout = {
+					mission = GGR_sabotage_snowy_hills_mission
+					days = 10
+				}
+				add_to_variable = { var_snowy_hills_status = -20 }
+				if = {
+					limit = { check_variable = { var_snowy_hills_status < 29 } }
+					set_variable = { var_snowy_hills_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_snowy_hills } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_snowy_hills
+					set_variable = { suppressed_state = 3 }
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_snowy_hills_status > 29 } 
+						check_variable = { var_snowy_hills_status < 70 } 
+					}
+					set_variable = { var_snowy_hills_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_snowy_hills_status > 69 } }
+					set_variable = { var_snowy_hills_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	GGR_arrest_leaders_snowy_hills = {
+		state_target = yes
+		targets = { state = 33 }
+		on_map_mode = map_only
+		ai_will_do = {
+			base = 20
+		}
+		icon = GFX_decisions_GGR_arrest_leaders
+        available = {
+			has_dlc = "La Resistance"
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_snowy_hills_status_2 > 1 }
+				has_completed_focus = GGR_focus_schneeschutz
+			}
+			agency_upgrade_number > GGR.var_agency_upgrades
+        }
+		visible = { 
+			has_dlc = "La Resistance"
+			check_variable = { var_snowy_hills_status_2 > 1 } 
+			has_completed_focus = GGR_focus_schneeschutz
+		}
+		days_remove = 20
+        days_re_enable = 20
+        cost = 15
+        complete_effect = {
+            hidden_effect = {
+				if = {
+					limit = { check_variable = { GGR.var_agency_upgrades < 5 } }
+					add_to_variable = { GGR.var_agency_upgrades = 1 }
+				}
+            }
+		}
+		remove_effect = {
+			add_days_mission_timeout = {
+					mission = GGR_sabotage_snowy_hills_mission
+					days = 30
+			}
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_to_variable = { var_snowy_hills_status = -10 }
+				if = {
+					limit = { check_variable = { var_snowy_hills_status < 29 } }
+					set_variable = { var_snowy_hills_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_snowy_hills } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_snowy_hills
+					set_variable = { suppressed_state = 3 }
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_snowy_hills_status > 29 } 
+						check_variable = { var_snowy_hills_status < 70 } 
+					}
+					set_variable = { var_snowy_hills_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_snowy_hills_status > 69 } }
+					set_variable = { var_snowy_hills_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	GGR_suppress_anarchists_snowy_hills = {
+		icon = GFX_decisions_GGR_anarchists_suppression
+		state_target = yes
+		targets = { state = 33 }
+		on_map_mode = map_only
+		ai_will_do = {
+			base = 20
+		}
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_snowy_hills_status_2 > 1 }
+			}
+        }
+		visible = { check_variable = { var_snowy_hills_status_2 > 1 } }
+		days_remove = 40
+        days_re_enable = 10
+        cost = 75
+        remove_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_days_mission_timeout = {
+					mission = GGR_sabotage_snowy_hills_mission
+					days = 10
+				}
+				add_to_variable = { var_snowy_hills_status = -20 }
+				if = {
+					limit = { check_variable = { var_snowy_hills_status < 29 } }
+					set_variable = { var_snowy_hills_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_snowy_hills } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_snowy_hills
+					set_variable = { suppressed_state = 3 }
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_snowy_hills_status > 29 } 
+						check_variable = { var_snowy_hills_status < 70 } 
+					}
+					set_variable = { var_snowy_hills_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_snowy_hills_status > 69 } }
+					set_variable = { var_snowy_hills_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	
+	GGR_bottom_snowy_plateau_separator = {
+		icon = GFX_decisions_GGR_bottom_snowy_plateau_separator
+		priority = -1
+        available = { always = no }
+		visible = { check_variable = { var_bottom_snowy_plateau_status_2 > 1 } }
+		on_map_mode = decision_view_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 172
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+    }
+	
+	GGR_sabotage_bottom_snowy_plateau_mission = {
+		icon = GFX_decisions_GGR_riot_missions
+		priority = -2
+        activation = {
+			check_variable = { var_bottom_snowy_plateau_status_2 > 1 }
+	    }
+		cancel_trigger = {
+			OR = {
+				hidden_trigger = { has_global_flag = focus_take_prevention }
+				custom_trigger_tooltip = {
+					tooltip = l_GGR_anpower_more_than_1
+					NOT = { check_variable = { var_bottom_snowy_plateau_status_2 > 1 } }
+				}
+			}
+		}
+		is_good = no
+		days_mission_timeout = 100
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_goes_up
+			custom_effect_tooltip = l_GGR_sabotage_mission
+			hidden_effect = {
+				if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status_2 = 2 } }
+					172 = {
+						random = {
+							chance = 50
+							damage_building = {
+								type = infrastructure
+								damage = 2
+							}
+						}
+						random = {
+							chance = 10
+							damage_building = {
+								type = industrial_complex
+								damage = 1
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status_2 = 3 } }
+					172 = {
+						damage_building = {
+							type = infrastructure
+							damage = 1
+						}
+						random = {
+							chance = 50
+							damage_building = {
+							type = infrastructure
+							damage = 2
+							}
+						}
+						random = {
+							chance = 30
+							damage_building = {
+								type = industrial_complex
+								damage = 1
+							}
+						}
+						add_manpower = -5000
+					}
+				}
+				
+				if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status < 81 } }
+					add_to_variable = { var_bottom_snowy_plateau_status = 20 }
+				}
+				if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status < 29 } }
+					set_variable = { var_bottom_snowy_plateau_status_2 = 1 } 
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_bottom_snowy_plateau_status > 29 } 
+						check_variable = { var_bottom_snowy_plateau_status < 70 } 
+					}
+					set_variable = { var_bottom_snowy_plateau_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status > 69 } }
+					set_variable = { var_bottom_snowy_plateau_status_2 = 3 } 
+				}
+			}
+		}
+	}
+	
+	GGR_distribute_weapons_bottom_snowy_plateau = {
+		state_target = yes
+		targets = { state = 172 }
+		on_map_mode = map_only
+		ai_will_do = {
+			base = 15
+			modifier = {
+				add = 30
+				has_equipment = {
+					infantry_equipment > 1000
+				}
+			}
+		}
+		icon = GFX_decisions_GGR_distribute_weapons
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_bottom_snowy_plateau_status_2 > 1 }
+				has_completed_focus = GGR_focus_whiteshirts
+			}
+        }
+		visible = { 
+			check_variable = { var_bottom_snowy_plateau_status_2 > 1 } 
+			has_completed_focus = GGR_focus_whiteshirts
+		}
+		days_remove = 40
+        days_re_enable = 10
+        custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 499
+			}
+		}
+		custom_cost_text = decision_cost_ie_500
+        complete_effect = {
+            hidden_effect = {
+                add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -500
+				}
+            }
+		}
+		remove_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_days_mission_timeout = {
+					mission = GGR_sabotage_bottom_snowy_plateau_mission
+					days = 10
+				}
+				add_to_variable = { var_bottom_snowy_plateau_status = -20 }
+				if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status < 29 } }
+					set_variable = { var_bottom_snowy_plateau_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_snowy_plateau } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_snowy_plateau
+					set_variable = { suppressed_state = 4 }
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_bottom_snowy_plateau_status > 29 } 
+						check_variable = { var_bottom_snowy_plateau_status < 70 } 
+					}
+					set_variable = { var_bottom_snowy_plateau_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status > 69 } }
+					set_variable = { var_bottom_snowy_plateau_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	GGR_arrest_leaders_snowy_plateau = {
+		state_target = yes
+		targets = { state = 172 }
+		on_map_mode = map_only
+		ai_will_do = {
+			base = 15
+		}
+		icon = GFX_decisions_GGR_arrest_leaders
+        available = {
+			has_dlc = "La Resistance"
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_bottom_snowy_plateau_status_2 > 1 }
+				has_completed_focus = GGR_focus_schneeschutz
+			}
+			agency_upgrade_number > GGR.var_agency_upgrades
+        }
+		visible = { 
+			has_dlc = "La Resistance"
+			check_variable = { var_bottom_snowy_plateau_status_2 > 1 } 
+			has_completed_focus = GGR_focus_schneeschutz
+		}
+		days_remove = 20
+        days_re_enable = 20
+        cost = 15
+        complete_effect = {
+            hidden_effect = {
+				if = {
+					limit = { check_variable = { GGR.var_agency_upgrades < 5 } }
+					add_to_variable = { GGR.var_agency_upgrades = 1 }
+				}
+            }
+		}
+		remove_effect = {
+			add_days_mission_timeout = {
+					mission = GGR_sabotage_bottom_snowy_plateau_mission
+					days = 30
+			}
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_to_variable = { var_snowy_hills_status = -10 }
+				if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status < 29 } }
+					set_variable = { var_bottom_snowy_plateau_status_2 = 1 } 
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_snowy_plateau } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_snowy_plateau
+					set_variable = { suppressed_state = 4 }	
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_bottom_snowy_plateau_status > 29 } 
+						check_variable = { var_bottom_snowy_plateau_status < 70 } 
+					}
+					set_variable = { var_bottom_snowy_plateau_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status > 69 } }
+					set_variable = { var_bottom_snowy_plateau_status_2 = 3 } 
+				}
+			}
+		}
+    }
+	
+	GGR_suppress_anarchists_bottom_snowy_plateau = {
+		state_target = yes
+		targets = { state = 172 }
+		on_map_mode = map_only
+		ai_will_do = {
+			base = 15
+		}
+		icon = GFX_decisions_GGR_anarchists_suppression
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = l_GGR_anpower_more_than_1
+				check_variable = { var_bottom_snowy_plateau_status_2 > 1 }
+			}
+        }
+		visible = { check_variable = { var_bottom_snowy_plateau_status_2 > 1 } }
+		days_remove = 40
+        days_re_enable = 10
+        cost = 75
+        remove_effect = {
+			custom_effect_tooltip = l_GGR_anarchists_will_be_weakened
+			hidden_effect = {
+				add_days_mission_timeout = {
+					mission = GGR_anarchists_mission
+					days = 10
+				}
+				add_days_mission_timeout = {
+					mission = GGR_sabotage_bottom_snowy_plateau_mission
+					days = 10
+				}
+				add_to_variable = { var_bottom_snowy_plateau_status = -20 }
+				if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status < 29 } }
+					set_variable = { var_bottom_snowy_plateau_status_2 = 1 }		
+					if = { 
+						limit = { NOT = { has_country_flag = suppress_snowy_plateau } }
+						country_event = GGR_event.5
+						add_to_variable = { var_suppressed_riots = 1 }
+						if = {
+							limit = { check_variable = { var_suppressed_riots > 3 } }
+							country_event = GGR_event.9
+						}
+					}
+					set_country_flag = suppress_snowy_plateau
+					set_variable = { suppressed_state = 4 }					
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_bottom_snowy_plateau_status > 29 } 
+						check_variable = { var_bottom_snowy_plateau_status < 70 } 
+					}
+					set_variable = { var_bottom_snowy_plateau_status_2 = 2 } 
+				}
+				else_if = {
+					limit = { check_variable = { var_bottom_snowy_plateau_status > 69 } }
+					set_variable = { var_bottom_snowy_plateau_status_2 = 3 } 
+				}
+			}
+		}
+    }
+}

@@ -3,3 +3,8 @@ sound = {
 	file = "bfdi_button_press.wav"
 	always_load = yes
 }
+sound = {
+	name = "bfdi_capitulation"
+	file = "bfdi_capitulation.wav"
+	always_load = yes
+}

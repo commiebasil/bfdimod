@@ -6,6 +6,16 @@ decisions_WGF_our_snowy_friends_category = {
 			}
 			has_political_power > 49
 		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 30
+				has_equipment = {
+					infantry_equipment > 1000
+				}
+				NOT = { has_idea = idea_WGF_experience_of_snowy_anarchists }
+			}
+		}
 		custom_cost_text = decision_cost_ie_500_pp_50
 		days_re_enable = 20
 		days_remove = 50
@@ -54,6 +64,9 @@ decisions_WGF_our_snowy_friends_category = {
 		cost = 100
 		days_re_enable = 180
 		days_remove = 20
+		ai_will_do = {
+			base = 50
+		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = l_decisions_WGF_ute
