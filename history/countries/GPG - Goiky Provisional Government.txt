@@ -73,5 +73,15 @@ recruit_character = GPG_tree
 
 add_ideas = undisturbed_isolation
 
-
+random_list = {
+    30 = {
+        set_country_flag = stability_save_path
+    }
+    40 = {
+        set_country_flag = civil_war_path
+    }
+    30 = {
+        set_country_flag = fries_path
+    }
+}
 

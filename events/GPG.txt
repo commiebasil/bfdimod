@@ -159,6 +159,13 @@ country_event = {
 	
 	option = {
 		name = GPG_event.9.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_country_flag = fries_path
+			}
+		}
 		custom_effect_tooltip = l_GPG_adds_support_in_congress
 		set_country_flag = first_question
 		set_country_flag = clock_accusation
@@ -184,6 +191,16 @@ country_event = {
 	}
 	option = {
 		name = GPG_event.9.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				OR = {
+					has_country_flag = civil_war_path
+					has_country_flag = stability_save_path
+				}
+			}
+		}
 		set_country_flag = first_question
 		mark_focus_tree_layout_dirty = yes
 		add_stability = 0.05
@@ -227,6 +244,13 @@ country_event = {
 	
 	option = {
 		name = GPG_event.11.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_country_flag = fries_path
+			}
+		}
 		set_country_flag = second_question
 		set_country_flag = fries_triumph
 		add_stability = -0.05
@@ -245,6 +269,16 @@ country_event = {
 	}
 	option = {
 		name = GPG_event.11.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				OR = {
+					has_country_flag = civil_war_path
+					has_country_flag = stability_save_path
+				}
+			}
+		}
 		set_country_flag = second_question
 		mark_focus_tree_layout_dirty = yes
 		custom_effect_tooltip = l_GPG_removes_support_in_congress
@@ -275,6 +309,13 @@ country_event = {
 	
 	option = {
 		name = GPG_event.12.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_country_flag = stability_save_path
+			}
+		}
 		set_country_flag = third_question
 		set_country_flag = compensation_accepted
 		custom_effect_tooltip = l_GPG_adds_support_in_congress_2
@@ -297,6 +338,16 @@ country_event = {
 	}
 	option = {
 		name = GPG_event.12.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				OR = {
+					has_country_flag = fries_path
+					has_country_flag = civil_war_path
+				}
+			}
+		}
 		set_country_flag = third_question
 		mark_focus_tree_layout_dirty = yes
 		custom_effect_tooltip = l_GPG_removes_support_in_congress
@@ -464,6 +515,13 @@ country_event = {
 	
 	option = {
 		name = GPG_event.14.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_country_flag = stability_save_path
+			}
+		}
 		set_country_flag = fifth_question
 		add_stability = 0.05
 		mark_focus_tree_layout_dirty = yes
@@ -477,6 +535,13 @@ country_event = {
 	}
 	option = {
 		name = GPG_event.14.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_country_flag = fries_path
+			}
+		}
 		custom_effect_tooltip = l_GPG_event14
 		set_country_flag = fifth_question
 		set_country_flag = casland_remilitarization
@@ -510,6 +575,13 @@ country_event = {
 	
 	option = {
 		name = GPG_event.15.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_country_flag = civil_war_path
+			}
+		}
 		set_country_flag = sixth_question
 		set_country_flag = mines_nationalization
 		custom_effect_tooltip = l_GPG_removes_support_in_congress
@@ -527,6 +599,13 @@ country_event = {
 	}
 	option = {
 		name = GPG_event.15.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_country_flag = stability_save_path
+			}
+		}
 		set_country_flag = sixth_question
 		mark_focus_tree_layout_dirty = yes
 		10 = {
@@ -560,6 +639,13 @@ country_event = {
 	
 	option = {
 		name = GPG_event.16.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_country_flag = stability_save_path
+			}
+		}
 		set_country_flag = seventh_question
 		set_country_flag = constitution_accepted
 		add_stability = 0.05
@@ -599,6 +685,13 @@ country_event = {
 	}
 	option = {
 		name = GPG_event.16.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_country_flag = fries_path
+			}
+		}
 		trigger = {
 			has_country_flag = fries_triumph
 			has_country_flag = casland_remilitarization
