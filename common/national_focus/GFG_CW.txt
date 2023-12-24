@@ -1,5 +1,5 @@
 focus_tree = {
-	id = GSR_CW_focus_tree
+	id = GFG_CW_focus_tree
 	
 	country = {
 		factor = 0
