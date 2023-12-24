@@ -11,6 +11,10 @@
  schneeschutz_done: "Фокус §YШнеешутс§! выполнен"
  l_GGR_trigger_corporative_economy: "Все решения на §YИндустриализацию§! выполнены"
  resistance_mechanic_done: "Сопротивление подавлено"
+ fries_triumph: "§YФрайс§! глава кабинета"
+ recharnd_process: "§YРечерндский процесс§! завершён"
+ l_GPG_cw_victory_trigger: "§YПобеда в гражданской войне одержана§!"
+ congress_goodend: "Стабильность в Кэсленде сохранена"
  
  decision_cost_ie_500_pp_50: "£infantry_equipment_text_icon §Y500§! £political_power"
  decision_cost_ie_500_pp_50_blocked: "£infantry_equipment_text_icon §R500§! £political_power"

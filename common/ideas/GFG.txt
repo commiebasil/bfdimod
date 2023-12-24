@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		idea_GFG_production = {
+			picture = GFG_production
+			modifier = {
+				consumer_goods_factor -0.15
+				production_factory_efficiency_gain_factor = 0.1
+				stability_factor = -0.2
+			}
+		}
+	}
+}

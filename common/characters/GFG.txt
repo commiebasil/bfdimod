@@ -1,0 +1,69 @@
+characters = {
+	GFG_triumvirate = {
+		name = GPG_triumvirate
+		portraits = { civilian = { large = GFX_GPG_triumvirate } }
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+	
+	GFG_pillow = {
+		name = GPG_pillow
+		portraits = { 
+			civilian = { 
+				large = GFX_GPG_pillow
+				small = GFX_idea_GPG_pillow
+			} 
+		}
+		country_leader = {
+			ideology = ultranationalism
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GFG_pillow
+			traits = { princess_of_terror }
+			available = {
+				OR = {
+					has_government = fascism
+					has_government = radical_thoughts
+				}
+			}
+		}
+	}
+	
+	GFG_saw = {
+		name = GPG_saw
+		portraits = { civilian = { small = GFX_idea_GPG_saw } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GFG_saw
+			traits = { compassionate_gentleman }
+			available = {
+				has_government = fascism
+			}
+		}
+	}
+	
+	GFG_nickel = {
+		name = GPG_nickel
+		portraits = { 
+			army = { 
+				small = GFX_idea_GPG_nickel 
+				large = GFX_GPG_nickel
+			} 
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = idea_GFG_nickel
+			ledger = army
+			traits = { army_chief_offensive_2 }
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

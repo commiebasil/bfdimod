@@ -55,7 +55,7 @@
  WGF_focus_our_struggling_friends_desc: "Many objects throughout Goiky responded to the call of freedom and created revolutionary organizations throughout the continent. We must support these comrades with everything we can and must definitely create strong contacts."
  
  WGF_focus_the_offer: "The offer"
- WGF_focus_the_offer_desc: "Interesting news is coming from Casland: the faction of object-socialists, friendly to us, is gaining great popularity there. We can push cooperation into the interim government, with some pressure from the local communists."
+ WGF_focus_the_offer_desc: "Interesting news is coming from Casland: the faction of object socialists, friendly to us, is gaining great popularity there. We can push a proposal for cooperation through the transitional government, with some pressure from the local communists."
  
  WGF_focus_declare_our_goal: "Declare our goal"
  WGF_focus_declare_our_goal_desc: "Now that we have thoroughly prepared, our revolution can openly announce its inevitable spread throughout Goiky. The time has come to start a liberation campaign against the reactionaries!"
@@ -219,6 +219,223 @@
  
  GGR_focus_nothing_happens_here: "Nothing happens here!"
  GGR_focus_nothing_happens_here_desc: "Our policy towards defective objects may raise some... questions. We just need to hide this from the public eye until the public is ready for it."
+ 
+ #PROVISIONAL GOVERNMENT
+ GPG_focus_first_congress: "§YFirst Congress§!"
+ GPG_focus_first_congress_desc: "The situation on the continent is stalemate, and it has become especially acute in the former economic center of Casland. Various factions united to resist the anarchy and formed the Recommended Characters Council. The first congress of the new government will be held soon."
+ 
+ GPG_focus_rubys_speech: "Ruby's Speech"
+ GPG_focus_rubys_speech_desc: "The Toilers Front announced its goals and objectives at the convention in Ruby's name. This caused noisy discussions and agitated the masses."
+ 
+ GPG_focus_right_wing_unification: "Right-Wing Unification"
+ GPG_focus_right_wing_unification_desc: "Many different military and political organizations of an authoritarian bent were formed in the wake of anarchy and lawlessness. At the congress, most of them managed to unite into the Iron Hand faction."
+ 
+ GPG_focus_congress_closing: "Congress Closing"
+ GPG_focus_congress_closing_desc: "The first congress was generally successful. The factions finally settled down and many issues of management and development were resolved. But everyone is eagerly awaiting the second congress, as fateful for the political system of the Central Goiky."
+ 
+ GPG_focus_second_congress: "§YSecond Congress§!"
+ GPG_focus_second_congress_desc: "Since the closing of the first congress... Many things have changed. The political crisis has escalated incredibly, and representatives of radical factions are already beginning to talk about a government coup. If we want to save the fragile Goikian democracy."
+ 
+ GPG_focus_clocks_dead: "[GPG_CLOCKSDEAD_FOCUS]"
+ GPG_focus_clocks_dead_1: "All means are good"
+ GPG_focus_clocks_dead_2: "Objectivity"
+ GPG_focus_clocks_dead_3: "Miscalculation"
+ GPG_focus_clocks_dead_desc: ""
+ 
+ GPG_focus_cabinet_head: "[GPG_CABHEAD_FOCUS]"
+ GPG_focus_cabinet_head_1: "Triumph of Fries"
+ GPG_focus_cabinet_head_2: "Pie stands still"
+ GPG_focus_cabinet_head_desc: ""
+ 
+ GPG_focus_compensation: "[GPG_COMPENS_FOCUS]"
+ GPG_focus_compensation_1: "Compensation"
+ GPG_focus_compensation_2: "Budget cuts"
+ GPG_focus_compensation_desc: ""
+ 
+ GPG_focus_defense_plan: "[GPG_DEFPLANS_FOCUS]"
+ GPG_focus_defense_plan_1: "§3Plan Blue§!"
+ GPG_focus_defense_plan_2: "§RPlan Red§!"
+ GPG_focus_defense_plan_3: "§gPlan Black§!"
+ GPG_focus_defense_plan_desc: ""
+ 
+ GPG_focus_casland_remilitarization: "[GPG_CASLREM_FOCUS]"
+ GPG_focus_casland_remilitarization_1: "Remilitarization"
+ GPG_focus_casland_remilitarization_2: "Do not touch Casland!"
+ GPG_focus_casland_remilitarization_desc: ""
+ 
+ GPG_focus_mines: "[GPG_MINENAT_FOCUS]"
+ GPG_focus_mines_1: "Nationalization"
+ GPG_focus_mines_2: "Resource crisis"
+ GPG_focus_mines_desc: ""
+ 
+ GPG_focus_constitution: "[GPG_CONSTIT_FOCUS]"
+ GPG_focus_constitution_1: "§7Constitution of Goiky§!"
+ GPG_focus_constitution_2: "Paper can wait..."
+ GPG_focus_constitution_desc: ""
+ 
+ GPG_focus_second_congress_end: "[GPG_CONGEND_FOCUS]"
+ GPG_focus_second_congress_end_1: "§RGovernment collapse§!"
+ GPG_focus_second_congress_end_2: "§YSecond Congress End§!"
+ GPG_focus_second_congress_end_desc: ""
+ 
+ GPG_focus_cabinet_resisted: "Cabinet resisted"
+ GPG_focus_cabinet_resisted_desc: ""
+ 
+ GPG_focus_bake_taco: "§3Fry Taco§!"
+ GPG_focus_bake_taco_desc: "The democratic faction, although not as radical as the others, still poses a great threat to the government. We have to deal with it."
+ 
+ GPG_focus_break_up_the_brilliant: "§tBreak up the Ruby§!"
+ GPG_focus_break_up_the_brilliant_desc: "The most dangerous target for us now is the Toilers Front. The communists must be destroyed before they expect to be struck."
+ 
+ GPG_focus_yoylemetal_hand: "§LYoylemetal hand§!"
+ GPG_focus_yoylemetal_hand_desc: "The most militarized and reactionary faction on the council poses a great threat to the state. She must be strangled."
+ 
+ GPG_focus_strenght_republic_border: "Border control"
+ GPG_focus_strenght_republic_border_desc: "It's no secret that the Democrats receive a lot of help from abroad, and specifically from the Greeny Plains, from the Alliance. We will try to block this pipe for them as much as possible, and this will obviously slow down their preparations."
+ 
+ GPG_focus_leafy_was_democrat: "§7Leafy was a democrat!§!"
+ GPG_focus_leafy_was_democrat_desc: "Leafy is one of the most hated objects of modern Goiky, so why not use her image to deobjectize your opponents? Moreover, she did have some contacts with members of the democratic faction."
+ 
+ GPG_focus_ban_foreign_aid: "External supplies ban"
+ GPG_focus_ban_foreign_aid_desc: "Our most important goal is also to legislatively cut off the supply chain for the Democrats. This will transfer them into the illegal sphere, and, as a result, complicate their use."
+ 
+ GPG_focus_barf_bag_is_stupid: "Doubt Barf bag's intellect"
+ GPG_focus_barf_bag_is_stupid_desc: "How can a bag of digested food be the #2 face of one of the main factions of the council? We should give Barf bag some intelligence testing and suspend her from her position..."
+ 
+ GPG_focus_expel_taco: "Taco Expulsion"
+ GPG_focus_expel_taco_desc: "Well, if Tako loves her friends from the Alliance so much, she can go to them, and we will help this in every possible way."
+ 
+ GPG_focus_ban_democratic_faction: "§3Ban the Democrats§!"
+ GPG_focus_ban_democratic_faction_desc: "There is no doubt that the Democratic faction has carried out dangerous subversive activities in the republic, which is contrary to its constitution, and will therefore be expelled from the council, and its members will be assigned to the court."
+ 
+ GPG_focus_raise_miners_salary: "Raise miners' wages"
+ GPG_focus_raise_miners_salary_desc: "The main social base of the Ruby's communists is in the east, where large mining enterprises operate. We have to appease the local workers by cutting the budget a bit, but this will certainly help us."
+ 
+ GPG_focus_and_communist: "§R...And a communist§!"
+ GPG_focus_and_communist_desc: "Leafy's connection with the communists is undeniable. We will also use this."
+ 
+ GPG_focus_firey_marionette: "§OFirey's puppets!§!"
+ GPG_focus_firey_marionette_desc: "The Toilers Front undoubtedly has serious contacts with the Revolutionary Front in the north. These connections, of course, are not enough for an accusation, but this will in no way hinder our propaganda."
+ 
+ GPG_focus_organize_arson: "Organize arson"
+ GPG_focus_organize_arson_desc: "Our people will find some individuals associated with the Toilers Front, bribe them and organize with their hands the arson of the RCC building, so that they can then use it against the communists."
+ 
+ GPG_focus_ban_communist_faction: "§tBan the Toilers Front§!"
+ GPG_focus_ban_communist_faction_desc: "Communists are dangerous radicals, and the damage to the republic caused by the Labor Front is irrefutable. Due to this, the Labor Front is expelled from the council."
+ 
+ GPG_focus_slow_disarm: "Slow disarmament"
+ GPG_focus_slow_disarm_desc: "The main strength of the right faction is its armed forces. We will carefully disarm them under various pretexts or even buy back their weapons."
+ 
+ GPG_focus_entice_nickel: "Entice Nickel"
+ GPG_focus_entice_nickel_desc: "Nickel, although conditionally a member of the Iron Hand, does not really share the radical positions of the faction. We can lure him away easily enough."
+ 
+ GPG_focus_recharnd_demilitarization: "Demilitarization of Recharnd"
+ GPG_focus_recharnd_demilitarization_desc: "Recharnd - The main gathering point for Iron Hand stormtroopers. We will give the city and its surroundings the same governmental significance as Casland, and thus achieve the disarmament or withdrawal of these combat forces."
+ 
+ GPG_focus_fanny_emotional_stability_question: "Question about Fanny's stability"
+ GPG_focus_fanny_emotional_stability_question_desc: "Fanny is perhaps the most emotionally unstable council member. It is worth 'making a recommendation' to the cabinet to exclude her from the RCC."
+ 
+ GPG_focus_trans: "§gTRANS§!"
+ GPG_focus_trans_desc: "The presence of Saw on the council from the fascist faction raises, first of all, questions among the Iron Hand supporters themselves. How and why does an object of indeterminate gender speak out on behalf of the reactionary faction? It's worth getting rid of this."
+ 
+ GPG_focus_ban_fascist_faction: "§LIron Hand Ban§!"
+ GPG_focus_ban_fascist_faction_desc: "There is no doubt that the Iron Hand was preparing a military coup in Casland, but the valiant government cabinet put a stop to it. Now this faction will be expelled from the council, and its members will be repressed."
+ 
+ GPG_focus_no_more_factions: "No more factions"
+ GPG_focus_no_more_factions_desc: "Factionalism is now prohibited in the council. Now each person sitting will speak regardless of his or her name."
+ #GPG CW TREE
+ GPG_focus_fight_for_stability: "§YBattle for Stability!§!"
+ GPG_focus_fight_for_stability_desc: "These damn radicals, we tried to come to an agreement with them in the council, we tried to come to an agreement with them at the congress, but it didn’t lead to anything. The time has come to put an end to these destructive cliques and carry the victorious banner of Goika on the bayonet!"
+ 
+ GPG_focus_council_of_the_one_faction: "One faction council"
+ GPG_focus_council_of_the_one_faction_desc: "No more factionalism! All conflicts in the council will henceforth be resolved within the framework of one general paradigm of maintaining stability."
+ 
+ GPG_focus_mobilization: "Greeny Plains mobilization"
+ GPG_focus_mobilization_desc: "Now, more than ever, we need objects to arm the state militia. Forward, friends, to defend Goiky!"
+ 
+ GPG_focus_industry_transformation: "Industry Transformation"
+ GPG_focus_industry_transformation_desc: "The industry on the outskirts of Casland represents entirely civilian forms of production. We need rifles for our objects, and therefore, we militarize these industries for the victory of the government!"
+ 
+ GPG_focus_goiky_army: "Goiky Army"
+ GPG_focus_goiky_army_desc: "The militia in the form of state patrols clearly does not represent a serious force. We need a full-fledged, personnel army of objects who know their business."
+ 
+ GPG_focus_12_hours_working_day: "12 Hours Working Day"
+ GPG_focus_12_hours_working_day_desc: "Objects at new factories must work tirelessly for our victory!"
+ 
+ GPG_focus_second_congress_continues: "§YCongress Continues!§!"
+ GPG_focus_second_congress_continues_desc: "Interrupted by the illegal action of radicals, the congress can finally continue its work. Now, in much calmer conditions."
+ 
+ #GDR FOCUSES
+ #GDR CW tree
+ GDR_focus_fight_for_the_republic: "§7Fight for the Republic!§!"
+ GDR_focus_fight_for_the_republic_desc: "After the transitional government trampled on democracy and tried to establish an authoritarian regime, we cannot count on the peaceful establishment of a republic. Objects of the Greeny Plains must take up their rifles and go into battle for their freedom!"
+ 
+ GDR_focus_gpr_support_expansion: "Supplies expansion"
+ GDR_focus_gpr_support_expansion_desc: "Our friends from Greenport will help us in the fight against the enemies of the republic."
+ 
+ GDR_focus_military_advisors: "Military advisors"
+ GDR_focus_military_advisors_desc: "Officers and advisors arrived from the western republic to help us organize defenses. We should use this as much as possible."
+ 
+ GDR_focus_volunteers_from_greeny_plains: "Greeny Plains volunteers"
+ GDR_focus_volunteers_from_greeny_plains_desc: "We also receive a huge number of volunteers from Greenport who are ready to fight for the republic."
+ 
+ GDR_focus_rule_of_majority: "Rule of majority"
+ GDR_focus_rule_of_majority_desc: "The main principle of our future republic is Democracy. We must now promote it comprehensively."
+ 
+ GDR_focus_help_with_industry: "Industry import"
+ GDR_focus_help_with_industry_desc: "To win we need production. The northern part of the former transitional regime, where our government is now located, was not distinguished by industrial development. Our friends in Greenport will support us greatly."
+ 
+ GDR_focus_arsenal_of_democracy: "Arsenal of Democracy"
+ GDR_focus_arsenal_of_democracy_desc: "While our new production lines are being established, we will receive weapons supplies from Greenport."
+ 
+ GDR_focus_constitution: "§7Second Contitution§!"
+ GDR_focus_constitution_desc: "The first constitution failed. But we will fight for the second constitution to the last object."
+ 
+ #GSR FOCUSES
+ #GSR CW tree
+ GSR_focus_workers_revolution: "§RWorkers Revolution§!"
+ GSR_focus_workers_revolution_desc: "Hooray! The mine workers have finally thrown off the yoke of the dictatorship of the capitalists and the bureaucracy of the Provisional Government! But this is just the beginning. The workers of Goiky need to defeat in the last battle the opponents of the revolution, who are seeking to restore the predatory system."
+ 
+ GSR_focus_toilers_dictatorship: "Toilers Dictatorship"
+ GSR_focus_toilers_dictatorship_desc: "In these difficult days for the fate of socialism, the Goiky workers must establish strict control over any manifestations of opposition using terror methods."
+ 
+ GSR_focus_red_army: "Red Army"
+ GSR_focus_red_army_desc: "After the provisional government collapsed and the struggle moved from underground to the real front line, it was time to reorganize the labor battalions into a real combat-ready army."
+ 
+ GSR_focus_political_commissars: "Political Commissars"
+ GSR_focus_political_commissars_desc: "To maintain army morale, we need political education and oversight cells in every combat unit. These cells will be advanced opposition objects, volunteers who showed themselves well during the underground struggle."
+ 
+ GSR_focus_full_expropriation: "Full Expropriation"
+ GSR_focus_full_expropriation_desc: "The time has come to end the exploitation of objects. All production and mining enterprises will henceforth become the property of the workers' government."
+ 
+ GSR_focus_well_screw_the_bayonets_ourselves: "...We'll screw the bayonets ourselves!"
+ GSR_focus_well_screw_the_bayonets_ourselves_desc: "No one will protect the workers except themselves. Objects in factories must work tirelessly to defend the revolution, and if necessary, take the assembled rifle with their own hands and go to fight."
+ 
+ GSR_focus_triumphant_victory: "§RTriumphant Victory§!"
+ GSR_focus_triumphant_victory_desc: "The victorious march of the revolution spread to the entire former territory of the Provisional Government and the reactionaries were defeated. This victory will go down in Goiky's history as the greatest impetus for the freedom of all objects."
+ 
+ #GFG FOCUSES
+ #GFG CW tree
+ GFG_focus_indivisible_goiky: "§gIndivisible Goiky§!"
+ GFG_focus_indivisible_goiky_desc: "The Provisional Government showed its complete inability to protect Goiky's heart from traitors and opportunists. In this case, our assault troops will deal with the national traitors."
+ 
+ GFG_focus_unity_or_death: "Unity or Death!"
+ GFG_focus_unity_or_death_desc: "Our main goal is the One and Indivisible Goiky, and we are ready to give thousands of lives of our objects for this."
+ 
+ GFG_focus_full_militarization: "Full Militarization"
+ GFG_focus_full_militarization_desc: "All objects available to us must take up arms for the sake of uniting Goiky!"
+ 
+ GFG_focus_expand_militia: "Militia Expansion"
+ GFG_focus_expand_militia_desc: "Our army mainly consists of a ragtag group of militias from various paramilitary organizations. We need to unite and expand them!"
+ 
+ GFG_focus_physical_destruction_of_opposition: "Physical Destruction of the Opposition"
+ GFG_focus_physical_destruction_of_opposition_desc: "Any oppositionist to our regime is an enemy of the nation. The opposition must be crushed mercilessly, like poisonous bugs."
+ 
+ GFG_focus_2_hours: "2 Hours for the State"
+ GFG_focus_2_hours_desc: "Objects at factories will work 2 additional hours, the salary from which will go to the treasury."
+ 
+ GFG_focus_national_resurrection: "§gNational Resurrection§!"
+ GFG_focus_national_resurrection_desc: "The traitors and the Fifth Column are defeated. Our state unites all territories previously controlled by the transitional regime. This is the first step towards our goal."
  
  #generic
  generic_focus_industry: "Industry expansion"

@@ -15,3 +15,29 @@ music = {
 	file = "snowy_forest_invasion_music.ogg"
 	volume = 1
 }
+music = {
+	name = "civil_war_event"
+	file = "civil_war.ogg"
+	volume = 1
+}
+music = {
+	name = "GPG_cw_transgov_victory"
+	file = "GPG_cw_transgov_victory.ogg"
+	volume = 1
+}
+music = {
+	name = "GPG_cw_democrats_victory"
+	file = "GPG_cw_democrats_victory.ogg"
+	volume = 1
+}
+music = {
+	name = "GPG_cw_ruby_victory"
+	file = "GPG_cw_ruby_victory.ogg"
+	volume = 1
+}
+music = {
+	name = "GPG_cw_ironhand_victory"
+	file = "GPG_cw_ironhand_victory.ogg"
+	volume = 1
+}
+

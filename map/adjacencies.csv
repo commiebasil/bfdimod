@@ -49,7 +49,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1688;812;impassable;-1;-1;-1;-1;-1;;Snow-Plateau
 2677;812;impassable;-1;-1;-1;-1;-1;;Snow-Plateau
 2677;11322;impassable;-1;-1;-1;-1;-1;;Snow-Plateau
-3942;11322;impassable;-1;-1;-1;-1;-1;;Snow-Plateau
 3942;2035;impassable;-1;-1;-1;-1;-1;;Snow-Plateau
 4029;2035;impassable;-1;-1;-1;-1;-1;;Snow-Plateau
 3230;1007;impassable;-1;-1;-1;-1;-1;;Snow-Plateau

@@ -1,0 +1,35 @@
+defined_text = {
+	name = CABLEADER
+	text = {
+		trigger = { check_variable = { var_current_cabinet_leader = 1 } }
+		localization_key = l_decisions_congress_clock
+	}
+	text = {
+		trigger = { check_variable = { var_current_cabinet_leader = 2 } }
+		localization_key = l_decisions_congress_pie
+	}
+	text = {
+		trigger = { check_variable = { var_current_cabinet_leader = 3 } }
+		localization_key = l_decisions_congress_fries
+	}
+}
+
+defined_text = {
+	name = RULFACTION
+	text = {
+		trigger = { check_variable = { var_current_ruling_faction = 1 } }
+		localization_key = l_decisions_congress_faction_n
+	}
+	text = {
+		trigger = { check_variable = { var_current_ruling_faction = 2 } }
+		localization_key = l_decisions_congress_faction_d
+	}
+	text = {
+		trigger = { check_variable = { var_current_ruling_faction = 3 } }
+		localization_key = l_decisions_congress_faction_c
+	}
+	text = {
+		trigger = { check_variable = { var_current_ruling_faction = 4 } }
+		localization_key = l_decisions_congress_faction_f
+	}
+}

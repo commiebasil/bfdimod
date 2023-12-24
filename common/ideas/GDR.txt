@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		idea_GDR_military_advisors = {
+			picture = GDR_military_advisors
+			modifier = {
+				command_power_gain = 0.25
+				army_org_factor = 0.1
+				planning_speed = 0.1
+			}
+		}
+	}
+}

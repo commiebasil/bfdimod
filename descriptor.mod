@@ -9,6 +9,7 @@ tags={
 	"Sound"
 }
 name="Troubles in Goiky: a BFDI-Based HOI4 mod [WIP]"
+picture="thumbnail.jpg"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_peace"

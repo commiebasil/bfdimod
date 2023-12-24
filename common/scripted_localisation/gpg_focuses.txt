@@ -1,0 +1,100 @@
+defined_text = {
+	name = GPG_CLOCKSDEAD_FOCUS
+	text = {
+		trigger = {
+			has_country_flag = clock_accusation
+			NOT = { has_country_flag = clock_accusation_failure }
+		}
+		localization_key = GPG_focus_clocks_dead_1
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = clock_accusation } }
+		localization_key = GPG_focus_clocks_dead_2
+	}
+	text = {
+		trigger = { has_country_flag = clock_accusation_failure }
+		localization_key = GPG_focus_clocks_dead_3
+	}
+}
+
+defined_text = {
+	name = GPG_CABHEAD_FOCUS
+	text = {
+		trigger = { has_country_flag = fries_triumph }
+		localization_key = GPG_focus_cabinet_head_1
+	}
+	text = {
+		localization_key = GPG_focus_cabinet_head_2
+	}
+}
+
+defined_text = {
+	name = GPG_COMPENS_FOCUS
+	text = {
+		trigger = { has_country_flag = compensation_accepted }
+		localization_key = GPG_focus_compensation_1
+	}
+	text = {
+		localization_key = GPG_focus_compensation_2
+	}
+}
+
+defined_text = {
+	name = GPG_DEFPLANS_FOCUS
+	text = {
+		trigger = { has_country_flag = defense_plan_blue }
+		localization_key = GPG_focus_defense_plan_1
+	}
+	text = {
+		trigger = { has_country_flag = defense_plan_red }
+		localization_key = GPG_focus_defense_plan_2
+	}
+	text = {
+		trigger = { has_country_flag = defense_plan_black }
+		localization_key = GPG_focus_defense_plan_3
+	}
+}
+
+defined_text = {
+	name = GPG_CASLREM_FOCUS
+	text = {
+		trigger = { has_country_flag = casland_remilitarization }
+		localization_key = GPG_focus_casland_remilitarization_1
+	}
+	text = {
+		localization_key = GPG_focus_casland_remilitarization_2
+	}
+}
+
+defined_text = {
+	name = GPG_MINENAT_FOCUS
+	text = {
+		trigger = { has_country_flag = mines_nationalization }
+		localization_key = GPG_focus_mines_1
+	}
+	text = {
+		localization_key = GPG_focus_mines_2
+	}
+}
+
+defined_text = {
+	name = GPG_CONSTIT_FOCUS
+	text = {
+		trigger = { has_country_flag = constitution_accepted }
+		localization_key = GPG_focus_constitution_1
+	}
+	text = {
+		localization_key = GPG_focus_constitution_2
+	}
+}
+
+defined_text = {
+	name = GPG_CONGEND_FOCUS
+	text = {
+		trigger = { has_country_flag = second_congress_badend }
+		localization_key = GPG_focus_second_congress_end_1
+	}
+	text = {
+		localization_key = GPG_focus_second_congress_end_2
+	}
+}

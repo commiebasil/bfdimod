@@ -94,6 +94,10 @@
  WGF_event.16.t: "Supply chains are broken!"
  WGF_event.16.desc: "After the Fascist invasion of the Snowy Forest began, it became almost impossible to continue supplying the Anarchists. Unfortunately, we will have to stop sending rifles to these comrades."
  WGF_event.16.a: "Good luck to them."
+ 
+ WGF_event.17.t: "Relations break with the Provisional Government"
+ WGF_event.17.desc: "We received a telegram from Casland. As a result of an obviously fabricated investigation, our cells were discovered in the ranks of the local Communist Party. This was the reason for ending diplomatic relations with us."
+ WGF_event.17.a: "Once we enter Casland, they won't even be able to send a surrender request?"
  #Reich
  GGR_event.1.t: "Behind the ridge"
  GGR_event.1.desc: "The Snowy Plateau is a wonderful region with beautiful objects, although it is quite poor. It has some features, for example: Its population, due to its isolation, is quite united and has a uniform, special culture, unlike other regions of South Goyka. It is particularly autonomous and does not depend so much on foreign trade..."
@@ -149,6 +153,155 @@
  GGR_event.13.t: "Mass desertion!"
  GGR_event.13.desc: "We are faced with a big problem: The rear and reserve units treacherously went over to the side of the enemy, having been subjected to his propaganda. This significantly impacts our rear and can lead to the destruction of the front."
  GGR_event.13.a: "Traitors!"
+ 
+#PROVISIONAL GOVERNMENT
+ GPG_event.1.t: "A Mess"
+ GPG_event.1.desc: "Another day in the council. Another argue between Ruby and Taco over some minor issue. Expansion of the war tax, it seems?... In any case, it matters little. Week after week, the government is playing for time and is not making any decisions that could get Central Goiky out of this plight. Factionalism has affected all levels of society and Casland is in a difficult situation..."
+ GPG_event.1.a: "The congress is nearing opening."
+ GPG_event.1.b: "I want to know more about factions." 
+ 
+ GPG_event.2.t: "Transitional Government"
+ GPG_event.2.desc: "Represents the current government cabinet. A fairly neutral and inactive faction. In fact, the formation of a unified government of the Greeny Plains and the preservation of some stability is the merit of this faction. Its brightest and most passionate member at the moment is Clock, who heads the cabinet."
+ GPG_event.2.a: "Maintaining stability is a priority."
+ 
+ GPG_event.3.t: "Democratic Faction"
+ GPG_event.3.desc: "An openly liberal organization. Its participants are aimed at the partial restoration of the anarchic economic model of Goiky, as well as the formation of a federal structure of the southern continent. This faction does not have a clear leader, but Taco, Book and Barf bag stand out the most."
+ GPG_event.3.a: "(And they are also sponsored by the Alliance)"
+ 
+ GPG_event.4.t: "Toilers Front"
+ GPG_event.4.desc: "An openly revolutionary faction that has repeatedly called for armed uprisings. It has several wings, but still has a common goal - the reconstruction of the state on a popular basis. The general secretary of the faction is Ruby."
+ GPG_event.4.a: "Workers of Goiky, unite!"
+ 
+ GPG_event.5.t: "Iron Hand"
+ GPG_event.5.desc: "Perhaps the most militarized faction in the entire government. Formed from many organizations of different kinds in the wake of the onset of anarchy, the faction defends conservative and reactionary positions in the government. Management takes place behind the scenes in the so-called 'Iron Three', which consists of Fanny, Pillow and Nickel."
+ GPG_event.5.a: "Goiky, United and Indivisible!"
+ 
+ GPG_event.6.t: "Clock is dead!"
+ GPG_event.6.desc: "Today, an incident occurred in Casland that will affect the entire state. The leader of the government cabinet, the head of the neutral faction, Clock, died as a result of an assassination attempt by a representative of the radical wing of the democratic faction. The murder was carried out with a small hammer, which was used to break through the glass case. At the moment, the cabinet is decapitated and in prostration. Pie was temporarily chosen as acting head of the cabinet."
+ GPG_event.6.a: "The crisis is getting worse."
+ 
+ GPG_event.7.t: "The factions demand the opening of the congress!"
+ GPG_event.7.desc: "The government crisis continues to worsen. In this regard, three of the four factions demanded an emergency opening of the second congress of a predetermined date to resolve issues of governance."
+ GPG_event.7.a: "We have no choice."
+ 
+ GPG_event.8.t: "Congress opening"
+ GPG_event.8.desc: "The streets of Casland are guarded, the council building is prepared, everything is ready for the start of the faction meeting. The most pressing issues will be resolved one by one at the congress, at the end of which stability should be achieved."
+ GPG_event.8.a: "It's time to get ready!"
+ 
+ GPG_event.9.t: "Clock question"
+ GPG_event.9.desc: "So, the first issue that the congress must resolve will be the assassination attempt on the head of the cabinet. It is not yet completely clear whether there was someone larger behind the left-wing democratic activist. The congress must decide on an investigation, however, we can play with the facts a little and blame the communists and democrats for this, which will affect their positions in the council."
+ GPG_event.9.a: "Obviously, it was the communists."
+ GPG_event.9.b: "...This anarchist acted on his own, we'll not talk idle words."
+
+ GPG_event.10.t: "Communists and Democrats deny their involvement!"
+ GPG_event.10.desc: "As a result of an independent investigation, it turned out that the raider who killed the head of the cabinet did not even have a party card and called himself a democrat with no reason. It is also obvious that he has mental disorders. But this no longer matters, because the communists launched a counterattack and accused the current government of deliberate provocations."
+ GPG_event.10.a: "Fries tried to dispute the accusation, but he had nothing to answer."
+ 
+ GPG_event.11.t: "Chairman question"
+ GPG_event.11.desc: "The second topic of the congress will be the acting head of the cabinet. It's no secret that Pie is not very suitable for this role. Fries announced his candidacy for this post. What will the council say?"
+ GPG_event.11.a: "Fries passes!"
+ GPG_event.11.b: "Pie managed to defend her post."
+ 
+ GPG_event.12.t: "Island question"
+ GPG_event.12.desc: "Like nothing else in Casland, the question now is about the funds that were spent on the construction of Dream Island. Huge amounts of money disappeared into thin air, and this dealt a severe blow to the economic heart of the continent. The agenda of the congress included the issue of partial payment of compensation to investors. Many consider this a necessary measure, but there is also an opinion that Goiky’s economy will be able to recover its wounds on its own, and the payment of compensation will cut into an already incredibly small budget. What will Congress choose?"
+ GPG_event.12.a: "Immediate compensations!"
+ GPG_event.12.b: "Congress rejects the proposal."
+ 
+ GPG_event.13.t: "Defense question"
+ GPG_event.13.desc: "While the republic is in a state of crisis, it is necessary to ensure its security from external threats. This is precisely the question that was raised at the congress. It was decided to allocate part of the budget for the construction of defensive lines on the external borders. But these funds are clearly not enough to ensure strong defense in all areas. The congress must choose a priority direction."
+ GPG_event.13.a: "The railway in the north should be protected."
+ GPG_event.13.b: "Mining facilities in the east should be protected."
+ GPG_event.13.c: "Radicals in the south pose the greatest threat."
+ 
+ GPG_event.14.t: "Casland question"
+ GPG_event.14.desc: "After the creation of the government, a collective decision was made to ban the actions of military organizations and the admission of army units into the city. But today many are raising the question of sending troops into the city to maintain order. We can accept this decision, but it will cause furious protest from many assessors."
+ GPG_event.14.a: "No!"
+ GPG_event.14.b: "First state patrol enters Casland with fanfare."
+ 
+ GPG_event.15.t: "Mines question"
+ GPG_event.15.desc: "Representatives of the Labor Front demanded that the government nationalize mines in the eastern part of the country that were destroyed after the crisis in order to save them. The adoption of this proposal may cause serious protests from other factions. How will the congress proceed?"
+ GPG_event.15.a: "Accept."
+ GPG_event.15.b: "Let them figure it out for themselves."
+ 
+ GPG_event.16.t: "Constitution question"
+ GPG_event.16.desc: "Since the creation of the republic, it has been drowning in anarchy and legislative chaos. The time has come. All factions are talking about this, the cabinet is talking about this, and now, finally, the question has been raised. A draft constitution was put forward, developed by representatives from all four factions."
+ GPG_event.16.a: "Long live the republic!"
+ GPG_event.16.b: "§RThe congress decides to postpone the constitution...§!"
+ 
+ GPG_event.17.t: "Factions vote on the constitution!"
+ GPG_event.17.desc: "Despite the government's decision, factions still continue to vote for the constitution, boycotting the cabinet's decision. Ultimatums are already beginning to be put forward to the government for its immediate adoption."
+ GPG_event.17.a: "Just ignore them."
+ 
+ GPG_event.18.t: "Communists and Democrats leaving the council!"
+ GPG_event.18.desc: "The refusal to adopt the constitution led to mass protests by the meeting of these two factions, as a result of which a decision was made to leave and boycott the congress. In such conditions, the council can no longer continue its work."
+ GPG_event.18.a: "We can do without them."
+ 
+ GPG_event.19.t: "Armed uprisings!"
+ GPG_event.19.desc: "As a result of the collapse of the congress and the disunity of factions, uprisings began throughout the state: Right-wing mobilize armed forces, communist party activists take control of the mines, and so on. In this regard, martial law was declared and the council ceased its work."
+ GPG_event.19.a: "The end of the republic."
+ 
+ GPG_event.20.t: "Collapse"
+ GPG_event.20.desc: "As a result of the crisis of local democracy, the outskirts broke away from the central government and declared their goal to take Casland. The battle for future of Goiky is taking place here."
+ GPG_event.20.a: "Provisional government will restore stability!"
+ GPG_event.20.b: "Workers of Goiky, unite!"
+ GPG_event.20.c: "Democrats will restore the republic!"
+ GPG_event.20.d: "The Iron Hand will establish order!"
+ 
+ GPG_event.21.t: "Coup!"
+ GPG_event.21.desc: "The Iron Hand, taking advantage of its special position in the armed forces, with the help of police garrisons in Casland, managed to take control of the city almost without resistance! The government fled to the west, and this probably means the collapse of the council and government cabinet."
+ GPG_event.21.a: "Oh my bakery!"
+ 
+ GPG_event.22.t: "Radicals take advantage of government weakness!"
+ GPG_event.22.desc: "In a result of... not the best decisions of the congress, the popularity of the cabinet fell sharply, and radical groups took advantage of this, starting to boycott the decisions of the cabinet and challenge its position. In such conditions, the council cannot continue its work."
+ GPG_event.22.a: "This will lead to dire consequences."
+ 
+ GPG_event.23.t: "Successful completion of the congress"
+ GPG_event.23.desc: "Wonderful job! The Cabinet managed to maintain stability in the state and consensus on key issues was successfully found! The Republic is moving forward, and its subjects are happy."
+ GPG_event.23.a: "Forwards, Goiky!"
+ 
+ GPG_event.24.t: "Counterattack"
+ GPG_event.24.desc: "So, stability has been restored, but this is just the beginning. We have bought time, and now we need to deal with the radical opposition and do it in a way that does not cause unrest, before these radicals destabilize the state again."
+ GPG_event.24.a: "We need to act quickly."
+ 
+ GPG_event.25.t: "Arson of the council!"
+ GPG_event.25.desc: "That night, a group of attackers entered the vicinity of Casland and, under the cover of darkness, entered the city center, where they set fire to the building of the Recommended Characters Council with the aim of a coup. One of them was detained with a Toilers Front party card. Our valiant police immediately took the entire administration of the Toilers Front into custody and they are awaiting trial."
+ GPG_event.25.a: "It's time for judgment."
+
+ GPG_event.26.t: "Recharnd Process"
+ GPG_event.26.desc: "According to the results of the trial in Recharnd, the guilt of the communists in the arson of a state building was certainly proven. They all received sentences, and now the Labor Front is effectively decapitated."
+ GPG_event.26.a: "Wonderful work."
+ 
+ GPG_event.27.t: "Democrats uprising in the Greeny Plains!"
+ GPG_event.27.desc: "The Democrats, with the support of the Greeny Plains Republic, managed to occupy the north of the country and establish their regime there. We must destroy them."
+ GPG_event.27.a: "We'll deal with that."
+ 
+ GPG_event.28.t: "Communists take control of the mines!"
+ GPG_event.28.desc: "As a result of our government’s not very clever policy towards radicals, the Toilers Front faction managed to gain full support among the workers of the eastern mines and establish a socialist regime there. Now the troops are joining in."
+ GPG_event.28.a: "To battle!"
+ 
+ GPG_event.29.t: "Stormtroopers occupy Recharnd!"
+ GPG_event.29.desc: "The Iron Hand, feeling complete impunity on the part of the government, decided on an armed uprising and occupied the second largest city in the country. We must crush this uprising immediately!"
+ GPG_event.29.a: "Bring Recharnd back!"
+ 
+ GPG_event.30.t: "Fries takes military command"
+ GPG_event.30.desc: "The time has come to give armed resistance to the rebels. Fries takes over as military commander to protect Goiky from the radicals."
+ GPG_event.30.a: "Forwards!"
+ 
+ #GDR
+ GDR_event.1.t: "Battle For Democracy"
+ GDR_event.1.desc: "The provisional government, through its decisions, showed its desire to establish a dictatorship, and we were forced to raise our rifles for the sake of our freedom and the freedom of Goiky’s objects. Opponents of democracy must be defeated today, or we are doomed to another authoritarian regime."
+ GDR_event.1.a: "Forwards!"
+ 
+ #GSR
+ GSR_event.1.t: "Liberation of the mines"
+ GSR_event.1.desc: "The workers at one of the iron mines cheered as they listened to Ruby's speech. Finally, they were freed from 12 hours of slavery in the caves. 'But this is not the end!' - Ruby exclaimed. Objects must continue to fight to maintain their gains."
+ GSR_event.1.a: "And the Red Banner will fly in Casland!"
+ 
+ #GFG
+ GFG_event.1.t: "Stormtroopers in Casland"
+ GFG_event.1.desc: "The Transitional Government has shown its complete inability to resist the parasites from the council. In this regard, a government of National Revival was created, which would put an end to the arbitrariness of the national traitors with bayonets."
+ GFG_event.1.a: "Goiky will be united!"
+ 
  #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result of the vote. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."
@@ -186,3 +339,48 @@
  bfdinews.9.t: "The anarchists of the Snowy Plateau are defeated!"
  bfdinews.9.desc: "Breaking news: The Reich's armed forces have recently completed clearing the Snowy Forest of anarchist forces, and although they still have combat-ready units in the rear, they are unlikely to ever be able to recover. Although the anarchist objects would continue to resist for many years to come, they were defeated."
  bfdinews.9.a: "Order was established in the Snowy Plateau."
+ 
+ bfdinews.10.t: "Crisis in Casland"
+ bfdinews.10.desc: "Important news came from the Provisional Government: The head of the transitional regime, Clock, was killed by a left-wing activist! This further aggravated the political crisis in the state and factionalism in Casland’s life ceased to know boundaries. The cabinet will have to do a lot of work to maintain stability."
+ bfdinews.10.a: "And all Goiky held breath."
+ bfdinews.10.b: "We will count on the victory of the socialists."
+ bfdinews.10.c: "We will support our right-wing friends."
+ bfdinews.10.d: "The Democratic faction must win at all costs."
+ 
+ bfdinews.11.t: "Proclamation of the Goiky Republic!"
+ bfdinews.11.desc: "A few hours ago, in Casland, the cabinet head approved the constitution of the Goiky Republic. The interim government has been in crisis for a long time, but it appears to be coming to an end and stability is once again being established in the center of Goiky. But for now, nothing else can be said. We will monitor developments."
+ bfdinews.11.a: "Long live united Goiky!"
+ bfdinews.11.b: "Stability comes to Casland."
+ 
+ bfdinews.12.t: "Collapse of the provisional government!"
+ bfdinews.12.desc: "Disturbing news comes from Casland. As a result of the conflict in the cabinet, the congress of objects of the transitional government of Goiky collapsed and ceased its work, and the outskirts of the state were occupied by military formations of factions. This is likely the end of the short-lived truce between the parties."
+ bfdinews.12.a: "Dark times."
+ 
+ bfdinews.13.t: "Christmas in Goiky"
+ bfdinews.13.desc: "Along with the first snow, Christmas comes to the Greeny Plains. The Casland objects gather together and celebrate joyfully. The roar of fireworks and laughter can be heard from all corners of Goiky. In connection with this event, our redaction congratulates you and wishes you a happy New Year!"
+ bfdinews.13.a: "Happy New Year!"
+ 
+ bfdinews.14.t: "RCC arson!"
+ bfdinews.14.desc: "News from Casland: Yesterday the building of the Recommended Characters Council caught fire. The government cabinet immediately blamed the Toilers Front cell for the arson, and a member of the local Communist Party with a party card was detained on the spot. The investigation is ongoing and we will monitor developments."
+ bfdinews.14.a: "Provocation!"
+ bfdinews.14.b: "We'll see."
+ 
+ bfdinews.15.t: "Civil war hits Casland"
+ bfdinews.15.desc: "Factional conflict in Casland reached its peak, causing the official government to retreat from most of the state, where they formed their own governments. This is the beginning of a civil war in the heart of Goiky."
+ bfdinews.15.a: "War? Again?"
+ 
+ bfdinews.16.t: "End of the Civil War!"
+ bfdinews.16.desc: "After days of devastating fighting, the Provisional Government managed to regain control over its territories and suppress uprisings on the outskirts. Although this is not the end yet, it is already a big step towards restoring stability in the region."
+ bfdinews.16.a: "Interesting."
+ 
+ bfdinews.17.t: "Casland Democratization!"
+ bfdinews.17.desc: "As a result of fierce fighting in Casland and its suburbs, the Democratic Faction was able to destroy its opponents and restore stability. Yesterday Taco, as a representative of the new government, said: 'The goal of the new government is to create a unified democratic state throughout the entire South Goiky.'"
+ bfdinews.17.a: "Will it work out?"
+ 
+ bfdinews.18.t: "Socialism in Casland!"
+ bfdinews.18.desc: "Following a brutal civil war in the heart of Goiky, the mine workers under the leadership of the Toilers Front managed to destroy their opponents and establish a 'dictatorship of the proletariat' throughout the territory of the former Provisional Government. This has already greatly alarmed all the neighbors of the new state, but so far the foreign policy course of the local government remains unclear."
+ bfdinews.18.a: "We'll see."
+ 
+ bfdinews.19.t: "National Ressurection"
+ bfdinews.19.desc: "The fighting in the Casland areas had almost died down, and a clear winner was visible. Thanks to its deep militarization, the Iron Hand was able to destroy its opponents and establish strict power over all the territories of the former transitional regime. The aggressive intentions of the new regime have already become obvious to all its neighbors."
+ bfdinews.19.a: "Creepy."

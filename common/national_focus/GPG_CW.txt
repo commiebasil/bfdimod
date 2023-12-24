@@ -1,0 +1,184 @@
+focus_tree = {
+	id = GPG_CW_focus_tree
+	
+	country = {
+		factor = 0
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = GPG_focus_fight_for_stability
+		x = 15
+		y = 0
+		icon = GFX_focus_GPG_fight_for_stability
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_war_support = 0.1
+			add_stability = 0.1
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_council_of_the_one_faction
+		relative_position_id = GPG_focus_fight_for_stability
+		x = 0
+		y = 1
+		icon = GFX_focus_GPG_council_of_the_one_faction
+		
+		prerequisite = { focus = GPG_focus_fight_for_stability }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_mobilization
+		relative_position_id = GPG_focus_fight_for_stability
+		x = -1
+		y = 2
+		icon = GFX_focus_GPG_mobilization
+		
+		prerequisite = { focus = GPG_focus_council_of_the_one_faction }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_manpower = 50000
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_industry_transformation
+		relative_position_id = GPG_focus_fight_for_stability
+		x = 1
+		y = 2
+		icon = GFX_focus_GPG_industry_transformation
+		
+		prerequisite = { focus = GPG_focus_council_of_the_one_faction }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_goiky_army
+		relative_position_id = GPG_focus_fight_for_stability
+		x = -1
+		y = 3
+		icon = GFX_focus_GPG_goiky_army
+		
+		prerequisite = { focus = GPG_focus_mobilization }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			army_experience = 25
+			division_template = {
+				name = "Goiky Infantry Division"
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+				}
+			}
+			8 = {
+				create_unit = {
+					division = "name = \"Goiky Infantry Division\" division_template = \"Goiky Infantry Division\" start_experience_factor = 0.5 start_manpower_factor = 0.3"
+					owner = GPG
+					count = 2
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_12_hours_working_day
+		relative_position_id = GPG_focus_fight_for_stability
+		x = 1
+		y = 3
+		icon = GFX_focus_GPG_12_hours_working_day
+		
+		prerequisite = { focus = GPG_focus_industry_transformation }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = -0.05
+			add_timed_idea = {
+				idea = idea_GPG_12_hours_working_day
+				days = 90
+			}
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_second_congress_continues
+		relative_position_id = GPG_focus_fight_for_stability
+		x = 0
+		y = 4
+		icon = GFX_focus_GPG_second_congress_continues
+		
+		prerequisite = { focus = GPG_focus_12_hours_working_day }
+		prerequisite = { focus = GPG_focus_goiky_army }
+		
+		cost = 4
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GPG_cw_victory_trigger
+				has_country_flag = cw_done
+			}
+		}
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+}

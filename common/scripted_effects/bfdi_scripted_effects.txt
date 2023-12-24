@@ -1,0 +1,150 @@
+gpg_civil_war = {
+	add_popularity = {
+		ideology = democratic
+		popularity = -0.5
+	}
+	set_party_name = {
+		ideology = democratic
+		long_name = GPG_banned_party
+		name = GPG_banned_party
+	}
+	add_popularity = {
+		ideology = communism
+		popularity = -0.5
+	}
+	set_party_name = {
+		ideology = communism
+		long_name = GPG_banned_party
+		name = GPG_banned_party
+	}
+	add_popularity = {
+		ideology = fascism
+		popularity = -0.5
+	}
+	add_popularity = {
+		ideology = radical_thoughts
+		popularity = -0.5
+	}
+	set_party_name = {
+		ideology = fascism
+		long_name = GPG_banned_party
+		name = GPG_banned_party
+	}
+	set_party_name = {
+		ideology = radical_thoughts
+		long_name = GPG_banned_party
+		name = GPG_banned_party
+	}
+	country_event = {
+		id = GPG_event.30
+		days = 5
+	}
+	if = {
+		limit = {
+			OR = {
+				has_country_flag = cw_third_variant
+				has_country_flag = cw_second_variant
+			}
+		}
+		load_oob = GPG_CW1
+	}
+	else_if = {
+		limit = { has_country_flag = cw_first_variant }
+		load_oob = GPG_CW2
+	}
+	load_focus_tree = GPG_CW_focus_tree
+	GSR = {
+		delete_unit_template_and_units = {
+			division_template = "State partol"
+			disband = no
+		}
+		load_oob = GSR_CW
+		declare_war_on = {
+			target = GDR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFG
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GPG
+			type = annex_everything
+		}
+		country_event = {
+			id = GSR_event.1
+			days = 5
+		}
+	}
+	GDR = {
+		delete_unit_template_and_units = {
+			division_template = "State partol"
+			disband = no
+		}
+		load_oob = GDR_CW
+		declare_war_on = {
+			target = GSR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GFG
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GPG
+			type = annex_everything
+		}
+		country_event = {
+			id = GDR_event.1
+			days = 5
+		}
+	}
+	GFG = {
+		delete_unit_template_and_units = {
+			division_template = "State partol"
+			disband = no
+		}
+		if = {
+			limit = {
+				GPG = {
+					OR = {
+						has_country_flag = cw_first_variant
+						has_country_flag = cw_third_variant
+					}
+				}
+			}
+			load_oob = GFG_CW1
+		}
+		else_if = {
+			limit = { GPG = { has_country_flag = cw_second_variant } }
+			load_oob = GFG_CW2
+		}
+		declare_war_on = {
+			target = GSR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GDR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = GPG
+			type = annex_everything
+		}
+		country_event = {
+			id = GFG_event.1
+			days = 5
+		}
+	}
+	news_event = {
+		id = bfdinews.15
+		days = 2
+	}
+	
+	set_global_flag = civilwar_in_casland
+	
+	activate_mission = GPG_mission_race_to_casland
+	GDR = { activate_mission = GPG_mission_race_to_casland }
+	GSR = { activate_mission = GPG_mission_race_to_casland }
+	GFG = { activate_mission = GPG_mission_race_to_casland }
+}

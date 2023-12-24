@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		idea_GSR_revolutionary_spirit = {
+			picture = GSR_revolutionary_spirit
+			modifier = {
+				army_org_factor = 0.05
+				army_morale_factor = 0.1
+			}
+		}
+		
+		idea_GSR_tireless_work = {
+			picture = GSR_tireless_work
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				political_power_gain = -0.5
+			}
+		}
+	}
+}

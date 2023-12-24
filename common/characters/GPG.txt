@@ -7,4 +7,216 @@ characters = {
 			desc = GPG_recommended_characters_council_desc
 		}
 	}
+	GPG_transitional_government = {
+		name = GPG_transitional_government
+		portraits = { civilian = { large = GFX_GPG_transitional_government } }
+	}
+	
+	GPG_fries = {
+		name = GPG_fries
+		portraits = { civilian = { large = GFX_GPG_fries } }
+	}
+	
+	GPG_collective_rulership = {
+		name = GPG_collective_rulership
+		portraits = { civilian = { large = GFX_GPG_collective_rulership } }
+		country_leader = {
+			ideology = liberalism
+		}
+	}
+	
+	GPG_ruby = {
+		name = GPG_ruby
+		portraits = { civilian = { large = GFX_GPG_ruby } }
+		country_leader = {
+			ideology = leninism
+		}
+	}
+	
+	GPG_triumvirate = {
+		name = GPG_triumvirate
+		portraits = { civilian = { large = GFX_GPG_triumvirate } }
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+	
+	GPG_pillow = {
+		name = GPG_pillow
+		portraits = { 
+			civilian = { 
+				large = GFX_GPG_pillow
+				small = GFX_idea_GPG_pillow
+			} 
+		}
+		country_leader = {
+			ideology = ultranationalism
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_pillow
+			traits = { princess_of_terror }
+			available = {
+				OR = {
+					has_government = fascism
+					has_government = radical_thoughts
+				}
+			}
+		}
+	}
+	
+	GPG_basketball = {
+		name = GPG_basketball
+		portraits = { civilian = { small = GFX_idea_GPG_basketball } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_basketball
+			traits = { smooth_talking_charmer }
+			available = {
+				has_government = neutrality
+			}
+		}
+	}
+	
+	GPG_remote = {
+		name = GPG_remote
+		portraits = { civilian = { small = GFX_idea_GPG_remote } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_remote
+			traits = { technocrat }
+			available = {
+				has_government = neutrality
+			}
+		}
+	}
+	
+	GPG_puffball = {
+		name = GPG_puffball
+		portraits = { civilian = { small = GFX_idea_GPG_puffball } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_puffball
+			traits = { backroom_backstabber }
+			available = {
+				has_government = neutrality
+				has_country_flag = fries_triumph
+			}
+		}
+	}
+	
+	GPG_taco = {
+		name = GPG_taco
+		portraits = { civilian = { small = GFX_idea_GPG_taco } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_taco
+			traits = { popular_figurehead }
+			available = {
+				has_government = democratic
+			}
+		}
+	}
+	
+	GPG_book = {
+		name = GPG_book
+		portraits = { civilian = { small = GFX_idea_GPG_book } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_book
+			traits = { silent_workhorse }
+			available = {
+				has_government = democratic
+			}
+		}
+	}
+	
+	GPG_barf_bag = {
+		name = GPG_barf_bag
+		portraits = { civilian = { small = GFX_idea_GPG_barf_bag } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_barf_bag
+			traits = { smooth_talking_charmer }
+			available = {
+				has_government = democratic
+			}
+		}
+	}
+	
+	#TRANS XD
+	GPG_saw = {
+		name = GPG_saw
+		portraits = { civilian = { small = GFX_idea_GPG_saw } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_saw
+			traits = { compassionate_gentleman }
+			available = {
+				has_government = fascism
+			}
+		}
+	}
+	
+	GPG_nickel = {
+		name = GPG_nickel
+		portraits = { 
+			army = { 
+				small = GFX_idea_GPG_nickel 
+				large = GFX_GPG_nickel
+			} 
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = idea_GPG_nickel
+			ledger = army
+			traits = { army_chief_offensive_2 }
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	GPG_firey_jr = {
+		name = GPG_firey_jr
+		portraits = { civilian = { small = GFX_idea_GPG_firey_jr } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_firey_jr
+			traits = { popular_figurehead }
+			available = {
+				has_government = communism
+			}
+		}
+	}
+	
+	GPG_gelatin = {
+		name = GPG_gelatin
+		portraits = { civilian = { small = GFX_idea_GPG_gelatin } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_gelatin
+			traits = { ambitious_union_boss }
+			available = {
+				has_government = communism
+			}
+		}
+	}
+	
+	GPG_tree = {
+		name = GPG_tree
+		portraits = { civilian = { small = GFX_idea_GPG_tree } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_tree
+			traits = { financial_expert }
+			available = {
+				has_government = communism
+			}
+		}
+	}
 }

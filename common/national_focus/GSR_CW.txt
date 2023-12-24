@@ -1,0 +1,193 @@
+focus_tree = {
+	id = GSR_CW_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = GSR
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = GSR_focus_workers_revolution
+		x = 15
+		y = 0
+		icon = GFX_focus_GSR_workers_revolution
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_war_support = 0.1
+			add_stability = 0.1
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_toilers_dictatorship
+		relative_position_id = GSR_focus_workers_revolution
+		x = 0
+		y = 1
+		icon = GFX_focus_GSR_toilers_dictatorship
+		
+		prerequisite = { focus = GSR_focus_workers_revolution }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.1
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.02
+			}
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_red_army
+		relative_position_id = GSR_focus_workers_revolution
+		x = -1
+		y = 2
+		icon = GFX_focus_GSR_red_army
+		
+		prerequisite = { focus = GSR_focus_toilers_dictatorship }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			army_experience = 25
+			add_manpower = 30000
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_political_commissars
+		relative_position_id = GSR_focus_workers_revolution
+		x = -1
+		y = 3
+		icon = GFX_focus_GSR_political_commissars
+		
+		prerequisite = { focus = GSR_focus_red_army }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_GSR_revolutionary_spirit
+				days = 90
+			}
+			add_war_support = 0.05
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_full_expropriation
+		relative_position_id = GSR_focus_workers_revolution
+		x = 1
+		y = 2
+		icon = GFX_focus_GSR_full_expropriation
+		
+		prerequisite = { focus = GSR_focus_toilers_dictatorship }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = -0.05
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_well_screw_the_bayonets_ourselves
+		relative_position_id = GSR_focus_workers_revolution
+		x = 1
+		y = 3
+		icon = GFX_focus_GSR_well_screw_the_bayonets_ourselves
+		
+		prerequisite = { focus = GSR_focus_full_expropriation }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_GSR_tireless_work
+				days = 60
+			}
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_triumphant_victory
+		relative_position_id = GSR_focus_workers_revolution
+		x = 0
+		y = 4
+		icon = GFX_focus_GSR_triumphant_victory
+		
+		prerequisite = { focus = GSR_focus_political_commissars }
+		prerequisite = { focus = GSR_focus_well_screw_the_bayonets_ourselves }
+		
+		available = { 
+			custom_trigger_tooltip = {
+				tooltip = l_GPG_cw_victory_trigger
+				has_country_flag = cw_done
+			}
+		}
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+}

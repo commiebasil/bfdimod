@@ -129,12 +129,7 @@ country_event = {
         name = GOI_event.6.a
 		custom_effect_tooltip = l_GOI_event6_ce
 		hidden_effect = {
-			every_owned_state = {
-				if = {
-					limit = { is_capital = no }
-					set_demilitarized_zone = yes
-				}
-			}
+			every_owned_state = { set_demilitarized_zone = yes }
 			country_event = {
 				id = GOI_event.7
 				days = 10
@@ -159,7 +154,8 @@ country_event = {
 			set_global_flag = superevent_dream_island_dissapear
 			country_event = superevent.1
 			set_cosmetic_tag = GOI_anarchy
-			206 = { add_manpower = -2147483 }
+			206 = { add_manpower = -455123 }
+			158 = { add_manpower = -251020 }
 			203 = { add_manpower = -418001 }
 			205 = { add_manpower = -296120 }
 			193 = { add_manpower = -151033 }
@@ -415,11 +411,28 @@ country_event = {
     immediate = {
 		GPG = {
 			transfer_state = 206
+			transfer_state = 158
+			transfer_state = 10
+			transfer_state = 8
+			transfer_state = 145
 			
 			add_state_core = 206
+			add_state_core = 158
+			add_state_core = 10
+			add_state_core = 8
+			add_state_core = 145
+			
+			158 = { set_demilitarized_zone = no }
+			10 = { set_demilitarized_zone = no }
+			8 = { set_demilitarized_zone = no }
+			145 = { set_demilitarized_zone = no }
 		}
 		GOI = {
-				remove_state_core = 206
+			remove_state_core = 206
+			remove_state_core = 158
+			remove_state_core = 10
+			remove_state_core = 8
+			remove_state_core = 145
 		}
 	}
 }

@@ -1,0 +1,5 @@
+
+animation = {
+	name = "pink_idle"
+	file = "pink_idle.anim"
+}

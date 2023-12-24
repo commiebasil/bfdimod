@@ -1,0 +1,1045 @@
+focus_tree = {
+	id = GPG_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = GPG
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+	
+	focus = {
+		id = GPG_focus_first_congress
+		x = 15
+		y = 0
+		icon = GFX_focus_GPG_first_congress
+		
+		cost = 8
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_rubys_speech
+		relative_position_id = GPG_focus_first_congress
+		x = -1
+		y = 1
+		icon = GFX_focus_GPG_rubys_speech
+		
+		prerequisite = { focus = GPG_focus_first_congress }
+		
+		cost = 8
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_right_wing_unification
+		relative_position_id = GPG_focus_first_congress
+		x = 1
+		y = 1
+		icon = GFX_focus_GPG_right_wing_unification
+		
+		prerequisite = { focus = GPG_focus_first_congress }
+		
+		cost = 8
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_congress_closing
+		relative_position_id = GPG_focus_first_congress
+		y = 2
+		icon = GFX_focus_GPG_congress_closing
+		
+		prerequisite = { focus = GPG_focus_rubys_speech }
+		prerequisite = { focus = GPG_focus_right_wing_unification }
+		
+		cost = 8
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_second_congress
+		relative_position_id = GPG_focus_first_congress
+		y = 4
+		icon = GFX_focus_GPG_second_congress
+		
+		allow_branch = { has_country_flag = second_congress_started }
+		
+		cost = 8
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_clocks_dead
+		relative_position_id = GPG_focus_first_congress
+		y = 6
+		x = -3
+		
+		allow_branch = { has_country_flag = first_question }
+		
+		#you should love 1.13 update only for this thing
+		icon = {
+			trigger = { 
+				has_country_flag = clock_accusation
+				NOT = { has_country_flag = clock_accusation_failure }
+			}
+			value = GFX_focus_GPG_clocks_dead_1
+		}
+		icon = {
+			trigger = { NOT = { has_country_flag = clock_accusation } }
+			value = GFX_focus_GPG_clocks_dead_2
+		}
+		icon = {
+			trigger = { has_country_flag = clock_accusation_failure }
+			value = GFX_focus_GPG_clocks_dead_3
+		}
+		dynamic = yes
+		
+		available = {
+			always = no
+		}
+		
+		prerequisite = { focus = GPG_focus_second_congress }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_cabinet_head
+		relative_position_id = GPG_focus_first_congress
+		y = 5
+		x = -2
+		
+		allow_branch = { has_country_flag = second_question }
+		
+		icon = {
+			trigger = { 
+				has_country_flag = fries_triumph
+			}
+			value = GFX_focus_GPG_cabinet_head_1
+		}
+		icon = {
+			value = GFX_focus_GPG_cabinet_head_2
+		}
+		dynamic = yes
+		
+		available = {
+			always = no
+		}
+		
+		prerequisite = { focus = GPG_focus_second_congress }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_compensation
+		relative_position_id = GPG_focus_first_congress
+		y = 6
+		x = -1
+		
+		allow_branch = { has_country_flag = third_question }
+		
+		icon = {
+			trigger = { 
+				has_country_flag = compensation_accepted
+			}
+			value = GFX_focus_GPG_compensation_1
+		}
+		icon = {
+			value = GFX_focus_GPG_compensation_2
+		}
+		dynamic = yes
+		
+		available = {
+			always = no
+		}
+		
+		prerequisite = { focus = GPG_focus_second_congress }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_defense_plan
+		relative_position_id = GPG_focus_first_congress
+		y = 6
+		x = 1
+		
+		allow_branch = { has_country_flag = fourth_question }
+		
+		icon = {
+			trigger = { 
+				has_country_flag = defense_plan_blue
+			}
+			value = GFX_focus_GPG_defense_plan_1
+		}
+		icon = {
+			trigger = { 
+				has_country_flag = defense_plan_red
+			}
+			value = GFX_focus_GPG_defense_plan_2
+		}
+		icon = {
+			trigger = { 
+				has_country_flag = defense_plan_black
+			}
+			value = GFX_focus_GPG_defense_plan_3
+		}
+		dynamic = yes
+		
+		available = {
+			always = no
+		}
+		
+		prerequisite = { focus = GPG_focus_second_congress }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_casland_remilitarization
+		relative_position_id = GPG_focus_first_congress
+		y = 5
+		x = 2
+		
+		allow_branch = { has_country_flag = fifth_question }
+		
+		icon = {
+			trigger = { 
+				has_country_flag = casland_remilitarization
+			}
+			value = GFX_focus_GPG_casland_remilitarization_1
+		}
+		icon = {
+			value = GFX_focus_GPG_casland_remilitarization_2
+		}
+		dynamic = yes
+		
+		available = {
+			always = no
+		}
+		
+		prerequisite = { focus = GPG_focus_second_congress }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_mines
+		relative_position_id = GPG_focus_first_congress
+		y = 6
+		x = 3
+		
+		allow_branch = { has_country_flag = sixth_question }
+		
+		icon = {
+			trigger = { 
+				has_country_flag = mines_nationalization
+			}
+			value = GFX_focus_GPG_mines_1
+		}
+		icon = {
+			value = GFX_focus_GPG_mines_2
+		}
+		dynamic = yes
+		
+		available = {
+			always = no
+		}
+		
+		prerequisite = { focus = GPG_focus_second_congress }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_constitution
+		relative_position_id = GPG_focus_first_congress
+		y = 5
+		x = 0
+		
+		allow_branch = { has_country_flag = seventh_question }
+		
+		icon = {
+			trigger = { 
+				has_country_flag = constitution_accepted
+			}
+			value = GFX_focus_GPG_constitution_1
+		}
+		icon = {
+			value = GFX_focus_GPG_constitution_2
+		}
+		dynamic = yes
+		
+		available = {
+			always = no
+		}
+		
+		prerequisite = { focus = GPG_focus_second_congress }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_second_congress_end
+		relative_position_id = GPG_focus_first_congress
+		y = 7
+		x = 0
+		
+		allow_branch = {
+			OR = {
+				has_country_flag = congress_ended 
+				has_country_flag = congress_closed_gui
+			}
+		}
+		
+		icon = {
+			trigger = { 
+				has_country_flag = second_congress_badend
+			}
+			value = GFX_focus_GPG_second_congress_end_1
+		}
+		icon = {
+			value = GFX_focus_GPG_second_congress_end_2
+		}
+		dynamic = yes
+		
+		available = {
+			always = no
+		}
+		
+		prerequisite = { focus = GPG_focus_clocks_dead }
+		prerequisite = { focus = GPG_focus_cabinet_head }
+		prerequisite = { focus = GPG_focus_compensation }
+		prerequisite = { focus = GPG_focus_constitution }
+		prerequisite = { focus = GPG_focus_defense_plan }
+		prerequisite = { focus = GPG_focus_casland_remilitarization }
+		prerequisite = { focus = GPG_focus_mines }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GPG_focus_cabinet_resisted
+		y = 0
+		x = 25
+		
+		allow_branch = { has_country_flag = gpg_provgov_second_tree }
+
+		icon = GFX_focus_GPG_cabinet_resisted
+		
+		available = {
+			always = no
+		}
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_bake_taco
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 1
+		x = -3
+		prerequisite = { focus = GPG_focus_cabinet_resisted }
+
+		bypass = { hidden_trigger = { country_exists = GDR } }
+
+		icon = GFX_focus_GPG_bake_taco
+		
+		cost = 2
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_break_up_the_brilliant
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 1
+		x = 0
+		prerequisite = { focus = GPG_focus_cabinet_resisted }
+
+		bypass = { hidden_trigger = { country_exists = GSR } }
+
+		icon = GFX_focus_GPG_break_up_the_brilliant
+		
+		cost = 2
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_yoylemetal_hand
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 1
+		x = 3
+		prerequisite = { focus = GPG_focus_cabinet_resisted }
+		
+		bypass = { hidden_trigger = { country_exists = GFG } }
+
+		icon = GFX_focus_GPG_yoylemetal_hand
+		
+		cost = 2
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_strenght_republic_border
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 2
+		x = -4
+		prerequisite = { focus = GPG_focus_bake_taco }
+
+		bypass = { hidden_trigger = { country_exists = GDR } }
+
+		icon = GFX_focus_GPG_strenght_republic_border
+		
+		available = {
+			divisions_in_state = {
+				size > 3
+				state = 145
+			}
+		}
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_democrats
+				days = 60
+			}
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_leafy_was_democrat
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 2
+		x = -2
+		prerequisite = { focus = GPG_focus_bake_taco }
+		
+		bypass = { hidden_trigger = { country_exists = GDR } }
+
+		icon = GFX_focus_GPG_leafy_was_democrat
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_GPG_anti_democratic_propaganda
+				days = 200
+			}
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_ban_foreign_aid
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 3
+		x = -3
+		prerequisite = { focus = GPG_focus_strenght_republic_border }
+		prerequisite = { focus = GPG_focus_leafy_was_democrat }
+		
+		bypass = { hidden_trigger = { country_exists = GDR } }
+
+		icon = GFX_focus_GPG_ban_foreign_aid
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			send_embargo = GPR
+			add_stability = -0.05
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_democrats
+				days = 60
+			}
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_barf_bag_is_stupid
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 4
+		x = -4
+		prerequisite = { focus = GPG_focus_ban_foreign_aid }
+		
+		bypass = { hidden_trigger = { country_exists = GDR } }
+
+		icon = GFX_focus_GPG_barf_bag_is_stupid
+		
+		available = {
+			has_political_power > 49
+		}
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -50
+			retire_character = GPG_barf_bag
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_expel_taco
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 4
+		x = -2
+		prerequisite = { focus = GPG_focus_ban_foreign_aid }
+		
+		bypass = { hidden_trigger = { country_exists = GDR } }
+
+		icon = GFX_focus_GPG_expel_taco
+		
+		available = {
+			has_political_power > 49
+		}
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -50
+			add_stability = -0.05
+			retire_character = GPG_taco
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_ban_democratic_faction
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 5
+		x = -3
+		prerequisite = { focus = GPG_focus_barf_bag_is_stupid }
+		prerequisite = { focus = GPG_focus_expel_taco }
+		
+		bypass = { hidden_trigger = { country_exists = GDR } }
+
+		available = {
+			democratic < 0.20
+		}
+
+		icon = GFX_focus_GPG_ban_democratic_faction
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.5
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = GPG_banned_party
+				name = GPG_banned_party
+			}
+			remove_mission = GPG_mission_deal_with_democrats
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_toilers_front
+				days = 30
+			}
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_iron_hand
+				days = 30
+			}
+			hidden_effect = { retire_character = GPG_book }
+			add_stability = -0.05
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_raise_miners_salary
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 2
+		x = 0
+		prerequisite = { focus = GPG_focus_break_up_the_brilliant }
+
+		available = {
+			has_political_power > 49
+		}
+		
+		bypass = { hidden_trigger = { country_exists = GSR } }
+
+		icon = GFX_focus_GPG_raise_miners_salary
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -50
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_toilers_front
+				days = 60
+			}
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_and_communist
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 3
+		x = -1
+		prerequisite = { focus = GPG_focus_raise_miners_salary }
+		prerequisite = { focus = GPG_focus_leafy_was_democrat }
+		
+		bypass = { hidden_trigger = { country_exists = GSR } }
+
+		icon = GFX_focus_GPG_and_communist
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_GPG_anti_communist_propaganda
+				days = 200
+			}
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_firey_marionette
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 3
+		x = 1
+		prerequisite = { focus = GPG_focus_raise_miners_salary }
+		
+		bypass = { hidden_trigger = { country_exists = GSR } }
+
+		icon = GFX_focus_GPG_firey_marionette
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 25
+			WGF = {
+				country_event = {
+					id = WGF_event.17
+					days = 3
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_organize_arson
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 4
+		x = 0
+		prerequisite = { focus = GPG_focus_and_communist }
+		prerequisite = { focus = GPG_focus_firey_marionette }
+		
+		bypass = { hidden_trigger = { country_exists = GSR } }
+
+		icon = GFX_focus_GPG_organize_arson
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			unlock_decision_tooltip = GPG_decision_organize_arson
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_ban_communist_faction
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 5
+		x = 0
+		prerequisite = { focus = GPG_focus_organize_arson }
+		
+		bypass = { hidden_trigger = { country_exists = GSR } }
+
+		icon = GFX_focus_GPG_ban_communist_faction
+		
+		available = {
+			has_country_flag = recharnd_process
+		}
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.5
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = GPG_banned_party
+				name = GPG_banned_party
+			}
+			remove_mission = GPG_mission_deal_with_toilers_front
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_democrats
+				days = 30
+			}
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_iron_hand
+				days = 30
+			}
+			add_stability = -0.05
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_slow_disarm
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 2
+		x = 2
+		prerequisite = { focus = GPG_focus_yoylemetal_hand }
+		
+		bypass = { hidden_trigger = { country_exists = GFG } }
+
+		icon = GFX_focus_GPG_slow_disarm
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 500
+				producer = BUN
+			}
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_iron_hand
+				days = 60
+			}
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_entice_nickel
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 2
+		x = 4
+		prerequisite = { focus = GPG_focus_yoylemetal_hand }
+		
+		bypass = { hidden_trigger = { country_exists = GFG } }
+
+		icon = GFX_focus_GPG_entice_nickel
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_GPG_nicel_will_be_loyal
+			set_country_flag = nickel_is_loyal
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_recharnd_demilitarization
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 3
+		x = 3
+		prerequisite = { focus = GPG_focus_slow_disarm }
+		prerequisite = { focus = GPG_focus_entice_nickel }
+		
+		bypass = { hidden_trigger = { country_exists = GFG } }
+
+		icon = GFX_focus_GPG_recharnd_demilitarization
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_iron_hand
+				days = 60
+			}
+			158 = { set_demilitarized_zone = yes }
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_fanny_emotional_stability_question
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 4
+		x = 2
+		prerequisite = { focus = GPG_focus_recharnd_demilitarization }
+
+		available = { has_political_power > 49 }
+		
+		bypass = { hidden_trigger = { country_exists = GFG } }
+
+		icon = GFX_focus_GPG_fanny_emotional_stability_question
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -50
+			#fanny doesnt exist as separate character, so thats just cosmetic thing :]
+			custom_effect_tooltip = l_GPG_retire_fanny
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_trans
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 4
+		x = 4
+		prerequisite = { focus = GPG_focus_recharnd_demilitarization }
+		
+		bypass = { hidden_trigger = { country_exists = GFG } }
+
+		icon = GFX_focus_GPG_trans
+		
+		available = { has_political_power > 49 }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -50
+			retire_character = GPG_saw
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_ban_fascist_faction
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 5
+		x = 3
+		prerequisite = { focus = GPG_focus_fanny_emotional_stability_question }
+		prerequisite = { focus = GPG_focus_trans }
+		
+		bypass = { hidden_trigger = { country_exists = GFG } }
+
+		icon = GFX_focus_GPG_ban_fascist_faction
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.5
+			}
+			add_popularity = {
+				ideology = radical_thoughts
+				popularity = -0.5
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = GPG_banned_party
+				name = GPG_banned_party
+			}
+			set_party_name = {
+				ideology = radical_thoughts
+				long_name = GPG_banned_party
+				name = GPG_banned_party
+			}
+			remove_mission = GPG_mission_deal_with_iron_hand
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_democrats
+				days = 30
+			}
+			add_days_mission_timeout = {
+				mission = GPG_mission_deal_with_toilers_front
+				days = 30
+			}
+			add_stability = -0.05
+		}
+	}
+	
+	focus = {
+		id = GPG_focus_no_more_factions
+		relative_position_id = GPG_focus_cabinet_resisted
+		y = 6
+		x = 0
+		prerequisite = { focus = GPG_focus_ban_democratic_faction }
+		prerequisite = { focus = GPG_focus_ban_communist_faction }
+		prerequisite = { focus = GPG_focus_ban_fascist_faction }
+		
+		available = { has_war = no }
+
+		icon = GFX_focus_GPG_no_more_factions
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+}

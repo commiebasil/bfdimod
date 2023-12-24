@@ -1,0 +1,108 @@
+#I TOOK IT FROM VANILLA
+
+guiTypes = {
+
+	containerWindowType = {
+		name = "congress_container"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 610 }
+		
+		instantTextboxType = {
+			name = "title"
+			text = l_decisions_congress_title
+			position = { x = 0 y = 90 }
+			maxWidth = 500
+			format = centre
+			font = hoi_36header
+		}
+		
+		instantTextboxType = {
+			name = "support"
+			text = l_decisions_congress_support
+			position = { x = 0 y = 130 }
+			maxWidth = 500
+			format = centre
+			font = hoi_20bs
+		}
+
+		iconType = {
+			name ="congress_icon"
+			spriteType = "GFX_decisions_congress_icon"
+			position = { x = 0 y = 150 }
+		}
+		
+		containerWindowType = {
+			name = "cabinet_bg_container"
+			position = { x = 3 y = 370 }
+			size = { width = 95% height = 230 }
+			
+			background = {
+				name = "cabinet_bg"
+				spriteType = GFX_tiled_plain_bg_small
+			}
+		}
+		
+		instantTextboxType = {
+			name = "cabinet_title"
+			text = l_decisions_cabinet_title
+			position = { x = 75 y = 380 }
+			maxWidth = 500
+			format = centre
+			font = hoi_36header
+		}
+		
+		iconType = {
+			name ="cabinet_leader"
+			spriteType = "GFX_decisions_congress_cabinet_leaders"
+			position = { x = 20 y = 379 }
+		}
+		
+		instantTextboxType = {
+			name = "cabinet_leader_text"
+			text = l_decisions_cabinet_leader
+			position = { x = 190 y = 440 }
+			maxWidth = 500
+			format = left
+			font = hoi_20bs
+		}
+		
+		instantTextboxType = {
+			name = "cabinet_leader_name"
+			text = [CABLEADER]
+			position = { x = 190 y = 460 }
+			maxWidth = 500
+			format = left
+			font = hoi_20bs
+		}
+		
+		instantTextboxType = {
+			name = "ruling_faction_text"
+			text = l_decisions_ruling_faction
+			position = { x = 190 y = 500 }
+			maxWidth = 500
+			format = left
+			font = hoi_20bs
+		}
+		
+		instantTextboxType = {
+			name = "ruling_faction_name"
+			text = [RULFACTION]
+			position = { x = 190 y = 520 }
+			maxWidth = 500
+			format = left
+			font = hoi_20bs
+		}
+		
+		iconType = {
+			name ="closed"
+			spriteType = "GFX_decisions_congress_closed"
+			position = { x = 0 y = 70 }
+		}
+		
+		iconType = {
+			name = "header"
+			spriteType = "GFX_decision_congress_header"
+			position = { x = -4 y = -20 }
+		}
+	}
+}

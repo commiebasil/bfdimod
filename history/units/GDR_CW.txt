@@ -1,0 +1,40 @@
+division_template = {
+    name = "Volunteer forces"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division= {
+        name = "Volunteer forces"
+        location = 4069 # Communist border
+        division_template = "Volunteer forces"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+    }
+	division= {
+        name = "Volunteer forces"
+        location = 311 # Casland border
+        division_template = "Volunteer forces"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+    }
+	division= {
+        name = "Volunteer forces"
+        location = 11134 # Communist border
+        division_template = "Volunteer forces"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.8
+    }
+	division= {
+        name = "Volunteer forces"
+        location = 876 # Plainy
+        division_template = "Volunteer forces"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+}

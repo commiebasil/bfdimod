@@ -8,35 +8,41 @@
 music = {
     name = "eliminating_MMCT"
     file = "eliminating.ogg"
-    volume = 0.65
+    volume = 1
 }
 
 music = {
     name = "new_friendly_MMCT"
     file = "new_friendly.ogg"
-    volume = 0.65
+    volume = 1
 }
 
 music = {
     name = "chee_zee_cave_MMCT"
     file = "chee_zee_cave.ogg"
-    volume = 0.65
+    volume = 1
 }
 
 music = {
     name = "rocket_MMCT"
     file = "rocket.ogg"
-    volume = 0.65
+    volume = 1
 }
 
 music = {
     name = "unreal_super_hero_3_MMCT"
     file = "unreal_super_hero_3.ogg"
-    volume = 0.65
+    volume = 1
 }
 
 music = {
     name = "bfdia_5b_MMCT"
     file = "bfdia_5b.ogg"
-    volume = 0.65
+    volume = 1
+}
+
+music = {
+	name = "fig_leaf_times_two_MMCT"
+	file = "fig_leaf_times_two.ogg"
+	volume = 1
 }

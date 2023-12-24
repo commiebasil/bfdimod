@@ -31,5 +31,15 @@ ideas = {
 				army_speed_factor = 0.05
 			}
 		}
+		idea_WGF_cooperation = {
+			picture = WGF_cooperation
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_org_factor = 0.05
+				army_speed_factor = 0.05
+				experience_gain_army = 0.05
+			}
+		}
 	}
 }

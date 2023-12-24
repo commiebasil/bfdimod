@@ -1,0 +1,120 @@
+decision_GPG_civilwar_category = {
+	GPG_mission_race_to_casland = {
+		activation = {
+			always = no
+	    }
+		icon = GFX_GPG_mission_race_to_casland
+		is_good = no
+		days_mission_timeout = 200
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			remove_ideas = idea_GPG_battle_for_casland
+		}
+	}
+	
+	GPG_decision_declare_cw_victory = {
+		icon = GFX_GPG_decision_declare_cw_victory
+		ai_will_do = {
+			base = 100
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GPG_cw_victory_trigger
+				has_war = no
+				owns_state = 158
+				owns_state = 8
+				owns_state = 145
+				owns_state = 10
+			}
+		}
+		fire_only_once = yes
+		complete_effect = {
+			custom_effect_tooltip = l_GPG_cw_victory_effect
+			hidden_effect = {
+				if = {
+					limit = { 206 = { is_owned_by = EMP } }
+					transfer_state = 206
+					add_state_core = 206
+					206 = { set_demilitarized_zone = no }
+				}
+				every_possible_country = {
+					limit = { NOT = { tag = ROOT } }
+					remove_state_core = 206
+					remove_state_core = 145
+					remove_state_core = 10
+					remove_state_core = 8
+				}
+				add_ideas = {
+					civilian_economy
+					volunteer_only
+					closed_economy
+				}
+				
+				if = {
+					limit = { tag = GPG }
+					add_ideas = idea_GPG_post_cw_crisis
+					delete_unit_template_and_units = {
+						division_template = "State patrol"
+						disband = yes
+					}
+					if = {
+						limit = { has_country_flag = fries_triumph }
+						set_cosmetic_tag = GPG_fries_post_cw
+					}
+					else = {
+						set_cosmetic_tag = GPG_republic
+					}
+					news_event = {
+						id = bfdinews.16
+						days = 5
+					}
+				}
+				else_if = {
+					limit = { tag = GDR }
+					add_ideas = idea_GDR_instability
+					add_ideas = idea_GDR_payments_to_gpr
+					delete_unit_template_and_units = {
+						division_template = "Volunteer forces"
+						disband = yes
+					}
+					set_cosmetic_tag = GDR_republic
+					news_event = {
+						id = bfdinews.17
+						days = 5
+					}
+				}
+				
+				else_if = {
+					limit = { tag = GSR }
+					add_ideas = idea_GSR_military_communism
+					add_ideas = idea_GSR_anarchists_in_army
+					delete_unit_template_and_units = {
+						division_template = "Revolutionary brigades"
+						disband = yes
+					}
+					set_cosmetic_tag = GSR_post_cw
+					news_event = {
+						id = bfdinews.18
+						days = 5
+					}
+				}
+				
+				else_if = {
+					limit = { tag = GFG }
+					add_ideas = idea_GFG_militia_needs_reforms
+					add_ideas = idea_GFG_massive_resistance
+					set_cosmetic_tag = GFG_government
+					news_event = {
+						id = bfdinews.19
+						days = 5
+					}
+				}
+				
+				set_country_flag = cw_done
+			}
+		}
+	}
+}

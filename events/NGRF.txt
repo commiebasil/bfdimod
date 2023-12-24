@@ -73,6 +73,20 @@ country_event = {
     
     option = {
 		name = WGF_event.5.a
+		add_timed_idea = {
+			idea = idea_WGF_cooperation
+			days = 400
+		}
+		WGF = {
+			add_timed_idea = {
+				idea = idea_WGF_cooperation
+				days = 400
+			}
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
 	}
 }
 
@@ -265,6 +279,23 @@ country_event = {
 		set_country_flag = {
 			flag = anarchists_decisions
 			value = 0
+		}
+	}
+}
+
+country_event = {
+	id = WGF_event.17
+	title = WGF_event.17.t
+    desc = WGF_event.17.desc
+	picture = GFX_WGF_event17
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.17.a
+		add_opinion_modifier = {
+			target = GPG
+			modifier = medium_decrease
 		}
 	}
 }

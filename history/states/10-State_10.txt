@@ -1,13 +1,31 @@
+
 state={
 	id=10
 	name="STATE_10"
+	resources={
+		steel=14.000
+	}
+
+	history={
+		owner = GOI
+		add_core_of = GOI
+
+		victory_points = {
+			5107 25
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+
 	provinces={
-		341 452 1725 3079 4341 4391 4392 4483 5380 9875 9883 9890 9925 9931 9963 9988 
+		1186 2892 4478 4548 5107 6230 11118 11149 11160 11188 
 	}
-	history = {
-		owner = EMP
-		add_core_of = EMP
-	}
-	manpower = 10000
-	state_category = rural
+	manpower=501444
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

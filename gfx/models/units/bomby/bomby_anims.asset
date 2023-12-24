@@ -1,0 +1,21 @@
+animation = {
+	name = "bomby_idle"
+	file = "bomby_idle.anim"
+}
+animation = {
+	name = "bomby_walk"
+	file = "bomby_walk.anim"
+}
+animation = {
+	name = "bomby_attack"
+	file = "bomby_attack.anim"
+}
+
+animation = {
+	name = "bomby_idle_rider"
+	file = "bomby_idle_rider.anim"
+}
+animation = {
+	name = "bomby_attack_rider"
+	file = "bomby_attack_rider.anim"
+}

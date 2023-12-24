@@ -380,4 +380,373 @@ SpriteTypes = {
 		name = "GFX_focus_GGR_expansionist_army"
 		texturefile = "gfx/interface/goals/GFX_focus_GGR_expansionist_army.dds"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_focus_GPG_first_congress"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_first_congress.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_rubys_speech"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_rubys_speech.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_right_wing_unification"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_right_wing_unification.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_congress_closing"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_congress_closing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_second_congress"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_second_congress.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_clocks_dead_1"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_clocks_dead_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_clocks_dead_2"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_clocks_dead_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_clocks_dead_3"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_clocks_dead_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_cabinet_head_1"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_cabinet_head_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_cabinet_head_2"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_cabinet_head_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_compensation_1"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_compensation_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_compensation_2"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_compensation_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_defense_plan_1"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_defense_plan_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_defense_plan_2"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_defense_plan_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_defense_plan_3"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_defense_plan_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_casland_remilitarization_1"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_casland_remilitarization_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_casland_remilitarization_2"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_casland_remilitarization_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_constitution_1"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_constitution_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_constitution_2"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_constitution_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_mines_1"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_mines_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_mines_2"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_mines_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_second_congress_end_1"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_second_congress_end_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_second_congress_end_2"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_second_congress_end_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_cabinet_resisted"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_cabinet_resisted.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_bake_taco"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_bake_taco.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_break_up_the_brilliant"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_break_up_the_brilliant.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_yoylemetal_hand"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_yoylemetal_hand.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_strenght_republic_border"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_strenght_republic_border.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_leafy_was_democrat"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_leafy_was_democrat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_ban_foreign_aid"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_ban_foreign_aid.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_barf_bag_is_stupid"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_barf_bag_is_stupid.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_expel_taco"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_expel_taco.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_ban_democratic_faction"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_ban_democratic_faction.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_raise_miners_salary"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_rise_miners_salary.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_and_communist"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_and_communist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_firey_marionette"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_firey_marionette.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_organize_arson"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_organize_arson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_ban_communist_faction"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_ban_communist_faction.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_slow_disarm"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_slow_disarm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_entice_nickel"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_entice_nickel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_recharnd_demilitarization"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_recharnd_demilitarization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_fanny_emotional_stability_question"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_fanny_emotional_stability_question.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_ban_fascist_faction"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_ban_fascist_faction.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_no_more_factions"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_no_more_factions.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_trans"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_trans.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_fight_for_stability"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_fight_for_stability.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_council_of_the_one_faction"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_council_of_the_one_faction.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_mobilization"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_mobilization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_industry_transformation"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_industry_transformation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_goiky_army"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_goiky_army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_12_hours_working_day"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_12_hours_working_day.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_second_congress_continues"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_second_congress_continues.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_focus_GDR_fight_for_the_republic"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_fight_for_the_republic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_gpr_support_expansion"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_gpr_support_expansion.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_military_advisors"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_military_advisors.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_volunteers_from_greeny_plains"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_volunteers_from_greeny_plains.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_rule_of_majority"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_rule_of_majority.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_help_with_industry"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_help_with_industry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_arsenal_of_democracy"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_arsenal_of_democracy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_constitution"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_constitution.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_focus_GSR_workers_revolution"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_workers_revolution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_toilers_dictatorship"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_toilers_dictatorship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_red_army"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_red_army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_political_commissars"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_political_commissars.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_full_expropriation"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_full_expropriation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_well_screw_the_bayonets_ourselves"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_well_screw_the_bayonets_ourselves.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_triumphant_victory"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_triumphant_victory.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_focus_GFG_indivisible_goiky"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_indivisible_goiky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_unity_or_death"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_unity_or_death.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_full_militarization"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_full_militarization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_expand_militia"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_expand_militia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_physical_destruction_of_opposition"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_physical_destruction_of_opposition.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_national_resurrection"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_national_resurrection.dds"
+	}
 }

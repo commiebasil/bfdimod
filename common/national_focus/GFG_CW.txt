@@ -1,0 +1,198 @@
+focus_tree = {
+	id = GSR_CW_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = GFG
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = GFG_focus_indivisible_goiky
+		x = 15
+		y = 0
+		icon = GFX_focus_GFG_indivisible_goiky
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_unity_or_death
+		relative_position_id = GFG_focus_indivisible_goiky
+		x = 0
+		y = 1
+		icon = GFX_focus_GFG_unity_or_death
+		prerequisite = { focus = GFG_focus_indivisible_goiky }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_war_support = 0.1
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_full_militarization
+		relative_position_id = GFG_focus_indivisible_goiky
+		x = 0
+		y = 2
+		icon = GFX_focus_GFG_full_militarization
+		prerequisite = { focus = GFG_focus_unity_or_death }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+				}
+			}
+			add_stability = -0.05
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_expand_militia
+		relative_position_id = GFG_focus_indivisible_goiky
+		x = -2
+		y = 3
+		icon = GFX_focus_GFG_expand_militia
+		prerequisite = { focus = GFG_focus_full_militarization }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_manpower = 25000
+			army_experience = 20
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_physical_destruction_of_opposition
+		relative_position_id = GFG_focus_indivisible_goiky
+		x = 0
+		y = 3
+		icon = GFX_focus_GFG_physical_destruction_of_opposition
+		prerequisite = { focus = GFG_focus_full_militarization }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = -0.05
+			add_manpower = -2000
+			add_popularity = {
+				ideology = democratic
+				popularity = -1
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -1
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -1
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = GPG_banned_party
+				name = GPG_banned_party
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = GPG_banned_party
+				name = GPG_banned_party
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = GPG_banned_party
+				name = GPG_banned_party
+			}
+			add_popularity = {
+				ideology = radical_thought
+				popularity = 0.25
+			}
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_2_hours
+		relative_position_id = GFG_focus_indivisible_goiky
+		x = 2
+		y = 3
+		icon = GFX_focus_GPG_12_hours_working_day
+		prerequisite = { focus = GFG_focus_full_militarization }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_GFG_production
+				days = 90
+			}
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_national_resurrection
+		relative_position_id = GFG_focus_indivisible_goiky
+		x = 0
+		y = 4
+		icon = GFX_focus_GFG_national_resurrection
+		prerequisite = { focus = GFG_focus_expand_militia }
+		prerequisite = { focus = GFG_focus_physical_destruction_of_opposition }
+		prerequisite = { focus = GFG_focus_2_hours }
+		
+		available = { 
+			custom_trigger_tooltip = {
+				tooltip = l_GPG_cw_victory_trigger
+				has_country_flag = cw_done
+			}
+		}
+
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+}

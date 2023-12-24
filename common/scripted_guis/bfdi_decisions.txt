@@ -63,3 +63,27 @@ scripted_gui = {
 		}
 	}
 }
+
+scripted_gui = {
+	decisions_GPG_congress_scriptedgui = {
+		window_name = congress_container
+		context_type = decision_category
+		parent_window_token = decision_tab
+		
+		properties = {
+			congress_icon = {
+				frame = var_congress_support
+			}
+			
+			cabinet_leader = {
+				frame = var_current_cabinet_leader
+			}
+		}
+		
+		triggers = {
+			closed_visible = {
+				has_country_flag = congress_closed_gui
+			}
+		}
+	}
+}

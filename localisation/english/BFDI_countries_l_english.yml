@@ -2,7 +2,7 @@
  GOI: "Goiky"
  GOI_DEF: "Goiky"
  GOI_ADJ: "Goikish"
- GOI_anarchy: ""
+ GOI_anarchy: "."
  
  WGF: "North Goiky Revolutionary Front"
  WGF_DEF: "NGRF"
@@ -33,8 +33,25 @@
  TBT_ADJ: "Teardrop's"
  
  GPG: "Goiky Provisional Government"
- GPG_DEF: "Goiky"
+ GPG_DEF: "Republic"
  GPG_ADJ: "Goikish"
+ GPG_republic: "Goiky Republic"
+ GPG_fries_cw: "Transitional government"
+ 
+ GDR: "Democrats"
+ GDR_DEF: "Democrats"
+ GDR_ADJ: "Goikish"
+ GDR_republic: "Goiky Democratic Republic"
+ 
+ GSR: "Toilers Front"
+ GSR_DEF: "GSR"
+ GSR_ADJ: "Goikish"
+ GSR_post_cw: "GPSR"
+ 
+ GFG: "Iron Hand"
+ GFG_DEF: "Iron Hand"
+ GFG_ADJ: "Goikish"
+ GFG_government: "National Resurrection Government"
  
  GTR: "Goiky Technocratic Republic"
  GTR_DEF: "GTR"

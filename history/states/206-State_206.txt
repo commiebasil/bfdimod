@@ -2,19 +2,15 @@
 state={
 	id=206
 	name="STATE_206"
-
-	 resources = {
-        steel = 12
-    }
+	resources={
+		steel=6.000
+	}
 
 	history={
 		owner = GOI
 		add_core_of = GOI
 		victory_points = {
 			1061 50 
-		}
-		victory_points = {
-			11209 40 
 		}
 		buildings = {
 			infrastructure = 5
@@ -25,9 +21,9 @@ state={
 	}
 
 	provinces={
-		3 311 827 876 1061 1186 1261 1696 1716 2829 2892 3022 3048 3140 3620 3713 3720 3837 4069 4114 4115 4264 4378 4478 4548 4562 4595 5107 5234 5521 5930 6230 6303 6367 11012 11038 11058 11062 11068 11107 11109 11115 11117 11118 11129 11134 11139 11147 11149 11152 11159 11160 11174 11188 11190 11207 11208 11209 
+		1061 3022 6303 11152 
 	}
-	manpower=5528491
+	manpower=1998010
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 	local_supplies=8.200

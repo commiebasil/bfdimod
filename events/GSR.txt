@@ -1,0 +1,15 @@
+add_namespace = GSR_event
+
+country_event = {
+	id = GSR_event.1
+	title = GSR_event.1.t
+	desc = GSR_event.1.desc
+	picture = GFX_GSR_event1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.1.a
+		add_political_power = 25
+	}
+}

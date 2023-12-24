@@ -180,6 +180,13 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
+		iconType = {
+			name = "GPG_available"
+			position = { x = 222 y = 340 }
+			spriteType = GFX_available_text
+			alwaystransparent = yes
+		}
+		
 		instantTextBoxType = {
 			name = "countryname"
 			text = SW_COUNTRYNAME

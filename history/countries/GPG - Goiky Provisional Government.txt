@@ -28,12 +28,50 @@ set_politics = {
 
 set_popularities = {
 	democratic = 28
-	fascism = 23
+	fascism = 17
+	radical_thoughts = 6
 	communism = 24
 	neutrality = 25
 }
 
 add_ideas = idea_GPG_questionable_future
+add_ideas = idea_GPG_factionalism
+add_dynamic_modifier = { modifier = idea_GPG_dream_island_trauma }
+
+set_variable = { var_congress_support = 12 }
+set_variable = { var_congress_support_gui = 11 }
+set_variable = { var_current_cabinet_leader = 1 }
+set_variable = { var_current_ruling_faction = 1 }
+
+set_variable = { var_GPG_dreamislandtrauma_sf = -0.1 }
+set_variable = { var_GPG_dreamislandtrauma_pg = -0.5 }
+set_variable = { var_GPG_dreamislandtrauma_bf = -0.5 }
+
+complete_national_focus = GPG_focus_first_congress
+complete_national_focus = GPG_focus_rubys_speech
+complete_national_focus = GPG_focus_right_wing_unification
+complete_national_focus = GPG_focus_congress_closing
 
 recruit_character = GPG_recommended_characters_council
+recruit_character = GPG_fries
+recruit_character = GPG_collective_rulership
+recruit_character = GPG_ruby
+recruit_character = GPG_triumvirate
+recruit_character = GPG_pillow
+recruit_character = GPG_transitional_government
+recruit_character = GPG_basketball
+recruit_character = GPG_remote
+recruit_character = GPG_puffball
+recruit_character = GPG_taco
+recruit_character = GPG_barf_bag
+recruit_character = GPG_book
+recruit_character = GPG_saw
+recruit_character = GPG_nickel
+recruit_character = GPG_firey_jr
+recruit_character = GPG_gelatin
+recruit_character = GPG_tree
+
+add_ideas = undisturbed_isolation
+
+
 

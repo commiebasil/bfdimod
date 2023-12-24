@@ -175,3 +175,235 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = bfdinews.10
+	title = bfdinews.10.t
+	desc = bfdinews.10.desc
+	picture = GFX_bfdinews10
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bfdinews.10.a
+		trigger = {
+			OR = {
+				tag = GPG
+				has_government = neutrality
+			}
+		}
+	}
+	option = {
+		name = bfdinews.10.b
+		trigger = {
+			NOT = { tag = GPG }
+			has_government = communism
+		}
+	}
+	option = {
+		name = bfdinews.10.c
+		trigger = {
+			NOT = { tag = GPG }
+			has_government = fascism
+		}
+	}
+	option = {
+		name = bfdinews.10.d
+		trigger = {
+			tag = GPR
+		}
+	}
+}
+
+news_event = {
+	id = bfdinews.11
+	title = bfdinews.11.t
+	desc = bfdinews.11.desc
+	picture = GFX_bfdinews11
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bfdinews.11.a
+		trigger = {
+			tag = GPG
+		}
+	}
+	option = {
+		name = bfdinews.11.b
+		trigger = {
+			NOT = { tag = GPG }
+		}
+	}
+}
+
+news_event = {
+	id = bfdinews.12
+	title = bfdinews.12.t
+	desc = bfdinews.12.desc
+	picture = GFX_bfdinews12
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bfdinews.12.a
+	}
+}
+
+news_event = {
+	id = bfdinews.13
+	title = bfdinews.13.t
+	desc = bfdinews.13.desc
+	picture = GFX_bfdinews13
+	
+	major = yes
+	
+	trigger = {
+		date > 2011.12.01
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = bfdinews.13.a
+	}
+}
+
+news_event = {
+	id = bfdinews.14
+	title = bfdinews.14.t
+	desc = bfdinews.14.desc
+	picture = GFX_bfdinews14
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = bfdinews.14.a
+		trigger = { has_government = communism }
+	}
+	option = {
+		name = bfdinews.14.b
+		trigger = { NOT = { has_government = communism } }
+	}
+}
+
+news_event = {
+	id = bfdinews.15
+	title = bfdinews.15.t
+	desc = bfdinews.15.desc
+	picture = GFX_bfdinews15
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = { play_song = "civil_war_event" }
+	}
+	
+	option = {
+		name = bfdinews.15.a
+	}
+}
+
+news_event = {
+	id = bfdinews.16
+	title = bfdinews.16.t
+	desc = bfdinews.16.desc
+	picture = GFX_bfdinews16
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = { play_song = "GPG_cw_transgov_victory" }
+	}
+	
+	option = {
+		name = bfdinews.16.a
+	}
+}
+
+news_event = {
+	id = bfdinews.17
+	title = bfdinews.17.t
+	desc = bfdinews.17.desc
+	picture = GFX_bfdinews17
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = { play_song = "GPG_cw_democrats_victory" }
+	}
+	
+	option = {
+		name = bfdinews.17.a
+	}
+}
+
+news_event = {
+	id = bfdinews.18
+	title = bfdinews.18.t
+	desc = bfdinews.18.desc
+	picture = GFX_bfdinews18
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = { play_song = "GPG_cw_ruby_victory" }
+	}
+	
+	option = {
+		name = bfdinews.18.a
+	}
+}
+
+news_event = {
+	id = bfdinews.19
+	title = bfdinews.19.t
+	desc = bfdinews.19.desc
+	picture = GFX_bfdinews19
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = { play_song = "GPG_cw_ironhand_victory" }
+	}
+	
+	option = {
+		name = bfdinews.19.a
+	}
+}

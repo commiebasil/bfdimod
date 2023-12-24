@@ -1,0 +1,40 @@
+division_template = {
+    name = "Revolutionary brigades"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division= {
+        name = "Revolutionary brigade"
+        location = 5107 # Greenmine
+        division_template = "Revolutionary brigades"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.7
+    }
+	division= {
+        name = "Revolutionary brigade"
+        location = 11149 # Democratic border
+        division_template = "Revolutionary brigades"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.7
+    }
+	division= {
+        name = "Revolutionary brigade"
+        location = 4548 # Fascist border
+        division_template = "Revolutionary brigades"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.8
+    }
+	division= {
+        name = "Revolutionary brigade"
+        location = 11188 # Fascist border
+        division_template = "Revolutionary brigades"
+        start_experience_factor = 0.6
+        start_equipment_factor = 0.8
+    }
+}

@@ -1,0 +1,65 @@
+characters = {
+	GSR_ruby = {
+		name = GPG_ruby
+		portraits = { civilian = { large = GFX_GPG_ruby } }
+		country_leader = {
+			ideology = leninism
+		}
+	}
+	
+	GSR_firey_jr = {
+		name = GPG_firey_jr
+		portraits = { civilian = { small = GFX_idea_GPG_firey_jr } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GSR_firey_jr
+			traits = { popular_figurehead }
+			available = {
+				has_government = communism
+			}
+		}
+	}
+	
+	GSR_gelatin = {
+		name = GPG_gelatin
+		portraits = { civilian = { small = GFX_idea_GPG_gelatin } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GSR_gelatin
+			traits = { ambitious_union_boss }
+			available = {
+				has_government = communism
+			}
+		}
+	}
+	
+	GSR_tree = {
+		name = GPG_tree
+		portraits = { civilian = { small = GFX_idea_GPG_tree } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GSR_tree
+			traits = { financial_expert }
+			available = {
+				has_government = communism
+			}
+		}
+	}
+	
+	GSR_bottle = {
+		name = GSR_bottle
+		portraits = { civilian = {
+				large = GFX_GSR_bottle
+				small = GFX_idea_GSR_bottle
+			} 
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			traits = { politically_connected infantry_officer }
+		}
+	}
+}

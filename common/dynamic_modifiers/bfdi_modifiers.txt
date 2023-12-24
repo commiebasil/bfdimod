@@ -68,3 +68,12 @@ idea_GGR_verschneitwehr = {
 	army_attack_factor = var_GGR_vsnw_ra
 }
 
+
+idea_GPG_dream_island_trauma = {
+	icon = GFX_idea_GPG_dream_island_trauma
+	
+	stability_factor = var_GPG_dreamislandtrauma_sf
+	political_power_gain = var_GPG_dreamislandtrauma_pg
+	production_speed_buildings_factor = var_GPG_dreamislandtrauma_bf
+}
+

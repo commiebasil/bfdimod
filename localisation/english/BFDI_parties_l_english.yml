@@ -13,3 +13,10 @@
  GGR_radical_thoughts_party: "§RFORBIDDEN§!"
  GGR_neutral_party_after_focus: "GSP"
  GGR_neutral_party_after_focus_long: "Government Support Party"
+ 
+ GPG_neutrality_party: "Transitional Gov."
+ GPG_democratic_party: "Democrats"
+ GPG_communism_party: "Toilers Front"
+ GPG_fascism_party: "Iron Hand"
+ GPG_radical_thoughts_party: "Iron Hand - Pillow"
+ GPG_banned_party: "§RDissolved§!"

@@ -1,0 +1,14 @@
+decision_GPG_civilwar_category = {
+	allowed = { 
+		OR = {
+			tag = GPG
+			tag = GDR
+			tag = GSR
+			tag = GFG
+		}
+	}
+	icon = GFX_decision_GPG_civilwar_category
+	visible = { has_global_flag = civilwar_in_casland }
+	priority = 10
+	visible_when_empty = yes
+}

@@ -2,3 +2,19 @@ GOI_anarchy = {
  color = rgb { 50 50 50 }
  color_ui = rgb { 50 50 50 }
 }
+GPG_fries_cw = {
+	color = rgb { 147 167 204 }
+	color_ui = rgb { 147 167 204 }
+}
+GDR_republic = {
+	color = rgb { 136 250 55 }
+	color_ui = rgb { 136 250 55 }
+}
+GSR_post_cw = {
+	color = rgb { 196 16 16 }
+	color_ui = rgb { 196 16 16 }
+}
+GFG_government = {
+	color = rgb { 24 46 1 }
+	color_ui = rgb { 24 46 1 }
+}

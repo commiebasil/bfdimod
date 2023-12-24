@@ -1,0 +1,30 @@
+units = {
+	division= {
+        name = "1st State partol"
+        location = 4378 # West-Casland
+        division_template = "State partol"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.8
+    }
+	division= {
+        name = "2nd State partol"
+        location = 3 # Fascist border
+        division_template = "State partol"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+    }
+	division= {
+        name = "3rd State partol"
+        location = 4264 # Fascist border
+        division_template = "State partol"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.8
+    }
+	division= {
+        name = "4th State partol"
+        location = 11159 # Back
+        division_template = "State partol"
+        start_experience_factor = 0.4
+        start_equipment_factor = 0.7
+    }
+}

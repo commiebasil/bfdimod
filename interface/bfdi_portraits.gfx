@@ -76,6 +76,44 @@ spriteTypes = {
 		name = "GFX_GPG_recommended_characters_council"
 		texturefile = "gfx/leaders/GPG/GPG_recommended_characters_council.dds"
 	}
+	spriteType = {
+		name = "GFX_GPG_fries"
+		texturefile = "gfx/leaders/GPG/GPG_fries.dds"
+	}
+	spriteType = {
+		name = "GFX_GPG_collective_rulership"
+		texturefile = "gfx/leaders/GPG/GPG_collective_rulership.dds"
+	}
+	spriteType = {
+		name = "GFX_GPG_ruby"
+		texturefile = "gfx/leaders/GPG/GPG_ruby.dds"
+	}
+	spriteType = {
+		name = "GFX_GPG_triumvirate"
+		texturefile = "gfx/leaders/GPG/GPG_triumvirate.dds"
+	}
+	spriteType = {
+		name = "GFX_GPG_pillow"
+		texturefile = "gfx/leaders/GPG/GPG_pillow.dds"
+	}
+	spriteType = {
+		name = "GFX_GPG_nickel"
+		texturefile = "gfx/leaders/GPG/GPG_nickel.dds"
+	}
+	spriteType = {
+		name = "GFX_GPG_transitional_government"
+		texturefile = "gfx/leaders/GPG/GPG_transitional_government.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GDR_eggy"
+		texturefile = "gfx/leaders/GDR/GDR_eggy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GSR_bottle"
+		texturefile = "gfx/leaders/GSR/GSR_bottle.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_GTR_golfball"

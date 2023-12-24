@@ -61,6 +61,10 @@ spriteTypes = {
 		name = GFX_idea_WGF_backpack
 		texturefile = gfx/interface/ideas/idea_WGF_backpack.dds
 	}
+	spriteType = {
+		name = GFX_idea_WGF_cooperation
+		texturefile = gfx/interface/ideas/idea_WGF_cooperation.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_DPZ_defenders_on_paper
@@ -90,6 +94,109 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_idea_GPG_questionable_future
 		texturefile = gfx/interface/ideas/idea_GPG_questionable_future.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_factionalism
+		texturefile = gfx/interface/ideas/idea_GPG_factionalism.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_dream_island_trauma
+		texturefile = gfx/interface/ideas/idea_GPG_dream_island_trauma.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_compensation
+		texturefile = gfx/interface/ideas/idea_GPG_compensation.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_battle_for_casland
+		texturefile = gfx/interface/ideas/idea_GPG_battle_for_casland.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_anti_democratic_campaign
+		texturefile = gfx/interface/ideas/idea_GPG_anti_democratic_campaign.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_anti_communist_campaign
+		texturefile = gfx/interface/ideas/idea_GPG_anti_communist_campaign.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_12_hours_working_day
+		texturefile = gfx/interface/ideas/idea_GPG_12_hours_working_day.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_basketball
+		texturefile = gfx/interface/ideas/idea_GPG_basketball.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_remote
+		texturefile = gfx/interface/ideas/idea_GPG_remote.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_puffball
+		texturefile = gfx/interface/ideas/idea_GPG_puffball.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_taco
+		texturefile = gfx/interface/ideas/idea_GPG_taco.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_book
+		texturefile = gfx/interface/ideas/idea_GPG_book.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_barf_bag
+		texturefile = gfx/interface/ideas/idea_GPG_barf_bag.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_pillow
+		texturefile= gfx/interface/ideas/idea_GPG_pillow.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_saw
+		texturefile = gfx/interface/ideas/idea_GPG_saw.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_nickel
+		texturefile = gfx/interface/ideas/idea_GPG_nickel.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_firey_jr
+		texturefile = gfx/interface/ideas/idea_GPG_firey_jr.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_gelatin
+		texturefile = gfx/interface/ideas/idea_GPG_gelatin.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_tree
+		texturefile = gfx/interface/ideas/idea_GPG_tree.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_GDR_military_advisors
+		texturefile = gfx/interface/ideas/idea_GDR_military_advisors.dds
+	}
+	spriteType = {
+		name = GFX_idea_GDR_eggy
+		texturefile = gfx/interface/ideas/idea_GDR_eggy.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_GSR_revolutionary_spirit
+		texturefile= gfx/interface/ideas/idea_GSR_revolutionary_spirit.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_tireless_work
+		texturefile = gfx/interface/ideas/idea_GSR_tireless_work.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_bottle
+		texturefile = gfx/interface/ideas/idea_GSR_bottle.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_GFG_production
+		texturefile = gfx/interface/ideas/idea_GFG_production.dds
 	}
 	
 	spriteType = {

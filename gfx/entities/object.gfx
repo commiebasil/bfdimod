@@ -1,0 +1,35 @@
+objectTypes = {
+	pdxmesh = {
+		name = "bomby_mesh"
+		file = "gfx/models/units/bomby/bomby.mesh"
+
+		animation = { id = "attack"			type = "bomby_attack" }
+		animation = { id = "idle"			type = "bomby_idle" }
+		animation = { id = "move"			type = "bomby_walk" }
+		animation = { id = "idle_rider"     type = "bomby_idle_rider" }
+		animation = { id = "attack_rider"     type = "bomby_attack_rider" }
+			
+	}
+	
+	pdxmesh = {
+		name = "pink_mesh"
+		file = "gfx/models/units/puffball/pink.mesh"
+
+		animation = { id = "idle"			type = "pink_idle" }
+	}
+	
+	pdxmesh = {
+		name = "generic_helmet_mesh"
+		file = "gfx/models/units/bomby/helmet_default.mesh"
+	}
+	
+	pdxmesh = {
+		name = "ngrf_helmet_mesh"
+		file = "gfx/models/units/bomby/helmet_ngrf.mesh"
+	}
+	
+	pdxmesh = {
+		name = "reich_helmet_mesh"
+		file = "gfx/models/units/bomby/helmet_reich.mesh"
+	}
+}

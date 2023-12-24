@@ -76,6 +76,30 @@ on_actions = {
 				}
 				set_global_flag = cap_snowball
 			}
+			else_if = {
+				limit = {
+					ROOT = { tag = GDR }
+				}
+				set_global_flag = cap_taco
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = GSR }
+				}
+				set_global_flag = cap_ruby
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = GFG }
+				}
+				set_global_flag = cap_fanny
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = GPG }
+				}
+				set_global_flag = cap_republic
+			}
 			FROM = {
 				annex_country = {
 					target = ROOT

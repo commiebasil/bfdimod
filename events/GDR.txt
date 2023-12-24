@@ -1,0 +1,15 @@
+add_namespace = GDR_event
+
+country_event = {
+	id = GDR_event.1
+	title = GDR_event.1.t
+	desc = GDR_event.1.desc
+	picture = GFX_GDR_event1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.1.a
+		add_political_power = 25
+	}
+}

@@ -1,0 +1,208 @@
+focus_tree = {
+	id = GDR_CW_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = GDR
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+	
+	focus = {
+		id = GDR_focus_fight_for_the_republic
+		x = 15
+		y = 0
+		icon = GFX_focus_GDR_fight_for_the_republic
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_war_support = 0.1
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+		}
+	}
+	
+	focus = {
+		id = GDR_focus_gpr_support_expansion
+		relative_position_id = GDR_focus_fight_for_the_republic
+		x = 0
+		y = 1
+		icon = GFX_focus_GDR_gpr_support_expansion
+		prerequisite = { focus = GDR_focus_fight_for_the_republic }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			add_opinion_modifier = {
+				target = GPR
+				modifier = small_increase
+			}
+		}
+	}
+	
+	focus = {
+		id = GDR_focus_military_advisors
+		relative_position_id = GDR_focus_fight_for_the_republic
+		x = -2
+		y = 2
+		icon = GFX_focus_GDR_military_advisors
+		prerequisite = { focus = GDR_focus_gpr_support_expansion }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_GDR_military_advisors
+				days = 90
+			}
+			army_experience = 10
+		}
+	}
+	
+	focus = {
+		id = GDR_focus_volunteers_from_greeny_plains
+		relative_position_id = GDR_focus_fight_for_the_republic
+		x = -2
+		y = 3
+		icon = GFX_focus_GDR_volunteers_from_greeny_plains
+		prerequisite = { focus = GDR_focus_military_advisors }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_manpower = 30000
+		}
+	}
+	
+	focus = {
+		id = GDR_focus_rule_of_majority
+		relative_position_id = GDR_focus_fight_for_the_republic
+		x = 0
+		y = 3
+		icon = GFX_focus_GDR_rule_of_majority
+		prerequisite = { focus = GDR_focus_gpr_support_expansion }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	
+	focus = {
+		id = GDR_focus_help_with_industry
+		relative_position_id = GDR_focus_fight_for_the_republic
+		x = 2
+		y = 2
+		icon = GFX_focus_GDR_help_with_industry
+		prerequisite = { focus = GDR_focus_gpr_support_expansion }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GDR_focus_arsenal_of_democracy
+		relative_position_id = GDR_focus_fight_for_the_republic
+		x = 2
+		y = 3
+		icon = GFX_focus_GDR_arsenal_of_democracy
+		prerequisite = { focus = GDR_focus_help_with_industry }
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = GPR
+			}
+			hidden_effect = {
+				GPR = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -2000
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GDR_focus_constitution
+		relative_position_id = GDR_focus_fight_for_the_republic
+		x = 0
+		y = 4
+		icon = GFX_focus_GDR_constitution
+		prerequisite = { focus = GDR_focus_arsenal_of_democracy }
+		prerequisite = { focus = GDR_focus_rule_of_majority }
+		prerequisite = { focus = GDR_focus_volunteers_from_greeny_plains }
+		
+		available = { 
+			custom_trigger_tooltip = {
+				tooltip = l_GPG_cw_victory_trigger
+				has_country_flag = cw_done
+			}
+		}
+		
+		cost = 4
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+}

@@ -1,0 +1,87 @@
+decisions_GPG_congress_category = {
+	GPG_mission_second_congress = {
+		activation = {
+			always = no
+	    }
+		icon = GFX_GPG_mission_second_congress
+		is_good = no
+		days_mission_timeout = 300
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GPG_congress_end_mission
+		}
+	}
+	
+	GPG_mission_deal_with_democrats = {
+		activation = {
+			always = no
+	    }
+		icon = GFX_GPG_mission_deal_with_democrats
+		is_good = no
+		days_mission_timeout = 390
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GPG_bad_things_happens_lol
+			hidden_effect = { country_event = GPG_event.27 }
+		}
+	}
+	
+	GPG_mission_deal_with_toilers_front = {
+		activation = {
+			always = no
+	    }
+		icon = GFX_GPG_mission_deal_with_toilers_front
+		is_good = no
+		days_mission_timeout = 390
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GPG_bad_things_happens_lol
+			hidden_effect = { country_event = GPG_event.28 }
+		}
+	}
+	
+	GPG_mission_deal_with_iron_hand = {
+		activation = {
+			always = no
+	    }
+		icon = GFX_GPG_mission_deal_with_iron_hand
+		is_good = no
+		days_mission_timeout = 390
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GPG_bad_things_happens_lol
+			hidden_effect = { country_event = GPG_event.29 }
+		}
+	}
+	
+	GPG_decision_organize_arson = {
+		ai_will_do = {
+			base = 30
+		}
+		icon = GFX_decisions_GPG_organize_arson
+        available = {
+            has_completed_focus = GPG_focus_organize_arson
+        }
+		visible = { 
+			has_completed_focus = GPG_focus_organize_arson
+		}
+		days_remove = 10
+		fire_only_once = yes
+        cost = 50
+		remove_effect = {
+			country_event = GPG_event.25
+		}
+    }
+}

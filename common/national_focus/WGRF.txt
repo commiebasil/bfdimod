@@ -259,7 +259,7 @@ focus_tree = {
 		available = {
 			FFT = {
 				exists = yes
-				at_war = no
+				has_war = no
 			}
 		}
 		
@@ -287,7 +287,9 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_different_but_united }
 		mutually_exclusive = { focus = WGF_focus_our_struggling_friends }
 		
-		available = { GPG = { communism > 0.3 } }
+		available = { 
+			GPG = { has_country_flag = congress_goodend }
+		}
 		
 		cost = 8
 		

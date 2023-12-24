@@ -24,4 +24,20 @@ defined_text = {
 		trigger = { has_global_flag = cap_snowball }
 		localization_key = cap_window_desc_snowball
 	}
+	text = {
+		trigger = { has_global_flag = cap_taco }
+		localization_key = cap_window_desc_taco
+	}
+	text = {
+		trigger = { has_global_flag = cap_ruby }
+		localization_key = cap_window_desc_ruby
+	}
+	text = {
+		trigger = { has_global_flag = cap_fanny }
+		localization_key = cap_window_desc_fanny
+	}
+	text = {
+		trigger = { has_global_flag = cap_republic }
+		localization_key = cap_window_desc_republic
+	}
 }

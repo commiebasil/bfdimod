@@ -17,6 +17,7 @@
  decisions_WGF_coinflip_closeness_medium: "§8Conflict chance:§! §YMedium§!"
  decisions_WGF_coinflip_closeness_high: "§8Conflict chance:§! §RHIGH§!"
  
+ 
  decision_GGR_anarcists_category: "Anarchists question"
  GGR_anarchists_mission: "End the Resistance"
  GGR_anarchists_mission_desc: "If we do not destroy the national-traitors as soon as possible, the Snowy Plateau will plunge into chaos."
@@ -67,3 +68,31 @@
  GGR_industry_develop_resources_in_snowy_mountain: "Resources development in §gSnowy Mountain§!"
  GGR_industry_develop_resources_in_snowy_ridge: "Resources development in §8Northern Ridge§!"
  GGR_industry_segregate_nonbinary: "Segregate §tNon-binary§! Objects"
+ 
+ 
+ decisions_GPG_congress_category: "§7RCC Congress§!"
+ l_decisions_congress_title: "§GCurrent government support§!"
+ l_decisions_congress_support: "§G[?var_congress_support_gui]/24§!"
+ l_decisions_cabinet_title: "Current cabinet"
+ l_decisions_cabinet_leader: "Cabinet leader:"
+ l_decisions_ruling_faction: "Ruling faction:"
+ l_decisions_congress_clock: "§1Clock§!"
+ l_decisions_congress_pie: "§9Pie§!"
+ l_decisions_congress_fries: "§tFries§!"
+ l_decisions_congress_faction_n: "§gTransitional government (Neutrals)§!"
+ l_decisions_congress_faction_d: "§3Democrats§!"
+ l_decisions_congress_faction_c: "§RToilers front (Socialists)§!"
+ l_decisions_congress_faction_f: "§LIron hand (Reactionaries)§!"
+ 
+ GPG_mission_second_congress: "§YSecond congress§!"
+ GPG_mission_second_congress_desc: "The objects of all Goiky held their breath. The result of the second congress will determine the fate of the strongest state on the continent. We must do everything so that she turns to the bright side towards us."
+ GPG_mission_deal_with_democrats: "Deal with §3Democrats§!"
+ GPG_mission_deal_with_toilers_front: "Deal with §tToilers Front§!"
+ GPG_mission_deal_with_iron_hand: "Deal with §LIron Hand§!"
+ GPG_decision_organize_arson: "§ROrganize arson§!"
+ 
+ decision_GPG_civilwar_category: "§YBattle for Goiky§!"
+ GPG_mission_race_to_casland: "§RRace to Casland§!"
+ GPG_mission_race_to_casland_desc: "Сasland is the heart of all Goiky. Holding it will determine our victory over our opponents."
+ GPG_decision_declare_cw_victory: "§7Declare our victory§!"
+ GPG_decision_declare_cw_victory_desc: "Our opponents are defeated! It's time to return central authority to Casland."

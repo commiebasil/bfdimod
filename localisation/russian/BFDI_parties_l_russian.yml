@@ -13,3 +13,10 @@
  GGR_radical_thoughts_party: "§RЗАПРЕЩЕНЫ§!"
  GGR_neutral_party_after_focus: "ППП"
  GGR_neutral_party_after_focus_long: "Партия Поддержки Правительства"
+ 
+ GPG_neutrality_party: "Переходное Прав-ство"
+ GPG_democratic_party: "Демократы"
+ GPG_communism_party: "Рабочий Фронт"
+ GPG_fascism_party: "Железная Рука"
+ GPG_radical_thoughts_party: "Железная Рука - Пиллоу"
+ GPG_banned_party: "§RРаспущена§!"

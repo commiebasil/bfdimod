@@ -1,0 +1,65 @@
+characters = {
+	GDR_collective_rulership = {
+		name = GPG_collective_rulership
+		portraits = { civilian = { large = GFX_GPG_collective_rulership } }
+		country_leader = {
+			ideology = liberalism
+		}
+	}
+	
+	GDR_taco = {
+		name = GPG_taco
+		portraits = { civilian = { small = GFX_idea_GPG_taco } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GDR_taco
+			traits = { popular_figurehead }
+			available = {
+				has_government = democratic
+			}
+		}
+	}
+	
+	GDR_book = {
+		name = GPG_book
+		portraits = { civilian = { small = GFX_idea_GPG_book } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GDR_book
+			traits = { silent_workhorse }
+			available = {
+				has_government = democratic
+			}
+		}
+	}
+	
+	GDR_barf_bag = {
+		name = GPG_barf_bag
+		portraits = { civilian = { small = GFX_idea_GPG_barf_bag } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GDR_barf_bag
+			traits = { smooth_talking_charmer }
+			available = {
+				has_government = democratic
+			}
+		}
+	}
+	
+	GDR_eggy = {
+		name = GDR_eggy
+		portraits = { civilian = {
+				large = GFX_GDR_eggy
+				small = GFX_idea_GDR_eggy
+			} 
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			traits = { trait_cautious inflexible_strategist }
+		}
+	}
+}

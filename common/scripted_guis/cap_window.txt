@@ -39,6 +39,22 @@ scripted_gui = {
 					flag = cap_snowball
 					value = 0
 				}
+				set_global_flag = {
+					flag = cap_taco
+					value = 0
+				}
+				set_global_flag = {
+					flag = cap_ruby
+					value = 0
+				}
+				set_global_flag = {
+					flag = cap_fanny
+					value = 0
+				}
+				set_global_flag = {
+					flag = cap_republic
+					value = 0
+				}
 			}
 		}
 	}

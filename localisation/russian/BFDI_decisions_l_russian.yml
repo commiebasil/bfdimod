@@ -17,6 +17,7 @@
  decisions_WGF_coinflip_closeness_medium: "§8Близость столкновения:§! §YСредняя§!"
  decisions_WGF_coinflip_closeness_high: "§8Близость столкновения:§! §RВЫСОКАЯ§!"
  
+ 
  decision_GGR_anarcists_category: "Проблема с анархистами"
  GGR_anarchists_mission: "Покончить с подпольем"
  GGR_anarchists_mission_desc: "Если мы в кротчайшие сроки не уничтожим национал-предателей, то Снежное Плато погрузится в хаос."
@@ -55,7 +56,6 @@
  decisions_GGR_bottom_snowy_plateau_status_medium: "4. Сила подполья в §6Нижнем Плато§! - §9Значительная§!"
  decisions_GGR_bottom_snowy_plateau_status_high: "4. Сила подполья в §6Нижнем Плато§! - §RОгромная§!"
  
- 
  decision_GGR_industry_category: "Снежная Промышленность"
  decision_GGR_industry_category_desc: "Экономическое развитие Снежного Плато находится на очень низком уровне, и если мы хотим защитить наш Рейх, мы должны нагнать наших потенциальных противников по индустрии."
  GGR_industry_four_year_plan_mission: "§YЧетырёхлетний План§!"
@@ -68,3 +68,31 @@
  GGR_industry_develop_resources_in_snowy_mountain: "Разработка ресурсов в §gСнежной Горе§!"
  GGR_industry_develop_resources_in_snowy_ridge: "Разработка ресурсов в §8Северном Хребте§!"
  GGR_industry_segregate_nonbinary: "Сегрегировать §RНебинарных§! Обджектов"
+ 
+ 
+ decisions_GPG_congress_category: "§7Съезд СРП§!"
+ l_decisions_congress_title: "§GНынешняя поддержка правительства§!"
+ l_decisions_congress_support: "§G[?var_congress_support_gui]/24§!"
+ l_decisions_cabinet_title: "Нынешний кабинет"
+ l_decisions_cabinet_leader: "Глава кабинета:"
+ l_decisions_ruling_faction: "Правящая фракция:"
+ l_decisions_congress_clock: "§1Клок§!"
+ l_decisions_congress_pie: "§9Пай§!"
+ l_decisions_congress_fries: "§tФрайс§!"
+ l_decisions_congress_faction_n: "§gПереходное правительство (Нейтралы)§!"
+ l_decisions_congress_faction_d: "§3Демократы§!"
+ l_decisions_congress_faction_c: "§RРабочий фронт (Социалисты)§!"
+ l_decisions_congress_faction_f: "§LЖелезная рука (Реакционеры)§!"
+ 
+ GPG_mission_second_congress: "§YВторой съезд§!"
+ GPG_mission_second_congress_desc: "Обджекты всего Гойки затаили дыхание. Результат второго съезда определит судьбу сильнейшего государства на континенте. Мы должны сделать всё, чтобы она повернулась к нам светлой стороной."
+ GPG_mission_deal_with_democrats: "Разобраться с §3Демократами§!"
+ GPG_mission_deal_with_toilers_front: "Разобраться с §tРабочим Фронтом§!"
+ GPG_mission_deal_with_iron_hand: "Разобраться с §LЖелезной Рукой§!"
+ GPG_decision_organize_arson: "§RОрганизовать поджог§!"
+ 
+ decision_GPG_civilwar_category: "§YБитва за Гойки§!"
+ GPG_mission_race_to_casland: "§tГонка до Кэсленда§!"
+ GPG_mission_race_to_casland_desc: "Кэсленд - сердце Гойки. Удержание его определит нашу победу над противниками."
+ GPG_decision_declare_cw_victory: "§7Объявить победу§!"
+ GPG_decision_declare_cw_victory_desc: "Наши противники разгромлены! Пришло время вернуть в Кэсленд центральную власть."

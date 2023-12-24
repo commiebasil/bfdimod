@@ -78,6 +78,18 @@ SRI = {
 	color = rgb { 232 198 160 }
 	color_ui = rgb { 232 198 160 }
 }
+GDR = {
+	color = rgb { 151 227 107 }
+	color_ui = rgb { 151 227 107 }
+}
+GSR = {
+	color = rgb { 209 63 50 }
+	color_ui = rgb { 209 63 50 }
+}
+GFG = {
+	color = rgb { 21 35 59 }
+	color_ui = rgb { 21 35 59 }
+}
 
 D01 = {
 	color = rgb { 122 179 97 }

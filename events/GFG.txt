@@ -1,0 +1,14 @@
+add_namespace = GFG_event
+
+country_event = {
+	id = GFG_event.1
+	title = GFG_event.1.t
+	desc = GFG_event.1.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.1.a
+		add_war_support = 0.05
+	}
+}
