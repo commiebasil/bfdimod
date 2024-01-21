@@ -272,6 +272,14 @@ SpriteTypes = {
 		name = GFX_GPG_event30
 		texturefile = gfx/event_pictures/GPG_event30.dds
 	}
+	spriteType = {
+		name = GFX_GPG_event31
+		texturefile = gfx/event_pictures/GPG_event31.dds
+	}
+	spriteType = {
+		name = GFX_GPG_event33
+		texturefile = gfx/event_pictures/GPG_event33.dds
+	}
 	
 	
 	spriteType = {
@@ -363,5 +371,9 @@ SpriteTypes = {
 	spriteType = {
 		name = GFX_bfdinews19
 		texturefile = gfx/event_pictures/bfdinews19.dds
+	}
+	spriteType = {
+		name = GFX_bfdinews20
+		texturefile = gfx/event_pictures/bfdinews20.dds
 	}
 }

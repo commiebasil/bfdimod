@@ -287,6 +287,18 @@
  GPG_event.30.desc: "The time has come to give armed resistance to the rebels. Fries takes over as military commander to protect Goiky from the radicals."
  GPG_event.30.a: "Forwards!"
  
+ GPG_event.31.t: "Republic occupies Lawnland!"
+ GPG_event.31.desc: "Taking advantage of the instability in government following the recent adoption of the Constitution, the Greenport government decided to introduce war into the border areas to 'protect its borders'. This is an unprecedented act of aggression, but for now there is nothing we can do."
+ GPG_event.31.a: "Bastards."
+ 
+ GPG_event.32.t: "Factions ban"
+ GPG_event.32.desc: "The Second Congress continued its work as if nothing had happened. The congress was not concerned about either the bloody civil war that had passed or the absence of two-thirds of the former members. The first document adopted by the new cabinet was the ban on factionalism. After a five-minute discussion, it was signed absolutely casually, like an ordinary monthly income report, and the congress continued to calmly discuss the next issue."
+ GPG_event.32.a: "Like in fog."
+ 
+ GPG_event.33.t: "Constitution of Goiky"
+ GPG_event.33.desc: "We, the objects of different shapes and sizes, bound by the glorious historical bonds, the great economic and political unity of the objects of all Goiky, believing in equality, justice, and freedom, gathered in Casland to draw up the CONSTITUTION OF GOIKY.\n\nChapter 1. Fundamentals of the constitutional order. \nArticle 1..."
+ GPG_event.33.a: "...This edition is different"
+ 
  #GDR
  GDR_event.1.t: "Battle For Democracy"
  GDR_event.1.desc: "The provisional government, through its decisions, showed its desire to establish a dictatorship, and we were forced to raise our rifles for the sake of our freedom and the freedom of Goiky’s objects. Opponents of democracy must be defeated today, or we are doomed to another authoritarian regime."
@@ -384,3 +396,7 @@
  bfdinews.19.t: "National Ressurection"
  bfdinews.19.desc: "The fighting in the Casland areas had almost died down, and a clear winner was visible. Thanks to its deep militarization, the Iron Hand was able to destroy its opponents and establish strict power over all the territories of the former transitional regime. The aggressive intentions of the new regime have already become obvious to all its neighbors."
  bfdinews.19.a: "Creepy."
+ 
+ bfdinews.20.t: "Tensions in Greeny Plains!"
+ bfdinews.20.desc: "As a result of the instability in Casland, the Greeny Plains Republic annexed the border areas and the city of Lawnland in order to protect its borders. Now, with the restoration of a stable government in the heartland of Goiky, there is a significant deterioration in relations between the governments. Negotiations on the region are likely to begin soon."
+ bfdinews.20.a: "Hope that there will be no war."

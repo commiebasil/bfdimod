@@ -18,7 +18,7 @@ focus_tree = {
 		y = 0
 		icon = GFX_focus_GSR_workers_revolution
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -39,7 +39,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_workers_revolution }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -71,7 +71,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_toilers_dictatorship }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -92,7 +92,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_red_army }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -116,7 +116,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_toilers_dictatorship }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -149,7 +149,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_full_expropriation }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -180,7 +180,7 @@ focus_tree = {
 			}
 		}
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10

@@ -18,7 +18,7 @@ focus_tree = {
 		y = 0
 		icon = GFX_focus_GFG_indivisible_goiky
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -37,7 +37,7 @@ focus_tree = {
 		icon = GFX_focus_GFG_unity_or_death
 		prerequisite = { focus = GFG_focus_indivisible_goiky }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -57,7 +57,7 @@ focus_tree = {
 		icon = GFX_focus_GFG_full_militarization
 		prerequisite = { focus = GFG_focus_unity_or_death }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -84,7 +84,7 @@ focus_tree = {
 		icon = GFX_focus_GFG_expand_militia
 		prerequisite = { focus = GFG_focus_full_militarization }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -104,7 +104,7 @@ focus_tree = {
 		icon = GFX_focus_GFG_physical_destruction_of_opposition
 		prerequisite = { focus = GFG_focus_full_militarization }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -141,7 +141,7 @@ focus_tree = {
 				name = GPG_banned_party
 			}
 			add_popularity = {
-				ideology = radical_thought
+				ideology = radical_thoughts
 				popularity = 0.25
 			}
 		}
@@ -155,7 +155,7 @@ focus_tree = {
 		icon = GFX_focus_GPG_12_hours_working_day
 		prerequisite = { focus = GFG_focus_full_militarization }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -186,7 +186,7 @@ focus_tree = {
 			}
 		}
 
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10

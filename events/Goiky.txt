@@ -415,17 +415,20 @@ country_event = {
 			transfer_state = 10
 			transfer_state = 8
 			transfer_state = 145
+			transfer_state = 28
 			
 			add_state_core = 206
 			add_state_core = 158
 			add_state_core = 10
 			add_state_core = 8
 			add_state_core = 145
+			add_state_core = 28
 			
 			158 = { set_demilitarized_zone = no }
 			10 = { set_demilitarized_zone = no }
 			8 = { set_demilitarized_zone = no }
 			145 = { set_demilitarized_zone = no }
+			28 = { set_demilitarized_zone = no }
 		}
 		GOI = {
 			remove_state_core = 206
@@ -433,6 +436,7 @@ country_event = {
 			remove_state_core = 10
 			remove_state_core = 8
 			remove_state_core = 145
+			remove_state_core= 28
 		}
 	}
 }

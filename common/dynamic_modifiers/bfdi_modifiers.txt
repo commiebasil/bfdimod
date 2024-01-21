@@ -77,3 +77,21 @@ idea_GPG_dream_island_trauma = {
 	production_speed_buildings_factor = var_GPG_dreamislandtrauma_bf
 }
 
+idea_GPG_post_cw_crisis = {
+	icon = GFX_idea_GPG_post_cw_crisis
+	
+	consumer_goods_factor = var_GPG_postcw_cg
+	production_speed_buildings_factor = var_GPG_postcw_bs
+	stability_factor = var_GPG_postcw_sf
+	political_power_gain = var_GPG_postcw_pp
+}
+
+idea_GPG_army_agony = {
+	icon = GFX_idea_GPG_army_agony
+	
+	army_attack_factor = var_GPG_armyagony_aa
+	army_defence_factor = var_GPG_armyagony_ad
+	army_org_factor = var_GPG_armyagony_ao
+	experience_gain_army_factor = var_GPG_armyagony_eg
+}
+

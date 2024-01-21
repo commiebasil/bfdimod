@@ -16,6 +16,7 @@ characters = {
 			traits = { popular_figurehead }
 			available = {
 				has_government = communism
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -29,6 +30,7 @@ characters = {
 			traits = { ambitious_union_boss }
 			available = {
 				has_government = communism
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -42,6 +44,7 @@ characters = {
 			traits = { financial_expert }
 			available = {
 				has_government = communism
+				has_country_flag = cw_done
 			}
 		}
 	}

@@ -8,7 +8,10 @@ decision_GPG_civilwar_category = {
 		}
 	}
 	icon = GFX_decision_GPG_civilwar_category
-	visible = { has_global_flag = civilwar_in_casland }
+	visible = { 
+		has_global_flag = civilwar_in_casland 
+		NOT = { has_country_flag = cw_done }
+	}
 	priority = 10
 	visible_when_empty = yes
 }

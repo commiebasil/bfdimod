@@ -43,9 +43,11 @@ decision_GPG_civilwar_category = {
 				every_possible_country = {
 					limit = { NOT = { tag = ROOT } }
 					remove_state_core = 206
+					remove_state_core = 158
 					remove_state_core = 145
 					remove_state_core = 10
 					remove_state_core = 8
+					remove_state_core = 28
 				}
 				add_ideas = {
 					civilian_economy
@@ -55,7 +57,9 @@ decision_GPG_civilwar_category = {
 				
 				if = {
 					limit = { tag = GPG }
-					add_ideas = idea_GPG_post_cw_crisis
+					add_dynamic_modifier = { modifier = idea_GPG_post_cw_crisis }
+					add_dynamic_modifier = { modifier = idea_GPG_army_agony }
+					country_lock_all_division_template = yes
 					delete_unit_template_and_units = {
 						division_template = "State patrol"
 						disband = yes
@@ -112,6 +116,14 @@ decision_GPG_civilwar_category = {
 						days = 5
 					}
 				}
+				
+				if = {
+					limit = { has_active_mission = GPG_mission_race_to_casland }
+					remove_mission = GPG_mission_race_to_casland
+					remove_ideas = idea_GPG_battle_for_casland
+				}
+				
+				set_political_power = 0
 				
 				set_country_flag = cw_done
 			}

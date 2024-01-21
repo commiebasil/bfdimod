@@ -27,6 +27,7 @@ characters = {
 					has_government = fascism
 					has_government = radical_thoughts
 				}
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -40,6 +41,7 @@ characters = {
 			traits = { compassionate_gentleman }
 			available = {
 				has_government = fascism
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -57,6 +59,7 @@ characters = {
 			idea_token = idea_GFG_nickel
 			ledger = army
 			traits = { army_chief_offensive_2 }
+			available = { has_country_flag = cw_done }
 		}
 		corps_commander = {
 			skill = 1

@@ -642,6 +642,103 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_focus_GPG_second_congress_continues.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_focus_GPG_never_again"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_never_again.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_unlimited_interruptions"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_unlimited_interruptions.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_eternal_transition"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_eternal_transition.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_anti_crisis_measures"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_anti_crisis_measures.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_restore_fabrics"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_restore_fabrics.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_object_industry"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_object_industry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_cancel_military_law"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_cancel_military_law.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_careful_trading"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_careful_trading.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GPG_heart_of_goiky"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_heart_of_goiky.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_power_for_fries"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_power_for_fries.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_announcers_example"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_announcers_example.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_autocratic_cabinet"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_autocratic_cabinet.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_our_great_past"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_our_great_past.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_puppet_congress"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_puppet_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_eternal_chairman"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_eternal_chairman.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_army_reformation"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_army_reformation.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_personnel_army"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_personnel_army.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_rearmament"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_rearmament.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_recharnd_military_academy"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_recharnd_military_academy.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_doctrine_development"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_doctrine_development.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_end_military_turmoil"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_end_military_turmoil.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_lawnland_question"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_lawnland_question.dds"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_focus_GDR_fight_for_the_republic"

@@ -271,7 +271,7 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		date > 2011.12.01
+		date > 2011.12.21
 	}
 	
 	fire_only_once = yes
@@ -405,5 +405,22 @@ news_event = {
 	
 	option = {
 		name = bfdinews.19.a
+	}
+}
+
+news_event = {
+	id = bfdinews.20
+	title = bfdinews.20.t
+	desc = bfdinews.20.desc
+	picture = GFX_bfdinews20
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = bfdinews.20.a
 	}
 }

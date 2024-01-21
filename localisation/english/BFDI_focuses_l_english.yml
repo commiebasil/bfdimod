@@ -365,6 +365,82 @@
  GPG_focus_second_congress_continues: "§YCongress Continues!§!"
  GPG_focus_second_congress_continues_desc: "Interrupted by the illegal action of radicals, the congress can finally continue its work. Now, in much calmer conditions."
  
+ #GPG FRIES PATH
+ GPG_focus_never_again: "§RNever again§!"
+ GPG_focus_never_again_desc: "Stability has returned to Casland. But at what cost? Thousands of objects died in a senseless civil war, and Goiky's heart no longer beats the same way as before. The new, wise Fries government will not allow this to happen, never again."
+ 
+ GPG_focus_fries_no_more_factions: "No more factions"
+ GPG_focus_fries_no_more_factions_desc: "The first step to prevent such a catastrophe would be to ban factions. It was the discord in the council that led to what we want to avoid."
+ 
+ GPG_focus_fries_constitution: "Belated Constitution"
+ GPG_focus_fries_constitution_desc: "With some amendments, the constitution will still be adopted. The official consolidation of the new government must take place."
+ 
+ GPG_focus_unlimited_interruptions: "Unlimited Interruptions"
+ GPG_focus_unlimited_interruptions_desc: "Current legislation limits the break in convening a congress to two years. This restriction contradicts our policy of maintaining stability and will be canceled as sabotage."
+ 
+ GPG_focus_fries_second_congress_end: "§YSecond Congress End§!"
+ GPG_focus_fries_second_congress_end_desc: "The second congress, interrupted by radical speeches, can finally be considered over. Casland is alive and moving forward!"
+ 
+ GPG_focus_eternal_transition: "Eternal Transition"
+ GPG_focus_eternal_transition_desc: "The Provisional Government will maintain the status quo for as long as we think is necessary. And, so far, there are no prerequisites for the reorganization of the state."
+ 
+ GPG_focus_anti_crisis_measures: "Anti-crisis Measures"
+ GPG_focus_anti_crisis_measures_desc: "Casland and the surrounding area lie in ruins after devastating battles with radicals. We need to rebuild the national economy, otherwise Casland will never be able to become the capital of Goiky again."
+ 
+ GPG_focus_restore_fabrics: "Restore Fabrics"
+ GPG_focus_restore_fabrics_desc: "A huge amount of production was lost during the fighting. It is necessary to restart factories from ruins."
+ 
+ GPG_focus_object_industry: "Object Industry"
+ GPG_focus_object_industry_desc: "Peacetime production is our priority. Military production can wait."
+ 
+ GPG_focus_cancel_military_law: "Cancellation of war tax"
+ GPG_focus_cancel_military_law_desc: "The time has come for Casland to return to the tracks of peaceful construction. We no longer need to choke our objects for the sake of an extra rifle."
+ 
+ GPG_focus_careful_trading: "Careful Trading"
+ GPG_focus_careful_trading_desc: "We have a very superficial knowledge of our surroundings. In the vastness of Goiky, a huge number of governments have formed, whose moods are unknown to us. But we still have to trade with them a little, for our own good."
+ 
+ GPG_focus_heart_of_goiky: "Heart of Goiky"
+ GPG_focus_heart_of_goiky_desc: "Casland rises from ruins and once again becomes the greatest city on the continent. Thanks to the efforts of the provisional government and its ingenious reforms, Goiky's heart is beating again as alive as before."
+ 
+ GPG_focus_power_for_fries: "Authority for Fries"
+ GPG_focus_power_for_fries_desc: "To maintain stability in Casland, it is necessary to strengthen the executive branch. Fries needs special powers to maintain stability in the region."
+ 
+ GPG_focus_announcers_example: "Announcer's Example"
+ GPG_focus_announcers_example_desc: "The announcer showed himself to be an excellent manager and led the show to popularity. The government should follow his example. The Announcer's cult of personality will further strengthen our government."
+ 
+ GPG_focus_our_great_past: "Our Great Past"
+ GPG_focus_our_great_past_desc: "Goiky was once united. It was a great time, and Casland is a place where that time still lives. We must emulate that time and strive to return Goiky to his integrity."
+ 
+ GPG_focus_autocratic_cabinet: "Autocratic Cabinet"
+ GPG_focus_autocratic_cabinet_desc: "To protect stability, the government must remain centralized. We can do without advice."
+ 
+ GPG_focus_puppet_congress: "Puppet Council"
+ GPG_focus_puppet_congress_desc: "It was the RCC that caused the collapse of the government. We must keep it under our tight control so that Casland's objects do not start killing each other again."
+ 
+ GPG_focus_eternal_chairman: "Permanent Chairman"
+ GPG_focus_eternal_chairman_desc: "To preserve national security, Fries will remain in office as long as national security requires."
+ 
+ GPG_focus_army_reformation: "Army Reformation"
+ GPG_focus_army_reformation_desc: "The current situation of our armed forces is deplorable. They are largely an unorganized militia with inconsistent membership and questionable leadership. We must fix this and create full-fledged troops."
+ 
+ GPG_focus_personnel_army: "Personnel Army"
+ GPG_focus_personnel_army_desc: "The first thing we must do is get rid of the militia. This will greatly weaken our armed forces in the moment, but in the long term it will allow us to create the strongest troops in the region."
+ 
+ GPG_focus_rearmament: "Rearmament"
+ GPG_focus_rearmament_desc: "During the Civil War, weapons technology was significantly improved. We must keep up and, in an amicable way, stand at the forefront of military technology."
+ 
+ GPG_focus_recharnd_military_academy: "Recharnd Military Academy"
+ GPG_focus_recharnd_military_academy_desc: "For the new army we need trained officers. An academy will be opened in Rechernda for those entering military service."
+ 
+ GPG_focus_doctrine_development: "Doctrine Development"
+ GPG_focus_doctrine_development_desc: "Every modern army must have its own strategy. We must develop a ground doctrine for our troops."
+ 
+ GPG_focus_end_military_turmoil: "End Military Turmoil"
+ GPG_focus_end_military_turmoil_desc: "From its inception, the state militia has been a mess. But, thanks to the ingenious reforms of the Provisional Government, the ground army of the Casland objects is now one of the most progressive in the region. The confusion is over."
+ 
+ GPG_focus_lawnland_question: "§7Lawnland§!"
+ GPG_focus_lawnland_question_desc: "Taking advantage of our weakness and fragmentation, the government in Greenport sent troops into our northern regions to 'protect their borders'. We have already defeated their puppets in a fair fight, now we will defeat them themselves."
+ 
  #GDR FOCUSES
  #GDR CW tree
  GDR_focus_fight_for_the_republic: "§7Fight for the Republic!§!"

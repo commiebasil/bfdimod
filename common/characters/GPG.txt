@@ -61,6 +61,7 @@ characters = {
 					has_government = fascism
 					has_government = radical_thoughts
 				}
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -74,6 +75,8 @@ characters = {
 			traits = { smooth_talking_charmer }
 			available = {
 				has_government = neutrality
+				has_country_flag = cw_done
+				has_completed_focus = GPG_focus_careful_trading
 			}
 		}
 	}
@@ -87,6 +90,7 @@ characters = {
 			traits = { technocrat }
 			available = {
 				has_government = neutrality
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -101,6 +105,7 @@ characters = {
 			available = {
 				has_government = neutrality
 				has_country_flag = fries_triumph
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -114,6 +119,7 @@ characters = {
 			traits = { popular_figurehead }
 			available = {
 				has_government = democratic
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -127,6 +133,7 @@ characters = {
 			traits = { silent_workhorse }
 			available = {
 				has_government = democratic
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -140,6 +147,7 @@ characters = {
 			traits = { smooth_talking_charmer }
 			available = {
 				has_government = democratic
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -154,6 +162,7 @@ characters = {
 			traits = { compassionate_gentleman }
 			available = {
 				has_government = fascism
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -171,6 +180,7 @@ characters = {
 			idea_token = idea_GPG_nickel
 			ledger = army
 			traits = { army_chief_offensive_2 }
+			available = { has_country_flag = cw_done }
 		}
 		corps_commander = {
 			skill = 1
@@ -190,6 +200,7 @@ characters = {
 			traits = { popular_figurehead }
 			available = {
 				has_government = communism
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -203,6 +214,7 @@ characters = {
 			traits = { ambitious_union_boss }
 			available = {
 				has_government = communism
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -216,6 +228,7 @@ characters = {
 			traits = { financial_expert }
 			available = {
 				has_government = communism
+				has_country_flag = cw_done
 			}
 		}
 	}

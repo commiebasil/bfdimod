@@ -849,40 +849,40 @@ country_event = {
 			goto_state = 8
 		}
 	}
-	option = {
-		name = GPG_event.20.b
-		GSR = { change_tag_from = GPG }
-		hidden_effect = {
-			gpg_civil_war = yes
-			goto_state = 10 
-		}
-	}
-	option = {
-		name = GPG_event.20.c
-		GDR = { change_tag_from = GPG }
-		hidden_effect = {
-			gpg_civil_war = yes
-			goto_state = 145
-		}
-	}
-	option = {
-		name = GPG_event.20.d
-		GFG = { change_tag_from = GPG }
-		hidden_effect = {
-			gpg_civil_war = yes
-			if = {
-				limit = {
-					OR = {
-						has_country_flag = cw_second_variant
-					}
-				}
-				goto_state = 206
-			}
-			else = {
-				goto_state = 158
-			}
-		}
-	}
+	#option = {
+	#	name = GPG_event.20.b
+	#	GSR = { change_tag_from = GPG }
+	#	hidden_effect = {
+	#		gpg_civil_war = yes
+	#		goto_state = 10 
+	#	}
+	#}
+	#option = {
+	#	name = GPG_event.20.c
+	#	GDR = { change_tag_from = GPG }
+	#	hidden_effect = {
+	#		gpg_civil_war = yes
+	#		goto_state = 145
+	#	}
+	#}
+	#option = {
+	#	name = GPG_event.20.d
+	#	GFG = { change_tag_from = GPG }
+	#	hidden_effect = {
+	#		gpg_civil_war = yes
+	#		if = {
+	#			limit = {
+	#				OR = {
+	#					has_country_flag = cw_second_variant
+	#				}
+	#			}
+	#			goto_state = 206
+	#		}
+	#		else = {
+	#			goto_state = 158
+	#		}
+	#	}
+	#}
 }
 
 country_event = {
@@ -1018,6 +1018,11 @@ country_event = {
 			country_event = {
 				id = GPG_event.24
 				days = 10
+				random_hours = 12
+			}
+			country_event = {
+				id = GPG_event.31
+				days = 5
 				random_hours = 12
 			}
 			set_country_flag = congress_goodend
@@ -1237,6 +1242,52 @@ country_event = {
 }
 
 country_event = {
+	id = GPG_event.31
+	title = GPG_event.31.t
+	desc = GPG_event.31.desc
+	picture = GFX_GPG_event31
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GPG_event.31.a
+		add_stability = -0.05
+		add_war_support = 0.05
+		28 = {
+			transfer_state_to = GPR
+		}
+	}
+}
+
+country_event = {
+	id = GPG_event.32
+	title = GPG_event.32.t
+	desc = GPG_event.32.desc
+	picture = GFX_GPG_event24
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GPG_event.32.a
+		add_political_power = 15
+	}
+}
+
+country_event = {
+	id = GPG_event.33
+	title = GPG_event.33.t
+	desc = GPG_event.33.desc
+	picture = GFX_GPG_event33
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GPG_event.33.a
+		add_political_power = 15
+	}
+}
+
+country_event = {
 	id = GPG_hidden_event.1
 	hidden = yes
 	
@@ -1274,6 +1325,9 @@ country_event = {
 			set_demilitarized_zone = yes
 		}
 		145 = {
+			set_demilitarized_zone = yes
+		}
+		28 = {
 			set_demilitarized_zone = yes
 		}
 	}
@@ -1334,6 +1388,10 @@ country_event = {
 		145 = {
 			transfer_state_to = GDR
 			add_core_of = GDR
+			set_demilitarized_zone = no
+		}
+		28 = {
+			transfer_state_to = GPR
 			set_demilitarized_zone = no
 		}
 		GSR = { 

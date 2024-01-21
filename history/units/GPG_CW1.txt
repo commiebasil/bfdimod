@@ -1,29 +1,29 @@
 units = {
 	division= {
-        name = "1st State partol"
+        name = "1st State patrol"
         location = 4378 # West-Casland
-        division_template = "State partol"
+        division_template = "State patrol"
         start_experience_factor = 0.4
         start_equipment_factor = 0.8
     }
 	division= {
-        name = "2nd State partol"
+        name = "2nd State patrol"
         location = 3 # Fascist border
-        division_template = "State partol"
+        division_template = "State patrol"
         start_experience_factor = 0.3
         start_equipment_factor = 0.7
     }
 	division= {
-        name = "3rd State partol"
+        name = "3rd State patrol"
         location = 4264 # Fascist border
-        division_template = "State partol"
+        division_template = "State patrol"
         start_experience_factor = 0.4
         start_equipment_factor = 0.8
     }
 	division= {
-        name = "4th State partol"
+        name = "4th State patrol"
         location = 11159 # Back
-        division_template = "State partol"
+        division_template = "State patrol"
         start_experience_factor = 0.4
         start_equipment_factor = 0.7
     }

@@ -9,6 +9,7 @@
  STATE_16: "Snow Mountain"
  STATE_24: "Great Ridge"
  STATE_27: "Eastern Greeny Plains"
+ STATE_28: "Lawnland"
  STATE_33: "Snowy Hills"
  STATE_85: "Goiky Hills"
  STATE_143: "Snowy Plains"

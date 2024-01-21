@@ -32,7 +32,7 @@ ideas = {
 				surrender_limit = 0.2
 				consumer_goods_factor = -1
 				war_support_factor = 0.1
-				political_power_gain = 0.25
+				political_power_gain = -2
 			}
 		}
 		
@@ -55,6 +55,58 @@ ideas = {
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.1
 				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+		
+		idea_GPG_status_quo = {
+			picture = GPG_status_quo
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = 0.25
+			}
+		}
+		
+		idea_GPG_strong_government = {
+			picture = GPG_strong_government
+			modifier = {
+				political_power_gain = 0.25
+			}
+		}
+		
+		idea_GPG_object_industry = {
+			picture = GPG_object_industry
+			modifier = {
+				stability_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = -0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		idea_GPG_slow_recovery = {
+			picture = GPG_slow_recovery
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		idea_GPG_great_manager = {
+			picture = GPG_great_manager
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		
+		idea_GPG_rearmament = {
+			picture = GPG_rearmament
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+			research_bonus = {
+				infantry_weapons = 0.2
+				artillery = 0.2
 			}
 		}
 	}

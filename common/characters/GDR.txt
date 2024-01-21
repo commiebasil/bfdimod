@@ -16,6 +16,7 @@ characters = {
 			traits = { popular_figurehead }
 			available = {
 				has_government = democratic
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -29,6 +30,7 @@ characters = {
 			traits = { silent_workhorse }
 			available = {
 				has_government = democratic
+				has_country_flag = cw_done
 			}
 		}
 	}
@@ -42,6 +44,7 @@ characters = {
 			traits = { smooth_talking_charmer }
 			available = {
 				has_government = democratic
+				has_country_flag = cw_done
 			}
 		}
 	}

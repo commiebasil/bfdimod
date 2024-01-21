@@ -14,7 +14,7 @@ focus_tree = {
 		y = 0
 		icon = GFX_focus_GPG_fight_for_stability
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -35,7 +35,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_fight_for_stability }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -55,7 +55,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_council_of_the_one_faction }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -75,7 +75,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_council_of_the_one_faction }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -102,7 +102,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_mobilization }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -140,7 +140,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_industry_transformation }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -165,7 +165,7 @@ focus_tree = {
 		prerequisite = { focus = GPG_focus_12_hours_working_day }
 		prerequisite = { focus = GPG_focus_goiky_army }
 		
-		cost = 4
+		cost = 5
 		
 		available = {
 			custom_trigger_tooltip = {
@@ -179,6 +179,13 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = l_GPG_loads_new_focus_tree
+			hidden_effect = {
+				load_focus_tree = GPG_fries_focus_tree
+				set_variable = { var_congress_support = 17 }
+				set_variable = { var_congress_support_gui = 16 }
+				clr_country_flag = congress_ended
+			}
 		}
 	}
 }

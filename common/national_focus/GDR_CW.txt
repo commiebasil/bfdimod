@@ -18,7 +18,7 @@ focus_tree = {
 		y = 0
 		icon = GFX_focus_GDR_fight_for_the_republic
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -41,7 +41,7 @@ focus_tree = {
 		icon = GFX_focus_GDR_gpr_support_expansion
 		prerequisite = { focus = GDR_focus_fight_for_the_republic }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -64,7 +64,7 @@ focus_tree = {
 		icon = GFX_focus_GDR_military_advisors
 		prerequisite = { focus = GDR_focus_gpr_support_expansion }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -87,7 +87,7 @@ focus_tree = {
 		icon = GFX_focus_GDR_volunteers_from_greeny_plains
 		prerequisite = { focus = GDR_focus_military_advisors }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -106,7 +106,7 @@ focus_tree = {
 		icon = GFX_focus_GDR_rule_of_majority
 		prerequisite = { focus = GDR_focus_gpr_support_expansion }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -125,7 +125,7 @@ focus_tree = {
 		icon = GFX_focus_GDR_help_with_industry
 		prerequisite = { focus = GDR_focus_gpr_support_expansion }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -156,7 +156,7 @@ focus_tree = {
 		icon = GFX_focus_GDR_arsenal_of_democracy
 		prerequisite = { focus = GDR_focus_help_with_industry }
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10
@@ -196,7 +196,7 @@ focus_tree = {
 			}
 		}
 		
-		cost = 4
+		cost = 5
 		
 		ai_will_do = {
         base = 10

@@ -124,6 +124,38 @@ spriteTypes = {
 		texturefile = gfx/interface/ideas/idea_GPG_12_hours_working_day.dds
 	}
 	spriteType = {
+		name = GFX_idea_GPG_post_cw_crisis
+		texturefile = gfx/interface/ideas/idea_GPG_post_cw_crisis.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_army_agony
+		texturefile = gfx/interface/ideas/idea_GPG_army_agony.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_status_quo
+		texturefile = gfx/interface/ideas/idea_GPG_status_quo.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_object_industry
+		texturefile = gfx/interface/ideas/idea_GPG_object_industry.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_slow_recovery
+		texturefile = gfx/interface/ideas/idea_GPG_slow_recovery.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_great_manager
+		texturefile = gfx/interface/ideas/idea_GPG_great_manager.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_strong_government
+		texturefile = gfx/interface/ideas/idea_GPG_strong_government.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_rearmament
+		texturefile = gfx/interface/ideas/idea_GPG_rearmament.dds
+	}
+	spriteType = {
 		name = GFX_idea_GPG_basketball
 		texturefile = gfx/interface/ideas/idea_GPG_basketball.dds
 	}

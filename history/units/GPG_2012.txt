@@ -1,5 +1,5 @@
 division_template = {
-    name = "State partol"
+    name = "State patrol"
 	priority = 0
 	template_counter = 0
     regiments = {
@@ -12,30 +12,30 @@ division_template = {
 
 units = {
 	division= {
-        name = "1st State partol"
+        name = "1st State patrol"
         location = 4378 # West-Casland
-        division_template = "State partol"
+        division_template = "State patrol"
         start_experience_factor = 0.4
         start_equipment_factor = 0.8
     }
 	division= {
-        name = "2nd State partol"
+        name = "2nd State patrol"
         location = 11209 # Recharnd
-        division_template = "State partol"
+        division_template = "State patrol"
         start_experience_factor = 0.3
         start_equipment_factor = 0.7
     }
 	division= {
-        name = "3rd State partol"
+        name = "3rd State patrol"
         location = 5234 # AGRG border
-        division_template = "State partol"
+        division_template = "State patrol"
         start_experience_factor = 0.4
         start_equipment_factor = 0.8
     }
 	division= {
-        name = "4th State partol"
+        name = "4th State patrol"
         location = 11160 # GGRR - S Border
-        division_template = "State partol"
+        division_template = "State patrol"
         start_experience_factor = 0.4
         start_equipment_factor = 0.7
     }
