@@ -90,6 +90,10 @@ GFG = {
 	color = rgb { 21 35 59 }
 	color_ui = rgb { 21 35 59 }
 }
+YFC = {
+	color = rgb { 209 202 46 }
+	color_ui = rgb { 209 202 46 }
+}
 
 D01 = {
 	color = rgb { 122 179 97 }

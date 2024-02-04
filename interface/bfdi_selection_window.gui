@@ -165,6 +165,12 @@ guiTypes = {
 			spriteType = GFX_button_agg
 			pdx_tooltip = WR_AGG_BTTT
 		}
+		buttonType = {
+			name = "yfc"
+			position = { x = 580 y = 194 }
+			spriteType = GFX_button_yfc
+			pdx_tooltip = WR_YFC_BTTT
+		}
 		
 		iconType = {
 			name = "WGF_available"

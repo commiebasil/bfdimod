@@ -280,6 +280,30 @@ SpriteTypes = {
 		name = GFX_GPG_event33
 		texturefile = gfx/event_pictures/GPG_event33.dds
 	}
+	spriteType = {
+		name = GFX_GPG_event34
+		texturefile = gfx/event_pictures/GPG_event34.dds
+	}
+	spriteType = {
+		name = GFX_GPG_event35
+		texturefile = gfx/event_pictures/GPG_event35.dds
+	}
+	spriteType = {
+		name = GFX_GPG_event40
+		texturefile = gfx/event_pictures/GPG_event40.dds
+	}
+	spriteType = {
+		name = GFX_GPG_event41
+		texturefile = gfx/event_pictures/GPG_event41.dds
+	}
+	spriteType = {
+		name = GFX_GPG_event43
+		texturefile = gfx/event_pictures/GPG_event43.dds
+	}
+	spriteType = {
+		name = GFX_GPG_event45
+		texturefile = gfx/event_pictures/GPG_event45.dds
+	}
 	
 	
 	spriteType = {

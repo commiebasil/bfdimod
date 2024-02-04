@@ -40,4 +40,8 @@ defined_text = {
 		trigger = { has_global_flag = cap_republic }
 		localization_key = cap_window_desc_republic
 	}
+	text = {
+		trigger = { has_global_flag = cap_republic }
+		localization_key = cap_window_desc_alliance
+	}
 }

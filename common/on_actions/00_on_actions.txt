@@ -100,6 +100,12 @@ on_actions = {
 				}
 				set_global_flag = cap_republic
 			}
+			else_if = {
+				limit = {
+					ROOT = { tag = GPR }
+				}
+				set_global_flag = cap_alliance
+			}
 			FROM = {
 				annex_country = {
 					target = ROOT

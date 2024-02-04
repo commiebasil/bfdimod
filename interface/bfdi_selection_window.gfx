@@ -100,8 +100,14 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_button_yfc"
+		texturefile = "gfx/interface/button_yfc.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
 		name = "GFX_flags_bg"
 		texturefile = "gfx/interface/flags_bg.dds"
-		noOfFrames = 15
+		noOfFrames = 16
 	}
 }

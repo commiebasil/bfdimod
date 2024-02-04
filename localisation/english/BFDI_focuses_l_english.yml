@@ -441,6 +441,82 @@
  GPG_focus_lawnland_question: "§7Lawnland§!"
  GPG_focus_lawnland_question_desc: "Taking advantage of our weakness and fragmentation, the government in Greenport sent troops into our northern regions to 'protect their borders'. We have already defeated their puppets in a fair fight, now we will defeat them themselves."
  
+ #GPG REPUBLIC PATH
+ GPG_focus_third_congress: "§YThird Congress§!"
+ GPG_focus_third_congress_desc: "Now that the radicals and opposition have been defeated, the Council can calmly complete the reforms and finally stabilize the government at the new, third congress."
+ 
+ GPG_focus_collective_leadership: "Collective Leadership"
+ GPG_focus_collective_leadership_desc: "The main principle of our government is Pluralism. Every opinion should have its weight."
+ 
+ GPG_focus_only_self_nominated: "Congress of Self-Nominated"
+ GPG_focus_only_self_nominated_desc: "No more factions. The Council will be formed exclusively from self-nominated, independent objects."
+ 
+ GPG_focus_lessons_from_democrats: "...Lessons from Democrats?"
+ GPG_focus_lessons_from_democrats_desc: "Even though Taco and co. were obvious stooges of Greenport, they still had a sound grain. We should adopt some of their principles and management mechanisms."
+ 
+ GPG_focus_goiky_republic: "§7Republic§!"
+ GPG_focus_goiky_republic_desc: "The worst is over. Casland is stable again and moving forward. Goiky's objects will soon be united again."
+ 
+ GPG_focus_third_congress_end: "§YCongress End§!"
+ GPG_focus_third_congress_end_desc: "The congress ends. The reforms have been successfully carried out, and our government will never again fall into the abyss of anarchy and civil war."
+ 
+ GPG_focus_power_for_congress: "Power for Congress"
+ GPG_focus_power_for_congress_desc: "From now on, the Congress and the RCC are indisputably the main governing bodies of the Republic. Nothing can be higher. We cannot allow dictatorship."
+ 
+ GPG_focus_dream_island_ideals: "Dream Island Ideals"
+ GPG_focus_dream_island_ideals_desc: "All of Goiky once united to create a paradise on the edge of the continent. Even if this led to dire consequences, we must strive for such unity."
+ 
+ GPG_focus_republic_our_great_past: "Our Great Past"
+ GPG_focus_republic_our_great_past_desc: "Goiky was once united. It was a great time, and Casland is a place where that time still lives. We must emulate that time and strive to return Goiky to his integrity."
+ 
+ GPG_focus_republic_weaken_the_cabinet: "Weaken the Cabinet"
+ GPG_focus_republic_weaken_the_cabinet_desc: "The Cabinet and the Chairman should no longer have the same weight in the Council. The main power should be obtained by the collective force of object-deputies."
+ 
+ GPG_focus_collective_decisions: "Shared decision making"
+ GPG_focus_collective_decisions_desc: "All major issues of the state must be resolved at the congress and freely discussed by all assessors. There should be no behind-the-scenes behavior, otherwise Casland will again fall into the abyss of anarchy."
+ 
+ GPG_focus_abolition_of_the_chairman: "Cancellation of the Chairmanship"
+ GPG_focus_abolition_of_the_chairman_desc: "The Council does not need a leader or a dictator. All power must be transferred to collective leadership. In this regard, the position of the chairman of the cabinet is eliminated."
+ 
+ GPG_focus_republic_anti_crisis_measures: "Anti-crisis Measures"
+ GPG_focus_republic_anti_crisis_measures_desc: "Casland and the surrounding area lie in ruins after devastating battles with radicals. We need to rebuild the national economy, otherwise Casland will never be able to become the capital of Goiky again."
+ 
+ GPG_focus_republic_restore_fabrics: "Restore Fabrics"
+ GPG_focus_republic_restore_fabrics_desc: "A huge amount of production was lost during the fighting. It is necessary to restart factories from ruins."
+ 
+ GPG_focus_republic_object_industry: "Object Industry"
+ GPG_focus_republic_object_industry_desc: "Peacetime production is our priority. Military production can wait."
+ 
+ GPG_focus_republic_cancel_military_law: "Cancellation of war tax"
+ GPG_focus_republic_cancel_military_law_desc: "The time has come for Casland to return to the tracks of peaceful construction. We no longer need to choke our objects for the sake of an extra rifle."
+ 
+ GPG_focus_republic_careful_trading: "Careful Trading"
+ GPG_focus_republic_careful_trading_desc: "We have a very superficial knowledge of our surroundings. In the vastness of Goiky, a huge number of governments have formed, whose moods are unknown to us. But we still have to trade with them a little, for our own good."
+ 
+ GPG_focus_republic_heart_of_goiky: "Heart of Goiky"
+ GPG_focus_republic_heart_of_goiky_desc: "Casland rises from ruins and once again becomes the greatest city on the continent. Thanks to the efforts of the provisional government and its ingenious reforms, Goiky's heart is beating again as alive as before."
+ 
+ GPG_focus_republic_army_reformation: "Army Reformation"
+ GPG_focus_republic_army_reformation_desc: "The current situation of our armed forces is deplorable. They are largely an unorganized militia with inconsistent membership and questionable leadership. We must fix this and create full-fledged troops."
+ 
+ GPG_focus_republic_personnel_army: "Personnel Army"
+ GPG_focus_republic_personnel_army_desc: "The first thing we must do is get rid of the militia. This will greatly weaken our armed forces in the moment, but in the long term it will allow us to create the strongest troops in the region."
+ 
+ GPG_focus_republic_rearmament: "Rearmament"
+ GPG_focus_republic_rearmament_desc: "During the Civil War, weapons technology was significantly improved. We must keep up and, in an amicable way, stand at the forefront of military technology."
+ 
+ GPG_focus_republic_recharnd_military_academy: "Recharnd Military Academy"
+ GPG_focus_republic_recharnd_military_academy_desc: "For the new army we need trained officers. An academy will be opened in Rechernda for those entering military service."
+ 
+ GPG_focus_republic_doctrine_development: "Doctrine Development"
+ GPG_focus_republic_doctrine_development_desc: "Every modern army must have its own strategy. We must develop a ground doctrine for our troops."
+ 
+ GPG_focus_republic_end_military_turmoil: "End Military Turmoil"
+ GPG_focus_republic_end_military_turmoil_desc: "From its inception, the state militia has been a mess. But, thanks to the ingenious reforms of the Provisional Government, the ground army of the Casland objects is now one of the most progressive in the region. The confusion is over."
+ 
+ GPG_focus_republic_lawnland_question: "§7Lawnland§!"
+ GPG_focus_republic_lawnland_question_desc: "Taking advantage of our weakness and fragmentation, the government in Greenport sent troops into our northern regions to 'protect their borders'. We have already defeated their puppets in a fair fight, now we will defeat them themselves."
+ 
  #GDR FOCUSES
  #GDR CW tree
  GDR_focus_fight_for_the_republic: "§7Fight for the Republic!§!"

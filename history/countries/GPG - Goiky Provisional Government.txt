@@ -49,6 +49,7 @@ set_variable = { var_GPG_dreamislandtrauma_bf = -0.5 }
 
 set_variable = { var_GPG_postcw_cg = 0.5 }
 set_variable = { var_GPG_postcw_bs = -0.5 }
+set_variable = { var_GPG_postcw_fo = -0.7 }
 set_variable = { var_GPG_postcw_sf = -0.1 }
 set_variable = { var_GPG_postcw_pp = -0.5 }
 
@@ -56,6 +57,13 @@ set_variable = { var_GPG_armyagony_aa = -0.5 }
 set_variable = { var_GPG_armyagony_ad = -0.25 }
 set_variable = { var_GPG_armyagony_ao = -0.25 }
 set_variable = { var_GPG_armyagony_eg = -0.75 }
+
+set_variable = { var_GPG_rcc_sf = 0 }
+set_variable = { var_GPG_rcc_pg = 0.25 }
+set_variable = { var_GPG_rcc_ws = 0 }
+
+set_variable = { var_GPG_negs_progressbar = 50 }
+set_variable = { var_GPG_war_progressbar = 10 }
 
 complete_national_focus = GPG_focus_first_congress
 complete_national_focus = GPG_focus_rubys_speech

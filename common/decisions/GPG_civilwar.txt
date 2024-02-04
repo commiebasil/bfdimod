@@ -62,18 +62,27 @@ decision_GPG_civilwar_category = {
 					country_lock_all_division_template = yes
 					delete_unit_template_and_units = {
 						division_template = "State patrol"
-						disband = yes
+						disband = no
 					}
 					if = {
 						limit = { has_country_flag = fries_triumph }
 						set_cosmetic_tag = GPG_fries_post_cw
 					}
 					else = {
-						set_cosmetic_tag = GPG_republic
+						set_cosmetic_tag = GPG_fries_post_cw
 					}
 					news_event = {
 						id = bfdinews.16
 						days = 5
+					}
+					hidden_effect = {
+						GPR = {
+							add_equipment_to_stockpile = {
+								type = infantry_equipment
+								amount = 10000
+								producer = GPG
+							}
+						}
 					}
 				}
 				else_if = {
@@ -82,7 +91,7 @@ decision_GPG_civilwar_category = {
 					add_ideas = idea_GDR_payments_to_gpr
 					delete_unit_template_and_units = {
 						division_template = "Volunteer forces"
-						disband = yes
+						disband = no
 					}
 					set_cosmetic_tag = GDR_republic
 					news_event = {
@@ -97,7 +106,7 @@ decision_GPG_civilwar_category = {
 					add_ideas = idea_GSR_anarchists_in_army
 					delete_unit_template_and_units = {
 						division_template = "Revolutionary brigades"
-						disband = yes
+						disband = no
 					}
 					set_cosmetic_tag = GSR_post_cw
 					news_event = {

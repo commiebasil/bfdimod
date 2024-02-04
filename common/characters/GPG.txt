@@ -76,7 +76,10 @@ characters = {
 			available = {
 				has_government = neutrality
 				has_country_flag = cw_done
-				has_completed_focus = GPG_focus_careful_trading
+				OR = {
+					has_completed_focus = GPG_focus_careful_trading
+					has_completed_focus = GPG_focus_republic_careful_trading
+				}
 			}
 		}
 	}

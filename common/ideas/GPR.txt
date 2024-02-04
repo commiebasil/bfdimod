@@ -8,5 +8,12 @@ ideas = {
 				drift_defence_factor = -0.1
 			}
 		}
+		
+		idea_GPR_lawnland_compensation = {
+			picture = GPG_lawnland_compensation
+			modifier = {
+				consumer_goods_factor = 0.3
+			}
+		}
 	}
 }

@@ -1,0 +1,133 @@
+decisions_GPG_lawnland_category = {
+	GPG_lawnland_negs_mission = {
+		priority = 100
+		icon = GFX_decisions_GPG_lawnland_negs_mission
+        activation = {
+			always = no
+	    }
+		is_good = no
+		days_mission_timeout = 220
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GPG_lawnland_negs_mission
+			hidden_effect = {
+				if = {
+					limit = { check_variable = { var_GPG_negs_progressbar < 50 } }
+					country_event = GPG_event.38
+				}
+				else_if = {
+					limit = { 
+						check_variable = { var_GPG_negs_progressbar > 50 }
+						check_variable = { var_GPG_negs_progressbar < 70 }
+					}
+					country_event = GPG_event.39
+				}
+				else_if = {
+					limit = { check_variable = { var_GPG_negs_progressbar > 70 } }
+					country_event = GPG_event.35
+				}
+			}
+		}
+	}
+
+	GPG_republic_makes_move_mission = {
+		priority = 90
+		icon = GFX_decision_GPG_republic_makes_move_mission
+		activation = {
+			has_country_flag = lawnland_negotiations_started
+			NOT = { has_country_flag = lawnland_mechanic_stop }
+	    }
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = no
+		available = {
+			always = no
+		}
+		timeout_effect = {
+			custom_effect_tooltip = l_GPG_lawnland_removes_10_progress
+			add_to_variable = { var_GPG_negs_progressbar = -10 }
+			random = {
+				chance = 50
+				custom_effect_tooltip = l_GPG_lawnland_increases_10_escalation
+				add_to_variable = { var_GPG_war_progressbar = 10 }
+			}
+			hidden_effect = {
+				GPG_on_lawnland_progressbar_change = yes
+			}
+		}
+	}
+	
+	
+	GPG_demand_demilitarization_decision = {
+		icon = GFX_decisions_GPG_demand_demilitarization_decision
+		cost = 100
+		fire_only_once = yes
+		days_remove = 15
+		remove_effect = {
+			custom_effect_tooltip = l_GPG_lawnland_demand_dem
+			hidden_effect = {
+				random_list = {
+					50 = {
+						country_event = {
+							id = GPG_event.41
+							days = 5
+							random_hours = 12
+						}
+					}
+					50 = {
+						country_event = {
+							id = GPG_event.42
+							days = 5
+							random_hours = 12
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	GPG_trainings_on_border_decision = {
+		icon = GFX_decisions_GPG_trainings_on_border
+		days_remove = 15
+        days_re_enable = 15
+        custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 1999
+			}
+		}
+		custom_cost_text = decision_cost_ie_2000
+        complete_effect = {
+           hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -2000
+				}
+		   }
+		}
+		remove_effect = {
+			custom_effect_tooltip = l_GPG_lawnland_adds_10_progress
+			custom_effect_tooltip = l_GPG_lawnland_increases_10_escalation
+			add_to_variable = { var_GPG_negs_progressbar = 10 }
+			add_to_variable = { var_GPG_war_progressbar = 10 }
+			hidden_effect = { GPG_on_lawnland_progressbar_change = yes }
+		}
+    }
+	
+	GPG_back_down_decision = {
+		icon = GFX_decisions_GPG_back_down
+		days_remove = 5
+        days_re_enable = 30
+        cost = 100
+		remove_effect = {
+			custom_effect_tooltip = l_GPG_lawnland_removes_5_progress
+			custom_effect_tooltip = l_GPG_lawnland_removes_10_escalation
+			add_stability = -0.05
+			add_to_variable = { var_GPG_negs_progressbar = -5 }
+			add_to_variable = { var_GPG_war_progressbar = -10 }
+			hidden_effect = { GPG_on_lawnland_progressbar_change = yes }
+		}
+    }
+}

@@ -1,0 +1,17 @@
+characters = {
+    YFC_yellow_face = {
+		name = YFC_yellow_face
+		portraits = { 
+			army = { 
+				large = GFX_YFC_yellow_face
+				
+			} 
+		}
+		country_leader = {
+			ideology = oligarchism
+			desc = YFC_yellow_face_desc
+		}
+		
+	
+	}
+}

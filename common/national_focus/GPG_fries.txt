@@ -121,7 +121,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_fries_second_congress_end }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -141,7 +141,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_eternal_transition }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -161,7 +161,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_anti_crisis_measures }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -206,7 +206,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_restore_fabrics }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -237,7 +237,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_anti_crisis_measures }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -260,13 +260,14 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_cancel_military_law }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
+			add_ideas = limited_exports
 			add_political_power = 50
 		}
 	}
@@ -281,7 +282,7 @@ focus_tree = {
 		prerequisite = { focus = GPG_focus_object_industry }
 		prerequisite = { focus = GPG_focus_careful_trading }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -305,7 +306,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_eternal_transition }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -329,7 +330,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_power_for_fries }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -349,7 +350,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_announcers_example }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -371,7 +372,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_power_for_fries }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -391,7 +392,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_autocratic_cabinet }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -412,7 +413,7 @@ focus_tree = {
 		prerequisite = { focus = GPG_focus_puppet_congress }
 		prerequisite = { focus = GPG_focus_our_great_past }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -435,7 +436,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_eternal_transition }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -455,7 +456,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_army_reformation }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -478,7 +479,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_personnel_army }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -504,7 +505,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_army_reformation }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -526,7 +527,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GPG_focus_recharnd_military_academy }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -551,7 +552,7 @@ focus_tree = {
 		prerequisite = { focus = GPG_focus_rearmament }
 		prerequisite = { focus = GPG_focus_doctrine_development }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -575,7 +576,7 @@ focus_tree = {
 		prerequisite = { focus = GPG_focus_eternal_chairman }
 		prerequisite = { focus = GPG_focus_end_military_turmoil }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 10
@@ -588,6 +589,10 @@ focus_tree = {
 				news_event = {
 					id = bfdinews.20
 					days = 3
+				}
+				country_event = {
+					id = GPG_event.34
+					days = 5
 				}
 			}
 		}

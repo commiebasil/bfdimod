@@ -156,6 +156,14 @@ spriteTypes = {
 		texturefile = gfx/interface/ideas/idea_GPG_rearmament.dds
 	}
 	spriteType = {
+		name = GFX_idea_GPG_lawnland_compensation
+		texturefile = gfx/interface/ideas/idea_GPG_lawnland_compensation.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_recommended_characters_council
+		texturefile = gfx/interface/ideas/idea_GPG_recommended_characters_council.dds
+	}
+	spriteType = {
 		name = GFX_idea_GPG_basketball
 		texturefile = gfx/interface/ideas/idea_GPG_basketball.dds
 	}
@@ -308,5 +316,10 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_idea_SGD_transitional_regime
 		texturefile = gfx/interface/ideas/idea_SGD_transitional_regime.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_YFC_no_more_advertisements_foundation
+		texturefile = gfx/interface/ideas/idea_YFC_no_more_advertisements_foundation.dds
 	}
 }

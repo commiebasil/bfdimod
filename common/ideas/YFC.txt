@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		idea_YFC_no_more_advertisements_foundation = {
+			picture = YFC_no_more_advertisements_foundation
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.25
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+	}
+}

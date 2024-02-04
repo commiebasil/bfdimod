@@ -227,6 +227,10 @@ country_event = {
 				days = 6
 			}
 			country_event = {
+				id = GOI_hidden_event.16
+				days = 4
+			}
+			country_event = {
 				id = GOI_event.8
 				days = 20
 			}
@@ -642,6 +646,29 @@ country_event = {
 		}
 		GOI = {
 			remove_state_core = 175
+		}
+	}
+}
+country_event = {
+    id = GOI_hidden_event.16
+    
+    is_triggered_only = yes
+	hidden = yes
+    
+    immediate = {
+		YFC = {
+			transfer_state = 196
+			transfer_state = 201
+			
+			add_state_core = 196
+			add_state_core = 201
+			
+			196 = { set_demilitarized_zone = no }
+			201 = { set_demilitarized_zone = no }
+		}
+		GOI = {
+			remove_state_core = 196
+			remove_state_core = 201
 		}
 	}
 }

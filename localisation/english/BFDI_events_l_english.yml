@@ -299,6 +299,56 @@
  GPG_event.33.desc: "We, the objects of different shapes and sizes, bound by the glorious historical bonds, the great economic and political unity of the objects of all Goiky, believing in equality, justice, and freedom, gathered in Casland to draw up the CONSTITUTION OF GOIKY.\n\nChapter 1. Fundamentals of the constitutional order. \nArticle 1..."
  GPG_event.33.a: "...This edition is different"
  
+ GPG_event.34.t: "Negotiations start"
+ GPG_event.34.desc: "Today an authorized group of diplomats arrived in Casland from Greenport to resolve the Lawnland issue. The first meeting was scheduled for tomorrow. The results of the negotiations will determine our future course."
+ GPG_event.34.a: "Pack your bags!"
+ 
+ GPG_event.35.t: "Complete victory!"
+ GPG_event.35.desc: "Our diplomats were able to seize the initiative in the negotiations and convicted Greenport of unjustified aggression. Their mission completely capitulated to our demands and agreed to the transfer of Lawnland."
+ GPG_event.35.a: "Wonderful work!"
+ 
+ GPG_event.36.t: "Complete failure."
+ GPG_event.36.desc: "The diplomats who arrived in Casland not only refused to make any concessions, but also accused our side of preparing aggression and demanded the demilitarization of the border areas. Our representatives have been completely defeated and we are faced with a choice."
+ GPG_event.36.a: "Capitulate to their demands."
+ GPG_event.36.b: "We cannot bear such shame. Start Operation 'Grassburn'."
+ 
+ GPG_event.37.t: "Dead end."
+ GPG_event.37.desc: "As a result of the heated negotiations and excessive measures taken by the armed forces, the issue of Lawnland reached a dead end. Relations between us and the Republic are incredibly tense, and we should not wait for them to stab us in the back."
+ GPG_event.37.a: "Start Operation 'Grassburn'."
+ 
+ GPG_event.38.t: "Status-quo"
+ GPG_event.38.desc: "As a result of protracted negotiations, our diplomats were unable to obtain any form of approval for the return of Lawnland. However, the Greenport side agreed to pay large compensation in our favor."
+ GPG_event.38.a: "Not the best result."
+ 
+ GPG_event.39.t: "Return of the Lawnland!"
+ GPG_event.39.desc: "Our diplomats were able to successfully negotiate an end to the occupation of Lawnland. With some conditions, the border returned to its previous form."
+ GPG_event.39.a: "Wonderful!"
+ 
+ GPG_event.40.t: "End of negotiations."
+ GPG_event.40.desc: "Today, Republic diplomats left Casland, marking the end of the diplomatic mission and negotiations regarding the Lawnland. Our government is entering the next stage."
+ GPG_event.40.a: "Forwards!"
+ 
+ GPG_event.41.t: "Lawnland Demilitarization"
+ GPG_event.41.desc: "Our diplomats were able to successfully convince the Greenport government to withdraw troops from the border region during negotiations. This is our great diplomatic victory."
+ GPG_event.41.a: "Good."
+ 
+ GPG_event.42.t: "Refuse"
+ GPG_event.42.desc: "Republic diplomats refused to pursue any form of demilitarization of the Lawnland. This greatly strained the negotiations, and perhaps indicates the preparation of aggression in our direction."
+ GPG_event.42.a: "Damn it."
+ 
+ GPG_event.43.t: "Protests in Lawnland"
+ GPG_event.43.desc: "Objects of the border provinces captured by the Republic are coming out en masse to protest against the occupation. We can support them, but this will escalate the situation. What do we do?"
+ GPG_event.43.a: "Let them protest."
+ GPG_event.43.b: "Sponsor them!"
+ 
+ GPG_event.44.t: "Government reestablishment"
+ GPG_event.44.desc: "Now that stability has finally triumphed in Casland, the Transitional Government in the form of the head cabinet can transfer back the powers of the executive branch to the congress and council."
+ GPG_event.44.a: "Wonderful!"
+ 
+ GPG_event.45.t: "Idea of a lower house"
+ GPG_event.45.desc: "Throughout its existence, only objects that had ever been shown in the BFDI were allowed into the Council. This created a certain segregation in our republic. Once, at the Second Congress, Taco spoke about the creation of the Lower House of the Council, into which any objects could be admitted. Yesterday, the Congress decided to develop a plan for the creation of the Lower House and determine the scheme of its work. However, the decision to create it will probably be made only at the Fourth Congress."
+ GPG_event.45.a: "Interesting."
+ 
  #GDR
  GDR_event.1.t: "Battle For Democracy"
  GDR_event.1.desc: "The provisional government, through its decisions, showed its desire to establish a dictatorship, and we were forced to raise our rifles for the sake of our freedom and the freedom of Goiky’s objects. Opponents of democracy must be defeated today, or we are doomed to another authoritarian regime."

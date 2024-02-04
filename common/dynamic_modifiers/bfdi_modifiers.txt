@@ -82,6 +82,7 @@ idea_GPG_post_cw_crisis = {
 	
 	consumer_goods_factor = var_GPG_postcw_cg
 	production_speed_buildings_factor = var_GPG_postcw_bs
+	industrial_capacity_factory = var_GPG_postcw_fo
 	stability_factor = var_GPG_postcw_sf
 	political_power_gain = var_GPG_postcw_pp
 }
@@ -93,5 +94,13 @@ idea_GPG_army_agony = {
 	army_defence_factor = var_GPG_armyagony_ad
 	army_org_factor = var_GPG_armyagony_ao
 	experience_gain_army_factor = var_GPG_armyagony_eg
+}
+
+idea_GPG_recommended_characters_council = {
+	icon = GFX_idea_GPG_recommended_characters_council
+	
+	stability_factor = var_GPG_rcc_sf
+	political_power_gain = var_GPG_rcc_pg
+	war_support_factor = var_GPG_rcc_ws
 }
 

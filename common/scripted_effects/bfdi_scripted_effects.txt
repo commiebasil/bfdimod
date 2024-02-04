@@ -148,3 +148,41 @@ gpg_civil_war = {
 	GSR = { activate_mission = GPG_mission_race_to_casland }
 	GFG = { activate_mission = GPG_mission_race_to_casland }
 }
+
+#:skull:
+GPG_on_lawnland_progressbar_change = {
+	if = {
+		limit = { check_variable = { var_GPG_negs_progressbar > 100 } }
+		set_variable = { var_GPG_negs_progressbar = 100 }
+	}
+	else_if = {
+		limit = { check_variable = { var_GPG_negs_progressbar < 0 } }
+		set_variable = { var_GPG_negs_progressbar = 0 }
+	}
+	
+	if = {
+		limit = { check_variable = { var_GPG_war_progressbar > 100 } }
+		set_variable = { var_GPG_war_progressbar = 100 }
+	}
+	else_if = {
+		limit = { check_variable = { var_GPG_war_progressbar < 0 } }
+		set_variable = { var_GPG_war_progressbar = 0 }
+	}
+	
+	if = {
+		limit = { check_variable = { var_GPG_negs_progressbar = 100 } }
+		set_country_flag = lawnland_mechanic_stop
+		country_event = GPG_event.35
+	}
+	else_if = {
+		limit = { check_variable = { var_GPG_negs_progressbar = 0 } }
+		set_country_flag = lawnland_mechanic_stop
+		country_event = GPG_event.36
+	}
+	
+	if = {
+		limit = { check_variable = { var_GPG_war_progressbar = 100 } }
+		set_country_flag = lawnland_mechanic_stop
+		country_event = GPG_event.37
+	}
+}

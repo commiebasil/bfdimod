@@ -181,7 +181,13 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = l_GPG_loads_new_focus_tree
 			hidden_effect = {
-				load_focus_tree = GPG_fries_focus_tree
+				if = {
+					limit = { has_country_flag = fries_dictatorship_path }
+					load_focus_tree = GPG_fries_focus_tree
+				}
+				else = {
+					load_focus_tree = GPG_republic_focus_tree
+				}
 				set_variable = { var_congress_support = 17 }
 				set_variable = { var_congress_support_gui = 16 }
 				clr_country_flag = congress_ended

@@ -15,4 +15,9 @@ leader_traits = {
 		mobilization_laws_cost_factor = -0.1
 		stability_factor = 0.05
 	}
+	
+	collective_authority = {
+		political_power_gain = 0.25
+		stability_factor = 0.05
+	}
 }

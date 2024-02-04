@@ -1,0 +1,11 @@
+decisions_GPG_lawnland_category = {
+	allowed = { tag = GPG }
+	visible = {
+		has_country_flag = lawnland_decisions_opened
+		NOT = { has_country_flag = lawnland_negotiations_end }
+	}
+	priority = 50
+	visible_when_empty = yes
+	scripted_gui = decisions_GPG_lawnland_scriptedgui
+	icon = GFX_decisions_GPG_lawnland_category
+}

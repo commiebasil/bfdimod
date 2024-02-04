@@ -262,4 +262,65 @@ spriteTypes = {
 		name = "GFX_GPG_decision_declare_cw_victory"
 		textureFile = "gfx/interface/decisions/GFX_GPG_decision_declare_cw_victory.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decisions_GPG_lawnland_header"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_header.dds"
+	}
+	
+	progressbartype = {
+		name = "GFX_decisions_GPG_lawnland_negs_progressbar"
+		textureFile1 = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_negs_progressbar_bg.dds"
+		textureFile2 = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_negs_progressbar_frame.dds"
+		color = { 150 150 150 }
+		colortwo = { 143 19 19 }
+		size = {
+			x = 490
+			y = 107
+		}
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	progressbartype = {
+		name = "GFX_decisions_GPG_lawnland_war_progressbar"
+		textureFile1 = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_war_progressbar_bg.dds"
+		textureFile2 = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_war_progressbar_frame.dds"
+		color = { 150 150 150 }
+		colortwo = { 143 19 19 }
+		size = {
+			x = 420
+			y = 50
+		}
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GPG_lawnland_category"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_category.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GPG_lawnland_negs_mission"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_negs_mission.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_GPG_republic_makes_move_mission"
+		textureFile = "gfx/interface/decisions/GFX_decision_GPG_republic_makes_move_mission.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GPG_demand_demilitarization_decision"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_demand_demilitarization_decision.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GPG_trainings_on_border"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_trainings_on_border.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GPG_back_down"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_back_down.dds"
+	}
 }

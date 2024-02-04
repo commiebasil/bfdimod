@@ -738,6 +738,42 @@ SpriteTypes = {
 		name = "GFX_focus_GPG_lawnland_question"
 		texturefile = "gfx/interface/goals/GFX_focus_GPG_lawnland_question.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_GPG_third_congress"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_third_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_collective_leadership"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_collective_leadership.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_only_self_nominated"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_only_self_nominated.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_lessons_from_democrats"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_lessons_from_democrats.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_goiky_republic"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_goiky_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_power_for_congress"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_power_for_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_dream_island_ideals"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_dream_island_ideals.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_weaken_the_cabinet"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_weaken_the_cabinet.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_GPG_abolition_of_the_chairman"
+		texturefile = "gfx/interface/goals/GFX_focus_GPG_abolition_of_the_chairman.dds"
+	}
 	
 	
 	spriteType = {

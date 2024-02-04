@@ -109,5 +109,12 @@ ideas = {
 				artillery = 0.2
 			}
 		}
+		
+		idea_GPG_lawnland_compensation = {
+			picture = GPG_lawnland_compensation
+			modifier = {
+				consumer_goods_factor = -0.3
+			}
+		}
 	}
 }
