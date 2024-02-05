@@ -322,4 +322,8 @@ spriteTypes = {
 		name = GFX_idea_YFC_no_more_advertisements_foundation
 		texturefile = gfx/interface/ideas/idea_YFC_no_more_advertisements_foundation.dds
 	}
+	spriteType = {
+		name = GFX_idea_GTR_economic_problems
+		texturefile = gfx/interface/ideas/idea_GTR_economic_problems.dds
+	}
 }

@@ -25,5 +25,6 @@ set_popularities = {
 }
 
 add_ideas = idea_GTR_golfball_s_lab
+add_ideas = idea_GTR_economic_problems
 
 recruit_character = GTR_golfball

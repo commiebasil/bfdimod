@@ -1,0 +1,309 @@
+focus_tree = {
+	id = GTR_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GTR
+		}
+	}
+	default = yes
+	focus = {
+		id = GTR_focus_manufacturability_of_the_plains
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = GTR_focus_the_question_of_economics
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = GTR_focus_The_tennis_ball_issue
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = GTR_focus_factory_support
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_the_question_of_economics
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = GTR_focus_expend_labaratory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_factory_support
+		}
+		mutually_exclusive = {
+			focus = GTR_focus_civ_factorys
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = GTR_focus_civ_factorys
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_factory_support
+		}
+		mutually_exclusive = {
+			focus = GTR_focus_expend_labaratory
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = GTR_focus_accepting_new_refugees
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_expend_labaratory
+			focus = GTR_focus_civ_factorys
+		}
+		mutually_exclusive = {
+			focus = GTR_focus_new_arm_equipment
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = GTR_focus_new_arm_equipment
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_civ_factorys
+			focus = GTR_focus_expend_labaratory
+		}
+		mutually_exclusive = {
+			focus = GTR_focus_accepting_new_refugees
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = GTR_focus_Accept_the_wrong_objects
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_the_question_of_economics
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = GTR_focus_arms_factorys
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_factory_support
+			focus = GTR_focus_Accept_the_wrong_objects
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = GTR_focus_old_friends
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_the_question_of_economics
+			focus = GTR_focus_manufacturability_of_the_plains
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = GTR_focus_invite_to_the_position_of_Minister
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_old_friends
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = GTR_focus_the_board_of_GB
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_manufacturability_of_the_plains
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = GTR_focus_the_greatest_laboratory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_the_board_of_GB
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = GTR_focus_allow_TBF
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_The_tennis_ball_issue
+		}
+		mutually_exclusive = {
+			focus = GTR_focus_supress_TB's_fallowers
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = GTR_focus_supress_TB's_fallowers
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_The_tennis_ball_issue
+		}
+		mutually_exclusive = {
+			focus = GTR_focus_allow_TBF
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = GTR_focus_better_inf
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_allow_TBF
+			focus = GTR_focus_supress_TB's_fallowers
+		}
+		prerequisite = {
+			focus = GTR_focus_The_tennis_ball_issue
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = GTR_focus_inventions_in_industry
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_better_inf
+		}
+		mutually_exclusive = {
+			focus = GTR_focus_arms_research
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = GTR_focus_control_of_factory
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_inventions_in_industry
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = GTR_focus_arms_research
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_better_inf
+		}
+		mutually_exclusive = {
+			focus = GTR_focus_inventions_in_industry
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = GTR_focus_new_migrants
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_arms_research
+			focus = GTR_focus_inventions_in_industry
+		}
+		x = 24
+		y = 6
+
+	}
+	focus = {
+		id = GTR_focus_bad_TB_politics
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_inventions_in_industry
+			focus = GTR_focus_arms_research
+		}
+		prerequisite = {
+			focus = GTR_focus_new_migrants
+		}
+		x = 24
+		y = 7
+
+	}
+	focus = {
+		id = GTR_focus_purge_TBF
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_bad_TB_politics
+		}
+		mutually_exclusive = {
+			focus = GTR_focus_integrate_TBF
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = GTR_focus_integrate_TBF
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = GTR_focus_bad_TB_politics
+		}
+		mutually_exclusive = {
+			focus = GTR_focus_purge_TBF
+		}
+		x = 25
+		y = 8
+
+	}
+}

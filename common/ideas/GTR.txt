@@ -8,5 +8,14 @@ ideas = {
 				consumer_goods_factor = 0.02
 			}
 		}
+		idea_GTR_economic_problems = {
+			picture =  GTR_economic_problems
+			modifier = {
+				political_power_gain = 0.15
+				research_speed_factor = -0.05
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.1 
+			}
+		}
 	}
 }
