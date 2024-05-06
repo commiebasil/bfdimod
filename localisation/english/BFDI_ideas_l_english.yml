@@ -21,6 +21,7 @@
  idea_WGF_economical_devastation: "Economical devastation"
  idea_WGF_economical_devastation_desc: "Even during the times of calm in Goiky, the northwestern territories were not very famous for economic development. But today, after all the anarchy, the situation has worsened even more."
  idea_WGF_cooperation: "Cooperation"
+ idea_WGF_coinflip: "§YCoinflip§!"
  idea_WGF_calculator: "Calculator"
  idea_WGF_backpack: "Backpack"
  idea_WGF_backpack_desc: "One of those who returned after the expedition to Northern Goiky, Backpack, thanks to his geographical knowledge, was able to actually save the group and lead it to the coast. After his return, he became a people's favorite and, naturally, recognized the socialist system as the only true one for objects of Goiky."
@@ -48,6 +49,7 @@
  idea_GPG_dream_island_trauma_desc: "The Dream Island did not appear out of nowhere. A huge amount of funds were poured into this project, and a lot of funds came from Casland, from large and small investors. His disappearance dealt a huge blow to all objects of the continent, but here this trauma feels most strongly."
  idea_GPG_compensation: "Compensation payments"
  idea_GPG_battle_for_casland: "Battle for Casland"
+ idea_GPG_drawn_out_war: "Drawn-out war"
  idea_GPG_anti_democratic_propaganda: "Anti-democratic campaign"
  idea_GPG_anti_communist_propaganda: "Anti-communist campaign"
  idea_GPG_12_hours_working_day: "12-hours working day"
@@ -69,6 +71,14 @@
  
  idea_GSR_revolutionary_spirit: "Revolutionary spirit"
  idea_GSR_tireless_work: "Tireless work"
+ idea_GSR_military_communism: "§tMilitary Communism§!"
+ idea_GSR_anarchists_in_army: "Anarchists in army"
+ idea_GSR_army_repressions: "Army repressions"
+ idea_GSR_party_repressions: "Party repressions"
+ idea_GSR_slow_retirement: "Slow retirement"
+ idea_GSR_new_economic_policy: "§GNew Economic Policy§!"
+ idea_GSR_anarchist_propaganda: "Anarchist propaganda"
+ idea_GSR_syndicalism: "Syndicalism"
  
  idea_GFG_production: "2 Hours for Greater Good"
  
@@ -78,6 +88,7 @@
  idea_GGR_fascist_dictatorship: "Fascist dictatorship"
  idea_GGR_fascist_dictatorship_desc: "Snow plateau are historically quite a poor region of Goiky. After the onset of anarchy and the radicalization of society, the Großgoikysreich was formed here - a reactionary state of an open dictatorship, driven by ultramilitarism and nationalism. The segregation of 'wrong' objects according to many criteria is actively practiced - from the presence of upper limbs to size. Led by Snowball, the local government promotes ideas of expansionism and the physical destruction of the opposition."
  idea_GGR_anarchist_resistance: "Anarchist resistance"
+ idea_GGR_anarchist_resistance_desc: "§tWe cannot create new divisions unless we deal with anarchist resistance.§!"
  idea_GGR_woody: "Woody"
  idea_GGR_snowy_industry: "Snowy Industry"
  idea_GGR_segregation: "Segregation"

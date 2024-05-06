@@ -16,5 +16,78 @@ ideas = {
 				political_power_gain = -0.5
 			}
 		}
+		
+		idea_GSR_military_communism = {
+			picture = GSR_military_communism
+			modifier = {
+				consumer_goods_factor = 0.5
+				stability_factor = -0.1
+				war_support_factor = 0.1
+				recruitable_population = 0.05
+				political_power_gain = -0.25
+			}
+		}
+		
+		idea_GSR_anarchists_in_army = {
+			picture = GSR_anarchists_in_army
+			modifier = {
+				army_org_factor = -0.1
+				army_morale_factor = -0.1
+				experience_gain_army_factor = -0.25
+				land_doctrine_cost_factor = 0.1
+			}
+		}
+		
+		idea_GSR_army_repressions = {
+			picture = GSR_army_repressions
+			modifier = {
+				army_org_factor = -0.1
+				experience_gain_army_factor = -0.5
+				promote_cost_factor = 0.5
+				stability_weekly = 0.005
+			}
+		}
+		
+		idea_GSR_party_repressions = {
+			picture = GSR_party_repressions
+			modifier = {
+				political_power_factor = -0.5
+				stability_weekly = 0.005
+			}
+		}
+		
+		idea_GSR_slow_retirement = {
+			picture = GSR_slow_retirement
+			modifier = {
+				consumer_goods_factor = -0.25
+				production_speed_buildings_factor = -0.25
+				stability_weekly = 0.005
+			}
+		}
+		
+		idea_GSR_new_economic_policy = {
+			picture = GSR_new_economic_policy
+			modifier = {
+				consumer_goods_factor = 0.2
+				political_power_gain = -0.25
+			}
+		}
+		
+		idea_GSR_anarchist_propaganda = {
+			picture = GSR_anarchist_propaganda
+			modifier = {
+				neutrality_drift = 0.1
+				stability_weekly = -0.005
+			}
+		}
+		
+		idea_GSR_syndicalism = {
+			picture = GSR_syndicalism
+			modifier = {
+				consumer_goods_factor = -0.2
+				production_speed_buildings_factor = 0.1
+				stability_factor = -0.1
+			}
+		}
 	}
 }

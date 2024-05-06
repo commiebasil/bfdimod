@@ -40,7 +40,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = button
-			spriteType = GFX_button_221x34
+			spriteType = GFX_superevent_button
 			position = { x = 250 y = 415 }
 			clicksound = click_close
 			buttonText = [SUPEREVENTS_BUTTON]

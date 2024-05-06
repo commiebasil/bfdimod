@@ -34,6 +34,9 @@ set_popularities = {
 	neutrality = 25
 }
 
+set_stability = 0.2
+set_war_support = 0
+
 add_ideas = idea_GPG_questionable_future
 add_ideas = idea_GPG_factionalism
 add_dynamic_modifier = { modifier = idea_GPG_dream_island_trauma }
@@ -91,15 +94,4 @@ recruit_character = GPG_tree
 
 add_ideas = undisturbed_isolation
 
-random_list = {
-    30 = {
-        set_country_flag = stability_save_path
-    }
-    40 = {
-        set_country_flag = civil_war_path
-    }
-    30 = {
-        set_country_flag = fries_path
-    }
-}
 

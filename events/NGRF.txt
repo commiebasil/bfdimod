@@ -299,3 +299,41 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = WGF_event.18
+	title = WGF_event.18.t
+    desc = WGF_event.18.desc
+	picture = GFX_WGF_event18
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.18.a
+		add_advisor_role = {
+			character = WGF_ruby
+			advisor = {
+				slot = political_advisor
+				idea_token = idea_WGF_ruby
+				ledger = army
+				traits = { silent_workhorse }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = WGF_event.19
+	title = WGF_event.19.t
+    desc = WGF_event.19.desc
+	picture = GFX_WGF_event9
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.19.a
+		add_stability = -0.5
+		add_war_support = -0.5
+		add_political_power = -500
+	}
+}

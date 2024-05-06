@@ -586,9 +586,12 @@ focus_tree = {
 			custom_effect_tooltip = l_GPG_lawnland
 			set_country_flag = lawnland_decisions_opened
 			hidden_effect = {
-				news_event = {
-					id = bfdinews.20
-					days = 3
+				every_possible_country = {
+					limit = { is_ai = no }
+					news_event = {
+						id = bfdinews.20
+						days = 3
+					}
 				}
 				country_event = {
 					id = GPG_event.34

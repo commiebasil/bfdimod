@@ -41,5 +41,18 @@ ideas = {
 				experience_gain_army = 0.05
 			}
 		}
+		idea_WGF_coinflip = {
+			picture = WGF_coinflip
+			targeted_modifier = {
+				tag = GMD
+				attack_bonus_against = 1
+			}
+			on_remove = {
+				if = {
+					limit = { country_exists = GMD }
+					country_event = WGF_event.19
+				}
+			}
+		}
 	}
 }

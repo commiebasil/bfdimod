@@ -167,7 +167,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			news_event = bfdinews.3
+			hidden_effect = {
+				every_possible_country = {
+					limit = { is_ai = no }
+					news_event = bfdinews.3
+				}
+			}
 			add_ideas = idea_WGF_peoples_object_show
 		}
 	}
@@ -322,7 +327,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			news_event = bfdinews.4
+			hidden_effect = {
+				every_possible_country = {
+					limit = { is_ai = no }
+					news_event = bfdinews.4
+				}
+			}
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
@@ -793,6 +803,10 @@ focus_tree = {
 				declare_war_on = {
 					target = GMD
 					type = annex_everything
+				}
+				add_timed_idea = {
+					idea = idea_WGF_coinflip
+					days = 210
 				}
 				country_event = WGF_event.14
 				set_country_flag = operation_started

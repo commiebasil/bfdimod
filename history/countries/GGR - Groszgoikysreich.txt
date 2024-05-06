@@ -88,6 +88,9 @@ recruit_character = GGR_grassy
 recruit_character = GGR_woody
 recruit_character = GGR_crayon
 
+country_lock_all_division_template = yes
+
+
 
 
 

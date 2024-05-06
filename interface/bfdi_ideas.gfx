@@ -65,6 +65,19 @@ spriteTypes = {
 		name = GFX_idea_WGF_cooperation
 		texturefile = gfx/interface/ideas/idea_WGF_cooperation.dds
 	}
+	spriteType = {
+		name = GFX_idea_WGF_ruby
+		texturefile = gfx/interface/ideas/idea_WGF_ruby.dds
+	}
+	frameAnimatedSpriteType = {
+		name = GFX_idea_WGF_coinflip
+		texturefile = gfx/interface/ideas/idea_WGF_coinflip.dds
+		noOfFrames = 9
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = no
+	}
 	
 	spriteType = {
 		name = GFX_idea_DPZ_defenders_on_paper
@@ -230,6 +243,38 @@ spriteTypes = {
 		texturefile = gfx/interface/ideas/idea_GSR_tireless_work.dds
 	}
 	spriteType = {
+		name = GFX_idea_GSR_military_communism
+		texturefile = gfx/interface/ideas/idea_GSR_military_communism.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_anarchists_in_army
+		texturefile = gfx/interface/ideas/idea_GSR_anarchists_in_army.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_army_repressions
+		texturefile = gfx/interface/ideas/idea_GSR_army_repressions.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_party_repressions
+		texturefile = gfx/interface/ideas/idea_GSR_party_repressions.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_slow_retirement
+		texturefile = gfx/interface/ideas/idea_GSR_slow_retirement.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_new_economic_policy
+		texturefile = gfx/interface/ideas/idea_GSR_new_economic_policy.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_anarchist_propaganda
+		texturefile = gfx/interface/ideas/idea_GSR_anarchist_propaganda.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_syndicalism
+		texturefile = gfx/interface/ideas/idea_GSR_syndicalism.dds
+	}
+	spriteType = {
 		name = GFX_idea_GSR_bottle
 		texturefile = gfx/interface/ideas/idea_GSR_bottle.dds
 	}
@@ -321,9 +366,5 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_idea_YFC_no_more_advertisements_foundation
 		texturefile = gfx/interface/ideas/idea_YFC_no_more_advertisements_foundation.dds
-	}
-	spriteType = {
-		name = GFX_idea_GTR_economic_problems
-		texturefile = gfx/interface/ideas/idea_GTR_economic_problems.dds
 	}
 }

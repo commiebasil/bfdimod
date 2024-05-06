@@ -424,3 +424,20 @@ news_event = {
 		name = bfdinews.20.a
 	}
 }
+
+news_event = {
+	id = bfdinews.21
+	title = bfdinews.21.t
+	desc = bfdinews.21.desc
+	picture = GFX_bfdinews21
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = bfdinews.21.a
+	}
+}

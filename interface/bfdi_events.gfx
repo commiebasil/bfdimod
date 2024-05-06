@@ -97,6 +97,10 @@ SpriteTypes = {
 		name = GFX_WGF_event17
 		texturefile = gfx/event_pictures/WGF_event17.dds
 	}
+	spriteType = {
+		name = GFX_WGF_event18
+		texturefile = gfx/event_pictures/WGF_event18.dds
+	}
 	
 	
 	spriteType = {
@@ -316,6 +320,27 @@ SpriteTypes = {
 		name = GFX_GSR_event1
 		texturefile = gfx/event_pictures/GSR_event1.dds
 	}
+	spriteType = {
+		name = GFX_GSR_event2
+		texturefile = gfx/event_pictures/GSR_event2.dds
+	}
+	spriteType = {
+		name = GFX_GSR_event3
+		texturefile = gfx/event_pictures/GSR_event3.dds
+	}
+	frameAnimatedSpriteType = {
+		name = GFX_GSR_event4
+		texturefile = gfx/event_pictures/GSR_event4.dds
+		noOfFrames = 15
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = GFX_GSR_event6
+		texturefile = gfx/event_pictures/GSR_event6.dds
+	}
 	
 	
 	spriteType = {
@@ -399,5 +424,9 @@ SpriteTypes = {
 	spriteType = {
 		name = GFX_bfdinews20
 		texturefile = gfx/event_pictures/bfdinews20.dds
+	}
+	spriteType = {
+		name = GFX_bfdinews21
+		texturefile = gfx/event_pictures/bfdinews21.dds
 	}
 }

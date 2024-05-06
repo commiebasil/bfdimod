@@ -55,7 +55,7 @@ gpg_civil_war = {
 	load_focus_tree = GPG_CW_focus_tree
 	GSR = {
 		delete_unit_template_and_units = {
-			division_template = "State partol"
+			division_template = "State patrol"
 			disband = no
 		}
 		load_oob = GSR_CW
@@ -78,7 +78,7 @@ gpg_civil_war = {
 	}
 	GDR = {
 		delete_unit_template_and_units = {
-			division_template = "State partol"
+			division_template = "State patrol"
 			disband = no
 		}
 		load_oob = GDR_CW
@@ -101,7 +101,7 @@ gpg_civil_war = {
 	}
 	GFG = {
 		delete_unit_template_and_units = {
-			division_template = "State partol"
+			division_template = "State patrol"
 			disband = no
 		}
 		if = {

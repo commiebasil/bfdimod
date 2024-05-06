@@ -82,9 +82,12 @@ country_event = {
 				remove_state_core = 13
 				remove_state_core = 181
 			}
-			news_event = {
-					id = bfdinews.2
-					random_hours = 12
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = {
+						id = bfdinews.2
+						random_hours = 12
+				}
 			}
 			set_global_flag = island_dissapeared
 			set_victory_points = {
@@ -164,8 +167,7 @@ country_event = {
 			11 = { add_manpower = 19511 }
 			173 = { add_manpower = 74922 }
 			15 = { add_manpower = 52916 }
-			209 = { add_manpower = 67234 }
-			214 = { add_manpower = 27234 }
+			209 = { add_manpower = 91555 }
 			85 = { add_manpower = 30020 }
 			country_event = {
 				id = GOI_hidden_event.1
@@ -434,6 +436,8 @@ country_event = {
 			8 = { set_demilitarized_zone = no }
 			145 = { set_demilitarized_zone = no }
 			28 = { set_demilitarized_zone = no }
+			
+			country_lock_all_division_template = yes
 		}
 		GOI = {
 			remove_state_core = 206
@@ -455,17 +459,13 @@ country_event = {
     immediate = {
 		GTR = {
 			transfer_state = 209
-			transfer_state = 214
 			
 			add_state_core = 209
-			add_state_core = 214
 			
 			209 = { set_demilitarized_zone = no }
-			214 = { set_demilitarized_zone = no }
 		}
 		GOI = {
 				remove_state_core = 209
-				remove_state_core = 214 
 		}
 	}
 }

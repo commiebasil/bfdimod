@@ -18,3 +18,7 @@ GFG_government = {
 	color = rgb { 24 46 1 }
 	color_ui = rgb { 24 46 1 }
 }
+GSR_anarchist = {
+	color = rgb { 36 0 0 }
+	color_ui = rgb { 36 0 0 }
+}

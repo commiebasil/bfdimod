@@ -8,4 +8,11 @@ spriteTypes = {
 		name = GFX_superevent_dream_island_dissapear
 		texturefile = gfx/superevents/superevent_dream_island_dissapear.dds
 	}
+	
+	spriteType = {
+		name = GFX_superevent_button
+		texturefile = gfx/interface/superevent_button.dds
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }

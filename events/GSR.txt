@@ -13,3 +13,132 @@ country_event = {
 		add_political_power = 25
 	}
 }
+
+country_event = {
+	id = GSR_event.2
+	title = GSR_event.2.t
+	desc = GSR_event.2.desc
+	picture = GFX_GSR_event2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.2.a
+		complete_national_focus = GSR_focus_successful_revolution
+	}
+	option = {
+		name = GSR_event.2.b
+		complete_national_focus = GSR_focus_objects_liberation
+	}
+}
+
+country_event = {
+	id = GSR_event.3
+	title = GSR_event.3.t
+	desc = GSR_event.3.desc
+	picture = GFX_GSR_event3
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.3.a
+		custom_effect_tooltip = l_GSR_gelatin_retires
+		hidden_effect = { retire_character = GSR_gelatin }
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = GSR_event.4
+	title = GSR_event.4.t
+	desc = GSR_event.4.desc
+	picture = GFX_GSR_event4
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.4.a
+		add_popularity  = {
+			ideology = communism
+			popularity = 1
+		}
+		add_trait = {
+			 character = GSR_ruby
+			 ideology = leninism
+			 trait = dictator
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = GPG_banned_party
+			name = GPG_banned_party
+		}
+	}
+}
+
+country_event = {
+	id = GSR_event.5
+	title = GSR_event.5.t
+	desc = GSR_event.5.desc
+	picture = GFX_GSR_event4
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.5.a
+		remove_ideas = idea_GSR_anarchists_in_army
+		set_cosmetic_tag = GSR_anarchist
+		set_politics = {
+			ruling_party = neutrality
+			name = GSR_neutrality_afterwin
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.5
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = GPG_banned_party
+			name = GPG_banned_party
+		}
+		custom_effect_tooltip = l_GSR_ruby_runs_away
+		add_stability = -0.05
+		hidden_effect = {
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = bfdinews.21
+					days = 5
+				}
+			}
+			retire_character = GSR_ruby
+			#50% chance of Ruby survives :D
+			WGF = {
+				if = {
+					limit = { exists = yes }
+					random = {
+						chance = 50
+						country_event = {
+							id = WGF_event.18
+							days = 30
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = GSR_event.6
+	title = GSR_event.6.t
+	desc = GSR_event.6.desc
+	picture = GFX_GSR_event6
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.6.a
+		complete_national_focus = GSR_focus_first_congress_ruby
+		mark_focus_tree_layout_dirty = yes
+	}
+}

@@ -12,12 +12,44 @@ country_event = {
 	option = {
 		name = GPG_event.1.a
 		add_political_power = 25
+		hidden_effect = {
+			if = {
+				limit = { is_ai = no }
+				random_list = {
+					30 = {
+						set_country_flag = stability_save_path
+					}
+					40 = {
+						set_country_flag = civil_war_path
+					}
+					30 = {
+						set_country_flag = fries_path
+					}
+				}
+			}
+		}
 	}
 
 	option = {
 		name = GPG_event.1.b
 		add_political_power = 25
 		country_event = GPG_event.2
+		hidden_effect = {
+			if = {
+				limit = { is_ai = no }
+				random_list = {
+					30 = {
+						set_country_flag = stability_save_path
+					}
+					40 = {
+						set_country_flag = civil_war_path
+					}
+					30 = {
+						set_country_flag = fries_path
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -94,10 +126,13 @@ country_event = {
 				id = GPG_event.7
 				days = 20
 			}
-			news_event = {
-				id = bfdinews.10
-				days = 5
-				random_hours = 12
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = bfdinews.10
+					days = 5
+					random_hours = 12
+				}
 			}
 			set_variable = { var_current_cabinet_leader = 2 }
 		}
@@ -669,10 +704,13 @@ country_event = {
 				}
 			}
 			else = {
-				news_event = {
-					id = bfdinews.11
-					days = 5
-					random_hours = 12
+				every_possible_country = {
+					limit = { is_ai = no }
+					news_event = {
+						id = bfdinews.11
+						days = 5
+						random_hours = 12
+					}
 				}
 				country_event = {
 					id = GPG_event.23
@@ -756,7 +794,10 @@ country_event = {
 		set_country_flag = congress_ended
 		set_country_flag = second_congress_badend
 		mark_focus_tree_layout_dirty = yes
-		retire_character = GPG_recommended_characters_council
+		remove_country_leader_role = {
+			character = GPG_recommended_characters_council
+			ideology = centrism
+		}
 		add_country_leader_role = {
 			character = GPG_fries
 			promote_leader = yes
@@ -785,9 +826,12 @@ country_event = {
 			retire_character = GPG_firey_jr
 			retire_character = GPG_gelatin
 			retire_character = GPG_tree
-			news_event = {
-				id = bfdinews.12
-				days = 3
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = bfdinews.12
+					days = 3
+				}
 			}
 			country_event = {
 				id = GPG_event.19
@@ -850,14 +894,14 @@ country_event = {
 			goto_state = 8
 		}
 	}
-	#option = {
-	#	name = GPG_event.20.b
-	#	GSR = { change_tag_from = GPG }
-	#	hidden_effect = {
-	#		gpg_civil_war = yes
-	#		goto_state = 10 
-	#	}
-	#}
+	option = {
+		name = GPG_event.20.b
+		GSR = { change_tag_from = GPG }
+		hidden_effect = {
+			gpg_civil_war = yes
+			goto_state = 10 
+		}
+	}
 	#option = {
 	#	name = GPG_event.20.c
 	#	GDR = { change_tag_from = GPG }
@@ -902,7 +946,10 @@ country_event = {
 		mark_focus_tree_layout_dirty = yes
 		206 = { set_demilitarized_zone = yes }
 		remove_mission = GPG_mission_second_congress
-		retire_character = GPG_recommended_characters_council
+		remove_country_leader_role = {
+			character = GPG_recommended_characters_council
+			ideology = centrism
+		}
 		add_country_leader_role = {
 			character = GPG_transitional_government
 			promote_leader = yes
@@ -930,10 +977,13 @@ country_event = {
 			retire_character = GPG_firey_jr
 			retire_character = GPG_gelatin
 			retire_character = GPG_tree
-			news_event = {
-				id = bfdinews.12
-				days = 5
-				random_hours = 12
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = bfdinews.12
+					days = 5
+					random_hours = 12
+				}
 			}
 			country_event = {
 				id = GPG_event.19
@@ -958,7 +1008,10 @@ country_event = {
 		set_country_flag = second_congress_badend
 		mark_focus_tree_layout_dirty = yes
 		remove_mission = GPG_mission_second_congress
-		retire_character = GPG_recommended_characters_council
+		remove_country_leader_role = {
+			character = GPG_recommended_characters_council
+			ideology = centrism
+		}
 		add_country_leader_role = {
 			character = GPG_transitional_government
 			promote_leader = yes
@@ -986,10 +1039,13 @@ country_event = {
 			retire_character = GPG_firey_jr
 			retire_character = GPG_gelatin
 			retire_character = GPG_tree
-			news_event = {
-				id = bfdinews.12
-				days = 5
-				random_hours = 12
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = bfdinews.12
+					days = 5
+					random_hours = 12
+				}
 			}
 			country_event = {
 				id = GPG_event.19
@@ -1075,9 +1131,12 @@ country_event = {
 			days = 5
 		}
 		hidden_effect = {
-			news_event = {
-				id = bfdinews.14
-				days = 2
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = bfdinews.14
+					days = 2
+				}
 			}
 		}
 	}
@@ -1133,7 +1192,24 @@ country_event = {
 			retire_character = GPG_taco
 			retire_character = GPG_barf_bag
 			retire_character = GPG_book
-			GDR = { load_oob = GDR_CW }
+			GDR = { 
+				load_oob = GDR_CW
+				set_country_flag = casland_uprising
+				if = {
+					limit = { country_exists = GSR }
+					declare_war_on = {
+						target = GSR
+						type = annex_everything
+					}
+				}
+				if = {
+					limit = { country_exists = GFG }
+					declare_war_on = {
+						target = GFG
+						type = annex_everything
+					}
+				}
+			}
 		}
 	}
 }
@@ -1172,7 +1248,24 @@ country_event = {
 			retire_character = GPG_firey_jr
 			retire_character = GPG_tree
 			retire_character = GPG_gelatin
-			GSR = { load_oob = GSR_CW }
+			GSR = {
+				load_oob = GSR_CW
+				set_country_flag = casland_uprising
+				if = {
+					limit = { country_exists = GDR }
+					declare_war_on = {
+						target = GDR
+						type = annex_everything
+					}
+				}
+				if = {
+					limit = { country_exists = GFG }
+					declare_war_on = {
+						target = GFG
+						type = annex_everything
+					}
+				}
+			}
 		}
 	}
 }
@@ -1224,7 +1317,24 @@ country_event = {
 			else = {
 				retire_character = GPG_nickel
 			}
-			GFG = { load_oob = GFG_CW1 }
+			GFG = {
+				load_oob = GFG_CW1
+				set_country_flag = casland_uprising
+				if = {
+					limit = { country_exists = GDR }
+					declare_war_on = {
+						target = GDR
+						type = annex_everything
+					}
+				}
+				if = {
+					limit = { country_exists = GSR }
+					declare_war_on = {
+						target = GSR
+						type = annex_everything
+					}
+				}
+			}
 		}
 	}
 }
@@ -1677,6 +1787,7 @@ country_event = {
 		}
 		GFG = { 
 			inherit_technology = GPG
+			country_lock_all_division_template = yes
 			add_ideas = idea_GPG_battle_for_casland
 		}
 	}
@@ -1705,10 +1816,12 @@ country_event = {
 		}
 		GSR = { 
 			inherit_technology = GPG
+			country_lock_all_division_template = yes
 			add_ideas = idea_GPG_battle_for_casland
 		}
 		GDR = {
 			inherit_technology = GPG
+			country_lock_all_division_template = yes
 			add_ideas = idea_GPG_battle_for_casland
 		}
 	}

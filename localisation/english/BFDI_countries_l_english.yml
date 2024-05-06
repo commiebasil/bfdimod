@@ -44,9 +44,11 @@
  GDR_republic: "Goiky Democratic Republic"
  
  GSR: "Toilers Front"
- GSR_DEF: "GSR"
+ GSR_DEF: "GPSR"
  GSR_ADJ: "Goikish"
- GSR_post_cw: "GPSR"
+ GSR_post_cw: "Greeny Plains Socialist Republic"
+ GSR_anarchist: "Union of Anarchist Councils"
+ GSR_anarchist_DEF: "UAC"
  
  GFG: "Iron Hand"
  GFG_DEF: "Iron Hand"

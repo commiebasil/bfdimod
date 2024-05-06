@@ -179,16 +179,6 @@ country_event = {
 	option = {
 		name = GGR_event.7.a
 		custom_effect_tooltip = l_GGR_anarchists_decisions_open
-		hidden_effect = {
-			#Making it easier for the silly bot
-			if = {
-				limit = { is_ai = yes }
-				add_days_mission_timeout = {
-					mission = GGR_anarchists_mission
-					days = 300
-				}
-			}
-		}
 	}
 }
 
@@ -220,7 +210,10 @@ country_event = {
 				inherit_technology = GGR 
 				change_tag_from = GGR
 			}
-			news_event = bfdinews.7
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = bfdinews.7
+			}
 		}
 	}
 }
@@ -236,6 +229,8 @@ country_event = {
 	option = {
 		name = GGR_event.9.a
 		custom_effect_tooltip = l_GGR_focus_burn_the_underground
+		custom_effect_tooltip = l_GPG_allows_divisions_training
+		country_lock_all_division_template = no
 		remove_mission = GGR_anarchists_mission
 		set_country_flag = resistance_mechanic_done
 		add_to_variable = { var_GGR_anarchists_bf = 0.2 }

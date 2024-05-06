@@ -464,22 +464,6 @@ focus_tree = {
 			custom_effect_tooltip = l_GPG_improves_army
 			add_to_variable = { var_GPG_armyagony_ao = 0.05 }
 			add_to_variable = { var_GPG_armyagony_eg = 0.25 }
-			add_manpower = 20000
-			delete_unit_template_and_units = {
-				division_template = "State patrol"
-				disband = no
-			}
-			division_template = {
-				name = "Goiky Infantry Division"
-				regiments = {
-					infantry = { x = 0 y = 0 }
-					infantry = { x = 0 y = 1 }
-					infantry = { x = 0 y = 2 }
-					infantry = { x = 0 y = 3 }
-					infantry = { x = 1 y = 0 }
-					infantry = { x = 1 y = 1 }
-				}
-			}
 			8 = {
 				create_unit = {
 					division = "name = \"Goiky Infantry Division\" division_template = \"Goiky Infantry Division\" start_experience_factor = 0.5 start_manpower_factor = 0.3"
@@ -605,9 +589,12 @@ focus_tree = {
 			custom_effect_tooltip = l_GPG_lawnland
 			set_country_flag = lawnland_decisions_opened
 			hidden_effect = {
-				news_event = {
-					id = bfdinews.20
-					days = 3
+				every_possible_country = {
+					limit = { is_ai = no }
+					news_event = {
+						id = bfdinews.20
+						days = 3
+					}
 				}
 				country_event = {
 					id = GPG_event.34

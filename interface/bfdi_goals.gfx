@@ -852,6 +852,81 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_focus_GSR_triumphant_victory.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_focus_GSR_successful_revolution"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_successful_revolution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_struggle_with_anarchists"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_struggle_with_anarchists.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_slow_retirement"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_slow_retirement.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_army_arrests"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_army_arrests.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_congress_condemnation"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_congress_condemnation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_sweets_monopoly"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_sweets_monopoly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_casland_process"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_casland_process.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_new_economic_policy"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_new_economic_policy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_objects_liberation"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_objects_liberation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_anarchists_consolidation"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_anarchists_consolidation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_embrace_syndicalism"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_embrace_syndicalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_anarchist_propaganda"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_anarchist_propaganda.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_objects_communities"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_objects_communities.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_first_congress_ruby"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_first_congress_ruby.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_peoples_constitution"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_peoples_constitution.dds"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_focus_GFG_indivisible_goiky"

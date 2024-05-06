@@ -98,6 +98,14 @@
  WGF_event.17.t: "Relations break with the Provisional Government"
  WGF_event.17.desc: "We received a telegram from Casland. As a result of an obviously fabricated investigation, our cells were discovered in the ranks of the local Communist Party. This was the reason for ending diplomatic relations with us."
  WGF_event.17.a: "Once we enter Casland, they won't even be able to send a surrender request?"
+ 
+ WGF_event.18.t: "A gift from Casland"
+ WGF_event.18.desc: "After the sad news about the falling of the socialist regime in Casland, our government didn't count on anything. But, suddenly, a report was received about defectors crossing the border from the Defense Zone. The border trespasser wrapped in rags and his accomplices offered their services to us."
+ WGF_event.18.a: "Welcome."
+ 
+ WGF_event.19.t: "Operation failure"
+ WGF_event.19.desc: "The initial plan to defeat Coiny within six months failed. This is causing serious upheaval in our society and increasing distrust in the government. Our resources have been largely depleted."
+ WGF_event.19.a: "We need to hurry."
  #Reich
  GGR_event.1.t: "Behind the ridge"
  GGR_event.1.desc: "The Snowy Plateau is a wonderful region with beautiful objects, although it is quite poor. It has some features, for example: Its population, due to its isolation, is quite united and has a uniform, special culture, unlike other regions of South Goyka. It is particularly autonomous and does not depend so much on foreign trade..."
@@ -359,6 +367,27 @@
  GSR_event.1.desc: "The workers at one of the iron mines cheered as they listened to Ruby's speech. Finally, they were freed from 12 hours of slavery in the caves. 'But this is not the end!' - Ruby exclaimed. Objects must continue to fight to maintain their gains."
  GSR_event.1.a: "And the Red Banner will fly in Casland!"
  
+ GSR_event.2.t: "What's now?"
+ GSR_event.2.desc: "The revolutionary forces led by Ruby were able to defeat the reactionaries in the west and established their rule over the entire Casland. But, during the civil war, the army was filled with volunteer armed forces, driven by anarchist ideals, which began to demand open representation for themselves. Which path will the government choose?"
+ GSR_event.2.a: "Ruby gives the green light to crush the voluntarists!"
+ GSR_event.2.b: "The communes are seizing the initiative!"
+ 
+ GSR_event.3.t: "Arrest of Gelatin"
+ GSR_event.3.desc: "A black car arrived absolutely suddenly. The ambitious Gelatin had long been suspected of sponsoring the underground activities of anarchists. Early the next morning, all local steakhouses came under state control."
+ GSR_event.3.a: "No one saw him again."
+ 
+ GSR_event.4.t: "Defeat of the Anarchists"
+ GSR_event.4.desc: "The Casland trial showed the full essence of the anarchist movement and allowed us to finally crush these revisionists. All serious counter-revolutionary units in our rear were defeated, and now Casland can sleep peacefully."
+ GSR_event.4.a: "Long live the Revolution!"
+ 
+ GSR_event.5.t: "Anarchists in Casland!"
+ GSR_event.5.desc: "As a result of a short clash with overwhelming numerical superiority, the anarchist detachments drove the revolutionary brigades out of Casland and other cities of the Greeny Plains. Anarchist councils proclaim their power throughout the territory of the state. Anarchy comes to Casland."
+ GSR_event.5.a: "But this time, anarchy will rescue this country."
+ 
+ GSR_event.6.t: "Preparation for the first congress"
+ GSR_event.6.desc: "The situation in the Greeny Plains has calmed down a bit. The socialist system has finally established itself in Casland, and the time has come to give our objects real reforms. To this end, the first congress of the reformed Greeny Plains Communist Party begins, which should solve the most serious questions of our government."
+ GSR_event.6.a: "Let's get ready!"
+ 
  #GFG
  GFG_event.1.t: "Stormtroopers in Casland"
  GFG_event.1.desc: "The Transitional Government has shown its complete inability to resist the parasites from the council. In this regard, a government of National Revival was created, which would put an end to the arbitrariness of the national traitors with bayonets."
@@ -450,3 +479,7 @@
  bfdinews.20.t: "Tensions in Greeny Plains!"
  bfdinews.20.desc: "As a result of the instability in Casland, the Greeny Plains Republic annexed the border areas and the city of Lawnland in order to protect its borders. Now, with the restoration of a stable government in the heartland of Goiky, there is a significant deterioration in relations between the governments. Negotiations on the region are likely to begin soon."
  bfdinews.20.a: "Hope that there will be no war."
+ 
+ bfdinews.21.t: "Anarchists take power in Casland!"
+ bfdinews.21.desc: "After the victory of the Toilers Front in the civil war in the Greeny Plains, the idea that stability had finally arrived in the region was firmly established. But suddenly, news spread across the continent: rebellious unknown militants, with enormous numerical superiority, swept away the Ruby regime and declared an 'anarchic system'. So far, nothing is known about the new government, and the atmosphere in the heart of the region is tense. We will monitor developments."
+ bfdinews.21.a: "Another split?"

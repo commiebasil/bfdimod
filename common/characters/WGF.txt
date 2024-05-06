@@ -74,4 +74,9 @@ characters = {
 			visible = { hidden_trigger = { has_country_flag = WGF_expeditors_resсued } }
 		}
 	}
+	
+	WGF_ruby = {
+		name = GPG_ruby
+		portraits = { civilian = { small = GFX_idea_WGF_ruby } }
+	}
 }

@@ -7,6 +7,14 @@ characters = {
 		}
 	}
 	
+	GSR_anarchist_council = {
+		name = GSR_anarchist_council
+		portraits = { civilian = { large = GFX_GSR_anarchist_council } }
+		country_leader = {
+			ideology = anarchism
+		}
+	}
+	
 	GSR_firey_jr = {
 		name = GPG_firey_jr
 		portraits = { civilian = { small = GFX_idea_GPG_firey_jr } }
@@ -15,7 +23,6 @@ characters = {
 			idea_token = idea_GSR_firey_jr
 			traits = { popular_figurehead }
 			available = {
-				has_government = communism
 				has_country_flag = cw_done
 			}
 		}
@@ -29,7 +36,6 @@ characters = {
 			idea_token = idea_GSR_gelatin
 			traits = { ambitious_union_boss }
 			available = {
-				has_government = communism
 				has_country_flag = cw_done
 			}
 		}
@@ -43,7 +49,6 @@ characters = {
 			idea_token = idea_GSR_tree
 			traits = { financial_expert }
 			available = {
-				has_government = communism
 				has_country_flag = cw_done
 			}
 		}

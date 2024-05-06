@@ -234,7 +234,7 @@
  GPG_focus_congress_closing_desc: "The first congress was generally successful. The factions finally settled down and many issues of management and development were resolved. But everyone is eagerly awaiting the second congress, as fateful for the political system of the Central Goiky."
  
  GPG_focus_second_congress: "§YSecond Congress§!"
- GPG_focus_second_congress_desc: "Since the closing of the first congress... Many things have changed. The political crisis has escalated incredibly, and representatives of radical factions are already beginning to talk about a government coup. If we want to save the fragile Goikian democracy."
+ GPG_focus_second_congress_desc: "Since the closing of the first congress... Many things have changed. The political crisis has escalated incredibly, and representatives of radical factions are already beginning to talk about a government coup. If we want to save the fragile Goikian democracy, we need to make vital reforms."
  
  GPG_focus_clocks_dead: "[GPG_CLOCKSDEAD_FOCUS]"
  GPG_focus_clocks_dead_1: "All means are good"
@@ -565,6 +565,118 @@
  
  GSR_focus_triumphant_victory: "§RTriumphant Victory§!"
  GSR_focus_triumphant_victory_desc: "The victorious march of the revolution spread to the entire former territory of the Provisional Government and the reactionaries were defeated. This victory will go down in Goiky's history as the greatest impetus for the freedom of all objects."
+ 
+ #GSR FOCUSES
+ #GSR CW tree
+ GSR_focus_workers_revolution: "§RРабочая революция§!"
+ GSR_focus_workers_revolution_desc: "Ура! Рабочие шахт наконец-то сбросили с себя ярмо диктатуры капиталистов и чиновничества Временного Правительства! Но это только начало. Рабочим Гойки нужно разбить в последнем бою противников революции, стремящихся восстановить грабительский строй."
+ 
+ GSR_focus_toilers_dictatorship: "Диктатура Пролетариата"
+ GSR_focus_toilers_dictatorship_desc: "В эти тяжёлые дни за судьбы социализма, рабочие Гойки должны установить жёсткий контроль над любыми проявлениями оппозиции методами террора."
+ 
+ GSR_focus_red_army: "Красная Армия"
+ GSR_focus_red_army_desc: "После того как временное правительство рухнуло и борьба перешла из подполья в настоящую линию фронта, пришло время переорганизовать рабочие батальоны в настоящую боеспособную армию."
+ 
+ GSR_focus_political_commissars: "Политические коммисары"
+ GSR_focus_political_commissars_desc: "Для поддержки боевого духа армии нам необходимы ячейки политического просвещения и надзора в каждой боевой единице. Такими ячейками выступят передовые обджекты-оппозиционеры добровольцы, которые хорошо показали себя во время подпольной борьбы."
+ 
+ GSR_focus_full_expropriation: "Полная Экспроприация"
+ GSR_focus_full_expropriation_desc: "Пришло время покончить с эксплуатацией обджектов. Все производственные и добыващие предприятия отныне перейдут в собственность рабочего правительства."
+ 
+ GSR_focus_well_screw_the_bayonets_ourselves: "...Мы сами прикрутим штыки!"
+ GSR_focus_well_screw_the_bayonets_ourselves_desc: "Никто не защитит рабочих, кроме их самих. Обджекты на заводах должны трудиться не покладая рук для защиты революции, а если нужно, взять своей же рукой собранную винтовку и пойти сражаться."
+ 
+ GSR_focus_triumphant_victory: "§RТоржественная Победа§!"
+ GSR_focus_triumphant_victory_desc: "Победное шествие революции распространилось на всю прежнюю территорию Временного Правительства и реакционеры оказались разгромлены. Эта победа войдёт в историю Гойки как величайший толчок к свободе всех обджектов."
+ 
+ #GSR post-CW tree
+ GSR_focus_successful_revolution: "§RSuccessful Revolution§!"
+ GSR_focus_successful_revolution_desc: "With big cost, the workers of Casland managed to take power into their own hands. But the Republic is in a very unstable position. It is necessary to defeat the remaining counter-revolutionary forces that lie dormant in the depths of our society."
+ 
+ GSR_focus_struggle_with_anarchists: "Struggle against anarchists"
+ GSR_focus_struggle_with_anarchists_desc: "Many objects who fought for revolutionary ideals side by side with us, after the victory of socialism, began to move into radicalism and leftist deviation. This is very destructive for our state."
+ 
+ GSR_focus_army_arrests: "Purge army"
+ GSR_focus_army_arrests_desc: "Army units are decaying every day under the influence of rotten propaganda. The party needs to crack down on this and arrest the instigators."
+ 
+ GSR_focus_congress_condemnation: "Purge party"
+ GSR_focus_congress_condemnation_desc: "And in the ranks of the Labor Front today there are many objects that sympathize with anarchists and schismatics. This infection must be uprooted."
+ 
+ GSR_focus_casland_process: "§YCasland Process§!"
+ GSR_focus_casland_process_desc: "Many anarchist cells throughout the country were opened. The time has come to bring the leaders of the conspiracy to trial."
+ 
+ GSR_focus_slow_retirement: "Slow transition"
+ GSR_focus_slow_retirement_desc: "Victory has been achieved. Objects are tired of wartime. The time has come to gradually move away from the practice of war communism and focus on improving the quality of life of our objects."
+ 
+ GSR_focus_sweets_monopoly: "Sweets monopoly"
+ GSR_focus_sweets_monopoly_desc: "According to Ruby’s proposal in the presidium, the state will introduce full control over the production and sale of sweet and sweetened products."
+ 
+ GSR_focus_new_economic_policy: "§7New Economic Policy§!"
+ GSR_focus_new_economic_policy_desc: "It's time to get rid of enormous military spendings and military communism."
+ 
+ GSR_focus_first_congress_ruby: "§YFirst Congress§!"
+ GSR_focus_first_congress_ruby_desc: ""
+ 
+ GSR_focus_peoples_constitution: "People's Constitution"
+ GSR_focus_peoples_constitution_desc: "'The first Constitution of the Goiky Republic' was filled with populism and lies. This entire document became a statement of the fact of the establishment of slavery and tyranny over the working objects of the Greeny Plains. Now, after the establishment of democracy in Casland, this document must be completely rewritten."
+ 
+ GSR_focus_article_17: "Article 17"
+ GSR_focus_article_17_desc: "'Every object in the Greeny Plains Socialist Republic has guaranteed rights to employment, house and food. This right is ensured by:\n\n1. Planned economy of the GPSR.\n\n.2 The socialist system of the state and the policy of universal equality.'"
+ 
+ GSR_focus_fabrics_conversion: "Fabrics conversion"
+ GSR_focus_fabrics_conversion_desc: "We no longer need such scale of military production. The time has come for the Republic to move on to the path of peaceful construction and provide our objects with the necessary goods."
+ 
+ GSR_focus_peoples_goods: "People's goods"
+ GSR_focus_peoples_goods_desc: "The best way to convince objects of the superiority of socialism is to give them the much-needed benefits of civilization, which they lost after the collapse of Goiky and the Provisional Government. We must develop peaceful production as much as we can."
+ 
+ GSR_focus_regional_development: "Regional development"
+ GSR_focus_regional_development_desc: "As a result of the civil war, the Casland area turned into a wasteland excavated by sappers. The time has come to put these regions in order and concentrate on their development."
+ 
+ GSR_focus_slow_down_casland: "Slow down Calsand"
+ GSR_focus_slow_down_casland_desc: "Even on the maps of the times of the united Goiky, the inequality of the regions of our current Republic is clearly visible: Casland, as an economic center, is much better developed than the outskirts. Now we need to slow down the development of Casland in favor of the surrounding provinces."
+ 
+ GSR_focus_planning_commitee: "Planning Commitee"
+ GSR_focus_planning_commitee_desc: "The logical result of our economic reforms would be the gathering of all planning authorities under one roof and the creation of a unified state economic administration."
+ 
+ GSR_focus_socialism_with_sugar_characters: "Socialism with sugar characters"
+ GSR_focus_socialism_with_sugar_characters_desc: "It's time to determine the path of our state towards the course of socialism. Our Great Chairman will help us in determining this path."
+ 
+ GSR_focus_cultural_revolution: "Cultural Revolution"
+ GSR_focus_cultural_revolution_desc: "First of all, it is necessary to discourage objects from having a dead, outdated vision of the world. Massive propaganda campaigns must touch every corner of our Great Commune."
+ 
+ GSR_focus_new_casland_object: "New Casland Object"
+ GSR_focus_new_casland_object_desc: "A citizen of our glorious Socialist State must have a new, better, socialist morality. It will eradicate all those vices that exist in the present object: individualism, philistinism, self-interest and other diseases of the present morality."
+ 
+ GSR_focus_the_only_right_way: "The Only Right Way"
+ GSR_focus_the_only_right_way_desc: "There is no other path to socialism other than what Ruby and the party dictate. Everything else is lies and revisionism."
+ 
+ GSR_focus_condemn_firey: "Condemn Firey"
+ GSR_focus_condemn_firey_desc: "The Revolutionary Front is a revisionist, conciliatory formation and poses no less a threat to us than the surrounding reactionary states. No deals with revisionists."
+ 
+ GSR_focus_great_chairman_ruby: "§tGreat Chairman Ruby§!"
+ GSR_focus_great_chairman_ruby_desc: "Ruby is the reflection and vanguard of revolutionary objects of Casland and all of Goiky! She will lead us forward under the socialist banner and defeat the reactionaries!\n\nLong live Ruby!\nLong live Ruby!\nLong live Ruby!"
+ 
+ GSR_focus_socialism_in_one_country: "Socialism in One Country"
+ GSR_focus_socialism_in_one_country_desc: "Unification of Goiky can wait. We must concentrate on the internal affairs of our Republic, the surrounding reactionary regimes will collapse themselves, seeing our great progress."
+ 
+ GSR_focus_take_what_ours: "§tOurs by Right§!"
+ GSR_focus_take_what_ours_desc: "The reactionaries in the north, the fascist dictatorship under the guise of 'democracy', cut off the Lawnland - an integral part of our Socialist Republic - from us. It is necessary to restore Lawnland to our composition, even if we have to carry the banner of the revolution all the way to the coast."
+ 
+ 
+ GSR_focus_objects_liberation: "§tObjects liberation§!"
+ GSR_focus_anarchists_consolidation_desc: "The time has come for the libertarian wing to openly declare itself before the state apparatus and speak at the party congress."
+ 
+ GSR_focus_anarchists_consolidation: "Consolidation"
+ GSR_focus_anarchists_consolidation_desc: "The time has come for the libertarian wing to openly declare itself before the state apparatus and speak at the party congress."
+ 
+ GSR_focus_anarchist_propaganda: "Voice of liberation"
+ GSR_focus_anarchist_propaganda_desc: "All conscious objects of the Greeny Plains must hear and be imbued with the free spirit of our revolution. To this end, teams of activists will spread the ideals of anarchism throughout Casland."
+ 
+ GSR_focus_embrace_syndicalism: "Embrace syndicalism"
+ GSR_focus_embrace_syndicalism_desc: "Partial transfer of power to trade unions and self-government in the workplace is the key to the victory of socialism!"
+ 
+ GSR_focus_objects_communities: "Objects Communities"
+ GSR_focus_objects_communities_desc: "There is nothing stronger than a power of collective! Today, Casland's communities must unite to fight the counter-revolution."
  
  #GFG FOCUSES
  #GFG CW tree

@@ -18,6 +18,13 @@ units = {
     }
 	division= {
         name = "Revolutionary brigade"
+        location = 5107 # Greenmine
+        division_template = "Revolutionary brigades"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.7
+    }
+	division= {
+        name = "Revolutionary brigade"
         location = 11149 # Democratic border
         division_template = "Revolutionary brigades"
         start_experience_factor = 0.5

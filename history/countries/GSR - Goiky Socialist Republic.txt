@@ -27,15 +27,16 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 15
-	neutrality = 3
+	democratic = 3
+	neutrality = 15
 	communism = 82
 }
 
-set_stability = 0.5
+set_stability = 0.4
 set_war_support = 0.5
 
 recruit_character = GSR_ruby
+recruit_character = GSR_anarchist_council
 recruit_character = GSR_firey_jr
 recruit_character = GSR_gelatin
 recruit_character = GSR_tree
