@@ -659,7 +659,7 @@
  GSR_focus_socialism_in_one_country: "Socialism in One Country"
  GSR_focus_socialism_in_one_country_desc: "Unification of Goiky can wait. We must concentrate on the internal affairs of our Republic, the surrounding reactionary regimes will collapse themselves, seeing our great progress."
  
- GSR_focus_take_what_ours: "§tOurs by Right§!"
+ GSR_focus_take_what_ours: "§YLawnland Question§!"
  GSR_focus_take_what_ours_desc: "The reactionaries in the north, the fascist dictatorship under the guise of 'democracy', cut off the Lawnland - an integral part of our Socialist Republic - from us. It is necessary to restore Lawnland to our composition, even if we have to carry the banner of the revolution all the way to the coast."
  
  
@@ -677,6 +677,37 @@
  
  GSR_focus_objects_communities: "Objects Communities"
  GSR_focus_objects_communities_desc: "There is nothing stronger than a power of collective! Today, Casland's communities must unite to fight the counter-revolution."
+ 
+ 
+ GSR_focus_first_coucils_congress: "§RFirst Councils Congress§!"
+ GSR_focus_first_coucils_congress_desc: ""
+ 
+ GSR_focus_deconstruction: "Deconstruction"
+ GSR_focus_deconstruction_desc: "The state apparatus, which stands on the shoulders of our objects, which stifles the free impulse of the Greeny Plains, must certainly be destroyed. The earlier the better."
+ 
+ GSR_focus_crush_mineco: "§YMinistry of Economics§!"
+ GSR_focus_crush_mineco_desc: "Taxes, excessive duties, and suffocating government policies act on objects like a deadly poison. It must stop poisoning our free society."
+ 
+ GSR_focus_crush_foraff: "§YForeign Affairs§!"
+ GSR_focus_crush_foraff_desc: "We do not need diplomatic ties with the counter-revolution and those who want to take away our freedom. Consequently, the Ministry of Foreign Affairs must certainly die out as a useless construct."
+ 
+ GSR_focus_crush_police: "§YLaw-Enforcement§!"
+ GSR_focus_crush_police_desc: "The means of suppressing the free morals of the Greeny Plains objects must be ruthlessly destroyed. No one will protect us better than ourselves, and we do not need government help."
+ 
+ GSR_focus_crush_parliament: "§YParliament§!"
+ GSR_focus_crush_parliament_desc: "Congress, Council, whatever this phenomenon is called, it does not give simple objects anything other than the behind-the-scenes dictatorship of several dozen people. We don't need representation, the only true democracy is anarchist democracy."
+ 
+ GSR_focus_crush_army: "§YArmy§!"
+ GSR_focus_crush_army_desc: "State armed forces are exactly the same instrument of suppression as the police. It is necessary to deal with it without delay and transfer the burden of defense to the masses."
+ 
+ GSR_focus_we_dont_need_constitution: "We don't need a Constitution"
+ GSR_focus_we_dont_need_constitution_desc: "Paper with ink can in no way guarantee the freedoms of objects. We don't need this profanation to establish the freedom of the Greeny Plains."
+ 
+ GSR_focus_free_from_government: "Free from the Government"
+ GSR_focus_free_from_government_desc: "The state system was practically eliminated here, on the territory of free objects. We don't need any owners!"
+ 
+ GSR_focus_lawnland_liberation: "§tLawnland Liberation§!"
+ GSR_focus_lawnland_liberation_desc: ""
  
  #GFG FOCUSES
  #GFG CW tree

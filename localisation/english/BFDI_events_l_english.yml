@@ -106,6 +106,11 @@
  WGF_event.19.t: "Operation failure"
  WGF_event.19.desc: "The initial plan to defeat Coiny within six months failed. This is causing serious upheaval in our society and increasing distrust in the government. Our resources have been largely depleted."
  WGF_event.19.a: "We need to hurry."
+ 
+ WGF_event.20.t: "Relations break with Greeny Plains"
+ WGF_event.20.desc: "The GPSR government declared us to be 'revisionist' and severed all ties with us. This decision looks strange and non-sense, but there is nothing we can do about it."
+ WGF_event.20.a: "Idiots."
+ 
  #Reich
  GGR_event.1.t: "Behind the ridge"
  GGR_event.1.desc: "The Snowy Plateau is a wonderful region with beautiful objects, although it is quite poor. It has some features, for example: Its population, due to its isolation, is quite united and has a uniform, special culture, unlike other regions of South Goyka. It is particularly autonomous and does not depend so much on foreign trade..."
@@ -357,6 +362,10 @@
  GPG_event.45.desc: "Throughout its existence, only objects that had ever been shown in the BFDI were allowed into the Council. This created a certain segregation in our republic. Once, at the Second Congress, Taco spoke about the creation of the Lower House of the Council, into which any objects could be admitted. Yesterday, the Congress decided to develop a plan for the creation of the Lower House and determine the scheme of its work. However, the decision to create it will probably be made only at the Fourth Congress."
  GPG_event.45.a: "Interesting."
  
+ GPG_event.46.t: "Republic offers negotiations"
+ GPG_event.46.desc: "A telegram was transmitted to our government today from Greenport proposing a 'settlement of the Lawnland issue'. A conference will be held between our diplomats in Casland, which will determine the fate of the region. We can't miss this chance."
+ GPG_event.46.a: "Let them come."
+ 
  #GDR
  GDR_event.1.t: "Battle For Democracy"
  GDR_event.1.desc: "The provisional government, through its decisions, showed its desire to establish a dictatorship, and we were forced to raise our rifles for the sake of our freedom and the freedom of Goiky’s objects. Opponents of democracy must be defeated today, or we are doomed to another authoritarian regime."
@@ -387,6 +396,50 @@
  GSR_event.6.t: "Preparation for the first congress"
  GSR_event.6.desc: "The situation in the Greeny Plains has calmed down a bit. The socialist system has finally established itself in Casland, and the time has come to give our objects real reforms. To this end, the first congress of the reformed Greeny Plains Communist Party begins, which should solve the most serious questions of our government."
  GSR_event.6.a: "Let's get ready!"
+ 
+ GSR_event.7.t: "Resistance to Resettlement politics"
+ GSR_event.7.desc: "Our policy has caused... some protests in society. Objects are refusing en masse to vacate their homes in Casland and move to the hills. Many of those already displaced rushed back to the city to save their homes. All this creates serious inconvenience."
+ GSR_event.7.a: "Temporary difficulties."
+ 
+ GSR_event.8.t: "Sugar production"
+ GSR_event.8.desc: "With a beaming smile, Ruby walked quickly around the new gumdrops production facility. This is of great importance to her; 'every object of Casland should have the right to sweets!'"
+ GSR_event.8.a: "Sweet life."
+ 
+ GSR_event.9.t: "Resistance to cultural politics"
+ GSR_event.9.desc: "The rejection of our Cultural Revolution by many objects sparked large-scale protests in Casland and other major cities in the Greeny Plains. Of course, they will be suppressed, but this is only a symptom of a great disease of the masses."
+ GSR_event.9.a: "They'll change their minds."
+ 
+ GSR_event.10.t: "Right Way"
+ GSR_event.10.desc: "No one has ever achieved success like ours! The Toilers Front and the Chairman lead us forward to a bright future for Goiky!/n/nLong live the Toilers Front!/nLong live the Toilers Front!"
+ GSR_event.10.a: "Long live the Toilers Front!"
+ 
+ GSR_event.12.t: "Disbandment of the Ministry of Economics"
+ GSR_event.12.desc: "We have successfully removed the burden of taxes and state slavery from our objects. Anarchy is spreading."
+ GSR_event.12.a: "Forwards!"
+ 
+ GSR_event.13.t: "Dissolution of the Ministry of Foreign Affairs"
+ GSR_event.13.desc: "Our commune does not need diplomatic relations with reactionaries! The objects of the Greeny Plains will decide for themselves how they feel about the reactionary regimes."
+ GSR_event.13.a: "All these fascists don't have long to live."
+ 
+ GSR_event.14.t: "Disbandment of the Patrols"
+ GSR_event.14.desc: "We no longer need 'state security' agencies. Casland's objects can fend for themselves!"
+ GSR_event.14.a: "Go, Anarchy!"
+ 
+ GSR_event.15.t: "Dissolution of Parliament"
+ GSR_event.15.desc: "We don't need 'Representative Democracy'. Objects will decide for themselves what they want, and we don't need 'representatives'!"
+ GSR_event.15.a: "Down with dictatorship!"
+ 
+ GSR_event.16.t: "Dissolution of the Armed Forces"
+ GSR_event.16.desc: "State Armed Forces are the same means of strangling the freedom of objects as the police. We can take care of ourselves!"
+ GSR_event.16.a: "Go ahead, militia!"
+ 
+ GSR_event.17.t: "The Anarchist Council of Lawnland asks for an invasion!"
+ GSR_event.17.desc: "Our friends, the objects occupied by the reactionaries from Greenport, sent us a message asking for help against the occupation and for a liberation. We can't hesitate."
+ GSR_event.17.a: "The Councils unanimously support the invasion!"
+ 
+ GSR_event.18.t: "Lessons from old Goiky"
+ GSR_event.18.desc: "The anarchic system once already dominated the vastness of the Greeny Plains. The Great Goiky flourished in times of stability and calm, without government and police, without fake papers and political power. We need to strive for this ideal."
+ GSR_event.18.a: "Goiky will be revived."
  
  #GFG
  GFG_event.1.t: "Stormtroopers in Casland"
@@ -483,3 +536,7 @@
  bfdinews.21.t: "Anarchists take power in Casland!"
  bfdinews.21.desc: "After the victory of the Toilers Front in the civil war in the Greeny Plains, the idea that stability had finally arrived in the region was firmly established. But suddenly, news spread across the continent: rebellious unknown militants, with enormous numerical superiority, swept away the Ruby regime and declared an 'anarchic system'. So far, nothing is known about the new government, and the atmosphere in the heart of the region is tense. We will monitor developments."
  bfdinews.21.a: "Another split?"
+ 
+ bfdinews.22.t: "Greeny Plains in flames!"
+ bfdinews.22.desc: "Important news! Anarchist regime forces in Casland have crossed the Republic border and attacked troops in occupied Lawnland! Mobilization has been announced in Greenport. Match called the act of aggression "a, like, ugly thing to do" and the government declared a state of emergency. Apparently, the war will be protracted and bloody. No information from Casland side."
+ bfdinews.22.a: "And objects are dying again."

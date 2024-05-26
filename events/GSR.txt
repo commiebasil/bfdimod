@@ -102,6 +102,7 @@ country_event = {
 		}
 		custom_effect_tooltip = l_GSR_ruby_runs_away
 		add_stability = -0.05
+		mark_focus_tree_layout_dirty = yes
 		hidden_effect = {
 			every_possible_country = {
 				limit = { is_ai = no }
@@ -140,5 +141,257 @@ country_event = {
 		name = GSR_event.6.a
 		complete_national_focus = GSR_focus_first_congress_ruby
 		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+country_event = {
+	id = GSR_event.7
+	title = GSR_event.7.t
+	desc = GSR_event.7.desc
+	picture = GFX_GSR_event7
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.7.a
+		add_stability = -0.1
+		add_political_power = -50
+		206 = {
+			add_manpower = 51929
+		}
+		145 = {
+			add_manpower = -20511
+		}
+		8 = {
+			add_manpower = -31100
+		}
+	}
+}
+
+country_event = {
+	id = GSR_event.8
+	title = GSR_event.8.t
+	desc = GSR_event.8.desc
+	picture = GFX_GSR_event8
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.8.a
+	}
+}
+
+country_event = {
+	id = GSR_event.9
+	title = GSR_event.9.t
+	desc = GSR_event.9.desc
+	picture = GFX_GSR_event9
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.9.a
+		add_stability = -0.1
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = GSR_event.10
+	title = GSR_event.10.t
+	desc = GSR_event.10.desc
+	picture = GFX_GSR_event10
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.10.a
+		add_war_support = 0.1
+	}
+}
+
+country_event = {
+	id = GSR_event.11
+	title = GSR_event.11.t
+	desc = GSR_event.11.desc
+	picture = GFX_GSR_event11
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { country_exists = AGG }
+				AGG = {
+					declare_war_on = {
+						target = ROOT
+						type = annex_everything
+					}
+				}
+			}
+			else_if = {
+				limit = { country_exists = SGD }
+				SGD = {
+					declare_war_on = {
+						target = ROOT
+						type = annex_everything
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = GSR_event.11.a
+	}
+}
+
+country_event = {
+	id = GSR_event.12
+	title = GSR_event.12.t
+	desc = GSR_event.12.desc
+	picture = GFX_GSR_event12
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.12.a
+		custom_effect_tooltip = l_GSR_improves_decentralization
+		remove_ideas = idea_GSR_new_economic_policy
+		hidden_effect = {
+			add_to_variable = { var_GSR_decentralization_sf = -0.05 }
+			add_to_variable = { var_GSR_decentralization_cgf = -0.2 }
+			add_to_variable = { var_GSR_decentralization_psbf = -0.1 }
+		}
+	}
+}
+
+country_event = {
+	id = GSR_event.13
+	title = GSR_event.13.t
+	desc = GSR_event.13.desc
+	picture = GFX_GSR_event12
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.13.a
+		custom_effect_tooltip = l_GSR_improves_decentralization
+		every_other_country = {
+			add_opinion_modifier = {
+				target = GSR
+				modifier = large_decrease
+			}
+		}
+		hidden_effect = {
+			add_to_variable = { var_GSR_decentralization_sf = -0.05 }
+			add_to_variable = { var_GSR_decentralization_wsf = 0.1 }
+		}
+	}
+}
+
+country_event = {
+	id = GSR_event.14
+	title = GSR_event.14.t
+	desc = GSR_event.14.desc
+	picture = GFX_GSR_event12
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.14.a
+		custom_effect_tooltip = l_GSR_improves_decentralization
+		hidden_effect = {
+			add_to_variable = { var_GSR_decentralization_sf = -0.05 }
+			add_to_variable = { var_GSR_decentralization_cg = 0.25 }
+		}
+	}
+}
+
+country_event = {
+	id = GSR_event.15
+	title = GSR_event.15.t
+	desc = GSR_event.15.desc
+	picture = GFX_GSR_event12
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.15.a
+		custom_effect_tooltip = l_GSR_improves_decentralization
+		hidden_effect = {
+			add_to_variable = { var_GSR_decentralization_sf = -0.05 }
+			add_to_variable = { var_GSR_decentralization_nd = 0.2 }
+		}
+	}
+}
+
+country_event = {
+	id = GSR_event.16
+	title = GSR_event.16.t
+	desc = GSR_event.16.desc
+	picture = GFX_GSR_event12
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.16.a
+		custom_effect_tooltip = l_GSR_improves_decentralization
+		hidden_effect = {
+			add_to_variable = { var_GSR_decentralization_sf = -0.05 }
+			add_to_variable = { var_GSR_decentralization_aof = -0.1 }
+			add_to_variable = { var_GSR_decentralization_aaf = 0.15 }
+			add_to_variable = { var_GSR_decentralization_cf = 0.05 }
+		}
+	}
+}
+
+country_event = {
+	id = GSR_event.17
+	title = GSR_event.17.t
+	desc = GSR_event.17.desc
+	picture = GFX_GPG_event35
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.17.a
+		declare_war_on = {
+			target = GPR
+			type = annex_everything
+		}
+		set_country_flag = anarchist_lawnland
+		complete_national_focus = GSR_focus_lawnland_liberation
+		mark_focus_tree_layout_dirty = yes
+		hidden_effect = {
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = bfdinews.22
+					days = 5
+					random_hours = 12
+				}
+			}
+			country_event = {
+				id = GSR_event.11
+				days = 20
+				random_days = 10
+				random_hours = 12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = GSR_event.18
+	title = GSR_event.18.t
+	desc = GSR_event.18.desc
+	picture = GFX_GSR_event18
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GSR_event.18.a
+		add_stability = 0.15
 	}
 }

@@ -108,3 +108,10 @@
  l_GPG_progressbar_war_low: "§GНизкая§!"
  l_GPG_progressbar_war_medium: "§YСредняя§!"
  l_GPG_progressbar_war_high: "§RВЫСОКАЯ§!"
+ 
+ decisions_GSR_lawnland_category: "§YЛэвнлэнд§!"
+ GSR_lawnland_negs_mission: "§3Кэслендские Переговоры§!"
+ GSR_demand_demilitarization_decision: "Требовать §RДемилитаризации§!"
+ GSR_trainings_on_border_decision: "§YПровести учения§!"
+ GSR_republic_makes_move_mission: "§YРеспублика§! делает ход!"
+ GSR_back_down_decision: "§YОтступить§!"

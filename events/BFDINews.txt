@@ -441,3 +441,25 @@ news_event = {
 		name = bfdinews.21.a
 	}
 }
+
+news_event = {
+	id = bfdinews.22
+	title = bfdinews.22.t
+	desc = bfdinews.22.desc
+	picture = GFX_bfdinews22
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = bfdinews.22.a
+		if = {
+			limit = { GSR = { is_ai = no } }
+			set_variable = { var_demo_end = 6 }
+			set_global_flag = demo_ended
+		}
+	}
+}

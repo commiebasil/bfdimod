@@ -20,13 +20,13 @@ decisions_GPG_lawnland_category = {
 				}
 				else_if = {
 					limit = { 
-						check_variable = { var_GPG_negs_progressbar > 50 }
+						check_variable = { var_GPG_negs_progressbar > 49 }
 						check_variable = { var_GPG_negs_progressbar < 70 }
 					}
 					country_event = GPG_event.39
 				}
 				else_if = {
-					limit = { check_variable = { var_GPG_negs_progressbar > 70 } }
+					limit = { check_variable = { var_GPG_negs_progressbar > 69 } }
 					country_event = GPG_event.35
 				}
 			}

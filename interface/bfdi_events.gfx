@@ -308,6 +308,10 @@ SpriteTypes = {
 		name = GFX_GPG_event45
 		texturefile = gfx/event_pictures/GPG_event45.dds
 	}
+	spriteType = {
+		name = GFX_GPG_event46
+		texturefile = gfx/event_pictures/GPG_event46.dds
+	}
 	
 	
 	spriteType = {
@@ -340,6 +344,34 @@ SpriteTypes = {
 	spriteType = {
 		name = GFX_GSR_event6
 		texturefile = gfx/event_pictures/GSR_event6.dds
+	}
+	spriteType = {
+		name = GFX_GSR_event7
+		texturefile = gfx/event_pictures/GSR_event7.dds
+	}
+	spriteType = {
+		name = GFX_GSR_event8
+		texturefile = gfx/event_pictures/GSR_event8.dds
+	}
+	spriteType = {
+		name = GFX_GSR_event9
+		texturefile = gfx/event_pictures/GSR_event9.dds
+	}
+	spriteType = {
+		name = GFX_GSR_event10
+		texturefile = gfx/event_pictures/GSR_event10.dds
+	}
+	spriteType = {
+		name = GFX_GSR_event11
+		texturefile = gfx/event_pictures/GSR_event11.dds
+	}
+	spriteType = {
+		name = GFX_GSR_event12
+		texturefile = gfx/event_pictures/GSR_event12.dds
+	}
+	spriteType = {
+		name = GFX_GSR_event18
+		texturefile = gfx/event_pictures/GSR_event18.dds
 	}
 	
 	
@@ -428,5 +460,9 @@ SpriteTypes = {
 	spriteType = {
 		name = GFX_bfdinews21
 		texturefile = gfx/event_pictures/bfdinews21.dds
+	}
+	spriteType = {
+		name = GFX_bfdinews22
+		texturefile = gfx/event_pictures/bfdinews22.dds
 	}
 }

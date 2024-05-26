@@ -918,6 +918,76 @@ SpriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_focus_GSR_first_coucils_congress"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_first_coucils_congress.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_deconstruction"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_deconstruction.dds"
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_GSR_crush_mineco"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_crush_mineco.dds"
+		noOfFrames = 9
+		animation_rate_fps = 9
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = yes
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_GSR_crush_foraff"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_crush_foraff.dds"
+		noOfFrames = 9
+		animation_rate_fps = 9
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = yes
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_GSR_crush_police"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_crush_police.dds"
+		noOfFrames = 9
+		animation_rate_fps = 9
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = yes
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_GSR_parliament"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_crush_parliament.dds"
+		noOfFrames = 9
+		animation_rate_fps = 9
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = yes
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_GSR_crush_army"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_crush_army.dds"
+		noOfFrames = 9
+		animation_rate_fps = 9
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_we_dont_need_constitution"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_we_dont_need_constitution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_free_from_government"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_free_from_government.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_focus_GSR_first_congress_ruby"
 		texturefile = "gfx/interface/goals/GFX_focus_GSR_first_congress_ruby.dds"
 	}
@@ -925,6 +995,66 @@ SpriteTypes = {
 	spriteType = {
 		name = "GFX_focus_GSR_peoples_constitution"
 		texturefile = "gfx/interface/goals/GFX_focus_GSR_peoples_constitution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_article_17"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_article_17.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_fabrics_conversion"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_fabrics_conversion.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_regional_development"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_regional_development.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_slow_down_casland"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_slow_down_casland.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_planning_commitee"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_planning_commitee.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_socialism_with_sugar_characters"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_socialism_with_sugar_characters.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_cultural_revolution"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_cultural_revolution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_new_casland_object"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_new_casland_object.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_the_only_right_way"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_the_only_right_way.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_condemn_firey"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_condemn_firey.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_great_chairman_ruby"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_great_chairman_ruby.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GSR_socialism_in_one_country"
+		texturefile = "gfx/interface/goals/GFX_focus_GSR_socialism_in_one_country.dds"
 	}
 	
 	

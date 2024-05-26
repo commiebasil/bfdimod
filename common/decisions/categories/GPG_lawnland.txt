@@ -1,6 +1,7 @@
 decisions_GPG_lawnland_category = {
 	allowed = { tag = GPG }
 	visible = {
+		tag = GPG
 		has_country_flag = lawnland_decisions_opened
 		NOT = { has_country_flag = lawnland_negotiations_end }
 	}

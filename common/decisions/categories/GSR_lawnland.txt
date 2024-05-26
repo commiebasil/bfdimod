@@ -1,0 +1,12 @@
+decisions_GSR_lawnland_category = {
+	allowed = { tag = GSR }
+	visible = {
+		tag = GSR
+		has_country_flag = lawnland_decisions_opened_socialist
+		NOT = { has_country_flag = lawnland_negotiations_end_socialist }
+	}
+	priority = 50
+	visible_when_empty = yes
+	scripted_gui = decisions_GSR_lawnland_scriptedgui
+	icon = GFX_decisions_GPG_lawnland_category_socialist
+}

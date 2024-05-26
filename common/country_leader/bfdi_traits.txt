@@ -20,4 +20,15 @@ leader_traits = {
 		political_power_gain = 0.25
 		stability_factor = 0.05
 	}
+	
+	didnt_finished_gem_school = {
+		research_speed_factor = -0.1
+	}
+	
+	ruby_heart = {
+		economy_cost_factor = 0.1
+		trade_laws_cost_factor = 0.1
+		mobilization_laws_cost_factor = 0.1
+		stability_factor = 0.05
+	}
 }

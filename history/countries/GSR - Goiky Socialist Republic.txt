@@ -42,3 +42,6 @@ recruit_character = GSR_gelatin
 recruit_character = GSR_tree
 recruit_character = GSR_bottle
 
+set_variable = { var_GPG_negs_progressbar = 50 }
+set_variable = { var_GPG_war_progressbar = 10 }
+set_variable = { var_GSR_decentralization_sf = -0.05 }

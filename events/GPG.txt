@@ -910,24 +910,24 @@ country_event = {
 	#		goto_state = 145
 	#	}
 	#}
-	#option = {
-	#	name = GPG_event.20.d
-	#	GFG = { change_tag_from = GPG }
-	#	hidden_effect = {
-	#		gpg_civil_war = yes
-	#		if = {
-	#			limit = {
-	#				OR = {
-	#					has_country_flag = cw_second_variant
-	#				}
-	#			}
-	#			goto_state = 206
-	#		}
-	#		else = {
-	#			goto_state = 158
-	#		}
-	#	}
-	#}
+	option = {
+		name = GPG_event.20.d
+		GFG = { change_tag_from = GPG }
+		hidden_effect = {
+			gpg_civil_war = yes
+			if = {
+				limit = {
+					OR = {
+						has_country_flag = cw_second_variant
+					}
+				}
+				goto_state = 206
+			}
+			else = {
+				goto_state = 158
+			}
+		}
+	}
 }
 
 country_event = {
@@ -1417,8 +1417,16 @@ country_event = {
 	
 	option = {
 		name = GPG_event.34.a
-		set_country_flag = lawnland_negotiations_started
-		activate_mission = GPG_lawnland_negs_mission
+		if = {
+			limit = { tag = GPG }
+			activate_mission = GPG_lawnland_negs_mission
+			set_country_flag = lawnland_negotiations_started
+		}
+		else_if = {
+			limit = { tag = GSR }
+			activate_mission = GSR_lawnland_negs_mission
+			set_country_flag = lawnland_negotiations_started_socialist
+		}
 		hidden_effect = {
 			country_event = {
 				id = GPG_event.43
@@ -1440,15 +1448,25 @@ country_event = {
 	
 	option = {
 		name = GPG_event.35.a
-		set_country_flag = lawnland_negotiations_end
+		if = {
+			limit = { tag = GPG }
+			set_country_flag = lawnland_negotiations_end
+			remove_mission = GPG_lawnland_negs_mission
+			remove_mission = GPG_republic_makes_move_mission
+		}
+		else_if = {
+			limit = { tag = GSR }
+			set_country_flag = lawnland_negotiations_end_socialist
+			remove_mission = GSR_lawnland_negs_mission
+			remove_mission = GSR_republic_makes_move_mission
+		}
 		add_stability = 0.1
 		add_war_support = 0.1
 		add_political_power = 200
 		28 = {
-			transfer_state_to = GPG
+			transfer_state_to = ROOT
 		}
-		remove_mission = GPG_lawnland_negs_mission
-		remove_mission = GPG_republic_makes_move_mission
+
 		hidden_effect = {
 			country_event = {
 				id = GPG_event.40
@@ -1468,14 +1486,23 @@ country_event = {
 	
 	option = {
 		name = GPG_event.36.a
-		set_country_flag = lawnland_negotiations_end
+		if = {
+			limit = { tag = GPG }
+			set_country_flag = lawnland_negotiations_end
+			remove_mission = GPG_lawnland_negs_mission
+			remove_mission = GPG_republic_makes_move_mission
+		}
+		else_if = {
+			limit = { tag = GSR }
+			set_country_flag = lawnland_negotiations_end_socialist
+			remove_mission = GSR_lawnland_negs_mission
+			remove_mission = GSR_republic_makes_move_mission
+		}
 		add_stability = -0.2
 		add_war_support = -0.5
 		add_political_power = -200
 		145 = { set_demilitarized_zone = yes }
 		8 = { set_demilitarized_zone = yes }
-		remove_mission = GPG_lawnland_negs_mission
-		remove_mission = GPG_republic_makes_move_mission
 		hidden_effect = {
 			country_event = {
 				id = GPG_event.40
@@ -1486,15 +1513,24 @@ country_event = {
 	
 	option = {
 		name = GPG_event.36.b
-		set_country_flag = lawnland_negotiations_end
+		if = {
+			limit = { tag = GPG }
+			set_country_flag = lawnland_negotiations_end
+			remove_mission = GPG_lawnland_negs_mission
+			remove_mission = GPG_republic_makes_move_mission
+		}
+		else_if = {
+			limit = { tag = GSR }
+			set_country_flag = lawnland_negotiations_end_socialist
+			remove_mission = GSR_lawnland_negs_mission
+			remove_mission = GSR_republic_makes_move_mission
+		}
 		add_stability = -0.1
 		add_war_support = 0.1
 		declare_war_on = {
 			target = GPR
 			type = annex_everything
 		}
-		remove_mission = GPG_lawnland_negs_mission
-		remove_mission = GPG_republic_makes_move_mission
 		hidden_effect = {
 			country_event = {
 				id = GPG_event.40
@@ -1514,16 +1550,44 @@ country_event = {
 	
 	option = {
 		name = GPG_event.37.a
-		set_country_flag = lawnland_negotiations_end
+		if = {
+			limit = { tag = GPG }
+			set_country_flag = lawnland_negotiations_end
+			remove_mission = GPG_lawnland_negs_mission
+			remove_mission = GPG_republic_makes_move_mission
+		}
+		else_if = {
+			limit = { tag = GSR }
+			set_country_flag = lawnland_negotiations_end_socialist
+			remove_mission = GSR_lawnland_negs_mission
+			remove_mission = GSR_republic_makes_move_mission
+		}
 		add_stability = -0.1
 		add_war_support = 0.1
 		declare_war_on = {
 			target = GPR
 			type = annex_everything
 		}
-		remove_mission = GPG_lawnland_negs_mission
-		remove_mission = GPG_republic_makes_move_mission
 		hidden_effect = {
+			if = {
+				limit = {
+					tag = GSR
+					OR = {
+						country_exists = SGD
+						country_exists = AGG
+					}
+					OR = {
+						SGD = { has_war = no }
+						AGG = { has_war = no }
+					}
+				}
+				country_event = {
+					id = GSR_event.11
+					days = 25
+					random_days = 10
+					random_hours = 12
+				}
+			}
 			country_event = {
 				id = GPG_event.40
 				days = 3
@@ -1542,7 +1606,18 @@ country_event = {
 	
 	option = {
 		name = GPG_event.38.a
-		set_country_flag = lawnland_negotiations_end
+		if = {
+			limit = { tag = GPG }
+			set_country_flag = lawnland_negotiations_end
+			remove_mission = GPG_lawnland_negs_mission
+			remove_mission = GPG_republic_makes_move_mission
+		}
+		else_if = {
+			limit = { tag = GSR }
+			set_country_flag = lawnland_negotiations_end_socialist
+			remove_mission = GSR_lawnland_negs_mission
+			remove_mission = GSR_republic_makes_move_mission
+		}
 		add_stability = -0.05
 		add_war_support = -0.05
 		add_political_power = 50
@@ -1556,8 +1631,6 @@ country_event = {
 				days = 400
 			}
 		}
-		remove_mission = GPG_lawnland_negs_mission
-		remove_mission = GPG_republic_makes_move_mission
 		hidden_effect = {
 			country_event = {
 				id = GPG_event.40
@@ -1577,15 +1650,24 @@ country_event = {
 	
 	option = {
 		name = GPG_event.39.a
-		set_country_flag = lawnland_negotiations_end
+		if = {
+			limit = { tag = GPG }
+			set_country_flag = lawnland_negotiations_end
+			remove_mission = GPG_lawnland_negs_mission
+			remove_mission = GPG_republic_makes_move_mission
+		}
+		else_if = {
+			limit = { tag = GSR }
+			set_country_flag = lawnland_negotiations_end_socialist
+			remove_mission = GSR_lawnland_negs_mission
+			remove_mission = GSR_republic_makes_move_mission
+		}
 		add_stability = 0.05
 		add_political_power = 50
 		28 = {
-			transfer_state_to = GPG
+			transfer_state_to = ROOT
 			set_demilitarized_zone = yes
 		}
-		remove_mission = GPG_lawnland_negs_mission
-		remove_mission = GPG_republic_makes_move_mission
 		hidden_effect = {
 			country_event = {
 				id = GPG_event.40
@@ -1606,7 +1688,14 @@ country_event = {
 	option = {
 		name = GPG_event.40.a
 		set_global_flag = demo_ended
-		set_variable = { var_demo_end = 4 }
+		if = {
+			limit = { tag = GPG }
+			set_variable = { var_demo_end = 4 }
+		}
+		else_if = {
+			limit = { tag = GSR }
+			set_variable = { var_demo_end = 5 }
+		}
 	}
 }
 
@@ -1703,6 +1792,49 @@ country_event = {
 	option = {
 		name = GPG_event.45.a
 		add_political_power = 25
+	}
+}
+
+country_event = {
+	id = GPG_event.46
+	title = GPG_event.46.t
+	desc = GPG_event.46.desc
+	picture = GFX_GPG_event46
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GPG_event.46.a
+		if = {
+			limit = { tag = GPG }
+			set_country_flag = lawnland_decisions_opened
+			if = {
+				limit = { has_country_flag = fries_triumph }
+				complete_national_focus = GPG_focus_lawnland_question
+			}
+			else = {
+				complete_national_focus = GPG_focus_republic_lawnland_question
+			}
+		}
+		else_if = {
+			limit = { tag = GSR }
+			set_country_flag = lawnland_decisions_opened_socialist
+			complete_national_focus = GSR_focus_take_what_ours
+		}
+		hidden_effect = {
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = bfdinews.20
+					days = 3
+				}
+			}
+			country_event = {
+				id = GPG_event.34
+				days = 5
+			}
+			mark_focus_tree_layout_dirty = yes
+		}
 	}
 }
 

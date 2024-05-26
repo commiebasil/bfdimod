@@ -104,3 +104,19 @@ idea_GPG_recommended_characters_council = {
 	war_support_factor = var_GPG_rcc_ws
 }
 
+idea_GSR_decentralization = {
+	icon = GFX_idea_GSR_decentralization
+	
+	surrender_limit = 0.5
+	non_core_manpower = 0.5
+	war_support_factor = var_GSR_decentralization_wsf
+	stability_factor = var_GSR_decentralization_sf
+	army_org_factor = var_GSR_decentralization_aof
+	army_attack_factor = var_GSR_decentralization_aaf
+	consumer_goods_factor = var_GSR_decentralization_cgf
+	production_speed_buildings_factor = var_GSR_decentralization_psbf
+	conscription = var_GSR_decentralization_cf
+	compliance_growth = var_GSR_decentralization_cg
+	neutrality_drift = var_GSR_decentralization_nd
+}
+

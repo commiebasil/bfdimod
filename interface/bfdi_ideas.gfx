@@ -275,6 +275,30 @@ spriteTypes = {
 		texturefile = gfx/interface/ideas/idea_GSR_syndicalism.dds
 	}
 	spriteType = {
+		name = GFX_idea_GSR_planning_commitee
+		texturefile = gfx/interface/ideas/idea_GSR_planning_commitee.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_cultural_revolution
+		texturefile = gfx/interface/ideas/idea_GSR_cultural_revolution.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_new_object
+		texturefile = gfx/interface/ideas/idea_GSR_new_object.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_socialism_in_one_country
+		texturefile = gfx/interface/ideas/idea_GSR_socialism_in_one_country.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_no_government
+		texturefile = gfx/interface/ideas/idea_GSR_no_government.dds
+	}
+	spriteType = {
+		name = GFX_idea_GSR_decentralization
+		texturefile = gfx/interface/ideas/idea_GSR_decentralization.dds
+	}
+	spriteType = {
 		name = GFX_idea_GSR_bottle
 		texturefile = gfx/interface/ideas/idea_GSR_bottle.dds
 	}

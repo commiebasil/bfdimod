@@ -26,10 +26,12 @@
  WW_TEXT: "§YWelcome to TIG!§!\n\n§RWarning!§! If the content in the mod seems cringy, empty or unbalanced to you, don’t worry! This is just a demo and a huge layer of lore, mechanics and other things will be redone in the future!\n\nMoreover, if you find error or want to suggest something, you can contact me on discord server that listed on the Steam page."
  WW_PLAYBUTTON: "Thanks!"
  
- demo_end_WGF_title: "The §Rred sun§! rises over North Goiky..."
+ demo_end_WGF_title: "The §Rred sun§! rises over the North Goiky..."
  demo_end_GGR_title_1: "§LSnowy Plateau§! falls into §RAnarchy§!..."
- demo_end_GGR_title_2: "§gOrder§! establishes in §LSnowy Plateau§!..."
- demo_end_GPG_title_1: "§YStability§! returns to §GGreeny Plains§!..."
+ demo_end_GGR_title_2: "§gOrder§! establishes in the §LSnowy Plateau§!..."
+ demo_end_GPG_title_1: "§YStability§! returns to the §7Greeny Plains§!..."
+ demo_end_GSR_title_1: "§tSocialism§! establishes in the §7Greeny Plains§!..."
+ demo_end_GSR_title_2: "§RAnarchy§! absorbs the §7Greeny Plains§!..."
  demo_end_text: "§YDemo ends here. For now.§!\n\nThanks for playing! If you liked the modification, put a like on Steam and add it to your bookmarks. Also join the §1Discord server§!.\n\nThe mod will continue to develop as much as possible and many aspects of the lore and gameplay will be reworked in the future. The current version of the modification §Rdoes not show the final product.§!\n\nAt the moment, the mod has only one developer, and if you want to apply your skills and help the development, you can contact me on the §1Discord server§!.\n\n§7With love, an ordinary fan of the Battle for Dream Island from Russia.§!"
  demo_end_button_text: "Thanks!"
  

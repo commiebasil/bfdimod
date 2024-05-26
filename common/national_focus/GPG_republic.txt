@@ -422,6 +422,17 @@ focus_tree = {
 				idea = idea_GPG_slow_recovery
 				days = 450
 			}
+			hidden_effect = {
+				if = {
+					limit = { has_completed_focus = GPG_focus_republic_lawnland_question }
+					country_event = {
+						id = GPG_event.46
+						days = 20
+						random_days = 10
+						random_hours = 12
+					}
+				}
+			}
 		}
 	}
 	
@@ -566,6 +577,17 @@ focus_tree = {
 			custom_effect_tooltip = l_GPG_allows_divisions_training
 			remove_dynamic_modifier = { modifier = idea_GPG_army_agony }
 			country_lock_all_division_template = no
+			hidden_effect = {
+				if = {
+					limit = { has_completed_focus = GPG_focus_republic_heart_of_goiky }
+					country_event = {
+						id = GPG_event.46
+						days = 20
+						random_days = 10
+						random_hours = 12
+					}
+				}
+			}
 		}
 	}
 	
@@ -579,6 +601,10 @@ focus_tree = {
 		prerequisite = { focus = GPG_focus_republic_heart_of_goiky }
 		prerequisite = { focus = GPG_focus_republic_end_military_turmoil }
 		
+		allow_branch = {
+			has_country_flag = lawnland_decisions_opened
+		}
+		
 		cost = 6
 		
 		ai_will_do = {
@@ -587,20 +613,6 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = l_GPG_lawnland
-			set_country_flag = lawnland_decisions_opened
-			hidden_effect = {
-				every_possible_country = {
-					limit = { is_ai = no }
-					news_event = {
-						id = bfdinews.20
-						days = 3
-					}
-				}
-				country_event = {
-					id = GPG_event.34
-					days = 5
-				}
-			}
 		}
 	}
 }

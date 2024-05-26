@@ -4,6 +4,7 @@ characters = {
 		portraits = { civilian = { large = GFX_GPG_ruby } }
 		country_leader = {
 			ideology = leninism
+			traits = { didnt_finished_gem_school }
 		}
 	}
 	

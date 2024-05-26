@@ -337,3 +337,20 @@ country_event = {
 		add_political_power = -500
 	}
 }
+
+country_event = {
+	id = WGF_event.20
+	title = WGF_event.20.t
+    desc = WGF_event.20.desc
+	picture = GFX_GPG_event4
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.20.a
+		add_opinion_modifier = {
+			target = GSR
+			modifier = medium_decrease
+		}
+	}
+}

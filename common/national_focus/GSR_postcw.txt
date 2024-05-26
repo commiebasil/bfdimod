@@ -126,7 +126,7 @@ focus_tree = {
 		prerequisite = { focus = GSR_focus_army_arrests }
 		prerequisite = { focus = GSR_focus_congress_condemnation }
 		
-		available = { has_stability > 0.45 }
+		available = { has_stability > 0.40 }
 		
 		cost = 6
 		
@@ -136,7 +136,7 @@ focus_tree = {
 		
 		completion_reward = {
 			country_event = GSR_event.4
-			add_stability = -0.05
+			add_stability = -0.15
 			hidden_effect = {
 				if = {
 					limit = { has_completed_focus = GSR_focus_new_economic_policy }
@@ -379,6 +379,8 @@ focus_tree = {
 	}
 	
 	
+	#Ruby Path
+	
 	focus = {
 		id = GSR_focus_first_congress_ruby
 		x = 19
@@ -390,10 +392,7 @@ focus_tree = {
 		}
 		
 		allow_branch = {
-			OR = {
-				has_completed_focus = GSR_focus_casland_process
-				has_completed_focus = GSR_focus_objects_communities
-			}
+			has_completed_focus = GSR_focus_casland_process
 			has_completed_focus = GSR_focus_new_economic_policy
 		}
 		
@@ -462,7 +461,19 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			every_owned_state = {
+				limit = { arms_factory > 0 }
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_war_support = -0.1
 		}
 	}
 	
@@ -470,7 +481,7 @@ focus_tree = {
 		id = GSR_focus_peoples_goods
 		x = 15
 		y = 9
-		icon = GFX_focus_GSR_peoples_goods
+		icon = GFX_focus_GPG_object_industry
 		
 		prerequisite = { focus = GSR_focus_fabrics_conversion }
 		
@@ -481,7 +492,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_ideas = idea_GSR_peoples_goods
+			add_war_support = -0.1
 		}
 	}
 	
@@ -500,7 +512,21 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			145 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			8 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_stability = 0.05
 		}
 	}
 	
@@ -519,7 +545,21 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			206 = {
+				add_manpower = -251220
+			}
+			145 = {
+				add_manpower = 105011
+			}
+			8 = {
+				add_manpower = 142951
+			}
+			hidden_effect = {
+				country_event = {
+					id = GSR_event.7
+					days = 15
+				}
+			}
 		}
 	}
 	
@@ -539,7 +579,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_ideas = idea_GSR_planning_commitee
 		}
 	}
 	
@@ -552,6 +592,8 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_peoples_constitution }
 		
+		available = { has_political_power > 100 } #ik it should be 99 but who really cares lol :P
+		
 		cost = 6
 		
 		ai_will_do = {
@@ -559,7 +601,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_political_power = -100
+			country_event = GSR_event.8
 		}
 	}
 	
@@ -571,6 +614,8 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_socialism_with_sugar_characters }
 		
+		available = { has_political_power > 100 }
+		
 		cost = 6
 		
 		ai_will_do = {
@@ -578,7 +623,18 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_political_power = -100
+			add_timed_idea = {
+				idea = idea_GSR_cultural_revolution
+				days = 180
+			}
+			add_research_slot = 1
+			hidden_effect = {
+				country_event = {
+					id = GSR_event.9
+					days = 40
+				}
+			}
 		}
 	}
 	
@@ -590,6 +646,8 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_cultural_revolution }
 		
+		available = { has_political_power > 100 }
+		
 		cost = 6
 		
 		ai_will_do = {
@@ -597,7 +655,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_political_power = -100
+			add_ideas = idea_GSR_new_object
 		}
 	}
 	
@@ -609,6 +668,8 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_socialism_with_sugar_characters }
 		
+		available = { has_political_power > 100 }
+		
 		cost = 6
 		
 		ai_will_do = {
@@ -616,7 +677,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_political_power = -100
+			country_event = GSR_event.10
 		}
 	}
 	
@@ -628,6 +690,8 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_the_only_right_way }
 		
+		available = { has_political_power > 100 }
+		
 		cost = 6
 		
 		ai_will_do = {
@@ -635,7 +699,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_political_power = -100
+			WGF = { country_event = WGF_event.20 }
+			add_opinion_modifier = {
+				target = WGF
+				modifier = medium_decrease
+			}
 		}
 	}
 	
@@ -648,6 +717,8 @@ focus_tree = {
 		prerequisite = { focus = GSR_focus_new_casland_object }
 		prerequisite = { focus = GSR_focus_condemn_firey }
 		
+		available = { has_political_power > 100 }
+		
 		cost = 6
 		
 		ai_will_do = {
@@ -655,7 +726,15 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_political_power = -100
+			add_trait = {
+				 character = GSR_ruby
+				 ideology = leninism
+				 trait = ruby_heart
+			}
+			hidden_effect = {
+				set_country_leader_portrait = { portrait = GFX_GSR_ruby }
+			}
 		}
 	}
 	
@@ -675,7 +754,15 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			add_ideas = idea_GSR_socialism_in_one_country
+			hidden_effect = {
+				country_event = {
+					id = GPG_event.46
+					days = 20
+					random_days = 10
+					random_hours = 12
+				}
+			}
 		}
 	}
 	
@@ -683,9 +770,13 @@ focus_tree = {
 		id = GSR_focus_take_what_ours
 		x = 19
 		y = 13
-		icon = GFX_focus_GSR_take_what_ours
+		icon = GFX_focus_GPG_lawnland_question
 		
 		prerequisite = { focus = GSR_focus_socialism_in_one_country }
+		
+		allow_branch = {
+			has_country_flag = lawnland_decisions_opened_socialist
+		}
 		
 		cost = 6
 		
@@ -694,7 +785,267 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = l_GPG_lawnland
+		}
+	}
+	
+	
+	#Anarchists path (пиздец)
+	
+	focus = {
+		id = GSR_focus_first_coucils_congress
+		x = 19
+		y = 5
+		icon = GFX_focus_GSR_first_coucils_congress
+		
+		allow_branch = {
+			has_completed_focus = GSR_focus_objects_communities
+			has_completed_focus = GSR_focus_new_economic_policy
+		}
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_deconstruction
+		x = 19
+		y = 6
+		icon = GFX_focus_GSR_deconstruction
+		
+		prerequisite = { focus = GSR_focus_first_coucils_congress }
+		
+		cost = 6
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_dynamic_modifier = {
+				modifier = idea_GSR_decentralization
+			}
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_crush_mineco
+		x = 15
+		y = 7
+		icon = GFX_focus_GSR_crush_mineco
+		
+		prerequisite = { focus = GSR_focus_deconstruction }
+		
+		available = { has_political_power > 50 }
+		
+		cost = 8
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GSR_event.12
+			add_political_power = -50
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_crush_foraff
+		x = 17
+		y = 7
+		icon = GFX_focus_GSR_crush_foraff
+		
+		prerequisite = { focus = GSR_focus_deconstruction }
+		
+		available = { has_political_power > 50 }
+		
+		cost = 8
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GSR_event.13
+			add_political_power = -50
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_crush_police
+		x = 19
+		y = 7
+		icon = GFX_focus_GSR_crush_police
+		
+		prerequisite = { focus = GSR_focus_deconstruction }
+		
+		available = { has_political_power > 50 }
+		
+		cost = 8
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GSR_event.14
+			add_political_power = -50
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_crush_parliament
+		x = 21
+		y = 7
+		icon = GFX_focus_GSR_parliament
+		
+		prerequisite = { focus = GSR_focus_deconstruction }
+		
+		available = { has_political_power > 50 }
+		
+		cost = 8
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GSR_event.15
+			add_political_power = -50
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_crush_army
+		x = 23
+		y = 7
+		icon = GFX_focus_GSR_crush_army
+		
+		prerequisite = { focus = GSR_focus_deconstruction }
+		
+		available = { has_political_power > 50 }
+		
+		cost = 8
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GSR_event.16
+			add_political_power = -50
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_we_dont_need_constitution
+		x = 19
+		y = 8
+		icon = GFX_focus_GSR_we_dont_need_constitution
+		
+		prerequisite = { focus = GSR_focus_crush_mineco }
+		prerequisite = { focus = GSR_focus_crush_foraff }
+		prerequisite = { focus = GSR_focus_crush_police }
+		prerequisite = { focus = GSR_focus_crush_parliament }
+		prerequisite = { focus = GSR_focus_crush_army }
+		
+		cost = 6
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = -0.05
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			hidden_effect = {
+				country_event = {
+					id = GSR_event.18
+					days = 10
+					random_days = 5
+					random_hours = 12
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_free_from_government
+		x = 19
+		y = 9
+		icon = GFX_focus_GSR_free_from_government
+		
+		prerequisite = { focus = GSR_focus_we_dont_need_constitution }
+		
+		cost = 6
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_ideas = idea_GSR_no_government
+			hidden_effect = {
+				country_event = {
+					id = GSR_event.17
+					days = 20
+					random_days = 10
+					random_hours = 12
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GSR_focus_lawnland_liberation
+		x = 19
+		y = 10
+		icon = GFX_focus_GPG_lawnland_question
+		
+		prerequisite = { focus = GSR_focus_free_from_government }
+		
+		allow_branch = {
+			has_country_flag = anarchist_lawnland
+		}
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
 		}
 	}
 }

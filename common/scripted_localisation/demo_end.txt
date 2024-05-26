@@ -16,4 +16,18 @@ defined_text = {
 		trigger = { original_tag = GPG }
 		localization_key = demo_end_GPG_title_1
 	}
+	text = {
+		trigger = {
+			original_tag = GSR 
+			has_country_flag = communist_path
+		}
+		localization_key = demo_end_GSR_title_1
+	}
+	text = {
+		trigger = {
+			original_tag = GSR 
+			has_country_flag = anarchist_path
+		}
+		localization_key = demo_end_GSR_title_2
+	}
 }

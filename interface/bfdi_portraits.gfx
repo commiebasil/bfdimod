@@ -111,6 +111,10 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_GSR_ruby"
+		texturefile = "gfx/leaders/GSR/GSR_ruby.dds"
+	}
+	spriteType = {
 		name = "GFX_GSR_anarchist_council"
 		texturefile = "gfx/leaders/GSR/GSR_anarchist_council.dds"
 	}

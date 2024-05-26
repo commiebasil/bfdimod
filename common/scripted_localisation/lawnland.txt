@@ -1,13 +1,13 @@
 defined_text = {
 	name = GPG_LAWNLAND_WAR_CLOSENESS
 	text = {
-		trigger = { check_variable = { var_GPG_war_progressbar < 20 } }
+		trigger = { check_variable = { var_GPG_war_progressbar < 21 } }
 		localization_key = l_GPG_progressbar_war_low
 	}
 	text = {
 		trigger = { 
 			check_variable = { var_GPG_war_progressbar > 20 }
-			check_variable = { var_GPG_war_progressbar < 70 }
+			check_variable = { var_GPG_war_progressbar < 71 }
 		}
 		localization_key = l_GPG_progressbar_war_medium
 	}

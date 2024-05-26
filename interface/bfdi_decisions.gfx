@@ -268,10 +268,28 @@ spriteTypes = {
 		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_header.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decisions_GPG_lawnland_header_socialist"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_header_socialist.dds"
+	}
+	
 	progressbartype = {
 		name = "GFX_decisions_GPG_lawnland_negs_progressbar"
 		textureFile1 = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_negs_progressbar_bg.dds"
 		textureFile2 = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_negs_progressbar_frame.dds"
+		color = { 150 150 150 }
+		colortwo = { 143 19 19 }
+		size = {
+			x = 490
+			y = 107
+		}
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	progressbartype = {
+		name = "GFX_decisions_GPG_lawnland_negs_progressbar_socialist"
+		textureFile1 = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_negs_progressbar_bg_socialist.dds"
+		textureFile2 = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_negs_progressbar_frame_socialist.dds"
 		color = { 150 150 150 }
 		colortwo = { 143 19 19 }
 		size = {
@@ -300,8 +318,18 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_decisions_GPG_lawnland_category_socialist"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_category_socialist.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_decisions_GPG_lawnland_negs_mission"
 		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_negs_mission.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GPG_lawnland_negs_mission_socialist"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_lawnland_negs_mission_socialist.dds"
 	}
 	
 	spriteType = {
@@ -320,7 +348,17 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_decisions_GPG_trainings_on_border_socialist"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_trainings_on_border_socialist.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_decisions_GPG_back_down"
 		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_back_down.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GPG_back_down_socialist"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_back_down_socialist.dds"
 	}
 }

@@ -108,3 +108,10 @@
  l_GPG_progressbar_war_low: "§GLow§!"
  l_GPG_progressbar_war_medium: "§YMedium§!"
  l_GPG_progressbar_war_high: "§RHigh§!"
+ 
+ decisions_GSR_lawnland_category: "§YLawnland§!"
+ GSR_lawnland_negs_mission: "§3Casland Negotiations§!"
+ GSR_republic_makes_move_mission: "§YRepublic§! makes move!"
+ GSR_demand_demilitarization_decision: "Demand §RDemilitarization§!"
+ GSR_trainings_on_border_decision: "§YMilitary trainings on border§!"
+ GSR_back_down_decision: "§YBack Down§!"
