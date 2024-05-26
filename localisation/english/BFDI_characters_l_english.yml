@@ -1,45 +1,45 @@
 ﻿l_english:
  GOI_power_vacuum: "Power vacuum"
- GOI_power_vacuum_desc: "In fact, as such, there is no government in the Greeny Plains, as well as its head."
+ GOI_power_vacuum_desc: "No true government really exists in Goiky as of now. Some claim to have control over some offices, like Tennis Ball's claim of the roads systems. At least the trains run on time."
  
  EMP_unknown: "§RUnknown§!"
  
  WGF_firey: "Firey"
- WGF_firey_desc: "When Goiky fell into the abyss of anarchy, many BFDI contestants, having a big name, dispersed across the continent and headed local self-proclaimed states. Firey is no exception. When the Dream Island was stolen, Firey fled north and proclaimed the North Goiky Revolutionary Front in the local large city of North-Goikyland. Confident that there has been a misunderstanding, Firey sets out to unite Goiky and search for Leafy in order to reclaim Dream Island and turn this dark page in history of Goiky."
- WGF_fsb: "Firey speaker box"
+ WGF_firey_desc: "When Goiky fell into the abyss of anarchy, many former BFDI contestants, being very popular, decided it was best for them to take power. Firey is no exception. When Dream Island was stolen, Firey fled north and proclaimed the North Goiky Revolutionary Front in the local large city of North-Goikyland. Confident that there has been a misunderstanding, Firey sets out to unite Goiky and search for Leafy in order to reclaim Dream Island and turn this dark page of Goiky history."
+ WGF_fsb: "Firey Speaker Box"
  WGF_cake: "Cake"
  WGF_calculator: "Calculator"
  WGF_backpack: "Backpack"
  
  DPZ_tv: "TV"
- DPZ_tv_desc: "TV, as in the former object closest to the announcer, after its disappearance and the onset of anarchy, was appointed the conditional head of the so-called 'Protection Zone', although in fact all real power belongs to the local oligarchic clans."
+ DPZ_tv_desc: "TV, who was previously very close to the announcer, was appointed the temporary head of the so-called 'Protection Zone', although in fact all real power belongs to the local oligarchic clans."
  
  SEC_the_first: "The First"
- SEC_the_first_desc: "It's not completely clear who is hiding under the pseudonym 'The First'. Perhaps this is the founder of the sect. There are many assumptions about this, but the lower ranks of the cultists prefer not to think about it."
+ SEC_the_first_desc: "It's not completely clear who is hiding under the pseudonym 'The First'. Perhaps this is the founder of the sect. There are many assumptions about their identity, but the lower ranks of the cultists prefer not to think about it."
  
  GMD_coiny: "Coiny"
  GMD_coiny_desc: "Coiny, having a more or less established relationship with the Firey at the end of the season, initially joined the Revolutionary Front. However, due to disagreements, Coiny soon moved east along the coast, where he declared a Military District."
  
  GPR_alliance: "The Alliance"
- GPR_alliance_desc: "The Pencil, Match and Bubble Alliance has a fairly long history of existence. After the release of the TLC, the alliance reunited again, and when stability in Goiky collapsed, the alliance declared the Greeny Plains Democratic Republic in the port city to the west. Although the alliance is strong enough at the moment, it is quite capable of collapsing due to disagreements."
+ GPR_alliance_desc: "Pencil, Match and Bubble's Alliance has a fairly long history. After the destruction of the TLC, the alliance reunited again, and when stability in Goiky collapsed, the alliance declared the Greeny Plains Democratic Republic in the port city of Greenport. Although the alliance is strong at the moment, it is in danger of collapsing due to internal differences."
  
  TBT_teardrop: "Teardrop"
- TBT_teardrop_desc: "When the TLC prisoners were released and Goiky fell apart, the silent Teardrop moved to the east coast of the Goiky canal, where she discovered that she could use local water bodies to create clones of herself..."
+ TBT_teardrop_desc: "When the TLC's prisoners were released and Goiky fell apart, the silent Teardrop moved to the east coast of the Goiky canal, where she discovered that she could use local bodies of water to create clones of herself..."
  
  GPG_recommended_characters_council: "RCC"
- GPG_recommended_characters_council_desc: "Recommended Characters Council is the supreme body of the Provisional Government of Goiky. It features various factions that can put forward their proposals, block unwanted ones, and so on. Recently, the Council has been in crisis: Almost all proposals are blocked by one or another faction. No faction can achieve a significant advantage, and this gradually turns into a political crisis. Many are already thinking about §Rforce resolving differences§! with opposing factions..."
+ GPG_recommended_characters_council_desc: "The Recommended Characters Council is the supreme body of the Provisional Government of Goiky. It features various factions that can put forward their proposals, block unwanted ones, and so on. Recently, the Council has been in a crisis: Almost all proposals are blocked by one or more factions. No faction can achieve a significant advantage, and this is at risk of turning into a political stalemate. Many are already thinking about §Rforcefully resolving their differences...§!"
  GPG_fries: "Fries"
  GPG_collective_rulership: "Collective Rulership"
  GPG_ruby: "Ruby"
  GPG_triumvirate: "Triumvirate"
  GPG_pillow: "Pillow"
- GPG_transitional_government: "Transitional government"
+ GPG_transitional_government: "Transitional Government"
  GPG_basketball: "Basketball"
  GPG_remote: "Remote"
  GPG_puffball: "Puffball"
  GPG_taco: "Taco"
  GPG_book: "Book"
- GPG_barf_bag: "Barf bag"
+ GPG_barf_bag: "Barf Bag"
  GPG_saw: "Saw"
  GPG_nickel: "Nickel"
  GPG_firey_jr: "Firey Jr."
@@ -52,31 +52,31 @@
  GSR_bottle: "Bottle"
  
  GTR_golfball: "Golfball"
- GTR_golfball_desc: "'bossy bot' after being released from TLC and the crisis, along with TB, went to the Greeny Plains, where she settled in her factory. She is driven by the technocratic principles of self-government, although she is still gnawed by the problems of maintaining the factory in a normal state."
+ GTR_golfball_desc: "A so called 'Bossy Bot'. After being released from TLC she, along with Tennis Ball, traveled to the Greeny Plains, where she settled in her factory. She is driven by the technocratic principles of self-government, although she is still gnawed by the problems of maintaining the factory in a normal state."
  
  GGR_snowball: "Snowball"
- GGR_snowball_desc: "Thug Snowball, after the crisis in Goiky, proclaimed himself Objektführer of the South-Eastern Goiky."
+ GGR_snowball_desc: "Snowball, after the crisis in Goiky, proclaimed himself Objektführer of South-Eastern Goiky."
  GGR_grassy: "Grassy"
  GGR_woody: "Woody"
  GGR_crayon: "Crayon"
  
  FFT_rocky: "Rocky"
- FFT_rocky_desc: "It's not completely clear how Rocky got into the forests of South Goiky. In any case, now it's a living legend of anarchist self-governments. He made a huge contribution to the protection of local forests from Snowball's fascists and has a gigantic authority here."
+ FFT_rocky_desc: "It's not completely clear how Rocky got into the forests of Southern Goiky. In any case, now he's a living legend of anarchist self-governance. He made a huge contribution to the protection of local forests from Snowball's fascist regime and has a a lot of respect in the region."
  
  BUN_eraser: "Eraser"
- BUN_eraser_desc: "As Goiky entered his dark era, crime became ubiquitous. Such an arrangement of things could not bypass such an object as Eraiser. He led his gang, which trades in raids, robberies and terror."
+ BUN_eraser_desc: "As Goiky entered it's dark era, crime became rampant. Eraser then saw an opportunity. He led his gang, which trades in raids, robberies, and terror."
  
  SRR_wrench: "Wrench"
- SRR_wrench_desc: "Many people say: 'Work hard and you will get anything what you want'. Wrench, perhaps, can serve as an excellent result of this principle. Long career growth and now he holds the highest position in the GGRR administration. However, now he is more concerned about keeping the section of road under his control in good condition than the privileges of being in charge."
+ SRR_wrench_desc: "Many people say: 'You can be anything if you put your mind to it'. Wrench, perhaps, can serve as an excellent example of that principle. He dreamed big, and now he holds the highest position in the GGRR administration. However, now he is more concerned about keeping his section of the road under control and in good condition rather than the privileges of being in charge."
  
  NRR_administration: "Administration"
  NRR_administration_desc: "Due to the difficult situation, the GGRR - North is under the collective leadership."
 
  AGG_ice_cube: "Ice Cube"
- AGG_ice_cube_desc: "Icy, now the head of the Restoration Government, is a rather quiet and vengeful person. The ideas of an ultra-totalitarian society and harsh state capitalism are mixed in her head. She sees her ultimate goal as the unification of Goiky through the military suppression of everyone who opposes it."
+ AGG_ice_cube_desc: "Icy, now the head of the Restoration Government, is a rather quiet and vengeful object. The ideas of an ultra-totalitarian society and harsh state capitalism are mixed in her head. She believes her destiny to be the unifier of Goiky through the military suppression of everyone who opposes her."
  
- SGD_robot_flower: "Robot-Flower"
- SGD_robot_flower_desc: "Robot-flower, after a short stay in the provisional government of Goiky, went to the south, where she managed to lead the local weak self-government in Small Goiky. She harbors long-term plans to revive the original Flower..."
+ SGD_robot_flower: "RobotFlower"
+ SGD_robot_flower_desc: "Robot Flower, after a short stay in the provisional government of Goiky, went to the south, where she managed to lead the local government in Small Goiky. She harbors long-term plans to revive the original Flower..."
  
  YFC_yellow_face: "Yellow Face"
  

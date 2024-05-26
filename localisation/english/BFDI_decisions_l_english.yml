@@ -1,5 +1,5 @@
 ﻿l_english:
- decisions_WGF_our_snowy_friends_desc: "The §Ranarchists§! of the snowy plateau need help; alone they will not withstand the pressure of the §8fascist regime§! in the north.\n\nOur goal is to help them despite our differences."
+ decisions_WGF_our_snowy_friends_desc: "The §Ranarchists§! of the snowy plateau need our help; alone they will not withstand the pressure of the §8fascist regime§! in the north.\n\nOur goal is to help them despite our differences."
  
  decisions_WGF_our_snowy_friends_category: "Our snowy friends"
  decision_WGF_send_500_inf_eq: "Send §Y500§! rifles"
@@ -55,9 +55,9 @@
  decisions_GGR_bottom_snowy_plateau_status_low: "4. Rebels strength in §6Bottom Plateau§! - §gLow§!"
  decisions_GGR_bottom_snowy_plateau_status_medium: "4. Rebels strength in §6Bottom Plateau§! - §9Severe§!"
  decisions_GGR_bottom_snowy_plateau_status_high: "4. Rebels strength in §6Bottom Plateau§! - §REnormous§!"
- 
+
  decision_GGR_industry_category: "Snowy Industry"
- decision_GGR_industry_category_desc: "The Snow Plateau's economic development is at a very low level, and if we want to protect our Reich, we must catch up with our potential opponents by industry."
+ decision_GGR_industry_category_desc: "The Snow Plateau's economic development is at a very low level, and if we want to protect our Reich, we must catch up with our potential opponent's industry."
  GGR_industry_four_year_plan_mission: "§YFour-year Plan§!"
  GGR_industry_snowy_vexels_mission: "§LVexels§! Payments"
  GGR_industry_stop_vexels: "§RStop§! Payments by §LVexels§"
@@ -67,7 +67,7 @@
  GGR_industry_build_factories_in_bottom_plateau: "Industrialization of §6Bottom plateau§!"
  GGR_industry_develop_resources_in_snowy_mountain: "Resources development in §gSnowy Mountain§!"
  GGR_industry_develop_resources_in_snowy_ridge: "Resources development in §8Northern Ridge§!"
- GGR_industry_segregate_nonbinary: "Segregate §tNon-binary§! Objects"
+ GGR_industry_segregate_nonbinary: "Segregate §tNon-Binary§! Objects"
  
  
  decisions_GPG_congress_category: "§7RCC Congress§!"
@@ -85,7 +85,7 @@
  l_decisions_congress_faction_f: "§LIron hand (Reactionaries)§!"
  
  GPG_mission_second_congress: "§YSecond congress§!"
- GPG_mission_second_congress_desc: "The objects of all Goiky held their breath. The result of the second congress will determine the fate of the strongest state on the continent. We must do everything so that she turns to the bright side towards us."
+ GPG_mission_second_congress_desc: "Goiky held it's breath. The result of the second congress will determine the fate of the strongest state on the continent. We must do everything so that fate turns our way."
  GPG_mission_deal_with_democrats: "Deal with §3Democrats§!"
  GPG_mission_deal_with_toilers_front: "Deal with §tToilers Front§!"
  GPG_mission_deal_with_iron_hand: "Deal with §LIron Hand§!"
@@ -93,9 +93,9 @@
  
  decision_GPG_civilwar_category: "§YBattle for Goiky§!"
  GPG_mission_race_to_casland: "§RRace for Casland§!"
- GPG_mission_race_to_casland_desc: "Сasland is the heart of all Goiky. Holding it will determine our victory over our opponents."
+ GPG_mission_race_to_casland_desc: "Сasland is the Goikish heart. Holding it will determine our victory over our opponents."
  GPG_decision_declare_cw_victory: "§7Declare our victory§!"
- GPG_decision_declare_cw_victory_desc: "Our opponents are defeated! It's time to return central authority to Casland."
+ GPG_decision_declare_cw_victory_desc: "Our opponents are defeated! It's time to restore central authority to Casland."
  
  decisions_GPG_lawnland_category: "§YLawnland§!"
  GPG_lawnland_negs_mission: "§3Casland Negotiations§!"
