@@ -1,12 +1,12 @@
 ﻿l_english:
  idea_GOI_anarchy: "Lack of central power"
- idea_GOI_anarchy_desc: "Goiky as such is not an integral state, despite how it looks on the maps. In fact, these are cities scattered over the plains and hills, connected by the Great Goiky railroad. Because of this, no integral policy can be conducted on these lands."
+ idea_GOI_anarchy_desc: "Goiky as such is not a centralized state, despite how it looks on the maps. In fact, these are cities scattered over the plains and hills, connected by the Great Goiky railroad. Because of this, no central policies can be conducted on these lands."
  idea_GOI_bfdi: "Battle For Dream Island"
  idea_GOI_bfdi_desc: "BFDI served as a serious factor in the awakening of the local community and in general the revival of life in Goiky."
  idea_GOI_great_goiky_railroad: "Great Goiky Railroad"
  idea_GOI_great_goiky_railroad_desc: "A railway crossing the entire continent has long been a dream of objects of South Goiky. And, more recently, this dream has come true. The Great Goiky Railroad runs from Dream Island and the Greeny Plains in the west to the highlands of the Snowy Plateau in the east, and is the main link of local economic life."
 
- idea_EMP_no_objects_land: "No objects land"
+ idea_EMP_no_objects_land: "No Man's Land"
  idea_EMP_no_objects_land_desc: "This land is covered by many miles of uninhabited wastelands, only occasionally interrupted by small settlements. There is nothing here but the endless expanses of North Goiky. However, there are rumors about some abandoned metropolis somewhere inland..."
  
  idea_WGF_revolutionary_fire: "Revolutionary Fire"
@@ -19,7 +19,7 @@
  idea_WGF_experience_of_snowy_anarchists: "Experience of snowy anarchists"
  idea_WGF_red_army: "Red army"
  idea_WGF_economical_devastation: "Economical devastation"
- idea_WGF_economical_devastation_desc: "Even during the times of calm in Goiky, the northwestern territories were not very famous for economic development. But today, after all the anarchy, the situation has worsened even more."
+ idea_WGF_economical_devastation_desc: "Even during the times of calm in Goiky, the northwestern territories were not very famous for economic development. But today, after all of the anarchy, the situation has worsened eponentially."
  idea_WGF_cooperation: "Cooperation"
  idea_WGF_coinflip: "§YCoinflip§!"
  idea_WGF_calculator: "Calculator"
@@ -33,20 +33,20 @@
  idea_SEC_land_of_madness_desc: "After the collapse of Goiky, his lands plunged into the abyss of anarchy, but no anarchy can compare with what is happening here. The 'Evil Leafy Witness Society', or 'Cultists' as it is called by the people, began to actively recruit followers after the collapse of Goiky. Its participants settled mainly in the region of the Evil Forest, or rather, on its northeastern outskirts, where they firmly united in communities. Sacrifices, robberies, murders without trial have become normal phenomena in Redleaf and its environs."
  
  idea_GMD_coinys_domain: "Coiny's Domain"
- idea_GMD_coinys_domain_desc: "The Military District is Coiny's personal military dictatorship with all the consequences. Despite the fact that military technologies did not exist in the pre-anarchist Goiky, the whole district is covered with an atmosphere of militarization. Active military construction, according to statements, is carried out only to defend against a threat from the west, but in reality Coiny harbors plans to spread order throughout the continent."
+ idea_GMD_coinys_domain_desc: "The Military District is Coiny's personal military dictatorship with all of the bad and none of the good. Despite the fact that military technologies did not exist in the pre-anarchist Goiky, the whole district is covered with an atmosphere of militarization. Active military construction, according to statements, is carried out only to defend against a threat from the west, but in reality Coiny harbors plans to spread order throughout the continent."
  
  idea_GPR_old_alliance: "Old alliance"
  idea_GPR_old_alliance_desc: "The republic, declared in the west of the Greeny Plains, is based on a fairly strong deterrent from collapse in the form of an alliance of P/M/B. There is much more freedom for pluralism here, unlike other fragments of Goiky, and in general the central government is not so strong. But the risk of §Rweakening the unity of the alliance§! is quite high..."
  idea_GPR_lawnland_compensation: "§YLawnland Compensations§!"
  
  idea_TBT_silent_state: "Silent state"
- idea_TBT_silent_state_desc: "In general, the canal coast east of the Cary Peninsula is not very populated. But after the discovery of Teardrop's ability to clone, this problem was solved by itself, despite the fact that this ability is very limited. And although the state has not yet been legally declared, but, in fact, here it already exists."
+ idea_TBT_silent_state_desc: "In general, the canal coast east of the Cary Peninsula is not very populated. But after the discovery of Teardrop's ability to clone, this problem was solved by itself, despite the fact that this ability is very limited. And although the state has not yet been legally declared, it is, in fact, here already."
  
  idea_GPG_questionable_future: "Questionable future"
  idea_GPG_questionable_future_desc: "Goiky Provisional Government, located in the heart of the continent - Casland, is now in a difficult position. Despite the fact that it controls the most important settlements of the continent, these places have significantly decreased in population due to evacuations and banditry. In addition, the government has not taken a course in a certain direction, and endless disputes between factions don't fade away in the Council. So far, the crisis of the cabinet has not reached a large scale, but it's moving towards it very quickly, and if nothing is done, then it is quite possible that, one might say, the 'only legitimate' government of Goiky will collapse and the largest cities of the continent will again sink into anarchy."
  idea_GPG_factionalism: "Factionalism"
  idea_GPG_dream_island_trauma: "Dream Island Trauma"
- idea_GPG_dream_island_trauma_desc: "The Dream Island did not appear out of nowhere. A huge amount of funds were poured into this project, and a lot of funds came from Casland, from large and small investors. His disappearance dealt a huge blow to all objects of the continent, but here this trauma feels most strongly."
+ idea_GPG_dream_island_trauma_desc: "Dream Island did not appear out of nowhere. A huge amount of funds were poured into this project, and a lot of funds came from Casland, from large and small investors. His disappearance dealt a huge blow to all objects of the continent, but here this trauma feels most strongly."
  idea_GPG_compensation: "Compensation payments"
  idea_GPG_battle_for_casland: "Battle for Casland"
  idea_GPG_drawn_out_war: "Drawn-out war"
@@ -90,10 +90,10 @@
  idea_GFG_production: "2 Hours for Greater Good"
  
  idea_GTR_golfball_s_lab: "Golfball's lab"
- idea_GTR_golfball_s_lab_desc: "Before today's events, the GB factory was the technological center of the entire Goiky. Now, like everything around, local production is in decline. Golfball, as the owner of the factory, led the self-management when the waves of anarchy swept over Goiky. Although this entity is still not fully aware of itself as a state, it has a gigantic potential and technical capabilities, and it is even possible that under the flag of Golfball, Goiky will again enter an era of prosperity..."
+ idea_GTR_golfball_s_lab_desc: "Before recent events, the GB factory was the technological center of the entirety Goiky. Now, like everything else, it's on the decline. Golfball, as the owner of the factory, led it while the waves of anarchy swept over Goiky. Although this entity is still not fully aware of itself as a state, it has gigantic potential and technical capabilities, and it is even possible that under the flag of Golfball, Goiky will again enter an era of prosperity..."
  
  idea_GGR_fascist_dictatorship: "Fascist dictatorship"
- idea_GGR_fascist_dictatorship_desc: "Snow plateau are historically quite a poor region of Goiky. After the onset of anarchy and the radicalization of society, the Großgoikysreich was formed here - a reactionary state of an open dictatorship, driven by ultramilitarism and nationalism. The segregation of 'wrong' objects according to many criteria is actively practiced - from the presence of upper limbs to size. Led by Snowball, the local government promotes ideas of expansionism and the physical destruction of the opposition."
+ idea_GGR_fascist_dictatorship_desc: "The Snowy Plateau has been historically quite a poor region of Goiky. After the onset of anarchy and the radicalization of society, the Großgoikysreich was formed here - a reactionary state of an open dictatorship, driven by ultramilitarism and nationalism. The segregation of 'wrong' objects according to many criteria is actively practiced - from the presence of upper limbs to size. Led by Snowball, the local government promotes ideas of expansionism and the physical destruction of the opposition."
  idea_GGR_anarchist_resistance: "Anarchist resistance"
  idea_GGR_anarchist_resistance_desc: "§tWe cannot create new divisions unless we deal with anarchist resistance.§!"
  idea_GGR_woody: "Woody"
@@ -105,14 +105,14 @@
  idea_GGR_verschneitwehr: "Verscheitwehr"
  
  idea_FFT_mother_anarchy: "Mother-anarchy"
- idea_FFT_mother_anarchy_desc: "Not everyone accepted the methods of the Goikyan Reich, or as they call it here 'snow fascists'. In the south of the snowy plateau, in the local forests, the anarchist communes declared the Free Territory from the Snowmount River to the outskirts of the snowy forest, where everyone who did not accept the fascist dictatorship began to flock. The settlements here exist autonomously and equally, and they solve global issues at the so-called 'settlement meeting'. So far, the main task of the anarchists is to protect against the attempts of the northern neighbor to return the forests 'to their native harbor', but tales of heroic objects that resist tyranny with all their might already go beyond the snowy plateau..."
+ idea_FFT_mother_anarchy_desc: "Not everyone accepted the methods of the Goikish Reich, or as they call it here, the 'snow fascists'. In the south of the Snowy Plateau, known as 'the forests', the anarchist communes declared the Free Territory from the Snowmount River to the outskirts of the Snowy Forest, where everyone who did not accept the fascist dictatorship began to flock. The settlements here exist autonomously and equally, and they solve national issues at the so-called 'settlement meeting'. So far, the main task of the anarchists is to protect against the attempts of the northern neighbor to return the forests 'to their native harbor', but tales of heroic objects that resist tyranny with all their might already go beyond the snowy plateau..."
  idea_FFT_freedom_or_death: "Freedom or Death!"
  
  idea_BUN_criminal_state: "Criminal state"
- idea_BUN_criminal_state_desc: "Banditry was on the heels of the coming chaos. From the Great-Goikian Railroad in the north to the Snowy Plateau in the south, a kind of 'republic' of bandits and thieves took shape in the center of the continent. The main activity here is raids on neighbors. The most famous group here was the Eraser, Pen and Blocky's bunch, or just Eraser's bunch."
+ idea_BUN_criminal_state_desc: "Banditry was on the heels of the coming chaos. From the Great-Goikian Railroad in the north to the Snowy Plateau in the south, a kind of 'republic' of bandits and thieves took shape in the center of the continent. The main activity here is raids on neighbors. The most famous group here was Eraser, Pen and Blocky's bunch, or just Eraser's bunch."
  
  idea_SRR_great_goiky_railroad: "Great-Goikian Railroad"
- idea_SRR_great_goiky_railroad_desc: "The greatest transport artery of Goiky, although now in decline, has not lost its former glory. Local railroads have set up a sort of buffer zone to protect trade and are making a lot of money off the tolls."
+ idea_SRR_great_goiky_railroad_desc: "The greatest transport artery of Goiky, although now in decline, has not lost its former glory. Local railroads have set up a sort of buffer zone to protect trade and are making a lot of money off of the tolls."
  
  idea_NRR_between_two_fires: "Between the devil and the deep sea"
  idea_NRR_between_two_fires_desc: "The situation of the northern administration is much more... difficult than that of their southern friends. From all sides it is surrounded by either impenetrable wastelands or aggressive regimes. In this regard, there are strict laws and measures of war."
