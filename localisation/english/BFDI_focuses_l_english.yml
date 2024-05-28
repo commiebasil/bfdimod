@@ -732,6 +732,51 @@
  GFG_focus_national_resurrection: "§gNational Resurrection§!"
  GFG_focus_national_resurrection_desc: "The traitors and the Fifth Column are defeated. Our state unites all territories previously controlled by the transitional regime. This is the first step towards our goal."
  
+ #GFG post-CW tree
+ GFG_focus_green_grass_black_flag: "§7Black Flag, Green Grass§!"
+ GFG_focus_green_grass_black_flag_desc: ""
+ 
+ GFG_focus_trial_over_traitors: "Trial over Traitors"
+ GFG_focus_trial_over_traitors_desc: "Democrats, communists, neutrals, no matter what traitors to the people and nation call themselves, they will suffer the fate they deserve."
+ 
+ #Triumvirate
+ GFG_focus_neverending_victory: "§YEternal Victory§!"
+ GFG_focus_neverending_victory_desc: ""
+ 
+ GFG_focus_goikian_identity: "Goikian Identity"
+ GFG_focus_goikian_identity_desc: "During the time that Goiky is in deep anarchy, many objects have already forgotten that they are representatives of a great race, and have sworn allegiance to local illegal state formations. It's time to put their brains back in place."
+ 
+ GFG_focus_if_you_feel: "At the Call of the Heart"
+ GFG_focus_if_you_feel_desc: "Any object of Goiky can consider himself a representative of the great Goikian Nation, no matter how much he differs from the population of the Greeny Plains. We are all the same!"
+ 
+ GFG_focus_clean_from_traitors: "Clean from Traitors"
+ GFG_focus_clean_from_traitors_desc: "The objects of Casland must never again start a fratricidal war. Betrayal and incitement must be dealt with harshly."
+ 
+ GFG_focus_free_from_empathy: "Free from Empathy"
+ GFG_focus_free_from_empathy_desc: "There can be no pity for traitors to the nation and race, no matter what false banners they stand under and no matter what slogans they hide behind. All these degenerates must be destroyed."
+ 
+ GFG_focus_goiky_ressurection_government: "§YRessurection Government§!"
+ GFG_focus_goiky_ressurection_government_desc: "Now that the heart of the Great Continent is clear of bastards who have forgotten their roots, Casland can openly declare it's goal of purifying the entire continent.\n\n§RHeil Goiky!§!"
+ 
+ #Pillow :D
+ GFG_focus_neverending_terror: "§1Eternal Terror§!"
+ GFG_focus_neverending_terror_desc: ""
+ 
+ GFG_focus_burn_their_towns: "Burn their Houses"
+ GFG_focus_burn_their_towns_desc: "Settlements that supported degenerates must be punished. National punishment will befall every traitor in this land."
+ 
+ GFG_focus_kill_their_people: "Kill their People"
+ GFG_focus_kill_their_people_desc: "At the slightest suspicion of betrayal, the most severe measures must be taken.\n§RNO ONE WILL ESCAPE FROM PUNISHMENT.§!"
+ 
+ GFG_focus_fake_gods: "Fake Gods"
+ GFG_focus_fake_gods_desc: "During the time of degradation and corrosive anarchism, objects of Goiky recognized false governments and false ideas over themselves, thereby committing the most severe betrayal against their race.\n§REVERY TRAITOR WILL BE PUNISHED.§!"
+ 
+ GFG_focus_call_of_the_north: "Call of The North"
+ GFG_focus_call_of_the_north_desc: "The modern objects of Goiky are certainly the ancestors of the great Yoyleland race. This ancient civilization was ahead of its time, building great urban agglomerations and steadfastly surviving difficult living conditions. We must look up to our ancestors!"
+ 
+ GFG_focus_terra_yoylelandia: "§1Terra Yoylelandia§!"
+ GFG_focus_terra_yoylelandia_desc: "Under-objects, degenerates and traitors crushed the great Yoyleland race and turned its representatives into slaves. Anarchy was the logical outcome. This needs to end.\n\n§КThe Great Race will destroy the traitors within, and then return to it's Homeland.§!"
+ 
  #generic
  generic_focus_industry: "Industry expansion"
  generic_focus_army: "Army"

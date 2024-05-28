@@ -193,6 +193,14 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = l_GFG_loads_focus_tree
+			hidden_effect = { 
+				load_focus_tree = GFG_postcw_focus_tree
+				country_event = {
+					id = GFG_event.2
+					days = 15
+				}
+			}
 		}
 	}
 }

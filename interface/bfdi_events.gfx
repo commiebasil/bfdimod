@@ -379,6 +379,10 @@ SpriteTypes = {
 		name = GFX_GFG_event1
 		texturefile = gfx/event_pictures/GFG_event1.dds
 	}
+	spriteType = {
+		name = GFG_GFG_event2
+		texturefile = gfx/event_pictures/GFG_event2.dds
+	}
 	
 	
 	spriteType = {

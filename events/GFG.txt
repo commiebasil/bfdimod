@@ -12,3 +12,15 @@ country_event = {
 		add_war_support = 0.05
 	}
 }
+
+country_event = {
+	id = GFG_event.2
+	title = GFG_event.2.t
+	desc = GFG_event.2.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.2.a
+	}
+}

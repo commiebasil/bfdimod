@@ -413,6 +413,10 @@
  GSR_event.10.desc: "No one has ever achieved success like ours! The Toilers Front and the Chairman lead us forward to a bright future for Goiky!/n/nLong live the Toilers Front!/nLong live the Toilers Front!"
  GSR_event.10.a: "Long live the Toilers Front!"
  
+ GSR_event.11.t: "Backstab!"
+ GSR_event.11.desc: "The troops of the southern reactionary regime have crossed our state border and are approaching Recharnd! It is necessary to defeat these treacherous traitors!"
+ GSR_event.11.a: "Forward! To the defense of our homes!"
+ 
  GSR_event.12.t: "Disbandment of the Ministry of Economics"
  GSR_event.12.desc: "We have successfully removed the burden of taxes and state slavery from our objects. Anarchy is spreading."
  GSR_event.12.a: "Forwards!"
@@ -445,6 +449,10 @@
  GFG_event.1.t: "Iron Forces in Casland"
  GFG_event.1.desc: "The Transitional Government has shown its complete inability to resist the parasites from the council. In this regard, a government of National Revival was created, which would put an end to the arbitrariness of the national traitors with bayonets."
  GFG_event.1.a: "Goiky will be united!"
+ 
+ GFG_event.2.t: "The Strong Rule"
+ GFG_event.2.desc: "The last remnants of resistance against the Iron Hand were brutally suppressed. The Government of National Resurrection will never again allow anarchy to absorb Casland."
+ GFG_event.2.a: "Heil Goiky!"
  
  #NEWS
  bfdinews.1.t: "Firey won Dream Island!"

@@ -1,0 +1,294 @@
+focus_tree = {
+	id = GFG_postcw_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = GFG
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+	
+	focus = {
+		id = GFG_focus_green_grass_black_flag
+		x = 15
+		y = 0
+		icon = GFX_focus_GFG_green_grass_black_flag
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_trial_over_traitors
+		relative_position_id = GFG_focus_green_grass_black_flag
+		y = 1
+		icon = GFX_focus_GFG_trial_over_traitors
+		
+		prerequisite = { focus = GFG_focus_green_grass_black_flag }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	#TRIUMVIRATE PATH
+	focus = {
+		id = GFG_focus_neverending_victory
+		relative_position_id = GFG_focus_green_grass_black_flag
+		x = -2
+		y = 2
+		icon = GFX_focus_GFG_eternal_victory
+		
+		prerequisite = { focus = GFG_focus_trial_over_traitors }
+		mutually_exclusive = { focus = GFG_focus_neverending_terror }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_goikian_identity
+		relative_position_id = GFG_focus_neverending_victory
+		x = -1
+		y = 1
+		icon = GFX_focus_GSR_new_casland_object
+		
+		prerequisite = { focus = GFG_focus_neverending_victory }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_if_you_feel
+		relative_position_id = GFG_focus_neverending_victory
+		x = -1
+		y = 2
+		icon = GFX_focus_GFG_if_you_feel
+		
+		prerequisite = { focus = GFG_focus_goikian_identity }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_clean_from_traitors
+		relative_position_id = GFG_focus_neverending_victory
+		x = 1
+		y = 1
+		icon = GFX_focus_GFG_clean_from_traitors
+		
+		prerequisite = { focus = GFG_focus_neverending_victory }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_free_from_empathy
+		relative_position_id = GFG_focus_neverending_victory
+		x = 1
+		y = 2
+		icon = GFX_focus_GFG_free_from_empathy
+		
+		prerequisite = { focus = GFG_focus_clean_from_traitors }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_goiky_ressurection_government
+		relative_position_id = GFG_focus_neverending_victory
+		y = 3
+		icon = GFX_focus_GFG_goiky_ressurection_government
+		
+		prerequisite = { focus = GFG_focus_if_you_feel }
+		prerequisite = { focus = GFG_focus_free_from_empathy }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	#PILLOW PATH
+	focus = {
+		id = GFG_focus_neverending_terror
+		relative_position_id = GFG_focus_green_grass_black_flag
+		x = 2
+		y = 2
+		icon = GFX_focus_GFG_eternal_terror
+		
+		prerequisite = { focus = GFG_focus_trial_over_traitors }
+		mutually_exclusive = { focus = GFG_focus_neverending_victory }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_burn_their_towns
+		relative_position_id = GFG_focus_neverending_terror
+		x = -1
+		y = 1
+		icon = GFX_focus_GFG_burn_their_houses
+		
+		prerequisite = { focus = GFG_focus_neverending_terror }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_kill_their_people
+		relative_position_id = GFG_focus_neverending_terror
+		x = -1
+		y = 2
+		icon = GFX_focus_GFG_kill_their_people
+		
+		prerequisite = { focus = GFG_focus_burn_their_towns }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_fake_gods
+		relative_position_id = GFG_focus_neverending_terror
+		x = 1
+		y = 1
+		icon = GFX_focus_GFG_fake_gods
+		
+		prerequisite = { focus = GFG_focus_neverending_terror }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_call_of_the_north
+		relative_position_id = GFG_focus_neverending_terror
+		x = 1
+		y = 2
+		icon = GFX_focus_GFG_call_of_the_north
+		
+		prerequisite = { focus = GFG_focus_fake_gods }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_terra_yoylelandia
+		relative_position_id = GFG_focus_neverending_terror
+		y = 3
+		icon = GFX_focus_GFG_terra_yoylelandia
+		
+		prerequisite = { focus = GFG_focus_kill_their_people }
+		prerequisite = { focus = GFG_focus_call_of_the_north }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+}
