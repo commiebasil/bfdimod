@@ -171,6 +171,12 @@ guiTypes = {
 			spriteType = GFX_button_yfc
 			pdx_tooltip = WR_YFC_BTTT
 		}
+		buttonType = {
+			name = "sos"
+			position = { x = 64 y = 256 }
+			spriteType = GFX_button_sos
+			pdx_tooltip = WR_SOS_BTTT
+		}
 		
 		iconType = {
 			name = "WGF_available"

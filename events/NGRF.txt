@@ -316,7 +316,7 @@ country_event = {
 				slot = political_advisor
 				idea_token = idea_WGF_ruby
 				ledger = army
-				traits = { silent_workhorse }
+				traits = { propaganda_expert }
 			}
 		}
 	}

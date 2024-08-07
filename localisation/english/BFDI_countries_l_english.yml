@@ -4,7 +4,7 @@
  GOI_ADJ: "Goikish"
  GOI_anarchy: "."
  
- WGF: "North Goiky Revolutionary Front"
+ WGF: "Revolutionary Front"
  WGF_DEF: "NGRF"
  WGF_ADJ: "Front"
  
@@ -13,19 +13,19 @@
  WGF_stage2_ADJ: "Socrepublic"
  
  DPZ: "Dream Island Protection Zone"
- DPZ_DEF: "Zone"
+ DPZ_DEF: "Protection Zone"
  DPZ_ADJ: "Zone"
  
  SEC: "Cult"
  SEC_DEF: "Cult"
  SEC_ADJ: "Cult"
  
- GMD: "Goiky Canal Military District"
- GMD_DEF: "District"
+ GMD: "Military District"
+ GMD_DEF: "Goiky Canal District"
  GMD_ADJ: "District"
  
  GPR: "Greeny Plains Republic"
- GPR_DEF: "Plains"
+ GPR_DEF: "Greeny Plains Plains"
  GPR_ADJ: "Republic"
  
  TBT: "Teardrop Beach Territory"
@@ -51,9 +51,11 @@
  GSR_anarchist_DEF: "UAC"
  
  GFG: "Iron Hand"
- GFG_DEF: "Iron Hand"
+ GFG_DEF: "Goiky State"
  GFG_ADJ: "Goikish"
  GFG_government: "National Resurrection Government"
+ GFG_goiky: "Goiky"
+ GFG_esoteric: "Terra Yoylelandia"
  
  GTR: "Goiky Technocratic Republic"
  GTR_DEF: "GTR"
@@ -102,3 +104,7 @@
  YFC: "Yellow Face Corporation"
  YFC_ADJ: "Corporation"
  YFC_DEF: "Corp"
+ 
+ SOS: "Objectburg Free State"
+ SOS_ADJ: "Objectburg Free State"
+ SOS_DEF: "Objectburg Free State"

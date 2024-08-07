@@ -739,7 +739,7 @@
  GFG_focus_trial_over_traitors: "Trial over Traitors"
  GFG_focus_trial_over_traitors_desc: "Democrats, communists, neutrals, no matter what traitors to the people and nation call themselves, they will suffer the fate they deserve."
  
- #Triumvirate
+ #Fanny
  GFG_focus_neverending_victory: "§YEternal Victory§!"
  GFG_focus_neverending_victory_desc: ""
  
@@ -757,6 +757,48 @@
  
  GFG_focus_goiky_ressurection_government: "§YRessurection Government§!"
  GFG_focus_goiky_ressurection_government_desc: "Now that the heart of the Great Continent is clear of bastards who have forgotten their roots, Casland can openly declare it's goal of purifying the entire continent.\n\n§RHeil Goiky!§!"
+ 
+ GFG_focus_i_hate_you: "§RI Hate You!§!"
+ GFG_focus_i_hate_you_desc: ""
+ 
+ GFG_focus_deal_with_resistance: "Strike the Resistance"
+ GFG_focus_deal_with_resistance_desc: "Terrorist cells all over the country are still a big problem for us. The time has come to finally crush the traitors who are encroaching on Goiky National Ressurection."
+ 
+ GFG_focus_integrate_neutrals: "Neutrals Integration"
+ GFG_focus_integrate_neutrals_desc: "Many members of the Neutral Faction are absolutely calm towards our power, and sometimes even sympathize with the ruthless decisions of our administration. It is necessary to take advantage of this opportunity to legitimize the regime."
+ 
+ GFG_focus_restore_cabinet: "Restore Cabinet"
+ GFG_focus_restore_cabinet_desc: "Although the old regime was a spineless, unviable system, many of its management practices could have been very effective under a strong hand. The restoration of the RCC Cabinet will improve the work of the administration and also reassure the objects."
+ 
+ GFG_focus_greeny_plains_terror: "Plains in Flames"
+ GFG_focus_greeny_plains_terror_desc: "Traitors and bandits must be brutally crushed by our mighty hand. And under no circumstances should you show weakness now."
+ 
+ GFG_focus_operation_east: "Eastern Operation"
+ GFG_focus_operation_east_desc: "Communists among the workers of Greenmine, cells of democrats in the fields of the Greeny Plains, the time has come to put an end to these national traitors. National Ressurection Forces will roll through the eastern regions, and it won’t matter if a couple of innocent objects will suffer."
+ 
+ GFG_focus_autarky: "Autarky"
+ GFG_focus_autarky_desc: "Our national mission does not need anyone other than us and our objects. To do this, it is necessary to ensure complete economic independence."
+ 
+ GFG_focus_traitors_work: "Traitor's Work"
+ GFG_focus_traitors_work_desc: "Forced labour will greatly help to quickly cope with the ruins of the Civil War. And besides, we don’t feel sorry for traitors."
+ 
+ GFG_focus_enemys_treasures: "Enemy's Treasures"
+ GFG_focus_enemys_treasures_desc: "The state treasury must be replenished from the assets of national traitors."
+ 
+ GFG_focus_take_methods: "Methods"
+ GFG_focus_take_methods_desc: "The Snowy Reich is a great example of an economic leap in complete isolation. We should learn from them."
+ 
+ GFG_focus_but_not_the_ideas: "But not Ideas"
+ GFG_focus_but_not_the_ideas_desc: "The ideology of the Snowy Reich is absolutely contrary to the spirit of the National Ressurection. These are just another group of traitors who have encroached on the unity of Goiky, even if they are in a similar position with us. There can be no contact with them."
+ 
+ GFG_focus_reconstruction: "Reconstruction"
+ GFG_focus_reconstruction_desc: "We must concentrate on projects for the restoration of strategic industrial enterprises."
+ 
+ GFG_focus_national_acceleration: "National Acceleration"
+ GFG_focus_national_acceleration_desc: "The glorious spirit of the new National State will inspire our brave objects to achieve achievements and work tenfold in the name of Goiky!"
+ 
+ GFG_focus_looking_up: "Looking Up"
+ GFG_focus_looking_up_desc: "Now that Casland had met his new life, it was time to spread the National Ressurection to the surrounding areas. Forwards, Goiky!"
  
  #Pillow :D
  GFG_focus_neverending_terror: "§1Eternal Terror§!"
@@ -776,6 +818,81 @@
  
  GFG_focus_terra_yoylelandia: "§1Terra Yoylelandia§!"
  GFG_focus_terra_yoylelandia_desc: "Under-objects, degenerates and traitors crushed the great Yoyleland race and turned its representatives into slaves. Anarchy was the logical outcome. This needs to end.\n\n§КThe Great Race will destroy the traitors within, and then return to it's Homeland.§!"
+ 
+ GFG_focus_loyalty_to_ancestors: "§1Loyalty to Ancestors§!"
+ GFG_focus_loyalty_to_ancestors_desc: ""
+ 
+ GFG_focus_neutrals_execution: "No Exclusions"
+ GFG_focus_neutrals_execution_desc: "Everyone who has ever opposed the National Revolution must suffer cruel punishment. And we will not negotiate."
+ 
+ GFG_focus_militarization: "Rearmament"
+ GFG_focus_militarization_desc: "Our troops need good rifles to defeat apostates and traitors. Our troops need shelters to continue their campaigns. We should concentrate on this."
+ 
+ GFG_focus_expedition: "§1Expedition§!"
+ GFG_focus_expedition_desc: "The time has come to send a detachment of our most valiant objects to visit the land of our ancestors."
+ 
+ GFG_focus_opening_backpacks: "§YOpening Backpacks!§!"
+ GFG_focus_opening_backpacks_desc: ""
+ 
+ GFG_focus_culture: "§1Culture§!"
+ GFG_focus_culture_desc: "A huge layer of mental heritage was lost in the vastness of Yoyleland. We, the undisputed heirs of the mighty northern civilization, are obliged to restore these lost treasures."
+ 
+ GFG_focus_language: "Language"
+ GFG_focus_language_desc: "The Yoyleland writing, lost in the abyss of time, was obtained by us, and should come to life again."
+ 
+ GFG_focus_nation: "Nation"
+ GFG_focus_nation_desc: "After the collapse of South Goiky, the issue of national orientation arose over all objects. The time has come for us to proudly raise the banner of Yoyleland over the heart of Goiky!"
+ 
+ GFG_focus_were_yoylesse: "We are Yoylese!"
+ GFG_focus_were_yoylesse_desc: "The Goikian nation perished in the fire of self-destruction.\nWe are not Goikian, We are Yoylese! We are the Heirs of a great civilization."
+ 
+ GFG_focus_economics: "§YEconomics§!"
+ GFG_focus_economics_desc: "Casland is going through difficult days. As a result of the collapse and then the betrayal of the congress and the civil war, we are in a grave crisis. It is necessary to destroy this scourge before the surrounding regimes devour us."
+ 
+ GFG_focus_technologies: "Technologies"
+ GFG_focus_technologies_desc: "Thanks to the samples collected during the expedition, we are able to make a serious technological breakthrough in the economy."
+ 
+ GFG_focus_pillow_reconstruction: "Reconstruction!"
+ GFG_focus_pillow_reconstruction_desc: "Casland and the outskirts lie in ruins, and we do nothing about it. It's time for reconstruction!"
+ 
+ GFG_focus_keep_up_militarization: "Keeping Up Militarization"
+ GFG_focus_keep_up_militarization_desc: "In order to complete the mission and destroy the traitors, we need to continue military construction."
+ 
+ GFG_focus_labor_service: "Labor Service"
+ GFG_focus_labor_service_desc: "Each Casland object must work to protect our state."
+ 
+ GFG_focus_establish_autarky: "Autarky"
+ GFG_focus_establish_autarky_desc: "To sustain our struggle, we need economic independence. We should strive for this ideal."
+ 
+ GFG_focus_politics: "§6Politics§!"
+ GFG_focus_politics_desc: "To maintain unity and defeat our opponents, we need a strong hand and social unity, expressed in a common political line."
+ 
+ GFG_focus_final_hit: "Final Hit"
+ GFG_focus_final_hit_desc: "Our policy of eliminating the rebels has worked well, but there are still some traitor cells operating throughout the country. It's time to deal the final blow to them."
+ 
+ GFG_focus_unity: "Unity"
+ GFG_focus_unity_desc: "Objects of all Casland must stand under the banners of the Ancestors and unite, otherwise we will be defeated."
+ 
+ GFG_focus_yoyleland_government: "The Purple State"
+ GFG_focus_yoyleland_government_desc: "There has never been anything like this in Goiky's history. We are the One and Only heirs of the great Yoyleland, and our nation has no equal among traitors and apostates."
+ 
+ GFG_focus_ours_by_right: "§1Ours by Right§!"
+ GFG_focus_ours_by_right_desc: "The degenerates who took advantage of our weakness, who stole our precious land from us, will pay. And this is inevitable."
+ 
+ #GFG Expansion Tree
+ GFG_focus_greeny_plains_claims: "§7Greeny Plains Claims§!"
+ GFG_focus_greeny_plains_claims_desc: ""
+ 
+ GFG_focus_southern_agreement: "Southern Agreement"
+ GFG_focus_southern_agreement_desc: "Before attacking the traitors in the north, we need to secure our rear. To do this, you need to come to an agreement with the government in the Small Plains."
+ 
+ GFG_focus_agreement_result: "[GFG_FOCUS_AGREEMENT_RESULT]"
+ GFG_focus_agreement_result_desc: ""
+ GFG_focus_agreement_result_succeed: "Non-Agression Pact"
+ GFG_focus_agreement_result_fail: "Negotiations Fail"
+ 
+ GFG_focus_break_the_line: "§tBreak the Line§!"
+ GFG_focus_break_the_line_desc: "It's time to defeat the bastards in Greenport once and for all!"
  
  #generic
  generic_focus_industry: "Industry expansion"

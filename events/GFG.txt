@@ -4,6 +4,7 @@ country_event = {
 	id = GFG_event.1
 	title = GFG_event.1.t
 	desc = GFG_event.1.desc
+	picture = GFX_GFG_event1
 
 	is_triggered_only = yes
 	
@@ -17,10 +18,477 @@ country_event = {
 	id = GFG_event.2
 	title = GFG_event.2.t
 	desc = GFG_event.2.desc
+	picture = GFX_GFG_event2
 
 	is_triggered_only = yes
 	
 	option = {
 		name = GFG_event.2.a
+		complete_national_focus = GFG_focus_green_grass_black_flag
+	}
+}
+
+country_event = {
+	id = GFG_event.3
+	title = GFG_event.3.t
+	desc = GFG_event.3.desc
+	picture = GFX_GFG_event3
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.3.a
+	}
+}
+
+country_event = {
+	id = GFG_event.4
+	title = GFG_event.4.t
+	desc = GFG_event.4.desc
+	picture = GFX_GPG_event26
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.4.a
+		custom_effect_tooltip = l_GFG_event4_fascist
+		set_country_flag = fascist_path
+		complete_national_focus = GFG_focus_neverending_victory
+		mark_focus_tree_layout_dirty = yes
+		add_stability = 0.1
+	}
+	
+	option = {
+		name = GFG_event.4.b
+		custom_effect_tooltip = l_GFG_event4_esoteric
+		set_country_flag = esoteric_path
+		complete_national_focus = GFG_focus_neverending_terror
+		mark_focus_tree_layout_dirty = yes
+		add_stability = 0.05
+		add_war_support = 0.05
+	}
+}
+
+country_event = {
+	id = GFG_event.5
+	title = GFG_event.5.t
+	desc = GFG_event.5.desc
+	picture = GFX_GFG_event5
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.5.a
+		retire_character = GFG_triumvirate
+		add_country_leader_role = {
+			character = GFG_fanny
+			promote_leader = yes
+			country_leader = {
+				ideology = fascism_ideology
+			}
+		}
+		complete_national_focus = GFG_focus_i_hate_you
+	}
+}
+
+country_event = {
+	id = GFG_event.6
+	title = {
+		text = GFG_event.6.t.a
+		trigger = {
+			has_country_flag = basketball_accepts
+		}
+	}
+	title = {
+		text = GFG_event.6.t.b
+		trigger = {
+			NOT = { has_country_flag = basketball_accepts }
+		}
+	}
+	
+	desc = {
+		text = GFG_event.6.desc.a
+		trigger = {
+			has_country_flag = basketball_accepts
+		}
+	}
+	desc = {
+		text = GFG_event.6.desc.b
+		trigger = {
+			NOT = { has_country_flag = basketball_accepts }
+		}
+	}
+	
+	picture = GFX_GFG_event6
+
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { has_country_flag = basketball_accepts }
+		name = GFG_event.6.a
+		add_advisor_role = {
+			character = GFG_basketball
+			advisor = {
+				slot = political_advisor
+				idea_token = idea_GPG_basketball
+				traits = { smooth_talking_charmer }
+			}
+		}
+	}
+	
+	option = {
+		trigger = { NOT = { has_country_flag = basketball_accepts } }
+		name = GFG_event.6.b
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = GFG_event.7
+	title = {
+		text = GFG_event.7.t.a
+		trigger = {
+			has_country_flag = remote_accepts
+		}
+	}
+	title = {
+		text = GFG_event.7.t.b
+		trigger = {
+			NOT = { has_country_flag = remote_accepts }
+		}
+	}
+	
+	desc = {
+		text = GFG_event.7.desc.a
+		trigger = {
+			has_country_flag = remote_accepts
+		}
+	}
+	desc = {
+		text = GFG_event.7.desc.b
+		trigger = {
+			NOT = { has_country_flag = remote_accepts }
+		}
+	}
+	
+	picture = GFX_GFG_event6
+
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { has_country_flag = remote_accepts }
+		name = GFG_event.7.a
+		add_advisor_role = {
+			character = GFG_remote
+			advisor = {
+				slot = political_advisor
+				idea_token = idea_GPG_remote
+				traits = { technocrat }
+			}
+		}
+	}
+	
+	option = {
+		trigger = { NOT = { has_country_flag = remote_accepts } }
+		name = GFG_event.7.b
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = GFG_event.8
+	title = {
+		text = GFG_event.8.t.a
+		trigger = {
+			has_country_flag = puffball_accepts
+		}
+	}
+	title = {
+		text = GFG_event.8.t.b
+		trigger = {
+			NOT = { has_country_flag = puffball_accepts }
+		}
+	}
+	
+	desc = {
+		text = GFG_event.8.desc.a
+		trigger = {
+			has_country_flag = puffball_accepts
+		}
+	}
+	desc = {
+		text = GFG_event.8.desc.b
+		trigger = {
+			NOT = { has_country_flag = puffball_accepts }
+		}
+	}
+	
+	picture = GFX_GFG_event6
+
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { has_country_flag = puffball_accepts }
+		name = GFG_event.8.a
+		add_advisor_role = {
+			character = GFG_puffball
+			advisor = {
+				slot = political_advisor
+				idea_token = idea_GPG_puffball
+				traits = { backroom_backstabber }
+			}
+		}
+	}
+	
+	option = {
+		trigger = { NOT = { has_country_flag = puffball_accepts } }
+		name = GFG_event.8.b
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = GFG_event.9
+	title = GFG_event.9.t
+	desc = GFG_event.9.desc
+	picture = GFX_GFG_event9
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.9.a
+		remove_dynamic_modifier = { modifier = idea_GFG_massive_resistance }
+	}
+}
+
+country_event = {
+	id = GFG_event.10
+	title = GFG_event.10.t
+	desc = GFG_event.10.desc
+	picture = GFX_GFG_event10
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.10.a
+		set_country_flag = expansion_tree
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = GFG_focus_greeny_plains_claims
+		GPR = { every_owned_state = { add_claim_by = GFG } }
+	}
+}
+
+country_event = {
+	id = GFG_event.11
+	title = GFG_event.11.t
+	desc = GFG_event.11.desc
+	picture = GFX_GFG_event11
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.11.a
+		remove_dynamic_modifier = { modifier = idea_GFG_post_civil_war_crisis }
+	}
+}
+
+country_event = {
+	id = GFG_event.12
+	title = GFG_event.12.t
+	desc = GFG_event.12.desc
+	picture = GFX_GFG_event12
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.12.a
+		custom_effect_tooltip = l_GPG_allows_divisions_training
+		add_popularity = {
+			ideology = radical_thoughts
+			popularity = 0.3
+		}
+		hidden_effect = {
+			country_lock_all_division_template = no
+		}
+	}
+}
+
+country_event = {
+	id = GFG_event.13
+	title = GFG_event.13.t
+	desc = GFG_event.13.desc
+	picture = GFX_GFG_event13
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.13.a
+		complete_national_focus = GFG_focus_loyalty_to_ancestors
+		set_politics = {
+			ruling_party = radical_thoughts
+			elections_allowed = no
+		}
+		hidden_effect = {
+			set_cosmetic_tag = GFG_esoteric
+		}
+	}
+}
+
+country_event = {
+	id = GFG_event.14
+	title = GFG_event.14.t
+	desc = GFG_event.14.desc
+	picture = GFX_GFG_event14
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.14.a
+		custom_effect_tooltip = l_GFG_everyone_dies_cry_emoji
+		add_war_support = 0.1
+	}
+}
+
+country_event = {
+	id = GFG_event.15
+	title = GFG_event.15.t
+	desc = GFG_event.15.desc
+	picture = GFX_GFG_event15
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.15.a
+		country_event = {
+			id = GFG_event.16
+			days = 5
+			random_days = 5
+			random_hours = 12
+		}
+	}
+}
+
+country_event = {
+	id = GFG_event.16
+	title = GFG_event.16.t
+	desc = GFG_event.16.desc
+	picture = GFX_GFG_event16
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.16.a
+		country_event = {
+			id = GFG_event.17
+			days = 5
+			random_days = 5
+			random_hours = 12
+		}
+	}
+}
+
+country_event = {
+	id = GFG_event.17
+	title = GFG_event.17.t
+	desc = GFG_event.17.desc
+	picture = GFX_GFG_event17
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.17.a
+		add_manpower = -2
+		set_country_flag = expedition_has_ended
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = GFG_focus_opening_backpacks
+	}
+}
+
+country_event = {
+	id = GFG_event.18
+	title = GFG_event.18.t
+	desc = GFG_event.18.desc
+	picture = GFX_GFG_event18
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.18.a
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = GFG_event.19
+	title = GFG_event.19.t
+	desc = GFG_event.19.desc
+	picture = GFX_GFG_event19
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.19.a
+	}
+}
+
+country_event = {
+	id = GFG_event.20
+	title = GFG_event.20.t
+	desc = GFG_event.20.desc
+	picture = GFX_GFG_event20
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.20.a
+	}
+}
+
+country_event = {
+	id = GFG_event.21
+	title = GFG_event.21.t
+	desc = GFG_event.21.desc
+	picture = GFX_GFG_event21
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.21.a
+		if = {
+			limit = { SGD = { exists = yes } }
+			diplomatic_relation = {
+				country = SGD
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+		else_if = {
+			limit = { AGG = { exists = yes } }
+			diplomatic_relation = {
+				country = AGG
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+		set_country_flag = agreement_end
+		set_country_flag = agreement_succeed
+		complete_national_focus = GFG_focus_agreement_result
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+country_event = {
+	id = GFG_event.22
+	title = GFG_event.22.t
+	desc = GFG_event.22.desc
+	picture = GFX_GFG_event22
+
+	is_triggered_only = yes
+	
+	option = {
+		name = GFG_event.22.a
+		set_country_flag = agreement_end
+		complete_national_focus = GFG_focus_agreement_result
+		mark_focus_tree_layout_dirty = yes
 	}
 }

@@ -115,3 +115,10 @@
  GSR_demand_demilitarization_decision: "Demand §RDemilitarization§!"
  GSR_trainings_on_border_decision: "§YMilitary trainings on border§!"
  GSR_back_down_decision: "§YBack Down§!"
+ 
+ decision_GFG_reconstruction_category: "§YReconstruction§!"
+ decision_GFG_reconstruction_category_desc: "\nAs a result of the fratricidal civil war, Casland found itself in ruins. Objects must unite to restore their homeland!"
+ GFG_reconstruction_casland: "§YCasland§! Reconstruction"
+ GFG_reconstruction_recharnd: "§3Recharnd§! Reconstruction"
+ GFG_reconstruction_greensteel: "§tGreensteel§! Reconstruction"
+ GFG_reconstruction_plainy: "§7Plainy§! Reconstruction"

@@ -6,7 +6,7 @@
  idea_GOI_great_goiky_railroad: "Great Goiky Railroad"
  idea_GOI_great_goiky_railroad_desc: "A railway crossing the entire continent has long been a dream of objects of South Goiky. And, more recently, this dream has come true. The Great Goiky Railroad runs from Dream Island and the Greeny Plains in the west to the highlands of the Snowy Plateau in the east, and is the main link of local economic life."
 
- idea_EMP_no_objects_land: "No Man's Land"
+ idea_EMP_no_objects_land: "No Object's Land"
  idea_EMP_no_objects_land_desc: "This land is covered by many miles of uninhabited wastelands, only occasionally interrupted by small settlements. There is nothing here but the endless expanses of North Goiky. However, there are rumors about some abandoned metropolis somewhere inland..."
  
  idea_WGF_revolutionary_fire: "Revolutionary Fire"
@@ -88,6 +88,15 @@
  idea_GSR_no_government: "Free from the Government"
  
  idea_GFG_production: "2 Hours for Greater Good"
+ idea_GFG_post_civil_war_crisis: "§tPost-Civil War Devastation§!"
+ idea_GFG_massive_resistance: "§tMass Resistance§!"
+ idea_GFG_object_nation: "Goikian Archenation"
+ idea_GFG_anti_resistance_activity: "§tStruggle against resistance§!"
+ idea_GFG_cabinet: "Cabinet"
+ idea_GFG_path_to_autarky: "Path to Autarky"
+ idea_GFG_rearmament: "§1Rearmament§!"
+ idea_GFG_we_are_yoylese: "§3We are Yoylese!§!"
+ idea_GFG_militarization: "Militarization"
  
  idea_GTR_golfball_s_lab: "Golfball's lab"
  idea_GTR_golfball_s_lab_desc: "Before recent events, the GB factory was the technological center of the entirety Goiky. Now, like everything else, it's on the decline. Golfball, as the owner of the factory, led it while the waves of anarchy swept over Goiky. Although this entity is still not fully aware of itself as a state, it has gigantic potential and technical capabilities, and it is even possible that under the flag of Golfball, Goiky will again enter an era of prosperity..."
@@ -125,3 +134,6 @@
  
  idea_YFC_no_more_advertisements_foundation: "No more ADS!"
  idea_YFC_no_more_advertisements_foundation_desc: "After the arrival of Yellow Face with his “Mercenaries,” our land began to prosper, but every day we hear less and less news or advertising."
+ 
+ idea_SOS_goiky_fleet: "Goiky Fleet"
+ idea_SOS_goiky_fleet_desc: "With Goiky collapse, the vast merchant fleet of the eastern coast was left to fend for itself. The state with its capital in St. Objectburg also grew into surrounding territories that depended on the fleet. As a result, a fairly strong player was formed in the very heart of the Goiky. Royalist sentiments are also strong here..."

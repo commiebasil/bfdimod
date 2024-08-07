@@ -136,16 +136,26 @@ decision_GPG_civilwar_category = {
 				
 				else_if = {
 					limit = { tag = GFG }
-					add_ideas = idea_GFG_militia_needs_reforms
-					add_ideas = idea_GFG_massive_resistance
+					add_dynamic_modifier = { modifier = idea_GFG_post_civil_war_crisis }
+					add_dynamic_modifier = { modifier = idea_GFG_massive_resistance }
 					set_cosmetic_tag = GFG_government
+					delete_units = {
+						division_template = "Stormtroopers"
+						disband = no
+					}
 					hidden_effect = {
+						country_lock_all_division_template = yes
 						every_possible_country = {
 							limit = { is_ai = no }
 							news_event = {
 								id = bfdinews.19
 								days = 5
 							}
+						}
+						country_event = {
+							id = GFG_event.3
+							days = 40
+							random_hours = 12
 						}
 					}
 				}

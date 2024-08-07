@@ -30,4 +30,18 @@ defined_text = {
 		}
 		localization_key = demo_end_GSR_title_2
 	}
+	text = {
+		trigger = {
+			original_tag = GFG 
+			has_country_flag = fascist_path
+		}
+		localization_key = demo_end_GFG_title_1
+	}
+	text = {
+		trigger = {
+			original_tag = GFG 
+			has_country_flag = esoteric_path
+		}
+		localization_key = demo_end_GFG_title_2
+	}
 }

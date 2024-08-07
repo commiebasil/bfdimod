@@ -307,6 +307,38 @@ spriteTypes = {
 		name = GFX_idea_GFG_production
 		texturefile = gfx/interface/ideas/idea_GFG_production.dds
 	}
+	spriteType = {
+		name = GFX_idea_GFG_post_civil_war_crisis
+		texturefile = gfx/interface/ideas/idea_GFG_post_civil_war_crisis.dds
+	}
+	spriteType = {
+		name = GFX_idea_GFG_massive_resistance
+		texturefile = gfx/interface/ideas/idea_GFG_massive_resistance.dds
+	}
+	spriteType = {
+		name = GFX_idea_GFG_object_nation
+		texturefile = gfx/interface/ideas/idea_GFG_object_nation.dds
+	}
+	spriteType = {
+		name = GFX_idea_GFG_anti_resistance_activity
+		texturefile = gfx/interface/ideas/idea_GFG_anti_resistance_activity.dds
+	}
+	spriteType = {
+		name = GFX_idea_GFG_cabinet
+		texturefile = gfx/interface/ideas/idea_GFG_cabinet.dds
+	}
+	spriteType = {
+		name = GFX_idea_GFG_path_to_autarky
+		texturefile = gfx/interface/ideas/idea_GFG_path_to_autarky.dds
+	}
+	spriteType = {
+		name = GFX_idea_GFG_rearmament
+		texturefile = gfx/interface/ideas/idea_GFG_rearmament.dds
+	}
+	spriteType = {
+		name = GFX_idea_GFG_we_are_yoylese
+		texturefile = gfx/interface/ideas/idea_GFG_we_are_yoylese.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_GTR_golfball_s_lab
@@ -390,5 +422,15 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_idea_YFC_no_more_advertisements_foundation
 		texturefile = gfx/interface/ideas/idea_YFC_no_more_advertisements_foundation.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_SOS_goiky_fleet
+		texturefile = gfx/interface/ideas/idea_SOS_goiky_fleet.dds
+	}
+	
+	spriteType = {
+		name = GFX_idea_generic_militarization
+		texturefile = gfx/interface/ideas/idea_generic_militarization.dds
 	}
 }

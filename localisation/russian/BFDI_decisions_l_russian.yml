@@ -115,3 +115,10 @@
  GSR_trainings_on_border_decision: "§YПровести учения§!"
  GSR_republic_makes_move_mission: "§YРеспублика§! делает ход!"
  GSR_back_down_decision: "§YОтступить§!"
+ 
+ decision_GFG_reconstruction_category: "§YРеконструкция§!"
+ decision_GFG_reconstruction_category_desc: "\nВ результате братоубийственной гражданской войны Кэсленд оказался в руинах. Обджекты должны объединиться в едином порыве ради восстановления своей родины!"
+ GFG_reconstruction_casland: "Восстановление §YКэсленда§!"
+ GFG_reconstruction_recharnd: "Восстановление §3Речернда§!"
+ GFG_reconstruction_greensteel: "Восстановление §tГринстила§!"
+ GFG_reconstruction_plainy: "Восстановление §7Плейни§!"

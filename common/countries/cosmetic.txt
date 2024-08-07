@@ -15,8 +15,16 @@ GSR_post_cw = {
 	color_ui = rgb { 196 16 16 }
 }
 GFG_government = {
-	color = rgb { 24 46 1 }
-	color_ui = rgb { 24 46 1 }
+	color = rgb { 0 12 112 }
+	color_ui = rgb { 0 12 112 }
+}
+GFG_goiky = {
+	color = rgb { 0 173 69 }
+	color_ui = rgb { 0 173 69 }
+}
+GFG_esoteric = {
+	color = rgb { 53 0 102 }
+	color_ui = rgb { 53 0 102 }
 }
 GSR_anarchist = {
 	color = rgb { 36 0 0 }

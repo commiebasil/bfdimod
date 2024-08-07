@@ -380,10 +380,77 @@ SpriteTypes = {
 		texturefile = gfx/event_pictures/GFG_event1.dds
 	}
 	spriteType = {
-		name = GFG_GFG_event2
+		name = GFX_GFG_event2
 		texturefile = gfx/event_pictures/GFG_event2.dds
 	}
-	
+	spriteType = {
+		name = GFX_GFG_event3
+		texturefile = gfx/event_pictures/GFG_event3.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event5
+		texturefile = gfx/event_pictures/GFG_event5.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event6
+		texturefile = gfx/event_pictures/GFG_event6.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event9
+		texturefile = gfx/event_pictures/GFG_event9.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event10
+		texturefile = gfx/event_pictures/GFG_event10.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event11
+		texturefile = gfx/event_pictures/GFG_event11.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event12
+		texturefile = gfx/event_pictures/GFG_event12.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event13
+		texturefile = gfx/event_pictures/GFG_event13.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event14
+		texturefile = gfx/event_pictures/GFG_event14.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event15
+		texturefile = gfx/event_pictures/GFG_event15.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event16
+		texturefile = gfx/event_pictures/GFG_event16.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event17
+		texturefile = gfx/event_pictures/GFG_event17.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event18
+		texturefile = gfx/event_pictures/GFG_event18.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event19
+		texturefile = gfx/event_pictures/GFG_event19.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event20
+		texturefile = gfx/event_pictures/GFG_event20.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event21
+		texturefile = gfx/event_pictures/GFG_event21.dds
+	}
+	spriteType = {
+		name = GFX_GFG_event22
+		texturefile = gfx/event_pictures/GFG_event22.dds
+	}
 	
 	spriteType = {
 		name = GFX_bfdinews1
@@ -468,5 +535,9 @@ SpriteTypes = {
 	spriteType = {
 		name = GFX_bfdinews22
 		texturefile = gfx/event_pictures/bfdinews22.dds
+	}
+	spriteType = {
+		name = GFX_bfdinews23
+		texturefile = gfx/event_pictures/bfdinews23.dds
 	}
 }

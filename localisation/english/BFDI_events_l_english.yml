@@ -414,7 +414,7 @@
  GSR_event.10.a: "Long live the Toilers Front!"
  
  GSR_event.11.t: "Backstab!"
- GSR_event.11.desc: "The troops of the southern reactionary regime have crossed our state border and are approaching Recharnd! It is necessary to defeat these treacherous traitors!"
+ GSR_event.11.desc: "The troops of the southern regime have crossed our state border and are approaching Recharnd! It is necessary to defeat these treacherous traitors!"
  GSR_event.11.a: "Forward! To the defense of our homes!"
  
  GSR_event.12.t: "Disbandment of the Ministry of Economics"
@@ -453,6 +453,96 @@
  GFG_event.2.t: "The Strong Rule"
  GFG_event.2.desc: "The last remnants of resistance against the Iron Hand were brutally suppressed. The Government of National Resurrection will never again allow anarchy to absorb Casland."
  GFG_event.2.a: "Heil Goiky!"
+ 
+ GFG_event.3.t: "Long-lost Yoyleland"  
+ GFG_event.3.desc: "For a very long time, rumors have been circulating around objects of Goiky about a forgotten region in the depths of the uninhabited northern continent. Legends about the mysterious disappearance of the local people and about the incredible technologies and secrets these lands keep have spread widely across the Greeny Plains and have taken root here in Casland. Many of our ranks support the idea of continuity with this great northern race and believe that the modern objects of Goiky are its direct heritage."
+ GFG_event.3.a: "Interesting."
+ 
+ GFG_event.4.t: "Traitors"
+ GFG_event.4.desc: "After our crushing victory over the communists and other bastards, we were able to catch many of them, and we can judge those traitors fairly. This process should show our future course and strengthen our power in the region."
+ GFG_event.4.a: "Public execution!"
+ GFG_event.4.b: "§RTOTAL TERROR§!"
+ 
+ GFG_event.5.t: "Fanny takes command"
+ GFG_event.5.desc: "Now that Casland is clear of traitors and factionists, it is time to put an end to the Triumvirate and bring forward the true Leader of the Objects of Goiky. Fanny will lead us forward, straight to unification!"
+ GFG_event.5.a: "Heil Goiky!"
+ 
+ GFG_event.6.t.a: "Basketball accepts our offer"
+ GFG_event.6.t.b: "Basketball rejects"
+ GFG_event.6.desc.a: "Basketball agrees to work in our new government cabinet for the glory of the Goikian Nation!"
+ GFG_event.6.desc.b: "Basketball rejects your offer to work in the new government."
+ GFG_event.6.a: "Welcome!"
+ GFG_event.6.b: "Damn."
+ 
+ GFG_event.7.t.a: "Remote accepts our offer"
+ GFG_event.7.t.b: "Remote rejects"
+ GFG_event.7.desc.a: "Remote agrees to work in our new government cabinet for the glory of the Goikian Nation!"
+ GFG_event.7.desc.b: "Remote rejects your offer to work in the new government."
+ GFG_event.7.a: "Welcome!"
+ GFG_event.7.b: "Damn."
+ 
+ GFG_event.8.t.a: "Puffball accepts our offer"
+ GFG_event.8.t.b: "Puffball rejects"
+ GFG_event.8.desc.a: "Puffball agrees to work in our new government cabinet for the glory of the Goikian Nation!"
+ GFG_event.8.desc.b: "Puffball rejects your offer to work in the new government."
+ GFG_event.8.a: "Welcome!"
+ GFG_event.8.b: "Damn."
+ 
+ GFG_event.9.t: "Resistance is supressed!"
+ GFG_event.9.desc: "The last serious cells of opponents of our National Revolution have been defeated, and the Casland objects are entering a new, happy era!"
+ GFG_event.9.a: "Heil Goiky!"
+ 
+ GFG_event.10.t: "Path to Unification"
+ GFG_event.10.desc: "Now that Casland is at the height of its powers, the Government of National Resurrection can begin to defeat the surrounding traitors. Our first goal is the Alliance."
+ GFG_event.10.a: "Forwards!"
+ 
+ GFG_event.11.t: "Moving Forwards"
+ GFG_event.11.desc: "Thanks to the kind-hearted work of our objects and their national unity, Casland is rising from ruin, and we no longer feel the dire consequences of the political crisis."
+ GFG_event.11.a: "New Casland."
+ 
+ GFG_event.12.t: "Call of the Ancestors"
+ GFG_event.12.desc: "Our great ancestors from the Northern Civilization are calling our objects to a sacred battle in the name of destroying all unfaithful! Anyone who stands in our way will be crushed by the might of descendants of the Yoyleland!"
+ GFG_event.12.a: "Let us raise the sword above their heads!"
+ 
+ GFG_event.13.t: "Pillow takes on the role of Supreme Leader"
+ GFG_event.13.desc: "The inevitable result of our great National Revolution was to set a course for restoring the greatness of our ancestors and Northern Civilization. All Casland objects unanimously support the mighty impulse for the holy battle against traitors and heretics!\n\n§1Long live Yoyleland!§!"
+ GFG_event.13.a: "Eternal Glory!"
+ 
+ GFG_event.14.t: "The Last Congress"
+ GFG_event.14.desc: "The remains of the previous cabinet were all here, when Fries entered the room. Perhaps, the most important person in this trial. All eyes were directed at his face, which emotionlessly listened to accusations of resistance to the National Revolution, betrayal of the Goikian nation and many other lines. Only when the announcement was over, his cheekbones did move."
+ GFG_event.14.a: "He yawned."
+ 
+ GFG_event.15.t: "Expedition"
+ GFG_event.15.desc: "After long hours and days of traveling through the Goiky Canal, the group finally encountered the shores of the northern continent. No object has set foot here for several years, and this land is fraught with many secrets."
+ GFG_event.15.a: "We'll go to the Northeast."
+ 
+ GFG_event.16.t: "A City"
+ GFG_event.16.desc: "After several more days of wandering and navigating by the stars, the group saw the concrete jungle of Yoylecity on the horizon. The city greeted visitors with silence and a faintly burning, never-setting sun."
+ GFG_event.16.a: "Absorbing silence."
+ 
+ GFG_event.17.t: "Return of the Group"
+ GFG_event.17.desc: "Finally, after long days of waiting, the expedition returned with many interesting things. However, one of the group members has disappeared due to unknown circumstances, and the other is raving about some kind of 'leaf'."
+ GFG_event.17.a: "Revealing the cards!"
+ 
+ GFG_event.18.t: "Culture"
+ GFG_event.18.desc: "Our expedition managed to obtain priceless fragments of the ancient Yoyleland civilization. We must use the treasures of our ancestors that we have obtained for the sake of reviving their great culture."
+ GFG_event.18.a: "Forwards!"
+ 
+ GFG_event.19.t: "Language"
+ GFG_event.19.desc: "The Yoyleland alphabet on faded, ancient paper lay on the table in front of Pillow. The hypnotic forms of the hieroglyphs made the Leader fall in love with them."
+ GFG_event.19.a: "Approved!"
+ 
+ GFG_event.20.t: "Nation"
+ GFG_event.20.desc: "The perplexed residents of Casland listened to the radio broadcast.\n\n'From now on, there is no longer any 'Goykian' nation. We are Yoylese!' - The speakers rang with enthusiasm, and the new Yoylese people listened to them."
+ GFG_event.20.a: "Purple flag."
+ 
+ GFG_event.21.t: "Succesful Agreement!"
+ GFG_event.21.desc: "Our diplomats successfully managed to conclude a pact with the Southern government. Now everything is ready to attack north!"
+ GFG_event.21.a: "Perfect!"
+ 
+ GFG_event.22.t: "Negotiations Fail."
+ GFG_event.22.desc: "Unfortunately, our diplomats were unable to sign a pact with the southern government. Looks like they are planning against us..."
+ GFG_event.22.a: "Damn."
  
  #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
@@ -546,5 +636,9 @@
  bfdinews.21.a: "Another split?"
  
  bfdinews.22.t: "Greeny Plains in flames!"
- bfdinews.22.desc: "Important news! Anarchist regime forces in Casland have crossed the Republic border and attacked troops in occupied Lawnland! Mobilization has been announced in Greenport. Match called the act of aggression 'a, like, ugly thing to do' and the government declared a state of emergency. Apparently, the war will be prolonged and bloody. No information from Casland side."
+ bfdinews.22.desc: "Important news! Casland regime forces have crossed the Republic border and attacked troops in occupied Lawnland! Mobilization has been announced in Greenport. Match called the act of aggression 'a, like, ugly thing to do' and the government declared a state of emergency. Apparently, the war will be prolonged and bloody. No information from Casland side."
  bfdinews.22.a: "And objects are dying again."
+ 
+ bfdinews.23.t: "Esoterics in Casland"
+ bfdinews.23.desc: "After the victory of the Iron Hand in the civil war, many expected anything, but surely no one expected this. According to the meager information from the local government, it declared itself “a successor of the Great Yoyleland Race” and threatened all “traitors and degenerates” with complete annihilation. The news from Casland is becoming increasingly radical, and this is alarming."
+ bfdinews.23.a: "Yoyleland?"

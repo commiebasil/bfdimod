@@ -98,3 +98,14 @@ defined_text = {
 		localization_key = GPG_focus_second_congress_end_2
 	}
 }
+
+defined_text = {
+	name = GFG_FOCUS_AGREEMENT_RESULT
+	text = {
+		trigger = { has_country_flag = agreement_succeed }
+		localization_key = GFG_focus_agreement_result_succeed
+	}
+	text = {
+		localization_key = GFG_focus_agreement_result_failed
+	}
+}

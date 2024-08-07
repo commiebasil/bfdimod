@@ -74,6 +74,9 @@ scripted_gui = {
 			yfc_click = {
 				set_variable = { country_select_var = 16 }
 			}
+			sos_click = {
+				set_variable = { country_select_var = 17 }
+			}
 			
 			startbutton_click = {
 				if = {

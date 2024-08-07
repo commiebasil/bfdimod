@@ -1124,6 +1124,76 @@ SpriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_focus_GFG_i_hate_you"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_i_hate_you.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_deal_with_resistance"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_deal_with_resistance.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_integrate_neutrals"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_integrate_neutrals.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_restore_cabinet"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_restore_cabinet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_greeny_plains_terror"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_greeny_plains_terror.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_operation_east"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_operation_east.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_autarky"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_autarky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_traitors_work"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_traitors_work.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_enemys_treasures"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_enemys_treasures.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_take_methods"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_take_methods.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_but_not_the_ideas"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_but_not_the_ideas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_reconstruction"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_reconstruction.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_national_acceleration"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_national_acceleration.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_looking_up"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_looking_up.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_focus_GFG_eternal_terror"
 		texturefile = "gfx/interface/goals/GFX_focus_GFG_eternal_terror.dds"
 	}
@@ -1151,5 +1221,120 @@ SpriteTypes = {
 	spriteType = {
 		name = "GFX_focus_GFG_terra_yoylelandia"
 		texturefile = "gfx/interface/goals/GFX_focus_GFG_terra_yoylelandia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_loyalty_to_ancestors"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_loyalty_to_ancestors.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_neutrals_execution"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_neutrals_execution.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_militarization"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_militarization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_expedition"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_expedition.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_opening_backpacks"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_opening_backpacks.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_culture"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_culture.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_language"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_language.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_nation"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_nation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_were_yoylesse"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_were_yoylesse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_economics"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_economics.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_technologies"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_technologies.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_keep_up_militarization"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_keep_up_militarization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_establish_autarky"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_establish_autarky.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_politics"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_politics.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_final_hit"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_final_hit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_unity"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_unity.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_yoyleland_government"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_yoyleland_government.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_ours_by_right"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_ours_by_right.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_labor_service"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_labor_service.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_greeny_plains_claims"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_greeny_plains_claims.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_agreement_succeed"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_agreement_succeed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_agreement_fail"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_agreement_fail.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GFG_break_the_line"
+		texturefile = "gfx/interface/goals/GFX_focus_GFG_break_the_line.dds"
 	}
 }

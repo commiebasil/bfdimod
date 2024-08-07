@@ -1,0 +1,1005 @@
+focus_tree = {
+	id = GFG_postcw2_focus_tree
+	
+	country = {
+		factor = 0
+	}
+	
+	default = no
+	reset_on_civilwar = no
+	
+	
+	#Fascist tree
+	
+	focus = {
+		id = GFG_focus_i_hate_you
+		x = 15
+		y = 0
+		icon = GFX_focus_GFG_i_hate_you
+		
+		allow_branch = { has_country_flag = fascist_path }
+		
+		available = { always = no }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_deal_with_resistance
+		relative_position_id = GFG_focus_i_hate_you
+		y = 1
+		icon = GFX_focus_GFG_deal_with_resistance
+		
+		prerequisite = { focus = GFG_focus_i_hate_you }
+		
+		cost = 2
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_integrate_neutrals
+		relative_position_id = GFG_focus_i_hate_you
+		x = -1
+		y = 2
+		icon = GFX_focus_GFG_integrate_neutrals
+		
+		prerequisite = { focus = GFG_focus_deal_with_resistance }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_GFG_integrate_neutrals
+			hidden_effect = {
+				random = {
+					chance = 50
+					set_country_flag = basketball_accepts
+				}
+				random = {
+					chance = 50
+					set_country_flag = remote_accepts
+				}
+				random = {
+					chance = 50
+					set_country_flag = puffball_accepts
+				}
+				
+				country_event = {
+					id = GFG_event.6
+					days = 10
+				}
+				country_event = {
+					id = GFG_event.7
+					days = 11
+				}
+				country_event = {
+					id = GFG_event.8
+					days = 12
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_restore_cabinet
+		relative_position_id = GFG_focus_i_hate_you
+		x = -1
+		y = 3
+		icon = GFX_focus_GFG_restore_cabinet
+		
+		prerequisite = { focus = GFG_focus_integrate_neutrals }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_ideas = idea_GFG_cabinet
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_greeny_plains_terror
+		relative_position_id = GFG_focus_i_hate_you
+		x = 1
+		y = 2
+		icon = GFX_focus_GFG_greeny_plains_terror
+		
+		prerequisite = { focus = GFG_focus_deal_with_resistance }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			10 = { add_manpower = -21012 }
+			206 = { add_manpower = -14522 }
+			145 = { add_manpower = -6011 }
+			add_stability = -0.1
+			custom_effect_tooltip = l_GFG_improves_resistance
+			add_to_variable = { var_GFG_resistance_cf = 0.05 }
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_operation_east
+		relative_position_id = GFG_focus_i_hate_you
+		x = 1
+		y = 3
+		icon = GFX_focus_GFG_operation_east
+		
+		prerequisite = { focus = GFG_focus_greeny_plains_terror }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			10 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			145 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			set_province_name = {
+				id = 5107
+				name = VICTORY_POINT_5107_GFG
+			}
+			hidden_effect = {
+				country_event = {
+					id = GFG_event.9
+					days = 5
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_autarky
+		relative_position_id = GFG_focus_i_hate_you
+		y = 4
+		icon = GFX_focus_GFG_autarky
+		
+		prerequisite = { focus = GFG_focus_restore_cabinet }
+		prerequisite = { focus = GFG_focus_operation_east }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_GFG_path_to_autarky
+				days = 200
+			}
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_traitors_work
+		relative_position_id = GFG_focus_i_hate_you
+		x = -2
+		y = 5
+		icon = GFX_focus_GFG_traitors_work
+		
+		prerequisite = { focus = GFG_focus_autarky }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_GFG_improves_economy
+			add_to_variable = { var_GFG_crisis_cgf = -0.1 }
+			add_to_variable = { var_GFG_crisis_psf = 0.1 }
+			add_to_variable = { var_GFG_crisis_pfegf = 0.1 }
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_enemys_treasures
+		relative_position_id = GFG_focus_i_hate_you
+		x = -2
+		y = 6
+		icon = GFX_focus_GFG_enemys_treasures
+		
+		prerequisite = { focus = GFG_focus_traitors_work }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = l_GFG_improves_economy
+			add_to_variable = { var_GFG_crisis_cgf = -0.1 }
+			add_to_variable = { var_GFG_crisis_psf = 0.1 }
+			add_to_variable = { var_GFG_crisis_pfegf = 0.1 }
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_take_methods
+		relative_position_id = GFG_focus_i_hate_you
+		y = 5
+		icon = GFX_focus_GFG_take_methods
+		
+		prerequisite = { focus = GFG_focus_autarky }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
+			custom_effect_tooltip = l_GFG_improves_economy
+			add_to_variable = { var_GFG_crisis_cgf = -0.1 }
+			add_to_variable = { var_GFG_crisis_psf = 0.1 }
+			add_to_variable = { var_GFG_crisis_pfegf = 0.1 }
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_but_not_the_ideas
+		relative_position_id = GFG_focus_i_hate_you
+		y = 6
+		icon = GFX_focus_GFG_but_not_the_ideas
+		
+		prerequisite = { focus = GFG_focus_take_methods }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_opinion_modifier = {
+				target = GGR
+				modifier = medium_decrease
+			}
+			custom_effect_tooltip = l_GFG_improves_economy
+			add_to_variable = { var_GFG_crisis_sf = 0.15 }
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_reconstruction
+		relative_position_id = GFG_focus_i_hate_you
+		x = 2
+		y = 5
+		icon = GFX_focus_GFG_reconstruction
+		
+		prerequisite = { focus = GFG_focus_autarky }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_GFG_opens_reconstruction_decisions
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_national_acceleration
+		relative_position_id = GFG_focus_i_hate_you
+		x = 2
+		y = 6
+		icon = GFX_focus_GFG_national_acceleration
+		
+		prerequisite = { focus = GFG_focus_reconstruction }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+			add_stability = 0.05
+			add_war_support = 0.1
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_looking_up
+		relative_position_id = GFG_focus_i_hate_you
+		y = 7
+		icon = GFX_focus_GFG_looking_up
+		
+		prerequisite = { focus = GFG_focus_enemys_treasures }
+		prerequisite = { focus = GFG_focus_but_not_the_ideas }
+		prerequisite = { focus = GFG_focus_national_acceleration }
+		
+		available = {
+			NOT = { has_dynamic_modifier = { modifier = idea_GFG_post_civil_war_crisis } }
+		}
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GFG_event.10
+		}
+	}
+	
+	# Pillow tree :D
+	
+	focus = {
+		id = GFG_focus_loyalty_to_ancestors
+		x = 15
+		y = 0
+		icon = GFX_focus_GFG_loyalty_to_ancestors
+		
+		allow_branch = { has_country_flag = esoteric_path }
+		
+		available = { always = no }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_neutrals_execution
+		relative_position_id = GFG_focus_loyalty_to_ancestors
+		y = 1
+		
+		icon = GFX_focus_GFG_neutrals_execution
+		
+		prerequisite = { focus = GFG_focus_loyalty_to_ancestors }
+		
+		cost = 7
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GFG_event.14
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_militarization
+		relative_position_id = GFG_focus_loyalty_to_ancestors
+		y = 2
+		
+		icon = GFX_focus_GFG_militarization
+		
+		prerequisite = { focus = GFG_focus_neutrals_execution }
+		
+		cost = 7
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_timed_idea = {
+				idea = idea_GFG_rearmament
+				days = 180
+			}
+			custom_effect_tooltip = l_GFG_improves_economy
+			add_to_variable = { var_GFG_crisis_cgf = -0.1 }
+			add_to_variable = { var_GFG_crisis_psf = 0.1 }
+			add_to_variable = { var_GFG_crisis_pfegf = 0.1 }
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_expedition
+		relative_position_id = GFG_focus_loyalty_to_ancestors
+		y = 3
+		
+		icon = GFX_focus_GFG_expedition
+		
+		prerequisite = { focus = GFG_focus_militarization }
+		
+		cost = 7
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GFG_event.15
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_opening_backpacks
+		relative_position_id = GFG_focus_loyalty_to_ancestors
+		y = 4
+		
+		icon = GFX_focus_GFG_opening_backpacks
+		
+		prerequisite = { focus = GFG_focus_expedition }
+		
+		allow_branch = { has_country_flag = expedition_has_ended }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_culture
+		relative_position_id = GFG_focus_opening_backpacks
+		x = -4
+		y = 1
+		
+		icon = GFX_focus_GFG_culture
+		
+		prerequisite = { focus = GFG_focus_opening_backpacks }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GFG_event.18
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_language
+		relative_position_id = GFG_focus_opening_backpacks
+		x = -5
+		y = 2
+		
+		icon = GFX_focus_GFG_language
+		
+		prerequisite = { focus = GFG_focus_culture }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GFG_event.19
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_nation
+		relative_position_id = GFG_focus_opening_backpacks
+		x = -3
+		y = 2
+		
+		icon = GFX_focus_GFG_nation
+		
+		prerequisite = { focus = GFG_focus_culture }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GFG_event.20
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_were_yoylesse
+		relative_position_id = GFG_focus_opening_backpacks
+		x = -4
+		y = 4
+		
+		icon = GFX_focus_GFG_were_yoylesse
+		
+		prerequisite = { focus = GFG_focus_language }
+		prerequisite = { focus = GFG_focus_nation }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_ideas = idea_GFG_we_are_yoylese
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_economics
+		relative_position_id = GFG_focus_opening_backpacks
+		y = 1
+		
+		icon = GFX_focus_GFG_economics
+		
+		prerequisite = { focus = GFG_focus_opening_backpacks }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_technologies
+		relative_position_id = GFG_focus_opening_backpacks
+		x = -1
+		y = 2
+		
+		icon = GFX_focus_GFG_technologies
+		
+		prerequisite = { focus = GFG_focus_economics }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_pillow_reconstruction
+		relative_position_id = GFG_focus_opening_backpacks
+		x = -1
+		y = 3
+		
+		icon = GFX_focus_GFG_reconstruction
+		
+		prerequisite = { focus = GFG_focus_technologies }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_GFG_opens_reconstruction_decisions
+			custom_effect_tooltip = l_GFG_improves_economy
+			add_to_variable = { var_GFG_crisis_sf = 0.15 }
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_keep_up_militarization
+		relative_position_id = GFG_focus_opening_backpacks
+		x = 1
+		y = 2
+		
+		icon = GFX_focus_GFG_keep_up_militarization
+		
+		prerequisite = { focus = GFG_focus_economics }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_ideas = idea_GFG_militarization
+			custom_effect_tooltip = l_GFG_improves_economy
+			add_to_variable = { var_GFG_crisis_cgf = -0.1 }
+			add_to_variable = { var_GFG_crisis_psf = 0.1 }
+			add_to_variable = { var_GFG_crisis_pfegf = 0.1 }
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_labor_service
+		relative_position_id = GFG_focus_opening_backpacks
+		x = 1
+		y = 3
+		
+		icon = GFX_focus_GFG_labor_service
+		
+		prerequisite = { focus = GFG_focus_keep_up_militarization }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = -0.05
+			custom_effect_tooltip = l_GFG_improves_economy
+			add_to_variable = { var_GFG_crisis_cgf = -0.1 }
+			add_to_variable = { var_GFG_crisis_psf = 0.1 }
+			add_to_variable = { var_GFG_crisis_pfegf = 0.1 }
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_establish_autarky
+		relative_position_id = GFG_focus_opening_backpacks
+		y = 4
+		
+		icon = GFX_focus_GFG_establish_autarky
+		
+		prerequisite = { focus = GFG_focus_pillow_reconstruction }
+		prerequisite = { focus = GFG_focus_labor_service }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_ideas = idea_GFG_path_to_autarky
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_politics
+		relative_position_id = GFG_focus_opening_backpacks
+		x = 4
+		y = 1
+		
+		icon = GFX_focus_GFG_politics
+		
+		prerequisite = { focus = GFG_focus_opening_backpacks }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_final_hit
+		relative_position_id = GFG_focus_opening_backpacks
+		x = 3
+		y = 2
+		
+		icon = GFX_focus_GFG_final_hit
+		
+		prerequisite = { focus = GFG_focus_politics }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GFG_event.9
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_unity
+		relative_position_id = GFG_focus_opening_backpacks
+		x = 5
+		y = 2
+		
+		icon = GFX_focus_GFG_unity
+		
+		prerequisite = { focus = GFG_focus_politics }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_yoyleland_government
+		relative_position_id = GFG_focus_opening_backpacks
+		x = 4
+		y = 4
+		
+		icon = GFX_focus_GFG_yoyleland_government
+		
+		prerequisite = { focus = GFG_focus_final_hit }
+		prerequisite = { focus = GFG_focus_unity }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			add_ideas = idea_GFG_cabinet
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_ours_by_right
+		relative_position_id = GFG_focus_opening_backpacks
+		y = 5
+		
+		icon = GFX_focus_GFG_ours_by_right
+		
+		prerequisite = { focus = GFG_focus_were_yoylesse }
+		prerequisite = { focus = GFG_focus_establish_autarky }
+		prerequisite = { focus = GFG_focus_yoyleland_government }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			country_event = GFG_event.10
+		}
+	}
+	
+	
+	#Expansion tree
+	
+	focus = {
+		id = GFG_focus_greeny_plains_claims
+		x = 25
+		y = 0
+		icon = GFX_focus_GFG_greeny_plains_claims
+		
+		available = { always = no }
+		
+		allow_branch = { has_country_flag = expansion_tree }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_southern_agreement
+		relative_position_id = GFG_focus_greeny_plains_claims
+		y = 1
+		icon = GFX_focus_GPG_defense_plan_3
+		
+		prerequisite = { focus = GFG_focus_greeny_plains_claims }
+		
+		cost = 7
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = l_GFG_southern_agreement
+			hidden_effect = {
+				if = {
+					limit = {
+						SGD = { exists = yes }
+						NOT = { AGG = { exists = no } }
+					}
+					random_list = {
+						50 = {
+							country_event = {
+								id = GFG_event.21
+								days = 5
+								random_hours = 12
+							}
+						}
+						50 = {
+							country_event = {
+								id = GFG_event.22
+								days = 5
+								random_hours = 12
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						AGG = { exists = yes }
+						NOT = { SGD = { exists = no } }
+					}
+					random_list = {
+						20 = {
+							country_event = {
+								id = GFG_event.21
+								days = 5
+								random_hours = 12
+							}
+						}
+						80 = {
+							country_event = {
+								id = GFG_event.22
+								days = 5
+								random_hours = 12
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						AGG = { exists = yes }
+						SGD = { exists = yes }
+					}
+					country_event = {
+						id = GFG_event.22
+						days = 5
+						random_hours = 12
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_agreement_result
+		relative_position_id = GFG_focus_greeny_plains_claims
+		y = 2
+		icon = {
+			trigger = { has_country_flag = agreement_succeed }
+			value = GFX_focus_GFG_agreement_succeed
+		}
+		icon = {
+			value = GFX_focus_GFG_agreement_fail
+		}
+		
+		prerequisite = { focus = GFG_focus_southern_agreement }
+		
+		allow_branch = { has_country_flag = agreement_end }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GFG_focus_break_the_line
+		relative_position_id = GFG_focus_greeny_plains_claims
+		y = 3
+		icon = GFX_focus_GFG_break_the_line
+		
+		prerequisite = { focus = GFG_focus_agreement_result }
+		
+		available = { has_war = no }
+		
+		cost = 5
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			declare_war_on = {
+				target = GPR
+				type = annex_everything
+			}
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_country_flag = agreement_succeed } }
+					country_event = {
+						id = GSR_event.11
+						days = 30
+					}
+				}
+				every_possible_country = {
+					limit = { is_ai = no }
+					news_event = {
+						id = bfdinews.22
+						days = 10
+						random_hours = 12
+					}
+				}
+			}
+		}
+	}
+}

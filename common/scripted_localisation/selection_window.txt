@@ -96,6 +96,12 @@ defined_text = {
         }
         localization_key = YFC
     }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 17 }
+        }
+        localization_key = SOS
+    }
 }
 defined_text = {
 	name = SW_COUNTRYDESC
@@ -194,5 +200,11 @@ defined_text = {
             check_variable = { country_select_var = 16 }
         }
         localization_key = idea_YFC_no_more_advertisements_foundation_desc
+    }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 17 }
+        }
+        localization_key = idea_SOS_goiky_fleet_desc
     }
 }

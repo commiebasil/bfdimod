@@ -120,3 +120,19 @@ idea_GSR_decentralization = {
 	neutrality_drift = var_GSR_decentralization_nd
 }
 
+
+idea_GFG_post_civil_war_crisis = {
+	icon = GFX_idea_GFG_post_civil_war_crisis
+	
+	consumer_goods_factor = var_GFG_crisis_cgf
+	production_speed_buildings_factor = var_GFG_crisis_psf
+	production_factory_efficiency_gain_factor = var_GFG_crisis_pfegf
+	stability_factor = var_GFG_crisis_sf
+}
+
+idea_GFG_massive_resistance = {
+	icon = GFX_idea_GFG_massive_resistance
+	
+	stability_factor = var_GFG_resistance_sf
+	conscription_factor = var_GFG_resistance_cf
+}

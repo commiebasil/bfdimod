@@ -374,9 +374,27 @@ country_event = {
 			193 = { set_demilitarized_zone = no }
 			203 = { set_demilitarized_zone = no }
 		}
+		
+		SOS = {
+			transfer_state = 204
+			transfer_state = 205
+			transfer_state = 207
+			
+			add_state_core = 204
+			add_state_core = 205
+			add_state_core = 207
+			
+			204 = { set_demilitarized_zone = no }
+			205 = { set_demilitarized_zone = no }
+			207 = { set_demilitarized_zone = no }
+		}
 		GOI = {
 				remove_state_core = 193
 				remove_state_core = 203
+				
+				remove_state_core = 204
+				remove_state_core = 205
+				remove_state_core = 207
 		}
 	}
 }

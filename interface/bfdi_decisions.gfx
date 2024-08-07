@@ -361,4 +361,9 @@ spriteTypes = {
 		name = "GFX_decisions_GPG_back_down_socialist"
 		textureFile = "gfx/interface/decisions/GFX_decisions_GPG_back_down_socialist.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_GFG_reconstruction"
+		textureFile = "gfx/interface/decisions/decision_cat_GFG_reconstruction.dds"
+	}
 }

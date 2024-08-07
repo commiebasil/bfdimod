@@ -105,6 +105,18 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GPG/GPG_transitional_government.dds"
 	}
 	
+	frameAnimatedSpriteType = {
+			name = "GFX_GFG_fanny"
+			texturefile = "gfx/leaders/GFG/GFG_fanny.dds"
+			noOfFrames = 9
+			loadType = "INGAME"
+			transparencecheck = no
+			animation_rate_fps = 12
+			looping = yes
+			play_on_show = yes
+			pause_on_loop = 0.0
+	}
+	
 	spriteType = {
 		name = "GFX_GDR_eggy"
 		texturefile = "gfx/leaders/GDR/GDR_eggy.dds"
@@ -185,5 +197,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_YFC_yellow_face"
 		texturefile = "gfx/leaders/YFC/YFC_yellow_face.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SOS_anchor"
+		texturefile = "gfx/leaders/SOS/SOS_anchor.dds"
 	}
 }

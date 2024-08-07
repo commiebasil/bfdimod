@@ -7,6 +7,11 @@ characters = {
 		}
 	}
 	
+	GFG_fanny = {
+		name = GFG_fanny
+		portraits = { civilian = { large = GFX_GFG_fanny } }
+	}
+	
 	GFG_pillow = {
 		name = GPG_pillow
 		portraits = { 
@@ -39,10 +44,6 @@ characters = {
 			slot = political_advisor
 			idea_token = idea_GFG_saw
 			traits = { compassionate_gentleman }
-			available = {
-				has_government = fascism
-				has_country_flag = cw_done
-			}
 		}
 	}
 	
@@ -68,5 +69,20 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 		}
+	}
+	
+	GFG_basketball = {
+		name = GPG_basketball
+		portraits = { civilian = { small = GFX_idea_GPG_basketball } }
+	}
+	
+	GFG_remote = {
+		name = GPG_remote
+		portraits = { civilian = { small = GFX_idea_GPG_remote } }
+	}
+	
+	GFG_puffball = {
+		name = GPG_puffball
+		portraits = { civilian = { small = GFX_idea_GPG_puffball } }
 	}
 }

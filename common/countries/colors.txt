@@ -94,6 +94,10 @@ YFC = {
 	color = rgb { 209 202 46 }
 	color_ui = rgb { 209 202 46 }
 }
+SOS = {
+	color = rgb { 0 30 130 }
+	color_ui = rgb { 0 30 130 }
+}
 
 D01 = {
 	color = rgb { 122 179 97 }

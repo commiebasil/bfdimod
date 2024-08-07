@@ -1,0 +1,37 @@
+#recommended country by yourlocalpolandball
+
+capital = 204
+
+set_research_slots = 2
+
+set_technology = { basic_train = 1 }
+set_technology = { infantry_weapons = 1 }
+if = {
+	limit = { NOT = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+	}
+}
+
+add_equipment_to_stockpile = {
+    type = train_equipment_1
+    amount = 14
+    producer = GOI
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1" 
+	election_frequency = 48 
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 84
+	democratic = 12
+	fascism = 4
+}
+
+add_ideas = idea_SOS_goiky_fleet
+
+recruit_character = SOS_anchor
