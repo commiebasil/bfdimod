@@ -40,4 +40,9 @@ music = {
 	file = "GPG_cw_ironhand_victory.ogg"
 	volume = 1
 }
+music = {
+	name = "SOS_pin_coronation"
+	file = "SOS_pin_coronation.ogg"
+	volume = 1
+}
 

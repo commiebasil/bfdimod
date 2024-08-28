@@ -879,7 +879,7 @@ focus_tree = {
 				if = {
 					limit = {
 						SGD = { exists = yes }
-						NOT = { AGG = { exists = no } }
+						AGG = { exists = no }
 					}
 					random_list = {
 						50 = {
@@ -901,7 +901,7 @@ focus_tree = {
 				else_if = {
 					limit = {
 						AGG = { exists = yes }
-						NOT = { SGD = { exists = no } }
+						SGD = { exists = no }
 					}
 					random_list = {
 						20 = {

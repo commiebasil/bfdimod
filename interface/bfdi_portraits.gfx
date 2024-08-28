@@ -148,6 +148,10 @@ spriteTypes = {
 		name = "GFX_GGR_grassy"
 		texturefile = "gfx/leaders/GGR/GGR_grassy.dds"
 	}
+	spriteType = {
+		name = "GFX_GGR_taco"
+		texturefile = "gfx/leaders/GGR/GGR_taco.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_FFT_rocky"
@@ -202,5 +206,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SOS_anchor"
 		texturefile = "gfx/leaders/SOS/SOS_anchor.dds"
+	}
+	spriteType = {
+		name = "GFX_SOS_pin"
+		texturefile = "gfx/leaders/SOS/SOS_pin.dds"
 	}
 }

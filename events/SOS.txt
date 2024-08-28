@@ -1,0 +1,23 @@
+add_namespace = SOS_hidden_event
+
+country_event = {
+	id = SOS_hidden_event.1
+	
+	hidden = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		add_country_leader_role = {
+			character = SOS_pin
+			promote_leader = yes
+			country_leader = {
+				ideology = despotism
+			}
+		}
+		every_possible_country = {
+			limit = { is_ai = no }
+			news_event =  bfdinews.24
+		}
+	}
+}

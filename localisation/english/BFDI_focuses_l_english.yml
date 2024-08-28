@@ -889,7 +889,7 @@
  GFG_focus_agreement_result: "[GFG_FOCUS_AGREEMENT_RESULT]"
  GFG_focus_agreement_result_desc: ""
  GFG_focus_agreement_result_succeed: "Non-Agression Pact"
- GFG_focus_agreement_result_fail: "Negotiations Fail"
+ GFG_focus_agreement_result_failed: "Negotiations Fail"
  
  GFG_focus_break_the_line: "§tBreak the Line§!"
  GFG_focus_break_the_line_desc: "It's time to defeat the bastards in Greenport once and for all!"

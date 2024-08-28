@@ -104,6 +104,7 @@ decision_GPG_civilwar_category = {
 					}
 					set_cosmetic_tag = GDR_republic
 					hidden_effect = {
+						country_lock_all_division_template = yes
 						every_possible_country = {
 							limit = { is_ai = no }
 							news_event = {

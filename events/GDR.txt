@@ -13,3 +13,17 @@ country_event = {
 		add_political_power = 25
 	}
 }
+
+country_event = {
+	id = GDR_event.2
+	title = GDR_event.2.t
+	desc = GDR_event.2.desc
+	picture = GFX_GDR_event2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.2.a
+		complete_national_focus = GDR_triumph_of_the_democracy
+	}
+}

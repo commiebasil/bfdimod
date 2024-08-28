@@ -28,5 +28,11 @@
  GSR_radical_thoughts_party: "§RРаспущена§!"
  GSR_communism_party: "Рабочий Фронт"
  
+ GDR_democratic_party: "Демократы"
+ GDR_communism_party: "Социалисты"
+ GDR_neutrality_party: "Центристы"
+ GDR_fascism_party: "Националисты"
+ GSR_radical_thoughts_party: "§RРаспущена§!"
+ 
  GFG_fascism_party: "Триумвират"
  GFG_radical_thoughts_party: "Триумвират - Пиллоу"

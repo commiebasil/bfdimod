@@ -18,7 +18,7 @@ units = {
     }
 	division= {
         name = "Volunteer forces"
-        location = 311 # Casland border
+        location = 3620 # Casland border
         division_template = "Volunteer forces"
         start_experience_factor = 0.3
         start_equipment_factor = 0.7

@@ -212,6 +212,15 @@ scripted_gui = {
 							days = 30
 						}
 					}
+					
+					SOS = {
+						country_event = {
+							id = SOS_hidden_event.1
+							days = 365
+							random_days = 20
+							random_hours = 12
+						}
+					}
 				}
 			}
 		}
@@ -292,6 +301,15 @@ scripted_gui = {
 					country_event = {
 						id = GPG_event.6
 						days = 30
+					}
+				}
+				
+				SOS = {
+					country_event = {
+						id = SOS_hidden_event.1
+						days = 365
+						random_days = 20
+						random_hours = 12
 					}
 				}
 			}

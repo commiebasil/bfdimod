@@ -59,6 +59,7 @@
  GGR_snowball: "Snowball"
  GGR_snowball_desc: "Snowball, after the crisis in Goiky, proclaimed himself Objektführer of South-Eastern Goiky."
  GGR_grassy: "Grassy"
+ GGR_taco: "Taco"
  GGR_woody: "Woody"
  GGR_crayon: "Crayon"
  
@@ -90,3 +91,4 @@
  
  SOS_anchor: "Anchor"
  SOS_anchor_desc: "An old commander of a merchant ship, after the Dream Island dissapearment, Anchor acquired a reputation as an honorable, decisive object. Thanks to his good name and management talents, he was chosen as the head of the fleet self-government."
+ SOS_pin: "§8High Queen of the People of Saint Objectburg and Mistress of Its Land, Pin§!"

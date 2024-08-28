@@ -623,6 +623,16 @@ focus_tree = {
 					name = "Schneeschutz"
 					icon = GFX_agency_icon_GGR_scheeschutz
 				}
+				hidden_effect = {
+					create_operative_leader = {
+						name = GGR_taco
+						GFX = GFX_GGR_taco
+						traits = { operative_infiltrator operative_natural_orator }
+						bypass_recruitment = no
+						available_to_spy_master = yes
+						nationalities = { GPG }
+					}
+				}
 			}
 			else = { add_political_power = 50 }
 		}

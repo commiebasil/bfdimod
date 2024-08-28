@@ -371,6 +371,10 @@
  GDR_event.1.desc: "The provisional government, through its decisions, showed its desire to establish a dictatorship, and we were forced to raise our rifles for the sake of our freedom and the freedom of Goiky’s objects. Opponents of democracy must be defeated today, or we are doomed to another authoritarian regime."
  GDR_event.1.a: "Forwards!"
  
+ GDR_event.2.t: "Return of the Republic"
+ GDR_event.2.desc: "Casland's objects celebrate the advent of democracy, and the congress once again prepares to continue its work with a new members. We have a big job ahead of us to return to normal life."
+ GDR_event.2.a: "Getting to work!"
+ 
  #GSR
  GSR_event.1.t: "Liberation of the mines"
  GSR_event.1.desc: "The workers at one of the iron mines cheered as they listened to Ruby's speech. Finally, they were freed from 12 hours of slavery in the caves. 'But this is not the end!' - Ruby exclaimed. Objects must continue to fight to maintain their gains."
@@ -642,3 +646,7 @@
  bfdinews.23.t: "Esoterics in Casland"
  bfdinews.23.desc: "After the victory of the Iron Hand in the civil war, many expected anything, but surely no one expected this. According to the meager information from the local government, it declared itself “a successor of the Great Yoyleland Race” and threatened all “traitors and degenerates” with complete annihilation. The news from Casland is becoming increasingly radical, and this is alarming."
  bfdinews.23.a: "Yoyleland?"
+ 
+ bfdinews.24.t: "Pin's Coronation"
+ bfdinews.24.desc: "Interesting news came the other day from St. Objectburg. The local government, formed from the fleet command, announced Pin's ascension to the self-declared throne. She had already accepted the title and became the first monarch in Goiky's history. So far, the sentiments of neighboring governments are neutral, but we will continue to monitor developments."
+ bfdinews.24.a: "Monarchy? In Goiky?"

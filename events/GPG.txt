@@ -902,14 +902,14 @@ country_event = {
 			goto_state = 10 
 		}
 	}
-	#option = {
-	#	name = GPG_event.20.c
-	#	GDR = { change_tag_from = GPG }
-	#	hidden_effect = {
-	#		gpg_civil_war = yes
-	#		goto_state = 145
-	#	}
-	#}
+	option = {
+		name = GPG_event.20.c
+		GDR = { change_tag_from = GPG }
+		hidden_effect = {
+			gpg_civil_war = yes
+			goto_state = 145
+		}
+	}
 	option = {
 		name = GPG_event.20.d
 		GFG = { change_tag_from = GPG }

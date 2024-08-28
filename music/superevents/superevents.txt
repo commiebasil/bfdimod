@@ -61,3 +61,10 @@ music = {
       #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
     }
 }
+music = {
+    song = "SOS_pin_coronation"
+    chance = {
+      modifier = { factor = 0 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}

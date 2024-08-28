@@ -543,6 +543,10 @@
  GDR_focus_constitution: "§7Вторая Конституция§!"
  GDR_focus_constitution_desc: "Первая конституция потерпела крах. Но за вторую конституцию мы будем биться до последнего обджекта."
  
+ #GDR post-CW tree
+ focus_GDR_triumph_of_the_democracy: "§7Триумф Демократии§!"
+ focus_GDR_triumph_of_the_democracy: ""
+ 
  #GSR FOCUSES
  #GSR CW tree
  GSR_focus_workers_revolution: "§RРабочая революция§!"
@@ -867,7 +871,7 @@
  GFG_focus_agreement_result: "[GFG_FOCUS_AGREEMENT_RESULT]"
  GFG_focus_agreement_result_desc: ""
  GFG_focus_agreement_result_succeed: "Пакт о Ненападении"
- GFG_focus_agreement_result_fail: "Неудачные Переговоры"
+ GFG_focus_agreement_result_failed: "Неудачные Переговоры"
  
  GFG_focus_break_the_line: "§tПересечение Линии§!"
  GFG_focus_break_the_line_desc: "Пришло время разгромить ублюдков в Гринпорте раз и навсегда!"
