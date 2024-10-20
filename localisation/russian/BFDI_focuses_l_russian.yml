@@ -545,7 +545,52 @@
  
  #GDR post-CW tree
  focus_GDR_triumph_of_the_democracy: "§7Триумф Демократии§!"
- focus_GDR_triumph_of_the_democracy: ""
+ focus_GDR_triumph_of_the_democracy_desc: ""
+ 
+ focus_GDR_third_congress: "Третий Съезд"
+ focus_GDR_third_congress_desc: "Теперь, когда в демократии в Кэсленде ничего не угрожает, СРП может вновь собраться для решения государственных вопросов!"
+ 
+ focus_GDR_president_selection: "Президентские Выборы"
+ focus_GDR_president_selection_desc: "Кончается эпоха коллективного правительства. Пора нашим обджектам избрать слугу народа."
+ 
+ focus_GDR_dealing_with_crisis: "Кризис"
+ focus_GDR_dealing_with_crisis_desc: "Тяжело на всех Зелёных Равнинах отозвалась эта война. К тому же, на нас висит тяжёлое ярмо кредитов от Гринпорта. Пришло время съезду с этим разобраться."
+ 
+ focus_GDR_congress_plan: "§3План Совета§!"
+ focus_GDR_congress_plan_desc: ""
+ 
+ focus_GDR_deindustrialization: "Вывоз Промышленности"
+ focus_GDR_deindustrialization_desc: "Чтобы расплатиться по долгам, нам придётся попрощаться с некоторыми промышленными предприятиями. К сожалению, у нас нет выбора."
+ 
+ focus_GDR_shock_therapy: "Шоковая Терапия"
+ focus_GDR_shock_therapy_desc: "Для запуска экономики нам необходимо перераспределение собственности. Государство должно начать этот процесс."
+ 
+ focus_GDR_debt_payments: "Закрытие Долгов"
+ focus_GDR_debt_payments_desc: "Пусть и большой ценой, но мы сумели расплатиться по счетам. Теперь мы можем двигаться вперёд!"
+ 
+ focus_GDR_ban_military_organizations: "Запрет Экстремизма"
+ focus_GDR_ban_military_organizations_desc: "Сколько горя и бед принесли обджектам кровожадные столкновения политических полушарий. Пора положить этому конец."
+ 
+ focus_GDR_representation_for_right: "Представители для Правых"
+ focus_GDR_representation_for_right_desc: "Консерваторы и умеренные правые имеют право существовать в нашем политическом поле. Да здравствует демократия!"
+ 
+ focus_GDR_representation_for_left: "Представители для Левых"
+ focus_GDR_representation_for_left_desc: "Социал-демократы и нереволюционные организации должны быть представлены в нашей демократии."
+ 
+ focus_GDR_lower_house_plan: "§4План Нижней Палаты§!"
+ focus_GDR_lower_house_plan_desc: ""
+ 
+ focus_GDR_demilitarization: "Разоружение"
+ focus_GDR_demilitarization_desc: "Армия съедает огромную долю национальных доходов, которые мы могли бы пустить на погашение долга."
+ 
+ focus_GDR_slow_privatization: "Постепенная Приватизация"
+ focus_GDR_slow_privatization_desc: "Резкие и крупные передачи собственности могут плохо сказаться на единстве нашей демократии. В этом нет нужды."
+ 
+ focus_GDR_debt_negotiations: "Переговоры по Долгам"
+ focus_GDR_debt_negotiations_desc: "Большая часть долга уже выплачена, и, возможно, Гринпорт пойдёт на попятную, касаясь оставшейся доли."
+ 
+ focus_GDR_land_of_liberty: "§6Маяк Свободы§!"
+ focus_GDR_land_of_liberty_desc: ""
  
  #GSR FOCUSES
  #GSR CW tree

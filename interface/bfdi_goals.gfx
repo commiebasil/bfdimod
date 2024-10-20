@@ -816,6 +816,16 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_focus_GDR_constitution.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_focus_GDR_triumph_of_the_democracy"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_triumph_of_the_democracy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_third_congress"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_third_congress.dds"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_focus_GSR_workers_revolution"

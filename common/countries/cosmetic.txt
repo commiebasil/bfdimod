@@ -7,8 +7,8 @@ GPG_fries_cw = {
 	color_ui = rgb { 147 167 204 }
 }
 GDR_republic = {
-	color = rgb { 136 250 55 }
-	color_ui = rgb { 136 250 55 }
+	color = rgb { 101 247 184 }
+	color_ui = rgb { 101 247 184 }
 }
 GSR_post_cw = {
 	color = rgb { 196 16 16 }
