@@ -36,14 +36,14 @@ focus_tree = {
 		
 		prerequisite = { focus = focus_GDR_triumph_of_the_democracy }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
-			
+			country_event = GDR_event.3
 		}
 	}
 	
@@ -56,14 +56,14 @@ focus_tree = {
 		
 		prerequisite = { focus = focus_GDR_third_congress }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
-			
+			country_event = GDR_event.4
 		}
 	}
 	
@@ -76,174 +76,27 @@ focus_tree = {
 		
 		prerequisite = { focus = focus_GDR_president_selection }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = focus_GDR_congress_plan
-		relative_position_id = focus_GDR_triumph_of_the_democracy
-		x = -3
-		y = 4
-		
-		icon = GFX_focus_GDR_congress_plan
-		
-		prerequisite = { focus = focus_GDR_dealing_with_crisis }
-		
-		mutually_exclusive = { focus = focus_GDR_lower_house_plan }
-		
-		cost = 1
-		
-		ai_will_do = {
-        base = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = focus_GDR_deindustrialization
-		relative_position_id = focus_GDR_congress_plan
-		y = 1
-		
-		icon = GFX_focus_GDR_deindustrialization
-		
-		prerequisite = { focus = focus_GDR_congress_plan }
-		
-		cost = 1
-		
-		ai_will_do = {
-        base = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = focus_GDR_shock_therapy
-		relative_position_id = focus_GDR_congress_plan
-		y = 2
-		
-		icon = GFX_focus_GDR_shock_therapy
-		
-		prerequisite = { focus = focus_GDR_deindustrialization }
-		
-		cost = 1
-		
-		ai_will_do = {
-        base = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = focus_GDR_debt_payments
-		relative_position_id = focus_GDR_congress_plan
-		y = 3
-		
-		icon = GFX_focus_GDR_shock_therapy
-		
-		prerequisite = { focus = focus_GDR_shock_therapy }
-		
-		cost = 1
-		
-		ai_will_do = {
-        base = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = focus_GDR_ban_military_organizations
-		relative_position_id = focus_GDR_triumph_of_the_democracy
-		y = 5
-		
-		icon = GFX_focus_GDR_ban_military_organizations
-		
-		prerequisite = {
-			focus = focus_GDR_congress_plan
-			focus = focus_GDR_lower_house_plan
-		}
-		
-		cost = 1
-		
-		ai_will_do = {
-        base = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = focus_GDR_representation_for_right
-		relative_position_id = focus_GDR_triumph_of_the_democracy
-		x = -1
-		y = 6
-		
-		icon = GFX_focus_GDR_representation_for_right
-		
-		prerequisite = { focus = focus_GDR_ban_military_organizations }
-		
-		cost = 1
-		
-		ai_will_do = {
-        base = 10
-		}
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = focus_GDR_representation_for_left
-		relative_position_id = focus_GDR_triumph_of_the_democracy
-		x = 1
-		y = 6
-		
-		icon = GFX_focus_GDR_representation_for_left
-		
-		prerequisite = { focus = focus_GDR_ban_military_organizations }
-		
-		cost = 1
-		
-		ai_will_do = {
-        base = 10
-		}
-		
-		completion_reward = {
-			
+			country_event = GDR_event.6
 		}
 	}
 	
 	focus = {
 		id = focus_GDR_lower_house_plan
 		relative_position_id = focus_GDR_triumph_of_the_democracy
-		x = 3
 		y = 4
 		
 		icon = GFX_focus_GDR_lower_house_plan
 		
 		prerequisite = { focus = focus_GDR_dealing_with_crisis }
+		
+		available = { always = no }
 		
 		mutually_exclusive = { focus = focus_GDR_congress_plan }
 		
@@ -261,9 +114,10 @@ focus_tree = {
 	focus = {
 		id = focus_GDR_demilitarization
 		relative_position_id = focus_GDR_lower_house_plan
+		x = -2
 		y = 1
 		
-		icon = GFX_focus_GDR_demilitarization
+		icon = GFX_focus_GPG_slow_disarm
 		
 		prerequisite = { focus = focus_GDR_lower_house_plan }
 		
@@ -279,11 +133,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = focus_GDR_slow_privatization
+		id = focus_GDR_representation_for_left
 		relative_position_id = focus_GDR_lower_house_plan
+		x = -3
 		y = 2
 		
-		icon = GFX_focus_GDR_slow_privatization
+		icon = GFX_focus_GDR_representation_for_left
 		
 		prerequisite = { focus = focus_GDR_demilitarization }
 		
@@ -299,9 +154,74 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = focus_GDR_representation_for_right
+		relative_position_id = focus_GDR_lower_house_plan
+		x = -1
+		y = 2
+		
+		icon = GFX_focus_GDR_representation_for_right
+		
+		prerequisite = { focus = focus_GDR_demilitarization }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = focus_GDR_ban_military_organizations
+		relative_position_id = focus_GDR_lower_house_plan
+		x = -2
+		y = 3
+		
+		icon = GFX_focus_GDR_ban_military_organizations
+		
+		prerequisite = {focus = focus_GDR_representation_for_right }
+		prerequisite = {focus = focus_GDR_representation_for_left }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = focus_GDR_slow_privatization
+		relative_position_id = focus_GDR_lower_house_plan
+		x = 2
+		y = 1
+		
+		icon = GFX_focus_GDR_slow_privatization
+		
+		prerequisite = { focus = focus_GDR_lower_house_plan }
+		
+		cost = 1
+		
+		ai_will_do = {
+        base = 10
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
 		id = focus_GDR_debt_negotiations
 		relative_position_id = focus_GDR_lower_house_plan
-		y = 3
+		x = 2
+		y = 2
 		
 		icon = GFX_focus_GDR_debt_negotiations
 		
@@ -320,17 +240,13 @@ focus_tree = {
 	
 	focus = {
 		id = focus_GDR_land_of_liberty
-		relative_position_id = focus_GDR_triumph_of_the_democracy
-		y = 8
+		relative_position_id = focus_GDR_lower_house_plan
+		y = 4
 		
 		icon = GFX_focus_GDR_land_of_liberty
 		
-		prerequisite = {
-			focus = focus_GDR_debt_payments
-			focus = focus_GDR_debt_negotiations
-		}
-		prerequisite = { focus = focus_GDR_representation_for_right }
-		prerequisite = { focus = focus_GDR_representation_for_left }
+		prerequisite = { focus = focus_GDR_ban_military_organizations }
+		prerequisite = { focus = focus_GDR_debt_negotiations }
 		
 		cost = 1
 		

@@ -121,6 +121,18 @@ spriteTypes = {
 		name = "GFX_GDR_eggy"
 		texturefile = "gfx/leaders/GDR/GDR_eggy.dds"
 	}
+	spriteType = {
+		name = "GFX_GDR_taco"
+		texturefile = "gfx/leaders/GDR/GDR_taco.dds"
+	}
+	spriteType = {
+		name = "GFX_GDR_book"
+		texturefile = "gfx/leaders/GDR/GDR_book.dds"
+	}
+	spriteType = {
+		name = "GFX_GDR_barf_bag"
+		texturefile = "gfx/leaders/GDR/GDR_barf_bag.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_GSR_ruby"

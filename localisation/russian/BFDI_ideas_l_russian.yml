@@ -68,6 +68,9 @@
  idea_GPG_nickel_desc: "ИНАНИМЕЙТ ИНСЕНИТИ РЕФЕРЕНС????"
  
  idea_GDR_military_advisors: "Военные советники"
+ idea_GDR_instability: "§tПолитический Кризис§!"
+ idea_GDR_instability_desc: "§tЗапрещает создание дивизий!§!"
+ idea_GDR_payments_to_gpr: "§YДолги Гринпорту§!"
  
  idea_GSR_revolutionary_spirit: "Революционный дух"
  idea_GSR_tireless_work: "Не покладая рук"

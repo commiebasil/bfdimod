@@ -322,6 +322,22 @@ SpriteTypes = {
 		name = GFX_GDR_event2
 		texturefile = gfx/event_pictures/GDR_event2.dds
 	}
+	spriteType = {
+		name = GFX_GDR_event3
+		texturefile = gfx/event_pictures/GDR_event3.dds
+	}
+	spriteType = {
+		name = GFX_GDR_event4
+		texturefile = gfx/event_pictures/GDR_event4.dds
+	}
+	spriteType = {
+		name = GFX_GDR_event5
+		texturefile = gfx/event_pictures/GDR_event5.dds
+	}
+	spriteType = {
+		name = GFX_GDR_event6
+		texturefile = gfx/event_pictures/GDR_event6.dds
+	}
 	
 	
 	spriteType = {

@@ -24,6 +24,100 @@ country_event = {
 	
 	option = {
 		name = GDR_event.2.a
-		complete_national_focus = GDR_triumph_of_the_democracy
+		complete_national_focus = focus_GDR_triumph_of_the_democracy
+	}
+}
+
+country_event = {
+	id = GDR_event.3
+	title = GDR_event.3.t
+	desc = GDR_event.3.desc
+	picture = GFX_GDR_event3
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.3.a
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = GDR_event.4
+	title = GDR_event.4.t
+	desc = GDR_event.4.desc
+	picture = GFX_GDR_event4
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.4.a
+		country_event = {
+			id = GDR_event.5
+			days = 15
+			random_hours = 12
+		}
+	}
+}
+
+country_event = {
+	id = GDR_event.5
+	title = GDR_event.5.t
+	desc = GDR_event.5.desc
+	picture = GFX_GDR_event5
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.5.a
+		retire_character = GDR_collective_rulership
+		add_country_leader_role = {
+			character = GDR_taco
+			promote_leader = yes
+			country_leader = {
+				ideology = liberalism
+				traits = { staunch_liberal }
+			}
+		}
+	}
+	
+	option = {
+		name = GDR_event.5.b
+		retire_character = GDR_collective_rulership
+		add_country_leader_role = {
+			character = GDR_book
+			promote_leader = yes
+			country_leader = {
+				ideology = liberalism
+				traits = { well_read }
+			}
+		}
+	}
+	
+	option = {
+		name = GDR_event.5.c
+		retire_character = GDR_collective_rulership
+		add_country_leader_role = {
+			character = GDR_barf_bag
+			promote_leader = yes
+			country_leader = {
+				ideology = liberalism
+				traits = { conservative_trait }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = GDR_event.6
+	title = GDR_event.6.t
+	desc = GDR_event.6.desc
+	picture = GFX_GDR_event6
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.6.a
+		complete_national_focus = focus_GDR_lower_house_plan
 	}
 }

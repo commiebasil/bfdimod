@@ -826,6 +826,51 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_focus_GDR_third_congress.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_focus_GDR_president_selection"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_president_selection.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_dealing_with_crisis"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_dealing_with_crisis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_lower_house_plan"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_lower_house_plan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_slow_privatization"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_slow_privatization.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_representation_for_left"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_representation_for_left.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_representation_for_right"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_representation_for_right.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_debt_negotiations"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_debt_negotiations.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_ban_military_organizations"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_ban_military_organizations.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_land_of_liberty"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_land_of_liberty.dds"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_focus_GSR_workers_revolution"

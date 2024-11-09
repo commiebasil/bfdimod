@@ -375,6 +375,24 @@
  GDR_event.2.desc: "Casland's objects celebrate the advent of democracy, and the congress once again prepares to continue its work with a new members. We have a big job ahead of us to return to normal life."
  GDR_event.2.a: "Getting to work!"
  
+ GDR_event.3.t: "Third Congress"
+ GDR_event.3.desc: "For the first time since the brutal battles for Casland, the RCC office was illuminated by the bright sun of Goiky. The objects had gathered here once again to continue the democratic tradition of this glorious city in the heart of the continent. Now they had a huge amount of work ahead of them; the destruction brought by the civil war and the huge debts to Greenport, the political crisis of the Democratic government and other problems that needed to be resolved quickly."
+ GDR_event.3.a: "For object's better life!"
+ 
+ GDR_event.4.t: "Elections"
+ GDR_event.4.desc: "The Republic needs a president, a strong personality, who will be supported by our objects. It is time to eliminate collective leadership and hold elections."
+ GDR_event.4.a: "I will vote!"
+ 
+ GDR_event.5.t: "Results"
+ GDR_event.5.desc: "So, the votes have been counted. It's time to announce the results. By a small margin in the first round, the first presidential term of the Republic was won by..."
+ GDR_event.5.a: "...Taco!"
+ GDR_event.5.b: "...Book!"
+ GDR_event.5.c: "...Barf Bag!"
+ 
+ GDR_event.6.t: "Total Devastation"
+ GDR_event.6.desc: "[GDR_GETLEADERNAME] looked at the graffiti on the walls of a ruined building on the outskirts of Casland. Among them were many extremist, threatening ones. The whole country is in decline. A terrible civil war has destroyed the country and driven our objects into harsh poverty."
+ GDR_event.6.a: "It's time to act!"
+ 
  #GSR
  GSR_event.1.t: "Liberation of the mines"
  GSR_event.1.desc: "The workers at one of the iron mines cheered as they listened to Ruby's speech. Finally, they were freed from 12 hours of slavery in the caves. 'But this is not the end!' - Ruby exclaimed. Objects must continue to fight to maintain their gains."

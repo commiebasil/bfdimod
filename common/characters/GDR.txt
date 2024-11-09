@@ -9,7 +9,12 @@ characters = {
 	
 	GDR_taco = {
 		name = GPG_taco
-		portraits = { civilian = { small = GFX_idea_GPG_taco } }
+		portraits = {
+			civilian = { 
+				small = GFX_idea_GPG_taco
+				large = GFX_GDR_taco
+			} 
+		}
 		advisor = {
 			slot = political_advisor
 			idea_token = idea_GDR_taco
@@ -23,7 +28,12 @@ characters = {
 	
 	GDR_book = {
 		name = GPG_book
-		portraits = { civilian = { small = GFX_idea_GPG_book } }
+		portraits = { 
+			civilian = { 
+				small = GFX_idea_GPG_book 
+				large = GFX_GDR_book
+			} 
+		}
 		advisor = {
 			slot = political_advisor
 			idea_token = idea_GDR_book
@@ -37,7 +47,12 @@ characters = {
 	
 	GDR_barf_bag = {
 		name = GPG_barf_bag
-		portraits = { civilian = { small = GFX_idea_GPG_barf_bag } }
+		portraits = {
+			civilian = { 
+				small = GFX_idea_GPG_barf_bag
+				large = GFX_GDR_barf_bag
+			} 
+		}
 		advisor = {
 			slot = political_advisor
 			idea_token = idea_GDR_barf_bag

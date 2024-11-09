@@ -1,0 +1,33 @@
+defined_text = {
+	name = GDR_GETLEADERNAME
+	text = {
+		trigger = {
+			GDR = { 
+				has_country_leader = {
+					character = GDR_taco
+				}
+			}
+		}
+		localization_key = GDR_taco
+	}
+	text = {
+		trigger = {
+			GDR = { 
+				has_country_leader = {
+					character = GDR_book
+				}
+			}
+		}
+		localization_key = GDR_book
+	}
+	text = {
+		trigger = {
+			GDR = { 
+				has_country_leader = {
+					character = GDR_barf_bag
+				}
+			}
+		}
+		localization_key = GDR_barf_bag
+	}
+}

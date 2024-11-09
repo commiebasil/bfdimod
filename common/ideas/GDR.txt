@@ -8,5 +8,22 @@ ideas = {
 				planning_speed = 0.1
 			}
 		}
+		
+		idea_GDR_instability = {
+			picture = GDR_instability
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -1
+				political_power_gain = -0.2
+			}
+		}
+		
+		idea_GDR_payments_to_gpr = {
+			picture = GDR_payments_to_gpr
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.5
+			}
+		}
 	}
 }

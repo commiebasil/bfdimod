@@ -543,6 +543,55 @@
  GDR_focus_constitution: "§7Second Contitution§!"
  GDR_focus_constitution_desc: "The first constitution failed. But we will fight for the second constitution to the last object."
  
+ #GDR post-CW tree
+ focus_GDR_triumph_of_the_democracy: "§7Triumph of the Democracy§!"
+ focus_GDR_triumph_of_the_democracy_desc: ""
+ 
+ focus_GDR_third_congress: "Third Congress"
+ focus_GDR_third_congress_desc: "Now, when Casland Democracy is secured, RCC can continue its work and solve government troubles!"
+ 
+ focus_GDR_president_selection: "Presidential Elections"
+ focus_GDR_president_selection_desc: "The era of collective government is ending. It is time for our objects to elect a servant of the people."
+ 
+ focus_GDR_dealing_with_crisis: "Crisis"
+ focus_GDR_dealing_with_crisis_desc: "This war devastated all of Greeny Plains. And we're also saddled with the heavy yoke of Greenport loans. It's time for the Congress to sort this out."
+ 
+ focus_GDR_congress_plan: "§3Congress Plan§!"
+ focus_GDR_congress_plan_desc: ""
+ 
+ focus_GDR_deindustrialization: "Deindustrialization"
+ focus_GDR_deindustrialization_desc: "To pay off our debts, we will have to say goodbye to some industrial enterprises. Unfortunately, we have no choice."
+ 
+ focus_GDR_shock_therapy: "Shock Therapy"
+ focus_GDR_shock_therapy_desc: "To get the economy going we need a redistribution of property. The state must start this process."
+ 
+ focus_GDR_debt_payments: "Debt Payments"
+ focus_GDR_debt_payments_desc: "Although it was at great cost, we managed to pay the debt. Now we can move forward!"
+ 
+ focus_GDR_ban_military_organizations: "Prohibition of Extremism"
+ focus_GDR_ban_military_organizations_desc: "How much grief and misery the bloodthirsty clashes of political hemispheres have brought to our objects. It's time to put an end to this."
+ 
+ focus_GDR_representation_for_right: "Right Representation"
+ focus_GDR_representation_for_right_desc: "Conservatives and moderate right-wingers have a right to exist in our political arena. Long live democracy!"
+ 
+ focus_GDR_representation_for_left: "Left Representation"
+ focus_GDR_representation_for_left_desc: "Social democrats and non-revolutionary organizations must be represented in our democracy."
+ 
+ focus_GDR_lower_house_plan: "Lower Palace Plan"
+ focus_GDR_lower_house_plan_desc: ""
+ 
+ focus_GDR_demilitarization: "Demilitarization"
+ focus_GDR_demilitarization_desc: "The military eats up a huge share of national income that we could use to pay off the debt."
+ 
+ focus_GDR_slow_privatization: "Slow Privatization"
+ focus_GDR_slow_privatization_desc: "Abrupt and large transfers of property would be bad for the unity of our democracy. There is no need for them."
+ 
+ focus_GDR_debt_negotiations: "Debt Negotiations"
+ focus_GDR_debt_negotiations_desc: "Most of the debt has already been paid off, and Greenport may back down on the remaining portion."
+ 
+ focus_GDR_land_of_liberty: "§6Land of Liberty§!"
+ focus_GDR_land_of_liberty_desc: ""
+ 
  #GSR FOCUSES
  #GSR CW tree
  GSR_focus_workers_revolution: "§RWorkers Revolution§!"

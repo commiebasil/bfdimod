@@ -31,4 +31,18 @@ leader_traits = {
 		mobilization_laws_cost_factor = 0.1
 		stability_factor = 0.05
 	}
+	
+	staunch_liberal = {
+		stability_factor = 0.05
+		consumer_goods_factor = -0.05
+	}
+	
+	well_read = {
+		stability_factor = 0.05
+		research_speed_factor = 0.05
+	}
+	
+	conservative_trait = {
+		stability_factor = 0.1
+	}
 }

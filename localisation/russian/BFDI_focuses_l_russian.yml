@@ -548,7 +548,7 @@
  focus_GDR_triumph_of_the_democracy_desc: ""
  
  focus_GDR_third_congress: "Третий Съезд"
- focus_GDR_third_congress_desc: "Теперь, когда в демократии в Кэсленде ничего не угрожает, СРП может вновь собраться для решения государственных вопросов!"
+ focus_GDR_third_congress_desc: "Теперь, когда демократии в Кэсленде ничего не угрожает, СРП может вновь собраться для решения государственных вопросов!"
  
  focus_GDR_president_selection: "Президентские Выборы"
  focus_GDR_president_selection_desc: "Кончается эпоха коллективного правительства. Пора нашим обджектам избрать слугу народа."
@@ -577,7 +577,7 @@
  focus_GDR_representation_for_left: "Представители для Левых"
  focus_GDR_representation_for_left_desc: "Социал-демократы и нереволюционные организации должны быть представлены в нашей демократии."
  
- focus_GDR_lower_house_plan: "§4План Нижней Палаты§!"
+ focus_GDR_lower_house_plan: "План Нижней Палаты"
  focus_GDR_lower_house_plan_desc: ""
  
  focus_GDR_demilitarization: "Разоружение"
