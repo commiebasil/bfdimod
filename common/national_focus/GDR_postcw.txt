@@ -121,14 +121,30 @@ focus_tree = {
 		
 		prerequisite = { focus = focus_GDR_lower_house_plan }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
-			
+			every_owned_state = {
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = l_GPG_improves_crisis
+			add_to_variable = { var_GDR_instability_sf = 0.05 }
+			add_to_variable = { var_GDR_payments_to_gpr_psbf = 0.1 }
 		}
 	}
 	
@@ -142,14 +158,24 @@ focus_tree = {
 		
 		prerequisite = { focus = focus_GDR_demilitarization }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
-			
+			set_party_name = {
+				ideology = communism
+				long_name = GDR_communism_party_postreform
+				name = GDR_communism_party_postreform
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			custom_effect_tooltip = l_GPG_improves_crisis
+			add_to_variable = { var_GDR_instability_sf = 0.05 }
 		}
 	}
 	
@@ -163,14 +189,20 @@ focus_tree = {
 		
 		prerequisite = { focus = focus_GDR_demilitarization }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
-			
+			set_party_name = {
+				ideology = neutrality
+				long_name = GDR_neutrality_party_postreform
+				name = GDR_neutrality_party_postreform
+			}
+			custom_effect_tooltip = l_GPG_improves_crisis
+			add_to_variable = { var_GDR_instability_sf = 0.05 }
 		}
 	}
 	
@@ -185,14 +217,14 @@ focus_tree = {
 		prerequisite = {focus = focus_GDR_representation_for_right }
 		prerequisite = {focus = focus_GDR_representation_for_left }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
-			
+			country_event = GDR_event.7
 		}
 	}
 	
@@ -206,14 +238,17 @@ focus_tree = {
 		
 		prerequisite = { focus = focus_GDR_lower_house_plan }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = l_GPG_improves_crisis
+			add_to_variable = { var_GDR_payments_to_gpr_cgf = -0.1 }
+			add_to_variable = { var_GDR_payments_to_gpr_psbf = 0.2 }
+			add_to_variable = { var_GDR_payments_to_gpr_pegf = 0.2 }
 		}
 	}
 	
@@ -227,14 +262,21 @@ focus_tree = {
 		
 		prerequisite = { focus = focus_GDR_slow_privatization }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = l_GDR_debt_negotiations
+			hidden_effect = {
+				country_event = {
+					id = GDR_event.8
+					days = 10
+					random_hours = 12
+				}
+			}
 		}
 	}
 	
@@ -248,14 +290,21 @@ focus_tree = {
 		prerequisite = { focus = focus_GDR_ban_military_organizations }
 		prerequisite = { focus = focus_GDR_debt_negotiations }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
         base = 10
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = l_GDR_land_of_liberty
+			hidden_effect = {
+				country_event = {
+					id = GDR_event.9
+					days = 15
+					random_hours = 12
+				}
+			}
 		}
 	}
 }

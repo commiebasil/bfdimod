@@ -96,8 +96,8 @@ decision_GPG_civilwar_category = {
 				}
 				else_if = {
 					limit = { tag = GDR }
-					add_ideas = idea_GDR_instability
-					add_ideas = idea_GDR_payments_to_gpr
+					add_dynamic_modifier = { modifier = idea_GDR_instability }
+					add_dynamic_modifier = { modifier = idea_GDR_payments_to_gpr }
 					delete_units = {
 						division_template = "Volunteer forces"
 						disband = no

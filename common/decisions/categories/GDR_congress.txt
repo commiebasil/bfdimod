@@ -1,0 +1,11 @@
+decisions_GDR_congress_category = {
+	allowed = { tag = GDR }
+	visible = {
+		tag = GDR
+		has_country_flag = democratic_congress_decisions_opened
+	}
+	priority = 50
+	visible_when_empty = yes
+	scripted_gui = decisions_GDR_congress_scriptedgui
+	icon = GFX_decision_category_democratic_congress
+}

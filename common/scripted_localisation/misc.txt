@@ -8,7 +8,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GDR_taco
+		localization_key = GPG_taco
 	}
 	text = {
 		trigger = {
@@ -18,7 +18,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GDR_book
+		localization_key = GPG_book
 	}
 	text = {
 		trigger = {
@@ -28,6 +28,6 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = GDR_barf_bag
+		localization_key = GPG_barf_bag
 	}
 }

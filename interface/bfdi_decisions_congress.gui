@@ -1,0 +1,14 @@
+guiTypes = {
+	containerWindowType = {
+		name = "democratic_congress_container"
+		
+		position = { x = 0 y = 0 }
+		size = { width = 500 height = 570 }
+		
+		iconType = {
+			name = "header"
+			spriteType = GFX_decision_GDR_congress_header
+			position = { x = 0 y = 0 }
+		}
+	}
+}

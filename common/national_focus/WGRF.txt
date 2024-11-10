@@ -23,7 +23,7 @@ focus_tree = {
 		
 		available = { hidden_trigger = { NOT = { has_global_flag = focus_take_prevention } } }
 		
-		cost = 8 
+		cost = 6 
 		
 		ai_will_do = {
         base = 5
@@ -41,7 +41,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_means_of_production
 		prerequisite = { focus = WGF_focus_our_situation }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -71,7 +71,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_protect_the_revolution
 		prerequisite = { focus = WGF_focus_means_of_production }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -104,7 +104,7 @@ focus_tree = {
 		
 		allow_branch = { has_completed_focus = WGF_focus_protect_the_revolution }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -123,7 +123,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_forget_about_island
 		prerequisite = { focus = WGF_focus_ideals_of_revolution }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -185,7 +185,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_development_of_theory
 		prerequisite = { focus = WGF_focus_ideals_of_revolution }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -203,7 +203,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_investigation
 		prerequisite = { focus = WGF_focus_forget_about_island }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -223,7 +223,7 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_investigation }
 		prerequisite = { focus = WGF_focus_peoples_object_show }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -241,7 +241,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_different_but_united
 		prerequisite = { focus = WGF_focus_development_of_theory }
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -270,7 +270,7 @@ focus_tree = {
 		
 		bypass_if_unavailable = yes
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -296,7 +296,7 @@ focus_tree = {
 			GPG = { has_country_flag = congress_goodend }
 		}
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -320,7 +320,7 @@ focus_tree = {
 			date > 2015.03.01
 		}
 		
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
         base = 5
@@ -352,7 +352,7 @@ focus_tree = {
 		
 		allow_branch = { has_completed_focus = WGF_focus_protect_the_revolution }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5
@@ -371,7 +371,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_machines_for_objects
 		prerequisite = { focus = WGF_focus_ready_for_work_and_defense }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5
@@ -399,7 +399,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_socialist_army
 		prerequisite = { focus = WGF_focus_ready_for_work_and_defense }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5
@@ -420,7 +420,7 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_machines_for_objects }
 		prerequisite = { focus = WGF_focus_socialist_army }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5
@@ -457,7 +457,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_all_objects_serving
 		prerequisite = { focus = WGF_focus_socialist_army }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5
@@ -479,7 +479,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_challenge_coiny
 		prerequisite = { focus = WGF_focus_socialist_army }
 	
-		cost = 8
+		cost = 6
 		
 		available = {
 			hidden_trigger = { NOT = { has_completed_focus = WGF_focus_operation_coinflip } }
@@ -518,7 +518,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_industrialization_of_steppes
 		prerequisite = { focus = WGF_focus_machines_for_objects }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5
@@ -550,7 +550,7 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_industrialization_of_steppes }
 		prerequisite = { focus = WGF_focus_rifles_for_objects }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5
@@ -570,7 +570,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_science_expansion
 		prerequisite = { focus = WGF_focus_industrialization_of_steppes }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5
@@ -591,7 +591,7 @@ focus_tree = {
 		icon = GFX_focus_WGF_revolutionary_tactics
 		prerequisite = { focus = WGF_focus_all_objects_serving }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5
@@ -618,7 +618,7 @@ focus_tree = {
 		prerequisite = { focus = WGF_focus_quarterly_planning }
 		prerequisite = { focus = WGF_focus_revolutionary_tactics }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5
@@ -645,7 +645,7 @@ focus_tree = {
 		
 		allow_branch = { has_completed_focus = WGF_focus_declare_our_goal }
 	
-		cost = 8
+		cost = 6
 		
 		ai_will_do = {
 			base = 5

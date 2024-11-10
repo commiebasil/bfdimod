@@ -136,3 +136,19 @@ idea_GFG_massive_resistance = {
 	stability_factor = var_GFG_resistance_sf
 	conscription_factor = var_GFG_resistance_cf
 }
+
+idea_GDR_instability = {
+	icon = GFX_idea_GDR_instability
+	
+	stability_factor = var_GDR_instability_sf
+	war_support_factor = -1
+	political_power_gain = -0.2
+}
+
+idea_GDR_payments_to_gpr = {
+	icon = GFX_idea_GDR_payments_to_gpr
+	
+	consumer_goods_factor = var_GDR_payments_to_gpr_cgf
+	production_factory_efficiency_gain_factor = var_GDR_payments_to_gpr_pegf
+	production_speed_buildings_factor = var_GDR_payments_to_gpr_psbf
+}

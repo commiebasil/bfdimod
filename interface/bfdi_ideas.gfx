@@ -238,6 +238,10 @@ spriteTypes = {
 		texturefile = gfx/interface/ideas/idea_GDR_payments_to_gpr.dds
 	}
 	spriteType = {
+		name = GFX_idea_GDR_greenport_agreement
+		texturefile = gfx/interface/ideas/idea_GDR_greenport_agreement.dds
+	}
+	spriteType = {
 		name = GFX_idea_GDR_eggy
 		texturefile = gfx/interface/ideas/idea_GDR_eggy.dds
 	}

@@ -32,8 +32,13 @@ set_popularities = {
 	communism = 3
 }
 
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.1
+set_war_support = 0.1
+
+set_variable = { var_GDR_instability_sf = -0.2 }
+set_variable = { var_GDR_payments_to_gpr_cgf = 0.3 }
+set_variable = { var_GDR_payments_to_gpr_pegf = -0.5 }
+set_variable = { var_GDR_payments_to_gpr_psbf = -0.5 }
 
 recruit_character = GDR_collective_rulership
 recruit_character = GDR_taco

@@ -121,3 +121,19 @@ scripted_gui = {
 		}
 	}
 }
+
+scripted_gui = {
+	decisions_GDR_congress_scriptedgui = {
+		window_name = democratic_congress_container
+		context_type = decision_category
+		parent_window_token = decision_tab
+		
+		properties = {
+			
+		}
+		
+		triggers = {
+			
+		}
+	}
+}

@@ -393,6 +393,18 @@
  GDR_event.6.desc: "[GDR_GETLEADERNAME] looked at the graffiti on the walls of a ruined building on the outskirts of Casland. Among them were many extremist, threatening ones. The whole country is in decline. A terrible civil war has destroyed the country and driven our objects into harsh poverty."
  GDR_event.6.a: "It's time to act!"
  
+ GDR_event.7.t: "New Life"
+ GDR_event.7.desc: "Drilly wandered alone through the night alleys. The civil war had carried him in the dark deep. After the university closed, he experienced extreme poverty and had been on the brink of death a couple of times. He even had been recruited into the anarchist organization; he had done many stupid things during those months. He began to understand more and more the marginality of his situation. The news of the opening of the university was the final hit.\n\n- It's time to put an end to this.\n\nHe sweared to himself to continue studying from tomorrow."
+ GDR_event.7.a: "When floating up, don't tear your lungs."
+ 
+ GDR_event.8.t: "Greenport Agreement"
+ GDR_event.8.desc: "Great news! The Republic is making concessions to us and has freed us from paying off most of the debt. Now we can breathe a sigh of relief."
+ GDR_event.8.a: "Wondrous!"
+ 
+ GDR_event.9.t: "Opening of the Democratic Congress"
+ GDR_event.9.desc: "Now that the most important internal problems have been settled, there are no disagreements between Greenport and Casland. The question of merging into a single Democratic Federation is becoming the most matter one. Objects all over the Greeny Plains are holding rallies and demanding unification. Today, a delegation from the Republic arrived in Casland to begin negotiations. The main question is hanging in the air: where will the capital be..."
+ GDR_event.9.a: "...Casland or Greenport?"
+ 
  #GSR
  GSR_event.1.t: "Liberation of the mines"
  GSR_event.1.desc: "The workers at one of the iron mines cheered as they listened to Ruby's speech. Finally, they were freed from 12 hours of slavery in the caves. 'But this is not the end!' - Ruby exclaimed. Objects must continue to fight to maintain their gains."

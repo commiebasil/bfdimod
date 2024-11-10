@@ -121,3 +121,51 @@ country_event = {
 		complete_national_focus = focus_GDR_lower_house_plan
 	}
 }
+
+country_event = {
+	id = GDR_event.7
+	title = GDR_event.7.t
+	desc = GDR_event.7.desc
+	picture = GFX_GDR_event7
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.7.a
+		remove_dynamic_modifier = { modifier = idea_GDR_instability }
+		country_lock_all_division_template = no
+	}
+}
+
+country_event = {
+	id = GDR_event.8
+	title = GDR_event.8.t
+	desc = GDR_event.8.desc
+	picture = GFX_GDR_event8
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.8.a
+		remove_dynamic_modifier = { modifier = idea_GDR_payments_to_gpr }
+		add_timed_idea = {
+			idea = idea_GDR_greenport_agreement
+			days = 180
+		}
+	}
+}
+
+country_event = {
+	id = GDR_event.9
+	title = GDR_event.9.t
+	desc = GDR_event.9.desc
+	picture = GFX_GDR_event9
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.9.a
+		custom_effect_tooltip = l_GDR_congress_open
+		set_country_flag = democratic_congress_decisions_opened
+	}
+}

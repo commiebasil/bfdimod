@@ -29,10 +29,12 @@
  GSR_communism_party: "Toilers Front"
  
  GDR_democratic_party: "Democrats"
- GDR_communism_party: "Socialists"
- GDR_neutrality_party: "Centrists"
- GDR_fascism_party: "Nationalists"
- GSR_radical_thoughts_party: "§RDissolved§!"
+ GDR_communism_party: "§RDissolved§!"
+ GDR_communism_party_postreform: "Social-Democrats"
+ GDR_neutrality_party: "§RDissolved§!"
+ GDR_neutrality_party_postreform: "Conservative"
+ GDR_fascism_party: "§RDissolved§!"
+ GDR_radical_thoughts_party: "§RDissolved§!"
  
  GFG_fascism_party: "Triumvirate"
  GFG_radical_thoughts_party: "Triumvirate - Pillow"
