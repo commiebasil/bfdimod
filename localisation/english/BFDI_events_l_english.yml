@@ -405,6 +405,26 @@
  GDR_event.9.desc: "Now that the most important internal problems have been settled, there are no disagreements between Greenport and Casland. The question of merging into a single Democratic Federation is becoming the most matter one. Objects all over the Greeny Plains are holding rallies and demanding unification. Today, a delegation from the Republic arrived in Casland to begin negotiations. The main question is hanging in the air: where will the capital be..."
  GDR_event.9.a: "...Casland or Greenport?"
  
+ GDR_event.10.t: "Lawnland Referendum"
+ GDR_event.10.desc: "Now that there is no disagreement between the democratic governments, it is time to end the occupation of Lawnland and hold a national referendum."
+ GDR_event.10.a: "It's time to return back home."
+ 
+ GDR_event.11.t: "Lawnland returns"
+ GDR_event.11.desc: "According to the voting results, 93.9% of the objects unanimously voted for returning to us. Greenport ends the occupation and transfers the border territories back."
+ GDR_event.11.a: "Victory of the Democracy!"
+ 
+ GDR_event.12.t: "Democratic Congress ends"
+ GDR_event.12.desc: "The appointed time has come, and the fate of the Greeny Plains has been decided. The Objects have made their decision, and it is time to find out what it is."
+ GDR_event.12.a: "And the whole of Goiky froze."
+ 
+ GDR_event.13.t: "Federation!"
+ GDR_event.13.desc: "The dream of an equal union has become a reality today. Greenport and Casland are united in a federation, and the objects of the Greeny Plains are united again."
+ GDR_event.13.a: "Best result."
+ 
+ GDR_event.14.t: "Unification"
+ GDR_event.14.desc: "As a result of the Congress, a decision was made to join the Greeny Plains Republic. Although we failed to achieve a federation, at least democratic values ​​were preserved."
+ GDR_event.14.a: "Greenport is the new capital."
+ 
  #GSR
  GSR_event.1.t: "Liberation of the mines"
  GSR_event.1.desc: "The workers at one of the iron mines cheered as they listened to Ruby's speech. Finally, they were freed from 12 hours of slavery in the caves. 'But this is not the end!' - Ruby exclaimed. Objects must continue to fight to maintain their gains."
@@ -680,3 +700,7 @@
  bfdinews.24.t: "Pin's Coronation"
  bfdinews.24.desc: "Interesting news came the other day from St. Objectburg. The local government, formed from the fleet command, announced Pin's ascension to the self-declared throne. She had already accepted the title and became the first monarch in Goiky's history. So far, the sentiments of neighboring governments are neutral, but we will continue to monitor developments."
  bfdinews.24.a: "Monarchy? In Goiky?"
+ 
+ bfdinews.25.t: "Declaration of the Greeny Plains Federation!"
+ bfdinews.25.desc: "This morning our correspondent from Casland brought the important news about the results of the Democratic Congress: the governments of Greenport and Casland are uniting into an equal democratic union! This significantly changes the balance of power in the entire region, and perhaps the Federation will spread to other countries."
+ bfdinews.25.a: "Objects are united, again."

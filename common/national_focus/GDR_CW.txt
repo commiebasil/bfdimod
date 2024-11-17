@@ -48,10 +48,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 			add_opinion_modifier = {
 				target = GPR
-				modifier = small_increase
+				modifier = medium_increase
 			}
 		}
 	}

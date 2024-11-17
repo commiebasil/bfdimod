@@ -129,7 +129,9 @@ scripted_gui = {
 		parent_window_token = decision_tab
 		
 		properties = {
-			
+			progressbar = {
+				frame = var_GDR_congress_progressbar
+			}
 		}
 		
 		triggers = {

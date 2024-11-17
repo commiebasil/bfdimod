@@ -124,3 +124,9 @@
  GFG_reconstruction_plainy: "Восстановление §7Плейни§!"
  
  decisions_GDR_congress_category: "§7Демократический Съезд§!"
+ l_GDR_congress_desc: "Обджекты §7Зелёных Равнин§! готовы к объединению.\nОстаётся лишь один вопрос."
+ l_GDR_congress_desc2: "§YГде будет столица?§!"
+ decisions_GDR_congress_mission_negs: "§YДемократический Съезд§!"
+ decisions_GDR_congress_mission_negs_desc: "В Кэсленд из Гринпорта прибыли делегаты для переговоров по объединению наших демократических государств."
+ decisions_GDR_congress_mission_greenport_makes_a_move: "§7Гринпорт§! делает ход!"
+ decisions_GDR_congress_campaign: "Провести §Yполитическую кампанию§!"

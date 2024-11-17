@@ -84,6 +84,9 @@
  l_GDR_debt_negotiations: "§7Скорее всего, Гринпорт пойдёт на уступки...§!"
  l_GDR_land_of_liberty: "§7Открывается новая страница в истории Гойки...§!"
  l_GDR_congress_open: "§tПроверьте окно решений!§!"
+ l_GDR_congress_mission: "§cРезультаты съезда определят судьбу Кэсленда...§!"
+ l_GDR_congress_mission_greenport: "Влияние §YГринпорта§! вырастет!"
+ l_GDR_congress_casland_influence_increase: "Влияние §7Кэсленда§! вырастет!"
  
  l_GFG_loads_focus_tree: "§1Национальная революция поглощает Кэсленд...§!"
  l_GFG_event4_fascist: "§1Предатели будут казнены.§!"

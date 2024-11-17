@@ -5,10 +5,49 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = { width = 500 height = 570 }
 		
+		containerWindowType = {
+			name = "desc_frame_container"
+			
+			position = { x = -200 y = -23 }
+			orientation = center
+			size = { width = 400 height = 100 }
+			
+			background = {
+				name = "desc_frame"
+				spriteType = GFX_tiled_plain_bg
+			}
+		}
+		
 		iconType = {
 			name = "header"
 			spriteType = GFX_decision_GDR_congress_header
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = -40 }
+		}
+		
+		instantTextBoxType = {
+			name = "desc"
+			position = { x = -200 y = -10 }
+			text = l_GDR_congress_desc
+			font = hoi_18mbs
+			maxWidth = 400
+			format = center
+			orientation = center
+		}
+		
+		instantTextBoxType = {
+			name = "desc2"
+			position = { x = -203 y = 45 }
+			text = l_GDR_congress_desc2
+			font = hoi_20bs
+			maxWidth = 400
+			format = center
+			orientation = center
+		}
+		
+		iconType = {
+			name = "progressbar"
+			spriteType = GFX_decisions_GDR_democratic_congress_progressbar
+			position = { x = -4 y = 320 }
 		}
 	}
 }

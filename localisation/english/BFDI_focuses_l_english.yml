@@ -590,7 +590,16 @@
  focus_GDR_debt_negotiations_desc: "Most of the debt has already been paid off, and Greenport may back down on the remaining portion."
  
  focus_GDR_land_of_liberty: "§6Land of Liberty§!"
- focus_GDR_land_of_liberty_desc: ""
+ focus_GDR_land_of_liberty_desc: "Our Republic has finally established itself in the heart of Goiky as a democratic state in which all objects have the right to freedom of speech and organization. We must light the way for all of Goiky."
+ 
+ focus_GDR_democratic_congress: "§7Democratic Congress§!"
+ focus_GDR_democratic_congress_desc: ""
+ 
+ focus_GDR_lawnland: "Lawnland"
+ focus_GDR_lawnland_desc: "As a result of the Republic's instability, Greenport has cut off the bordering Lawnland and surrounding areas from us. It's time for Lawnland to return back home."
+ 
+ focus_GDR_casland_role: "Casland Role"
+ focus_GDR_casland_role_desc: "Casland is the historical capital of all Goiky. The unification should take place under the banner of this historical city."
  
  #GSR FOCUSES
  #GSR CW tree

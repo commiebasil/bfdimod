@@ -871,6 +871,21 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_focus_GDR_land_of_liberty.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_focus_GDR_democratic_congress"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_democratic_congress.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_lawnland"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_lawnland.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GDR_casland_role"
+		texturefile = "gfx/interface/goals/GFX_focus_GDR_casland_role.dds"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_focus_GSR_workers_revolution"

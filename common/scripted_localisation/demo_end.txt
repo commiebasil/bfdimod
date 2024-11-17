@@ -44,4 +44,8 @@ defined_text = {
 		}
 		localization_key = demo_end_GFG_title_2
 	}
+	text = {
+		trigger = { original_tag = GDR }
+		localization_key = demo_end_GDR_title
+	}
 }

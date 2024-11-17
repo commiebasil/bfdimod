@@ -307,4 +307,80 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = focus_GDR_democratic_congress
+		x = 15
+		y = 10
+		
+		icon = GFX_focus_GDR_democratic_congress
+		
+		allow_branch = { has_country_flag = democratic_congress_decisions_opened }
+		
+		available = { always = no }
+		
+		cost = 1
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = focus_GDR_lawnland
+		relative_position_id = focus_GDR_democratic_congress
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = focus_GDR_democratic_congress }
+		
+		cancelable = no
+		
+		icon = GFX_focus_GDR_lawnland
+		
+		cost = 7
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		select_effect = { country_event = GDR_event.10 }
+		
+		completion_reward = { country_event = GDR_event.11 }
+	}
+	
+	focus = {
+		id = focus_GDR_casland_role
+		relative_position_id = focus_GDR_democratic_congress
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = focus_GDR_democratic_congress }
+		
+		cancelable = no
+		
+		icon = GFX_focus_GDR_casland_role
+		
+		cost = 7
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		completion_reward = {
+			stability_factor = 0.05
+			add_political_power = 25
+			custom_effect_tooltip = l_GDR_congress_casland_influence_increase
+			if = {
+				limit = { check_variable = { var_GDR_congress_progressbar < 91 } }
+				add_to_variable = { var_GDR_congress_progressbar = 10 }
+			}
+			else = {
+				set_variable = { var_GDR_congress_progressbar = 100 }
+			}
+		}
+	}
 }

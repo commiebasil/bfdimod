@@ -1,0 +1,27 @@
+continent = {
+	name = goiky
+	army = {
+		male = {
+			"GFX_Portrait_Goiky_Generic_land_1"
+			"GFX_Portrait_Goiky_Generic_land_2"
+			"GFX_Portrait_Goiky_Generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Goiky_Generic_navy_1"
+			"GFX_Portrait_Goiky_Generic_navy_2"
+			"GFX_Portrait_Goiky_Generic_navy_3"
+		}
+	}
+	
+	scientist = {
+		female = {
+			"GFX_Portrait_Goiky_Generic_land_1"
+		}
+		male = {
+			"GFX_Portrait_Goiky_Generic_land_1"
+		}
+	}
+}

@@ -10,6 +10,10 @@ GDR_republic = {
 	color = rgb { 98 168 50 }
 	color_ui = rgb { 98 168 50 }
 }
+GDR_federation = {
+	color = rgb { 98 168 50 }
+	color_ui = rgb { 98 168 50 }
+}
 GSR_post_cw = {
 	color = rgb { 196 16 16 }
 	color_ui = rgb { 196 16 16 }

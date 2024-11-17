@@ -376,4 +376,32 @@ spriteTypes = {
 		name = "GFX_decision_GDR_congress_header"
 		textureFile = "gfx/interface/decisions/GFX_decision_GDR_congress_header.dds"
 	}
+	
+	progressbartype = {
+		name = "GFX_decisions_GDR_democratic_congress_progressbar"
+		textureFile1 = "gfx/interface/decisions/GFX_decisions_GDR_democratic_congress_progressbar.dds"
+		textureFile2 = "gfx/interface/decisions/GFX_decisions_GDR_democratic_congress_progressbar_bg.dds"
+		color = { 123 201 119 }
+		colortwo = { 109 131 108 }
+		size = {
+			x = 500
+			y = 250
+		}
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GDR_congress_mission_negs"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GDR_congress_mission_negs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GDR_congress_mission_greenport_makes_a_move"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GDR_congress_mission_greenport_makes_a_move.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GDR_congress_campaign"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GDR_congress_campaign.dds"
+	}
 }

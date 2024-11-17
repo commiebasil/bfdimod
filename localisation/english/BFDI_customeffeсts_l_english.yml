@@ -84,6 +84,9 @@
  l_GDR_debt_negotiations: "§7Most likely, Greenport will make some concessions...§!"
  l_GDR_land_of_liberty: "§7New page opens in Goiky history...§!"
  l_GDR_congress_open: "§tCheck your decisions tab!§!"
+ l_GDR_congress_mission: "§cCongress results will determine Casland fate...§!"
+ l_GDR_congress_mission_greenport: "§YGreenport§! influence will grow!"
+ l_GDR_congress_casland_influence_increase: "§7Casland§! influence will grow!"
  
  l_GFG_loads_focus_tree: "§1National Revolution absorbs Casland...§!"
  l_GFG_event4_fascist: "§1Traitors will be executed.§!"

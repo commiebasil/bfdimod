@@ -165,7 +165,130 @@ country_event = {
 	
 	option = {
 		name = GDR_event.9.a
+		activate_mission = decisions_GDR_congress_mission_negs
 		custom_effect_tooltip = l_GDR_congress_open
 		set_country_flag = democratic_congress_decisions_opened
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = focus_GDR_democratic_congress
+	}
+}
+
+country_event = {
+	id = GDR_event.10
+	title = GDR_event.10.t
+	desc = GDR_event.10.desc
+	picture = GFX_GPG_event35
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.10.a
+	}
+}
+
+country_event = {
+	id = GDR_event.11
+	title = GDR_event.11.t
+	desc = GDR_event.11.desc
+	picture = GFX_GPG_event40
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.11.a
+		28 = { transfer_state_to = ROOT }
+		custom_effect_tooltip = l_GDR_congress_casland_influence_increase
+		if = {
+			limit = { check_variable = { var_GDR_congress_progressbar < 91 } }
+			add_to_variable = { var_GDR_congress_progressbar = 10 }
+		}
+		else = {
+			set_variable = { var_GDR_congress_progressbar = 100 }
+		}
+	}
+}
+
+country_event = {
+	id = GDR_event.12
+	title = GDR_event.12.t
+	desc = GDR_event.12.desc
+	picture = GFX_GPG_event46
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.12.a
+		hidden_effect = {
+			if = {
+				limit = { check_variable = { var_GDR_congress_progressbar > 49 } }
+				country_event = {
+					id = GDR_event.13
+					days = 5
+					random_hours = 12
+				}
+			}
+			else = {
+				country_event = {
+					id = GDR_event.14
+					days = 5
+					random_hours = 12
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = GDR_event.13
+	title = GDR_event.13.t
+	desc = GDR_event.13.desc
+	picture = GFX_GDR_event13
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.13.a
+		hidden_effect = {
+			GPR = {
+				every_owned_state = {
+					add_core_of = GDR
+				}
+			}
+			annex_country = {
+				target = GPR
+				transfer_troops = no
+			}
+			
+			set_cosmetic_tag = GDR_federation
+			
+			every_possible_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = bfdinews.25
+					days = 5
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = GDR_event.14
+	title = GDR_event.14.t
+	desc = GDR_event.14.desc
+	picture = GFX_GDR_event13
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GDR_event.14.a
+		hidden_effect = {
+			GPR = {
+				set_autonomy = {
+					target = ROOT
+					autonomous_state = satellite
+				}
+			}
+		}
 	}
 }
