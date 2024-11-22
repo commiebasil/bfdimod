@@ -354,3 +354,16 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = WGF_event.21
+	title = WGF_event.21.t
+    desc = WGF_event.21.desc
+	picture = GFX_WGF_event21
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = WGF_event.21.a
+	}
+}

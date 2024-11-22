@@ -111,6 +111,10 @@
  WGF_event.20.desc: "The GPSR government declared us to be 'revisionist' and severed all ties with us. This decision seems strange, but there is nothing we can do about it."
  WGF_event.20.a: "Idiots."
  
+ WGF_event.21.t: "Our Situation"
+ WGF_event.21.desc: "Firey had been in control over his now sovereign territory for several weeks now, however, most of his supporters didn’t actually know what his ideology was like. That was going to change in just a few short hours, because Firey was making morning preparations to give a speech to his new-found subjects. He was currently sitting on a train, being transported to the building he was expected to speak at. Firey was definitely afraid of what might happen to him at the event, even one stutter could ruin his dream of a united, just Goiky. He ran through different scenarios of the things that could possibly go wrong in his head, whilst taking sips of his coffee.\nThe thoughts weighed heavily on his mind, making a slip up feel more and more inevitable.\n\nAs the train car stopped, and Firey stepped out, he saw a large crowd of objects, all around the platform the train had stopped at. All the objects seemed very excited, but for what, Firey didn’t know. He started to look around the platform, wondering what they were all excited about. However, as he looked around, he soon realized that all of these people were grinning, wide-eyed, at him. He was the center of attention, people wanted to know his thoughts."
+ WGF_event.21.a: "This speech will be light work for him."
+ 
  #Reich
  GGR_event.1.t: "Behind the ridge"
  GGR_event.1.desc: "The Snowy Plateau is a wonderful region with beautiful objects, although it is quite poor. It has some features, for example: Its population, due to its isolation, is quite united and has a uniform, special culture, unlike other regions of South Goiky. It is particularly autonomous and does not depend so much on foreign trade..."

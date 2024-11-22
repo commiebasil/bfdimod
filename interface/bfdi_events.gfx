@@ -101,6 +101,10 @@ SpriteTypes = {
 		name = GFX_WGF_event18
 		texturefile = gfx/event_pictures/WGF_event18.dds
 	}
+	spriteType = {
+		name = GFX_WGF_event21
+		texturefile = gfx/event_pictures/WGF_event21.dds
+	}
 	
 	
 	spriteType = {
