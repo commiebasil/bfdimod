@@ -159,7 +159,7 @@ focus_tree = {
 
 		prerequisite = { focus = YFC_focus_the_southern_bandits }
 		prerequisite = { focus = YFC_focus_open_foreign_policy }
-		mutually_exclusive = { YFC_focus_YF_funded_pillaging }
+		mutually_exclusive = { focus = YFC_focus_YF_funded_pillaging }
 		cost = 2
 		#gives an event that about border patrol no longer letting the bunch go through YFC territory to raid others
 		#decreases relations with bunch
