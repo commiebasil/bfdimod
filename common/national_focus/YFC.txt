@@ -1,0 +1,157 @@
+focus_tree = {
+	id = YFC_focus_tree
+	#yf has a national spirit not allowing the nation to make any buildings, there are no research slots, yadda yadda (check the pathway planning doc) 
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = YFC
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+
+	initial_show_position = { focus = YFC_open_the_market }
+
+	focus = {
+		id = YFC_consolidate_power
+		x = 13
+		y = 0
+		icon = GFX_focus_generic
+
+		cost = 5
+		#give stability and event
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = YFC_open_the_market
+		relative_position_id = YFC_consolidate_power
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_consolidate_power }
+
+		cost = 4
+		#opens the trade menu, in decisions tab
+		#basically, just lets you choose who to send resources to, what to send, and tells you what other countries want, and are offering in exchange
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = YFC_establish_sectorialism
+		relative_position_id = YFC_open_the_market
+		y = 2
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_open_the_market }
+
+		cost = 4
+		#opens the sectors decisions tab
+		#allows you to choose how much of each thing you produce, however letting a sector get too much power could lead to dire circumstances..
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+	focus = {
+		id = YFC_the_southern_bandits
+		x = 8
+		y = 0
+		icon = GFX_focus_generic
+		
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_establish_sectorialism
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_establish_sectorialism }
+
+		cost = 6
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = YFC_trade_with_CRN
+		relative_position_id = YFC_the_southern_bandits
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_the_southern_bandits }
+		
+		cost = 4
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = YFC_sell_them_guns
+		relative_position_id = YFC_the_southern_bandits
+		x = -2
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_the_southern_bandits }
+		#this and the following focus give you bonuses to production in the trade decisions tab until war is declared on the bunch, though it costs a hit in the amount of research slots the GTR is willing to sell for the second one
+		cost = 3
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_YF_funded_pillaging
+		relative_position_id = YFC_sell_them_guns
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_sell_them_guns }
+		mutually_exclusive = { focus = YFC_demand_end_pillage }
+		
+		cost = 2
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_open_foreign_policy
+		relative_position_id = YFC_trade_with_CRN
+		x = 2
+		icon = GFC_focus_generic
+
+		prerequisite = { focus = YFC_the_southern_bandits }
+		cost = 7
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = YFC_demand_end_pillage
+		relative_position_id = YFC_trade_with_CRN
+		y = 1
+		icon = GFC_focus_generic
+
+		prerequisite = { focus = YFC_the_southern_bandits }
+		prerequisite = { focus = YFC_open_foreign_policy }
+		mutually_exclusive = { YFC_YF_funded_pillaging }
+		cost = 7
+		completion_reward = {
+			
+		}
+	}
+}
