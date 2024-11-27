@@ -12,28 +12,28 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 
-	initial_show_position = { focus = YFC_open_the_market }
+	initial_show_position = { focus = YFC_focus_open_the_market }
 
 	focus = {
-		id = YFC_consolidate_power
+		id = YFC_focus_consolidate_power
 		x = 13
 		y = 0
 		icon = GFX_focus_generic
 
 		cost = 5
-		#give stability and event
+		#give stability, pp, and event
 		completion_reward = {
-
+			
 		}
 	}
 
 	focus = {
-		id = YFC_open_the_market
-		relative_position_id = YFC_consolidate_power
+		id = YFC_focus_open_the_market
+		relative_position_id = YFC_focus_consolidate_power
 		y = 1
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_consolidate_power }
+		prerequisite = { focus = YFC_focus_consolidate_power }
 
 		cost = 4
 		#opens the trade menu, in decisions tab
@@ -44,12 +44,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = YFC_establish_sectorialism
-		relative_position_id = YFC_open_the_market
+		id = YFC_focus_establish_sectorialism
+		relative_position_id = YFC_focus_open_the_market
 		y = 2
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_open_the_market }
+		prerequisite = { focus = YFC_focus_open_the_market }
 
 		cost = 4
 		#opens the sectors decisions tab
@@ -60,50 +60,59 @@ focus_tree = {
 	}
 
 	focus = {
-		id = YFC_the_southern_bandits
+		id = YFC_focus_the_southern_bandits
 		x = 8
 		y = 0
 		icon = GFX_focus_generic
 		
 		available = {
 			hidden_trigger = {
-				has_completed_focus = YFC_establish_sectorialism
+				has_completed_focus = YFC_focus_establish_sectorialism
 			}
 		}
 		
-		allow_branch = { has_completed_focus = YFC_establish_sectorialism }
+		allow_branch = { has_completed_focus = YFC_focus_establish_sectorialism }
 
 		cost = 6
-
+		#gives event talking abt a raid
 		completion_reward = {
 
 		}
 	}
 
 	focus = {
-		id = YFC_trade_with_CRN
-		relative_position_id = YFC_the_southern_bandits
+		id = YFC_focus_CRN_cooperation
+		relative_position_id = YFC_focus_demand_end_pillage
+		x = -1
 		y = 1
 		icon = GFX_focus_generic
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_demand_end_pillage
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_demand_end_pillage }
 
-		prerequisite = { focus = YFC_the_southern_bandits }
+		prerequisite = { focus = YFC_focus_demand_end_pillage }
 		
 		cost = 4
-
+		#increases relations with Numismatia both ways, will force numis down a path of cooperation with yfc and bunch
 		completion_reward = {
 
 		}
 	}
 
 	focus = {
-		id = YFC_sell_them_guns
-		relative_position_id = YFC_the_southern_bandits
+		id = YFC_focus_sell_them_guns
+		relative_position_id = YFC_focus_the_southern_bandits
 		x = -2
 		y = 1
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_the_southern_bandits }
-		#this and the following focus give you bonuses to production in the trade decisions tab until war is declared on the bunch, though it costs a hit in the amount of research slots the GTR is willing to sell for the second one
+		prerequisite = { focus = YFC_focus_the_southern_bandits }
+		prerequisite = { has_war = no }
+		#this and the following focus give you bonuses to the amount you can export in the trade decisions tab until war is declared on the bunch, though it costs a hit in the amount of research slots the GTR is willing to sell. also decreases mils by one
 		cost = 3
 
 		completion_reward = {
@@ -112,46 +121,144 @@ focus_tree = {
 	}
 
 	focus = {
-		id = YFC_YF_funded_pillaging
-		relative_position_id = YFC_sell_them_guns
+		id = YFC_focus_YF_funded_pillaging
+		relative_position_id = YFC_focus_sell_them_guns
 		y = 1
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_sell_them_guns }
-		mutually_exclusive = { focus = YFC_demand_end_pillage }
+		prerequisite = { focus = YFC_focus_sell_them_guns }
+		mutually_exclusive = { focus = YFC_focus_demand_end_pillage }
 		
 		cost = 2
-
+		#opens up alt path that lets you become a bunch-like ancap raider state
 		completion_reward = {
 			
 		}
 	}
 
 	focus = {
-		id = YFC_open_foreign_policy
-		relative_position_id = YFC_trade_with_CRN
+		id = YFC_focus_open_foreign_policy
+		relative_position_id = YFC_focus_the_southern_bandits
 		x = 2
-		icon = GFC_focus_generic
-
-		prerequisite = { focus = YFC_the_southern_bandits }
-		cost = 7
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = YFC_demand_end_pillage
-		relative_position_id = YFC_trade_with_CRN
 		y = 1
 		icon = GFC_focus_generic
-
-		prerequisite = { focus = YFC_the_southern_bandits }
-		prerequisite = { focus = YFC_open_foreign_policy }
-		mutually_exclusive = { YFC_YF_funded_pillaging }
+		#decreases relations with firey, free territory, and communist goiky if they exist yet, as well as any other COMMIES
+		#increases relations with GTR, Numismatia, and Coiny
+		prerequisite = { focus = YFC_focus_the_southern_bandits }
 		cost = 7
 		completion_reward = {
-			
+
+		}
+	}
+
+	focus = {
+		id = YFC_focus_demand_end_pillage
+		relative_position_id = YFC_focus_the_southern_bandits
+		y = 2
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_the_southern_bandits }
+		prerequisite = { focus = YFC_focus_open_foreign_policy }
+		mutually_exclusive = { YFC_focus_YF_funded_pillaging }
+		cost = 7
+		#gives an event that about border patrol no longer letting the bunch go through YFC territory to raid others
+		#decreases relations with bunch
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+	focus = {
+		id = YFC_focus_hire_militias
+		relative_position_id = YFC_focus_demand_end_pillage
+		x = 1
+		y = 1
+		icon = GFX_focus_generic
+
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_demand_end_pillage
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_demand_end_pillage }
+		prerequisite = { focus = YFC_focus_demand_end_pillage }
+		cost = 2
+		#spawn 5 okay-ish divisions, decreases max amount to be traded away
+		#divs will be deleted on end of war
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = YFC_focus_coiny_cooperation
+		relative_position_id = YFC_focus_open_foreign_policy
+		y = 3
+		icon = GFX_focus_generic
+
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_demand_end_pillage
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_demand_end_pillage }
+
+		prerequisite = { focus = YFC_focus_open_foreign_policy }
+		prerequisite = { focus = YFC_focus_demand_end_pillage }
+	}
+
+	focus = {
+		id = YFC_focus_outsource_gun_production
+		relative_position_id = YFC_focus_YF_funded_pillaging
+		x = -2
+		icon = GFX_focus_generic
+		
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_coiny_cooperation
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_coiny_cooperation }
+
+		prerequisite = { focus = YFC_focus_sell_them_guns }
+		prerequisite = { has_war = no }
+		#allows you to exploit coiny's military factories, selling coiny's guns instead of yours, so you dont lose military factories, in exchange, buffs from coiny are less potent
+		cost = 2
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = YFC_focus_buy_defense_trainings
+		relative_position_id = YFC_focus_demand_end_pillage
+		y = 2
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_CRN_cooperation }
+		prerequisite = { focus = YFC_focus_hire_militias }
+		#gives coiny as military high command, which gives +10% defense and breakthrough
+		#gives one civ factory until war is declared, and a 100% speed boost to building forts, cant build anything else
+		cost = 2
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = YFC_focus_money_arms_capital
+		relative_position_id = YFC_focus_buy_defense_trainings
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_buy_defense_trainings }
+		cost = 4
+		#declares war on bunch, get event in seven days that allows you to call in numismatia
+		#when both YFC and bunch are ai, YFC should wil 70% of the time, and numis should always be called in
+		#yfc ai will rush down getting to this focus, ignoring all of the other ones if it chooses to do this path
+		completion_reward = {
+
 		}
 	}
 }
