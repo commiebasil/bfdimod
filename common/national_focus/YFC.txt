@@ -23,7 +23,8 @@ focus_tree = {
 		cost = 5
 		#give stability, pp, and event
 		completion_reward = {
-			
+			add_stability = 0.20
+			add_political_power = 75
 		}
 	}
 
@@ -76,7 +77,7 @@ focus_tree = {
 		cost = 6
 		#gives event talking abt a raid
 		completion_reward = {
-
+			
 		}
 	}
 
@@ -207,6 +208,11 @@ focus_tree = {
 
 		prerequisite = { focus = YFC_focus_open_foreign_policy }
 		prerequisite = { focus = YFC_focus_demand_end_pillage }
+		#buffs the bonus given by trading with coiny
+		cost = 3
+		completion reward = {
+			
+		}
 	}
 
 	focus = {
@@ -255,7 +261,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_buy_defense_trainings }
 		cost = 5
 		#declares war on bunch, get event in seven days that allows you to call in numismatia
-		#when both YFC and bunch are ai, YFC should wil 70% of the time, and numis should always be called in
+		#when both YFC and bunch are ai, YFC should do this path 70% of the time, and numis should always be called in
 		#yfc ai will rush down getting to this focus, ignoring all of the other ones if it chooses to do this path
 		completion_reward = {
 

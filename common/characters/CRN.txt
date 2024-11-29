@@ -1,0 +1,13 @@
+characters={
+	CRN_credit_card={
+		name=CRN_credit_card
+		portraits={
+			civilian={
+
+			}
+		}
+		country_leader={
+			ideology = neutrality
+		}
+	}
+}

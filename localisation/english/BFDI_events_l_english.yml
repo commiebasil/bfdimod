@@ -602,6 +602,12 @@
  GFG_event.22.desc: "Unfortunately, our diplomats were unable to sign a pact with the southern government. Looks like they are planning against us..."
  GFG_event.22.a: "Damn."
  
+#YFC
+
+YFC_event.1.t: ""
+YFC_event.1.desc: ""
+YFC_event.1.a: ""
+
  #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."
