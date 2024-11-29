@@ -1,13 +1,14 @@
 characters={
-	CRN_credit_card={
-		name=CRN_credit_card
+	CRN_credit_card = {
+		name = CRN_credit_card
 		portraits={
 			civilian={
-
+				large=GFX_CRN_credit_card
 			}
 		}
 		country_leader={
-			ideology = neutrality
+			ideology = centrism
+			desc = CRN_credit_card_desc
 		}
 	}
 }

@@ -223,4 +223,8 @@ spriteTypes = {
 		name = "GFX_SOS_pin"
 		texturefile = "gfx/leaders/SOS/SOS_pin.dds"
 	}
+	spriteType = {
+		name = "GFX_CRN_credit_card"
+		texturefile = "gfx/leaders/CRN/CRN_credit_card.dds"
+	}
 }
