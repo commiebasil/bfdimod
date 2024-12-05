@@ -11,7 +11,5 @@ characters = {
 			ideology = oligarchism
 			desc = YFC_yellow_face_desc
 		}
-		
-	
 	}
 }
