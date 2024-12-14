@@ -21,10 +21,10 @@ focus_tree = {
 		icon = GFX_focus_generic
 
 		cost = 5
-		#give stability, pp, and event
 		completion_reward = {
 			add_stability = 0.20
 			add_political_power = 75
+			country_event = YFC_event.1
 		}
 	}
 
@@ -79,7 +79,7 @@ focus_tree = {
 		cost = 6
 		#gives event talking abt a raid
 		completion_reward = {
-			
+			country_event = YFC_event.2
 		}
 	}
 
@@ -128,7 +128,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = YFC_focus_YF_funded_pillaging
+		id = YFC_focus_YFC_funded_pillaging
 		relative_position_id = YFC_focus_sell_them_guns
 		x = 0
 		y = 1
@@ -155,7 +155,22 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_the_southern_bandits }
 		cost = 4
 		completion_reward = {
-
+			every_country = {
+				limit = { has_government = communism }
+				add_opinion_modifier = { target = YFC modifier = large_decrease }
+			}
+			every_country_with_original_tag = {
+				original_tag_to_check = CRN
+				add_opinion_modifier = { target = YFC modifier = large_increase }
+			}
+			every_country_with_original_tag = {
+				original_tag_to_check = GTR
+				add_opinion_modifier = { target = YFC modifier = large_increase }
+			}
+			every_country_with_original_tag = {
+				original_tag_to_check = GMD
+				add_opinion_modifier = { target = YFC modifier = large_increase }
+			}
 		}
 	}
 
@@ -201,7 +216,30 @@ focus_tree = {
 		#spawn 5 okay-ish divisions, decreases max amount to be traded away
 		#divs will be deleted on end of war, max amount to trade goes back up
 		completion_reward = {
-
+			division_template = {
+				name = "Militia"
+				is_locked = yes
+				division_cap = 5 
+				priority = 0
+				template_counter = 0
+				regiments = {
+					militia = { x = 0 y = 0 }
+					militia = { x = 0 y = 1 }
+					militia = { x = 0 y = 2 }
+					militia = { x = 0 y = 3 }
+					militia = { x = 1 y = 0 }
+					militia = { x = 1 y = 1 }
+					militia = { x = 1 y = 2 }
+					militia = { x = 1 y = 3 }
+				}
+			}
+			201 = {
+				create_unit = {
+					division = "name = \"Militia\" division_template = \"Militia\" start_experience_factor = 0.5"
+					count = 5
+					owner = YFC
+				}
+			}
 		}
 	}
 
@@ -231,7 +269,7 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_outsource_gun_production
-		relative_position_id = YFC_focus_YF_funded_pillaging
+		relative_position_id = YFC_focus_YFC_funded_pillaging
 		x = -2
 		y = 0
 		icon = GFX_focus_generic
@@ -284,7 +322,7 @@ focus_tree = {
 			BUN = {
 				YFC = {
 					declare_war_on = {
-						target = ROOT
+						target = BUN
 						type = topple_government
 					}
 				}
