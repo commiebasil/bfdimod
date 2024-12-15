@@ -8,6 +8,10 @@ state={
 	provinces={
 		44 366 468 1341 2155 2211 2435 2999 3712 3960 4629 5915 6216 6270 6332 6353 6434 11014 11047 11063 11064 11091 11116 11123 11150 
 	}
+	history={
+		owner = GOI
+		add_core_of = GOI
+	}
 	manpower=63020
 	buildings_max_level_factor=1.000
 	state_category=town

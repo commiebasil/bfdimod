@@ -4,7 +4,12 @@ state={
 	provinces={
 		77 102 742 1090 2173 2226 2642 3185 3202 4156 4260 4650 4659 5052 5332 5557 5908 5912 11002 11006 11010 11019 11022 11028 11048 11052 11071 11080 11092 
 	}
+	history={
+		owner = GOI
+		add_core_of = GOI
+	}
 	manpower=0
+	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
