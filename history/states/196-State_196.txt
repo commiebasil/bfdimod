@@ -7,6 +7,12 @@ state={
 	history={
 		owner = GOI
 		add_core_of = GOI
+		victory_points = {
+			3655 15
+		}
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=208001
 	buildings_max_level_factor=1.000

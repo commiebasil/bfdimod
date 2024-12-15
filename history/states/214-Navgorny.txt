@@ -8,6 +8,12 @@ state={
 	history={
 		owner = GOI
 		add_core_of = GOI
+		victory_points = {
+			438 20
+		}
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	manpower=0
 	state_category=city

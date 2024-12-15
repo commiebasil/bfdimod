@@ -63,3 +63,7 @@
  STATE_212: "Outer Snow plateau"
  STATE_213: "Central Outskirts"
  STATE_214: "Navgornyv"
+ STATE_215: "Eastern Interior"
+ STATE_216: "Far-Coastal Tidewater"
+ STATE_217: "Rainy - Hills Pass"
+ STATE_218: "Snowy Pre-Plateau"
