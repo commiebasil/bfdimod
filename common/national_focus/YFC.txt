@@ -80,6 +80,14 @@ focus_tree = {
 		#gives event talking abt a raid
 		completion_reward = {
 			country_event = YFC_event.2
+			hidden_effect = {
+				country_event = {
+					id = YFC_event.3
+					days = 10
+					random_days = 5
+					random_hours = 12
+				}
+			}
 		}
 	}
 

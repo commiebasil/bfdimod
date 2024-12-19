@@ -36,15 +36,6 @@ country_event = {
 	picture = GFX_YFC_event3
 	
 	is_triggered_only = yes
-    
-	trigger = {
-		tag = YFC
-		has_completed_focus = YFC_focus_the_southern_bandits
-	}
-
-	mean_time_to_happen = {
-		days = 15
-	}
 
     option = {
 		name = YFC_event.3.a
