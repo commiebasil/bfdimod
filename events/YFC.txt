@@ -51,3 +51,22 @@ country_event = {
 		name = YFC_event.3.b
 	}
 }
+
+country_event = {
+	id = YFC_event.4
+	title = YFC_event.4.t
+	desc = YFC_event.4.desc
+	picture = GFX_YFC_event4
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_event.4.a
+		CRN = {
+			declare_war_on = {
+				target = BUN
+				type = topple_government
+			}
+		}
+	}
+}
