@@ -214,7 +214,10 @@ spriteTypes = {
 		name = "GFX_YFC_yellow_face"
 		texturefile = "gfx/leaders/YFC/YFC_yellow_face.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_YFC_david"
+		texturefile = "gfx/leaders/YFC/YFC_david.dds"
+	}
 	spriteType = {
 		name = "GFX_SOS_anchor"
 		texturefile = "gfx/leaders/SOS/SOS_anchor.dds"
