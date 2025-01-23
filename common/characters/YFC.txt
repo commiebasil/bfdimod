@@ -11,5 +11,64 @@ characters = {
 			ideology = oligarchism
 			desc = YFC_yellow_face_desc
 		}
+field_marshal = {
+			traits = { offensive_doctrine  politically_connected }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 3
+		}
+	}
+YFC_lewis = {
+		name = YFC_lewis
+		portraits = { 
+			civilian = { 
+				small = GFX_idea_YFC_lewis	
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_YFC_lewis
+			ledger = army
+			traits = { popular_figurehead }
+		}
+		
+	
+	}
+	YFC_dora = {
+		name = YFC_dora
+		portraits = { 
+			civilian = { 
+				small = GFX_idea_YFC_dora	
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_YFC_dora
+			ledger = army
+			traits = { special_authorities }
+		}
+		
+	
+	}
+	YFC_david = {
+		name = YFC_david
+		portraits = { 
+			army = { 
+				large = GFX_YFC_david
+				
+			} 
+		}
+			corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+			traits = { infantry_officer }
+		}
+		
+	
 	}
 }
