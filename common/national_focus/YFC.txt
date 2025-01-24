@@ -1,3 +1,4 @@
+#!gfx:interface\bfdi_goals.gfx
 focus_tree = {
 	id = YFC_focus_tree
 	#yf has a national spirit not allowing the nation to make any buildings, there are no research slots, yadda yadda (check the pathway planning doc) 

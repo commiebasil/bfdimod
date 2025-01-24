@@ -1,0 +1,98 @@
+#!gfx:interface\bfdi_decisions.gfx
+guiTypes = {
+	containerWindowType = {
+		name = "corp_trade_container"
+		
+		position = { x = 0 y = 0 }
+		size = { width = 500 height = 570 }
+		
+		iconType = {
+			name = "header"
+			position = { x = -5 y = -20 }
+			spriteType = GFX_decisions_YFC_trade_header
+		}
+		instantTextboxType = {
+			name = "corp_trade_country"
+			position = { x = 25 y = 160 }
+			font = hoi_33
+			format = left
+			text = l_YFC_trade_1
+			maxWidth = 500
+		}
+
+		instantTextboxType = {
+			name = "corp_trade_sells"
+			position = { x = 200 y = 160 }
+			font = hoi_33
+			format = left
+			text = l_YFC_trade_2
+			maxWidth = 500
+		}
+		instantTextboxType = {
+			name = "corp_trade_buy"
+			position = { x = 300 y = 160 }
+			font = hoi_33
+			format = left
+			text = l_YFC_trade_3
+			maxWidth = 500
+		}
+		
+		containerWindowType = {
+			name = "corp_trade_list_container"
+			position = { x = 25 y = 200 }
+			size = { width = 450 height = 350 }
+			
+			background = {
+				name = "bg"
+				spriteType = GFX_tiled_paper_bg2
+			}
+
+			listboxType = {
+				name = "corp_trade_listbox"
+				position = { x = 0 y = 0 }
+				size = { width = 450 height = 350 }
+				horizontal=0
+				bordersize=5
+				spacing=10
+			}
+			gridboxtype = {
+				name = "corp_trade_list_Entry_Flags"
+				position = { x = 0 y = 0 }
+				size = { width = 500 height = 350 }
+				slotsize = { width = 450 height = 60 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+	}
+	containerWindowType = {
+		name = "corp_trade_list_Entry_Flags_Entry"
+		size = { width = 50 height = 40 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "corp_trade_list_Entry_Flags_Entry_Flag"
+			quadTextureSprite ="GFX_flag_small2_plain"
+			position = { x = 28 y = 23 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "corp_trade_list_Entry_Flags_Entry_Overlay"
+			quadTextureSprite = "GFX_flag_frame_warscreen"
+			position = { x = 3 y = 6 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "corp_trade_list_Entry_Flags_Entry_Overlay_tt"
+			pdx_tooltip_delayed = "corp_trade_list_Entry_Flags_Entry_Overlay_tt_delayed"
+		}
+
+		instantTextboxType = {
+			name = "corp_trade_list_Entry_Flags_Entry_Info"
+			position = { x = 60 y = 14 }
+			font = "hoi_33"
+			text = "corp_trade_list_Entry_Flags_Entry_Info_tt"
+			maxWidth = 80
+			format = left
+			alwaystransparent = yes
+		}
+	}
+}
