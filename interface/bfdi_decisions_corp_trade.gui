@@ -41,6 +41,8 @@ guiTypes = {
 			name = "corp_trade_list_container"
 			position = { x = 25 y = 200 }
 			size = { width = 450 height = 350 }
+			verticalScrollbar = "right_vertical_slider"
+			smooth_scrolling = yes
 			
 			background = {
 				name = "bg"
@@ -51,7 +53,7 @@ guiTypes = {
 				name = "corp_trade_list_Entry_Flags"
 				position = { x = 0 y = 0 }
 				size = { width = 500 height = 350 }
-				slotsize = { width = 450 height = 60 }
+				slotsize = { width = 450 height = 40 }
 				max_slots_horizontal = 1
 				add_horizontal = no
 			}
@@ -62,18 +64,11 @@ guiTypes = {
 		size = { width = 50 height = 40 }
 		position = { x = 0 y = 0 }
 
-		iconType = {
-			name = "corp_trade_list_Entry_Flags_Entry_Flag"
-			quadTextureSprite ="GFX_flag_small"
-			position = { x = 28 y = 23 }
-			Orientation = "UPPER_LEFT"
-		}
-
 		instantTextboxType = {
 			name = "corp_trade_list_Entry_Flags_Entry_Info"
-			position = { x = 60 y = 14 }
-			font = "hoi_33"
-			text = "corp_trade_list_Entry_Flags_Entry_Info_tt"
+			position = { x = 60 y = 13 }
+			font = "hoi_18mbs"
+			text = [THIS.GetSellsToCorp]
 			maxWidth = 200
 			format = left
 			alwaystransparent = yes
@@ -81,12 +76,12 @@ guiTypes = {
 		iconType = {
 			name = "corp_trade_list_Entry_Flags_Entry_Flag2"
 			quadTextureSprite ="GFX_flag_small2"
-			position = { x = 278 y = 23 }
+			position = { x = 8 y = 13 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = { 
 			name = "country_flag_frame"
-			position = {x= 273 y = 20}
+			position = {x= 3 y = 10}
 			spriteType = "GFX_small_flag_frame_thin2"
 			alwaystransparent = yes
 		}
