@@ -1,3 +1,45 @@
 decision_YFC_trade_category= {
+	YFC_add_countries_to_trade = {
+		icon = generic_research
 
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			BUN = {
+				add_to_array = {
+					array = global.yfc_tradable_countries
+					value = THIS.id
+				}
+			}
+			GGR = {
+				add_to_array = {
+					array = global.yfc_tradable_countries
+					value = THIS.id
+				}
+			}
+			CRN = {
+				add_to_array = {
+					array = global.yfc_tradable_countries
+					value = THIS.id
+				}
+			}
+			GPG = {
+				add_to_array = {
+					array = global.yfc_tradable_countries
+					value = THIS.id
+				}
+			}
+		}
+	}
 }

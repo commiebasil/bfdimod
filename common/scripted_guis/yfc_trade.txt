@@ -5,12 +5,13 @@ scripted_gui = {
 		parent_window_token = decision_tab
 
 		properties = {
-			corp_trade_list_Entry_Flags_Entry_Flag = { image = "[This.GetFlag]" }
+			corp_trade_list_Entry_Flags_Entry_Flag = { image = [This.GetFlag] }
+			corp_trade_list_Entry_Flags_Entry_Flag2 = { image = [This.GetFlag] }
 		}
 
 		dynamic_lists = {
 			corp_trade_list_Entry_Flags = {
-				array = global.countries
+				array = global.yfc_tradable_countries
 				index = i
 				change_scope = yes
 				entry_container = corp_trade_list_Entry_Flags_Entry

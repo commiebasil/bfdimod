@@ -1,7 +1,7 @@
 #!gfx:interface\bfdi_decisions.gfx
 guiTypes = {
 	containerWindowType = {
-		name = "corp_trade_container"
+		name = "bfdi_corp_trade_container"
 		
 		position = { x = 0 y = 0 }
 		size = { width = 500 height = 570 }
@@ -47,14 +47,6 @@ guiTypes = {
 				spriteType = GFX_tiled_paper_bg2
 			}
 
-			listboxType = {
-				name = "corp_trade_listbox"
-				position = { x = 0 y = 0 }
-				size = { width = 450 height = 350 }
-				horizontal=0
-				bordersize=5
-				spacing=10
-			}
 			gridboxtype = {
 				name = "corp_trade_list_Entry_Flags"
 				position = { x = 0 y = 0 }
@@ -72,17 +64,9 @@ guiTypes = {
 
 		iconType = {
 			name = "corp_trade_list_Entry_Flags_Entry_Flag"
-			quadTextureSprite ="GFX_flag_small2_plain"
+			quadTextureSprite ="GFX_flag_small"
 			position = { x = 28 y = 23 }
 			Orientation = "UPPER_LEFT"
-		}
-		iconType = {
-			name = "corp_trade_list_Entry_Flags_Entry_Overlay"
-			quadTextureSprite = "GFX_flag_frame_warscreen"
-			position = { x = 3 y = 6 }
-			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "corp_trade_list_Entry_Flags_Entry_Overlay_tt"
-			pdx_tooltip_delayed = "corp_trade_list_Entry_Flags_Entry_Overlay_tt_delayed"
 		}
 
 		instantTextboxType = {
@@ -90,8 +74,20 @@ guiTypes = {
 			position = { x = 60 y = 14 }
 			font = "hoi_33"
 			text = "corp_trade_list_Entry_Flags_Entry_Info_tt"
-			maxWidth = 80
+			maxWidth = 200
 			format = left
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "corp_trade_list_Entry_Flags_Entry_Flag2"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x = 278 y = 23 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = { 
+			name = "country_flag_frame"
+			position = {x= 273 y = 20}
+			spriteType = "GFX_small_flag_frame_thin2"
 			alwaystransparent = yes
 		}
 	}
