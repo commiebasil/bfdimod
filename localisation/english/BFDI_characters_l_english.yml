@@ -70,7 +70,7 @@
  BUN_eraser_desc: "As Goiky entered it's dark era, crime became rampant. Eraser then saw an opportunity. He led his gang, which trades in raids, robberies, and terror."
  
  SRR_wrench: "Wrench"
- SRR_wrench_desc: "Many people say: 'You can be anything if you put your mind to it'. Wrench, perhaps, can serve as an excellent example of that principle. They dreamed big, and now they hold the highest position in the GGRR administration. However, now they are more concerned about keeping their section of the road under control and in good condition rather than the privileges of being in charge."
+ SRR_wrench_desc: "Many people say: 'You can be anything if you put your mind to it'. Wrench, perhaps, can serve as an excellent example of that principle. He dreamed big, and now he holds the highest position in the GGRR administration. However, now he is more concerned about keeping his section of the road under control and in good condition rather than the privileges of being in charge."
  
  NRR_administration: "Administration"
  NRR_administration_desc: "Due to the difficult situation, the GGRR - North is under the collective leadership."
@@ -82,10 +82,6 @@
  SGD_robot_flower_desc: "Robot Flower, after a short stay in the provisional government of Goiky, went to the south, where she managed to lead the local government in Small Goiky. She harbors long-term plans to revive the original Flower..."
  
  YFC_yellow_face: "Yellow Face"
- YFC_yellow_face_desc: "CEO and founder of the Yellow Face Corporation. Made in the YFC!"
- YFC_david: "David"
- YFC_lewis: "Lewis"
- YFC_dora: "Dora"
  
  SMG_grassy: "Grassy"
  
@@ -96,6 +92,3 @@
  SOS_anchor: "Anchor"
  SOS_anchor_desc: "An old commander of a merchant ship, after the Dream Island dissapearment, Anchor acquired a reputation as an honorable, decisive object. Thanks to his good name and management talents, he was chosen as the head of the fleet self-government."
  SOS_pin: "§8High Queen of the People of Saint Objectburg and Mistress of Its Land, Pin§!"
-
-CRN_credit_card: "Credit Card"
-CRN_credit_card_desc: "Former leader of Goiky's famed South Side Free Armies, current establisher of the Capitalist Republic, Credit Card's done a lot in his life. He was once a general of old Goiky's military, and a high ranking one at that. After the tragedy that was Dream Island's dissapearence, he lead the Free Army to a march on casland itself, ushering in the new era of the Goiky of today."

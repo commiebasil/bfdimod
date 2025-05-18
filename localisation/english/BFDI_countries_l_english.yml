@@ -103,13 +103,9 @@
  SRI_DEF: "Northern"
  
  YFC: "Yellow Face Corporation"
- YFC_ADJ: "Corporate"
+ YFC_ADJ: "Corporation"
  YFC_DEF: "Corp"
  
  SOS: "Objectburg Free State"
- SOS_ADJ: "Objectburger"
+ SOS_ADJ: "Objectburg Free State"
  SOS_DEF: "Objectburg Free State"
-
-CRN: "Capitalist Republic of Numismatia"
-CRN_ADJ: "Numismatian"
-CRN_DEF: "Numismatia"
