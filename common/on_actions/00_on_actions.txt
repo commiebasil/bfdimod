@@ -106,32 +106,6 @@ on_actions = {
 				}
 				set_global_flag = cap_alliance
 			}
-			else_if = {
-				limit = {
-					FROM = { tag = YFC }
-					ROOT = { tag = BUN }
-				}
-				if = {
-					limit = { BUN = { is_ai = yes } }
-					85 = {
-						transfer_state_to = YFC
-					}
-					212 = {
-						transfer_state_to = YFC
-					}
-					217 = {
-						transfer_state_to = CRN
-					}
-					218 = {
-						transfer_state_to = CRN
-					}
-				}
-				else = {
-					FROM = {
-						white_peace = ROOT
-					}
-				}
-			}
 			FROM = {
 				annex_country = {
 					target = ROOT

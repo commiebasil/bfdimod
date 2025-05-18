@@ -3,7 +3,7 @@
 capital = 201
 
 
-set_research_slots = 0
+set_research_slots = 2
 
 set_technology = { basic_train = 1 }
 set_technology = { infantry_weapons = 1 }
@@ -38,9 +38,6 @@ set_popularities = {
 	communism = 6
 }
 recruit_character = YFC_yellow_face
-recruit_character = YFC_lewis
-recruit_character = YFC_david
-recruit_character = YFC_dora
 
 add_ideas = idea_YFC_no_more_advertisements_foundation
 

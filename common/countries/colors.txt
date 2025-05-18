@@ -98,10 +98,7 @@ SOS = {
 	color = rgb { 0 30 130 }
 	color_ui = rgb { 0 30 130 }
 }
-CRN = {
-	color = rgb { 0 212 57 }
-	color_ui = rgb { 0 212 57 }
-}
+
 D01 = {
 	color = rgb { 122 179 97 }
 	color_ui = rgb { 159 233 126 }

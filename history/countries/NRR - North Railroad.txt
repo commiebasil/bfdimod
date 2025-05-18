@@ -2,8 +2,6 @@
 
 capital = 170
 
-set_variable = { var_YCF_tradeSell_index = 4 }
-
 set_research_slots = 1
 
 set_technology = { basic_train = 1 }

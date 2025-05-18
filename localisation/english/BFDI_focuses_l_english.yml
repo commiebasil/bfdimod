@@ -952,49 +952,6 @@
  GFG_focus_break_the_line: "§tBreak the Line§!"
  GFG_focus_break_the_line_desc: "It's time to defeat the bastards in Greenport once and for all!"
  
- #YFC
- YFC_focus_consolidate_power: "Consolidate Power"
- YFC_focus_consolidate_power_desc: "We need to establish legitimacy in both the Company and the State"
-
- YFC_focus_open_the_market: "Open The Markets!"
- YFC_focus_open_the_market_desc: "By allowing foreign companies to operate within our state, we can generate more GDP, and stimulate our and foreign economies. We should also participate in the markets of other nations, selling our own goods, or selling other country's goods for profit."
-
- YFC_focus_establish_sectorialism: "Establish Sectorialism"
- YFC_focus_establish_sectorialism_desc: "By allowing friendly competition between different parts of our corporation, we can guarentee that our production, and therefore our profits, will rise. Of course, we can't let one branch have too much power over the government, that would just be foolish."
-
- YFC_focus_the_southern_bandits: "The Southern Bandits"
- YFC_focus_the_southern_bandits_desc: "Those bandits to the south of us are seriously raising concern among our employees. Some of which are scared of a possible attack, and others who believe we should be taking advantage of them. Only time will tell what happens to the bandits, but we must make sure we're ahead of them at all times."
-
- YFC_focus_CRN_cooperation: "Numismatian Cooperation"
- YFC_focus_CRN_cooperation_desc: "After our declaration against The Bunch, Numismatian foreign investors have been getting more and more popular in our country, and likewise ours in theirs. It is only natural that our countries work together, seeing as we have common goals and intrests."
-
- YFC_focus_sell_them_guns: "Sell Guns to Raiders"
- YFC_focus_sell_them_guns_desc: "Despite political affiliations, there is no doubt in our country that selling guns to the raiders could only be a net positive. They're weak, and unorganized, with lots of money to throw around. Only a fool would pass up on easy money like this."
-
- YFC_focus_YFC_funded_pillaging: "Government Funded Pillaging"
- YFC_focus_YFC_funded_pillaging_desc: "Anything can be bought and sold, even death, trechery, alliance, and war. The free market knows no bounds, and politics isn't one of them. The Bunch has benifits to gain from us, and we have benifits to gain from them. It's only natural that we work together, just as natural as the free market!"
-
- YFC_focus_open_foreign_policy: "Open Foreign Diplomacy"
- YFC_focus_open_foreign_policy_desc: "The Yellow Face Corporation should definitely not remain out of the political game. There are many profits to be made in love and war."
- 
- YFC_focus_demand_end_pillage: "Demand an End to Pillaging"
- YFC_focus_demand_end_pillage_desc: "Those damn raiders have stolen long enough. There is no place for Socialist thiefs in the free market, their very existance is an act against communism, and we must put an end to this raiding before it gets out of hand. Pillaging is bad for business."
-
- YFC_focus_hire_militias: "Hire Militias"
- YFC_focus_hire_militias_desc: "Despite already having some mercenaries, it isn't enough for a possible war with the raiders. We can hire temporary militias to fill our numbers temporarily, though we obviously can't let unstable militants stay within our country after the war."
-
- YFC_focus_coiny_cooperation: "Military District Cooperation"
- YFC_focus_coiny_cooperation_desc: "It is no secret what the North Goiky 'Revolutionary' Front wants to do. They've made it clear that they want to rule all of Goiky's northern coast, and Firey has a personal vendetta Coiny. We must help our newfound ally in repelling these attacks, less they fall to Socialism. Besides, socialism is bad for business!"
- 
- YFC_focus_outsource_gun_production: "Outsource Gun Production"
- YFC_focus_outsource_gun_production_desc: "By exploiting the Military District, we can continue to sell guns to The Bunch, however we can also continue producing guns at our rates prior to making this deal with The Bunch. Though this may slightly upset the Military District, all is fair on the free market."
-
- YFC_focus_buy_defense_trainings: "Buy Defense Trainings"
- YFC_focus_buy_defense_trainings_desc: "By paying investors from the Military District to train our mercenaries and militias, we'll be more prepared to attack and defend against the Raiders in a conflict that is seeming inevitable."
- 
- YFC_focus_money_arms_capital: "My Money to Arms for Capital!"
- YFC_focus_money_arms_capital_desc: "Away! Away! Each Raider boy must understand that he must mind the Money Man!"
-
  #generic
  generic_focus_industry: "Industry expansion"
  generic_focus_army: "Army"
