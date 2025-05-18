@@ -1,0 +1,72 @@
+add_namespace = YFC_event
+
+country_event = {
+	id = YFC_event.1
+	title = YFC_event.1.t
+    desc = YFC_event.1.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_event.1.a
+	}
+}
+
+country_event = {
+	id = YFC_event.2
+	title = YFC_event.2.t
+    desc = YFC_event.2.desc
+	picture = GFX_YFC_event2
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_event.2.a
+	}
+	option = {
+		name = YFC_event.2.b
+	}
+}
+
+country_event = {
+	id = YFC_event.3
+	title = YFC_event.3.t
+    desc = YFC_event.3.desc
+	picture = GFX_YFC_event3
+	
+	is_triggered_only = yes
+
+    option = {
+		name = YFC_event.3.a
+		214 = {
+			if = {
+				limit = { is_owned_by = SRR }
+				add_core_of = YFC
+				transfer_state_to = YFC
+			}
+		}
+	}
+	option = {
+		name = YFC_event.3.b
+	}
+}
+
+country_event = {
+	id = YFC_event.4
+	title = YFC_event.4.t
+	desc = YFC_event.4.desc
+	picture = GFX_YFC_event4
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_event.4.a
+		CRN = {
+			declare_war_on = {
+				target = BUN
+				type = topple_government
+			}
+		}
+	}
+}
