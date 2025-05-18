@@ -435,7 +435,14 @@ spriteTypes = {
 		name = GFX_idea_YFC_no_more_advertisements_foundation
 		texturefile = gfx/interface/ideas/idea_YFC_no_more_advertisements_foundation.dds
 	}
-	
+	spriteType = {
+		name = GFX_idea_YFC_lewis
+		texturefile = gfx/interface/ideas/idea_YFC_lewis.dds
+	}
+	spriteType = {
+		name = GFX_idea_YFC_dora
+		texturefile = gfx/interface/ideas/idea_YFC_dora.dds
+	}
 	spriteType = {
 		name = GFX_idea_SOS_goiky_fleet
 		texturefile = gfx/interface/ideas/idea_SOS_goiky_fleet.dds

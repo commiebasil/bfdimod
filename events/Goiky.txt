@@ -234,6 +234,10 @@ country_event = {
 				days = 4
 			}
 			country_event = {
+				id = GOI_hidden_event.17
+				days = 2
+			}
+			country_event = {
 				id = GOI_event.8
 				days = 20
 			}
@@ -561,16 +565,24 @@ country_event = {
 		BUN = {
 			transfer_state = 85
 			transfer_state = 212
+			transfer_state = 217
+			transfer_state = 218
 			
 			add_state_core = 85
 			add_state_core = 212
+			add_state_core = 217
+			add_state_core = 218
 			
 			85 = { set_demilitarized_zone = no }
 			212 = { set_demilitarized_zone = no }
+			217 = { set_demilitarized_zone = no }
+			218 = { set_demilitarized_zone = no }
 		}
 		GOI = {
 			remove_state_core = 85
 			remove_state_core = 212
+			remove_state_core = 217
+			remove_state_core = 218
 		}
 	}
 }
@@ -586,14 +598,17 @@ country_event = {
 			transfer_state = 202
 			transfer_state = 210
 			transfer_state = 27
+			transfer_state = 214
 			
 			add_state_core = 202
 			add_state_core = 210
 			add_state_core = 27
+			add_state_core = 214
 			
 			202 = { set_demilitarized_zone = no }
 			210 = { set_demilitarized_zone = no }
 			27 = { set_demilitarized_zone = no }
+			214 = { set_demilitarized_zone = no }
 		}
 		GOI = {
 			remove_state_core = 202
@@ -682,16 +697,43 @@ country_event = {
 		YFC = {
 			transfer_state = 196
 			transfer_state = 201
+			transfer_state = 215
+			transfer_state = 216
 			
 			add_state_core = 196
 			add_state_core = 201
+			add_state_core = 215
+			add_state_core = 216
 			
 			196 = { set_demilitarized_zone = no }
 			201 = { set_demilitarized_zone = no }
+			215 = { set_demilitarized_zone = no }
+			216 = { set_demilitarized_zone = no }
 		}
 		GOI = {
 			remove_state_core = 196
 			remove_state_core = 201
+			remove_state_core = 215
+			remove_state_core = 216
 		}
 	}
+}
+country_event = {
+    id = GOI_hidden_event.17
+
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+        CRN = {
+            transfer_state = 178
+
+            add_state_core = 178
+
+            178 = { set_demilitarized_zone = no }
+        }
+        GOI = {
+            remove_state_core = 178
+        }
+    }
 }
