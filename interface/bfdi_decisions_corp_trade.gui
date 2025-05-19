@@ -97,17 +97,169 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_plain_bg"
 		}
 
-		iconType = {
-			name = "corp_tradeDeal_Flags_Entry_Flag2"
-			quadTextureSprite ="GFX_flag_small2"
-			position = { x = 8 y = 13 }
-			Orientation = "UPPER_LEFT"
+		buttonType = {
+			name = "bfdi_corpTradeDeal_country_flag"
+			quadTextureSprite ="GFX_player_flag"
+			position = { x= 20 y = 17 }
+			Orientation = "TOP_LEFT"
 		}
-		iconType = { 
-			name = "country_flag_frame"
-			position = {x= 3 y = 10}
-			spriteType = "GFX_small_flag_frame_thin2"
+
+		iconType = {
+			name = "bfdi_corpTradeDeal_flag_frame"
+			spriteType = "GFX_large_flag_frame"
+			position = { x= 15 y = 15 }
+			Orientation = "TOP_LEFT"
 			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "corp_trade_list_Entry_Flags_Entry_Info"
+			position = { x = 110 y = 15 }
+			font = "hoi_30header"
+			text = [THIS.GetNameDefCap]
+			maxWidth = 200
+			format = left
+			orientation = "TOP_LEFT"
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "corp_tradeDeal_Entry_Flags_Entry_Info"
+			position = { x = 110 y = 40 }
+			font = "hoi_18mbs"
+			text = [THIS.GetSellsToCorp]
+			maxWidth = 200
+			format = left
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "corp_tradeDeal_Entry_Flags_Entry_Info"
+			position = { x = 110 y = 60 }
+			font = "hoi_18mbs"
+			text = [THIS.GetBuysFromCorp]
+			maxWidth = 200
+			format = left
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "bfdi_corpTradeDeal_increase_amount"
+			position = { x=236 y = 75 }
+			quadTextureSprite = "GFX_naval_increase_amount"
+			pdx_tooltip = ""
+			clicksound = click_default
+			orientation = "TOP_LEFT"
+		}
+		containerWindowType = {
+			name = "corp_trade_list_info"
+			position = { x = 225 y = 50 }
+			size = { width = 100 height = 100 }
+			orientation = "TOP_LEFT"
+
+			instantTextboxType = {
+				name = "corp_tradeDealAmountSeller"
+				position = { x = 0 y = 0}
+				font = "hoi_18mbs"
+				text = [THIS.GetSells]
+				maxWidth = 200
+				format = center
+				orientation = "TOP_LEFT"
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "corp_tradeDealFOR"
+				position = { x = 0 y = 15 }
+				font = "hoi_18mbs"
+				text = "for"
+				maxWidth = 200
+				format = center
+				orientation = "TOP_LEFT"
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "corp_tradeDealAmountBuyer"
+				position = { x = 0 y = 30}
+				font = "hoi_18mbs"
+				text = [THIS.GetBuys]
+				maxWidth = 200
+				format = center
+				orientation = "TOP_LEFT"
+				alwaystransparent = yes
+			}
+		}
+		buttonType = {
+			name = "BuyButton"
+			position = { x = 15 y = 110 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "Buy"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		instantTextboxType = {
+			name = "corp_tradeDealSellTextbox"
+			position = { x = 145 y = 120}
+			font = "hoi_18mbs"
+			text = "Sell:"
+			maxWidth = 200
+			format = left
+			orientation = "TOP_LEFT"
+			alwaystransparent = yes
+		}
+		containerWindowType = {
+			name = "corp_trade_list_container"
+			position = { x = 175 y = 108 }
+			size = { width = 310 height = 40 }
+			horizontalScrollbar = "right_horizontal_slider"
+			smooth_scrolling = yes
+			
+			background = {
+				name = "bg"
+				spriteType = GFX_tiled_paper_bg
+			}
+
+			gridboxtype = {
+				name = "corp_trade_list_sell_materials"
+				position = { x = 0 y = 0 }
+				size = { width = 310 height = 40 }
+				slotsize = { width = 130 height = 40 }
+				max_slots_vertical = 1
+				add_vertical = no
+			}
+		}
+
+		#110 y = 45
+		buttonType = {
+			name = "bfdi_corpTradeDeal_decrease_amount"
+			position = { x=15 y = 75 }
+			quadTextureSprite = "GFX_naval_decrease_amount"
+			pdx_tooltip = ""
+			clicksound = click_default
+			orientation = "TOP_LEFT"
+		}
+		iconType = {
+			name = "bfdi_corpTradeDeal_cost_progress"
+			spriteType = "GFX_landcombat_progress"
+			position = { x = 52 y= 83}	
+		}
+
+		iconType = {
+			name = "bfdi_corpTradeDeal_cost_progress_frame"
+			position = { x = 50 y= 81}
+			spriteType = "GFX_land_battle_progress_frame"
+		}
+		
+	}
+	containerWindowType = {
+		name = "corp_trade_list_sell_materials_Entry"
+		size = { width = 130 height = 40 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "BuyButton"
+			position = { x = 2 y = 3 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = [THIS.GetMaterial]
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
 		}
 	}
 }
