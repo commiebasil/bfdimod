@@ -86,4 +86,28 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
+	containerWindowType = {
+		name = "bfdi_corp_tradeDeal_container"
+		
+		position = { x = 0 y = 0 }
+		size = { width = 500 height = 570 }
+
+		background = {
+			name="bg_YFC_corpTradeDeal_bg"
+			quadTextureSprite = "GFX_tiled_plain_bg"
+		}
+
+		iconType = {
+			name = "corp_tradeDeal_Flags_Entry_Flag2"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x = 8 y = 13 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = { 
+			name = "country_flag_frame"
+			position = {x= 3 y = 10}
+			spriteType = "GFX_small_flag_frame_thin2"
+			alwaystransparent = yes
+		}
+	}
 }
