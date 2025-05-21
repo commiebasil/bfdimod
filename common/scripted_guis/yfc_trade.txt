@@ -7,6 +7,10 @@ scripted_gui = {
 		properties = {
 			corp_trade_list_Entry_Flags_Entry_Flag = { image = [This.GetFlag] }
 			corp_trade_list_Entry_Flags_Entry_Flag2 = { image = [This.GetFlag] }
+			bfdi_corpTradeDeal_country_flag = { image = [This.GetFlag] }
+			#bfdi_corpTradeDeal_cost_progress = { 
+			#	frame = var_YFC_dealAmount
+			#}
 		}
 
 		dynamic_lists = {
@@ -14,7 +18,13 @@ scripted_gui = {
 				array = global.yfc_tradable_countries
 				index = i
 				change_scope = yes
-				entry_container = corp_trade_list_Entry_Flags_Entry
+				entry_container = bfdi_corp_tradeDeal_container
+			}
+			corp_trade_list_sell_materials = {
+				array = THIS.YFC_sell_materials
+				index = i
+				change_scope = yes
+				entry_container = corp_trade_list_sell_materials_Entry
 			}
 		}
 	}
