@@ -149,7 +149,7 @@ focus_tree = {
 		cost = 2
 		#opens up alt path that lets you become a bunch-like ancap raider state
 		completion_reward = {
-			
+			# set_country_flag = YFC_raiders
 		}
 	}
 
