@@ -2,14 +2,14 @@ state={
 	id=217
 	name="STATE_217"
 	provinces={
-		98 167 1145 1397 1738 2492 2704 3827 4792 5025 11191 11201 11204 11218 11227 11229 11244 11246 11256 11260 11267 11280 11286 
+		98 167 1145 1397 1738 2492 3827 4792 5025 11191 11201 11204 11218 11227 11229 11244 11246 11256 11260 11267 11280 11286 
 	}
 	history={
 		owner = GOI
 		add_core_of = GOI
 	}
 	manpower=0
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }
