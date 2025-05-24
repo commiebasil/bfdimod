@@ -150,6 +150,9 @@ focus_tree = {
 		#opens up alt path that lets you become a bunch-like ancap raider state
 		completion_reward = {
 			# set_country_flag = YFC_raiders
+			YFC = { give_guarantee = BUN }
+			BUN = { give_guarantee = YFC }
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 
@@ -309,7 +312,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_CRN_cooperation }
 		prerequisite = { focus = YFC_focus_hire_militias }
 		#gives coiny as military high command, which gives +10% defense and breakthrough
-		#gives one civ factory until war is declared, and a 100% speed boost to building forts, cant build anything else
+		#gives national spirit that gives +10% defense until war ends
 		cost = 4
 		completion_reward = {
 
@@ -321,7 +324,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_buy_defense_trainings
 		x = 0
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_money_arms_capital
 		prerequisite = { focus = YFC_focus_buy_defense_trainings }
 		cost = 5
 		#declares war on bunch, get event in seven days that allows you to call in numismatia
@@ -337,5 +340,23 @@ focus_tree = {
 				}
 			}
 		}
+	}
+
+	focus = {
+		id = YFC_focus_promote_blocky
+		relative_position_id = YFC_focus_YFC_funded_pillaging
+		x = 1
+		y = 1
+		icon = GFC_focus_generic
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_demand_end_pillage
+			}
+		}
+		prerequisite = { focus = YFC_focus_YFC_funded_pillaging }
+		allow_branch = { has_completed_focus = YFC_focus_YFC_funded_pillaging }
+		cost = 3
+		#replace tophat with blocky as head of the military sector
+		#give short event
 	}
 }

@@ -1407,4 +1407,10 @@ SpriteTypes = {
 		name = "GFX_focus_GFG_break_the_line"
 		texturefile = "gfx/interface/goals/GFX_focus_GFG_break_the_line.dds"
 	}
+
+
+	spriteType = {
+		name = "GFX_focus_YFC_money_arms_capital"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_money_arms_capital.png"
+	}
 }

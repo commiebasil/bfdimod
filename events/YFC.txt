@@ -70,3 +70,19 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = YFC_event.5
+	title = YFCF_event.5.t
+	desc = YFC_event.5.desc
+	picture = GFX_YFC_event5
+
+	is_triggered_only = yes
+	trigger = {
+		controls_province = 5679
+	}
+
+	option = {
+		name = YFC_event.5.a
+	}
+}

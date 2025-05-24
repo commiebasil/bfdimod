@@ -76,7 +76,7 @@
  WGF_event.10.b: "Not really our problems."
  
  WGF_event.11.t: "Successful rescue"
- WGF_event.11.desc: "Our ships were able to successfully cross the Goyka Channel and sail to the coordinates. There we found approximately 60 objects, which were successfully transported back to the continent."
+ WGF_event.11.desc: "Our ships were able to successfully cross the Goiky Canal and sail to the coordinates. There we found approximately 60 objects, which were successfully transported back to the continent."
  WGF_event.11.a: "It will be interesting to listen to their stories."
  
  WGF_event.12.t: "Too late"
@@ -623,8 +623,9 @@
  YFC_event.4.a: "Brothers in arms!"
 
  YFC_event.5.t: "MONEY!!!"
- YFC_event.5.desc: "Weekly Report 62, Military Sector \nMONEY!!!\n\nRecently, after the capture of The Bunch's 'Capital' (no more than a silly community of savage raider individuals, but we must call it what they do), we found a building with stockpiles of pure money in it! We have informed our soldiers not to pocket the cash, and instead count it so we can make purchases, but we found money!! Isn't that great? MONEY!!\nEnd Transmission."
- YFC_event.5.a: "They better not pocket it!"
+ YFC_event.5.desc: "Weekly Report 62, Military Sector \nMONEY!!!\n\nRecently, after the capture of The Bunch's 'Capital' (no more than a silly community of savage raider individuals, but we must call it what they do), we found a building with stockpiles of pure gold in it! We have ordered our soldiers to count it, and when they finish we will be sending it straight to Yellow Face himself. Isn't this great? MONEY!!\nEnd Transmission."
+ YFC_event.5.a: "The soldiers better not pocket it!"
+
 
  #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
