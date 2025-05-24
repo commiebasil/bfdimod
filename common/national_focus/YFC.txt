@@ -97,7 +97,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_demand_end_pillage
 		x = -1
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_CRN_cooperation
 		available = {
 			hidden_trigger = {
 				has_completed_focus = YFC_focus_demand_end_pillage
@@ -124,7 +124,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_the_southern_bandits
 		x = -2
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_sell_them_guns
 
 		prerequisite = { focus = YFC_focus_the_southern_bandits }
 		prerequisite = { has_war = no }
@@ -214,7 +214,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_demand_end_pillage
 		x = 1
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_hire_militias
 
 		available = {
 			hidden_trigger = {
@@ -260,7 +260,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_open_foreign_policy
 		x = 0
 		y = 3
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_coiny_cooperation
 
 		available = {
 			hidden_trigger = {
