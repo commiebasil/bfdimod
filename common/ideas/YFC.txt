@@ -9,5 +9,17 @@ ideas = {
 			}
 		}
 
+		idea_YFC_United_Clash = {
+			picture = generic_war_preparation
+			targeted_modifier = {
+				tag = BUN
+				defense_bonus_against = 0.1
+			}
+			cancel = {
+				BUN = {
+					has_government = democratic 
+				}
+			}
+		}
 	}
 }

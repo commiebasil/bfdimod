@@ -315,7 +315,8 @@ focus_tree = {
 		#gives national spirit that gives +10% defense until war ends
 		cost = 4
 		completion_reward = {
-
+			activate_advisor = YFC_Coiny
+			add_ideas = idea_YFC_United_Clash
 		}
 	}
 
