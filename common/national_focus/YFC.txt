@@ -358,5 +358,8 @@ focus_tree = {
 		cost = 3
 		#replace tophat with blocky as head of the military sector
 		#give short event
+		completion_reward = {
+			
+		}
 	}
 }
