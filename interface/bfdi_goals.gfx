@@ -1413,4 +1413,24 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_money_arms_capital"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_money_arms_capital.png"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_CRN_cooperation"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_CRN_cooperation.png"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_coiny_cooperation"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_coiny_cooperation.png"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_hire_militias"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_hire_militias.png"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_sell_them_guns"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_sell_them_guns.png"
+	}
 }
