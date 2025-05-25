@@ -71,4 +71,19 @@ YFC_lewis = {
 		
 	
 	}
+
+	YFC_Coiny = {
+		name = YFC_Coiny
+		portraits = { 
+			civilian = { 
+				large = GFX_GMD_coiny
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = idea_YFC_Coiny
+			ledger = military
+			traits = { foreign_advisor }
+		}
+	}
 }
