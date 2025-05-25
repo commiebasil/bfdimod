@@ -82,7 +82,7 @@ YFC_lewis = {
 		advisor = {
 			slot = army_chief
 			idea_token = idea_YFC_Coiny
-			ledger = military
+			ledger = army
 			traits = { foreign_advisor }
 		}
 	}

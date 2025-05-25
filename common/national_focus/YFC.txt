@@ -316,10 +316,7 @@ focus_tree = {
 		cost = 4
 		completion_reward = {
 			activate_advisor = YFC_Coiny
-<<<<<<< HEAD
 			add_ideas = idea_YFC_United_Clash
-=======
->>>>>>> cf134deb7d6e4b881a73d870bf321b6fd0c2a702
 		}
 	}
 
