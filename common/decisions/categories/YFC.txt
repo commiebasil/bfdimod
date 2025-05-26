@@ -8,3 +8,18 @@ decision_YFC_trade_category = {
 	visible_when_empty = yes
 	scripted_gui = bfdi_corp_trade_scriptedgui
 }
+
+decision_YFC_raids_category = {
+	allowed = { tag = YFC }
+	available = {
+		YFC = {
+			has_completed_focus = YFC_focus_a_raid_o3
+		}
+	}
+	visible = { 
+		always = no
+	}
+	priority = 10
+	icon = decision_category_operation_coinflip
+	visible_when_empty = yes
+}

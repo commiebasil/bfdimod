@@ -14,7 +14,7 @@ state={
 			infrastructure = 3
 		}
 	}
-	manpower=208001
+	manpower= 176052
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000
