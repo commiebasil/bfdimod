@@ -995,8 +995,20 @@
  YFC_focus_money_arms_capital: "My Money to Arms for Capital!"
  YFC_focus_money_arms_capital_desc: "Away! Away! Each Raider boy must understand that he must mind the Money Man!"
 
+ YFC_focus_promote_blocky: "Promote Blocky"
+ YFC_focus_promote_blocky_desc: "Blocky, despite his short run in BFDI, has proved himself through his feats in The Bunch. He lead many raids, all of which were quick, coordinated, and lead to many decisive victories, where cities burned and profit was plentiful. Eraser may not be happy with us stealing Blocky, but who cares about him am I right?"
+
+ YFC_focus_the_pen_problem: "The Pen Problem"
+ YFC_focus_the_pen_problem_desc: "Pen promised to pay some 500,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000 dollars (that's '$500 Vigintillion' for all you uneducated folks) to some of the people who voted him back in the game back when BFDI was still ongoing. Somehow, some way that money became owed to us, and now he's essentially indebted to us forever. He claims that he'll do 'anything' to get his debt to go away, but instead of offering to give us money or do labor he... gets on his knees? Regardless, we'll need to begin working on a compromise if we ever want to get anything back."
+
+ YFC_focus_erasers_training: "Eraser's Training"
+ YFC_focus_erasers_training_desc: "Eraser has told us in the past that our units are likely unprepared for what it takes to raid a settlement. Far too organized he says, and too rigid, too afraid, too used to walking in straight lines, shooting when told to shoot, retreating when told to retreat. Training our units with him could definitely give us an edge up against our victims."
+
  #generic
  generic_focus_industry: "Industry expansion"
+ generic_focus_industry_desc: "Our industrial capacity is a rather bit low, innit?"
  generic_focus_army: "Army"
+ generic_focus_army_desc: "Our army is a rather bit small, innit?"
  generic_focus_researches: "Technologies"
+ generic_focus_researches: "Our technological innovation creation speed is a rather bit slow, innit?"
  

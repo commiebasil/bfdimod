@@ -1,4 +1,4 @@
-focus_tree = {}
+focus_tree = {
 
 	id = GTR_focus_tree
 	
@@ -32,6 +32,6 @@ focus_tree = {}
 		
 		completion_reward = {
 			add_war_support = 0.05
-			event = WGF_event.21
 		}
 	}
+}

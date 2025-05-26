@@ -58,8 +58,13 @@ focus_tree = {
 		cost = 4
 		#opens the sectors decisions tab
 		#allows you to choose how much of each thing you produce, however letting a sector get too much power could lead to dire circumstances..
+		#Military sector: Top Hat; Railing sector: Pipe; Scientific sector: Beaker; Construction Sector: Hammer; Electronics Sector: Taser
+		#Top Hat becomes a field marshal
+		#Pipe becomes an advisor, granting +15% railroad construction speed and +30% supply hub construction speed, YFC is able to build railroads and supply hubs
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
+			army_experience = 15
+			air_experience = 15
 		}
 	}
 
@@ -346,7 +351,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_promote_blocky
 		relative_position_id = YFC_focus_YFC_funded_pillaging
-		x = 1
+		x = 2
 		y = 1
 		icon = GFC_focus_generic
 		available = {
@@ -359,6 +364,129 @@ focus_tree = {
 		cost = 3
 		#replace tophat with blocky as head of the military sector
 		#give short event
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = YFC_focus_the_pen_problem
+		relative_position_id = YFC_focus_YFC_funded_pillaging
+		x = -2
+		y = 1
+		icon = GFX_focus_generic
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_demand_end_pillage
+			}
+		}
+		prerequisite = { focus = YFC_focus_YFC_funded_pillaging }
+		allow_branch = { has_completed_focus = YFC_focus_YFC_funded_pillaging }
+		cost = 3
+		#give short event about pen's debt, and how yellow face believes he should spend his life paying it back with labor
+		#eraser and blocky think he should have his debt forgiven
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_erasers_training
+		relative_position_id = YFC_focus_YFC_funded_pillaging
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_demand_end_pillage
+			}
+		}
+		prerequisite = { focus = YFC_focus_YFC_funded_pillaging }
+		allow_branch = { has_completed_focus = YFC_focus_YFC_funded_pillaging }
+		cost = 3
+		#gives event about Eraser training our soldiers to be prepared for raids
+		#gives national spirit called "Show No Mercy" that gives higher attack on non-core, speed, recovery/moral and recruitable pop, but lower defense, lower non-core manpower, higher resistance, and lower compliance
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_a_raid_o3
+		relative_position_id = YFC_focus_erasers_training
+		x = 1
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_erasers_training }
+		prerequisite = { focus = YFC_focus_promote_blocky }
+		cost = 5
+		#opens up decisions to raid nations, obv gives event because i LOVE making events
+		#decisions are only shown on map so it doesnt flood the actual tab
+		#also raids are just border wars that give events after completion, if it was successful, it gives a success event, and pressing its button gives you a random amount of things (guns, arty, civs, you get it) 
+		#thal has me trapped in his basement please help me
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_numismatian_subjugation
+		relative_position_id = YFC_focus_open_foreign_policy
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_demand_end_pillage
+			}
+		}
+		allow_branch = { has_completed_focus = YFC_focus_YFC_funded_pillaging }
+		cost = 3
+		#gives an event about wanting to subjugate the crn, with the event starting an event chain, in which you have to make the right choices. 
+		#each event in the chain gives you the ability to choose between subjugation through violence or subjugation through diplomacy, and in a year the yfc either puppet them if you chose mainly diplomatic events, or declare war on them if you mainly chose violence
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_closer_integration
+		relative_position_id = YFC_focus_a_raid_o3
+		x = 2
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_a_raid_o3 }
+		prerequisite = { focus = YFC_focus_numismatian_subjugation }
+		prerequisite = { focus = YFC_focus_promote_blocky }
+		cost = 7
+		#if YFC is ai, it gets annexed by the bunch, otherwise, the bunch becomes a puppet of the yfc
+		completion_reward = {
+			IF = {
+				limit = { YFC = { is_ai = no } }
+				puppet = BUN
+			}
+			ELSE = {
+				BUN = { 
+					annex_country = {
+						target = YFC
+						transfer_troops = yes
+					} 
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = YFC_focus_break_diplomacy
+		relative_position_id = YFC_focus_erasers_training
+		x = -1
+		y = 2
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_a_raid_o3 }
+		prerequisite = { focus = YFC_focus_erasers_training }
+		prerequisite = { focus = YFC_focus_the_pen_problem }
+		cost = 5
+		#makes relations worse with CRN, GTR, GMD, and any other capitalist countries, improves relations with the bunch
 		completion_reward = {
 			
 		}
