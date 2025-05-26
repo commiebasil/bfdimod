@@ -394,7 +394,7 @@
  GDR_event.5.c: "...Barf Bag!"
  
  GDR_event.6.t: "Total Devastation"
- GDR_event.6.desc: "[GDR_GETLEADERNAME] looked at the graffiti on the walls of a ruined building on the outskirts of Casland. Among them were many extremist, threatening ones. The whole country is in decline. A terrible civil war has destroyed the country and driven our objects into harsh poverty."
+ GDR_event.6.desc: "[GDR_GETLEADERNAME] looked at the graffiti on the walls of a ruined building on the outskirts of Casland. The symbols ranged from smily faces, to hammers adourned with sickles. From names of common people to names of leaders, with death wishes next to them. Weird looking letter 'S's to symbols only known to the most radical of Iron Hand supporters. Casland, and the surrounding areas, have been in decline ever since the fall of old Goiky. A terrible civil war has destroyed the provisional government and driven our objects into harsh poverty."
  GDR_event.6.a: "It's time to act!"
  
  GDR_event.7.t: "New Life"
@@ -625,6 +625,23 @@
  YFC_event.5.t: "MONEY!!!"
  YFC_event.5.desc: "Weekly Report 62, Military Sector \nMONEY!!!\n\nRecently, after the capture of The Bunch's 'Capital' (no more than a silly community of savage raider individuals, but we must call it what they do), we found a building with stockpiles of pure gold in it! We have ordered our soldiers to count it, and when they finish we will be sending it straight to Yellow Face himself. Isn't this great? MONEY!!\nEnd Transmission."
  YFC_event.5.a: "The soldiers better not pocket it!"
+
+
+ YFC_borderwars.1.t: "Success!"
+ YFC_borderwars.1.desc: "The raid was a success! We quickly subjugated the population, inspiring fear in the people of the city. Though the fires in the distance burn high, our profit soar higher."
+ YFC_borderwars.1.a: "There's more where that came from!"
+
+ YFC_borderwars.2.t: "Failure..."
+ YFC_borderwars.2.desc: "We failed to raid the city. Their defenses were much stronger than anticipated, and it seems like they may have been expecting our attack. We lost some men and equipment on the way back, too. What a shame."
+ YFC_borderwars.3.a: "We'll come back stronger, with hookers and blackjack!"
+
+ YFC_borderwars.3.t: "A Succesful Defense!"
+ YFC_borderwars.3.desc: "The raiders came in the night, late at night at that. Nearly no one was awake, and from far outside the city limits we heard loud shouting. Suddenly, there was a gunshot, and it felt as if the whole city woke at the same time. Objects wandered outside of their houses, 'What was that?'s and 'I've got work in the morning.'s softly flying through the air. Suddenly, a soldier of ours bursted out of a room, soon a hundred more followed, then a thousand, then two thousand. It had turned from a typical night to an all out battle. The raiders fought hard, burning our buildings, killing our people, breaking equipment. We fought harder, maiming the raiders, stealing their own guns from them, burning them alive. \nIt was barbaric, sure, but in the end we won. We defended ourselves. We made examples out of them."
+ YFC_borderwars.3.a: "And we'll do it again for our people."
+
+ YFC_borderwars.4.t: "In the defense"
+ YFC_borderwars.4.desc: "The city is red. Roads, the sides of buildings, cars, parks, lights, windows, all stained with red. The raiders came last night, they stole, killed, burned, then left. No one expected them, and by the time soldiers arrived to defend, it was far too late. So many people are dead. So many."
+ YFC_borderwars.3.a: "We can't let this happen again."
 
 
  #NEWS
