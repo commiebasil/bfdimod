@@ -12,7 +12,9 @@ decision_YFC_raids_category = {
 				}
 				controls_state = 201
 				NOT = {
-					controls_state = 24
+					ROOT = {
+						controls_state = 24
+					}
 				}
 			}	
 		}
@@ -53,7 +55,7 @@ decision_YFC_raids_category = {
     YFC_raid_state_214 = {
 		icon = GFX_decision_generic_confiscation
 		state_target = yes
-        targets = { state = 24 }
+        targets = { state = 214 }
         on_map_mode = map_only
         
 		visible = {
@@ -63,7 +65,9 @@ decision_YFC_raids_category = {
 				}
 				controls_state = 201
 				NOT = {
-					controls_state = 214
+					ROOT = {
+						controls_state = 214
+					}
 				}
 			}	
 		}
@@ -104,7 +108,7 @@ decision_YFC_raids_category = {
     YFC_raid_state_210 = {
 		icon = GFX_decision_generic_confiscation
 		state_target = yes
-        targets = { state = 24 }
+        targets = { state = 210 }
         on_map_mode = map_only
         
 		visible = {
@@ -114,7 +118,9 @@ decision_YFC_raids_category = {
 				}
 				controls_state = 214
 				NOT = {
-					controls_state = 210
+					ROOT = {
+						controls_state = 210
+					}
 				}
 			}	
 		}
