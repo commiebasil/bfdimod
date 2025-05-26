@@ -137,3 +137,9 @@
  decisions_YFC_trade_sells4: "Sells §8Supply Hubs & Railways§!."
  decisions_YFC_trade_sells5: "Sells §gManpower§!."
  decisions_YFC_trade_sells6: "Sells a §YYellowface§!."
+
+ decision_YFC_raids_category: "Raids for the wealth."
+ decision_YFC_raids_category_desc: "In order to not only survive, but to thrive! We need to steal the resources from our neighbors to gather our strength. Sure, this land will fall into a land of anarchy and banditry, but it is a fair price!"
+ YFC_raid_state_24: "Commit a Raid!"
+ YFC_raid_state_214: "Commit a Raid!"
+ YFC_raid_state_210: "Commit a Raid!"
