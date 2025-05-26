@@ -62,9 +62,9 @@ focus_tree = {
 		#Top Hat becomes a field marshal
 		#Pipe becomes an advisor, granting +15% railroad construction speed and +30% supply hub construction speed, YFC is able to build railroads and supply hubs
 		completion_reward = {
-			mark_focus_tree_layout_dirty = yes
 			army_experience = 15
 			air_experience = 15
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 
@@ -407,7 +407,7 @@ focus_tree = {
 		#gives event about Eraser training our soldiers to be prepared for raids
 		#gives national spirit called "Show No Mercy" that gives higher attack on non-core, speed, recovery/moral and recruitable pop, but lower defense, lower non-core manpower, higher resistance, and lower compliance
 		completion_reward = {
-			
+			add_ideas = idea_YFC_show_no_mercy
 		}
 	}
 
@@ -487,8 +487,25 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_the_pen_problem }
 		cost = 5
 		#makes relations worse with CRN, GTR, GMD, and any other capitalist countries, improves relations with the bunch
-		completion_reward = {
 
+		completion_reward = {
+			every_country = {
+				limit = { 
+					AND = {
+						OR = {
+							has_government = democratic
+							has_government = neutrality  
+						}
+						NOT = {
+							tag = BUN
+						}
+					}				
+				}
+				add_opinion_modifier = { target = YFC modifier = large_decrease }
+			}
+			BUN = {
+				add_opinion_modifier = { target = YFC modifier = large_increase }
+			}
 		}
 	}
 }

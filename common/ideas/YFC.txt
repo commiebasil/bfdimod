@@ -27,5 +27,21 @@ ideas = {
 				}
 			}
 		}
+
+		idea_YFC_show_no_mercy = {
+			#Please update icon later thank you!!!!!
+			#Attack non-core is not a real thing, so update if needed.
+			picture = generic_purge
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = -0.05
+				army_speed_factor = 0.10
+				army_morale_factor = 0.05
+				non_core_manpower = -0.05
+				conscription_factor = 0.05
+				resistance_target = 0.10
+				compliance_gain = -0.01
+			}
+		}
 	}
 }
