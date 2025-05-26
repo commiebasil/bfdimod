@@ -80,7 +80,7 @@ YFC_lewis = {
 			}
 		}
 		advisor = {
-			slot = army_chief
+			slot = high_command
 			idea_token = idea_YFC_Coiny
 			ledger = army
 			traits = { foreign_advisor }
