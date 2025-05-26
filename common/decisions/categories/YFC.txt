@@ -11,15 +11,13 @@ decision_YFC_trade_category = {
 
 decision_YFC_raids_category = {
 	allowed = { tag = YFC }
-	available = {
+
+	visible = { 
 		YFC = {
 			has_completed_focus = YFC_focus_a_raid_o3
 		}
 	}
-	visible = { 
-		always = no
-	}
 	priority = 10
 	icon = decision_category_operation_coinflip
-	visible_when_empty = yes
+	visible_when_empty = no
 }

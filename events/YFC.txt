@@ -1,4 +1,5 @@
 add_namespace = YFC_event
+add_namespace = YFC_borderwars
 
 country_event = {
 	id = YFC_event.1
@@ -84,5 +85,212 @@ country_event = {
 
 	option = {
 		name = YFC_event.5.a
+	}
+}
+
+########RAIDS EVENTS########
+#Change the picture please!
+#Also add the text ad I have no idea what to put
+
+country_event = {
+	#YFC wins view
+	id = YFC_borderwars.1
+	title = YFC_borderwars.1.t
+	desc = YFC_borderwars.1.desc
+	picture = GFX_YFC_event5
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_borderwars.1.a
+		add_war_support = 0.01
+		add_political_power = 25
+	}
+}
+
+country_event = {
+	#YFC loses view
+	id = YFC_borderwars.2
+	title = YFC_borderwars.2.t
+	desc = YFC_borderwars.2.desc
+	picture = GFX_YFC_event5
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_borderwars.2.a
+		add_equipment_to_stockpile = {
+    		type = infantry_equipment
+    		amount = -250
+		}
+		add_manpower = -1000
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	#Defender wins view
+	id = YFC_borderwars.3
+	title = YFC_borderwars.3.t
+	desc = YFC_borderwars.3.desc
+	picture = GFX_YFC_event5
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_borderwars.3.a			
+		add_war_support = 0.01
+		add_political_power = 25
+	}
+}
+
+country_event = {
+	#Defender loses view
+	id = YFC_borderwars.4
+	title = YFC_borderwars.4.t
+	desc = YFC_borderwars.4.desc
+	picture = GFX_YFC_event5
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_borderwars.4.a
+		add_stability = -0.01
+		random_list = {
+			10 = {
+				add_equipment_to_stockpile = {
+    				type = infantry_equipment
+    				amount = -250
+				}
+				YFC = {
+					add_equipment_to_stockpile = {
+    					type = infantry_equipment
+    					amount = 250
+					}
+				}
+			}
+			20 = {
+				add_equipment_to_stockpile = {
+    				type = infantry_equipment
+    				amount = -350
+				}
+				YFC = {
+					add_equipment_to_stockpile = {
+    					type = infantry_equipment
+    					amount = 350
+					}
+				}
+			}
+			40 = {
+				add_equipment_to_stockpile = {
+    				type = infantry_equipment
+    				amount = -500
+				}
+				YFC = {
+					add_equipment_to_stockpile = {
+    					type = infantry_equipment
+    					amount = 500
+					}
+				}
+			}
+			20 = {
+				add_equipment_to_stockpile = {
+    				type = infantry_equipment
+    				amount = -750
+				}
+				YFC = {
+					add_equipment_to_stockpile = {
+    					type = infantry_equipment
+    					amount = 750
+					}
+				}
+			}
+			10 = {
+				add_equipment_to_stockpile = {
+    				type = infantry_equipment
+    				amount = -1000
+				}
+				YFC = {
+					add_equipment_to_stockpile = {
+    					type = infantry_equipment
+    					amount = 1000
+					}
+				}
+			}
+		}
+
+		IF = {
+			limit = {
+				has_tech = support_equipment_1
+			}
+			random_list = {
+				20 = {
+					#Nothing ever happens
+				}
+				40 = {
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = -50
+					}
+					YFC = {
+						add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 50
+						}
+					}
+				}
+				40 = {
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = -100
+					}
+					YFC = {
+						add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 100
+						}
+					}
+				}
+			}
+		}
+
+		IF = {
+			limit = {
+				has_tech = artillery_equipment_1
+			}
+			random_list = {
+				20 = {
+					#Nothing ever happens
+				}
+				40 = {
+					add_equipment_to_stockpile = {
+						type = artillery_equipment
+						amount = -50
+					}
+					YFC = {
+						add_equipment_to_stockpile = {
+							type = artillery_equipment
+							amount = 50
+						}
+					}
+				}
+				40 = {
+					add_equipment_to_stockpile = {
+						type = artillery_equipment
+						amount = -100
+					}
+					YFC = {
+						add_equipment_to_stockpile = {
+							type = artillery_equipment
+							amount = 100
+						}
+					}
+				}
+			}
+		}
 	}
 }

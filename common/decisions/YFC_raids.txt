@@ -1,0 +1,153 @@
+decision_YFC_raids_category = {
+	YFC_raid_state_24 = {
+		icon = GFX_decision_generic_confiscation
+		state_target = yes
+        targets = { state = 24 }
+        on_map_mode = map_only
+        
+		visible = {
+			all = {
+				YFC = {
+					has_completed_focus = YFC_focus_a_raid_o3
+				}
+				controls_state = 201
+				NOT = {
+					controls_state = 24
+				}
+			}	
+		}
+
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 120
+
+
+		complete_effect = {
+			24 = {
+				damage_building = {
+ 					type = infrastructure
+  					damage = 1
+				}
+			}
+
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 201
+					num_provinces = 1
+					on_win = YFC_borderwars.1
+					on_lose = YFC_borderwars.2
+					modifier = 0.5
+				}	
+				defender = {
+					state = 24
+					num_provinces = 1
+					on_win = YFC_borderwars.3
+					on_lose =YFC_borderwars.4
+					modifier = 1
+				}
+			}
+		}
+	}
+
+    YFC_raid_state_214 = {
+		icon = GFX_decision_generic_confiscation
+		state_target = yes
+        targets = { state = 24 }
+        on_map_mode = map_only
+        
+		visible = {
+			all = {
+				YFC = {
+					has_completed_focus = YFC_focus_a_raid_o3
+				}
+				controls_state = 201
+				NOT = {
+					controls_state = 214
+				}
+			}	
+		}
+
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 120
+
+
+		complete_effect = {
+			214 = {
+				damage_building = {
+ 					type = infrastructure
+  					damage = 1
+				}
+			}
+
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 201
+					num_provinces = 4
+					on_win = YFC_borderwars.1
+					on_lose = YFC_borderwars.2
+					modifier = 0.5
+				}	
+				defender = {
+					state = 214
+					num_provinces = 4
+					on_win = YFC_borderwars.3
+					on_lose =YFC_borderwars.4
+					modifier = 1
+				}
+			}
+		}
+	}
+
+    YFC_raid_state_210 = {
+		icon = GFX_decision_generic_confiscation
+		state_target = yes
+        targets = { state = 24 }
+        on_map_mode = map_only
+        
+		visible = {
+			all = {
+				YFC = {
+					has_completed_focus = YFC_focus_a_raid_o3
+				}
+				controls_state = 214
+				NOT = {
+					controls_state = 210
+				}
+			}	
+		}
+
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 120
+
+		complete_effect = {
+			210 = {
+				damage_building = {
+ 					type = infrastructure
+  					damage = 1
+				}
+			}
+
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 214
+					num_provinces = 4
+					on_win = YFC_borderwars.1
+					on_lose = YFC_borderwars.2
+					modifier = 0.5
+				}	
+				defender = {
+					state = 210
+					num_provinces = 4
+					on_win = YFC_borderwars.3
+					on_lose =YFC_borderwars.4
+					modifier = 1
+				}
+			}
+		}
+	}
+}
