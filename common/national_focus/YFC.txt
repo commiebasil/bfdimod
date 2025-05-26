@@ -425,7 +425,7 @@ focus_tree = {
 		#also raids are just border wars that give events after completion, if it was successful, it gives a success event, and pressing its button gives you a random amount of things (guns, arty, civs, you get it) 
 		#thal has me trapped in his basement please help me
 		completion_reward = {
-			
+			#Add Tooltip here
 		}
 	}
 
