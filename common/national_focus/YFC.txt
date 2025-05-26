@@ -488,7 +488,7 @@ focus_tree = {
 		cost = 5
 		#makes relations worse with CRN, GTR, GMD, and any other capitalist countries, improves relations with the bunch
 		completion_reward = {
-			
+
 		}
 	}
 }
