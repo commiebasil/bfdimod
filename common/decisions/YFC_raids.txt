@@ -6,17 +6,14 @@ decision_YFC_raids_category = {
         on_map_mode = map_only
         
 		visible = {
-			all = {
-				YFC = {
-					has_completed_focus = YFC_focus_a_raid_o3
-				}
-				controls_state = 201
-				NOT = {
-					ROOT = {
-						controls_state = 24
-					}
-				}
-			}	
+			YFC = {
+				has_completed_focus = YFC_focus_a_raid_o3
+			}
+			controls_state = 201
+			NOT = {
+				controls_state = 24
+			}
+			has_border_war = no
 		}
 
 		fire_only_once = no
@@ -39,14 +36,14 @@ decision_YFC_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.75
 				}	
 				defender = {
 					state = 24
 					num_provinces = 1
 					on_win = YFC_borderwars.3
 					on_lose =YFC_borderwars.4
-					modifier = 1
+					modifier = 0.9
 				}
 			}
 		}
@@ -59,17 +56,14 @@ decision_YFC_raids_category = {
         on_map_mode = map_only
         
 		visible = {
-			all = {
-				YFC = {
-					has_completed_focus = YFC_focus_a_raid_o3
-				}
-				controls_state = 201
-				NOT = {
-					ROOT = {
-						controls_state = 214
-					}
-				}
-			}	
+			YFC = {
+				has_completed_focus = YFC_focus_a_raid_o3
+			}
+			controls_state = 201
+			NOT = {
+				controls_state = 214
+			}
+			has_border_war = no	
 		}
 
 		fire_only_once = no
@@ -92,14 +86,14 @@ decision_YFC_raids_category = {
 					num_provinces = 4
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.75
 				}	
 				defender = {
 					state = 214
 					num_provinces = 4
 					on_win = YFC_borderwars.3
 					on_lose =YFC_borderwars.4
-					modifier = 1
+					modifier = 0.9
 				}
 			}
 		}
@@ -112,17 +106,14 @@ decision_YFC_raids_category = {
         on_map_mode = map_only
         
 		visible = {
-			all = {
-				YFC = {
-					has_completed_focus = YFC_focus_a_raid_o3
-				}
-				controls_state = 214
-				NOT = {
-					ROOT = {
-						controls_state = 210
-					}
-				}
-			}	
+			YFC = {
+				has_completed_focus = YFC_focus_a_raid_o3
+			}
+			controls_state = 214
+			NOT = {
+				controls_state = 210
+			}
+			has_border_war = no	
 		}
 
 		fire_only_once = no
@@ -144,14 +135,14 @@ decision_YFC_raids_category = {
 					num_provinces = 4
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.75
 				}	
 				defender = {
 					state = 210
 					num_provinces = 4
 					on_win = YFC_borderwars.3
 					on_lose =YFC_borderwars.4
-					modifier = 1
+					modifier = 0.9
 				}
 			}
 		}
