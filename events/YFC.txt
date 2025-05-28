@@ -1,5 +1,6 @@
 add_namespace = YFC_event
 add_namespace = YFC_borderwars
+add_namespace = YFC_CRN_Sub
 
 country_event = {
 	id = YFC_event.1
@@ -342,5 +343,79 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+
+#CRN subjugation chain of events
+#Hope reading any of this makes sense!
+
+country_event = {
+	#Generic CRN says YES to demand
+	id = YFC_CRN_Sub.1
+	title = YFC_CRN_Sub.1.t
+    desc = YFC_CRN_Sub.1.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.1.a
+	}
+}
+
+country_event = {
+	#Generic CRN says NO to demand
+	id = YFC_CRN_Sub.2
+	title = YFC_CRN_Sub.2.t
+    desc = YFC_CRN_Sub.2.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.2.a
+	}
+}
+
+country_event = {
+	#Generic YFC says YES to demand
+	id = YFC_CRN_Sub.3
+	title = YFC_CRN_Sub.3.t
+    desc = YFC_CRN_Sub.3.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.3.a
+	}
+}
+
+country_event = {
+	#Generic YFC says NO to demand
+	id = YFC_CRN_Sub.4
+	title = YFC_CRN_Sub.4.t
+    desc = YFC_CRN_Sub.4.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.4.a
+	}
+}
+
+country_event = {
+	#Start Point where CRN gets event
+	id = YFC_CRN_Sub.5
+	title = YFC_CRN_Sub.5.t
+    desc = YFC_CRN_Sub.5.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.5.a
+		add_political_power = 25
 	}
 }
