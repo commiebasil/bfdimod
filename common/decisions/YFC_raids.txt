@@ -36,14 +36,15 @@ decision_YFC_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.75
+					dig_in_factor = 2
+     				terrain_factor = 0.5
 				}	
 				defender = {
 					state = 24
 					num_provinces = 1
 					on_win = YFC_borderwars.3
 					on_lose =YFC_borderwars.4
-					modifier = 0.9
+					dig_in_factor = 2
 				}
 			}
 		}
@@ -86,14 +87,14 @@ decision_YFC_raids_category = {
 					num_provinces = 4
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.75
+     				terrain_factor = 0.5
 				}	
 				defender = {
 					state = 214
 					num_provinces = 4
 					on_win = YFC_borderwars.3
 					on_lose =YFC_borderwars.4
-					modifier = 0.9
+					dig_in_factor = 2
 				}
 			}
 		}
@@ -135,14 +136,14 @@ decision_YFC_raids_category = {
 					num_provinces = 4
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.75
+     				terrain_factor = 0.5
 				}	
 				defender = {
 					state = 210
 					num_provinces = 4
 					on_win = YFC_borderwars.3
 					on_lose =YFC_borderwars.4
-					modifier = 0.9
+					dig_in_factor = 2
 				}
 			}
 		}

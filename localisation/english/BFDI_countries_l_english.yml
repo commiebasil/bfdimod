@@ -105,6 +105,10 @@
  YFC: "Yellow Face Corporation"
  YFC_ADJ: "Corporate"
  YFC_DEF: "Corp"
+ #If names suck change pls!!!!
+ YFC_raiders: "Yellow Face Raiders"
+ YFC_raiders_ADJ: "Scammers"
+ YFC_raiders_DEF: "Scam"
  
  SOS: "Objectburg Free State"
  SOS_ADJ: "Objectburger"

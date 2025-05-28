@@ -90,7 +90,6 @@ country_event = {
 
 ########RAIDS EVENTS########
 #Change the picture please!
-#Also add the text as I have no idea what to put
 
 country_event = {
 	#YFC wins view
@@ -121,11 +120,7 @@ country_event = {
 
 	option = {
 		name = YFC_borderwars.2.a
-		add_equipment_to_stockpile = {
-    		type = infantry_equipment
-    		amount = -250
-		}
-		add_manpower = -1000
+		add_manpower = -1500
 		add_stability = -0.01
 	}
 }

@@ -154,7 +154,7 @@ focus_tree = {
 		cost = 2
 		#opens up alt path that lets you become a bunch-like ancap raider state
 		completion_reward = {
-			# set_country_flag = YFC_raiders
+			set_country_flag = YFC_raiders
 			YFC = { give_guarantee = BUN }
 			BUN = { give_guarantee = YFC }
 			mark_focus_tree_layout_dirty = yes
@@ -425,7 +425,7 @@ focus_tree = {
 		#also raids are just border wars that give events after completion, if it was successful, it gives a success event, and pressing its button gives you a random amount of things (guns, arty, civs, you get it) 
 		#thal has me trapped in his basement please help me
 		completion_reward = {
-			#Add Tooltip here
+			custom_effect_tooltip = l_YFC_raids1
 		}
 	}
 
