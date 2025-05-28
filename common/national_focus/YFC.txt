@@ -154,7 +154,7 @@ focus_tree = {
 		cost = 2
 		#opens up alt path that lets you become a bunch-like ancap raider state
 		completion_reward = {
-			set_country_flag = YFC_raiders
+			set_cosmetic_tag = YFC_raiders
 			YFC = { give_guarantee = BUN }
 			BUN = { give_guarantee = YFC }
 			mark_focus_tree_layout_dirty = yes
@@ -344,6 +344,16 @@ focus_tree = {
 						type = topple_government
 					}
 				}
+			}
+
+			hidden_effect = {
+				CRN = {
+					country_event = {
+						id = YFC_event.6
+						days = 5
+						random_hours = 100
+					}
+				}	
 			}
 		}
 	}

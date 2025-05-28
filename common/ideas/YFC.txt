@@ -38,7 +38,7 @@ ideas = {
 				army_speed_factor = 0.10
 				army_morale_factor = 0.05
 				non_core_manpower = -0.05
-				conscription_factor = 0.05
+				conscription = 0.05
 				resistance_target = 0.10
 				compliance_gain = -0.01
 			}

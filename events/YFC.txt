@@ -45,6 +45,7 @@ country_event = {
 				limit = { is_owned_by = SRR }
 				add_core_of = YFC
 				transfer_state_to = YFC
+				remove_core_of = SRR
 			}
 		}
 	}
@@ -69,6 +70,23 @@ country_event = {
 				type = topple_government
 			}
 		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	option = {
+		name = YFC_event.4.b
+		add_opinion_modifier = { target = CRN modifier = large_decrease }
+		every_country_with_original_tag = {
+			original_tag_to_check = CRN
+			add_opinion_modifier = { target = YFC modifier = large_decrease }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
 	}
 }
 
@@ -85,6 +103,43 @@ country_event = {
 
 	option = {
 		name = YFC_event.5.a
+	}
+}
+
+country_event = {
+	#Event that CRN gets when the war starts, ai will always pick yes
+	id = YFC_event.6
+	title = YFC_event.6.t
+	desc = YFC_event.6.desc
+	picture = GFX_YFC_event5
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_event.6.a
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_event.4
+					days = 3
+					random_hours = 48
+				}
+			}	
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	option = {
+		name = YFC_event.6.b
+		add_stability = 0.05
+
+		ai_will_do = {
+			base = 0
+		}
 	}
 }
 
