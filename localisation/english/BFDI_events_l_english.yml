@@ -621,10 +621,21 @@
  YFC_event.4.t: "Numismatia wishes to collaborate"
  YFC_event.4.desc: "Numismatian ministers have recently sent a message to our Military Sector, stating that they wish to help us in our war with Eraser's Bunch. This has come at no surprise to anyone in our government, as this outcome seemed likely just days after we established our anti-bunchivist diplomatic measures."
  YFC_event.4.a: "Brothers in arms!"
+ YFC_event.4.b: "On second thought..."
 
  YFC_event.5.t: "MONEY!!!"
  YFC_event.5.desc: "Weekly Report 62, Military Sector \nMONEY!!!\n\nRecently, after the capture of The Bunch's 'Capital' (no more than a silly community of savage raider individuals, but we must call it what they do), we found a building with stockpiles of pure gold in it! We have ordered our soldiers to count it, and when they finish we will be sending it straight to Yellow Face himself. Isn't this great? MONEY!!\nEnd Transmission."
  YFC_event.5.a: "The soldiers better not pocket it!"
+
+ YFC_event.6.t: "Moment of opportunity"
+ YFC_event.6.desc: "With our friends north of us fighting the socialist bandits, we could join their war. Our discussions have led to this conclusion and it may be the right time to join the war to aid our friends… and take some “wealth”."
+ YFC_event.6.a: "Send the telegram!"
+ YFC_event.6.b: "Not worth it…"
+
+ YFC_event.7.t: "Stab in the back."
+ YFC_event.7.desc: "After weeks of no response, it's clear that Yellow Face wishes for us to not enter the war. Maybe he thinks that the war should stay local or he only wants the wealth for himself. Either case, the generals are itching for a fight so it might be worth it to annoy our friends."
+ YFC_event.7.a: "Roll Out!"
+ YFC_event.7.b: "We’ll stay."
 
 
  YFC_borderwars.1.t: "Success!"
@@ -633,7 +644,8 @@
 
  YFC_borderwars.2.t: "Failure..."
  YFC_borderwars.2.desc: "We failed to raid the city. Their defenses were much stronger than anticipated, and it seems like they may have been expecting our attack. We lost some men and equipment on the way back, too. What a shame."
- YFC_borderwars.3.a: "We'll come back stronger, with hookers and blackjack!"
+ #I'm sorry, but idk if 'hookers and blackjack' should really be in a object mod...
+ YFC_borderwars.2.a: "We'll come back stronger, with an even better plan!"
 
  YFC_borderwars.3.t: "A Succesful Defense!"
  YFC_borderwars.3.desc: "The raiders came in the night, late at night at that. Nearly no one was awake, and from far outside the city limits we heard loud shouting. Suddenly, there was a gunshot, and it felt as if the whole city woke at the same time. Objects wandered outside of their houses, 'What was that?'s and 'I've got work in the morning.'s softly flying through the air. Suddenly, a soldier of ours bursted out of a room, soon a hundred more followed, then a thousand, then two thousand. It had turned from a typical night to an all out battle. The raiders fought hard, burning our buildings, killing our people, breaking equipment. We fought harder, maiming the raiders, stealing their own guns from them, burning them alive. \nIt was barbaric, sure, but in the end we won. We defended ourselves. We made examples out of them."
@@ -641,7 +653,7 @@
 
  YFC_borderwars.4.t: "In the defense"
  YFC_borderwars.4.desc: "The city is red. Roads, the sides of buildings, cars, parks, lights, windows, all stained with red. The raiders came last night, they stole, killed, burned, then left. No one expected them, and by the time soldiers arrived to defend, it was far too late. So many people are dead. So many."
- YFC_borderwars.3.a: "We can't let this happen again."
+ YFC_borderwars.4.a: "We can't let this happen again."
 
 
  #NEWS
@@ -750,3 +762,9 @@
  bfdinews.25.t: "Declaration of the Greeny Plains Federation!"
  bfdinews.25.desc: "This morning our correspondent from Casland brought the important news about the results of the Democratic Congress: the governments of Greenport and Casland are uniting into an equal democratic union! This significantly changes the balance of power in the entire region, and perhaps the Federation will spread to other countries."
  bfdinews.25.a: "Objects are united, again."
+
+ bfdinews.26.t: "Conflict in the South!"
+ bfdinews.26.desc: "Reports have flooded in that forces under the Yellow Face Corporation have crossed the de facto border and entered into lands controlled by bandits! A correspondent from the corporation has reported that ‘the socialist bandits’ will be removed from the lands in ‘clearing operations’. Meanwhile discussions have entered the Numismatian government about also joining these operations. For now, it’s unclear who will win, but believed that the unorganized bandits will lose out in a protracted war."
+ bfdinews.26.a: "Eyes on the prize."
+ bfdinews.26.b: "How dare they!"
+ bfdinews.26.c: "Interesting times…"

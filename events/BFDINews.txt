@@ -528,3 +528,43 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	#Update picture!!!!!
+	id = bfdinews.26
+	title = bfdinews.26.t
+	desc = bfdinews.26.desc
+	picture = GFX_bfdinews25
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = bfdinews.26.a
+		trigger = {
+			tag = YFC
+		}
+	}
+
+	option = {
+		name = bfdinews.26.b
+		trigger = {
+			tag = BUN
+		}
+	}
+
+	option = {
+		name = bfdinews.26.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = BUN
+					tag = YFC
+				}
+			}
+		}
+	}
+}

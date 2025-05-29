@@ -42,4 +42,3 @@ units = {
 }
 
 #Unit placement is a placeholder update later when states are updated.
-#May not even be working idk why

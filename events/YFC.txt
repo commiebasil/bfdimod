@@ -79,12 +79,16 @@ country_event = {
 
 	option = {
 		name = YFC_event.4.b
-		add_opinion_modifier = { target = CRN modifier = large_decrease }
-		every_country_with_original_tag = {
-			original_tag_to_check = CRN
-			add_opinion_modifier = { target = YFC modifier = large_decrease }
+		add_political_power = 25
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_event.7
+					days = 14
+					random_hours = 100
+				}
+			}	
 		}
-
 		ai_chance = {
 			base = 0
 		}
@@ -99,7 +103,7 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = {
-		YFC = { controls_province = 5679 }
+		YFC = { controls_state = 85 }
 	}
 
 	option = {
@@ -140,6 +144,47 @@ country_event = {
 
 		ai_chance = {
 			base = 0
+		}
+	}
+}
+
+country_event = {
+	#Allows CRN to enter the war even if the player picks no
+	id = YFC_event.7
+	title = YFC_event.7.t
+	desc = YFC_event.7.desc
+	picture = GFX_YFC_event4
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_event.7.a
+		CRN = {
+			declare_war_on = {
+				target = BUN
+				type = topple_government
+			}
+		}
+
+		add_opinion_modifier = { target = YFC modifier = large_decrease }
+		every_country_with_original_tag = {
+			original_tag_to_check = YFC
+			add_opinion_modifier = { target = CRN modifier = large_decrease }
+		}
+
+		ai_chance = {
+			base = 4
+		}
+	}
+
+	option = {
+		name = YFC_event.7.b
+	
+		add_war_support = -0.05
+		add_political_power = -50
+
+		ai_chance = {
+			base = 1
 		}
 	}
 }
