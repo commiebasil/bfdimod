@@ -101,4 +101,6 @@
  l_GFG_everyone_dies_cry_emoji: "§YFries§! dies.\n§YPuffball§! dies.\n§YBasketball§! dies.\n§YRemote§! dies.\n§YPie§! dies."
  l_GFG_southern_agreement: "§7We'll go to Faraway to conclude a non-aggression pact.§!"
 
- l_YFC_raids1: "Opens decisions for raiding!"
+ l_YFC_raids1: "§YOpens decisions for raiding!§!"
+ l_YFC_foreign_advisor: "§YHires Coiny as an Army Chief!§!"
+ l_YFC_raid_effect: "§YA random amount of equipment is stolen.§!"

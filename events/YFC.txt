@@ -72,7 +72,7 @@ country_event = {
 			}
 		}
 
-		ai_will_do = {
+		ai_chance = {
 			base = 1
 		}
 	}
@@ -85,7 +85,7 @@ country_event = {
 			add_opinion_modifier = { target = YFC modifier = large_decrease }
 		}
 
-		ai_will_do = {
+		ai_chance = {
 			base = 0
 		}
 	}
@@ -129,7 +129,7 @@ country_event = {
 			}	
 		}
 
-		ai_will_do = {
+		ai_chance = {
 			base = 1
 		}
 	}
@@ -138,7 +138,7 @@ country_event = {
 		name = YFC_event.6.b
 		add_stability = 0.05
 
-		ai_will_do = {
+		ai_chance = {
 			base = 0
 		}
 	}
@@ -210,139 +210,142 @@ country_event = {
 
 	option = {
 		name = YFC_borderwars.4.a
-		add_stability = -0.01
-		random_list = {
-			10 = {
-				add_equipment_to_stockpile = {
-    				type = infantry_equipment
-    				amount = -250
-				}
-				YFC = {
-					add_equipment_to_stockpile = {
-    					type = infantry_equipment
-    					amount = 250
-					}
-				}
-			}
-			20 = {
-				add_equipment_to_stockpile = {
-    				type = infantry_equipment
-    				amount = -350
-				}
-				YFC = {
-					add_equipment_to_stockpile = {
-    					type = infantry_equipment
-    					amount = 350
-					}
-				}
-			}
-			40 = {
-				add_equipment_to_stockpile = {
-    				type = infantry_equipment
-    				amount = -500
-				}
-				YFC = {
-					add_equipment_to_stockpile = {
-    					type = infantry_equipment
-    					amount = 500
-					}
-				}
-			}
-			20 = {
-				add_equipment_to_stockpile = {
-    				type = infantry_equipment
-    				amount = -750
-				}
-				YFC = {
-					add_equipment_to_stockpile = {
-    					type = infantry_equipment
-    					amount = 750
-					}
-				}
-			}
-			10 = {
-				add_equipment_to_stockpile = {
-    				type = infantry_equipment
-    				amount = -1000
-				}
-				YFC = {
-					add_equipment_to_stockpile = {
-    					type = infantry_equipment
-    					amount = 1000
-					}
-				}
-			}
-		}
-
-		IF = {
-			limit = {
-				has_tech = support_equipment_1
-			}
+		add_stability = -0.01	
+		custom_effect_tooltip = l_YFC_raid_effect
+		hidden_effect = {
 			random_list = {
+				10 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -250
+					}
+					YFC = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 250
+						}
+					}
+				}
 				20 = {
-					#Nothing ever happens
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -350
+					}
+					YFC = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 350
+						}
+					}
 				}
 				40 = {
 					add_equipment_to_stockpile = {
-						type = support_equipment
-						amount = -50
+						type = infantry_equipment
+						amount = -500
 					}
 					YFC = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 500
+						}
+					}
+				}
+				20 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -750
+					}
+					YFC = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 750
+						}
+					}
+				}
+				10 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -1000
+					}
+					YFC = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 1000
+						}
+					}
+				}
+			}
+
+			IF = {
+				limit = {
+					has_tech = support_equipment_1
+				}
+				random_list = {
+					20 = {
+						#Nothing ever happens
+					}
+					40 = {
 						add_equipment_to_stockpile = {
 							type = support_equipment
-							amount = 50
+							amount = -50
+						}
+						YFC = {
+							add_equipment_to_stockpile = {
+								type = support_equipment
+								amount = 50
+							}
 						}
 					}
-				}
-				40 = {
-					add_equipment_to_stockpile = {
-						type = support_equipment
-						amount = -100
-					}
-					YFC = {
+					40 = {
 						add_equipment_to_stockpile = {
 							type = support_equipment
-							amount = 100
+							amount = -100
+						}
+						YFC = {
+							add_equipment_to_stockpile = {
+								type = support_equipment
+								amount = 100
+							}
 						}
 					}
 				}
 			}
-		}
 
-		IF = {
-			limit = {
-				has_tech = artillery_equipment_1
-			}
-			random_list = {
-				20 = {
-					#Nothing ever happens
+			IF = {
+				limit = {
+					has_tech = artillery_equipment_1
 				}
-				40 = {
-					add_equipment_to_stockpile = {
-						type = artillery_equipment
-						amount = -50
+				random_list = {
+					20 = {
+						#Nothing ever happens
 					}
-					YFC = {
+					40 = {
 						add_equipment_to_stockpile = {
 							type = artillery_equipment
-							amount = 50
+							amount = -50
+						}
+						YFC = {
+							add_equipment_to_stockpile = {
+								type = artillery_equipment
+								amount = 50
+							}
+						}
+					}
+					40 = {
+						add_equipment_to_stockpile = {
+							type = artillery_equipment
+							amount = -100
+						}
+						YFC = {
+							add_equipment_to_stockpile = {
+								type = artillery_equipment
+								amount = 100
+							}
 						}
 					}
 				}
-				40 = {
-					add_equipment_to_stockpile = {
-						type = artillery_equipment
-						amount = -100
-					}
-					YFC = {
-						add_equipment_to_stockpile = {
-							type = artillery_equipment
-							amount = 100
-						}
-					}
-				}
 			}
-		}
+		}	
 	}
 }
 
