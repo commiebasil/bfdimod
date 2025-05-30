@@ -508,6 +508,11 @@ SpriteTypes = {
 		textureFile = gfx/event_pictures/TIG_event3.png
 	}
 
+	spriteType = {
+		name = GFX_YFC_raids1
+		textureFile = gfx/event_pictures/YFC_raids1.dds
+	}
+
 	
 	spriteType = {
 		name = GFX_bfdinews1

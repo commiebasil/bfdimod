@@ -103,11 +103,33 @@ country_event = {
 
 	fire_only_once = yes
 	trigger = {
-		YFC = { controls_state = 85 }
+		AND = {
+			OR = {
+				YFC = { owns_state = 85 }
+				CRN = { owns_state = 85 }
+			}
+			OR = {
+				BUN = {
+					exists = no
+				}
+				BUN = {
+					is_puppet = yes
+				}
+			}
+		}	
 	}
 
 	option = {
 		name = YFC_event.5.a
+		delete_unit_template_and_units = {
+			division_template = "Militia"
+			disband = no #will refund equipment and manpower
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+		}
+		add_war_support = 0.02
 	}
 }
 
@@ -197,7 +219,7 @@ country_event = {
 	id = YFC_borderwars.1
 	title = YFC_borderwars.1.t
 	desc = YFC_borderwars.1.desc
-	picture = GFX_YFC_event5
+	picture = GFX_YFC_raids1
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -214,7 +236,7 @@ country_event = {
 	id = YFC_borderwars.2
 	title = YFC_borderwars.2.t
 	desc = YFC_borderwars.2.desc
-	picture = GFX_YFC_event5
+	picture = GFX_YFC_raids1
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -231,7 +253,7 @@ country_event = {
 	id = YFC_borderwars.3
 	title = YFC_borderwars.3.t
 	desc = YFC_borderwars.3.desc
-	picture = GFX_YFC_event5
+	picture = GFX_YFC_raids1
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -248,7 +270,7 @@ country_event = {
 	id = YFC_borderwars.4
 	title = YFC_borderwars.4.t
 	desc = YFC_borderwars.4.desc
-	picture = GFX_YFC_event5
+	picture = GFX_YFC_raids1
 
 	fire_only_once = no
 	is_triggered_only = yes
