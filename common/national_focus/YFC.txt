@@ -230,33 +230,30 @@ focus_tree = {
 		allow_branch = { has_completed_focus = YFC_focus_demand_end_pillage }
 		prerequisite = { focus = YFC_focus_demand_end_pillage }
 		cost = 3
-		#spawn 5 okay-ish divisions, decreases max amount to be traded away
+		#spawn 6 okay-ish divisions, decreases max amount to be traded away
 		#divs will be deleted on end of war, max amount to trade goes back up
 		completion_reward = {
 			division_template = {
 				name = "Militia"
 				is_locked = yes
-				division_cap = 5 
+				division_cap = 6 
 				priority = 0
 				template_counter = 0
 				regiments = {
 					militia = { x = 0 y = 0 }
 					militia = { x = 0 y = 1 }
-					militia = { x = 0 y = 2 }
-					militia = { x = 0 y = 3 }
 					militia = { x = 1 y = 0 }
 					militia = { x = 1 y = 1 }
-					militia = { x = 1 y = 2 }
-					militia = { x = 1 y = 3 }
 				}
 			}
 			201 = {
 				create_unit = {
-					division = "name = \"Militia\" division_template = \"Militia\" start_experience_factor = 0.5"
-					count = 5
+					division = "name = \"Militia\" division_template = \"Militia\" start_experience_factor = 0.2"
+					count = 6
 					owner = YFC
 				}
 			}
+			add_manpower = 3000
 		}
 	}
 

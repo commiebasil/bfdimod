@@ -5,7 +5,14 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				political_power_gain = 0.25
-				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		idea_YFC_anarchic_lands = {
+			#Update icon soon please!
+			picture = YFC_no_more_advertisements_foundation
+			modifier = {
+				production_speed_buildings_factor = -1
 			}
 		}
 

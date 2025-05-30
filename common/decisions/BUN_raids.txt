@@ -51,7 +51,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.25
+					modifier = 0.5
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -118,7 +118,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.25
+					modifier = 0.5
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -185,7 +185,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.25
+					modifier = 0.5
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -252,11 +252,80 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.25
+					modifier = 0.5
      				terrain_factor = 0.5
 				}	
 				defender = {
 					state = 24
+					num_provinces = 1
+					on_win = YFC_borderwars.3
+					on_lose = BUN_borderwars.5
+					dig_in_factor = 2
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_political_power > 65
+			}
+		}
+	}
+
+	#######SINCE STATE IS TEMP UPDATE WHEN STATES UPDATE#######
+
+	BUN_raid_state_178 = {
+		icon = GFX_decision_generic_confiscation
+		state_target = yes
+        targets = { state = 178 }
+        on_map_mode = map_only
+        
+		visible = {
+			controls_state = 218
+			NOT = {
+				controls_state = 178
+			}
+			has_border_war = no
+			has_war = no
+		}
+
+		fire_only_once = no
+		cost = 65
+		days_re_enable = 180
+
+		complete_effect = {
+			178 = {
+				damage_building = {
+ 					type = infrastructure
+  					damage = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				country_event = {
+					id = BUN_borderwars.1
+					days = 30
+					random_hours = 24
+				}
+			}
+
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 218
+					num_provinces = 1
+					on_win = YFC_borderwars.1
+					on_lose = YFC_borderwars.2
+					modifier = 0.5
+     				terrain_factor = 0.5
+				}	
+				defender = {
+					state = 178
 					num_provinces = 1
 					on_win = YFC_borderwars.3
 					on_lose = BUN_borderwars.5

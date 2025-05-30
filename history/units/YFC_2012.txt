@@ -1,11 +1,14 @@
 division_template = {
     name = "Mercenaries Brigade"
     regiments = {
-        infantry = { x = 0 y = 0 }
-        infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 0 }
-        infantry = { x = 1 y = 1 }
+        mountaineers = { x = 0 y = 0 }
+        mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 2 }
+        mountaineers = { x = 1 y = 0 }
+        mountaineers = { x = 1 y = 1 }
     }
+    is_locked = yes
+	priority = 2
 }
 
 division_template = {
@@ -19,31 +22,31 @@ division_template = {
 
 units = {
 	division= {
-        name = "1st Mercenaries Division"
+        name = "Brigade Squashy Grapes"
         location = 166
         division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.22
+        start_experience_factor = 0.7
+        start_equipment_factor = 0.98
+    }
+	division= {
+        name = "Brigade Squishy Cherries"
+        location = 166
+        division_template = "Mercenaries Brigade"
+        start_experience_factor = 0.65
         start_equipment_factor = 0.97
     }
 	division= {
-        name = "2nd Mercenaries Division"
-        location = 166
-        division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.12
-        start_equipment_factor = 0.97
-    }
-	division= {
-        name = "3rd Mercenaries Division"
+        name = "Brigade Soft Bananas"
         location = 4388 
         division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.12
+        start_experience_factor = 0.65
         start_equipment_factor = 0.97
     }
 	division= {
-        name = "4th Mercenaries Division"
+        name = "Brigade Soothing Apples"
         location = 3655 
         division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.12
+        start_experience_factor = 0.65
         start_equipment_factor = 0.97
     }
 }

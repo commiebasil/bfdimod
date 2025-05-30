@@ -39,6 +39,8 @@ set_popularities = {
 	communism = 1
 }
 
+add_ideas = free_trade
+
 recruit_character = CRN_credit_card
 
 

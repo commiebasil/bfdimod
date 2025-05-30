@@ -18,7 +18,7 @@ decision_YFC_raids_category = {
 
 		fire_only_once = no
 		cost = 25
-		days_re_enable = 120
+		days_re_enable = 100
 
 
 		complete_effect = {
@@ -36,7 +36,7 @@ decision_YFC_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.1
+					modifier = 0.25
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -69,7 +69,7 @@ decision_YFC_raids_category = {
 
 		fire_only_once = no
 		cost = 25
-		days_re_enable = 120
+		days_re_enable = 100
 
 
 		complete_effect = {
@@ -87,7 +87,7 @@ decision_YFC_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.1
+					modifier = 0.25
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -137,7 +137,7 @@ decision_YFC_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.1
+					modifier = 0.25
      				terrain_factor = 0.5
 				}	
 				defender = {
