@@ -1,0 +1,245 @@
+add_namespace = BUN_borderwars
+
+########RAIDS EVENTS########
+
+country_event = {
+	#ONLY AI CAN SEE THIS!! Used to allow ai to withdraw of a losing raid rather then blowing up divs, so dont spend time add text!!!!
+	id = BUN_borderwars.1
+	title = BUN_borderwars.1.t
+	desc = BUN_borderwars.1.desc
+	picture = GFX_YFC_raids1
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = BUN_borderwars.1.a
+		trigger = {
+			has_border_war = no
+		}
+		add_manpower = 100
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 50
+		}
+	}
+	option = {
+		name = BUN_borderwars.1.b
+		trigger = {
+			has_border_war = yes
+		}
+
+		add_manpower = 350
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 250
+		}
+
+		if = {
+			limit = {
+				has_border_war_between = {
+					attacker = 212
+					defender = 201
+				}
+			}
+			finalize_border_war = {
+				attacker_win = no
+					attacker = 212
+					defender = 201
+			}
+		}				
+		else_if = {
+			limit = {
+					has_border_war_between = {
+						attacker = 85
+						defender = 202
+					}
+			}
+			finalize_border_war = {
+				attacker_win = no
+				attacker = 85
+				defender = 202
+			}
+		}
+		else_if = {
+			limit = {
+				has_border_war_between = {
+					attacker = 217
+					defender = 209
+				}
+			}
+			finalize_border_war = {
+				attacker_win = no
+				attacker = 217
+				defender = 209
+			}
+		}
+		else_if = {
+			limit = {
+				has_border_war_between = {
+					attacker = 212
+					defender = 24
+				}
+			}
+			finalize_border_war = {
+				attacker_win = no
+				attacker = 212
+				defender = 24
+			}
+		}
+		else = {
+			#Nothing ever happens
+		}
+	}
+}
+
+
+country_event = {
+	#Defender loses view
+	id = BUN_borderwars.5
+	title = BUN_borderwars.5.t
+	desc = BUN_borderwars.5.desc
+	picture = GFX_YFC_raids1
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = BUN_borderwars.5.a
+		custom_effect_tooltip = l_YFC_raid_effect
+		hidden_effect = {
+			random_list = {
+				10 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -250
+					}
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 250
+						}
+					}
+				}
+				20 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -350
+					}
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 350
+						}
+					}
+				}
+				40 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -500
+					}
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 500
+						}
+					}
+				}
+				20 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -750
+					}
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 750
+						}
+					}
+				}
+				10 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -1000
+					}
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 1000
+						}
+					}
+				}
+			}
+
+			IF = {
+				limit = {
+					has_tech = tech_support
+				}
+				random_list = {
+					20 = {
+						#Nothing ever happens
+					}
+					40 = {
+						add_equipment_to_stockpile = {
+							type = support_equipment_1
+							amount = -50
+						}
+						BUN = {
+							add_equipment_to_stockpile = {
+								type = support_equipment_1
+								amount = 50
+							}
+						}
+					}
+					40 = {
+						add_equipment_to_stockpile = {
+							type = support_equipment_1
+							amount = -100
+						}
+						BUN = {
+							add_equipment_to_stockpile = {
+								type = support_equipment_1
+								amount = 100
+							}
+						}
+					}
+				}
+			}
+
+			IF = {
+				limit = {
+					has_tech = gw_artillery
+				}
+				random_list = {
+					20 = {
+						#Nothing ever happens
+					}
+					40 = {
+						add_equipment_to_stockpile = {
+							type = artillery_equipment_1
+							amount = -50
+						}
+						BUN = {
+							add_equipment_to_stockpile = {
+								type = artillery_equipment_1
+								amount = 50
+							}
+						}
+					}
+					40 = {
+						add_equipment_to_stockpile = {
+							type = artillery_equipment_1
+							amount = -100
+						}
+						BUN = {
+							add_equipment_to_stockpile = {
+								type = artillery_equipment_1
+								amount = 100
+							}
+						}
+					}
+				}
+			}
+		}	
+	}
+}

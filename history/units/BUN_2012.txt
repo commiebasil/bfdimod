@@ -31,24 +31,38 @@ units = {
         start_equipment_factor = 1
     }
 	division= {
-        name = "Bandits"
+        name = "Podgornyv Bandits"
         location = 5679 # Podgornyv
         division_template = "Bandits"
         start_experience_factor = 0.3
-        start_equipment_factor = 0.7
+        start_equipment_factor = 0.6
     }
 	division= {
-        name = "Bandits"
+        name = "Snowpath Bandits"
         location = 4249 # Snowpath
         division_template = "Bandits"
-        start_experience_factor = 0.25
-        start_equipment_factor = 0.5
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.6
     }
 	division= {
-        name = "Bandits"
+        name = "Highwaymen"
         location = 1013 # GGRR - S Border
         division_template = "Bandits"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.7
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.4
+    }
+    division= {
+        name = "Plunderers"
+        location = 4581 # The Colosseum
+        division_template = "Bandits"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.4
+    }
+    division= {
+        name = "Pillagers"
+        location = 11260 # Greeny Village
+        division_template = "Bandits"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.4
     }
 }
