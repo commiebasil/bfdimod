@@ -628,7 +628,7 @@
  YFC_event.5.a: "The soldiers better not pocket it!"
 
  YFC_event.6.t: "Moment of opportunity"
- YFC_event.6.desc: "With our friends north of us fighting the socialist bandits, we could join their war. Our discussions have led to this conclusion and it may be the right time to join the war to aid our friends… and take some “wealth”."
+ YFC_event.6.desc: "With our friends to the north fighting the anarchical bandits, we have a unique chance to ambush the raiders in the south to help the corporation. Our top generals and marshals have discussed with Credit Card, and we came to the conclusion that it may be the right time to join the war, and aid our friends… and take some 'wealth'."
  YFC_event.6.a: "Send the telegram!"
  YFC_event.6.b: "Not worth it…"
 
@@ -645,7 +645,8 @@
  YFC_borderwars.2.t: "Failure..."
  YFC_borderwars.2.desc: "We failed to raid the city. Their defenses were much stronger than anticipated, and it seems like they may have been expecting our attack. We lost some men and equipment on the way back, too. What a shame."
  #I'm sorry, but idk if 'hookers and blackjack' should really be in a object mod...
- YFC_borderwars.2.a: "We'll come back stronger, with an even better plan!"
+ #re- yeah but it's funny
+ YFC_borderwars.2.a: "We'll come back stronger, with hookers and blackjack!"
 
  YFC_borderwars.3.t: "A Succesful Defense!"
  YFC_borderwars.3.desc: "The raiders came in the night, late at night at that. Nearly no one was awake, and from far outside the city limits we heard loud shouting. Suddenly, there was a gunshot, and it felt as if the whole city woke at the same time. Objects wandered outside of their houses, 'What was that?'s and 'I've got work in the morning.'s softly flying through the air. Suddenly, a soldier of ours bursted out of a room, soon a hundred more followed, then a thousand, then two thousand. It had turned from a typical night to an all out battle. The raiders fought hard, burning our buildings, killing our people, breaking equipment. We fought harder, maiming the raiders, stealing their own guns from them, burning them alive. \nIt was barbaric, sure, but in the end we won. We defended ourselves. We made examples out of them."
