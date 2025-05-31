@@ -17,12 +17,24 @@ decision_BUN_raids_category = {
 			NOT = {
 				is_guaranteed_by = YFC
 			}
+			NOT = {
+				has_military_access_to = YFC
+			}
+			NOT = {
+				AND = {
+					YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
+					num_divisions_in_states = {
+						count > 2
+						states = { 201 }
+					}
+				}
+			}
 			has_border_war = no
 			has_war = no
 		}
 
 		fire_only_once = no
-		cost = 65
+		cost = 75
 		days_re_enable = 180
 
 		complete_effect = {
@@ -68,7 +80,7 @@ decision_BUN_raids_category = {
 			base = 0
 			modifier = {
 				add = 10
-				has_political_power > 65
+				has_political_power > 75
 			}
 		}
 	}
@@ -89,7 +101,7 @@ decision_BUN_raids_category = {
 		}
 
 		fire_only_once = no
-		cost = 65
+		cost = 75
 		days_re_enable = 180
 
 		complete_effect = {
@@ -106,7 +118,7 @@ decision_BUN_raids_category = {
 				}
 				country_event = {
 					id = BUN_borderwars.1
-					days = 30
+					days = 35
 					random_hours = 24
 				}
 			}
@@ -135,7 +147,7 @@ decision_BUN_raids_category = {
 			base = 0
 			modifier = {
 				add = 10
-				has_political_power > 65
+				has_political_power > 75
 			}
 		}
 	}
@@ -156,7 +168,7 @@ decision_BUN_raids_category = {
 		}
 
 		fire_only_once = no
-		cost = 65
+		cost = 75
 		days_re_enable = 180
 
 		complete_effect = {
@@ -173,7 +185,7 @@ decision_BUN_raids_category = {
 				}
 				country_event = {
 					id = BUN_borderwars.1
-					days = 30
+					days = 35
 					random_hours = 24
 				}
 			}
@@ -202,7 +214,7 @@ decision_BUN_raids_category = {
 			base = 0
 			modifier = {
 				add = 10
-				has_political_power > 65
+				has_political_power > 75
 			}
 		}
 	}
@@ -223,7 +235,7 @@ decision_BUN_raids_category = {
 		}
 
 		fire_only_once = no
-		cost = 65
+		cost = 75
 		days_re_enable = 180
 
 		complete_effect = {
@@ -240,7 +252,7 @@ decision_BUN_raids_category = {
 				}
 				country_event = {
 					id = BUN_borderwars.1
-					days = 30
+					days = 35
 					random_hours = 24
 				}
 			}
@@ -269,7 +281,7 @@ decision_BUN_raids_category = {
 			base = 0
 			modifier = {
 				add = 10
-				has_political_power > 65
+				has_political_power > 75
 			}
 		}
 	}
@@ -292,7 +304,7 @@ decision_BUN_raids_category = {
 		}
 
 		fire_only_once = no
-		cost = 65
+		cost = 75
 		days_re_enable = 180
 
 		complete_effect = {
@@ -309,7 +321,7 @@ decision_BUN_raids_category = {
 				}
 				country_event = {
 					id = BUN_borderwars.1
-					days = 30
+					days = 35
 					random_hours = 24
 				}
 			}
@@ -338,7 +350,7 @@ decision_BUN_raids_category = {
 			base = 0
 			modifier = {
 				add = 10
-				has_political_power > 65
+				has_political_power > 75
 			}
 		}
 	}

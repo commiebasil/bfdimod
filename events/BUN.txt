@@ -17,7 +17,7 @@ country_event = {
 		trigger = {
 			has_border_war = no
 		}
-		add_manpower = 100
+		add_manpower = 250
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
 			amount = 50
@@ -29,10 +29,10 @@ country_event = {
 			has_border_war = yes
 		}
 
-		add_manpower = 350
+		add_manpower = 500
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
-			amount = 250
+			amount = 100
 		}
 
 		if = {
@@ -85,6 +85,19 @@ country_event = {
 				attacker_win = no
 				attacker = 212
 				defender = 24
+			}
+		}
+		else_if = {
+			limit = {
+				has_border_war_between = {
+					attacker = 218
+					defender = 178
+				}
+			}
+			finalize_border_war = {
+				attacker_win = no
+				attacker = 218
+				defender = 178
 			}
 		}
 		else = {

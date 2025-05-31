@@ -28,6 +28,8 @@ country_event = {
 	}
 	option = {
 		name = YFC_event.2.b
+		give_military_access = BUN
+		custom_effect_tooltip = l_YFC_border_raiders_open
 	}
 }
 
@@ -211,6 +213,49 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = YFC_event.8
+	title = YFC_event.8.t
+	desc = YFC_event.8.desc
+	picture = GFX_YFC_event4
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_event.8.a
+		manpower = -261
+		add_war_support = 0.05
+
+		if = {
+			limit = {
+				gives_military_access_to = BUN
+			}
+			diplomatic_relation = {
+				country = BUN
+				relation = military_access
+				active = no
+			}
+		}
+
+		custom_effect_tooltip = l_YFC_border_defence
+
+		hidden_effect = {
+			add_victory_points = {
+				province = 240
+				value = 5
+			}
+
+			201 = {
+				damage_building = {
+					type = infrastructure
+					damage = 3
+				}
+				add_manpower = -1059
+			}
+		}
+	}
+}
+
 ########RAIDS EVENTS########
 
 country_event = {
@@ -225,7 +270,7 @@ country_event = {
 
 	option = {
 		name = YFC_borderwars.1.a
-		army_experience = 10
+		army_experience = 5
 	}
 }
 
@@ -241,7 +286,7 @@ country_event = {
 
 	option = {
 		name = YFC_borderwars.2.a
-		army_experience = 5
+		army_experience = 2
 	}
 }
 
@@ -257,7 +302,7 @@ country_event = {
 
 	option = {
 		name = YFC_borderwars.3.a			
-		army_experience = 5
+		army_experience = 2
 	}
 }
 

@@ -210,6 +210,13 @@ focus_tree = {
 				original_tag_to_check = BUN
 				add_opinion_modifier = { target = YFC modifier = large_decrease }
 			}
+			hidden_effect = {
+				country_event = {
+					id = YFC_event.8
+					days = 1
+					random_hours = 24
+				}
+			}
 			mark_focus_tree_layout_dirty = yes
 		}
 	}

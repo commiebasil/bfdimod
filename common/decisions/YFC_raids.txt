@@ -36,7 +36,7 @@ decision_YFC_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.25
+					modifier = 0.15
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -87,7 +87,7 @@ decision_YFC_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.25
+					modifier = 0.15
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -137,7 +137,7 @@ decision_YFC_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.25
+					modifier = 0.15
      				terrain_factor = 0.5
 				}	
 				defender = {
