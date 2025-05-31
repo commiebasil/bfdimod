@@ -227,29 +227,29 @@
  GPG_focus_rubys_speech: "Ruby's Speech"
  GPG_focus_rubys_speech_desc: "The Toilers Front announced its goals and objectives at the convention in Ruby's name. This caused noisy discussions and agitated the masses."
  
- GPG_focus_right_wing_unification: "Right-Wing Unification"
+ GPG_focus_right_wing_unification: "The Right Unites"
  GPG_focus_right_wing_unification_desc: "Many different military and political organizations of an authoritarian bent were formed in the wake of anarchy and lawlessness. At the congress, most of them managed to unite into the Iron Hand faction."
  
  GPG_focus_congress_closing: "Congress Closing"
  GPG_focus_congress_closing_desc: "The first congress was generally successful. The factions finally settled down and many issues of management and development were resolved. But everyone is eagerly awaiting the second congress, as fateful for the political system of the Central Goiky."
  
  GPG_focus_second_congress: "§YSecond Congress§!"
- GPG_focus_second_congress_desc: "Since the closing of the first congress... Many things have changed. The political crisis has escalated incredibly, and representatives of radical factions are already beginning to talk about a government coup. If we want to save the fragile Goikian democracy, we need to make vital reforms."
+ GPG_focus_second_congress_desc: "Since the closing of the first congress... Many things have changed. The political crisis has uncontrollably escalated, and representatives of radical factions are already beginning to talk about a government coup. If we want to save this fragile Goikian democracy, we need to make vital reforms. Otherwise, this republic wouldn't last for very long..."
  
  GPG_focus_clocks_dead: "[GPG_CLOCKSDEAD_FOCUS]"
- GPG_focus_clocks_dead_1: "All means are good"
- GPG_focus_clocks_dead_2: "Objectivity"
+ GPG_focus_clocks_dead_1: "The True Culprit"
+ GPG_focus_clocks_dead_2: "No Fingers Pointed"
  GPG_focus_clocks_dead_3: "Miscalculation"
  GPG_focus_clocks_dead_desc: ""
  
  GPG_focus_cabinet_head: "[GPG_CABHEAD_FOCUS]"
- GPG_focus_cabinet_head_1: "Triumph of Fries"
- GPG_focus_cabinet_head_2: "Pie stands still"
+ GPG_focus_cabinet_head_1: "Under New Management"
+ GPG_focus_cabinet_head_2: "Pie Holds On"
  GPG_focus_cabinet_head_desc: ""
  
  GPG_focus_compensation: "[GPG_COMPENS_FOCUS]"
- GPG_focus_compensation_1: "Compensation"
- GPG_focus_compensation_2: "Budget cuts"
+ GPG_focus_compensation_1: "The Investors' Demands"
+ GPG_focus_compensation_2: "Budget Cuts"
  GPG_focus_compensation_desc: ""
  
  GPG_focus_defense_plan: "[GPG_DEFPLANS_FOCUS]"
@@ -259,90 +259,90 @@
  GPG_focus_defense_plan_desc: ""
  
  GPG_focus_casland_remilitarization: "[GPG_CASLREM_FOCUS]"
- GPG_focus_casland_remilitarization_1: "Remilitarization"
- GPG_focus_casland_remilitarization_2: "Do not touch Casland!"
+ GPG_focus_casland_remilitarization_1: "March in Casland!"
+ GPG_focus_casland_remilitarization_2: "Not One Step"
  GPG_focus_casland_remilitarization_desc: ""
  
  GPG_focus_mines: "[GPG_MINENAT_FOCUS]"
- GPG_focus_mines_1: "Nationalization"
- GPG_focus_mines_2: "Resource crisis"
+ GPG_focus_mines_1: "The Miners' Calls"
+ GPG_focus_mines_2: "Sideline the Miners"
  GPG_focus_mines_desc: ""
  
  GPG_focus_constitution: "[GPG_CONSTIT_FOCUS]"
  GPG_focus_constitution_1: "§7Constitution of Goiky§!"
- GPG_focus_constitution_2: "Paper can wait..."
+ GPG_focus_constitution_2: "Delay Constitutional Reforms"
  GPG_focus_constitution_desc: ""
  
  GPG_focus_second_congress_end: "[GPG_CONGEND_FOCUS]"
- GPG_focus_second_congress_end_1: "§RGovernment collapse§!"
- GPG_focus_second_congress_end_2: "§YSecond Congress End§!"
+ GPG_focus_second_congress_end_1: "§RThe Music Stops§!"
+ GPG_focus_second_congress_end_2: "§YAll is Well§!"
  GPG_focus_second_congress_end_desc: ""
  
- GPG_focus_cabinet_resisted: "Cabinet resisted"
+ GPG_focus_cabinet_resisted: "The Republic Endures"
  GPG_focus_cabinet_resisted_desc: ""
  
- GPG_focus_bake_taco: "§3Fry Taco§!"
- GPG_focus_bake_taco_desc: "The democratic faction, although not as radical as the others, still poses a great threat to the government. We have to deal with it."
+ GPG_focus_bake_taco: "§3Fry the Taco§!"
+ GPG_focus_bake_taco_desc: "These democrats with their liberal agenda are nothing but puppets of the Alliance seeking to undermine our stable republic. Although they may not be crazy as the other factions, they are nevertheless a major threat to us and shall be destroyed at any cost."
  
- GPG_focus_break_up_the_brilliant: "§tBreak up the Ruby§!"
- GPG_focus_break_up_the_brilliant_desc: "The most dangerous target for us now is the Toilers Front. The communists must be destroyed before they expect to be struck."
+ GPG_focus_break_up_the_brilliant: "§tShatter the Ruby§!"
+ GPG_focus_break_up_the_brilliant_desc: "The Toilers Front is made up of ragtag commies blindly following their leader thinking she won't lead them to their enslavement. ''In the name of the proletarian revolution'', she says. Well, unlike her followers, we can see through her lies and deceit. It is about time Ruby realizes what it means to be an enemy of the Republic."
  
- GPG_focus_yoylemetal_hand: "§LYoylemetal hand§!"
- GPG_focus_yoylemetal_hand_desc: "The most militarized and reactionary faction on the council poses a great threat to the state. She must be strangled."
+ GPG_focus_yoylemetal_hand: "§LBend the Yoylemetal Hand§!"
+ GPG_focus_yoylemetal_hand_desc: "Formed of fascists, autocrats and even crazy lunatics, the Iron Hand is a faction that seeks to dismantle the Republic we have worked so hard to build, and replace it with their own tyrannical vision of a country. We however, won't allow that to happen. Ever. In fact, we will put an end to their fascistic banditry that has plagued the south for so long."
  
- GPG_focus_strenght_republic_border: "Border control"
- GPG_focus_strenght_republic_border_desc: "It's no secret that the Democrats receive a lot of help from abroad, and specifically from the Greeny Plains, from the Alliance. We will try to block this pipe for them as much as possible, and this will obviously slow down their preparations."
+ GPG_focus_strenght_republic_border: "Secure the Northern Border"
+ GPG_focus_strenght_republic_border_desc: "It's no secret that the Democrats receive a lot of help from abroad, specifically from the Greeny Plains and the Alliance. So, we shall cut their funding pipe, and with it, their rebellious conduct will be hampered significantly."
  
- GPG_focus_leafy_was_democrat: "§7Leafy was a democrat!§!"
- GPG_focus_leafy_was_democrat_desc: "Leafy is one of the most hated objects of modern Goiky, so why not use her image to deobjectize your opponents? Moreover, she did have some contacts with members of the democratic faction."
+ GPG_focus_leafy_was_democrat: "§7Leafy Was a Democrat!§!"
+ GPG_focus_leafy_was_democrat_desc: "Leafy is one of the most hated objects of modern Goiky, so why not use her image to deobjectize your opponents? After all, she did have some connections with members of the democratic faction..."
  
- GPG_focus_ban_foreign_aid: "External supplies ban"
- GPG_focus_ban_foreign_aid_desc: "Our most important goal is also to legislatively cut off the supply chain for the Democrats. This will transfer them into the illegal sphere, and, as a result, complicate their use."
+ GPG_focus_ban_foreign_aid: "Suspend Their Supply Lines"
+ GPG_focus_ban_foreign_aid_desc: "Our most important goal is also to cut off the supply chain for the Democrats. This will transfer them into the illegal sphere, and, as a result, complicate their operations."
  
- GPG_focus_barf_bag_is_stupid: "Doubt Barf bag's intellect"
- GPG_focus_barf_bag_is_stupid_desc: "How can a bag of digested food be the #2 face of one of the main factions of the council? We should give Barf bag some intelligence testing and suspend her from her position..."
+ GPG_focus_barf_bag_is_stupid: "Highlight Her Incompetence"
+ GPG_focus_barf_bag_is_stupid_desc: "How can a bag of digested food be the #2 face of one of the main factions of the council? Is she even qualified to be in the Council? We should interrogate Barf Bag and relieve her for her duties."
  
- GPG_focus_expel_taco: "Taco Expulsion"
- GPG_focus_expel_taco_desc: "Well, if Tako loves her friends from the Alliance so much, she can go to them, and we will help this in every possible way."
+ GPG_focus_expel_taco: "Expel Taco"
+ GPG_focus_expel_taco_desc: "If Taco loves her friends from the Alliance so much, then she'll love to meet them for once! Hell, we'll SEND her there for FREE!"
  
- GPG_focus_ban_democratic_faction: "§3Ban the Democrats§!"
- GPG_focus_ban_democratic_faction_desc: "There is no doubt that the Democratic faction has carried out dangerous subversive activities in the republic, which is contrary to its constitution, and will therefore be expelled from the council, and its members will be assigned to the court."
+ GPG_focus_ban_democratic_faction: "§3Convict the Democrats§!"
+ GPG_focus_ban_democratic_faction_desc: "There is no doubt that the Democratic faction has carried out dangerous subversive activities in the republic, which is clearly treasonous, and it doesn't take a genius to know that. So they will be trialed for their heinous crimes, and their little party thrown out of the Council. And we'll make sure everyone sees the trials, and understand the consequences of treachery."
  
- GPG_focus_raise_miners_salary: "Raise miners' wages"
+ GPG_focus_raise_miners_salary: "Raise their Wages"
  GPG_focus_raise_miners_salary_desc: "The main social base of the Ruby's communists is in the east, where large mining enterprises operate. We have to appease the local workers by cutting the budget a bit, but this will certainly help us."
  
- GPG_focus_and_communist: "§R...And a communist§!"
- GPG_focus_and_communist_desc: "Leafy's connection with the communists is undeniable. We will also use this."
+ GPG_focus_and_communist: "§R...And a Communist§!"
+ GPG_focus_and_communist_desc: "Many of Battle for Dream Island's viewers recall when Leafy were friends with Firey and were practically inseparable until Firey locked her out of Dream Island. Nevertheless, her ties with the leader of the communist regime up north is undeniable, and this will be used to demonize the Toiler's Front, if they weren't devils already."
  
- GPG_focus_firey_marionette: "§OFirey's puppets!§!"
+ GPG_focus_firey_marionette: "§OFirey's Finest Subjects§!"
  GPG_focus_firey_marionette_desc: "The Toilers Front undoubtedly has serious contacts with the Revolutionary Front in the north. These connections, of course, are not enough for an accusation, but this will in no way hinder our propaganda."
  
- GPG_focus_organize_arson: "Organize arson"
+ GPG_focus_organize_arson: "Organize Arson"
  GPG_focus_organize_arson_desc: "Our people will find some individuals associated with the Toilers Front, bribe them and organize with their hands the arson of the RCC building, so that they can then use it against the communists."
  
  GPG_focus_ban_communist_faction: "§tBan the Toilers Front§!"
  GPG_focus_ban_communist_faction_desc: "Communists are dangerous radicals, and the damage to the republic caused by the Labor Front is irrefutable. Due to this, the Labor Front is expelled from the council."
  
- GPG_focus_slow_disarm: "Slow disarmament"
- GPG_focus_slow_disarm_desc: "The main strength of the right faction is its armed forces. We will carefully disarm them under various pretexts or even buy back their weapons."
+ GPG_focus_slow_disarm: "Disarm the Disloyal"
+ GPG_focus_slow_disarm_desc: "The main strength of the fascist group are our armed forces. Although we couldn't track down their loyalists, we will certainly demobilize the army to keep their power in check. Although it shouldn't be too obvious to avoid antagonizing them..."
  
  GPG_focus_entice_nickel: "Entice Nickel"
- GPG_focus_entice_nickel_desc: "Nickel, although conditionally a member of the Iron Hand, does not really share the radical positions of the faction. We can lure him away easily enough."
+ GPG_focus_entice_nickel_desc: "Nickel, although conditionally a member of the Iron Hand, does not really share the radical positions of the faction. We'll invite him to a meeting, and convince him to cross the bench. We'll even add a little cash prize and some benefits..."
  
- GPG_focus_recharnd_demilitarization: "Demilitarization of Recharnd"
- GPG_focus_recharnd_demilitarization_desc: "Recharnd - The main gathering point for Iron Hand stormtroopers. We will give the city and its surroundings the same governmental significance as Casland, and thus achieve the disarmament or withdrawal of these combat forces."
+ GPG_focus_recharnd_demilitarization: "Demilitarize Recharnd"
+ GPG_focus_recharnd_demilitarization_desc: "Recharnd - The Iron Hand's stronghold for its paramilitary, as well as its support. Their stormtroopers are too threatening to be ignored, so we'll give it the same protections as Casland, and demilitarize it. This will also disband their paramilitary, and hopefully this will wither away their influence in the region."
  
  GPG_focus_fanny_emotional_stability_question: "Question about Fanny's stability"
  GPG_focus_fanny_emotional_stability_question_desc: "Fanny is perhaps the most emotionally unstable council member. It is worth 'making a recommendation' to the cabinet to exclude her from the RCC."
  
- GPG_focus_trans: "§gTRANS§!"
- GPG_focus_trans_desc: "The presence of Saw on the council from the fascist faction raises, first of all, questions among the Iron Hand supporters themselves. How and why does an object of indeterminate gender speak out on behalf of the reactionary faction? It's worth getting rid of this."
+ GPG_focus_trans: "The Strangest of Reactionaries"
+ GPG_focus_trans_desc: "The presence of Saw on the council from the fascist faction raises questions in our cabinet and even in their supporter base. How and why does an object of indeterminate gender speak on behalf of the reactionary faction? It will be for the greater good for the state and possibly even for the Iron Hand that we get rid of this hypocritical councilman. Not councilwoman, because we do not recognize violations of the cultural order."
  
- GPG_focus_ban_fascist_faction: "§LIron Hand Ban§!"
- GPG_focus_ban_fascist_faction_desc: "There is no doubt that the Iron Hand was preparing a military coup in Casland, but the valiant government cabinet put a stop to it. Now this faction will be expelled from the council, and its members will be repressed."
+ GPG_focus_ban_fascist_faction: "§LBreak the Iron Hand§!"
+ GPG_focus_ban_fascist_faction_desc: "There is not a question that the Iron Hand was preparing a military coup in Casland, but the valiant cabinet put a stop to it. This faction will be expelled from the council, and its members will be investigated and put to court for this attempted treason."
  
- GPG_focus_no_more_factions: "No more factions"
- GPG_focus_no_more_factions_desc: "Factionalism is now prohibited in the council. Now each person sitting will speak regardless of his or her name."
+ GPG_focus_no_more_factions: "Unite the Council"
+ GPG_focus_no_more_factions_desc: "Factionalism was a disease that proliferated in the council and radicalized the minds of its members for way too long. But now, thanks to our efforts, we have eradicated this plague. Now, our cabinet is as healthy as ever, in sensibility and rationality. No more will we be divided by the left-and-right political spectrum. No more will we fight eachother for having different opinions. Now, we are united, stronger than ever, and we will never give up this sense of unity. Ever."
  #GPG CW TREE
  GPG_focus_fight_for_stability: "§YBattle for Stability!§!"
  GPG_focus_fight_for_stability_desc: "These damn radicals, we tried to come to an agreement with them in the council, we tried to come to an agreement with them at the congress, but it didn’t lead to anything. The time has come to put an end to these destructive cliques and carry the victorious banner of Goika on the bayonet!"
