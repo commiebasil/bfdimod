@@ -5,6 +5,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				political_power_gain = 0.25
+				industry_free_repair_factor = 0.25
 			}
 		}
 
@@ -13,6 +14,7 @@ ideas = {
 			picture = YFC_no_more_advertisements_foundation
 			modifier = {
 				production_speed_buildings_factor = -1
+				
 			}
 		}
 

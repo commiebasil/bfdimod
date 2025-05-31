@@ -656,6 +656,11 @@ focus_tree = {
 			custom_effect_tooltip = l_WGF_operation_coinflip
 			hidden_effect = {
 				country_event = WGF_event.6
+				ai_strategy = {
+					type = prepare_for_war
+					id = GMD
+					value = 50
+				}
 			}
 			mark_focus_tree_layout_dirty = yes
 		}
@@ -804,6 +809,11 @@ focus_tree = {
 				declare_war_on = {
 					target = GMD
 					type = annex_everything
+				}
+				ai_strategy = {
+					type = front_unit_request
+					tag = GMD
+					value = 50
 				}
 				add_timed_idea = {
 					idea = idea_WGF_coinflip
