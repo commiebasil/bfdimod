@@ -23,9 +23,10 @@ decision_BUN_raids_category = {
 			NOT = {
 				AND = {
 					YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
-					num_divisions_in_states = {
-						count > 2
-						states = { 201 }
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 201
 					}
 				}
 			}
@@ -282,6 +283,79 @@ decision_BUN_raids_category = {
 			modifier = {
 				add = 10
 				has_political_power > 75
+			}
+		}
+	}
+
+	BUN_raid_state_214 = {
+		icon = GFX_decision_generic_confiscation
+		state_target = yes
+        targets = { state = 214 }
+        on_map_mode = map_only
+        
+		visible = {
+			controls_state = 85
+			NOT = {
+				controls_state = 214
+			}
+			has_border_war = no
+			has_war = no
+		}
+
+		fire_only_once = no
+		cost = 75
+		days_re_enable = 180
+
+		complete_effect = {
+			24 = {
+				damage_building = {
+ 					type = infrastructure
+  					damage = 1
+				}
+			}
+			
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				country_event = {
+					id = BUN_borderwars.1
+					days = 35
+					random_hours = 24
+				}
+			}
+
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 85
+					num_provinces = 1
+					on_win = YFC_borderwars.1
+					on_lose = YFC_borderwars.2
+					modifier = 0.5
+     				terrain_factor = 0.5
+				}	
+				defender = {
+					state = 214
+					num_provinces = 1
+					on_win = YFC_borderwars.3
+					on_lose = BUN_borderwars.5
+					dig_in_factor = 2
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 15
+				has_political_power > 75
+			}
+			modifier = {
+				add = -5
+				YFC = {
+					controls_state = 214
+				}
 			}
 		}
 	}
