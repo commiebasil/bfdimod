@@ -104,22 +104,7 @@ country_event = {
 	picture = GFX_YFC_event5
 
 	fire_only_once = yes
-	trigger = {
-		AND = {
-			OR = {
-				YFC = { owns_state = 85 }
-				CRN = { owns_state = 85 }
-			}
-			OR = {
-				BUN = {
-					exists = no
-				}
-				BUN = {
-					is_puppet = yes
-				}
-			}
-		}	
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = YFC_event.5.a
@@ -253,6 +238,48 @@ country_event = {
 				add_manpower = -1059
 			}
 		}
+	}
+}
+
+
+country_event = {
+	id = YFC_event.9
+	title = YFC_event.9.t
+	desc = YFC_event.9.desc
+	picture = GFX_YFC_event4
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_event.9.a
+		army_experience = 20
+
+		add_trait = {
+			character = YFC_david
+			trait = trickster
+		}
+
+		hidden_effect = {
+			add_victory_points = {
+				province = 24
+				value = 5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = YFC_event.10
+	title = YFC_event.10.t
+	desc = YFC_event.10.desc
+	picture = GFX_YFC_event4
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_event.10.a
+		add_stability = -0.1
+		add_war_support = 0.2
 	}
 }
 

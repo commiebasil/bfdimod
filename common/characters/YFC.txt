@@ -60,7 +60,7 @@ YFC_lewis = {
 				
 			} 
 		}
-			corps_commander = {
+		corps_commander = {
 			skill = 2
 			attack_skill = 3
 			defense_skill = 2

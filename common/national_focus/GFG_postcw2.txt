@@ -1015,6 +1015,7 @@ focus_tree = {
 				type = annex_everything
 			}
 			hidden_effect = {
+				add_threat = 3
 				if = {
 					limit = { NOT = { has_country_flag = agreement_succeed } }
 					country_event = {

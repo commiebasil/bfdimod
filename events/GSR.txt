@@ -372,6 +372,7 @@ country_event = {
 					random_hours = 12
 				}
 			}
+			add_threat = 2
 			country_event = {
 				id = GSR_event.11
 				days = 20

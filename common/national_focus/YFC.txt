@@ -390,6 +390,7 @@ focus_tree = {
 					tag = BUN
 					value = 50
 				}
+				add_threat = 1
 			}
 		}
 	}
@@ -454,6 +455,11 @@ focus_tree = {
 		#gives national spirit called "Show No Mercy" that gives higher attack on non-core, speed, recovery/moral and recruitable pop, but lower defense, lower non-core manpower, higher resistance, and lower compliance
 		completion_reward = {
 			add_ideas = idea_YFC_show_no_mercy
+			country_event = {
+				id = YFC_event.9
+				hour = 1
+				random_hours = 12
+			}
 		}
 	}
 
@@ -469,8 +475,12 @@ focus_tree = {
 		#opens up decisions to raid nations, obv gives event because i LOVE making events
 		#decisions are only shown on map so it doesnt flood the actual tab
 		#also raids are just border wars that give events after completion, if it was successful, it gives a success event, and pressing its button gives you a random amount of things (guns, arty, civs, you get it) 
-		#thal has me trapped in his basement please help me
 		completion_reward = {
+			country_event = {
+				id = YFC_event.10
+				hour = 1
+				random_hours = 6
+			}
 			custom_effect_tooltip = l_YFC_raids1
 		}
 	}

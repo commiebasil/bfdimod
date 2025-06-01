@@ -108,8 +108,16 @@ on_actions = {
 			}
 			else_if = {
 				limit = {
-					FROM = { tag = YFC }
-					ROOT = { tag = BUN }
+					OR = {
+						AND = {
+							FROM = { tag = YFC }
+							ROOT = { tag = BUN }
+						}
+						AND = {
+							FROM = { tag = CRN }
+							ROOT = { tag = BUN }
+						}
+					}
 				}
 				if = {
 					limit = { BUN = { is_ai = yes } }
@@ -124,6 +132,13 @@ on_actions = {
 					}
 					218 = {
 						transfer_state_to = CRN
+					}
+					YFC = {
+						country_event = {
+							id = YFC_event.5
+							days = 1
+							random_hours = 36
+						}
 					}
 				}
 				else = {

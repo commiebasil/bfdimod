@@ -806,6 +806,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = l_WGF_focus_flip_the_coin
 			hidden_effect = {
+				add_threat = 1
 				declare_war_on = {
 					target = GMD
 					type = annex_everything

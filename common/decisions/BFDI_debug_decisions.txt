@@ -20,3 +20,51 @@ decisions_BFDI_debug = {
         }
     }
 }
+
+#FORTNITE!!!!!!!!
+
+decisions_BFDI_debug = {
+	debug_battle_royale = {
+        icon = GFX_decision_generic_protection
+        fire_only_once = yes
+		cost = 0
+		allowed = {
+			is_debug = yes
+		}
+		available = {
+			is_ai = no
+			NOT = {
+				has_global_flag = game_started
+			}
+			NOT = {
+				tag = GOI
+			}
+        }
+        complete_effect = {	
+			every_country = {
+				limit = { 
+					NOT = {
+						tag = EMP
+					}
+					NOT = {
+						tag = GOI
+					}
+				}
+				every_country = {
+					limit = { 
+						NOT = {
+							tag = EMP
+						}
+						NOT = {
+							tag = GOI
+						}
+					}
+					declare_war_on = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
+        }
+    }
+}

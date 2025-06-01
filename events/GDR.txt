@@ -249,6 +249,7 @@ country_event = {
 	option = {
 		name = GDR_event.13.a
 		hidden_effect = {
+			add_threat = -2
 			GPR = {
 				every_owned_state = {
 					add_core_of = GDR
@@ -283,10 +284,11 @@ country_event = {
 	option = {
 		name = GDR_event.14.a
 		hidden_effect = {
+			add_threat = -2
 			GPR = {
 				set_autonomy = {
 					target = ROOT
-					autonomous_state = satellite
+					autonomous_state = autonomy_satellite
 				}
 			}
 		}
