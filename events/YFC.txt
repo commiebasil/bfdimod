@@ -202,7 +202,7 @@ country_event = {
 	id = YFC_event.8
 	title = YFC_event.8.t
 	desc = YFC_event.8.desc
-	picture = GFX_YFC_event4
+	picture = GFX_YFC_event8
 
 	is_triggered_only = yes
 

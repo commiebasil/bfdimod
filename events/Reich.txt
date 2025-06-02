@@ -201,6 +201,7 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			add_threat = 3
 			15 = { 
 				remove_core_of = GGR
 				add_core_of = SMG
@@ -387,5 +388,20 @@ country_event = {
 		SRI = { 
 			inherit_technology = GGR
 		}
+	}
+}
+
+#Tells GGR about BUN raids and that they should protect the borders
+
+country_event = {
+	id = GGR_event.14
+	title = GGR_event.14.t
+	desc = GGR_event.14.desc
+	picture = GFX_GGR_event12
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GGR_event.14.a
 	}
 }

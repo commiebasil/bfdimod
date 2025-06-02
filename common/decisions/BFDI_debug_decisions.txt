@@ -50,6 +50,10 @@ decisions_BFDI_debug = {
 						tag = GOI
 					}
 				}
+				add_timed_idea = {
+					idea = idea_debug_battle_royale
+					days = 360
+				}
 				every_country = {
 					limit = { 
 						NOT = {
@@ -66,5 +70,17 @@ decisions_BFDI_debug = {
 				}
 			}
         }
+		hidden_effect = {
+			#PLEASE PLEASE PLEASE DO NOT REMOVE OR I WILL FIND YOU AND SEND YOU TO TILTED TOWERS
+			random = {
+				chance = 1
+				set_province_name = { id = 1061 name = "Tilted Towers" }
+				set_province_name = { id = 827 name = "Tomato Town" }
+				set_province_name = { id = 4378 name = "Pleasant Park" }
+				set_province_name = { id = 876 name = "Salty Springs" }
+				set_province_name = { id = 5107 name = "Retail Row" }
+				set_province_name = { id = 11209 name = "Greasy Grove" }
+			}
+		}
     }
 }

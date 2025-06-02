@@ -35,6 +35,6 @@ GSR_anarchist = {
 	color_ui = rgb { 36 0 0 }
 }
 YFC_raiders = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 204 204 0 }
+	color_ui = rgb { 204 204 0 }
 }
