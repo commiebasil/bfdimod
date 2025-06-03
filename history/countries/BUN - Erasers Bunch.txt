@@ -37,8 +37,9 @@ set_popularities = {
 	communism = 1
 }
 
-add_ideas = limited_conscription
+set_variable = { var_currently_raiding = 0 }
 
+add_ideas = limited_conscription
 add_ideas = idea_BUN_criminal_state
 
 recruit_character = BUN_eraser

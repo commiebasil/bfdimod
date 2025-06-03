@@ -1433,4 +1433,14 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_sell_them_guns"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_sell_them_guns.png"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_the_pen_problem"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_the_pen_problem.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_funded_pilliaging"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_funded_pilliaging.dds"
+	}
 }

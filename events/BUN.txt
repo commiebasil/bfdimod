@@ -22,6 +22,7 @@ country_event = {
 			type = infantry_equipment
 			amount = 50
 		}
+		set_variable = { var_currently_raiding = 0 }
 	}
 	option = {
 		name = BUN_borderwars.1.b
@@ -29,12 +30,12 @@ country_event = {
 			has_border_war = yes
 		}
 
-		add_manpower = 500
+		add_manpower = 1000
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
 			amount = 100
 		}
-
+		set_variable = { var_currently_raiding = 0 }
 		if = {
 			limit = {
 				has_border_war_between = {

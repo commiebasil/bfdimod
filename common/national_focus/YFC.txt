@@ -160,7 +160,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_sell_them_guns
 		x = 0
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_funded_pilliaging
 
 		prerequisite = { focus = YFC_focus_sell_them_guns }
 		mutually_exclusive = { focus = YFC_focus_demand_end_pillage }
@@ -421,7 +421,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_YFC_funded_pillaging
 		x = -2
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_the_pen_problem
 		available = {
 			hidden_trigger = {
 				has_completed_focus = YFC_focus_YFC_funded_pillaging

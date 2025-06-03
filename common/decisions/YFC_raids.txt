@@ -26,7 +26,7 @@ decision_YFC_raids_category = {
 			24 = {
 				damage_building = {
  					type = infrastructure
-  					damage = 1
+  					damage = 0.25
 				}
 			}
 
@@ -78,7 +78,7 @@ decision_YFC_raids_category = {
 			214 = {
 				damage_building = {
  					type = infrastructure
-  					damage = 1
+  					damage = 0.25
 				}
 			}
 
@@ -129,7 +129,7 @@ decision_YFC_raids_category = {
 			210 = {
 				damage_building = {
  					type = infrastructure
-  					damage = 1
+  					damage = 0.25
 				}
 			}
 

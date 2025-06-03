@@ -2,7 +2,19 @@ decision_BUN_raids_category = {
 	allowed = { tag = BUN }
 	
 	visible = { 
-		always = yes
+		OR = {
+			is_ai = no
+			AND = {
+				is_ai = yes
+				check_variable = {
+					var_currently_raiding = 0
+				}
+				has_manpower > 500
+				has_army_size = {
+					size > 0
+				}
+			}
+		}
 	}
 	priority = 10
 	icon = decision_category_operation_coinflip

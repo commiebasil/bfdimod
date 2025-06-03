@@ -1010,5 +1010,5 @@
  generic_focus_army: "Army"
  generic_focus_army_desc: "Our army is a rather bit small, innit?"
  generic_focus_researches: "Technologies"
- generic_focus_researches: "Our technological innovation creation speed is a rather bit slow, innit?"
+ generic_focus_researches_desc: "Our technological innovation creation speed is a rather bit slow, innit?"
  
