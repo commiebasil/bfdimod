@@ -557,7 +557,7 @@ country_event = {
 }
 
 #CRN subjugation chain of events
-#Hope reading any of this makes sense!
+#Good Luck ZDubbz!!!!!!
 
 country_event = {
 	#Generic CRN says YES to demand
@@ -627,5 +627,887 @@ country_event = {
     option = {
 		name = YFC_CRN_Sub.5.a
 		add_political_power = 25
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.6
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
 	}
 }
+
+country_event = {
+	#First YFC demand
+	id = YFC_CRN_Sub.6
+	title = YFC_CRN_Sub.6.t
+    desc = YFC_CRN_Sub.6.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.6.a
+		#Peaceful one BUT hurts YFC and buffs CRN
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.7
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.6.b
+		#Violent one BUT does not hurt YFC
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.8
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	#First YFC Peaceful demand
+	id = YFC_CRN_Sub.7
+	title = YFC_CRN_Sub.7.t
+    desc = YFC_CRN_Sub.7.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.7.a
+		#Yes
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.1
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.6
+				days = 15
+				random_hours = 100
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.7.b
+		#No
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.2
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.6
+				days = 15
+				random_hours = 100
+			}		
+		}
+	}
+}
+
+country_event = {
+	#First YFC Violent demand
+	id = YFC_CRN_Sub.8
+	title = YFC_CRN_Sub.8.t
+    desc = YFC_CRN_Sub.8.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.8.a
+		#Yes
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.1
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.6
+				days = 15
+				random_hours = 100
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.8.b
+		#No
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.2
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.6
+				days = 15
+				random_hours = 100
+			}		
+		}
+	}
+}
+
+country_event = {
+	#First CRN demand
+	id = YFC_CRN_Sub.9
+	title = YFC_CRN_Sub.9.t
+    desc = YFC_CRN_Sub.9.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.9.a
+		#LESS Demanding one
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.10
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.9.b
+		#MORE Demanding one
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.11
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	#First CRN LESS demand
+	id = YFC_CRN_Sub.10
+	title = YFC_CRN_Sub.10.t
+    desc = YFC_CRN_Sub.10.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.10.a
+		#Yes
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.3
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.12
+				days = 15
+				random_hours = 100
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.10.b
+		#No
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.4
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.12
+				days = 15
+				random_hours = 100
+			}		
+		}
+	}
+}
+
+country_event = {
+	#First CRN MORE demand
+	id = YFC_CRN_Sub.11
+	title = YFC_CRN_Sub.11.t
+    desc = YFC_CRN_Sub.11.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.11.a
+		#Yes
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.3
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.12
+				days = 15
+				random_hours = 100
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.11.b
+		#No
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.4
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.12
+				days = 15
+				random_hours = 100
+			}		
+		}
+	}
+}
+
+country_event = {
+	#Second YFC demand
+	id = YFC_CRN_Sub.12
+	title = YFC_CRN_Sub.12.t
+    desc = YFC_CRN_Sub.12.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.12.a
+		#Peaceful one BUT hurts YFC and buffs CRN
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.7
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.12.b
+		#Violent one BUT does not hurt YFC
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.8
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	#Second YFC Peaceful demand
+	id = YFC_CRN_Sub.13
+	title = YFC_CRN_Sub.13.t
+    desc = YFC_CRN_Sub.13.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.13.a
+		#Yes
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.1
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.6
+				days = 15
+				random_hours = 100
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.13.b
+		#No
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.2
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.6
+				days = 15
+				random_hours = 100
+			}		
+		}
+	}
+}
+
+country_event = {
+	#Second YFC Violent demand
+	id = YFC_CRN_Sub.14
+	title = YFC_CRN_Sub.14.t
+    desc = YFC_CRN_Sub.14.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.14.a
+		#Yes
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.1
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.15
+				days = 15
+				random_hours = 100
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.14.b
+		#No
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.2
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.15
+				days = 15
+				random_hours = 100
+			}		
+		}
+	}
+}
+
+country_event = {
+	#Second CRN demand
+	id = YFC_CRN_Sub.15
+	title = YFC_CRN_Sub.15.t
+    desc = YFC_CRN_Sub.15.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.15.a
+		#LESS Demanding one
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.16
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.15.b
+		#MORE Demanding one
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.17
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	#Second CRN LESS demand
+	id = YFC_CRN_Sub.16
+	title = YFC_CRN_Sub.16.t
+    desc = YFC_CRN_Sub.16.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.16.a
+		#Yes
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.3
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.12
+				days = 15
+				random_hours = 100
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.16.b
+		#No
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.4
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.12
+				days = 15
+				random_hours = 100
+			}		
+		}
+	}
+}
+
+country_event = {
+	#Second CRN MORE demand
+	id = YFC_CRN_Sub.17
+	title = YFC_CRN_Sub.17.t
+    desc = YFC_CRN_Sub.17.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.17.a
+		#Yes
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.3
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.18
+				days = 15
+				random_hours = 100
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.17.b
+		#No
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.4
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.18
+				days = 15
+				random_hours = 100
+			}		
+		}
+	}
+}
+
+country_event = {
+	#Third YFC demand
+	id = YFC_CRN_Sub.18
+	title = YFC_CRN_Sub.18.t
+    desc = YFC_CRN_Sub.18.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.18.a
+		#Peaceful one BUT hurts YFC and buffs CRN
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.19
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.18.b
+		#Violent one BUT does not hurt YFC
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.20
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	#Third YFC Peaceful demand
+	id = YFC_CRN_Sub.19
+	title = YFC_CRN_Sub.19.t
+    desc = YFC_CRN_Sub.19.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.19.a
+		#Yes
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.1
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.6
+				days = 15
+				random_hours = 100
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.19.b
+		#No
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.2
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.6
+				days = 15
+				random_hours = 100
+			}		
+		}
+	}
+}
+
+country_event = {
+	#Third YFC Violent demand
+	id = YFC_CRN_Sub.20
+	title = YFC_CRN_Sub.20.t
+    desc = YFC_CRN_Sub.20.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.20.a
+		#Yes
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.1
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.15
+				days = 15
+				random_hours = 100
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.20.b
+		#No
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.2
+					days = 2
+					random_hours = 100
+				}
+			}
+			country_event = {
+				id = YFC_CRN_Sub.15
+				days = 15
+				random_hours = 100
+			}		
+		}
+	}
+}
+
+country_event = {
+	#Third CRN demand
+	id = YFC_CRN_Sub.21
+	title = YFC_CRN_Sub.21.t
+    desc = YFC_CRN_Sub.21.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.21.a
+		#LESS Demanding one
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.22
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.21.b
+		#MORE Demanding one
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.23
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	#Third CRN LESS demand
+	id = YFC_CRN_Sub.22
+	title = YFC_CRN_Sub.22.t
+    desc = YFC_CRN_Sub.22.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.22.a
+		#Yes
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.3
+					days = 2
+					random_hours = 100
+				}
+				country_event = {
+					id = YFC_CRN_Sub.24
+					days = 15
+					random_hours = 100
+				}
+			}
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.22.b
+		#No
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.4
+					days = 2
+					random_hours = 100
+				}
+				country_event = {
+					id = YFC_CRN_Sub.24
+					days = 15
+					random_hours = 100
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	#Third CRN MORE demand
+	id = YFC_CRN_Sub.23
+	title = YFC_CRN_Sub.23.t
+    desc = YFC_CRN_Sub.23.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.23.a
+		#Yes
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.3
+					days = 2
+					random_hours = 100
+				}
+				country_event = {
+					id = YFC_CRN_Sub.24
+					days = 15
+					random_hours = 100
+				}
+			}
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.23.b
+		#No
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_CRN_Sub.4
+					days = 2
+					random_hours = 100
+				}
+				country_event = {
+					id = YFC_CRN_Sub.24
+					days = 15
+					random_hours = 100
+				}	
+			}	
+		}
+	}
+}
+
+country_event = {
+	#CRN Final Choice
+	id = YFC_CRN_Sub.24
+	title = YFC_CRN_Sub.24.t
+    desc = YFC_CRN_Sub.24.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.24.a
+		#Yes I love being a puppet!!
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.25
+					days = 2
+					random_hours = 100
+				}
+			}	
+		}
+	}
+
+	option = {
+		name = YFC_CRN_Sub.24.b
+		#No fuck you raiders!!!
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_CRN_Sub.26
+					days = 2
+					random_hours = 100
+				}
+			}	
+		}
+	}
+}
+
+country_event = {
+	#YFC gets CRN yay!!!
+	id = YFC_CRN_Sub.25
+	title = YFC_CRN_Sub.25.t
+    desc = YFC_CRN_Sub.25.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.25.a
+	}
+}
+
+country_event = {
+	#YFC does not gets CRN yay!!!
+	id = YFC_CRN_Sub.26
+	title = YFC_CRN_Sub.26.t
+    desc = YFC_CRN_Sub.26.desc
+	picture = GFX_YFC_event1
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_CRN_Sub.26.a
+	}
+}
+
+#26 Events I want to die
+#In the game!!
