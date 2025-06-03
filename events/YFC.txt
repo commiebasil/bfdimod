@@ -561,6 +561,7 @@ country_event = {
 
 country_event = {
 	#Generic CRN says YES to demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.1
 	title = YFC_CRN_Sub.1.t
     desc = YFC_CRN_Sub.1.desc
@@ -575,6 +576,7 @@ country_event = {
 
 country_event = {
 	#Generic CRN says NO to demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.2
 	title = YFC_CRN_Sub.2.t
     desc = YFC_CRN_Sub.2.desc
@@ -589,6 +591,7 @@ country_event = {
 
 country_event = {
 	#Generic YFC says YES to demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.3
 	title = YFC_CRN_Sub.3.t
     desc = YFC_CRN_Sub.3.desc
@@ -603,6 +606,7 @@ country_event = {
 
 country_event = {
 	#Generic YFC says NO to demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.4
 	title = YFC_CRN_Sub.4.t
     desc = YFC_CRN_Sub.4.desc
@@ -641,6 +645,7 @@ country_event = {
 
 country_event = {
 	#First YFC demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.6
 	title = YFC_CRN_Sub.6.t
     desc = YFC_CRN_Sub.6.desc
@@ -679,6 +684,7 @@ country_event = {
 
 country_event = {
 	#First YFC Peaceful demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.7
 	title = YFC_CRN_Sub.7.t
     desc = YFC_CRN_Sub.7.desc
@@ -727,6 +733,7 @@ country_event = {
 
 country_event = {
 	#First YFC Violent demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.8
 	title = YFC_CRN_Sub.8.t
     desc = YFC_CRN_Sub.8.desc
@@ -775,6 +782,7 @@ country_event = {
 
 country_event = {
 	#First CRN demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.9
 	title = YFC_CRN_Sub.9.t
     desc = YFC_CRN_Sub.9.desc
@@ -813,6 +821,7 @@ country_event = {
 
 country_event = {
 	#First CRN LESS demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.10
 	title = YFC_CRN_Sub.10.t
     desc = YFC_CRN_Sub.10.desc
@@ -861,6 +870,7 @@ country_event = {
 
 country_event = {
 	#First CRN MORE demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.11
 	title = YFC_CRN_Sub.11.t
     desc = YFC_CRN_Sub.11.desc
@@ -909,6 +919,7 @@ country_event = {
 
 country_event = {
 	#Second YFC demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.12
 	title = YFC_CRN_Sub.12.t
     desc = YFC_CRN_Sub.12.desc
@@ -947,6 +958,7 @@ country_event = {
 
 country_event = {
 	#Second YFC Peaceful demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.13
 	title = YFC_CRN_Sub.13.t
     desc = YFC_CRN_Sub.13.desc
@@ -995,6 +1007,7 @@ country_event = {
 
 country_event = {
 	#Second YFC Violent demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.14
 	title = YFC_CRN_Sub.14.t
     desc = YFC_CRN_Sub.14.desc
@@ -1043,6 +1056,7 @@ country_event = {
 
 country_event = {
 	#Second CRN demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.15
 	title = YFC_CRN_Sub.15.t
     desc = YFC_CRN_Sub.15.desc
@@ -1081,6 +1095,7 @@ country_event = {
 
 country_event = {
 	#Second CRN LESS demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.16
 	title = YFC_CRN_Sub.16.t
     desc = YFC_CRN_Sub.16.desc
@@ -1129,6 +1144,7 @@ country_event = {
 
 country_event = {
 	#Second CRN MORE demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.17
 	title = YFC_CRN_Sub.17.t
     desc = YFC_CRN_Sub.17.desc
@@ -1177,6 +1193,7 @@ country_event = {
 
 country_event = {
 	#Third YFC demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.18
 	title = YFC_CRN_Sub.18.t
     desc = YFC_CRN_Sub.18.desc
@@ -1215,6 +1232,7 @@ country_event = {
 
 country_event = {
 	#Third YFC Peaceful demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.19
 	title = YFC_CRN_Sub.19.t
     desc = YFC_CRN_Sub.19.desc
@@ -1263,6 +1281,7 @@ country_event = {
 
 country_event = {
 	#Third YFC Violent demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.20
 	title = YFC_CRN_Sub.20.t
     desc = YFC_CRN_Sub.20.desc
@@ -1311,6 +1330,7 @@ country_event = {
 
 country_event = {
 	#Third CRN demand
+	#CRN Sees this
 	id = YFC_CRN_Sub.21
 	title = YFC_CRN_Sub.21.t
     desc = YFC_CRN_Sub.21.desc
@@ -1349,6 +1369,7 @@ country_event = {
 
 country_event = {
 	#Third CRN LESS demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.22
 	title = YFC_CRN_Sub.22.t
     desc = YFC_CRN_Sub.22.desc
@@ -1397,6 +1418,7 @@ country_event = {
 
 country_event = {
 	#Third CRN MORE demand
+	#YFC Sees this
 	id = YFC_CRN_Sub.23
 	title = YFC_CRN_Sub.23.t
     desc = YFC_CRN_Sub.23.desc
@@ -1445,6 +1467,7 @@ country_event = {
 
 country_event = {
 	#CRN Final Choice
+	#CRN Sees this
 	id = YFC_CRN_Sub.24
 	title = YFC_CRN_Sub.24.t
     desc = YFC_CRN_Sub.24.desc
@@ -1483,6 +1506,7 @@ country_event = {
 
 country_event = {
 	#YFC gets CRN yay!!!
+	#YFC Sees this
 	id = YFC_CRN_Sub.25
 	title = YFC_CRN_Sub.25.t
     desc = YFC_CRN_Sub.25.desc
@@ -1497,6 +1521,7 @@ country_event = {
 
 country_event = {
 	#YFC does not gets CRN yay!!!
+	#YFC Sees this
 	id = YFC_CRN_Sub.26
 	title = YFC_CRN_Sub.26.t
     desc = YFC_CRN_Sub.26.desc
