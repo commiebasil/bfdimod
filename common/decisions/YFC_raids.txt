@@ -49,6 +49,21 @@ decision_YFC_raids_category = {
 				}
 			}
 		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_political_power > 25
+			}
+			modifier = {
+				add = -10
+				AND = {
+					24 = {controller = {is_ai = no}}
+					24 = {controller = {has_war = yes}}
+				}
+			}
+		}
 	}
 
     YFC_raid_state_214 = {
@@ -101,6 +116,21 @@ decision_YFC_raids_category = {
 				}
 			}
 		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_political_power > 25
+			}
+			modifier = {
+				add = -10
+				AND = {
+					214 = {controller = {is_ai = no}}
+					214 = {controller = {has_war = yes}}
+				}
+			}
+		}
 	}
 
     YFC_raid_state_210 = {
@@ -149,6 +179,21 @@ decision_YFC_raids_category = {
 					on_win = YFC_borderwars.3
 					on_lose =YFC_borderwars.4
 					dig_in_factor = 2
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_political_power > 25
+			}
+			modifier = {
+				add = -10
+				AND = {
+					210 = {controller = {is_ai = no}}
+					210 = {controller = {has_war = yes}}
 				}
 			}
 		}

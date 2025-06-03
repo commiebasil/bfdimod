@@ -37,13 +37,13 @@ ideas = {
 		idea_debug_battle_royale = {
 			picture = ARG_envoy_to_london
 			modifier = {
-				mobilization_speed = 0.5
+				mobilization_speed = 0.75
 				surrender_limit = 0.2
-				production_factory_efficiency_gain_factor = 0.25
-				training_time_army_factor = -0.25
+				production_factory_efficiency_gain_factor = 0.3
+				training_time_army_factor = -0.5
 				war_support_factor = 0.2
 				weekly_manpower = 250
-				ai_desired_divisions_factor = 0.5
+				ai_desired_divisions_factor = 1
 			}
 		}
 

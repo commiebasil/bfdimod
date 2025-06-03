@@ -114,6 +114,19 @@ country_event = {
 				defender = 214
 			}
 		}
+		else_if = {
+			limit = {
+				has_border_war_between = {
+					attacker = 218
+					defender = 33
+				}
+			}
+			finalize_border_war = {
+				attacker_win = no
+				attacker = 218
+				defender = 33
+			}
+		}
 		else = {
 			#Nothing ever happens
 		}

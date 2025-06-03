@@ -1443,4 +1443,14 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_funded_pilliaging"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_funded_pilliaging.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_promote_blocky"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_promote_blocky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_erasers_training"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_erasers_training.dds"
+	}
 }

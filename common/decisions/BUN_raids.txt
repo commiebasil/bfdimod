@@ -36,7 +36,7 @@ decision_BUN_raids_category = {
 
 		fire_only_once = no
 		cost = 75
-		days_re_enable = 180
+		days_re_enable = 200
 
 		complete_effect = {
 			201 = {
@@ -84,6 +84,13 @@ decision_BUN_raids_category = {
 				add = 10
 				has_political_power > 75
 			}
+			modifier = {
+				add = -10
+				AND = {
+					201 = {controller = {is_ai = no}}
+					201 = {controller = {has_war = yes}}
+				}
+			}
 		}
 	}
 
@@ -104,7 +111,7 @@ decision_BUN_raids_category = {
 
 		fire_only_once = no
 		cost = 75
-		days_re_enable = 180
+		days_re_enable = 200
 
 		complete_effect = {
 			202 = {
@@ -152,6 +159,13 @@ decision_BUN_raids_category = {
 				add = 10
 				has_political_power > 75
 			}
+			modifier = {
+				add = -10
+				AND = {
+					202 = {controller = {is_ai = no}}
+					202 = {controller = {has_war = yes}}
+				}
+			}
 		}
 	}
 
@@ -172,7 +186,7 @@ decision_BUN_raids_category = {
 
 		fire_only_once = no
 		cost = 75
-		days_re_enable = 180
+		days_re_enable = 200
 
 		complete_effect = {
 			209 = {
@@ -220,6 +234,13 @@ decision_BUN_raids_category = {
 				add = 10
 				has_political_power > 75
 			}
+			modifier = {
+				add = -10
+				AND = {
+					209 = {controller = {is_ai = no}}
+					209 = {controller = {has_war = yes}}
+				}
+			}
 		}
 	}
 
@@ -240,7 +261,7 @@ decision_BUN_raids_category = {
 
 		fire_only_once = no
 		cost = 75
-		days_re_enable = 180
+		days_re_enable = 200
 
 		complete_effect = {
 			24 = {
@@ -288,6 +309,13 @@ decision_BUN_raids_category = {
 				add = 10
 				has_political_power > 75
 			}
+			modifier = {
+				add = -10
+				AND = {
+					24 = {controller = {is_ai = no}}
+					24 = {controller = {has_war = yes}}
+				}
+			}
 		}
 	}
 
@@ -308,7 +336,7 @@ decision_BUN_raids_category = {
 
 		fire_only_once = no
 		cost = 75
-		days_re_enable = 180
+		days_re_enable = 200
 
 		complete_effect = {
 			24 = {
@@ -362,6 +390,88 @@ decision_BUN_raids_category = {
 					controls_state = 214
 				}
 			}
+			modifier = {
+				add = -10
+				AND = {
+					214 = {controller = {is_ai = no}}
+					214 = {controller = {has_war = yes}}
+				}
+			}
+		}
+	}
+
+	BUN_raid_state_33 = {
+		icon = GFX_decision_generic_confiscation
+		state_target = yes
+        targets = { state = 33 }
+        on_map_mode = map_only
+        
+		visible = {
+			controls_state = 218
+			NOT = {
+				controls_state = 33
+			}
+			has_border_war = no
+			has_war = no
+		}
+
+		fire_only_once = no
+		cost = 75
+		days_re_enable = 200
+
+		complete_effect = {
+			33 = {
+				damage_building = {
+ 					type = infrastructure
+  					damage = 0.5
+				}
+			}
+			
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				set_variable = { var_currently_raiding = 1 }
+				country_event = {
+					id = BUN_borderwars.1
+					days = 35
+					random_hours = 24
+				}
+			}
+
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 218
+					num_provinces = 1
+					on_win = YFC_borderwars.1
+					on_lose = YFC_borderwars.2
+					modifier = 0.5
+     				terrain_factor = 0.5
+				}	
+				defender = {
+					state = 33
+					num_provinces = 1
+					on_win = YFC_borderwars.3
+					on_lose = BUN_borderwars.5
+					dig_in_factor = 2
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_political_power > 75
+			}
+			modifier = {
+				add = -10
+				AND = {
+					33 = {controller = {is_ai = no}}
+					33 = {controller = {has_war = yes}}
+				}
+			}
 		}
 	}
 
@@ -384,7 +494,7 @@ decision_BUN_raids_category = {
 
 		fire_only_once = no
 		cost = 75
-		days_re_enable = 180
+		days_re_enable = 200
 
 		complete_effect = {
 			178 = {
@@ -432,6 +542,13 @@ decision_BUN_raids_category = {
 				add = 10
 				has_political_power > 75
 			}
-		}
+			modifier = {
+				add = -10
+				AND = {
+					178 = {controller = {is_ai = no}}
+					178 = {controller = {has_war = yes}}
+				}
+			}
+		}		
 	}
 }
