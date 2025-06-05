@@ -1,4 +1,5 @@
 add_namespace = bfdinews
+add_namespace = bfdinews_cities
 
 news_event = {
 	id = bfdinews.1
@@ -566,5 +567,300 @@ news_event = {
 				}
 			}
 		}
+	}
+}
+
+#City Fall events#
+
+news_event = {
+	#Greenport
+	id = bfdinews_cities.1
+	title = bfdinews_cities.1.t
+	desc = bfdinews_cities.1.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			GPR = {controls_province = 1891}
+		}	
+		193 = { is_owned_by = GPR }
+		NOT = { has_global_flag = fall_of_greenport }
+		GPR = {has_war = yes}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_greenport
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.1.a
+		trigger = {
+			NOT = {TAG = GPR}
+			NOT = {controls_province = 1891}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.1.b
+		trigger = {
+			TAG = GPR
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.1.c
+		trigger = {
+			controls_province = 1891
+			NOT = {TAG = GPR}
+        }
+	}
+}
+
+news_event = {
+	#Podgornyv
+	id = bfdinews_cities.2
+	title = bfdinews_cities.2.t
+	desc = bfdinews_cities.2.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			BUN = {controls_province = 5679}
+		}	
+		85 = { is_owned_by = BUN }
+		NOT = { has_global_flag = fall_of_podgornyv }
+		BUN = {has_war = yes}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_podgornyv
+		hidden_effect = {
+			85 = {
+				create_unit = {
+					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.15 start_experience_factor = 0.1"
+					owner = BUN
+					count = 1
+					allow_spawning_on_enemy_provs = no
+					prioritize_location = 4872
+					id = 10
+				}
+				create_unit = {
+					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.15 start_experience_factor = 0.1"
+					owner = BUN
+					count = 1
+					allow_spawning_on_enemy_provs = no
+					prioritize_location = 11195
+					id = 11
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.2.a
+		trigger = {
+			NOT = {TAG = BUN}
+			NOT = {controls_province = 5679}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.2.b
+		trigger = {
+			TAG = BUN
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.2.c
+		trigger = {
+			controls_province = 5679
+			NOT = {TAG = BUN}
+        }
+	}
+}
+
+news_event = {
+	#North-Goikyland
+	id = bfdinews_cities.3
+	title = bfdinews_cities.3.t
+	desc = bfdinews_cities.3.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			WGF = {controls_province = 2533}
+		}	
+		177 = { is_owned_by = WGF }
+		NOT = { has_global_flag = fall_of_northgoikyland }
+		WGF = {has_war = yes}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_northgoikyland
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.3.a
+		trigger = {
+			NOT = {TAG = WGF}
+			NOT = {controls_province = 2533}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.3.b
+		trigger = {
+			TAG = WGF
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.3.c
+		trigger = {
+			controls_province = 2533
+			NOT = {TAG = WGF}
+        }
+	}
+}
+
+news_event = {
+	#Cary
+	id = bfdinews_cities.4
+	title = bfdinews_cities.4.t
+	desc = bfdinews_cities.4.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			GMD = {controls_province = 5824}
+		}	
+		173 = { is_owned_by = GMD }
+		NOT = { has_global_flag = fall_of_cary}
+		GMD = {has_war = yes}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_cary
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.4.a
+		trigger = {
+			NOT = {TAG = GMD}
+			NOT = {controls_province = 5824}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.4.b
+		trigger = {
+			TAG = GMD
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.4.c
+		trigger = {
+			controls_province = 5824
+			NOT = {TAG = GMD}
+        }
+	}
+}
+
+news_event = {
+	#Gorge Town
+	id = bfdinews_cities.5
+	title = bfdinews_cities.5.t
+	desc = bfdinews_cities.5.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			FFT = {controls_province = 711}
+		}	
+		169 = { is_owned_by = FFT }
+		NOT = { has_global_flag = fall_of_gorgetown}
+		FFT = {has_war = yes}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_gorgetown
+		hidden_effect = {
+			169 = {
+				damage_building = {
+ 					type = infrastructure
+  					damage = 3
+				}
+				add_manpower = -1672
+				set_victory_points = {
+					province = 711
+					value = 5
+				}
+				set_province_name = { id = 711 name = "Burned Gorge Town" }
+				add_compliance = -10
+				add_resistance_target = 35
+				add_resistance = 10
+			}
+
+		}
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.5.a
+		trigger = {
+			NOT = {TAG = FFT}
+			NOT = {controls_province = 711}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.5.b
+		trigger = {
+			TAG = FFT
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.5.c
+		trigger = {
+			controls_province = 711
+			NOT = {TAG = FFT}
+        }
 	}
 }

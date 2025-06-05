@@ -615,4 +615,8 @@ SpriteTypes = {
 		name = GFX_bfdinews25
 		texturefile = gfx/event_pictures/bfdinews25.dds
 	}
+	spriteType = {
+		name = GFX_bfdinews_city
+		texturefile = gfx/event_pictures/bfdinews_city.dds
+	}
 }

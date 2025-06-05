@@ -666,7 +666,7 @@
  YFC_borderwars.4.a: "We can't let this happen again."
 
 
- #NEWS
+#NEWS
  bfdinews.1.t: "Firey won Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."
  bfdinews.1.a: "Hate is popularity too."
@@ -777,4 +777,36 @@
  bfdinews.26.desc: "Reports have flooded in that forces under the Yellow Face Corporation have crossed the de facto border and entered into lands controlled by bandits! A correspondent from the corporation has reported that ‘the socialist bandits’ will be removed from the lands in ‘clearing operations’. Meanwhile discussions have entered the Numismatian government about also joining these operations. For now, it’s unclear who will win, but believed that the unorganized bandits will lose out in a protracted war."
  bfdinews.26.a: "Eyes on the prize."
  bfdinews.26.b: "How dare they!"
- bfdinews.26.c: "Interesting times…"
+ bfdinews.26.c: "Interesting times..."
+
+#City fall events
+
+ bfdinews_cities.1.t: "GREENPORT OVERRUN!"
+ bfdinews_cities.1.desc: "As of [GetDateText] reports from local civilians living inside Greenport, an important center of trade, have fallen under [193.controller.GetName] control. The invading forces went street by street clearing out the city and its defenders. The final stand of the defenders came around the port, where boats evacuated civilians, soldiers, and the government before being overrun. The sounds of battle have ended in the city, but a new flag has risen."
+ bfdinews_cities.1.a: "An Alliance, broken."
+ bfdinews_cities.1.b: "Matchy what did you do!?"
+ bfdinews_cities.1.c: "Divided they fall!"
+
+ bfdinews_cities.2.t: "FALL OF PODGORNYV!"
+ bfdinews_cities.2.desc: "The [85.controller.GetName] government reported that on[GetDateText], local bandit forces fled the town of Podgornyv after a small engagement. Bandits had rallied to stop the invaders, but after a few engagements the bandits were disorganized to defend Podgornyv. The attackers entered the town and after a few hours, took control. Key Bandit leaders have been reported missing, but stated that the war is not over. Regardless, the loss of the major town has a major effect on the course of the war."
+ bfdinews_cities.2.a: "The Pillagers were pillaged..."
+ bfdinews_cities.2.b: "There is an emergency button right?"
+ bfdinews_cities.2.c: "Down with the Bandits!"
+
+ bfdinews_cities.3.t: "FALL OF NORTH-GOIKYLAND!"
+ bfdinews_cities.3.desc: "While gunfire is still ringing out inside the North-Goikyland, the flag of [177.controller.GetName] has now been raised over the main government building. The socialist forces, led by Firey, had been pushed into the city after defeats in battle. With the outer defence line broken, fighting entered the streets. The defenders fought house by house to blunt the attacker's advances. Despite all efforts,[GetDateText] is the believed time where over 95% of the city is in the attacker's hands. Firey’s whereabouts are still unknown."
+ bfdinews_cities.3.a: "The flame is dying..."
+ bfdinews_cities.3.b: "*Internal and external screaming*"
+ bfdinews_cities.3.c: "The flames have been stomped!"
+
+ bfdinews_cities.4.t: "CARY SEIZED!"
+ bfdinews_cities.4.desc: "Cary, the center of Coiny’s dictatorship, has been taken by forces under [173.controller.GetName]. With the battle soon to arrive after defeats near the city, the defenders prepared by setting up barricades, trenches, and obstacles to stop the invader’s advance. The street battle proved fierce, as much of the city was destroyed in the fighting. The defenders slowly lost ground and were soon pushed into small pockets of resistance. With the main being around the military HQ that surprisingly held Coiny. At[GetDateText], Coiny ordered the remnants of a once great army to surrender. The streets are now fairly quiet, but a new emotion is felt in the ruined city."
+ bfdinews_cities.4.a: "Such a way to end..."
+ bfdinews_cities.4.b: "At least the bloodshed ends..."
+ bfdinews_cities.4.c: "Merely a paper tiger..."
+
+ bfdinews_cities.5.t: "GORGE TOWN RAZED!"
+ bfdinews_cities.5.desc: "Panic reports have arrived that not only was Gorge Town taken by [169.controller.GetName] forces, but were also set on fire on[GetDateText]. The town was the center of Snowy Anarchists and the objects prepared for a defence. As the invaders entered the town, they were attacked by defenders using guerrilla warfare and ambushes. The attackers advanced slowly, clearing each house and each room. The attack took so long that the attackers opted to set the town on fire and also committed a series of murders on civilians. Both defenders and civilians evacuated the burning town. The fires have long since stopped, but the burns are still felt."
+ bfdinews_cities.5.a: "Poor Objects..."
+ bfdinews_cities.5.b: "Our Freedom is not yet lost!"
+ bfdinews_cities.5.c: "We can claim excuses..."

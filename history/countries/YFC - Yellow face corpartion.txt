@@ -38,6 +38,10 @@ set_popularities = {
 	neutrality = 78
 	communism = 6
 }
+
+set_variable = { var_currently_raiding_YFC = 0 }
+set_variable = { var_progress_raids_15 = 0 }
+
 recruit_character = YFC_yellow_face
 recruit_character = YFC_lewis
 recruit_character = YFC_david

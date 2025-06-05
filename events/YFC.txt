@@ -117,6 +117,12 @@ country_event = {
 			amount = 500
 		}
 		add_war_support = 0.02
+		hidden_effect = {
+			85 = {add_compliance = 15}
+			212 = {add_compliance = 15}
+			217 = {add_compliance = 30}
+			218 = {add_compliance = 30}
+		}
 	}
 }
 
