@@ -33,6 +33,20 @@ on_actions = {
 						random_hours = 12
 					}
 				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_cary}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.4
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_cary
+				}
 				set_global_flag = cap_coiny
 			}
 			else_if = {
@@ -41,6 +55,20 @@ on_actions = {
 					ROOT = { tag = WGF }
 				}
 				set_global_flag = cap_firey
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_northgoikyland}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.3
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_northgoikyland
+				}
 			}
 			else_if = {
 				limit = {
@@ -67,6 +95,20 @@ on_actions = {
 						id = bfdinews.9
 						days = 2
 					}
+				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_gorgetown}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.5
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_gorgetown
 				}
 			}
 			else_if = {
@@ -104,6 +146,20 @@ on_actions = {
 				limit = {
 					ROOT = { tag = GPR }
 				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_greenport}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.1
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_greenport
+				}
 				set_global_flag = cap_alliance
 			}
 			else_if = {
@@ -118,6 +174,20 @@ on_actions = {
 							ROOT = { tag = BUN }
 						}
 					}
+				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_podgornyv}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.2
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_podgornyv
 				}
 				if = {
 					limit = { BUN = { is_ai = yes } }

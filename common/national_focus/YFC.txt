@@ -527,7 +527,12 @@ focus_tree = {
 						target = YFC
 						transfer_troops = yes
 					} 
+					add_manpower = 5000
 				}
+				201 = {add_compliance = 50}
+				215 = {add_compliance = 50}
+				196 = {add_compliance = 50}
+				216 = {add_compliance = 50}
 			}
 		}
 	}

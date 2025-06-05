@@ -52,7 +52,7 @@ decisions_BFDI_debug = {
 				}
 				add_timed_idea = {
 					idea = idea_debug_battle_royale
-					days = 360
+					days = 450
 				}
 				if = {
 					limit = {

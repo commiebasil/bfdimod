@@ -823,14 +823,14 @@ news_event = {
  					type = infrastructure
   					damage = 3
 				}
-				add_manpower = -1672
+				add_manpower = -2725
 				set_victory_points = {
 					province = 711
 					value = 5
 				}
 				set_province_name = { id = 711 name = "Burned Gorge Town" }
 				add_compliance = -10
-				add_resistance_target = 35
+				add_resistance_target = 30
 				add_resistance = 10
 			}
 

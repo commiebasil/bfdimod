@@ -43,6 +43,9 @@ ideas = {
 		}
 		idea_WGF_coinflip = {
 			picture = WGF_coinflip
+			modifier = {
+				ai_focus_aggressive_factor = 1
+			}
 			targeted_modifier = {
 				tag = GMD
 				attack_bonus_against = 1
