@@ -10,7 +10,7 @@ division_template = {
 	}
 }
 division_template = {
-    name = "Punitive squad"
+    name = "Punitive Squad"
     regiments = {
         cavalry = { x = 0 y = 0 }
 		cavalry = { x = 1 y = 0 }

@@ -1453,4 +1453,9 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_erasers_training"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_erasers_training.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_numismatian_subjugation"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_numismatian_subjugation.dds"
+	}
 }

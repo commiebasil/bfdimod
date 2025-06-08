@@ -19,21 +19,21 @@ division_template = {
 
 units = {
 	division= {
-        name = "1st Revolutionary Division"
+        name = "1st Revolutionary Brigade"
         location = 2533 # North-Goikyland
         division_template = "Revolutionary Brigade"
         start_experience_factor = 0.2
         start_equipment_factor = 0.5
     }
 	division= {
-        name = "2nd Revolutionary Division"
+        name = "2nd Revolutionary Brigade"
         location = 2533 # North-Goikyland
         division_template = "Revolutionary Brigade"
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }
 	division= {
-        name = "3rd Revolutionary Division"
+        name = "3rd Revolutionary Brigade"
         location = 2314 # Yellowfield
         division_template = "Revolutionary Brigade"
         start_experience_factor = 0.14

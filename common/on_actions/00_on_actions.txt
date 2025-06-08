@@ -72,15 +72,41 @@ on_actions = {
 			}
 			else_if = {
 				limit = {
-					FROM = { tag = SGD }
 					ROOT = { tag = AGG }
+				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_faraway}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.6
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_faraway
 				}
 				set_global_flag = cap_icy
 			}
 			else_if = {
 				limit = {
-					FROM = { tag = AGG }
 					ROOT = { tag = SGD }
+				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_cake}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.7
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_cake
 				}
 				set_global_flag = cap_flower
 			}

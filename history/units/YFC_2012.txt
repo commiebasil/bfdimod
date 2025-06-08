@@ -8,6 +8,8 @@ division_template = {
         mountaineers = { x = 1 y = 1 }
     }
     is_locked = yes
+    division_cap = 5
+    force_allow_recruiting = yes
 	priority = 2
 }
 
@@ -22,28 +24,28 @@ division_template = {
 
 units = {
 	division= {
-        name = "Brigade Squashy Grapes"
+        name = "Brigade 'Squashy Grapes'"
         location = 166
         division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.8
+        start_experience_factor = 0.7
         start_equipment_factor = 0.98
     }
 	division= {
-        name = "Brigade Squishy Cherries"
+        name = "Brigade 'Squishy Cherries'"
         location = 166
         division_template = "Mercenaries Brigade"
         start_experience_factor = 0.65
         start_equipment_factor = 0.97
     }
 	division= {
-        name = "Brigade Soft Bananas"
+        name = "Brigade 'Soft Bananas'"
         location = 4388 
         division_template = "Mercenaries Brigade"
         start_experience_factor = 0.65
         start_equipment_factor = 0.97
     }
 	division= {
-        name = "Brigade Soothing Apples"
+        name = "Brigade 'Soothing Apples'"
         location = 3655 
         division_template = "Mercenaries Brigade"
         start_experience_factor = 0.65

@@ -646,7 +646,7 @@
  YFC_event.9.a: "Our skill in raiding."
 
  YFC_event.10.t: "Open Air"
- YFC_event.10.desc: "Now, now is the time to begin our raiding efforts! With more objects in both the countryside and cities being ‘hired’ we have the ability to begin our raids. We must now use our raiding to not only survive, but to thrive! We need to steal the resources from our neighbors to gather even more strength, wealth, and power!. Sure, this land will fall into a land of anarchy and banditry, but it is a fair price!"
+ YFC_event.10.desc: "Now... now is the time to begin our raiding efforts! With more objects in both the countryside and cities being ‘hired’ we have the ability to begin our raids. We must now use our raiding to not only survive, but to thrive! We need to steal the resources from our neighbors to gather even more strength, wealth, and power!. Sure, this land will fall into a land of anarchy and banditry, but it is a fair price!"
  YFC_event.10.a: "Onwards!"
 
  YFC_borderwars.1.t: "Success!"
@@ -782,31 +782,43 @@
 #City fall events
 
  bfdinews_cities.1.t: "GREENPORT OVERRUN!"
- bfdinews_cities.1.desc: "As of [GetDateText] reports from local civilians living inside Greenport, an important center of trade, have fallen under [193.controller.GetName] control. The invading forces went street by street clearing out the city and its defenders. The final stand of the defenders came around the port, where boats evacuated civilians, soldiers, and the government before being overrun. The sounds of battle have ended in the city, but a new flag has risen."
+ bfdinews_cities.1.desc: "As of [?global.date.GetDateStringNoHourLong] reports from local civilians living inside Greenport, an important center of trade, have fallen under [193.controller.GetName] control. The invading forces went street by street clearing out the city and its defenders. The final stand of the defenders came around the port, where boats evacuated civilians, soldiers, and the government before being overrun. The sounds of battle have ended in the city, but a new flag has risen."
  bfdinews_cities.1.a: "An Alliance, broken."
  bfdinews_cities.1.b: "Matchy what did you do!?"
  bfdinews_cities.1.c: "Divided they fall!"
 
  bfdinews_cities.2.t: "FALL OF PODGORNYV!"
- bfdinews_cities.2.desc: "The [85.controller.GetName] government reported that on[GetDateText], local bandit forces fled the town of Podgornyv after a small engagement. Bandits had rallied to stop the invaders, but after a few engagements the bandits were disorganized to defend Podgornyv. The attackers entered the town and after a few hours, took control. Key Bandit leaders have been reported missing, but stated that the war is not over. Regardless, the loss of the major town has a major effect on the course of the war."
+ bfdinews_cities.2.desc: "The [85.controller.GetName] government reported that on [?global.date.GetDateStringNoHourLong], local bandit forces fled the town of Podgornyv after a small engagement. Bandits had rallied to stop the invaders, but after a few engagements the bandits were disorganized to defend Podgornyv. The attackers entered the town and after a few hours, took control. Key Bandit leaders have been reported missing, but stated that the war is not over. Regardless, the loss of the major town has a major effect on the course of the war."
  bfdinews_cities.2.a: "The Pillagers were pillaged..."
  bfdinews_cities.2.b: "There is an emergency button right?"
  bfdinews_cities.2.c: "Down with the Bandits!"
 
  bfdinews_cities.3.t: "FALL OF NORTH-GOIKYLAND!"
- bfdinews_cities.3.desc: "While gunfire is still ringing out inside the North-Goikyland, the flag of [177.controller.GetName] has now been raised over the main government building. The socialist forces, led by Firey, had been pushed into the city after defeats in battle. With the outer defence line broken, fighting entered the streets. The defenders fought house by house to blunt the attacker's advances. Despite all efforts,[GetDateText] is the believed time where over 95% of the city is in the attacker's hands. Firey’s whereabouts are still unknown."
+ bfdinews_cities.3.desc: "While gunfire is still ringing out inside the North-Goikyland, the flag of [177.controller.GetName] has now been raised over the main government building. The socialist forces, led by Firey, had been pushed into the city after defeats in battle. With the outer defence line broken, fighting entered the streets. The defenders fought house by house to blunt the attacker's advances. Despite all efforts, [?global.date.GetDateStringNoHourLong] is the believed time where over 95% of the city is in the attacker's hands. Firey’s whereabouts are still unknown."
  bfdinews_cities.3.a: "The flame is dying..."
  bfdinews_cities.3.b: "*Internal and external screaming*"
  bfdinews_cities.3.c: "The flames have been stomped!"
 
  bfdinews_cities.4.t: "CARY SEIZED!"
- bfdinews_cities.4.desc: "Cary, the center of Coiny’s dictatorship, has been taken by forces under [173.controller.GetName]. With the battle soon to arrive after defeats near the city, the defenders prepared by setting up barricades, trenches, and obstacles to stop the invader’s advance. The street battle proved fierce, as much of the city was destroyed in the fighting. The defenders slowly lost ground and were soon pushed into small pockets of resistance. With the main being around the military HQ that surprisingly held Coiny. At[GetDateText], Coiny ordered the remnants of a once great army to surrender. The streets are now fairly quiet, but a new emotion is felt in the ruined city."
+ bfdinews_cities.4.desc: "Cary, the center of Coiny’s dictatorship, has been taken by forces under the [173.controller.GetName]. With the battle soon to arrive after defeats near the city, the defenders prepared by setting up barricades, trenches, and obstacles to stop the invader’s advance. The street battle proved fierce, as much of the city was destroyed in the fighting. The defenders slowly lost ground and were soon pushed into small pockets of resistance. With the main being around the military HQ that surprisingly held Coiny. At[GetDateText], Coiny ordered the remnants of a once great army to surrender. The streets are now fairly quiet, but a new emotion is felt in the ruined city."
  bfdinews_cities.4.a: "Such a way to end..."
  bfdinews_cities.4.b: "At least the bloodshed ends..."
  bfdinews_cities.4.c: "Merely a paper tiger..."
 
  bfdinews_cities.5.t: "GORGE TOWN RAZED!"
- bfdinews_cities.5.desc: "Panic reports have arrived that not only was Gorge Town taken by [169.controller.GetName] forces, but were also set on fire on[GetDateText]. The town was the center of Snowy Anarchists and the objects prepared for a defence. As the invaders entered the town, they were attacked by defenders using guerrilla warfare and ambushes. The attackers advanced slowly, clearing each house and each room. The attack took so long that the attackers opted to set the town on fire and also committed a series of murders on civilians. Both defenders and civilians evacuated the burning town. The fires have long since stopped, but the burns are still felt."
+ bfdinews_cities.5.desc: "Panic reports have arrived that not only was Gorge Town taken by [169.controller.GetName] forces, but were also set on fire on [?global.date.GetDateStringNoHourLong]. The town was the center of Snowy Anarchists and the objects prepared for a defence. As the invaders entered the town, they were attacked by defenders using guerrilla warfare and ambushes. The attackers advanced slowly, clearing each house and each room. The attack took so long that the attackers opted to set the town on fire and also committed a series of murders on civilians. Both defenders and civilians evacuated the burning town. The fires have long since stopped, but the burns are still felt."
  bfdinews_cities.5.a: "Poor Objects..."
  bfdinews_cities.5.b: "Our Freedom is not yet lost!"
  bfdinews_cities.5.c: "We can claim excuses..."
+
+ bfdinews_cities.6.t: "COLLAPSE OF FARAWAY!"
+ bfdinews_cities.6.desc: "Fighting both around and inside Faraway has been reported to cease as either the defenders fled or were defeated by the [183.controller.GetName] government. Ice Cube, leading the ‘revenge’ like government, had rallied the defenders and civilians to fight over every street, house, and room over the city. This led to confusing battles where soldiers and civilians fought over the ruined streets. The most heated engagement came around the government building where it was blown to pieces by the invading attackers. Ice Cube is reported to have fled before the fall of the government building around [?global.date.GetDateStringNoHourLong], citing that ‘revenge will come’. As of now, ash and debris still fill the hollow streets."
+ bfdinews_cities.6.a: "Revenge against the Revenger..."
+ bfdinews_cities.6.b: "I want more revenge!"
+ bfdinews_cities.6.c: "Best served cold!"
+
+ bfdinews_cities.7.t: "CAKE STAKED!"
+ bfdinews_cities.7.desc: "Our reporter on the ground has reported that the city that held Cake at Stake when BFDI was still running, led by Robot Flower, has fallen to the advance of soldiers under the [175.controller.GetName]. The government had tried to reinforce the defences, but low morale had plagued the defenders. As the battle started on the outskirts, the Directorate, led by Robot Flower, fled the city. With this fleeing of the government, morale collapsed in the defenders and most of the city was taken without a fight. The final stand of the remaining defenders came around the Army HQ, where they managed to hold for days before surrendering on [?global.date.GetDateStringNoHourLong]. The Directorate has not stated anything after the fall of the capital, but the silence of a new way of life is felt inside the city."
+ bfdinews_cities.7.a: "No Cake for them it seems..."
+ bfdinews_cities.7.b: "How dare they give up so quickly?!"
+ bfdinews_cities.7.c: "Run like cowards!"

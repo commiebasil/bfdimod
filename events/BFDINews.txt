@@ -864,3 +864,105 @@ news_event = {
         }
 	}
 }
+
+news_event = {
+	#Faraway
+	id = bfdinews_cities.6
+	title = bfdinews_cities.6.t
+	desc = bfdinews_cities.6.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			AGG = {controls_province = 11304}
+		}	
+		183 = { is_owned_by = AGG }
+		NOT = { has_global_flag = fall_of_faraway}
+		AGG = {has_war = yes}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_faraway
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.6.a
+		trigger = {
+			NOT = {TAG = AGG}
+			NOT = {controls_province = 11304}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.6.b
+		trigger = {
+			TAG = AGG
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.6.c
+		trigger = {
+			controls_province = 11304
+			NOT = {TAG = AGG}
+        }
+	}
+}
+
+news_event = {
+	#CakeAtStakePlace
+	id = bfdinews_cities.7
+	title = bfdinews_cities.7.t
+	desc = bfdinews_cities.7.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			SGD = {controls_province = 3110}
+		}	
+		175 = { is_owned_by = SGD }
+		NOT = { has_global_flag = fall_of_cake}
+		SGD = {has_war = yes}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_cake
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.7.a
+		trigger = {
+			NOT = {TAG = SGD}
+			NOT = {controls_province = 3110}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.7.b
+		trigger = {
+			TAG = SGD
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.7.c
+		trigger = {
+			controls_province = 3110
+			NOT = {TAG = SGD}
+        }
+	}
+}
