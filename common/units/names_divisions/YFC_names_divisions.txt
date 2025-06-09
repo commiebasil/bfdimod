@@ -1,0 +1,102 @@
+YFC_Mou_01 = {
+	name = "Mercenary Brigades"
+
+	for_countries = { YFC }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	fallback_name = "%d Brigade"
+
+	ordered = {
+		1 = { "%dst Brigade 'Squashy Grapes'" }
+		2 = { "%dnd Brigade 'Squishy Cherries'" }
+		3 = { "%drd Brigade 'Soft Bananas'" }
+        4 = { "%dth Brigade 'Soothing Apples'" }
+        5 = { "%dth Brigade 'Spongy Avocados'" }
+        6 = { "%dth Brigade 'Springy Carrots'" }
+        7 = { "%dth Brigade 'Stretchy Broccoli'" }
+        8 = { "%dth Brigade 'Supple Cabbages'" }
+        9 = { "%dth Brigade 'Slender Eggplants'" }
+        10 = { "%dth Brigade 'Slim Pumpkins'" }
+	}
+}
+
+YFC_Mou_02 = {
+	#Used when BUN annexs YFC
+	name = "Mercenary Brigades"
+
+	for_countries = { YFC BUN }
+
+	can_use = { 
+		YFC = {is_ai = yes}
+		YFC = {has_completed_focus = YFC_focus_closer_integration}
+	}
+
+	division_types = { "mountaineers" }
+
+	fallback_name = "%d Brigade"
+
+	ordered = {
+		1 = { "%dst Brigade 'Squashy Grapes'" }
+		2 = { "%dnd Brigade 'Squishy Cherries'" }
+		3 = { "%drd Brigade 'Soft Bananas'" }
+        4 = { "%dth Brigade 'Soothing Apples'" }
+        5 = { "%dth Brigade 'Spongy Avocados'" }
+        6 = { "%dth Brigade 'Springy Carrots'" }
+        7 = { "%dth Brigade 'Stretchy Broccoli'" }
+        8 = { "%dth Brigade 'Supple Cabbages'" }
+        9 = { "%dth Brigade 'Slender Eggplants'" }
+        10 = { "%dth Brigade 'Slim Pumpkins'" }
+	}
+}
+
+YFC_Cav_01 = {
+	name = "Cavalry Guards"
+
+	for_countries = { YFC }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d Guards"
+
+	ordered = {
+		1 = { "%dst Border Guards" }
+		2 = { "%dnd Border Guards" }
+		3 = { "%drd ‘Footpathburg’ Guards" }
+        4 = { "%dth ‘Peoniele’ Guards" }
+        5 = { "%dth ‘Yoyleton’ Guards" }
+	}
+}
+
+YFC_Inf_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { YFC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Division"
+	ordered = {
+		1 = { "%dst Division" }
+		2 = { "%dnd Division" }
+		3 = { "%drd Division" }
+		4 = { "%dth Division" }
+		5 = { "%dth Division" }
+		6 = { "%dth Division" }
+		7 = { "%dth Division" }
+		8 = { "%dth Division" }
+		9 = { "%dth Division" }
+		10 = { "%dth Division" }
+		11 = { "%dth Division" }
+		12 = { "%dth Division" }
+		13 = { "%dth Division" }
+		14 = { "%dth Division" }
+		15 = { "%dth Division" }
+	}
+}

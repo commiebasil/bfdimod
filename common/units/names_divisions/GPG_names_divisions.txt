@@ -1,0 +1,79 @@
+GPG_Inf_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { GPG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Armed Division"
+	ordered = {
+		1 = { "%dst State Patrol" }
+		2 = { "%dnd State Patrol" }
+		3 = { "%drd State Patrol" }
+		4 = { "%dth State Patrol" }
+		5 = { "%dth Casland Patrol" }
+		6 = { "%dth Armed Division" }
+		7 = { "%dth Armed Division" }
+		8 = { "%dth Armed Division" }
+		9 = { "%dth Armed Division" }
+		10 = { "%dth Armed Division" }
+		11 = { "%dth Armed Division" }
+		12 = { "%dth Armed Division" }
+		13 = { "%dth Armed Division" }
+		14 = { "%dth Armed Division" }
+		15 = { "%dth Armed Division" }
+		16 = { "%dth Armed Division" }
+		17 = { "%dth Armed Division" }
+		18 = { "%dth Armed Division" }
+		19 = { "%dth Armed Division" }
+		20 = { "%dth Armed Division" }
+		21 = { "%dst Armed Division" }
+		22 = { "%dnd Armed Division" }
+		23 = { "%drd Armed Division" }
+		24 = { "%dth Armed Division" }
+		25 = { "%dth Armed Division" }
+		26 = { "%dth Armed Division" }
+		27 = { "%dth Armed Division" }
+		28 = { "%dth Armed Division" }
+		29 = { "%dth Armed Division" }
+		30 = { "%dth Armed Division" }
+	}
+}
+
+GPG_Cav_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { GPG }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry"  }
+
+	fallback_name = "%d Mounted Infantry"
+
+	ordered = {
+		1 = { "%dst Casland Cavalry" }
+		2 = { "%dnd Recharnd Cavalry" }
+		3 = { "%drd Greenmine Cavalry" }
+		4 = { "%dth Plainy Cavalry" }
+		5 = { "%dth Mounted Infantry" }
+		6 = { "%dth Mounted Infantry" }
+		7 = { "%dth Mounted Infantry" }
+		8 = { "%dth Mounted Infantry" }
+		9 = { "%dth Mounted Infantry" }
+		10 = { "%dth Mounted Infantry" }
+		11 = { "%dth Mounted Infantry" }
+		12 = { "%dth Mounted Infantry" }
+		13 = { "%dth Mounted Infantry" }
+		14 = { "%dth Mounted Infantry" }
+		15 = { "%dth Mounted Infantry" }
+		16 = { "%dth Mounted Infantry" }
+		17 = { "%dth Mounted Infantry" }
+		18 = { "%dth Mounted Infantry" }
+		19 = { "%dth Mounted Infantry" }
+		20 = { "%dth Mounted Infantry" }
+	}
+}
+	

@@ -966,3 +966,227 @@ news_event = {
         }
 	}
 }
+
+news_event = {
+	#Casland - GPG
+	id = bfdinews_cities.8
+	title = bfdinews_cities.8.t
+	desc = bfdinews_cities.8.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			GPG = {controls_province = 1061}
+		}	
+		206 = { is_owned_by = GPG }
+		NOT = { has_global_flag = fall_of_casland_GPG}
+		GPG = {has_war = yes}
+		AND = {
+			NOT = {country_exists = GSR}
+			NOT = {country_exists = GDR}
+			NOT = {country_exists = GFG}
+		}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_casland_GPG
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.8.a
+		trigger = {
+			NOT = {TAG = GPG}
+			NOT = {controls_province = 1061}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.8.b
+		trigger = {
+			TAG = GPG
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.8.c
+		trigger = {
+			controls_province = 1061
+			NOT = {TAG = GPG}
+        }
+	}
+}
+
+news_event = {
+	#Casland - GSR
+	id = bfdinews_cities.9
+	title = bfdinews_cities.9.t
+	desc = bfdinews_cities.9.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			GSR = {controls_province = 1061}
+		}	
+		206 = { is_owned_by = GSR }
+		NOT = { has_global_flag = fall_of_casland_GSR}
+		GSR = {has_war = yes}
+		AND = {
+			NOT = {country_exists = GPG}
+			NOT = {country_exists = GDR}
+			NOT = {country_exists = GFG}
+		}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_casland_GSR
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.9.a
+		trigger = {
+			NOT = {TAG = GSR}
+			NOT = {controls_province = 1061}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.9.b
+		trigger = {
+			TAG = GSR
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.9.c
+		trigger = {
+			controls_province = 1061
+			NOT = {TAG = GSR}
+        }
+	}
+}
+
+news_event = {
+	#Casland - GFG
+	id = bfdinews_cities.10
+	title = bfdinews_cities.10.t
+	desc = bfdinews_cities.10.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			GFG = {controls_province = 1061}
+		}	
+		206 = { is_owned_by = GFG }
+		NOT = { has_global_flag = fall_of_casland_GFG}
+		GFG = {has_war = yes}
+		AND = {
+			NOT = {country_exists = GPG}
+			NOT = {country_exists = GDR}
+			NOT = {country_exists = GSR}
+		}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_casland_GFG
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.10.a
+		trigger = {
+			NOT = {TAG = GFG}
+			NOT = {controls_province = 1061}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.10.b
+		trigger = {
+			TAG = GFG
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.10.c
+		trigger = {
+			controls_province = 1061
+			NOT = {TAG = GFG}
+        }
+	}
+}
+
+news_event = {
+	#Casland - GDR
+	id = bfdinews_cities.11
+	title = bfdinews_cities.11.t
+	desc = bfdinews_cities.11.desc
+	picture = GFX_bfdinews_city
+	
+	major = yes
+	minor_flavor = yes	
+	
+	trigger = {
+		NOT = {
+			GDR = {controls_province = 1061}
+		}	
+		206 = { is_owned_by = GDR }
+		NOT = { has_global_flag = fall_of_casland_GDR}
+		GDR = {has_war = yes}
+		AND = {
+			NOT = {country_exists = GPG}
+			NOT = {country_exists = GFG}
+			NOT = {country_exists = GSR}
+		}
+	}
+
+	immediate = {
+		set_global_flag = fall_of_casland_GDR
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = bfdinews_cities.11.a
+		trigger = {
+			NOT = {TAG = GDR}
+			NOT = {controls_province = 1061}
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.11.b
+		trigger = {
+			TAG = GDR
+        }
+	}
+
+	option = {
+		name = bfdinews_cities.11.c
+		trigger = {
+			controls_province = 1061
+			NOT = {TAG = GDR}
+        }
+	}
+}

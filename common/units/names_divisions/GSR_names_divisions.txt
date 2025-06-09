@@ -1,0 +1,81 @@
+GSR_Inf_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { GSR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Objects Division"
+	ordered = {
+		1 = { "%dst Workers Division" }
+		2 = { "%dnd Miners Division" }
+		3 = { "%drd Anarchists Division" }
+		4 = { "%dth Farmers Division" }
+		5 = { "%dth Militia Division" }
+		6 = { "%dth Farmers Division" }
+		7 = { "%dth Workers Division" }
+		8 = { "%dth Anarchists Division" }
+		9 = { "%dth Anarchists Division" }
+		10 = { "%dth Workers Division" }
+		11 = { "%dth Anarchists Division" }
+		12 = { "%dth Peasants Division" }
+		13 = { "%dth Objects Division" }
+		14 = { "%dth Objects Division" }
+		15 = { "%dth Objects Division" }
+		16 = { "%dth Objects Division" }
+		17 = { "%dth Objects Division" }
+		18 = { "%dth Objects Division" }
+		19 = { "%dth Objects Division" }
+		20 = { "%dth Objects Division" }
+		21 = { "%dst Objects Division" }
+		22 = { "%dnd Objects Division" }
+		23 = { "%drd Objects Division" }
+		24 = { "%dth Objects Division" }
+		25 = { "%dth Objects Division" }
+		26 = { "%dth Objects Division" }
+		27 = { "%dth Objects Division" }
+		28 = { "%dth Objects Division" }
+		29 = { "%dth Objects Division" }
+		30 = { "%dth Objects Division" }
+	}
+}
+
+GSR_Cav_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { GSR }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry"  }
+
+	fallback_name = "%d Objects Cavalry"
+
+	ordered = {
+		1 = { "Free Riders" }
+		2 = { "United Riders" }
+		3 = { "Red Riders" }
+		4 = { "%dth Objects Cavalry" }
+		5 = { "%dth Objects Cavalry" }
+		6 = { "%dth Objects Cavalry" }
+		7 = { "%dth Objects Cavalry" }
+		8 = { "%dth Objects Cavalry" }
+		9 = { "%dth Objects Cavalry" }
+		10 = { "%dth Objects Cavalry" }
+		11 = { "%dth Objects Cavalry" }
+		12 = { "%dth Objects Cavalry" }
+		13 = { "%dth Objects Cavalry" }
+		14 = { "%dth Objects Cavalry" }
+		15 = { "%dth Objects Cavalry" }
+		16 = { "%dth Objects Cavalry" }
+		17 = { "%dth Objects Cavalry" }
+		18 = { "%dth Objects Cavalry" }
+		19 = { "%dth Objects Cavalry" }
+		20 = { "%dth Objects Cavalry" }
+	}
+}
+
+
+	

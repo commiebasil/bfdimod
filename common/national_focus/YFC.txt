@@ -136,6 +136,10 @@ focus_tree = {
 				}	
 			}	
 		}
+
+		ai_will_do = {
+			base = 10
+		}
 	}
 
 	focus = {
@@ -238,6 +242,14 @@ focus_tree = {
 			}
 			mark_focus_tree_layout_dirty = yes
 		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				factor = 5
+				random = {chance = 70}
+			}
+		}
 	}
 
 	focus = {
@@ -280,6 +292,10 @@ focus_tree = {
 				}
 			}
 			add_manpower = 3000
+		}
+
+		ai_will_do = {
+			base = 10
 		}
 	}
 
@@ -392,6 +408,10 @@ focus_tree = {
 				}
 				add_threat = 1
 			}
+		}
+
+		ai_will_do = {
+			base = 10
 		}
 	}
 

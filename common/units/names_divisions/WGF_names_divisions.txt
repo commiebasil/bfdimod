@@ -1,0 +1,54 @@
+WGF_INF_01 = {
+	name = "Rifle Brigades"
+
+	for_countries = { WGF }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%dya Revolutionary Brigade"
+
+	ordered = {
+		1 = { "%dya 'North-Goikyland' Brigade" }
+		2 = { "%dya 'Free' Brigade" }
+		3 = { "%dya 'Yellowfield' Brigade" }
+		4 = { "%dya 'People’s' Brigade" }
+		5 = { "%dya 'Fire' Brigade" }
+		6 = { "%dya 'United' Brigade" }
+		7 = { "%dya 'Warm' Brigade" }
+		8 = { "%dya 'Slappers' Brigade" }
+		9 = { "%dya 'Workers' Brigade" }
+		10 = { "%dya 'Flame' Brigade" }
+		11 = { "%dya 'Farmers' Brigade" }
+		12 = { "%dya 'Socialist' Brigade" }
+		13 = { "%dya 'Objects' Brigade" }
+		14 = { "%dya 'Armless' Brigade" }
+		15 = { "%dya 'Burn' Brigade" }
+		16 = { "%dya 'Red' Brigade" }
+		17 = { "%dya 'Hammer' Brigade" }
+		18 = { "%dya 'Sickle' Brigade" }
+		19 = { "%dya 'Guards' Brigade" }
+		20 = { "%dya 'Embers' Brigade" }
+	}
+}
+
+WGF_Cav_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { WGF }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry"  }
+
+	fallback_name = "%dya Cavalry"
+
+	ordered = {
+		1 = { "%dya ‘People’s’ Cavalry" }
+		2 = { "%dya ‘Farmers’ Cavalry" }
+		3 = { "%dya 'Yellow’ Cavalry" }
+		4 = { "%dya Cavalry" }
+		5 = { "%dya Cavalry" }
+	}
+}	

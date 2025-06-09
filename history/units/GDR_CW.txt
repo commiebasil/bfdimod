@@ -1,5 +1,6 @@
 division_template = {
     name = "Volunteer forces"
+    division_names_group = GDR_Inf_01
     regiments = {
         infantry = { x = 0 y = 0 }
 		infantry = { x = 1 y = 0 }
@@ -10,28 +11,40 @@ division_template = {
 
 units = {
 	division= {
-        name = "Volunteer forces"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
         location = 4069 # Communist border
         division_template = "Volunteer forces"
         start_experience_factor = 0.3
         start_equipment_factor = 0.7
     }
 	division= {
-        name = "Volunteer forces"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
         location = 3620 # Casland border
         division_template = "Volunteer forces"
         start_experience_factor = 0.3
         start_equipment_factor = 0.7
     }
 	division= {
-        name = "Volunteer forces"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
         location = 11134 # Communist border
         division_template = "Volunteer forces"
         start_experience_factor = 0.3
         start_equipment_factor = 0.8
     }
 	division= {
-        name = "Volunteer forces"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
         location = 876 # Plainy
         division_template = "Volunteer forces"
         start_experience_factor = 0.2

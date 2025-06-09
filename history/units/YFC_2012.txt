@@ -1,5 +1,6 @@
 division_template = {
     name = "Mercenaries Brigade"
+    division_names_group = YFC_Mou_01
     regiments = {
         mountaineers = { x = 0 y = 0 }
         mountaineers = { x = 0 y = 1 }
@@ -14,7 +15,8 @@ division_template = {
 }
 
 division_template = {
-    name = "People's Militia"
+    name = "Cavalry Guards"
+    division_names_group = YFC_Cav_01
     regiments = {
         cavalry = { x = 0 y = 0 }
         cavalry = { x = 0 y = 1 }
@@ -24,31 +26,43 @@ division_template = {
 
 units = {
 	division= {
-        name = "Brigade 'Squashy Grapes'"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
         location = 166
         division_template = "Mercenaries Brigade"
         start_experience_factor = 0.7
         start_equipment_factor = 0.98
     }
 	division= {
-        name = "Brigade 'Squishy Cherries'"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
         location = 166
         division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.65
+        start_experience_factor = 0.6
         start_equipment_factor = 0.97
     }
 	division= {
-        name = "Brigade 'Soft Bananas'"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
         location = 4388 
         division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.65
+        start_experience_factor = 0.6
         start_equipment_factor = 0.97
     }
 	division= {
-        name = "Brigade 'Soothing Apples'"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
         location = 3655 
         division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.65
+        start_experience_factor = 0.6
         start_equipment_factor = 0.97
     }
 }

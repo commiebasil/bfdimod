@@ -52,7 +52,7 @@ decisions_BFDI_debug = {
 				}
 				add_timed_idea = {
 					idea = idea_debug_battle_royale
-					days = 450
+					days = 500
 				}
 				if = {
 					limit = {
@@ -109,9 +109,9 @@ decisions_BFDI_debug = {
         complete_effect = {	
 			add_timed_idea = {
 				idea = idea_debug_conquest
-				days = 360
+				days = 720
 			}
-			every_country = {
+			every_other_country = {
 				limit = { 
 					NOT = {
 						tag = EMP
@@ -119,6 +119,10 @@ decisions_BFDI_debug = {
 					NOT = {
 						tag = GOI
 					}
+				}
+				add_timed_idea = {
+					idea = idea_debug_battle_royale
+					days = 360
 				}
 				declare_war_on = {
 					target = ROOT

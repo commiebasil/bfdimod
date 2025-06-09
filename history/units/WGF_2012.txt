@@ -1,5 +1,6 @@
 division_template = {
     name = "Revolutionary Brigade"
+    division_names_group = WGF_INF_01
     regiments = {
         infantry = { x = 0 y = 0 }
         infantry = { x = 0 y = 1 }
@@ -9,7 +10,8 @@ division_template = {
 }
 
 division_template = {
-    name = "People's Militia"
+    name = "Red Cavalry"
+    division_names_group = WGF_Cav_01
     regiments = {
         cavalry = { x = 0 y = 0 }
         cavalry = { x = 0 y = 1 }
@@ -19,21 +21,30 @@ division_template = {
 
 units = {
 	division= {
-        name = "1st Revolutionary Brigade"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
         location = 2533 # North-Goikyland
         division_template = "Revolutionary Brigade"
         start_experience_factor = 0.2
         start_equipment_factor = 0.5
     }
 	division= {
-        name = "2nd Revolutionary Brigade"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
         location = 2533 # North-Goikyland
         division_template = "Revolutionary Brigade"
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }
 	division= {
-        name = "3rd Revolutionary Brigade"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
         location = 2314 # Yellowfield
         division_template = "Revolutionary Brigade"
         start_experience_factor = 0.14

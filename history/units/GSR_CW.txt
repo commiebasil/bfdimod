@@ -1,5 +1,6 @@
 division_template = {
-    name = "Revolutionary brigades"
+    name = "Object's Division"
+    division_names_group = GSR_Inf_01
     regiments = {
         infantry = { x = 0 y = 0 }
 		infantry = { x = 1 y = 0 }
@@ -10,37 +11,52 @@ division_template = {
 
 units = {
 	division= {
-        name = "Revolutionary brigade"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
         location = 5107 # Greenmine
-        division_template = "Revolutionary brigades"
+        division_template = "Object's Division"
         start_experience_factor = 0.5
         start_equipment_factor = 0.7
     }
 	division= {
-        name = "Revolutionary brigade"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
         location = 5107 # Greenmine
-        division_template = "Revolutionary brigades"
+        division_template = "Object's Division"
         start_experience_factor = 0.5
         start_equipment_factor = 0.7
     }
 	division= {
-        name = "Revolutionary brigade"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
         location = 11149 # Democratic border
-        division_template = "Revolutionary brigades"
+        division_template = "Object's Division"
         start_experience_factor = 0.5
         start_equipment_factor = 0.7
     }
 	division= {
-        name = "Revolutionary brigade"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
         location = 4548 # Fascist border
-        division_template = "Revolutionary brigades"
+        division_template = "Object's Division"
         start_experience_factor = 0.5
         start_equipment_factor = 0.8
     }
 	division= {
-        name = "Revolutionary brigade"
+        division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
         location = 11188 # Fascist border
-        division_template = "Revolutionary brigades"
+        division_template = "Object's Division"
         start_experience_factor = 0.6
         start_equipment_factor = 0.8
     }

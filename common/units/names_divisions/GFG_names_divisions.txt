@@ -1,0 +1,82 @@
+GFG_Inf_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { GFG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Infantry Division"
+	ordered = {
+		1 = { "%dst Stormtroopers" }
+		2 = { "%dnd Stormtroopers" }
+		3 = { "%drd Stormtroopers" }
+		4 = { "%dth Stormtroopers" }
+		5 = { "%dth Stormtroopers" }
+		6 = { "%dth Stormtroopers" }
+		7 = { "%dth Stormtroopers" }
+		8 = { "%dth Iron Division" }
+		9 = { "%dth Iron Division" }
+		10 = { "%dth Iron Division" }
+		11 = { "%dth Iron Division" }
+		12 = { "%dth Iron Division" }
+		13 = { "%dth Iron Division" }
+		14 = { "%dth Iron Division" }
+		15 = { "%dth Iron Division" }
+		16 = { "%dth Iron Division" }
+		17 = { "%dth Infantry Division" }
+		18 = { "%dth Infantry Division" }
+		19 = { "%dth Infantry Division" }
+		20 = { "%dth Infantry Division" }
+		21 = { "%dst Infantry Division" }
+		22 = { "%dnd Infantry Division" }
+		23 = { "%drd Infantry Division" }
+		24 = { "%dth Infantry Division" }
+		25 = { "%dth Infantry Division" }
+		26 = { "%dth Infantry Division" }
+		27 = { "%dth Infantry Division" }
+		28 = { "%dth Infantry Division" }
+		29 = { "%dth Infantry Division" }
+		30 = { "%dth Infantry Division" }
+	}
+}
+
+GFG_Cav_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { GFG }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d Shock Cavalry"
+
+	ordered = {
+		1 = { “Iron Cavalry" }
+		2 = { “Iron Cavalry" }
+		3 = { "%drd Shock Cavalry" }
+		4 = { "%dth Shock Cavalry" }
+		5 = { "%dth Shock Cavalry" }
+		6 = { "%dth Shock Cavalry" }
+		7 = { "%dth Shock Cavalry" }
+		8 = { "%dth Shock Cavalry" }
+		9 = { "%dth Shock Cavalry" }
+		10 = { "%dth Shock Cavalry" }
+		11 = { "%dth Shock Cavalry" }
+		12 = { "%dth Shock Cavalry" }
+		13 = { "%dth Shock Cavalry" }
+		14 = { "%dth Shock Cavalry" }
+		15 = { "%dth Shock Cavalry" }
+		16 = { "%dth Shock Cavalry" }
+		17 = { "%dth Shock Cavalry" }
+		18 = { "%dth Shock Cavalry" }
+		19 = { "%dth Shock Cavalry" }
+		20 = { "%dth Shock Cavalry" }
+	}
+}
+
+
+
+	

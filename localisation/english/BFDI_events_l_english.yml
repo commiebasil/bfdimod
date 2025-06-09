@@ -822,3 +822,27 @@
  bfdinews_cities.7.a: "No Cake for them it seems..."
  bfdinews_cities.7.b: "How dare they give up so quickly?!"
  bfdinews_cities.7.c: "Run like cowards!"
+
+ bfdinews_cities.8.t: "END OF CASLAND!"
+ bfdinews_cities.8.desc: "Casland, the very heart of Goiky, had been taken by the flag of [206.controller.GetName] on [?global.date.GetDateStringNoHourLong]. [GPG.GetLeader] had held press statements before the battle that the city would be ‘held at all costs’. The defenders had prepared to defend their homes with obstacles, strong points, and traps inside the city. The fighting was fierce and deadly with each house costing more blood to capture. However, the preparations were not enough to withstand the waves of attackers and were soon pushed into only a few key sections of the city. One of the last points to fall was the Recommended Characters Council, where the defenders fought to the very last object. The government itself is nowhere to be seen, but is believed to have fled."
+ bfdinews_cities.8.a: "The very Heart, borken..."
+ bfdinews_cities.8.b: "Being the Heart of Goiky was not enough..."
+ bfdinews_cities.8.c: "The Heart is now ours!"
+
+ bfdinews_cities.9.t: "END OF CASLAND!"
+ bfdinews_cities.9.desc: "Fires still rage in the Casland, the heart of Goiky, as the city has been captured by the invading forces under the [206.controller.GetName] flag. Previous battles have led to this decisive engagement for the heart of Goiky. [GSR.GetLeader] knew this and had gathered a large force of both militia and soldiers for the defence. The fighting became a grinding battle where every part of the city taken by the attackers cost more and more lives to capture. As of [?global.date.GetDateStringNoHourLong], the government fled and only a few pockets remain in the city. The streets are still filled with the determination of a once great nation that is near its end."
+ bfdinews_cities.9.a: "Red banners spilled with blood..."
+ bfdinews_cities.9.b: "The workers can’t fail us now!"
+ bfdinews_cities.9.c: "The Red Heart is ours!"
+
+ bfdinews_cities.10.t: "END OF CASLAND!"
+ bfdinews_cities.10.desc: "The sounds of gunshots still ring in Casland, the heart of Goiky, as fighting is still ongoing. However, most major key areas have been captured by the invading forces on [?global.date.GetDateStringNoHourLong]. The government had rallied various objects to the key defence of the capital, with many rallying to the ‘Order’ cause. The attacking forces of the [206.controller.GetName] had a difficult time taking ground as each house and street were protected by defenders determined to die for their country. [GFG.GetLeader] had even been reported to be on the frontline a few times inspiring the defenders. Despite all efforts from the state, the city was taken by the attackers and the defenders are only left to a few pockets. With the government fleeing, is it the end of the Order like state?"
+ bfdinews_cities.10.a: "Order was not restored, but taken..."
+ bfdinews_cities.10.b: "I HATE failed defenses!"
+ bfdinews_cities.10.c: "The Ordered Heart is ours!"
+
+ bfdinews_cities.11.t: "END OF CASLAND!"
+ bfdinews_cities.11.desc: "As of [?global.date.GetDateStringNoHourLong], Casland’s defenders have surrendered to the advance of [206.controller.GetName] soldiers. The government had gathered forces and made preparations for key defences in the city. [GDR.GetLeader] had made statements that ‘The heart of Goiky could not fall’ and that ‘we shall defend our homes!’. The fighting was fierce and desperate, where every part of the city was fought tooth and nail over. Major fighting came around the Lower House, where the building was taken by the attackers after being turned into ruins. Later the government fled and ordered those that had survived the battle to surrender. The lights of flames are still present in the city, but for a few days the beating heart has stopped."
+ bfdinews_cities.11.a: "Freedom to live or die..."
+ bfdinews_cities.11.b: "The best efforts were not to save it..."
+ bfdinews_cities.11.c: "The ‘Free’ Heart is now ours!"

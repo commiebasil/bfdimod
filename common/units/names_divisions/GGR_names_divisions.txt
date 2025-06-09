@@ -1,0 +1,79 @@
+GGR_Inf_01 = {
+	name = "Infantry Divisions"
+
+	for_countries = { GGR SMG SPL SRI }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Objektinfantry-Divizion"
+	#Might be used later idk
+	ordered = {
+		1 = { "%d. Objektinfantry-Divizion" }
+		2 = { "%d. Objektinfantry-Divizion" }
+		3 = { "%d. Objektinfantry-Divizion" }
+		4 = { "%d. Objektinfantry-Divizion" }
+		5 = { "%d. Objektinfantry-Divizion" }
+		6 = { "%d. Objektinfantry-Divizion" }
+		7 = { "%d. Objektinfantry-Divizion" }
+		8 = { "%d. Objektinfantry-Divizion" }
+		9 = { "%d. Objektinfantry-Divizion" }
+		10 = { "%d. Objektinfantry-Divizion" }
+		11 = { "%d. Objektinfantry-Divizion" }
+		12 = { "%d. Objektinfantry-Divizion" }
+		13 = { "%d. Objektinfantry-Divizion" }
+		14 = { "%d. Objektinfantry-Divizion" }
+		15 = { "%d. Objektinfantry-Divizion" }
+		16 = { "%d. Objektinfantry-Divizion" }
+		17 = { "%d. Objektinfantry-Divizion" }
+		18 = { "%d. Objektinfantry-Divizion" }
+		19 = { "%d. Objektinfantry-Divizion" }
+		20 = { "%d. Objektinfantry-Divizion" }
+	}
+}
+
+GGR_Cav_01 = {
+	name = "Cavalry Divisions"
+
+	for_countries = { GGR SMG SPL SRI }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry"  }
+
+	fallback_name = "%d. Punitive Kavallerie"
+
+	ordered = {
+		1 = { "%d. Shneehorn Kavallerie" }
+		2 = { "%d. Wohnungmeerstadt Kavallerie" }
+		3 = { "%d. Kaltstadt Kavallerie" }
+		4 = { "%d. Weißfeld Kavallerie" }
+		5 = { "%d. Nationalismus Kavallerie" }
+		6 = { "%d. Befehl Kavallerie" }
+		7 = { "%d. Schneeball Kavallerie" }
+	}
+	
+}
+
+GRR_Arm_01 = {
+	name = "Panzer Divisions"
+
+	for_countries = { GGR }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d. Panzer-Divizion"
+
+	ordered = {
+		1 = { "%d. Panzer-Divizion" }
+		2 = { "%d. Panzer-Divizion" }
+		3 = { "%d. Panzer-Divizion" }
+		4 = { "%d. Panzer-Divizion" }
+		5 = { "%d. Panzer-Divizion" }
+
+	}
+}
+

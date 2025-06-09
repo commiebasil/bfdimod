@@ -148,11 +148,49 @@ on_actions = {
 				limit = {
 					ROOT = { tag = GDR }
 				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_casland_GDR}
+						AND = {
+							NOT = {country_exists = GPG}
+							NOT = {country_exists = GFG}
+							NOT = {country_exists = GSR}
+						}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.11
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_casland_GDR
+				}
 				set_global_flag = cap_taco
 			}
 			else_if = {
 				limit = {
 					ROOT = { tag = GSR }
+				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_casland_GSR}
+						AND = {
+							NOT = {country_exists = GPG}
+							NOT = {country_exists = GDR}
+							NOT = {country_exists = GFG}
+						}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.9
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_casland_GSR
 				}
 				set_global_flag = cap_ruby
 			}
@@ -160,11 +198,49 @@ on_actions = {
 				limit = {
 					ROOT = { tag = GFG }
 				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_casland_GFG}
+						AND = {
+							NOT = {country_exists = GPG}
+							NOT = {country_exists = GDR}
+							NOT = {country_exists = GSR}
+						}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.10
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_casland_GFG
+				}
 				set_global_flag = cap_fanny
 			}
 			else_if = {
 				limit = {
 					ROOT = { tag = GPG }
+				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = fall_of_casland_GPG}
+						AND = {
+							NOT = {country_exists = GSR}
+							NOT = {country_exists = GDR}
+							NOT = {country_exists = GFG}
+						}
+					}
+					every_possible_country = {
+						limit = { is_ai = no }
+						news_event = {
+							id = bfdinews_cities.8
+							hour = 1
+							random_hours = 6
+						}
+					}
+					set_global_flag = fall_of_casland_GPG
 				}
 				set_global_flag = cap_republic
 			}
