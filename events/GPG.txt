@@ -713,7 +713,6 @@ country_event = {
 						random_hours = 12
 					}
 				}
-				add_threat = -1.5
 				country_event = {
 					id = GPG_event.23
 					days = 15
@@ -1471,7 +1470,6 @@ country_event = {
 		}
 
 		hidden_effect = {
-			add_threat = -0.5
 			country_event = {
 				id = GPG_event.40
 				days = 3
@@ -1638,7 +1636,6 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			add_threat = -0.5
 			country_event = {
 				id = GPG_event.40
 				days = 3
@@ -1676,7 +1673,6 @@ country_event = {
 			set_demilitarized_zone = yes
 		}
 		hidden_effect = {
-			add_threat = -0.5
 			country_event = {
 				id = GPG_event.40
 				days = 3

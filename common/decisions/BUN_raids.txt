@@ -21,6 +21,9 @@ decision_BUN_raids_category = {
 				has_military_access_to = YFC
 			}
 			NOT = {
+				is_puppet = yes
+			}
+			NOT = {
 				AND = {
 					YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
 					divisions_in_state = {
@@ -332,6 +335,26 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {
+				AND = {
+					YFC = {controls_state = 214}
+					OR = {
+						NOT = { is_guaranteed_by = YFC }
+						NOT = { has_military_access_to = YFC }
+						NOT = { is_puppet = yes }
+						NOT = {
+							AND = {
+								YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
+								divisions_in_state = {
+									type = infantry
+									size > 2
+									state = 214
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 
 		fire_only_once = no

@@ -324,11 +324,12 @@ focus_tree = {
 		cost = 6
 		
 		ai_will_do = {
-        base = 5
+        	base = 5
 		}
 		
 		completion_reward = {
 			hidden_effect = {
+				add_threat = 0.5
 				every_possible_country = {
 					limit = { is_ai = no }
 					news_event = bfdinews.4
@@ -601,9 +602,8 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = l_WGF_closer_war
 			add_to_variable = { var_WGF_war_closeness = 10 }
-			add_tech_bonus = {
-				name = doctrine
-				bonus = 0.5
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
 				uses = 2
 				category = land_doctrine
 			}
@@ -656,11 +656,6 @@ focus_tree = {
 			custom_effect_tooltip = l_WGF_operation_coinflip
 			hidden_effect = {
 				country_event = WGF_event.6
-				ai_strategy = {
-					type = prepare_for_war
-					id = GMD
-					value = 50
-				}
 			}
 			mark_focus_tree_layout_dirty = yes
 		}
@@ -810,11 +805,6 @@ focus_tree = {
 				declare_war_on = {
 					target = GMD
 					type = annex_everything
-				}
-				ai_strategy = {
-					type = front_unit_request
-					tag = GMD
-					value = 50
 				}
 				add_timed_idea = {
 					idea = idea_WGF_coinflip

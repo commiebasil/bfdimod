@@ -77,9 +77,8 @@ decisions_BFDI_debug = {
 			}
         }
 		hidden_effect = {
-			#PLEASE PLEASE PLEASE DO NOT REMOVE OR I WILL FIND YOU AND SEND YOU TO TILTED TOWERS
 			random = {
-				chance = 1
+				chance = 2
 				set_province_name = { id = 1061 name = "Tilted Towers" }
 				set_province_name = { id = 827 name = "Tomato Town" }
 				set_province_name = { id = 4378 name = "Pleasant Park" }

@@ -120,20 +120,6 @@ focus_tree = {
 			every_country_with_original_tag = {
 				original_tag_to_check = CRN
 				add_opinion_modifier = { target = YFC modifier = large_increase }
-			}
-			hidden_effect = {
-				CRN = {
-					add_ai_strategy = {
-						type = alliance
-						id = YFC
-						value = 50
-					}
-					ai_strategy = {
-						type = prepare_for_war
-						id = BUN
-						value = 50
-					}
-				}	
 			}	
 		}
 
@@ -156,6 +142,10 @@ focus_tree = {
 
 		completion_reward = {
 			
+		}
+
+		ai_will_do = {
+			base = 2
 		}
 	}
 
@@ -207,6 +197,10 @@ focus_tree = {
 				add_opinion_modifier = { target = YFC modifier = large_increase }
 			}
 		}
+
+		ai_will_do = {
+			base = 2
+		}
 	}
 
 	focus = {
@@ -233,11 +227,6 @@ focus_tree = {
 					id = YFC_event.8
 					days = 1
 					random_hours = 24
-				}
-				ai_strategy = {
-					type = prepare_for_war
-					id = BUN
-					value = 50
 				}
 			}
 			mark_focus_tree_layout_dirty = yes
@@ -401,11 +390,6 @@ focus_tree = {
 						random_hours = 36
 					}
 				}
-				ai_strategy = {
-					type = front_unit_request
-					tag = BUN
-					value = 50
-				}
 				add_threat = 1
 			}
 		}
@@ -488,7 +472,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_erasers_training
 		x = 1
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_focus_a_raid_o3
 		prerequisite = { focus = YFC_focus_erasers_training }
 		prerequisite = { focus = YFC_focus_promote_blocky }
 		cost = 5
@@ -549,10 +533,12 @@ focus_tree = {
 					} 
 					add_manpower = 5000
 				}
-				201 = {add_compliance = 50}
-				215 = {add_compliance = 50}
-				196 = {add_compliance = 50}
-				216 = {add_compliance = 50}
+				hidden_effect = {
+					201 = {add_compliance = 50}
+					215 = {add_compliance = 50}
+					196 = {add_compliance = 50}
+					216 = {add_compliance = 50}
+				}	
 			}
 		}
 	}
