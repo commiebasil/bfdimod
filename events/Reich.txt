@@ -391,12 +391,11 @@ country_event = {
 	}
 }
 
-#Tells GGR about BUN raids and that they should protect the borders
-
 country_event = {
 	id = GGR_event.14
 	title = GGR_event.14.t
 	desc = GGR_event.14.desc
+	#Update picture pls
 	picture = GFX_GGR_event12
 	
 	is_triggered_only = yes

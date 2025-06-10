@@ -321,10 +321,10 @@ decision_YFC_raids_category = {
 		remove_effect = {
 			random_list = {
 				70 = {
-					country_event = YFC_borderwars.5
+					country_event = YFC_borderwars.8
 				}
 				30 = {
-					country_event = YFC_borderwars.6
+					country_event = YFC_borderwars.9
 				}
 			}
 		}		

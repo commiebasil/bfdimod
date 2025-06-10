@@ -1463,4 +1463,9 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_focus_a_raid_o3"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_focus_a_raid_o3.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_closer_integration"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_closer_integration.dds"
+	}
 }

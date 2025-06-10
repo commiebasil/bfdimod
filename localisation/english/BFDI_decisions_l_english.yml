@@ -145,5 +145,9 @@
  YFC_raid_state_24: "Commit a Raid!"
  YFC_raid_state_214: "Commit a Raid!"
  YFC_raid_state_210: "Commit a Raid!"
- #Add names for new tech Raid with desc!
+ YFC_raid_state_15_tech: "Raid the Schneehorn Research Facility!"
+ YFC_raid_state_15_tech_desc: "We have received information about the research facility from some sources. We have beliefs that they have some spare §Rgun blueprints§! that we could use. Gather some objects that are ready to enter deep into enemy lands to steal the technology!"
+ YFC_raid_state_143_tech: "Raid the Kaltstadt Research Facility!"
+ YFC_raid_state_143_tech_desc: "We have received information about the research facility from some sources. We have beliefs that they have some spare §Rindustry blueprints§! that we could use. Gather some objects that are ready to enter deep into enemy lands to steal the technology!"
  YFC_raid_run_backwards: "Withdraw."
+ YFC_raid_run_backwards_desc: "If our raid becomes too costly, withdrawing is not a bad choice..."

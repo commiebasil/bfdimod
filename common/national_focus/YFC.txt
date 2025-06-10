@@ -26,6 +26,19 @@ focus_tree = {
 			add_stability = 0.20
 			add_political_power = 75
 			country_event = YFC_event.1
+			hidden_effect = {
+				if = {
+					limit = { is_ai = yes }
+					random_list = {
+						30 = {
+							set_country_flag = raiders_path
+						}
+						70 = {
+							set_country_flag = money_path
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -165,7 +178,18 @@ focus_tree = {
 			set_cosmetic_tag = YFC_raiders
 			YFC = { give_guarantee = BUN }
 			BUN = { give_guarantee = YFC }
+			hidden_effect = {
+				add_threat = 0.25
+			}
 			mark_focus_tree_layout_dirty = yes
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				factor = 5
+				has_country_flag = raiders_path
+			}
 		}
 	}
 
@@ -236,7 +260,7 @@ focus_tree = {
 			base = 0
 			modifier = {
 				factor = 5
-				random = {chance = 70}
+				has_country_flag = money_path
 			}
 		}
 	}
@@ -514,7 +538,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_a_raid_o3
 		x = 2
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_closer_integration
 		prerequisite = { focus = YFC_focus_a_raid_o3 }
 		prerequisite = { focus = YFC_focus_numismatian_subjugation }
 		prerequisite = { focus = YFC_focus_promote_blocky }
@@ -540,6 +564,9 @@ focus_tree = {
 					216 = {add_compliance = 50}
 				}	
 			}
+			hidden_effect = {
+				add_manpower = 2000
+			}
 		}
 	}
 
@@ -554,7 +581,6 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_the_pen_problem }
 		cost = 5
 		#makes relations worse with CRN, GTR, GMD, and any other capitalist countries, improves relations with the bunch
-
 		completion_reward = {
 			every_country = {
 				limit = { 

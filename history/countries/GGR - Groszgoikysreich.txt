@@ -92,6 +92,14 @@ recruit_character = GGR_crayon
 
 country_lock_all_division_template = yes
 
+country_event = {
+	id = GGR_event.14
+	days = 10
+	random_days = 20
+	random_hours = 24
+}
+
+
 
 
 

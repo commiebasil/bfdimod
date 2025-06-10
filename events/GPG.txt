@@ -14,7 +14,7 @@ country_event = {
 		add_political_power = 25
 		hidden_effect = {
 			if = {
-				limit = { is_ai = no }
+				limit = { is_ai = yes }
 				random_list = {
 					30 = {
 						set_country_flag = stability_save_path
@@ -36,7 +36,7 @@ country_event = {
 		country_event = GPG_event.2
 		hidden_effect = {
 			if = {
-				limit = { is_ai = no }
+				limit = { is_ai = yes }
 				random_list = {
 					30 = {
 						set_country_flag = stability_save_path

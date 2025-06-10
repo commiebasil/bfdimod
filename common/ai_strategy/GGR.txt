@@ -1,0 +1,57 @@
+GGR_protect_raiders = {
+    #Tells GGR to defend from BUN till anarchists are done
+    allowed = {
+		original_tag = GGR
+	}
+	enable = {
+		has_army_size = {
+            size < 7
+        }
+	}
+
+	abort = {
+		OR = {
+			has_army_size = {
+                size > 7
+            }
+            NOT = {country_exists = BUN}
+			BUN = {is_puppet = yes}
+		}
+	}
+
+    ai_strategy = {
+        type = prepare_for_war
+        tag = BUN
+        value = 100
+    }
+}
+
+
+GGR_FFT_preparation = {
+    #GGR sends troops to FFT
+	allowed = {
+		original_tag = GGR
+	}
+	enable = {
+		focus_progress = {
+			focus = GGR_focus_partizan_war
+			progress > 0.01
+		}
+		country_exists = FFT
+	}
+
+	abort = {
+		NOT = { country_exists = FFT }
+	}
+
+	ai_strategy = {
+        type = prepare_for_war
+        tag = FFT
+        value = 50
+    }
+    ai_strategy = {
+        type = front_unit_request
+        tag = FFT
+        value = 100
+    }
+}
