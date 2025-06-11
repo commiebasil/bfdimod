@@ -1,3 +1,9 @@
+#GGR AI 101
+#Change if you want to!!!!
+
+
+## ARMY PLACEMENT ##
+
 GGR_protect_raiders = {
     #Tells GGR to defend from BUN till anarchists are done
     allowed = {
@@ -19,10 +25,10 @@ GGR_protect_raiders = {
 		}
 	}
 
-    ai_strategy = {
+	ai_strategy = {
         type = prepare_for_war
-        tag = BUN
-        value = 100
+        id = BUN
+        value = 300
     }
 }
 
@@ -33,11 +39,16 @@ GGR_FFT_preparation = {
 		original_tag = GGR
 	}
 	enable = {
-		focus_progress = {
-			focus = GGR_focus_partizan_war
-			progress > 0.01
+		OR = {
+			focus_progress = {
+				focus = GGR_focus_partizan_war
+				progress > 0.01
+			}
+			AND = {
+				country_exists = FFT
+				has_completed_focus = GGR_focus_partizan_war
+			}
 		}
-		country_exists = FFT
 	}
 
 	abort = {
@@ -46,12 +57,95 @@ GGR_FFT_preparation = {
 
 	ai_strategy = {
         type = prepare_for_war
-        tag = FFT
-        value = 50
+        id = FFT
+        value = 100
     }
     ai_strategy = {
         type = front_unit_request
-        tag = FFT
-        value = 100
+        id = FFT
+        value = 200
     }
+}
+
+## INDUSTRY ##
+
+GGR_tanks = {
+    #Once GGR has units and tank tech bonus it will try to make tanks for the rest of the game
+	allowed = {
+		original_tag = GGR
+	}
+	enable = {
+		has_army_size = {
+            size > 10
+        }
+		has_completed_focus = GGR_focus_forest_tanks
+	}
+
+	abort = {
+		#Might add something to stop tanks
+		always = no 
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 30
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = basic_light_tank
+		value = 50
+	}
+}
+
+GGR_huge_army = {
+    #Once GGR can build divs it will try to build a large army quickly 
+	allowed = {
+		original_tag = GGR
+	}
+	enable = {
+		has_army_size = {
+            size > 6
+        }
+	}
+
+	abort = {
+		has_army_size = {
+            size > 20
+        }
+	}
+
+	ai_strategy = {
+		type = force_build_armies
+		value = 21
+	}
+}
+
+GGR_cheap_guns = {
+    #Tells GGR to only care about amount of guns till anarchists are done
+	allowed = {
+		original_tag = GGR
+	}
+	enable = {
+		has_army_size = {
+            size < 7
+        }
+	}
+
+	abort = {
+		has_army_size = {
+            size > 7
+        }
+	}
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = infantry_equipment_1
+		value = -1000
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 1000
+	}
 }

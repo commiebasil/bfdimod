@@ -413,7 +413,7 @@ country_event = {
 
 			IF = {
 				limit = {
-					has_tech = tech_support
+					ROOT = {has_tech = tech_support}
 				}
 				random_list = {
 					20 = {
@@ -448,7 +448,7 @@ country_event = {
 
 			IF = {
 				limit = {
-					has_tech = gw_artillery
+					ROOT = {has_tech = gw_artillery}
 				}
 				random_list = {
 					20 = {
