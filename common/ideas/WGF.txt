@@ -44,11 +44,11 @@ ideas = {
 		idea_WGF_coinflip = {
 			picture = WGF_coinflip
 			modifier = {
-				ai_focus_aggressive_factor = 1
+				ai_focus_aggressive_factor = 0.75
 			}
 			targeted_modifier = {
 				tag = GMD
-				attack_bonus_against = 0.75
+				attack_bonus_against = 1
 			}
 			on_remove = {
 				if = {

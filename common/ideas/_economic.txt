@@ -87,6 +87,8 @@ ideas = {
 				conversion_cost_mil_to_civ_factor = 0.3
 				max_fuel_factor = -0.25
 				fuel_gain_factor = -0.4
+				research_speed_factor = 0.05
+				state_production_speed_infrastructure_factor = 0.1
 			}
 
 			default = yes

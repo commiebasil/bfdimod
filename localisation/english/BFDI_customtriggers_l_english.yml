@@ -1,7 +1,7 @@
 ﻿l_english:
  l_GOI_congratulate_the_winner_ct: "The contest is finished"
  l_GOI_all_is_good_ct: "Everything is fine"
- l_decisions_WGF_ute: "Help send at least §Y5§! times"
+ l_decisions_WGF_ute: "Send aid at least §Y5§! times"
  l_WGF_trigger_war_closened_enough: "§YOperation§! is ready"
  operation_started: "Operation is started"
  l_GGR_anarchists_are_suppressed: "Anarchists are supressed"
@@ -16,6 +16,9 @@
  l_GPG_cw_victory_trigger: "§YVictory in the civil war has been achieved§!"
  congress_goodend: "Stability established in Casland"
  cw_done: "Government is stable"
+ l_decisions_YFC_raids_GGR_3: "Have §Y3§! successful raids against Großgoikysreich!"
+ l_decisions_YFC_raids_GGR_5: "Have §Y5§! successful raids against Großgoikysreich!"
+ l_decisions_YFC_raids_GGR_7: "Have §Y7§! successful raids against Großgoikysreich!"
  
  decision_cost_ie_500_pp_50: "£infantry_equipment_text_icon §Y500§!  £pol_power  §Y50§!"
  decision_cost_ie_500_pp_50_blocked: "£infantry_equipment_text_icon §R500§!  £pol_power  §R50§!"

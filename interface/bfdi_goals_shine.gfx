@@ -8468,11 +8468,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_YFC_focus_a_raid_o3_shine"
-		texturefile = "gfx/interface/goals/GFX_focus_YFC_focus_a_raid_o3.dds"
+		name = "GFX_focus_YFC_a_raid_o3_shine"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_a_raid_o3.dds"
 		effectFile = gfx/FX/buttonstate.lua
 		animation = {
-			animationmaskfile = gfx/interface/goals/GFX_focus_YFC_focus_a_raid_o3.dds
+			animationmaskfile = gfx/interface/goals/GFX_focus_YFC_a_raid_o3.dds
 			animationtexturefile = gfx/interface/goals/shine_overlay.dds    # <- the animated file
 			animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no            # yes or no ;)
@@ -8484,7 +8484,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = gfx/interface/goals/GFX_focus_YFC_focus_a_raid_o3.dds
+			animationmaskfile = gfx/interface/goals/GFX_focus_YFC_a_raid_o3.dds
 			animationtexturefile = gfx/interface/goals/shine_overlay.dds     # <- the animated file
 			animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no            # yes or no ;)

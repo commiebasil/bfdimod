@@ -476,7 +476,11 @@ focus_tree = {
 		cost = 8
 		
 		ai_will_do = {
-        base = 5
+        	base = 5
+			modifier = {
+				factor = 15
+				YFC = {has_completed_focus = YFC_focus_YFC_funded_pillaging}
+			}
 		}
 		
 		completion_reward = {

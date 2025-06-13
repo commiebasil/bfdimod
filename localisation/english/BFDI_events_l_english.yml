@@ -669,6 +669,18 @@
  YFC_borderwars.4.desc: "The city is red. Roads, the sides of buildings, cars, parks, lights, windows, all stained with red. The raiders came last night, they stole, killed, burned, then left. No one expected them, and by the time soldiers arrived to defend, it was far too late. So many people are dead. So many."
  YFC_borderwars.4.a: "We can't let this happen again."
 
+ YFC_borderwars.11.t: "Successful Jailbreak!"
+ YFC_borderwars.11.desc: "Our forces were able to overwhelm the guards at the work camp and freed the objects being held there. Many escaped with our forces and joined our ranks. They have already taught our generals new skills in raiding and combat. The mine was also razed by our forces as they were leaving."
+ YFC_borderwars.11.a: "Different ideologies, but great skills!"
+
+ YFC_borderwars.12.t: "Unsuccessful Jailbreak!"
+ YFC_borderwars.12.desc: "Our forces attempted to clear the work camps of enemy guards, but were overwhelmed and forced to flee from the overwhelming defences. The mines were damaged in the fighting, but the anarchists were failed to be freed and most of our forces were lost."
+ YFC_borderwars.12.a: "Such ‘skills’ were not needed anyway..."
+
+ YFC_borderwars.13.t: "Reports from The Great Ridge!"
+ YFC_borderwars.13.desc: "It’s unclear what is happening, but due to failed defences in the north the Yellow Face Raiders have attacked one of the work camps. Those traitorous anarchists might have escaped in the fighting and the mines may be damaged. This disaster has set us back a bit."
+ YFC_borderwars.13.a: "We cannot allow more raids to happen!"
+
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"

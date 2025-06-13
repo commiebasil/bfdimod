@@ -132,7 +132,7 @@ focus_tree = {
 			add_opinion_modifier = { target = CRN modifier = large_increase }
 			every_country_with_original_tag = {
 				original_tag_to_check = CRN
-				add_opinion_modifier = { target = YFC modifier = large_increase }
+				add_opinion_modifier = { target = YFC modifier = offered_support }
 			}	
 		}
 
@@ -180,6 +180,17 @@ focus_tree = {
 			BUN = { give_guarantee = YFC }
 			hidden_effect = {
 				add_threat = 0.25
+				#Hidden buff so GGR does not fall quickly
+				IF = {
+					limit = {GGR = {is_ai = yes}}
+					GGR = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 1500
+						}
+						add_political_power = 100	
+					}
+				}
 			}
 			mark_focus_tree_layout_dirty = yes
 		}
@@ -496,7 +507,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_erasers_training
 		x = 1
 		y = 1
-		icon = GFX_focus_YFC_focus_a_raid_o3
+		icon = GFX_focus_YFC_a_raid_o3
 		prerequisite = { focus = YFC_focus_erasers_training }
 		prerequisite = { focus = YFC_focus_promote_blocky }
 		cost = 5
@@ -594,7 +605,7 @@ focus_tree = {
 						}
 					}				
 				}
-				add_opinion_modifier = { target = YFC modifier = large_decrease }
+				add_opinion_modifier = { target = YFC modifier = medium_decrease }
 			}
 			BUN = {
 				add_opinion_modifier = { target = YFC modifier = large_increase }

@@ -16,6 +16,9 @@ ideas = {
 
 			modifier = {
 				conscription = 0.01
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
 			}
 
 			cancel_if_invalid = no

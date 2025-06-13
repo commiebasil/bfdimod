@@ -149,5 +149,7 @@
  YFC_raid_state_15_tech_desc: "We have received information about the research facility from some sources. We have beliefs that they have some spare §Rgun blueprints§! that we could use. Gather some objects that are ready to enter deep into enemy lands to steal the technology!"
  YFC_raid_state_143_tech: "Raid the Kaltstadt Research Facility!"
  YFC_raid_state_143_tech_desc: "We have received information about the research facility from some sources. We have beliefs that they have some spare §Rindustry blueprints§! that we could use. Gather some objects that are ready to enter deep into enemy lands to steal the technology!"
+ YFC_raid_state_24_skills: "Raid Work Camp #13!"
+ YFC_raid_state_24_skills_desc: "Located near the great mountains, this small work camp houses a bunch of armless objects working these mines to death. Some of those objects are anarchist fighters, whose §Rskills in ambushes and guerilla warfare could be useful to our generals.§!"
  YFC_raid_run_backwards: "Withdraw."
  YFC_raid_run_backwards_desc: "If our raid becomes too costly, withdrawing is not a bad choice..."

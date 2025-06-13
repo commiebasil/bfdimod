@@ -16,7 +16,7 @@ decision_YFC_raids_category = {
 
 		fire_only_once = no
 		cost = 25
-		days_re_enable = 100
+		days_re_enable = 60
 
 
 		complete_effect = {
@@ -44,10 +44,6 @@ decision_YFC_raids_category = {
 					on_lose =YFC_borderwars.4
 					dig_in_factor = 2
 				}
-			}
-
-			hidden_effect = {
-				add_to_variable = { var_progress_raids_15 = 1 }
 			}
 		}
 
@@ -84,7 +80,7 @@ decision_YFC_raids_category = {
 
 		fire_only_once = no
 		cost = 25
-		days_re_enable = 100
+		days_re_enable = 75
 
 
 		complete_effect = {
@@ -148,7 +144,7 @@ decision_YFC_raids_category = {
 
 		fire_only_once = no
 		cost = 25
-		days_re_enable = 120
+		days_re_enable = 75
 
 		complete_effect = {
 			210 = {
@@ -196,7 +192,7 @@ decision_YFC_raids_category = {
 
     YFC_raid_state_15_tech = {
 		#Steals gun tech!
-		icon = GFX_decision_generic_confiscation
+		icon = GFX_decision_generic_ignite_civil_war
 		state_target = yes
         targets = { state = 15 }
         on_map_mode = map_only
@@ -207,17 +203,12 @@ decision_YFC_raids_category = {
 				controls_state = 15
 			}
 			check_variable = {
-				var_progress_raids_15 > 2
+				var_progress_raids_GGR > 0
 			}
 			GGR = {
-				has_completed_focus = GGR_focus_are_you_smarter_than_a_snowball
+				has_completed_focus = GGR_focus_verschneitwehr
 			}
 			country_exists = GGR
-			divisions_in_state = {
-				type = infantry
-				size < 3
-				state = 24
-			}
 			has_border_war = no
 			has_war = no	
 		}
@@ -227,6 +218,10 @@ decision_YFC_raids_category = {
 				infantry_equipment > 500
 			}
 			has_manpower > 1000
+			custom_trigger_tooltip = {
+				tooltip = l_decisions_YFC_raids_GGR_3
+				check_variable = { var_progress_raids_GGR > 2 }
+			}
 		}
 
 		fire_only_once = yes
@@ -264,7 +259,7 @@ decision_YFC_raids_category = {
 
 	YFC_raid_state_143_tech = {
 		#Steals industry tech!
-		icon = GFX_decision_generic_confiscation
+		icon = GFX_decision_generic_ignite_civil_war
 		state_target = yes
         targets = { state = 143 }
         on_map_mode = map_only
@@ -275,17 +270,12 @@ decision_YFC_raids_category = {
 				controls_state = 143
 			}
 			check_variable = {
-				var_progress_raids_15 > 3
+				var_progress_raids_GGR > 2
 			}
 			GGR = {
-				has_completed_focus = GGR_focus_are_you_smarter_than_a_snowball
+				has_completed_focus = GGR_focus_our_way
 			}
 			country_exists = GGR
-			divisions_in_state = {
-				type = infantry
-				size < 3
-				state = 24
-			}
 			has_border_war = no
 			has_war = no	
 		}
@@ -295,6 +285,10 @@ decision_YFC_raids_category = {
 				infantry_equipment > 500
 			}
 			has_manpower > 1000
+			custom_trigger_tooltip = {
+				tooltip = l_decisions_YFC_raids_GGR_5
+				check_variable = { var_progress_raids_GGR > 4 }
+			}
 		}
 
 		fire_only_once = yes
@@ -325,6 +319,74 @@ decision_YFC_raids_category = {
 				}
 				30 = {
 					country_event = YFC_borderwars.9
+				}
+			}
+		}		
+	}
+
+	YFC_raid_state_24_skills = {
+		#Chance to get general skills
+		icon = GFX_decision_generic_ignite_civil_war
+		state_target = yes
+        targets = { state = 24 }
+        on_map_mode = map_only
+        
+		visible = {
+			controls_state = 201
+			NOT = {
+				controls_state = 24
+			}
+			check_variable = {
+				var_progress_raids_GGR > 2
+			}
+			GGR = {
+				has_completed_focus = GGR_focus_wrong_objects
+			}
+			country_exists = GGR
+			has_border_war = no
+			has_war = no	
+		}
+
+		available = {
+
+			has_equipment = {
+				infantry_equipment > 1000
+			}
+			has_manpower > 1500
+			custom_trigger_tooltip = {
+				tooltip = l_decisions_YFC_raids_GGR_7
+				check_variable = { var_progress_raids_GGR > 6 }
+			}
+		}
+
+		fire_only_once = yes
+		cost = 100
+		days_remove = 75
+
+		complete_effect = {
+			add_manpower = -1500
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			hidden_effect = {
+				GGR = {
+					country_event = {
+						id = YFC_borderwars.13
+						days = 50
+						random_hours = 500
+					}
+				}	
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				50 = {
+					country_event = YFC_borderwars.11
+				}
+				50 = {
+					country_event = YFC_borderwars.12
 				}
 			}
 		}		
