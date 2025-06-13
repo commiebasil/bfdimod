@@ -3,7 +3,7 @@ add_namespace = BUN_borderwars
 ########RAIDS EVENTS########
 
 country_event = {
-	#ONLY AI CAN SEE THIS!! Used to allow ai to withdraw of a losing raid rather then blowing up divs, so dont spend time add text!!!!
+	#ONLY AI CAN SEE THIS!! Used to allow ai to withdraw of a losing raid rather then blowing up divs, so dont spend time to add text!!!!
 	id = BUN_borderwars.1
 	title = BUN_borderwars.1.t
 	desc = BUN_borderwars.1.desc

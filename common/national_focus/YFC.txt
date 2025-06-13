@@ -586,7 +586,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_erasers_training
 		x = -1
 		y = 2
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_break_diplomacy
 		prerequisite = { focus = YFC_focus_a_raid_o3 }
 		prerequisite = { focus = YFC_focus_erasers_training }
 		prerequisite = { focus = YFC_focus_the_pen_problem }

@@ -1468,4 +1468,9 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_closer_integration"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_closer_integration.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_break_diplomacy"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_break_diplomacy.dds"
+	}
 }

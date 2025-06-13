@@ -653,6 +653,10 @@
  YFC_event.10.desc: "Now... now is the time to begin our raiding efforts! With more objects in both the countryside and cities being ‘hired’ we have the ability to begin our raids. We must now use our raiding to not only survive, but to thrive! We need to steal the resources from our neighbors to gather even more strength, wealth, and power!. Sure, this land will fall into a land of anarchy and banditry, but it is a fair price!"
  YFC_event.10.a: "Onwards!"
 
+ BUN_borderwars.5.t: "Raiders Attacked!"
+ BUN_borderwars.5.desc: "When our forces arrived, they found themselves quickly under bandit fire. Despite our best efforts, our forces were overrun and the bandits broke through. This resulted in the nearby towns and villages being set ablaze and much of the equipment was stolen. The bandits have left, but there are still ashes in the air."
+ BUN_borderwars.5.a: "We cannot allow more raids to happen!"
+
  YFC_borderwars.1.t: "Success!"
  YFC_borderwars.1.desc: "The raid was a success! We quickly subjugated the population, inspiring fear in the people of the city. Though the fires in the distance burn high, our profit soar higher."
  YFC_borderwars.1.a: "There's more where that came from!"
@@ -665,7 +669,7 @@
  YFC_borderwars.3.desc: "The raiders came in the night, late at night at that. Nearly no one was awake, and from far outside the city limits we heard loud shouting. Suddenly, there was a gunshot, and it felt as if the whole city woke at the same time. Objects wandered outside of their houses, 'What was that?'s and 'I've got work in the morning.'s softly flying through the air. Suddenly, a soldier of ours bursted out of a room, soon a hundred more followed, then a thousand, then two thousand. It had turned from a typical night to an all out battle. The raiders fought hard, burning our buildings, killing our people, breaking equipment. We fought harder, maiming the raiders, stealing their own guns from them, burning them alive. \nIt was barbaric, sure, but in the end we won. We defended ourselves. We made examples out of them."
  YFC_borderwars.3.a: "And we'll do it again for our people."
 
- YFC_borderwars.4.t: "In the defense"
+ YFC_borderwars.4.t: "In the defense..."
  YFC_borderwars.4.desc: "The city is red. Roads, the sides of buildings, cars, parks, lights, windows, all stained with red. The raiders came last night, they stole, killed, burned, then left. No one expected them, and by the time soldiers arrived to defend, it was far too late. So many people are dead. So many."
  YFC_borderwars.4.a: "We can't let this happen again."
 
@@ -679,7 +683,7 @@
 
  YFC_borderwars.13.t: "Reports from The Great Ridge!"
  YFC_borderwars.13.desc: "It’s unclear what is happening, but due to failed defences in the north the Yellow Face Raiders have attacked one of the work camps. Those traitorous anarchists might have escaped in the fighting and the mines may be damaged. This disaster has set us back a bit."
- YFC_borderwars.13.a: "We cannot allow more raids to happen!"
+ YFC_borderwars.13.a: "We cannot allow more attacks to happen!"
 
 
 #NEWS
