@@ -392,6 +392,70 @@ decision_YFC_raids_category = {
 		}		
 	}
 
+	YFC_raid_state_202_trains = {
+		#Steal trains and blow up train station 
+		icon = GFX_decision_generic_ignite_civil_war
+		state_target = yes
+        targets = { state = 202 }
+        on_map_mode = map_only
+        
+		visible = {
+			controls_state = 201
+			NOT = {
+				controls_state = 202
+			}
+			check_variable = {
+				var_progress_raids_SRR > 0
+			}
+			country_exists = SRR
+			has_border_war = no
+			has_war = no	
+		}
+
+		available = {
+			has_equipment = {
+				infantry_equipment > 500
+			}
+			has_manpower > 1000
+			custom_trigger_tooltip = {
+				tooltip = l_decisions_YFC_raids_SRR_5
+				check_variable = { var_progress_raids_SRR > 4 }
+			}
+		}
+
+		fire_only_once = yes
+		cost = 100
+		days_remove = 75
+
+		complete_effect = {
+			add_manpower = -1000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+			hidden_effect = {
+				SRR = {
+					country_event = {
+						id = YFC_borderwars.16
+						days = 50
+						random_hours = 500
+					}
+				}	
+			}
+		}
+
+		remove_effect = {
+			random_list = {
+				70 = {
+					country_event = YFC_borderwars.14
+				}
+				30 = {
+					country_event = YFC_borderwars.15
+				}
+			}
+		}		
+	}
+
 	YFC_raid_run_backwards = {
 		icon = GFX_decision_generic_form_nation
 		state_target = yes
