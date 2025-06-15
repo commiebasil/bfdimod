@@ -12,4 +12,9 @@ characters = {
 		name = SOS_pin
 		portraits = { civilian = { large = GFX_SOS_pin } }
 	}
+
+	SOS_joke_pin = {
+		name = SOS_pin_joke
+		portraits = { civilian = { large = GFX_SOS_pin_joke } }
+	}
 }

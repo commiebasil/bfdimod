@@ -37,5 +37,10 @@ set_popularities = {
 
 add_ideas = idea_GMD_coinys_domain
 
+random = {
+	chance = 3 #For 3 mil subs <3
+	recruit_character = GMD_cary_joke
+}
+
 recruit_character = GMD_coiny
 

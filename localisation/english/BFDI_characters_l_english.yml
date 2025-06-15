@@ -19,6 +19,7 @@
  
  GMD_coiny: "Coiny"
  GMD_coiny_desc: "Coiny, having a more or less established relationship with the Firey at the end of the season, initially joined the Revolutionary Front. However, due to disagreements, Coiny soon moved east along the coast, where he declared a Military District."
+ GMD_GMD_cary_joke: "Cary Huang"
  
  GPR_alliance: "The Alliance"
  GPR_alliance_desc: "Pencil, Match and Bubble's Alliance has a fairly long history. After the destruction of the TLC, the alliance reunited again, and when stability in Goiky collapsed, the alliance declared the Greeny Plains Democratic Republic in the port city of Greenport. Although the alliance is strong at the moment, it is in danger of collapsing due to internal differences."
@@ -87,9 +88,10 @@
  YFC_lewis: "Lewis"
  YFC_dora: "Dora"
  YFC_Coiny: "Coiny"
- YFC_Coiny_desc: "Foreign military advisor for the Yellow Face Corporation. Helps in managing the army with slapping force."
  
  SMG_grassy: "Grassy"
+ SMG_one_joke: "§RReichsfuhrer One§!"
+ SMG_one_joke_desc: "'Go and tell your little friends where disobeying me gets you. If they can even understand it, hahaha! Bye!'"
  
  SPL_woody: "Woody"
  
@@ -98,6 +100,7 @@
  SOS_anchor: "Anchor"
  SOS_anchor_desc: "An old commander of a merchant ship, after the Dream Island dissapearment, Anchor acquired a reputation as an honorable, decisive object. Thanks to his good name and management talents, he was chosen as the head of the fleet self-government."
  SOS_pin: "§8High Queen of the People of Saint Objectburg and Mistress of Its Land, Pin§!"
+ SOS_joke_pin: "§8High Queen of the People of Saint Objectburg and Mistress of Its Land, Pin§!"
 
 CRN_credit_card: "Credit Card"
 CRN_credit_card_desc: "Former leader of Goiky's famed South Side Free Armies, current establisher of the Capitalist Republic, Credit Card's done a lot in his life. He was once a general of old Goiky's military, and a high ranking one at that. After the tragedy that was Dream Island's dissapearence, he lead the Free Army to a march on casland itself, ushering in the new era of the Goiky of today."

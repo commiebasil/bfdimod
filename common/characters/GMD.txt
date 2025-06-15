@@ -7,4 +7,22 @@ characters = {
 			desc = GMD_coiny_desc
 		}
 	}
+
+	GMD_joke_cary = {
+		name = GMD_cary_joke
+		portraits = { 
+			army = { 
+				large = GFX_GMD_cary			
+			} 
+		}
+		corps_commander = {
+			#Change if wanted!!!!
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			traits = { media_personality adaptable }
+		}
+	}
 }

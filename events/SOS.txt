@@ -8,11 +8,24 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		add_country_leader_role = {
-			character = SOS_pin
-			promote_leader = yes
-			country_leader = {
-				ideology = despotism
+		random_list = {
+			99 = {
+				add_country_leader_role = {
+					character = SOS_pin
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+					}
+				}
+			}
+			1 = {
+				add_country_leader_role = {
+					character = SOS_pin_joke
+					promote_leader = yes
+					country_leader = {
+						ideology = despotism
+					}
+				}
 			}
 		}
 		every_possible_country = {

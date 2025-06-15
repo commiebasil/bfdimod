@@ -38,3 +38,4 @@ add_ideas = idea_SOS_goiky_fleet
 
 recruit_character = SOS_anchor
 recruit_character = SOS_pin
+recruit_character = SOS_pin_joke

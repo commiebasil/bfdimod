@@ -6,4 +6,13 @@ characters = {
 			ideology = gen_nazism
 		}
 	}
+
+	SMG_one_joke = {
+		#What...? how... HOW DID SHE GET HERE??!?!!?!?!?!?!!?!?!?!?!?!?!?!?!?!?!?!? OH NOOOOO!!!!!!!-
+		name = SMG_one_joke
+		portraits = { civilian = { large = GFX_SMG_one_joke } }
+		country_leader = {
+			ideology = gen_nazism
+		}
+	}
 }

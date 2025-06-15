@@ -61,6 +61,11 @@ spriteTypes = {
 		name = "GFX_GMD_coiny"
 		texturefile = "gfx/leaders/GMD/GMD_coiny.dds"
 	}
+
+	spriteType = {
+		name = "GFX_GMD_cary"
+		texturefile = "gfx/leaders/GMD/GMD_Cary_Huang.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_GPR_alliance"
@@ -201,6 +206,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_SMG_one_joke"
+		texturefile = "gfx/leaders/SMG/GGR_reichsfuhrer_one.dds"
+	}
+
+	spriteType = {
 		name = "GFX_SPL_woody"
 		texturefile = "gfx/leaders/SPL/SPL_woody.dds"
 	}
@@ -225,6 +235,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SOS_pin"
 		texturefile = "gfx/leaders/SOS/SOS_pin.dds"
+	}
+	spriteType = {
+		name = "GFX_SOS_pin_joke"
+		texturefile = "gfx/leaders/SOS/SOS_Based_Pin.dds"
 	}
 	spriteType = {
 		name = "GFX_CRN_credit_card"
