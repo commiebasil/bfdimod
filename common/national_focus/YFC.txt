@@ -278,9 +278,9 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_hire_militias
-		relative_position_id = YFC_focus_demand_end_pillage
-		x = 1
-		y = 1
+		relative_position_id = YFC_focus_open_foreign_policy
+		x = 0
+		y = 3
 		icon = GFX_focus_YFC_hire_militias
 
 		available = {
@@ -310,7 +310,7 @@ focus_tree = {
 			}
 			201 = {
 				create_unit = {
-					division = "name = \"Militia\" division_template = \"Militia\" start_experience_factor = 0.2"
+					division = "name = \"Militia\" division_template = \"Militia\" start_experience_factor = 0.1"
 					count = 6
 					owner = YFC
 				}
@@ -325,9 +325,9 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_coiny_cooperation
-		relative_position_id = YFC_focus_open_foreign_policy
-		x = 0
-		y = 3
+		relative_position_id = YFC_focus_demand_end_pillage
+		x = 1
+		y = 1
 		icon = GFX_focus_YFC_coiny_cooperation
 
 		available = {
@@ -337,8 +337,6 @@ focus_tree = {
 		}
 		
 		allow_branch = { has_completed_focus = YFC_focus_demand_end_pillage }
-
-		prerequisite = { focus = YFC_focus_open_foreign_policy }
 		prerequisite = { focus = YFC_focus_demand_end_pillage }
 		#buffs the bonus given by trading with coiny
 		cost = 3
@@ -378,7 +376,7 @@ focus_tree = {
 		y = 2
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_CRN_cooperation }
-		prerequisite = { focus = YFC_focus_hire_militias }
+		prerequisite = { focus = YFC_focus_coiny_cooperation }
 		#gives coiny as military high command, which gives +10% defense and breakthrough
 		#gives national spirit that gives +10% defense until war ends
 		cost = 4

@@ -685,6 +685,18 @@
  YFC_borderwars.13.desc: "It’s unclear what is happening, but due to failed defences in the north the Yellow Face Raiders have attacked one of the work camps. Those traitorous anarchists might have escaped in the fighting and the mines may be damaged. This disaster has set us back a bit."
  YFC_borderwars.13.a: "We cannot allow more attacks to happen!"
 
+ YFC_borderwars.14.t: "Heist of the Year!"
+ YFC_borderwars.14.desc: "Our forces were able to reach the station and seize it. It was clear that the administration was not expecting a raid that deep into their lands. The trains were robbed and railed quickly into our lands. The station was also set on fire as we were leaving."
+ YFC_borderwars.14.a: "No longer running on time!"
+
+ YFC_borderwars.15.t: "Robbery gone wrong!"
+ YFC_borderwars.15.desc: "As our forces entered the station, they were ambushed by both soldiers and police. It was clear that the administration was ready for our entry and brought forces. After an hour-long engagement, our forces fled and failed to take any of the trains in the station. The only good news was that the station and nearby rails were damaged in the process."
+ YFC_borderwars.15.a: "Cops called."
+
+ YFC_borderwars.16.t: "Chaos at the Great Goiky Railroad Head Station!"
+ YFC_borderwars.16.desc: "Various reports have arrived to us that armed objects entered the station and attacked. Many of the trains have either been stolen or damaged in the fighting. The bandits had left a few hours ago, but the station and nearby rail have been heavily damaged."
+ YFC_borderwars.16.a: "We should prevent more raids from happening!"
+
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
