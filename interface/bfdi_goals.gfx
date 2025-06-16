@@ -1426,7 +1426,7 @@ SpriteTypes = {
 
 	spriteType = {
 		name = "GFX_focus_YFC_hire_militias"
-		texturefile = "gfx/interface/goals/GFX_focus_YFC_hire_militias.png"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_hire_militias.dds"
 	}
 
 	spriteType = {
@@ -1472,5 +1472,10 @@ SpriteTypes = {
 	spriteType = {
 		name = "GFX_focus_YFC_break_diplomacy"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_break_diplomacy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_southern_bandits"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_southern_bandits.dds"
 	}
 }

@@ -210,6 +210,26 @@ country_event = {
 			SMG = { 
 				inherit_technology = GGR 
 				change_tag_from = GGR
+				random_list = {
+					99 = {
+						add_country_leader_role = {
+							character = SMG_grassy
+							promote_leader = yes
+							country_leader = {
+								ideology = gen_nazism
+							}
+						}
+					}
+					1 = {
+						add_country_leader_role = {
+							character = SMG_one_joke
+							promote_leader = yes
+							country_leader = {
+								ideology = gen_nazism
+							}
+						}
+					}
+				}
 			}
 			every_possible_country = {
 				limit = { is_ai = no }

@@ -85,7 +85,7 @@ focus_tree = {
 		id = YFC_focus_the_southern_bandits
 		x = 8
 		y = 0
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_southern_bandits
 		
 		available = {
 			hidden_trigger = {
