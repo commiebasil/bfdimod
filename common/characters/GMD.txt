@@ -16,7 +16,6 @@ characters = {
 			} 
 		}
 		corps_commander = {
-			#Change if wanted!!!!
 			skill = 2
 			attack_skill = 2
 			defense_skill = 7

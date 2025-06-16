@@ -1,7 +1,7 @@
 ##########################
 # NOTE: IF TRAITS ARE NOT MEANT TO BE GAIN THROUGH BASES SYSTEMS AND ONLY EVENTS/FOCUS THEN CHANGE ALL TRAITS TO BE 'personality_trait' AND CHANGE NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP TO BE ZERO
 # Otherwise uh idk
-# Why change btw? The traits were broken and failing to add buffs
+# Why change btw? The traits were broken and failing to add effects
 ##########################
 
 leader_traits = {

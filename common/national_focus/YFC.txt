@@ -19,7 +19,7 @@ focus_tree = {
 		id = YFC_focus_consolidate_power
 		x = 13
 		y = 0
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_consolidate_power
 
 		cost = 5
 		completion_reward = {
@@ -356,12 +356,12 @@ focus_tree = {
 			hidden_trigger = {
 				has_completed_focus = YFC_focus_coiny_cooperation
 			}
+			has_war = no
 		}
 		
 		allow_branch = { has_completed_focus = YFC_focus_coiny_cooperation }
 
 		prerequisite = { focus = YFC_focus_sell_them_guns }
-		prerequisite = { has_war = no }
 		#allows you to exploit coiny's military factories, selling coiny's guns instead of yours, so you dont lose military factories, in exchange, buffs from coiny are less potent
 		cost = 2
 		completion_reward = {

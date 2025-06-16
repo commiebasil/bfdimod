@@ -1478,4 +1478,9 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_southern_bandits"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_southern_bandits.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_consolidate_power"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_consolidate_power.dds"
+	}
 }
