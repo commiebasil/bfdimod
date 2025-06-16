@@ -245,7 +245,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_the_southern_bandits
 		x = 0
 		y = 2
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_demand_end_pillaging
 
 		prerequisite = { focus = YFC_focus_the_southern_bandits }
 		prerequisite = { focus = YFC_focus_open_foreign_policy }
