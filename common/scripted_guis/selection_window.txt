@@ -158,7 +158,7 @@ scripted_gui = {
 				else_if = {
 					limit = { check_variable = { country_select_var = 16 } }
 					YFC = { change_tag_from = GOI }
-					goto_state = 196
+					goto_state = 201
 				}
 				
 				if = {
