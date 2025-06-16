@@ -19,7 +19,7 @@
  
  GMD_coiny: "Coiny"
  GMD_coiny_desc: "Coiny, having a more or less established relationship with the Firey at the end of the season, initially joined the Revolutionary Front. However, due to disagreements, Coiny soon moved east along the coast, where he declared a Military District."
- GMD_GMD_cary_joke: "Cary Huang"
+ GMD_joke_cary: "Cary Huang"
  
  GPR_alliance: "The Alliance"
  GPR_alliance_desc: "Pencil, Match and Bubble's Alliance has a fairly long history. After the destruction of the TLC, the alliance reunited again, and when stability in Goiky collapsed, the alliance declared the Greeny Plains Democratic Republic in the port city of Greenport. Although the alliance is strong at the moment, it is in danger of collapsing due to internal differences."
@@ -91,7 +91,8 @@
  
  SMG_grassy: "Grassy"
  SMG_one_joke: "§RReichsfuhrer One§!"
- SMG_one_joke_desc: "'Go and tell your little friends where disobeying me gets you. If they can even understand it, hahaha! Bye!'"
+ #Maybe working idk someone tell me =C
+ SMG_one_joke_desc: "'Go and tell your little friends where disobeying me gets you. If they can even understand it, hahaha!'"
  
  SPL_woody: "Woody"
  

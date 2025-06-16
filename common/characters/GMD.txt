@@ -9,7 +9,7 @@ characters = {
 	}
 
 	GMD_joke_cary = {
-		name = GMD_cary_joke
+		name = GMD_joke_cary
 		portraits = { 
 			army = { 
 				large = GFX_GMD_cary			

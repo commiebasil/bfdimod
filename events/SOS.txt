@@ -20,7 +20,7 @@ country_event = {
 			}
 			1 = {
 				add_country_leader_role = {
-					character = SOS_pin_joke
+					character = SOS_joke_pin
 					promote_leader = yes
 					country_leader = {
 						ideology = despotism

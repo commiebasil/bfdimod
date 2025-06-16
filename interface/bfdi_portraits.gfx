@@ -207,7 +207,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_SMG_one_joke"
-		texturefile = "gfx/leaders/SMG/GGR_reichsfuhrer_one.dds"
+		texturefile = "gfx/leaders/GGR/GGR_reichsfuhrer_one.dds"
 	}
 
 	spriteType = {

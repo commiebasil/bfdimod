@@ -211,7 +211,7 @@ country_event = {
 				inherit_technology = GGR 
 				change_tag_from = GGR
 				random_list = {
-					95 = {
+					99 = {
 						add_country_leader_role = {
 							character = SMG_grassy
 							promote_leader = yes
@@ -220,7 +220,7 @@ country_event = {
 							}
 						}
 					}
-					5 = {
+					1 = {
 						add_country_leader_role = {
 							character = SMG_one_joke
 							promote_leader = yes

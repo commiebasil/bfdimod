@@ -14,7 +14,7 @@ characters = {
 	}
 
 	SOS_joke_pin = {
-		name = SOS_pin_joke
+		name = SOS_joke_pin
 		portraits = { civilian = { large = GFX_SOS_pin_joke } }
 	}
 }
