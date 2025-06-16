@@ -41,25 +41,8 @@ decisions_BFDI_debug = {
 			}
         }
         complete_effect = {	
-			every_country = {
-				limit = { 
-					NOT = {
-						tag = EMP
-					}
-					NOT = {
-						tag = GOI
-					}
-				}
-				add_timed_idea = {
-					idea = idea_debug_battle_royale
-					days = 500
-				}
-				if = {
-					limit = {
-						is_ai = yes
-					}
-					add_offsite_building = { type = arms_factory level = 2 }
-				}
+			custom_effect_tooltip = tt_GOI_debug_1
+			hidden_effect = {
 				every_country = {
 					limit = { 
 						NOT = {
@@ -69,24 +52,42 @@ decisions_BFDI_debug = {
 							tag = GOI
 						}
 					}
-					declare_war_on = {
-						target = PREV
-						type = annex_everything
+					add_timed_idea = {
+						idea = idea_debug_battle_royale
+						days = 500
+					}
+					if = {
+						limit = {
+							is_ai = yes
+						}
+					}
+					every_country = {
+						limit = { 
+							NOT = {
+								tag = EMP
+							}
+							NOT = {
+								tag = GOI
+							}
+						}
+						declare_war_on = {
+							target = PREV
+							type = annex_everything
+						}
 					}
 				}
-			}
+				country_event = GOI_event.69
+				random = {
+					chance = 5
+					set_province_name = { id = 1061 name = "Tilted Towers" }
+					set_province_name = { id = 827 name = "Tomato Town" }
+					set_province_name = { id = 4378 name = "Pleasant Park" }
+					set_province_name = { id = 876 name = "Salty Springs" }
+					set_province_name = { id = 5107 name = "Retail Row" }
+					set_province_name = { id = 11209 name = "Greasy Grove" }
+				}
+			}	
         }
-		hidden_effect = {
-			random = {
-				chance = 2
-				set_province_name = { id = 1061 name = "Tilted Towers" }
-				set_province_name = { id = 827 name = "Tomato Town" }
-				set_province_name = { id = 4378 name = "Pleasant Park" }
-				set_province_name = { id = 876 name = "Salty Springs" }
-				set_province_name = { id = 5107 name = "Retail Row" }
-				set_province_name = { id = 11209 name = "Greasy Grove" }
-			}
-		}
     }
 
 	debug_conquest = {
@@ -106,29 +107,36 @@ decisions_BFDI_debug = {
 			}
         }
         complete_effect = {	
-			add_timed_idea = {
-				idea = idea_debug_conquest
-				days = 720
-			}
-			every_other_country = {
-				limit = { 
-					NOT = {
-						tag = EMP
-					}
-					NOT = {
-						tag = GOI
-					}
-				}
+			custom_effect_tooltip = tt_GOI_debug_2
+			hidden_effect = {
 				add_timed_idea = {
 					idea = idea_debug_battle_royale
-					days = 360
+					days = 720
 				}
-				declare_war_on = {
-					target = ROOT
-					type = annex_everything
+				GOI = {
+					create_faction = "United Goiky"
 				}
-			}
-
+				every_other_country = {
+					limit = { 
+						NOT = {
+							tag = EMP
+						}
+						NOT = {
+							tag = GOI
+						}
+					}
+					set_major = yes
+					GOI = {
+						add_to_faction = PREV
+					}					
+					declare_war_on = {
+						target = ROOT
+						type = annex_everything
+					}
+				}
+				GOI = {leave_faction = yes}
+				country_event = GOI_event.69
+			}	
         }
     }
 }

@@ -110,11 +110,11 @@ country_event = {
 		name = YFC_event.5.a
 		delete_unit_template_and_units = {
 			division_template = "Militia"
-			disband = no #will refund equipment and manpower
+			disband = no 
 		}
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
-			amount = 500
+			amount = 750
 		}
 		add_war_support = 0.02
 		hidden_effect = {
@@ -164,7 +164,6 @@ country_event = {
 }
 
 country_event = {
-	#Allows CRN to enter the war even if the player picks no
 	id = YFC_event.7
 	title = YFC_event.7.t
 	desc = YFC_event.7.desc

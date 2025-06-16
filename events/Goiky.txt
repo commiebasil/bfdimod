@@ -738,3 +738,85 @@ country_event = {
         }
     }
 }
+
+country_event = {
+	#Funny debug event
+    id = GOI_event.69
+    title = GOI_event.69.t
+    desc = GOI_event.69.desc
+    picture = GFX_GOI_event8
+	
+    is_triggered_only = yes
+    
+	option = {
+        name = GOI_event.69.a
+    }
+
+	option = {
+        name = GOI_event.69.b
+		every_other_country = {
+			limit = { 
+				NOT = {
+					tag = EMP
+				}
+				NOT = {
+					tag = GOI
+				}
+				NOT = {
+					is_ai = no
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+			}
+			add_manpower = 20000
+		}
+    }
+
+	option = {
+        name = GOI_event.69.c
+		every_other_country = {
+			limit = { 
+				NOT = {
+					tag = EMP
+				}
+				NOT = {
+					tag = GOI
+				}
+				NOT = {
+					is_ai = no
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 4000
+			}
+			add_manpower = 40000
+			add_offsite_building = { type = arms_factory level = 2 }
+		}
+    }
+
+	option = {
+        name = GOI_event.69.d
+		every_other_country = {
+			limit = { 
+				NOT = {
+					tag = EMP
+				}
+				NOT = {
+					tag = GOI
+				}
+				NOT = {
+					is_ai = no
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 8000
+			}
+			add_manpower = 80000
+			add_offsite_building = { type = arms_factory level = 4 }
+		}
+    }
+}

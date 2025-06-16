@@ -6,6 +6,8 @@
  l_GOI_event6_ce: "§RGoiky falls into anarchy...§!"
  tt_GOI_event_8: "§YThe selection interface will open!§!"
  tt_GOI_event_7: "§RThe population from the central regions begin to flock to the outskirts...§!"
+ tt_GOI_debug_1: "§REvery nation declares war on each other.§!"
+ tt_GOI_debug_2: "§REvery other nation declares war on you and forms a mega faction.§!"
  
  l_WGF_focus_all_objects_serving: "Modifies §YRed army§! idea by:\n- §G2%§! conscription"
  l_WGF_operation_coinflip: "§YBattle for Goiky begins!§!"
@@ -106,4 +108,4 @@
  l_YFC_raid_effect: "§YA random amount of equipment is stolen.§!"
  l_YFC_raid_run: "§YCounts as a failed raid!§!"
  l_YFC_border_raiders_open: "§YPrevents raids from Bunch!§!"
- l_YFC_border_defence: "§YFrom this point on, having 3 or more divisions on the Bunch’s border will prevent any raids!§!"
+ l_YFC_border_defence: "§YNow having 3 or more divisions on the Bunch’s border will prevent any raids!§!"

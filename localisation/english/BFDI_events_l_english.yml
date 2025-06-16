@@ -31,6 +31,14 @@
  GOI_event.8.t: "Battle for Goiky"
  GOI_event.8.desc: "This is where our story begins. First, you need to choose one of the many fragments of Goiky, which you will lead to greatness.\n\n§RWE STRICTLY RECOMMEND TO PAUSE THE GAME!§!"
  GOI_event.8.a: "Let's go!"
+
+ GOI_event.69.t: "Free Will!"
+ GOI_event.69.desc: "To make The Great Battle for Goiky more interesting do you wish to buff the AI?"
+ GOI_event.69.a: "Fine as it is."
+ GOI_event.69.b: "Minor Buff."
+ GOI_event.69.c: "Moderate Buff."
+ GOI_event.69.d: "Major Buff."
+
  #NGRF
  WGF_event.1.t: "Revolutionary front"
  WGF_event.1.desc: "It’s surprising, because just a couple of months ago he won the vote, he was supposed to get the island, but today he’s here. Firey often wondered where fate had taken him. In general, he changed dramatically during the days of the front. Where's Leafy? Where did the island go? These questions have not bothered him for a long time. The liberation of Goiky's objects became the main task of his existence. The short-lived friendship with Coiny quickly broke down when that traitor abandoned the cause of liberating the workers and fled to the east. But it’s okay, all the enemies of the revolution will get what they deserve."
