@@ -1411,7 +1411,7 @@ SpriteTypes = {
 
 	spriteType = {
 		name = "GFX_focus_YFC_money_arms_capital"
-		texturefile = "gfx/interface/goals/GFX_focus_YFC_money_arms_capital.png"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_money_arms_capital.dds"
 	}
 
 	spriteType = {
@@ -1487,5 +1487,10 @@ SpriteTypes = {
 	spriteType = {
 		name = "GFX_focus_YFC_demand_end_pillaging"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_demand_end_pillaging.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_open_foreign_policy"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_open_foreign_policy.dds"
 	}
 }
