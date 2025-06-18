@@ -211,7 +211,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_the_southern_bandits
 		x = 2
 		y = 1
-		icon = GFC_focus_generic
+		icon = GFX_focus_YFC_open_foreign_policy
 		#decreases relations with firey, free territory, and communist goiky if they exist yet, as well as any other COMMIES
 		#increases relations with GTR, Numismatia, and Coiny
 		prerequisite = { focus = YFC_focus_the_southern_bandits }
@@ -392,7 +392,7 @@ focus_tree = {
 		id = YFC_focus_money_arms_capital
 		relative_position_id = YFC_focus_buy_defense_trainings
 		x = 0
-		y = 1
+		y = 2
 		icon = GFX_focus_YFC_money_arms_capital
 		prerequisite = { focus = YFC_focus_buy_defense_trainings }
 		cost = 5

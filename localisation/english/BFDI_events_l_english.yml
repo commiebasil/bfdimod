@@ -38,6 +38,7 @@
  GOI_event.69.b: "Minor Buff."
  GOI_event.69.c: "Moderate Buff."
  GOI_event.69.d: "Major Buff."
+ GOI_event.69.e: "I want to suffer!!!"
 
  #NGRF
  WGF_event.1.t: "Revolutionary front"
