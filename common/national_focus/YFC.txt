@@ -49,7 +49,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_consolidate_power
 		x = 0
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_open_the_markets
 
 		prerequisite = { focus = YFC_focus_consolidate_power }
 
@@ -280,9 +280,9 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_hire_militias
-		relative_position_id = YFC_focus_open_foreign_policy
-		x = 0
-		y = 3
+		relative_position_id = YFC_focus_demand_end_pillage
+		x = 3
+		y = 1
 		icon = GFX_focus_YFC_hire_militias
 
 		available = {
@@ -349,21 +349,17 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_outsource_gun_production
-		relative_position_id = YFC_focus_YFC_funded_pillaging
-		x = -2
-		y = 0
-		icon = GFX_focus_generic
+		#Move it cause it broke and idk why
+		relative_position_id = YFC_focus_coiny_cooperation
+		x = 1
+		y = 1
+		icon = GFX_focus_YFC_outsource_gun_prod
 		
 		available = {
-			hidden_trigger = {
-				has_completed_focus = YFC_focus_coiny_cooperation
-			}
 			has_war = no
 		}
 		
-		allow_branch = { has_completed_focus = YFC_focus_coiny_cooperation }
-
-		prerequisite = { focus = YFC_focus_sell_them_guns }
+		prerequisite = { focus = YFC_focus_coiny_cooperation }
 		#allows you to exploit coiny's military factories, selling coiny's guns instead of yours, so you dont lose military factories, in exchange, buffs from coiny are less potent
 		cost = 2
 		completion_reward = {

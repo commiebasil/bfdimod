@@ -1493,4 +1493,14 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_open_foreign_policy"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_open_foreign_policy.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_open_the_markets"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_open_the_markets.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_outsource_gun_prod"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_outsource_gun_prod.dds"
+	}
 }
