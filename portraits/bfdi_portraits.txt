@@ -16,6 +16,16 @@ continent = {
 		}
 	}
 	
+	operative = {
+		female = {
+			"GFX_Portrait_Goiky_Generic_spy_1"
+			"GFX_Portrait_Goiky_Generic_spy_2"
+		}
+		male = {
+			"GFX_Portrait_Goiky_Generic_navy_1" #Backup till a male spy pic shows up
+		}
+	}
+
 	scientist = {
 		female = {
 			"GFX_Portrait_Goiky_Generic_land_1"

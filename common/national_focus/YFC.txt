@@ -372,7 +372,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_demand_end_pillage
 		x = 0
 		y = 2
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_buy_defense_trainings
 		prerequisite = { focus = YFC_focus_CRN_cooperation }
 		prerequisite = { focus = YFC_focus_coiny_cooperation }
 		#gives coiny as military high command, which gives +10% defense and breakthrough

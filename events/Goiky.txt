@@ -154,6 +154,7 @@ country_event = {
         name = GOI_event.7.a
 		custom_effect_tooltip = tt_GOI_event_7
 		hidden_effect = {
+			add_threat = 10
 			set_global_flag = superevent_dream_island_dissapear
 			country_event = superevent.1
 			set_cosmetic_tag = GOI_anarchy

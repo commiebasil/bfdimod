@@ -154,6 +154,34 @@ characters = {
 			}
 		}
 	}
+
+	GPG_9ball = {
+		name = GPG_9ball
+		portraits = { civilian = { small = GFX_idea_GPG_9ball } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_9ball
+			traits = { captain_of_industry } #Changed as Book has same perk 
+			available = {
+				has_government = democratic
+				has_country_flag = cw_done
+			}
+		}
+	}
+
+	GPG_income_tax_return_document = {
+		name = GPG_income_tax_return_document
+		portraits = { civilian = { small = GFX_idea_GPG_itrd } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GPG_itrd
+			traits = { tax_reformer } 
+			available = {
+				has_government = democratic
+				has_country_flag = cw_done
+			}
+		}
+	}
 	
 	#TRANS XD
 	GPG_saw = {
@@ -191,6 +219,32 @@ characters = {
 			defense_skill = 1
 			planning_skill = 2
 			logistics_skill = 2
+		}
+	}
+
+	GPG_cloudy = {
+		name = GPG_Cloudy
+		portraits = { 
+			army = { 
+				small = GFX_idea_GPG_cloudy 
+				large = GFX_GPG_cloudy
+			} 
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = idea_GPG_cloudy
+			ledger = army
+			traits = { army_logistics_2 }
+			available = { hidden_trigger = { has_completed_focus = GPG_focus_recharnd_military_academy } {has_country_flag = fries_triumph} }
+			visible = { hidden_trigger = { has_completed_focus = GPG_focus_recharnd_military_academy } {has_country_flag = fries_triumph} }
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 6
+			traits = { politically_connected cavalry_officer }
 		}
 	}
 	

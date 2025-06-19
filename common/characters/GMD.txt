@@ -16,12 +16,29 @@ characters = {
 			} 
 		}
 		corps_commander = {
-			skill = 2
+			skill = 4
 			attack_skill = 2
 			defense_skill = 7
 			planning_skill = 6
 			logistics_skill = 3
 			traits = { media_personality politically_connected cavalry_expert }
+		}
+	}
+
+	GMD_dinar = {
+		name = GMD_dinar
+		portraits = { 
+			army = { 
+				large = GFX_GMD_dinar			
+			} 
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			traits = { brilliant_strategist engineer_officer trickster }
 		}
 	}
 }

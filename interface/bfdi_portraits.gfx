@@ -23,6 +23,14 @@ spriteTypes = {
 		name = "GFX_Portrait_Goiky_Generic_navy_3"
 		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_navy_3.dds
 	}
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_spy_1"
+		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_1.dds
+	}
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_spy_2"
+		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_2.dds
+	}
 
 
 	spriteType = {
@@ -66,6 +74,11 @@ spriteTypes = {
 		name = "GFX_GMD_cary"
 		texturefile = "gfx/leaders/GMD/GMD_Cary_Huang.dds"
 	}
+
+	spriteType = {
+		name = "GFX_GMD_dinar"
+		texturefile = "gfx/leaders/GMD/GMD_dinar.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_GPR_alliance"
@@ -108,6 +121,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_GPG_transitional_government"
 		texturefile = "gfx/leaders/GPG/GPG_transitional_government.dds"
+	}
+	spriteType = {
+		name = "GFX_GPG_cloudy"
+		texturefile = "gfx/leaders/GPG/GPG_cloudy.dds"
 	}
 	
 	frameAnimatedSpriteType = {
@@ -224,10 +241,17 @@ spriteTypes = {
 		name = "GFX_YFC_yellow_face"
 		texturefile = "gfx/leaders/YFC/YFC_yellow_face.dds"
 	}
+
 	spriteType = {
 		name = "GFX_YFC_david"
 		texturefile = "gfx/leaders/YFC/YFC_david.dds"
 	}
+
+	spriteType = {
+		name = "GFX_YFC_tophat"
+		texturefile = "gfx/leaders/YFC/YFC_tophat.dds"
+	}
+
 	spriteType = {
 		name = "GFX_SOS_anchor"
 		texturefile = "gfx/leaders/SOS/SOS_anchor.dds"

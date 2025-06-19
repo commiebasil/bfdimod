@@ -11,4 +11,24 @@ characters={
 			desc = CRN_credit_card_desc
 		}
 	}
+
+	CRN_mirror = {
+		name = CRN_mirror
+		portraits = { civilian = { small = GFX_idea_CRN_mirror } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_CRN_mirror
+			traits = { free_market_proponent }
+		}
+	}
+
+	CRN_pineapple = {
+		name = CRN_pineapple
+		portraits = { civilian = { small = GFX_idea_CRN_pineapple } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_CRN_pineapple
+			traits = { market_interventionist }
+		}
+	}
 }

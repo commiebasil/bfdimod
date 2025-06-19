@@ -43,4 +43,5 @@ random = {
 }
 
 recruit_character = GMD_coiny
+recruit_character = GMD_dinar
 

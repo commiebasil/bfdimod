@@ -63,6 +63,34 @@ characters = {
 			}
 		}
 	}
+
+	GDR_9ball = {
+		name = GPG_9ball
+		portraits = { civilian = { small = GFX_idea_GPG_9ball } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GDR_9ball
+			traits = { captain_of_industry } #Changed as Book has same perk 
+			available = {
+				has_government = democratic
+				has_country_flag = cw_done
+			}
+		}
+	}
+
+	GDR_income_tax_return_document = {
+		name = GPG_income_tax_return_document
+		portraits = { civilian = { small = GFX_idea_GPG_itrd } }
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_GDR_itrd
+			traits = { tax_reformer } 
+			available = {
+				has_government = democratic
+				has_country_flag = cw_done
+			}
+		}
+	}
 	
 	GDR_eggy = {
 		name = GDR_eggy

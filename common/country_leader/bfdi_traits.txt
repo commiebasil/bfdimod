@@ -50,4 +50,25 @@ leader_traits = {
 		army_defence_factor = 0.1
 		breakthrough_factor = 0.1
 	}
+
+	tax_reformer = {
+		stability_factor = 0.05
+		political_power_gain = 0.1
+	}
+
+	market_interventionist = {
+		production_speed_industrial_complex_factor = 0.10
+		production_factory_max_efficiency_factor = -0.05
+		line_change_production_efficiency_factor = 0.08
+		stability_factor = 0.1
+		political_power_gain = -0.1
+	}
+
+	free_market_proponent = {
+		consumer_goods_factor = 0.1
+		political_power_factor = -0.05
+		production_factory_max_efficiency_factor = 0.1
+		industrial_capacity_factory = 0.10
+		conversion_cost_civ_to_mil_factor = 0.15
+	}
 }

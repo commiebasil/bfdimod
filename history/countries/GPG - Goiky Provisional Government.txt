@@ -93,6 +93,9 @@ recruit_character = GPG_nickel
 recruit_character = GPG_firey_jr
 recruit_character = GPG_gelatin
 recruit_character = GPG_tree
+recruit_character = GPG_cloudy
+recruit_character = GPG_9ball
+recruit_character = GPG_income_tax_return_document
 
 add_ideas = undisturbed_isolation
 

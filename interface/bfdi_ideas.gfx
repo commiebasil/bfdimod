@@ -224,7 +224,18 @@ spriteTypes = {
 		name = GFX_idea_GPG_tree
 		texturefile = gfx/interface/ideas/idea_GPG_tree.dds
 	}
-	
+	spriteType = {
+		name = GFX_idea_GPG_cloudy
+		texturefile = gfx/interface/ideas/idea_GPG_cloudy.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_9ball
+		texturefile = gfx/interface/ideas/idea_GPG_9ball.dds
+	}
+	spriteType = {
+		name = GFX_idea_GPG_itrd
+		texturefile = gfx/interface/ideas/idea_GPG_itrd.dds
+	}
 	spriteType = {
 		name = GFX_idea_GDR_military_advisors
 		texturefile = gfx/interface/ideas/idea_GDR_military_advisors.dds
@@ -446,6 +457,14 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_idea_SOS_goiky_fleet
 		texturefile = gfx/interface/ideas/idea_SOS_goiky_fleet.dds
+	}
+	spriteType = {
+		name = GFX_idea_CRN_pineapple
+		texturefile = gfx/interface/ideas/idea_CRN_pineapple.dds
+	}
+	spriteType = {
+		name = GFX_idea_CRN_mirror
+		texturefile = gfx/interface/ideas/idea_CRN_mirror.dds
 	}
 	
 	spriteType = {

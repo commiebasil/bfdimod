@@ -382,6 +382,10 @@
  GPG_event.46.t: "Republic offers negotiations"
  GPG_event.46.desc: "A telegram was transmitted to our government today from Greenport proposing a 'settlement of the Lawnland issue'. A conference will be held between our diplomats in Casland, which will determine the fate of the region. We can't miss this chance."
  GPG_event.46.a: "Let them come."
+
+ GPG_event.47.t: "The Wind Changes Directions!"
+ GPG_event.47.desc: "With Pie winning the vote it seems that not only were some of our council members unhappy, but one of our generals.  Cloudy had submitted his resignation a few hours ago citing ‘Disillusioned with the current government’. For now, it seems that he will not be with us in the upcoming days."
+ GPG_event.47.a: "Interesting..."
  
  #GDR
  GDR_event.1.t: "Battle For Democracy"

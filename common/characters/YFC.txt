@@ -11,8 +11,8 @@ characters = {
 			ideology = oligarchism
 			desc = YFC_yellow_face_desc
 		}
-field_marshal = {
-			traits = { offensive_doctrine  politically_connected }
+		field_marshal = {
+			traits = { offensive_doctrine politically_connected }
 			skill = 3
 			attack_skill = 4
 			defense_skill = 2
@@ -20,7 +20,7 @@ field_marshal = {
 			logistics_skill = 3
 		}
 	}
-YFC_lewis = {
+	YFC_lewis = {
 		name = YFC_lewis
 		portraits = { 
 			civilian = { 
@@ -88,6 +88,24 @@ YFC_lewis = {
 			traits = { foreign_advisor }
 			available = { hidden_trigger = { has_completed_focus = YFC_focus_buy_defense_trainings } }
 			visible = { hidden_trigger = { has_completed_focus = YFC_focus_buy_defense_trainings } }
+		}
+	}
+	YFC_tophat = {
+		name = YFC_tophat
+		portraits = { 
+			army = { 
+				large = GFX_YFC_tophat			
+			} 
+		}
+		field_marshal = {
+			traits = { politically_connected armor_officer trait_reckless organisational_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+			available = { hidden_trigger = { has_completed_focus = YFC_focus_establish_sectorialism } }
+			visible = { hidden_trigger = { has_completed_focus = YFC_focus_establish_sectorialism } }
 		}
 	}
 }
