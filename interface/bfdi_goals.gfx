@@ -1508,4 +1508,14 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_coiny_cooperation"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_coiny_cooperation.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_establish_sectorialism"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_establish_sectorialism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_establish_sectorialism_other"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_establish_sectorialism_shine.dds"
+	}
 }

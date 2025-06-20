@@ -63,7 +63,13 @@ focus_tree = {
 		relative_position_id = YFC_focus_open_the_market
 		x = 0
 		y = 2
-		icon = GFX_focus_generic
+		icon = {
+			trigger = { has_shine_effect_on_focus = YFC_focus_establish_sectorialism }
+			value = GFX_focus_YFC_establish_sectorialism_other
+		}
+		icon = {
+			value = GFX_focus_YFC_establish_sectorialism
+		}
 
 		prerequisite = { focus = YFC_focus_open_the_market }
 
