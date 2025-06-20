@@ -230,16 +230,8 @@ characters = {
 				large = GFX_GPG_cloudy
 			} 
 		}
-		advisor = {
-			slot = army_chief
-			idea_token = idea_GPG_cloudy
-			ledger = army
-			traits = { army_logistics_2 }
-			available = { hidden_trigger = { has_completed_focus = GPG_focus_recharnd_military_academy }}
-            visible = { hidden_trigger = { has_completed_focus = GPG_focus_recharnd_military_academy }}
-		}
 		corps_commander = {
-			skill = 3
+			skill = 1 #Nerfed due to other civil war commanders having low skill. Gains +1 skill in focus tree
 			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 3
