@@ -79,6 +79,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 15
 			air_experience = 15
+			recruit_character = YFC_tophat
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
@@ -493,7 +494,6 @@ focus_tree = {
 			country_event = {
 				id = YFC_event.9
 				hour = 1
-				random_hours = 12
 			}
 		}
 	}
@@ -514,7 +514,6 @@ focus_tree = {
 			country_event = {
 				id = YFC_event.10
 				hour = 1
-				random_hours = 6
 			}
 			custom_effect_tooltip = l_YFC_raids1
 		}

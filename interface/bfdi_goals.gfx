@@ -1420,11 +1420,6 @@ SpriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_YFC_coiny_cooperation"
-		texturefile = "gfx/interface/goals/GFX_focus_YFC_coiny_cooperation.dds"
-	}
-
-	spriteType = {
 		name = "GFX_focus_YFC_hire_militias"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_hire_militias.dds"
 	}
@@ -1507,5 +1502,10 @@ SpriteTypes = {
 	spriteType = {
 		name = "GFX_focus_YFC_buy_defense_trainings"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_buy_defense_trainings.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_coiny_cooperation"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_coiny_cooperation.dds"
 	}
 }

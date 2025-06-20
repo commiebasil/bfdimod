@@ -48,7 +48,7 @@ recruit_character = YFC_lewis
 recruit_character = YFC_david
 recruit_character = YFC_dora
 recruit_character = YFC_Coiny
-recruit_character = YFC_tophat
+
 
 add_ideas = free_trade
 

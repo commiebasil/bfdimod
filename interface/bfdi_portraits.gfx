@@ -24,13 +24,14 @@ spriteTypes = {
 		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_navy_3.dds
 	}
 	spriteType = {
-		name = "GFX_Portrait_Goiky_Generic_spy_1"
-		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_1.dds
-	}
-	spriteType = {
-		name = "GFX_Portrait_Goiky_Generic_spy_2"
-		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_2.dds
-	}
+        name = "GFX_Portrait_Goiky_Generic_spy_1"
+        texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_1.dds
+    }
+    spriteType = {
+        name = "GFX_Portrait_Goiky_Generic_spy_2"
+        texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_2.dds
+    }
+
 
 
 	spriteType = {

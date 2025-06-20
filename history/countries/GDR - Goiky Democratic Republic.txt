@@ -49,7 +49,6 @@ recruit_character = GDR_taco
 recruit_character = GDR_barf_bag
 recruit_character = GDR_book
 recruit_character = GDR_eggy
-recruit_character = GDR_eggy
 recruit_character = GDR_9ball
 recruit_character = GDR_income_tax_return_document
 
