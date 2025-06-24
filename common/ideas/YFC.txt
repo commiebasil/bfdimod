@@ -5,7 +5,6 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				political_power_gain = 0.25
-				industry_free_repair_factor = 0.2
 			}
 		}
 
@@ -13,8 +12,8 @@ ideas = {
 			#Update icon soon please!
 			picture = GOI_anarchy
 			modifier = {
-				production_speed_buildings_factor = -1
-				
+				production_speed_buildings_factor = -5
+				industry_free_repair_factor = 5.2
 			}
 		}
 

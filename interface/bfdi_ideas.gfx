@@ -451,6 +451,10 @@ spriteTypes = {
 		texturefile = gfx/interface/ideas/idea_YFC_lewis.dds
 	}
 	spriteType = {
+		name = GFX_idea_YFC_coiny
+		texturefile = gfx/interface/ideas/idea_YFC_coiny.dds
+	}
+	spriteType = {
 		name = GFX_idea_YFC_dora
 		texturefile = gfx/interface/ideas/idea_YFC_dora.dds
 	}

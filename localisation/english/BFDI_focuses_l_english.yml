@@ -1004,6 +1004,18 @@
  YFC_focus_erasers_training: "Eraser's Training"
  YFC_focus_erasers_training_desc: "Eraser has told us in the past that our units are likely unprepared for what it takes to raid a settlement. Far too organized he says, and too rigid, too afraid, too used to walking in straight lines, shooting when told to shoot, retreating when told to retreat. Training our units with him could definitely give us an edge up against our victims."
 
+ YFC_focus_a_raid_o3: "Era of Raiding" #change if you hate i guess
+ YFC_focus_a_raid_o3_desc: "Zubbz please write a masterpiece instead of having a live xd"
+
+ YFC_focus_numismatian_subjugation: "Subjugate Numismatia" 
+ YFC_focus_numismatian_subjugation_desc: "Zubbz please write a masterpiece instead of having a live xd"
+
+ YFC_focus_closer_integration: "Closer Integration" 
+ YFC_focus_closer_integration_desc: "Zubbz please write a masterpiece instead of having a live xd"
+
+ YFC_focus_break_diplomacy: "Break Diplomacy" 
+ YFC_focus_break_diplomacy_desc: "Zubbz please write a masterpiece instead of having a live xd"
+
  #generic
  generic_focus_industry: "Industry expansion"
  generic_focus_industry_desc: "Our industrial capacity is a rather bit low, innit?"

@@ -74,11 +74,9 @@ characters = {
 
 	YFC_Coiny = {
 		name = YFC_Coiny
-		#Add small portrait please!
 		portraits = { 
 			civilian = { 
-				large = GFX_GMD_coiny
-				small = GFX_GMD_coiny
+				small = GFX_idea_YFC_coiny
 			}
 		}
 		advisor = {
