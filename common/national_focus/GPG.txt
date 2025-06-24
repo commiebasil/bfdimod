@@ -680,7 +680,11 @@ focus_tree = {
 				mission = GPG_mission_deal_with_iron_hand
 				days = 30
 			}
-			hidden_effect = { retire_character = GPG_book }
+			hidden_effect = { 
+				retire_character = GPG_book 
+				retire_character = GPG_9ball
+				retire_character = GPG_income_tax_return_document
+			}
 			add_stability = -0.05
 		}
 	}
