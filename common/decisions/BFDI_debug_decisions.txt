@@ -163,7 +163,6 @@ decisions_BFDI_debug = {
 						modifier = fallout_atomic
 						days = 730
 					}
-					add_manpower = -10000
 				}
 			}	
         }

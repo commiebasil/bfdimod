@@ -9,8 +9,7 @@ ideas = {
 		}
 
 		idea_YFC_anarchic_lands = {
-			#Update icon soon please!
-			picture = GOI_anarchy
+			picture = YFC_anarchic_lands
 			modifier = {
 				production_speed_buildings_factor = -5
 				industry_free_repair_factor = 5.2
@@ -18,8 +17,7 @@ ideas = {
 		}
 
 		idea_YFC_United_Clash = {
-			#Please update icon later thank you!!!!!
-			picture = generic_war_preparation
+			picture = YFC_United_Clash
 			targeted_modifier = {
 				tag = BUN
 				defense_bonus_against = 0.1
@@ -37,9 +35,7 @@ ideas = {
 		}
 
 		idea_YFC_show_no_mercy = {
-			#Please update icon later thank you!!!!!
-			#Attack non-core is not a real thing, so update if needed.
-			picture = generic_purge
+			picture = YFC_show_no_mercy
 			modifier = {
 				army_attack_factor = 0.05
 				army_defence_factor = -0.05

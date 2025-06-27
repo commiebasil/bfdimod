@@ -447,6 +447,18 @@ spriteTypes = {
 		texturefile = gfx/interface/ideas/idea_YFC_no_more_advertisements_foundation.dds
 	}
 	spriteType = {
+		name = GFX_idea_YFC_anarchic_lands
+		texturefile = gfx/interface/ideas/idea_YFC_anarchy.dds
+	}
+	spriteType = {
+		name = GFX_idea_YFC_United_Clash
+		texturefile = gfx/interface/ideas/idea_YFC_coiny_advisors.dds
+	}
+	spriteType = {
+		name = GFX_idea_YFC_show_no_mercy
+		texturefile = gfx/interface/ideas/idea_YFC_show_no_mercy.dds
+	}
+	spriteType = {
 		name = GFX_idea_YFC_lewis
 		texturefile = gfx/interface/ideas/idea_YFC_lewis.dds
 	}
