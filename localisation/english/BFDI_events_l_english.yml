@@ -42,11 +42,11 @@
 
  #NGRF
  WGF_event.1.t: "Revolutionary front"
- WGF_event.1.desc: "It’s surprising, because just a couple of months ago he won the vote, he was supposed to get the island, but today he’s here. Firey often wondered where fate had taken him. In general, he changed dramatically during the days of the front. Where's Leafy? Where did the island go? These questions have not bothered him for a long time. The liberation of Goiky's objects became the main task of his existence. The short-lived friendship with Coiny quickly broke down when that traitor abandoned the cause of liberating the workers and fled to the east. But it’s okay, all the enemies of the revolution will get what they deserve."
+ WGF_event.1.desc: "It's surprising, because just a couple of months ago he won the vote, he was supposed to get the island, but today he's here. Firey often wondered where fate had taken him. In general, he changed dramatically during the days of the front. Where's Leafy? Where did the island go? These questions have not bothered him for a long time. The liberation of Goiky's objects became the main task of his existence. The short-lived friendship with Coiny quickly broke down when that traitor abandoned the cause of liberating the workers and fled to the east. But it's okay, all the enemies of the revolution will get what they deserve."
  WGF_event.1.a: "The fire won't go out."
  
  WGF_event.2.t: "Case #8"
- WGF_event.2.desc: "CONCLUSION ON CASE #8 ABOUT THE DISAPPEARANCE OF D.I.:\nAfter the research work carried out described on page 9 of this document and hearings of witnesses, Leafy’s guilt in the loss of people’s property, which led to particularly large economic losses, becomes undeniable. A court hearing in the case will take place in the next few months."
+ WGF_event.2.desc: "CONCLUSION ON CASE #8 ABOUT THE DISAPPEARANCE OF D.I.:\nAfter the research work carried out described on page 9 of this document and hearings of witnesses, Leafy's guilt in the loss of people's property, which led to particularly large economic losses, becomes undeniable. A court hearing in the case will take place in the next few months."
  WGF_event.2.a: "Let it be so."
  
  WGF_event.3.t: "Trial"
@@ -121,7 +121,7 @@
  WGF_event.20.a: "Idiots."
  
  WGF_event.21.t: "Our Situation"
- WGF_event.21.desc: "Firey had been in control over his now sovereign territory for several weeks now, however, most of his supporters didn’t actually know what his ideology was like. That was going to change in just a few short hours, because Firey was making morning preparations to give a speech to his new-found subjects. He was currently sitting on a train, being transported to the building he was expected to speak at. Firey was definitely afraid of what might happen to him at the event, even one stutter could ruin his dream of a united, just Goiky. He ran through different scenarios of the things that could possibly go wrong in his head, whilst taking sips of his coffee.\nThe thoughts weighed heavily on his mind, making a slip up feel more and more inevitable.\n\nAs the train car stopped, and Firey stepped out, he saw a large crowd of objects, all around the platform the train had stopped at. All the objects seemed very excited, but for what, Firey didn’t know. He started to look around the platform, wondering what they were all excited about. However, as he looked around, he soon realized that all of these people were grinning, wide-eyed, at him. He was the center of attention, people wanted to know his thoughts."
+ WGF_event.21.desc: "Firey had been in control over his now sovereign territory for several weeks now, however, most of his supporters didn't actually know what his ideology was like. That was going to change in just a few short hours, because Firey was making morning preparations to give a speech to his new-found subjects. He was currently sitting on a train, being transported to the building he was expected to speak at. Firey was definitely afraid of what might happen to him at the event, even one stutter could ruin his dream of a united, just Goiky. He ran through different scenarios of the things that could possibly go wrong in his head, whilst taking sips of his coffee.\nThe thoughts weighed heavily on his mind, making a slip up feel more and more inevitable.\n\nAs the train car stopped, and Firey stepped out, he saw a large crowd of objects, all around the platform the train had stopped at. All the objects seemed very excited, but for what, Firey didn't know. He started to look around the platform, wondering what they were all excited about. However, as he looked around, he soon realized that all of these people were grinning, wide-eyed, at him. He was the center of attention, people wanted to know his thoughts."
  WGF_event.21.a: "This speech will be light work for him."
  
  #Reich
@@ -169,7 +169,7 @@
  GGR_event.10.a: "Business is going well."
  
  GGR_event.11.t: "Some... uncertainties"
- GGR_event.11.desc: "- Why the hell is this road blocked!?\n\n- No specific reasons are given, but driving here is strictly prohibited.\n\n- I don’t care, I have an urgent meeting in Schneehorn, open this barrier immediately, otherwise you will have big problems in the Reichsordnung!\n\n- ...Sorry, sir, but I'll get myself court-martialed if I do this. This is an order from the very top.\n\nThe irritated driver, completely enraged, pressed the pedal to the floor and broke through the barrier, rushing into the distance."
+ GGR_event.11.desc: "- Why the hell is this road blocked!?\n\n- No specific reasons are given, but driving here is strictly prohibited.\n\n- I don't care, I have an urgent meeting in Schneehorn, open this barrier immediately, otherwise you will have big problems in the Reichsordnung!\n\n- ...Sorry, sir, but I'll get myself court-martialed if I do this. This is an order from the very top.\n\nThe irritated driver, completely enraged, pressed the pedal to the floor and broke through the barrier, rushing into the distance."
  GGR_event.11.a: "Open fire!"
  
  GGR_event.12.t: "Crossing the line"
@@ -233,7 +233,7 @@
  GPG_event.11.b: "Pie managed to defend her post."
  
  GPG_event.12.t: "The Island Question"
- GPG_event.12.desc: "Like nothing else in Casland, the question now is about the funds that were spent on the construction of Dream Island. Huge amounts of money disappeared into thin air, and this dealt a severe blow to the economic heart of the continent. The agenda of the congress included the issue of partial payment of compensation to investors. Many consider this a necessary measure, but there is also an opinion that Goiky’s economy will be able to recover its wounds on its own, and the payment of compensation will cut into an already incredibly small budget. What will Congress choose?"
+ GPG_event.12.desc: "Like nothing else in Casland, the question now is about the funds that were spent on the construction of Dream Island. Huge amounts of money disappeared into thin air, and this dealt a severe blow to the economic heart of the continent. The agenda of the congress included the issue of partial payment of compensation to investors. Many consider this a necessary measure, but there is also an opinion that Goiky's economy will be able to recover its wounds on its own, and the payment of compensation will cut into an already incredibly small budget. What will Congress choose?"
  GPG_event.12.a: "Immediate compensations!"
  GPG_event.12.b: "Congress rejects the proposal."
  
@@ -306,7 +306,7 @@
  GPG_event.27.a: "We'll deal with that."
  
  GPG_event.28.t: "Communists take control of the mines!"
- GPG_event.28.desc: "As a result of our government’s not very clever policy towards radicals, the Toilers Front faction managed to gain full support among the workers of the eastern mines and establish a socialist regime there. Now the troops are joining in."
+ GPG_event.28.desc: "As a result of our government's not very clever policy towards radicals, the Toilers Front faction managed to gain full support among the workers of the eastern mines and establish a socialist regime there. Now the troops are joining in."
  GPG_event.28.a: "To battle!"
  
  GPG_event.29.t: "Iron Forces occupy Recharnd!"
@@ -384,12 +384,12 @@
  GPG_event.46.a: "Let them come."
 
  GPG_event.47.t: "The Wind Changes Directions!"
- GPG_event.47.desc: "With Pie winning the vote it seems that not only were some of our council members unhappy, but one of our generals.  Cloudy had submitted his resignation a few hours ago citing ‘Disillusioned with the current government’. For now, it seems that he will not be with us in the upcoming days."
+ GPG_event.47.desc: "With Pie winning the vote it seems that not only were some of our council members unhappy, but one of our generals.  Cloudy had submitted his resignation a few hours ago citing ‘Disillusioned with the current government'. For now, it seems that he will not be with us in the upcoming days."
  GPG_event.47.a: "Interesting..."
  
  #GDR
  GDR_event.1.t: "Battle For Democracy"
- GDR_event.1.desc: "The provisional government, through its decisions, showed its desire to establish a dictatorship, and we were forced to raise our rifles for the sake of our freedom and the freedom of Goiky’s objects. Opponents of democracy must be defeated today, or we are doomed to another authoritarian regime."
+ GDR_event.1.desc: "The provisional government, through its decisions, showed its desire to establish a dictatorship, and we were forced to raise our rifles for the sake of our freedom and the freedom of Goiky's objects. Opponents of democracy must be defeated today, or we are doomed to another authoritarian regime."
  GDR_event.1.a: "Forwards!"
  
  GDR_event.2.t: "Return of the Republic"
@@ -652,10 +652,10 @@
  YFC_event.7.t: "Stab in the back."
  YFC_event.7.desc: "After weeks of no response, it's clear that Yellow Face wishes for us to not enter the war. Maybe he thinks that the war should stay local or he only wants the wealth for himself. Either case, the generals are itching for a fight so it might be worth it to annoy our friends."
  YFC_event.7.a: "Roll Out!"
- YFC_event.7.b: "We’ll stay."
+ YFC_event.7.b: "We'll stay."
 
  YFC_event.8.t: "INCIDENT #46"
- YFC_event.8.desc: "It had only been a week since checkpoint B had been set up along the ‘supposed’ borders between the Corporation and the Bandits. The day of the event was like any other, few refugees crossing, some arrests, and the random machine gun on an object. The day was wrapping up like any other... \n\nUntil, during the night, checkpoint B’s guards spotted a mass amount of objects heading towards them. They claimed that there are ‘open borders’ and that the guards at the checkpoint had no real authority. After much heated shouting, a gunshot ran out which led to an open battle. They were not refugees, but were bandits. They tried to storm the checkpoint from the small number of guards protecting it. Despite all odds, the guards held the ground and made the Bandits pay for each step forward. Even after the checkpoint was taken, the guards fell back inland and kept the fight on. One interesting report was that a squad of 8 held up in a cabin, lead by Jonas Taylor, fought off a force of around 100 objects and only lost 3 objects in the five hours of fighting. \n\nNight became day with the engagements only heating up. With the help of reinforcements, the combined forces pushed back the Bandits back to the checkpoint. Only when nightfall arrived that the Bandits retreated from the checkpoint. The checkpoint was retaken the next day. Many of the Objects that took part in the engagement have earned medals for their bravery. The overall death toll is being accounted for, but both soldiers and civilians were harmed in the fighting. No response has come from anyone in the Bandit lands. "
+ YFC_event.8.desc: "It had only been a week since checkpoint B had been set up along the ‘supposed' borders between the Corporation and the Bandits. The day of the event was like any other, few refugees crossing, some arrests, and the random machine gun on an object. The day was wrapping up like any other... \n\nUntil, during the night, checkpoint B's guards spotted a mass amount of objects heading towards them. They claimed that there are ‘open borders' and that the guards at the checkpoint had no real authority. After much heated shouting, a gunshot ran out which led to an open battle. They were not refugees, but were bandits. They tried to storm the checkpoint from the small number of guards protecting it. Despite all odds, the guards held the ground and made the Bandits pay for each step forward. Even after the checkpoint was taken, the guards fell back inland and kept the fight on. One interesting report was that a squad of 8 held up in a cabin, lead by Jonas Taylor, fought off a force of around 100 objects and only lost 3 objects in the five hours of fighting. \n\nNight became day with the engagements only heating up. With the help of reinforcements, the combined forces pushed back the Bandits back to the checkpoint. Only when nightfall arrived that the Bandits retreated from the checkpoint. The checkpoint was retaken the next day. Many of the Objects that took part in the engagement have earned medals for their bravery. The overall death toll is being accounted for, but both soldiers and civilians were harmed in the fighting. No response has come from anyone in the Bandit lands. "
  YFC_event.8.a: "Rapid Escalations..."
 
  YFC_event.9.t: "Rapid Reorganization"
@@ -663,7 +663,7 @@
  YFC_event.9.a: "Our skill in raiding."
 
  YFC_event.10.t: "Open Air"
- YFC_event.10.desc: "Now... now is the time to begin our raiding efforts! With more objects in both the countryside and cities being ‘hired’ we have the ability to begin our raids. We must now use our raiding to not only survive, but to thrive! We need to steal the resources from our neighbors to gather even more strength, wealth, and power!. Sure, this land will fall into a land of anarchy and banditry, but it is a fair price!"
+ YFC_event.10.desc: "Now... now is the time to begin our raiding efforts! With more objects in both the countryside and cities being ‘hired' we have the ability to begin our raids. We must now use our raiding to not only survive, but to thrive! We need to steal the resources from our neighbors to gather even more strength, wealth, and power!. Sure, this land will fall into a land of anarchy and banditry, but it is a fair price!"
  YFC_event.10.a: "Onwards!"
 
  BUN_borderwars.5.t: "Raiders Attacked!"
@@ -682,7 +682,7 @@
  YFC_borderwars.3.desc: "The raiders came in the night, late at night at that. Nearly no one was awake, and from far outside the city limits we heard loud shouting. Suddenly, there was a gunshot, and it felt as if the whole city woke at the same time. Objects wandered outside of their houses, 'What was that?'s and 'I've got work in the morning.'s softly flying through the air. Suddenly, a soldier of ours bursted out of a room, soon a hundred more followed, then a thousand, then two thousand. It had turned from a typical night to an all out battle. The raiders fought hard, burning our buildings, killing our people, breaking equipment. We fought harder, maiming the raiders, stealing their own guns from them, burning them alive. \nIt was barbaric, sure, but in the end we won. We defended ourselves. We made examples out of them."
  YFC_borderwars.3.a: "And we'll do it again for our people."
 
- YFC_borderwars.4.t: "In the defense..."
+ YFC_borderwars.4.t: "In The Defense..."
  YFC_borderwars.4.desc: "The city is red. Roads, the sides of buildings, cars, parks, lights, windows, all stained with red. The raiders came last night, they stole, killed, burned, then left. No one expected them, and by the time soldiers arrived to defend, it was far too late. So many people are dead. So many."
  YFC_borderwars.4.a: "We can't let this happen again."
 
@@ -692,10 +692,10 @@
 
  YFC_borderwars.12.t: "Unsuccessful Jailbreak!"
  YFC_borderwars.12.desc: "Our forces attempted to clear the work camps of enemy guards, but were overwhelmed and forced to flee from the overwhelming defences. The mines were damaged in the fighting, but the anarchists were failed to be freed and most of our forces were lost."
- YFC_borderwars.12.a: "Such ‘skills’ were not needed anyway..."
+ YFC_borderwars.12.a: "Such ‘skills' were not needed anyway..."
 
  YFC_borderwars.13.t: "Reports from The Great Ridge!"
- YFC_borderwars.13.desc: "It’s unclear what is happening, but due to failed defences in the north the Yellow Face Raiders have attacked one of the work camps. Those traitorous anarchists might have escaped in the fighting and the mines may be damaged. This disaster has set us back a bit."
+ YFC_borderwars.13.desc: "It's unclear what is happening, but due to failed defences in the north the Yellow Face Raiders have attacked one of the work camps. Those traitorous anarchists might have escaped in the fighting and the mines may be damaged. This disaster has set us back a bit."
  YFC_borderwars.13.a: "We cannot allow more attacks to happen!"
 
  YFC_borderwars.14.t: "Heist of the Year!"
@@ -709,6 +709,17 @@
  YFC_borderwars.16.t: "Chaos at the Great Goiky Railroad Head Station!"
  YFC_borderwars.16.desc: "Various reports have arrived to us that armed objects entered the station and attacked. Many of the trains have either been stolen or damaged in the fighting. The bandits had left a few hours ago, but the station and nearby rail have been heavily damaged."
  YFC_borderwars.16.a: "We should prevent more raids from happening!"
+
+ YFC_CRN_sub.1.t: "An Affirmative Response!"
+ YFC_CRN_sub.1.desc: "Recently, we sent over a letter with a certain set of demands to The Capitalist Republic of Numismatia. Numismatian officials have sent their final response, accepting the demands. They've said that the changes we've asked for will be implemented in the coming days. Let's hope we can get more victories like this in the future!"
+ YFC_CRN_Sub.1.a: "They'll be under our thumb in no time."
+ 
+ YFC_CRN_sub.2.t: "A Negative Response..."
+ YFC_CRN_sub.2.desc: "Recently, we sent over a letter with a certain set of demands to The Capitalist Republic of Numismatia. Numismatian officials have sent their final response, declining the demands. They claimed our changes were 'too radical' and 'not fit for Numismatian government ideals', among other things. Despite this hopefully short lived act of defiance, they are still willing to negotiate with us. This is only a minor set back."
+ YFC_CRN_sub.2.a: "Let's hope they don't act out again, for their sake."
+
+ YFC_CRN_sub.3.t: "The Yellow Face Corporation accepts our demands!"
+ YFC_CRN_sub.3.desc: ""
 
 
 #NEWS
@@ -750,7 +761,7 @@
  bfdinews.9.a: "Order was established in the Snowy Plateau."
  
  bfdinews.10.t: "Crisis in Casland"
- bfdinews.10.desc: "Important news came from the Provisional Government: The head of the transitional regime, Clock, was killed by a left-wing activist! This further aggravated the political crisis in the state and factionalism in Casland’s life ceased to know boundaries. The cabinet will have to do a lot of work to maintain stability."
+ bfdinews.10.desc: "Important news came from the Provisional Government: The head of the transitional regime, Clock, was killed by a left-wing activist! This further aggravated the political crisis in the state and factionalism in Casland's life ceased to know boundaries. The cabinet will have to do a lot of work to maintain stability."
  bfdinews.10.a: "And all of Goiky held its breath."
  bfdinews.10.b: "We will count on the victory of the socialists."
  bfdinews.10.c: "We will support our right-wing friends."
@@ -819,7 +830,7 @@
  bfdinews.25.a: "Objects are united, again."
 
  bfdinews.26.t: "Conflict in the South!"
- bfdinews.26.desc: "Reports have flooded in that forces under the Yellow Face Corporation have crossed the de facto border and entered into lands controlled by bandits! A correspondent from the corporation has reported that ‘the socialist bandits’ will be removed from the lands in ‘clearing operations’. Meanwhile discussions have entered the Numismatian government about also joining these operations. For now, it’s unclear who will win, but believed that the unorganized bandits will lose out in a protracted war."
+ bfdinews.26.desc: "Reports have flooded in that forces under the Yellow Face Corporation have crossed the de facto border and entered into lands controlled by bandits! A correspondent from the corporation has reported that ‘the socialist bandits' will be removed from the lands in ‘clearing operations'. Meanwhile discussions have entered the Numismatian government about also joining these operations. For now, it's unclear who will win, but believed that the unorganized bandits will lose out in a protracted war."
  bfdinews.26.a: "Eyes on the prize."
  bfdinews.26.b: "How dare they!"
  bfdinews.26.c: "Interesting times..."
@@ -839,13 +850,13 @@
  bfdinews_cities.2.c: "Down with the Bandits!"
 
  bfdinews_cities.3.t: "FALL OF NORTH-GOIKYLAND!"
- bfdinews_cities.3.desc: "While gunfire is still ringing out inside the North-Goikyland, the flag of [177.controller.GetName] has now been raised over the main government building. The socialist forces, led by Firey, had been pushed into the city after defeats in battle. With the outer defence line broken, fighting entered the streets. The defenders fought house by house to blunt the attacker's advances. Despite all efforts, [?global.date.GetDateStringNoHourLong] is the believed time where over 95% of the city is in the attacker's hands. Firey’s whereabouts are still unknown."
+ bfdinews_cities.3.desc: "While gunfire is still ringing out inside the North-Goikyland, the flag of [177.controller.GetName] has now been raised over the main government building. The socialist forces, led by Firey, had been pushed into the city after defeats in battle. With the outer defence line broken, fighting entered the streets. The defenders fought house by house to blunt the attacker's advances. Despite all efforts, [?global.date.GetDateStringNoHourLong] is the believed time where over 95% of the city is in the attacker's hands. Firey's whereabouts are still unknown."
  bfdinews_cities.3.a: "The flame is dying..."
  bfdinews_cities.3.b: "*Internal and external screaming*"
  bfdinews_cities.3.c: "The flames have been stomped!"
 
  bfdinews_cities.4.t: "CARY SEIZED!"
- bfdinews_cities.4.desc: "Cary, the center of Coiny’s dictatorship, has been taken by forces under the [173.controller.GetName]. With the battle soon to arrive after defeats near the city, the defenders prepared by setting up barricades, trenches, and obstacles to stop the invader’s advance. The street battle proved fierce, as much of the city was destroyed in the fighting. The defenders slowly lost ground and were soon pushed into small pockets of resistance. With the main being around the military HQ that surprisingly held Coiny. At[GetDateText], Coiny ordered the remnants of a once great army to surrender. The streets are now fairly quiet, but a new emotion is felt in the ruined city."
+ bfdinews_cities.4.desc: "Cary, the center of Coiny's dictatorship, has been taken by forces under the [173.controller.GetName]. With the battle soon to arrive after defeats near the city, the defenders prepared by setting up barricades, trenches, and obstacles to stop the invader's advance. The street battle proved fierce, as much of the city was destroyed in the fighting. The defenders slowly lost ground and were soon pushed into small pockets of resistance. With the main being around the military HQ that surprisingly held Coiny. At[GetDateText], Coiny ordered the remnants of a once great army to surrender. The streets are now fairly quiet, but a new emotion is felt in the ruined city."
  bfdinews_cities.4.a: "Such a way to end..."
  bfdinews_cities.4.b: "At least the bloodshed ends..."
  bfdinews_cities.4.c: "Merely a paper tiger..."
@@ -857,7 +868,7 @@
  bfdinews_cities.5.c: "We can claim excuses..."
 
  bfdinews_cities.6.t: "COLLAPSE OF FARAWAY!"
- bfdinews_cities.6.desc: "Fighting both around and inside Faraway has been reported to cease as either the defenders fled or were defeated by the [183.controller.GetName] government. Ice Cube, leading the ‘revenge’ like government, had rallied the defenders and civilians to fight over every street, house, and room over the city. This led to confusing battles where soldiers and civilians fought over the ruined streets. The most heated engagement came around the government building where it was blown to pieces by the invading attackers. Ice Cube is reported to have fled before the fall of the government building around [?global.date.GetDateStringNoHourLong], citing that ‘revenge will come’. As of now, ash and debris still fill the hollow streets."
+ bfdinews_cities.6.desc: "Fighting both around and inside Faraway has been reported to cease as either the defenders fled or were defeated by the [183.controller.GetName] government. Ice Cube, leading the ‘revenge' like government, had rallied the defenders and civilians to fight over every street, house, and room over the city. This led to confusing battles where soldiers and civilians fought over the ruined streets. The most heated engagement came around the government building where it was blown to pieces by the invading attackers. Ice Cube is reported to have fled before the fall of the government building around [?global.date.GetDateStringNoHourLong], citing that ‘revenge will come'. As of now, ash and debris still fill the hollow streets."
  bfdinews_cities.6.a: "Revenge against the Revenger..."
  bfdinews_cities.6.b: "I want more revenge!"
  bfdinews_cities.6.c: "Best served cold!"
@@ -869,7 +880,7 @@
  bfdinews_cities.7.c: "Run like cowards!"
 
  bfdinews_cities.8.t: "END OF CASLAND!"
- bfdinews_cities.8.desc: "Casland, the very heart of Goiky, had been taken by the flag of [206.controller.GetName] on [?global.date.GetDateStringNoHourLong]. [GPG.GetLeader] had held press statements before the battle that the city would be ‘held at all costs’. The defenders had prepared to defend their homes with obstacles, strong points, and traps inside the city. The fighting was fierce and deadly with each house costing more blood to capture. However, the preparations were not enough to withstand the waves of attackers and were soon pushed into only a few key sections of the city. One of the last points to fall was the Recommended Characters Council, where the defenders fought to the very last object. The government itself is nowhere to be seen, but is believed to have fled."
+ bfdinews_cities.8.desc: "Casland, the very heart of Goiky, had been taken by the flag of [206.controller.GetName] on [?global.date.GetDateStringNoHourLong]. [GPG.GetLeader] had held press statements before the battle that the city would be ‘held at all costs'. The defenders had prepared to defend their homes with obstacles, strong points, and traps inside the city. The fighting was fierce and deadly with each house costing more blood to capture. However, the preparations were not enough to withstand the waves of attackers and were soon pushed into only a few key sections of the city. One of the last points to fall was the Recommended Characters Council, where the defenders fought to the very last object. The government itself is nowhere to be seen, but is believed to have fled."
  bfdinews_cities.8.a: "The very Heart, borken..."
  bfdinews_cities.8.b: "Being the Heart of Goiky was not enough..."
  bfdinews_cities.8.c: "The Heart is now ours!"
@@ -877,17 +888,17 @@
  bfdinews_cities.9.t: "END OF CASLAND!"
  bfdinews_cities.9.desc: "Fires still rage in the Casland, the heart of Goiky, as the city has been captured by the invading forces under the [206.controller.GetName] flag. Previous battles have led to this decisive engagement for the heart of Goiky. [GSR.GetLeader] knew this and had gathered a large force of both militia and soldiers for the defence. The fighting became a grinding battle where every part of the city taken by the attackers cost more and more lives to capture. As of [?global.date.GetDateStringNoHourLong], the government fled and only a few pockets remain in the city. The streets are still filled with the determination of a once great nation that is near its end."
  bfdinews_cities.9.a: "Red banners spilled with blood..."
- bfdinews_cities.9.b: "The workers can’t fail us now!"
+ bfdinews_cities.9.b: "The workers can't fail us now!"
  bfdinews_cities.9.c: "The Red Heart is ours!"
 
  bfdinews_cities.10.t: "END OF CASLAND!"
- bfdinews_cities.10.desc: "The sounds of gunshots still ring in Casland, the heart of Goiky, as fighting is still ongoing. However, most major key areas have been captured by the invading forces on [?global.date.GetDateStringNoHourLong]. The government had rallied various objects to the key defence of the capital, with many rallying to the ‘Order’ cause. The attacking forces of the [206.controller.GetName] had a difficult time taking ground as each house and street were protected by defenders determined to die for their country. [GFG.GetLeader] had even been reported to be on the frontline a few times inspiring the defenders. Despite all efforts from the state, the city was taken by the attackers and the defenders are only left to a few pockets. With the government fleeing, is it the end of the Order like state?"
+ bfdinews_cities.10.desc: "The sounds of gunshots still ring in Casland, the heart of Goiky, as fighting is still ongoing. However, most major key areas have been captured by the invading forces on [?global.date.GetDateStringNoHourLong]. The government had rallied various objects to the key defence of the capital, with many rallying to the ‘Order' cause. The attacking forces of the [206.controller.GetName] had a difficult time taking ground as each house and street were protected by defenders determined to die for their country. [GFG.GetLeader] had even been reported to be on the frontline a few times inspiring the defenders. Despite all efforts from the state, the city was taken by the attackers and the defenders are only left to a few pockets. With the government fleeing, is it the end of the Order like state?"
  bfdinews_cities.10.a: "Order was not restored, but taken..."
  bfdinews_cities.10.b: "I HATE failed defenses!"
  bfdinews_cities.10.c: "The Ordered Heart is ours!"
 
  bfdinews_cities.11.t: "END OF CASLAND!"
- bfdinews_cities.11.desc: "As of [?global.date.GetDateStringNoHourLong], Casland’s defenders have surrendered to the advance of [206.controller.GetName] soldiers. The government had gathered forces and made preparations for key defences in the city. [GDR.GetLeader] had made statements that ‘The heart of Goiky could not fall’ and that ‘we shall defend our homes!’. The fighting was fierce and desperate, where every part of the city was fought tooth and nail over. Major fighting came around the Lower House, where the building was taken by the attackers after being turned into ruins. Later the government fled and ordered those that had survived the battle to surrender. The lights of flames are still present in the city, but for a few days the beating heart has stopped."
+ bfdinews_cities.11.desc: "As of [?global.date.GetDateStringNoHourLong], Casland's defenders have surrendered to the advance of [206.controller.GetName] soldiers. The government had gathered forces and made preparations for key defences in the city. [GDR.GetLeader] had made statements that ‘The heart of Goiky could not fall' and that ‘we shall defend our homes!'. The fighting was fierce and desperate, where every part of the city was fought tooth and nail over. Major fighting came around the Lower House, where the building was taken by the attackers after being turned into ruins. Later the government fled and ordered those that had survived the battle to surrender. The lights of flames are still present in the city, but for a few days the beating heart has stopped."
  bfdinews_cities.11.a: "Freedom to live or die..."
  bfdinews_cities.11.b: "The best efforts were not to save it..."
- bfdinews_cities.11.c: "The ‘Free’ Heart is now ours!"
+ bfdinews_cities.11.c: "The ‘Free' Heart is now ours!"
