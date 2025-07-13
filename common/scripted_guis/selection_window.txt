@@ -13,6 +13,7 @@ scripted_gui = {
 					check_variable = { country_select_var = 1 }
 					check_variable = { country_select_var = 8 }
 					check_variable = { country_select_var = 11 }
+					check_variable = { country_select_var = 13 }
 						}
 				}
 			}
@@ -21,6 +22,7 @@ scripted_gui = {
 					check_variable = { country_select_var = 1 }
 					check_variable = { country_select_var = 8 }
 					check_variable = { country_select_var = 11 }
+					check_variable = { country_select_var = 13 }
 				}
 			}
 		}
@@ -141,7 +143,7 @@ scripted_gui = {
 				else_if = {
 					limit = { check_variable = { country_select_var = 13 } }
 					GTR = { change_tag_from = GOI }
-					goto_state = 209
+					goto_state = 82
 				}
 				else_if = {
 					limit = { check_variable = { country_select_var = 14 } }

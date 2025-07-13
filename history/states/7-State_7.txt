@@ -2,12 +2,17 @@ state={
 	id=7
 	name="STATE_7"
 	provinces={
-		2369 2720 3833 5473 5668 7645 7688 
+		2976 3398 5068 5775 
 	}
 	history = {
-		owner = EMP
-		add_core_of = EMP
+		owner = GOI
+		add_core_of = GOI
+		buildings = {
+			infrastructure = 1
+		}
 	}
-	manpower = 10000
-	state_category = rural
+	manpower=312
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

@@ -1,4 +1,5 @@
 ﻿l_english:
+ STATE_7: "Dead Square"
  STATE_8: "Small Hills"
  STATE_10: "Greensteel"
  STATE_11: "Goiky Canal coast"
@@ -11,7 +12,10 @@
  STATE_27: "Eastern Greeny Plains"
  STATE_28: "Lawnland"
  STATE_33: "Snowy Hills"
+ STATE_75: "Greeny Plateau"
+ STATE_82: "Golfball's Lab"
  STATE_85: "Goiky Hills"
+ STATE_94: "Announcergrad"
  STATE_143: "Snowy Plains"
  STATE_145: "Greeny Plains"
  STATE_158: "Recharnd"
