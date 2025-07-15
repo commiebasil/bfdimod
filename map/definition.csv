@@ -11855,6 +11855,7 @@
 11854;37;21;13;sea;false;ocean;0
 11855;23;34;24;sea;false;ocean;0
 11856;36;42;42;sea;false;ocean;0
+<<<<<<< HEAD
 11857;158;43;33;land;true;plains;1
 11858;3;78;76;land;true;forest;1
 11859;158;89;83;land;true;plains;1
@@ -11898,3 +11899,5 @@
 11897;55,71;42;land;true;plains;1
 11898;162,183;145;land;true;forest;1
 11899;61,107;23;land;true;plains;1
+=======
+>>>>>>> parent of d7d5389 (definition for the islands)
