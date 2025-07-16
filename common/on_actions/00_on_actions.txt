@@ -308,8 +308,8 @@ on_actions = {
 					YFC = {
 						country_event = {
 							id = YFC_event.5
-							days = 1
-							random_hours = 36
+							days = 5
+							random_hours = 60
 						}
 					}
 				}

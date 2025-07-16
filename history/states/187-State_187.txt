@@ -13,6 +13,7 @@ state={
 		owner = GOI
 		add_core_of = GOI
 		victory_points = { 6023 5 }
+		victory_points = { 10646 5 }
 		victory_points = { 10701 10 }
 		buildings = {
             infrastructure = 3

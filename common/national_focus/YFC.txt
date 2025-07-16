@@ -83,6 +83,9 @@ focus_tree = {
 			army_experience = 15
 			air_experience = 15
 			recruit_character = YFC_tophat
+			custom_effect_tooltip = l_YFC_allow_rails
+			add_to_variable = { var_idea_YFC_anarchic_lands_rail = 5 }
+			add_to_variable = { var_idea_YFC_anarchic_lands_node = 5 }
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
@@ -155,7 +158,13 @@ focus_tree = {
 		icon = GFX_focus_YFC_sell_them_guns
 
 		prerequisite = { focus = YFC_focus_the_southern_bandits }
-		prerequisite = { has_war = no }
+		available = {
+			has_war = no
+		}
+		bypass = {
+			has_completed_focus = YFC_focus_money_arms_capital
+		}
+
 		#this and the following focus give you bonuses to the amount you can export in the trade decisions tab until war is declared on the bunch, though it costs a hit in the amount of research slots the GTR is willing to sell. also decreases mils by one
 		cost = 3
 
@@ -294,7 +303,9 @@ focus_tree = {
 				has_completed_focus = YFC_focus_demand_end_pillage
 			}
 		}
-		
+		bypass = {
+			has_completed_focus = YFC_focus_money_arms_capital
+		}
 		allow_branch = { has_completed_focus = YFC_focus_demand_end_pillage }
 		prerequisite = { focus = YFC_focus_demand_end_pillage }
 		cost = 3
@@ -316,12 +327,12 @@ focus_tree = {
 			}
 			201 = {
 				create_unit = {
-					division = "name = \"Militia\" division_template = \"Militia\" start_experience_factor = 0.1"
+					division = "name = \"Militia\" division_template = \"Militia\" start_experience_factor = 0.05"
 					count = 6
 					owner = YFC
 				}
 			}
-			add_manpower = 3000
+			add_manpower = 5000
 		}
 
 		ai_will_do = {
@@ -413,7 +424,7 @@ focus_tree = {
 				CRN = {
 					country_event = {
 						id = YFC_event.6
-						days = 5
+						days = 7
 						random_hours = 100
 					}
 				}	
@@ -427,7 +438,6 @@ focus_tree = {
 				}
 				add_threat = 1
 			}
-			mark_focus_tree_layout_dirty = yes
 		}
 
 		ai_will_do = {
@@ -620,16 +630,16 @@ focus_tree = {
 		icon = GFX_focus_generic
 		available = {
 			hidden_trigger = {
-				has_completed_focus = YFC_focus_money_arms_capital
+				has_country_flag = Won_War_BUN
 			}
 		}
 		
-		allow_branch = { has_completed_focus = YFC_focus_money_arms_capital }
+		allow_branch = { has_country_flag = Won_War_BUN }
 		cost = 1
 		#autocompleted a week after the yfc caps the bunch
 		#give event porfa
 		completion_reward = {
-			
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 
@@ -640,7 +650,7 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_a_look_inward }
-		cost = 10
+		cost = 8
 		#begins the process of attempting to force the bunch to become capitalistic
 		#yfc favors blocky, numismatia favors pen, bunch wants eraser to stay
 		#an event chain spanning half a year and 14 events gives you the ability to react to certain happenings
@@ -649,7 +659,7 @@ focus_tree = {
 		#at the end, if blocky wins, the bunch becomes a puppet of the yfc, and vice versa for numis.
 		#if eraser wins, the bunch becomes a reformed republic, and is fully independent
 		completion_reward = {
-			
+			#For a person that hates writing events, really likes having 500 events...
 		}
 	}
 
@@ -660,22 +670,23 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_a_look_inward }
-		cost = 10
+		cost = 8
 		#begins the process of dealing with internal economic stuff
 		#basically, the yfc is suffering because its country side isnt industrialized
 		#they could be making WAY more money if they had more cities and more citizens
 		#though... a good way to attract citizens is to liberalize
 		#get an event in which you chose whether to liberalize or industrialize
 		completion_reward = {
-			
+			custom_effect_tooltip = l_YFC_repair
+			add_to_variable = { var_idea_YFC_anarchic_lands_repair = 0.25 }
 		}
 	}
 
 	focus = {
 		id = YFC_focus_industrialize_or_die
 		relative_position_id = YFC_focus_the_economic_issue
-		x = -1
-		y = 1
+		x = 2
+		y = 2
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_the_economic_issue }
 		cost = 3
@@ -688,10 +699,11 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_erasers_stockpiles
 		relative_position_id = YFC_focus_the_economic_issue
-		x = 1
+		x = -3
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_the_economic_issue }
+		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		cost = 2
 		#gives an increase to your treasury, and an event about stealing from eraser
 		#will make it easier for the bunchivists to chose eraser instead of blocky
@@ -709,7 +721,13 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_industrialize_or_die }
 		cost = 6
 		completion_reward = {
-			
+			216 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -722,7 +740,13 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_industrialize_or_die }
 		cost = 6
 		completion_reward = {
-			
+			196 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 }
