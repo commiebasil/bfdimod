@@ -427,6 +427,7 @@ focus_tree = {
 				}
 				add_threat = 1
 			}
+			mark_focus_tree_layout_dirty = yes
 		}
 
 		ai_will_do = {
@@ -608,6 +609,120 @@ focus_tree = {
 			BUN = {
 				add_opinion_modifier = { target = YFC modifier = large_increase }
 			}
+		}
+	}
+
+	focus = {
+		id = YFC_focus_a_look_inward
+		relative_position_id = YFC_focus_consolidate_power
+		x = 8
+		y = 0
+		icon = GFX_focus_generic
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_money_arms_capital
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_money_arms_capital }
+		cost = 1
+		#autocompleted a week after the yfc caps the bunch
+		#give event porfa
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_the_bunchivist_problem
+		relative_position_id = YFC_focus_a_look_inward
+		x = -3
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_a_look_inward }
+		cost = 10
+		#begins the process of attempting to force the bunch to become capitalistic
+		#yfc favors blocky, numismatia favors pen, bunch wants eraser to stay
+		#an event chain spanning half a year and 14 events gives you the ability to react to certain happenings
+		#your reaction increases or decreases the likelyhood for your candidate getting chosen
+		#the bunch and numis also get events like this
+		#at the end, if blocky wins, the bunch becomes a puppet of the yfc, and vice versa for numis.
+		#if eraser wins, the bunch becomes a reformed republic, and is fully independent
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_the_economic_issue
+		relative_position_id = YFC_focus_a_look_inward
+		x = 3
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_a_look_inward }
+		cost = 10
+		#begins the process of dealing with internal economic stuff
+		#basically, the yfc is suffering because its country side isnt industrialized
+		#they could be making WAY more money if they had more cities and more citizens
+		#though... a good way to attract citizens is to liberalize
+		#get an event in which you chose whether to liberalize or industrialize
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_industrialize_or_die
+		relative_position_id = YFC_focus_the_economic_issue
+		x = -1
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_the_economic_issue }
+		cost = 3
+		#after an event you get from "the economic issue" if you choose to focus on industrializing, you get this branch
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = YFC_focus_erasers_stockpiles
+		relative_position_id = YFC_focus_the_economic_issue
+		x = 1
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_the_economic_issue }
+		cost = 2
+		#gives an increase to your treasury, and an event about stealing from eraser
+		#will make it easier for the bunchivists to chose eraser instead of blocky
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_develop_peoniele
+		relative_position_id = YFC_focus_industrialize_or_die
+		x = -2
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_industrialize_or_die }
+		cost = 6
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = YFC_focus_develop_yoyleton
+		relative_position_id = YFC_focus_industrialize_or_die
+		x = 2
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_industrialize_or_die }
+		cost = 6
+		completion_reward = {
+			
 		}
 	}
 }
