@@ -703,6 +703,10 @@ focus_tree = {
 		x = 1
 		y = 1
 		icon = GFX_focus_generic
+
+		available = {
+			has_completed_focus = YFC_focus_the_bunchivist_problem
+		}
 		prerequisite = { focus = YFC_focus_the_economic_issue }
 		cost = 2
 		#gives an increase to your treasury, and an event about stealing from eraser
