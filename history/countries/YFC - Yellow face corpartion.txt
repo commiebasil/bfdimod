@@ -43,10 +43,6 @@ set_variable = { var_currently_raiding_YFC = 0 }
 set_variable = { var_progress_raids_GGR = 0 }
 set_variable = { var_progress_raids_SRR = 0 }
 
-set_variable = { var_idea_YFC_anarchic_lands_repair = 5 }
-set_variable = { var_idea_YFC_anarchic_lands_rail = 0 }
-set_variable = { var_idea_YFC_anarchic_lands_node = 0 }
-
 recruit_character = YFC_yellow_face
 recruit_character = YFC_lewis
 recruit_character = YFC_david
@@ -57,7 +53,7 @@ recruit_character = YFC_Coiny
 add_ideas = free_trade
 
 add_ideas = idea_YFC_no_more_advertisements_foundation
-add_dynamic_modifier = { modifier = idea_YFC_anarchic_lands }
+add_ideas = idea_YFC_anarchic_lands
 
 
 

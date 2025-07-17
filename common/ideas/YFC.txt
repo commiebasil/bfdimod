@@ -8,6 +8,14 @@ ideas = {
 			}
 		}
 
+		idea_YFC_anarchic_lands = {
+			picture = YFC_anarchic_lands
+			modifier = {
+				production_speed_buildings_factor = -5
+				industry_free_repair_factor = 5.2
+			}
+		}
+
 		idea_YFC_United_Clash = {
 			picture = YFC_United_Clash
 			targeted_modifier = {

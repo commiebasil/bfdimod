@@ -108,28 +108,21 @@ country_event = {
 
 	option = {
 		name = YFC_event.5.a
-		hidden_effect = {
-			set_country_flag = Won_War_BUN
-			85 = {add_compliance = 10}
-			212 = {add_compliance = 10}
-			217 = {add_compliance = 15}
-			218 = {add_compliance = 15}
+		delete_unit_template_and_units = {
+			division_template = "Militia"
+			disband = no 
 		}
-		if = {
-			limit = {
-				has_completed_focus = YFC_focus_hire_militias
-			}
-			delete_unit_template_and_units = {
-				division_template = "Militia"
-				disband = no 
-			}
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 2000
-			}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 750
 		}
-		complete_national_focus = YFC_focus_a_look_inward
 		add_war_support = 0.02
+		hidden_effect = {
+			85 = {add_compliance = 15}
+			212 = {add_compliance = 15}
+			217 = {add_compliance = 30}
+			218 = {add_compliance = 30}
+		}
 	}
 }
 
@@ -185,9 +178,8 @@ country_event = {
 				target = BUN
 				type = topple_government
 			}
-			give_military_access = YFC
 		}
-		give_military_access = CRN
+
 		add_opinion_modifier = { target = YFC modifier = large_decrease }
 		every_country_with_original_tag = {
 			original_tag_to_check = YFC
@@ -228,13 +220,11 @@ country_event = {
 			limit = {
 				gives_military_access_to = BUN
 			}
-			BUN = {
-				diplomatic_relation = {
-					country = YFC
-					relation = military_access
-					active = no
-				}
-			}	
+			diplomatic_relation = {
+				country = BUN
+				relation = military_access
+				active = no
+			}
 		}
 
 		custom_effect_tooltip = l_YFC_border_defence
