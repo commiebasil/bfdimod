@@ -152,3 +152,12 @@ idea_GDR_payments_to_gpr = {
 	production_factory_efficiency_gain_factor = var_GDR_payments_to_gpr_pegf
 	production_speed_buildings_factor = var_GDR_payments_to_gpr_psbf
 }
+
+idea_YFC_anarchic_lands = {
+	icon = GFX_idea_YFC_anarchic_lands
+	
+	production_speed_buildings_factor = -5
+	industry_free_repair_factor = var_idea_YFC_anarchic_lands_repair
+	production_speed_rail_way_factor = var_idea_YFC_anarchic_lands_rail
+	production_speed_supply_node_factor = var_idea_YFC_anarchic_lands_node
+}
