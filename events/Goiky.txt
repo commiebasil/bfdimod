@@ -792,9 +792,9 @@ country_event = {
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 6000
+				amount = 4000
 			}
-			add_manpower = 60000
+			add_manpower = 80000
 			add_offsite_building = { type = arms_factory level = 2 }
 			army_experience = 250
 		}
@@ -816,9 +816,9 @@ country_event = {
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 18000
+				amount = 8000
 			}
-			add_manpower = 180000
+			add_manpower = 160000
 			add_offsite_building = { type = arms_factory level = 4 }
 			army_experience = 375
 		}
@@ -840,9 +840,9 @@ country_event = {
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 54000
+				amount = 16000
 			}
-			add_manpower = 540000
+			add_manpower = 320000
 			add_offsite_building = { type = arms_factory level = 8 }
 			army_experience = 500
 		}
