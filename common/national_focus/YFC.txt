@@ -438,6 +438,7 @@ focus_tree = {
 				}
 				add_threat = 1
 			}
+			mark_focus_tree_layout_dirty = yes
 		}
 
 		ai_will_do = {
@@ -685,8 +686,8 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_industrialize_or_die
 		relative_position_id = YFC_focus_the_economic_issue
-		x = 2
-		y = 2
+		x = -1
+		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_the_economic_issue }
 		cost = 3
@@ -699,11 +700,10 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_erasers_stockpiles
 		relative_position_id = YFC_focus_the_economic_issue
-		x = -3
+		x = 1
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_the_economic_issue }
-		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		cost = 2
 		#gives an increase to your treasury, and an event about stealing from eraser
 		#will make it easier for the bunchivists to chose eraser instead of blocky
