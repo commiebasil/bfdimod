@@ -2,12 +2,14 @@ state={
 	id=6
 	name="STATE_6"
 	provinces={
-		151 1064 1365 1745 2747 3568 4397 4477 4979 5682 6038 6213 7307 7393 7411 7450 7470 7484 7499 7542 
+		11871 11872 11873 11874 11875 11876 11877 11878 11879 11880 11881 11882 11883 
 	}
 	history = {
 		owner = EMP
 		add_core_of = EMP
 	}
-	manpower = 10000
-	state_category = rural
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
