@@ -735,7 +735,7 @@
  YFC_CRN_sub.4.desc: "Their response was a swift, simple, 'No'. That was literally all that was on the piece of paper they had sent through the mail. There was no explanation as to why, no room for negotiation, just a no. The Yellow Facers were quite challenging to work with."
  YFC_CRN_sub.4.a: "How are we meant to respond to this?!"
 
- YFC_CRN_sub.5.t: "The proposal."
+ YFC_CRN_sub.5.t: "The Proposal."
  YFC_CRN_sub.5.desc: "Yesterday, a strange proposal from the Yellow Face Corporation found its way into Credit Card's office. Apparently, the Yellow Facers are seeking to have a deeper integration, possibly even a union, between our two nations. This raises a couple of concerns, seeing how they're also working closely with Eraser's Bunch. Many in our nation would already be opposed to this idea, seeing who the Yellow Facers are collaborating with, however, this is also quite an interesting opportunity. They've stated that we could work out the terms of this agreement through the mail, and are looking forward to our response. This seems quite out of the ordinary for any mail The Bunch might've sent, so it was clearly written by our friends over at the corporation."
  YFC_CRN_sub.5.a: "Lets see what the future holds."
 
@@ -746,18 +746,38 @@
  YFC_CRN_sub.6.a: "It's our first demand, lets be cautious."
  YFC_CRN_sub.6.b: "When in the rome..."
 
- YFC_CRN_sub.7.t: "A military... 'pact'?"
+ YFC_CRN_sub.7.t: "A Military... 'Pact'?"
  YFC_CRN_sub.7.desc: "The YFC has recently came to us with their first demanding, stating that they wanted us to integrate our armies together in a way that lets both of our militaries keep their independence... we think? The whole agreement was worded quite unclearly, and some of the more important information was left out. It's easy to fill in the blanks, but the wording alone made some of our cabinet suspicious of the demand. Regardless, it doesn't seem like a bad idea at all, and the ending section about our militaries coming together to agree on decisions before putting them into place was especially popular among the cabinet. In the end, we decided to..."
  YFC_CRN_sub.7.a: "Accept the demand."
  YFC_CRN_sub.7.b: "Deny the demand."
  
- YFC_CRN_sub.8.t: ""
- YFC_CRN_sub.8.desc: ""
- YFC_CRN_sub.8.a: "Accept the demand."
- YFC_CRN_sub.8.b: "Deny the demand."
+ YFC_CRN_sub.8.t: "Military Integration"
+ YFC_CRN_sub.8.desc: "A very strongly worded letter came into the mail today. The Yellow Face Corporation is demanding that we accept to complete military integration with them, though, it seems a lot more like we're signing our military off to them. They said that we'd also have to learn their style of fighting, meaning we'd likely have to train under Eraser for a little while. Surprisingly, most of our generals seem on board with the proposal, saying that the Yellow Facers know exactly what they're talking about, seeming to think that they'd be in good hands with this integration. Some other parts of the government disagree, but..."
+ YFC_CRN_sub.8.a: "When talking of the military, listen to the military."
+ YFC_CRN_sub.8.b: "This is an outrage! We can not accepted this!"
+ #a: yfc gets political power and army/air experience
+ #b: yfc loses political power, crn gains lots of air experience
 
-#For future demands please add the effects of the demand so it is easier/quicker to add.
-#Thank you and have a good day :D
+ YFC_CRN_sub.9.t: "In Regards to Civil Liberties"
+ YFC_CRN_sub.9.desc: "It is no surprise that Eraser has noticed the frequent exchange of messages between us and the Yellow Face Coporation. Strangely, Eraser sent us a letter, wishing to know our intentions in terms of civil liberties. It was a surprise to the cabinet when they recieved word of this demand, seeing as they had somehow managed to gloss over a discussion of personal freedoms entirely. Eraser's message stated that a response would be passed on to the Yellow Facers, so it's as good of a time as ever to write our own set of demands. \nWe obviously believe that life, liberty, and the persuit of happiness should be available, but should stricter guidlines be set?"
+ YFC_CRN_sub.9.a: "If we keep them vague, we can still keep people happy."
+ YFC_CRN_sub.9.b: "They will never take our rights, we must be strict about this."
+ #a: crn loses a bit of stability
+ #b: crn gains a bit of stability, loses a lot of pp
+
+ YFC_CRN_sub.10.t: "On Civil Liberties"
+ YFC_CRN_sub.10.desc: "Eraser forwarded us a demand from the Capitalist Republic of Numismatia. Eraser said that he had talked with Credit Card a little bit earlier, wishing to see the message before we did. Despite the strange circumstances, the message seems to have not been tampered with, so we have no reason to not trust Eraser and the Numismatian cabinet. The demands in the message aren't anything we didn't expect them to bring up, though. They simply wish for some rights to be protected. Over all, it's quite the minor demand, however, the vagueness of what exactly they want to be protected seems to be intentional. Could this be an attempt at trickery?"
+ YFC_CRN_sub.10.a: "Of course not! Accept the demand!"
+ YFC_CRN_sub.10.b: "A vague contract is likely built for loopholes."
+ #a: yfc loses a bit of political power, gains a large amount of stability, crn gains political power and stability
+ #b: yfc gains a lot of political power, loses a small amount of money and stability.
+
+ YFC_CRN_sub.11.t: "On Civil Liberties"
+ YFC_CRN_sub.11.desc: "Eraser forwarded us a demand from the Capitalist Republic of Numismatia. Eraser said that he had talked with Credit Card a little bit earlier, wishing to see the message before we did. Despite the strange circumstances, the message seems to have not been tampered with, so we have no reason to not trust Eraser and the Numismatian cabinet. The contents of the message are quite shocking though. The Numismatians are demanding that we protect the rights of all citizens living in any of our borders, giving a detailed example of what punishments should befall of law inforcement (that we dont even have??) if they choose not to listen. This is all very surprising to us, the seemingly passive Numismatia giving out tall orders like these. Should we accept this?"
+ YFC_CRN_sub.11.a: "They likely won't back down from object rights..."
+ YFC_CRN_sub.11.b: "This is just silly, absolutely not!"
+ #a: yfc loses a bit of political power, gains a large amount of stability, crn gains political power and stability
+ #b: yfc gains a lot of political power, loses a lot of stability
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
