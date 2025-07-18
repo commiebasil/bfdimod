@@ -134,7 +134,7 @@
  GGR_event.2.a: "Our spirit cannot be broken."
  
  GGR_event.3.t: "Wald Massacre"
- GGR_event.3.desc: "Wald, one of the few forest settlements that remained under Reich control, was subjected to an "act of retaliation" by ultranationalist battalions. According to initial data, 506 objects of all genders and ages were killed on suspicion of collaboration with the resistance. The dead were thrown into heaps and burned. Those who could not be burned were simply thrown into ditches and pits. This incident will go down in the history of the Snowy Plateau as one of the most brutal events of our time."
+ GGR_event.3.desc: "Wald, one of the few forest settlements that remained under Reich control, was subjected to an 'act of retaliation' by ultranationalist battalions. According to initial data, 506 objects of all genders and ages were killed on suspicion of collaboration with the resistance. The dead were thrown into heaps and burned. Those who could not be burned were simply thrown into ditches and pits. This incident will go down in the history of the Snowy Plateau as one of the most brutal events of our time."
  GGR_event.3.a: "There are also excesses..."
  
  GGR_event.4.t: "The Final Stretch"
@@ -384,7 +384,7 @@
  GPG_event.46.a: "Let them come."
 
  GPG_event.47.t: "The Wind Changes Directions!"
- GPG_event.47.desc: "With Pie winning the vote it seems that not only were some of our council members unhappy, but one of our generals.  Cloudy had submitted his resignation a few hours ago citing ‘Disillusioned with the current government'. For now, it seems that he will not be with us in the upcoming days."
+ GPG_event.47.desc: "With Pie winning the vote it seems that not only were some of our council members unhappy, but one of our generals.  Cloudy had submitted his resignation a few hours ago citing 'Disillusioned with the current government'. For now, it seems that he will not be with us in the upcoming days."
  GPG_event.47.a: "Interesting..."
  
  #GDR
@@ -655,7 +655,7 @@
  YFC_event.7.b: "We'll stay."
 
  YFC_event.8.t: "INCIDENT #46"
- YFC_event.8.desc: "It had only been a week since checkpoint B had been set up along the ‘supposed' borders between the Corporation and the Bandits. The day of the event was like any other, few refugees crossing, some arrests, and the random machine gun on an object. The day was wrapping up like any other... \n\nUntil, during the night, checkpoint B's guards spotted a mass amount of objects heading towards them. They claimed that there are ‘open borders' and that the guards at the checkpoint had no real authority. After much heated shouting, a gunshot ran out which led to an open battle. They were not refugees, but were bandits. They tried to storm the checkpoint from the small number of guards protecting it. Despite all odds, the guards held the ground and made the Bandits pay for each step forward. Even after the checkpoint was taken, the guards fell back inland and kept the fight on. One interesting report was that a squad of 8 held up in a cabin, lead by Jonas Taylor, fought off a force of around 100 objects and only lost 3 objects in the five hours of fighting. \n\nNight became day with the engagements only heating up. With the help of reinforcements, the combined forces pushed back the Bandits back to the checkpoint. Only when nightfall arrived that the Bandits retreated from the checkpoint. The checkpoint was retaken the next day. Many of the Objects that took part in the engagement have earned medals for their bravery. The overall death toll is being accounted for, but both soldiers and civilians were harmed in the fighting. No response has come from anyone in the Bandit lands. "
+ YFC_event.8.desc: "It had only been a week since checkpoint B had been set up along the 'supposed' borders between the Corporation and the Bandits. The day of the event was like any other, few refugees crossing, some arrests, and the random machine gun on an object. The day was wrapping up like any other... \n\nUntil, during the night, checkpoint B's guards spotted a mass amount of objects heading towards them. They claimed that there are 'open borders' and that the guards at the checkpoint had no real authority. After much heated shouting, a gunshot ran out which led to an open battle. They were not refugees, but were bandits. They tried to storm the checkpoint from the small number of guards protecting it. Despite all odds, the guards held the ground and made the Bandits pay for each step forward. Even after the checkpoint was taken, the guards fell back inland and kept the fight on. One interesting report was that a squad of 8 held up in a cabin, lead by Jonas Taylor, fought off a force of around 100 objects and only lost 3 objects in the five hours of fighting. \n\nNight became day with the engagements only heating up. With the help of reinforcements, the combined forces pushed back the Bandits back to the checkpoint. Only when nightfall arrived that the Bandits retreated from the checkpoint. The checkpoint was retaken the next day. Many of the Objects that took part in the engagement have earned medals for their bravery. The overall death toll is being accounted for, but both soldiers and civilians were harmed in the fighting. No response has come from anyone in the Bandit lands. "
  YFC_event.8.a: "Rapid Escalations..."
 
  YFC_event.9.t: "Rapid Reorganization"
@@ -663,7 +663,7 @@
  YFC_event.9.a: "Our skill in raiding."
 
  YFC_event.10.t: "Open Air"
- YFC_event.10.desc: "Now... now is the time to begin our raiding efforts! With more objects in both the countryside and cities being ‘hired' we have the ability to begin our raids. We must now use our raiding to not only survive, but to thrive! We need to steal the resources from our neighbors to gather even more strength, wealth, and power!. Sure, this land will fall into a land of anarchy and banditry, but it is a fair price!"
+ YFC_event.10.desc: "Now... now is the time to begin our raiding efforts! With more objects in both the countryside and cities being 'hired' we have the ability to begin our raids. We must now use our raiding to not only survive, but to thrive! We need to steal the resources from our neighbors to gather even more strength, wealth, and power!. Sure, this land will fall into a land of anarchy and banditry, but it is a fair price!"
  YFC_event.10.a: "Onwards!"
 
  YFC_event.11.t: "How Much?"
@@ -699,7 +699,7 @@
 
  YFC_borderwars.12.t: "Unsuccessful Jailbreak!"
  YFC_borderwars.12.desc: "Our forces attempted to clear the work camps of enemy guards, but were overwhelmed and forced to flee from the overwhelming defences. The mines were damaged in the fighting, but the anarchists were failed to be freed and most of our forces were lost."
- YFC_borderwars.12.a: "Such ‘skills' were not needed anyway..."
+ YFC_borderwars.12.a: "Such 'skills' were not needed anyway..."
 
  YFC_borderwars.13.t: "Reports from The Great Ridge!"
  YFC_borderwars.13.desc: "It's unclear what is happening, but due to failed defences in the north the Yellow Face Raiders have attacked one of the work camps. Those traitorous anarchists might have escaped in the fighting and the mines may be damaged. This disaster has set us back a bit."
@@ -726,7 +726,32 @@
  YFC_CRN_sub.2.a: "Let's hope they don't act out again, for their sake."
 
  YFC_CRN_sub.3.t: "The Yellow Face Corporation accepts our demands!"
- YFC_CRN_sub.3.desc: ""
+ YFC_CRN_sub.3.desc: "Yellow Face, and his sectorial leaders, after seemingly only a few short days of debate, made a final decision, unilaterally agreeing to our proposal. This comes at a great shock to our own advisors, some of them believing that we had asked too much, however, those thoughts have obviously been quelled now."
+ YFC_CRN_sub.3.a: "Here's to cooperation!"
+
+ YFC_CRN_sub.4.t: "The Yellow Face Corporation denies our demands..."
+ YFC_CRN_sub.4.desc: "Their response was a swift, simple, 'No'. That was literally all that was on the piece of paper they had sent through the mail. There was no explanation as to why, no room for negotiation, just a no. The Yellow Facers were quite challenging to work with."
+ YFC_CRN_sub.4.a: "How are we meant to respond to this?!"
+
+ YFC_CRN_sub.5.t: "The proposal."
+ YFC_CRN_sub.5.desc: "Yesterday, a strange proposal from the Yellow Face Corporation found its way into Credit Card's office. Apparently, the Yellow Facers are seeking to have a deeper integration, possibly even a union, between our two nations. This raises a couple of concerns, seeing how they're also working closely with Eraser's Bunch. Many in our nation would already be opposed to this idea, seeing who the Yellow Facers are collaborating with, however, this is also quite an interesting opportunity. They've stated that we could work out the terms of this agreement through the mail, and are looking forward to our response. This seems quite out of the ordinary for any mail The Bunch might've sent, so it was clearly written by our friends over at the corporation."
+ YFC_CRN_sub.5.a: "Lets see what the future holds."
+
+ #replace "tophat" with a variable containing the name of the leader of the military sector
+ YFC_CRN_sub.6.t: "On the Army"
+ YFC_CRN_sub.6.desc: "Following the announcement of our intensions to work closer with the Capitalist Republic of Numismatia, Yellow Face and his sectorial leaders decided to hold a meeting to see what was the most important issue in regards to this companionship might me. After many hours, we decided to issue them a demand in regards to the army. \nOur military sector, unsurprisingly, stands alone on their opinion in this issue, believing that the Numismatian army should be integrated into ours, and forced to learn raiding strategies. Top Hat, the leader of the sector, spoke about this passionately, saying that standard military techniques proved to be ineffective in the modern world, and that a disjounted military is an encircled one. \nDespite his speech, every other sectorial disagreed with him, with Wrench, the Railroad sectorial, who had always been a pacifist, vehemently disagreed with this idea. They said that any attempt at forcing a nation into signing away their military was sure to end in disaster. They claimed that we should have separate, but equal militaries, where generals from both sides convine and have to come to agreements together. The debate lasted a little longer, with some insults being thrown about. However, we managed to reach a decision."
+ YFC_CRN_sub.6.a: "It's our first demand, lets be cautious."
+ YFC_CRN_sub.6.b: "When in the rome..."
+
+ YFC_CRN_sub.7.t: "A military... 'pact'?"
+ YFC_CRN_sub.7.desc: "The YFC has recently came to us with their first demanding, stating that they wanted us to integrate our armies together in a way that lets both of our militaries keep their independence... we think? The whole agreement was worded quite unclearly, and some of the more important information was left out. It's easy to fill in the blanks, but the wording alone made some of our cabinet suspicious of the demand. Regardless, it doesn't seem like a bad idea at all, and the ending section about our militaries coming together to agree on decisions before putting them into place was especially popular among the cabinet. In the end, we decided to..."
+ YFC_CRN_sub.7.a: "Accept the demand."
+ YFC_CRN_sub.7.b: "Deny the demand."
+ 
+ YFC_CRN_sub.8.t: ""
+ YFC_CRN_sub.8.desc: ""
+ YFC_CRN_sub.8.a: "Accept the demand."
+ YFC_CRN_sub.8.b: "Deny the demand."
 
 
 #NEWS
@@ -837,7 +862,7 @@
  bfdinews.25.a: "Objects are united, again."
 
  bfdinews.26.t: "Conflict in the South!"
- bfdinews.26.desc: "Reports have flooded in that forces under the Yellow Face Corporation have crossed the de facto border and entered into lands controlled by bandits! A correspondent from the corporation has reported that ‘the socialist bandits' will be removed from the lands in ‘clearing operations'. Meanwhile discussions have entered the Numismatian government about also joining these operations. For now, it's unclear who will win, but believed that the unorganized bandits will lose out in a protracted war."
+ bfdinews.26.desc: "Reports have flooded in that forces under the Yellow Face Corporation have crossed the de facto border and entered into lands controlled by bandits! A correspondent from the corporation has reported that 'the socialist bandits' will be removed from the lands in 'clearing operations'. Meanwhile discussions have entered the Numismatian government about also joining these operations. For now, it's unclear who will win, but believed that the unorganized bandits will lose out in a protracted war."
  bfdinews.26.a: "Eyes on the prize."
  bfdinews.26.b: "How dare they!"
  bfdinews.26.c: "Interesting times..."
@@ -875,7 +900,7 @@
  bfdinews_cities.5.c: "We can claim excuses..."
 
  bfdinews_cities.6.t: "COLLAPSE OF FARAWAY!"
- bfdinews_cities.6.desc: "Fighting both around and inside Faraway has been reported to cease as either the defenders fled or were defeated by the [183.controller.GetName] government. Ice Cube, leading the ‘revenge' like government, had rallied the defenders and civilians to fight over every street, house, and room over the city. This led to confusing battles where soldiers and civilians fought over the ruined streets. The most heated engagement came around the government building where it was blown to pieces by the invading attackers. Ice Cube is reported to have fled before the fall of the government building around [?global.date.GetDateStringNoHourLong], citing that ‘revenge will come'. As of now, ash and debris still fill the hollow streets."
+ bfdinews_cities.6.desc: "Fighting both around and inside Faraway has been reported to cease as either the defenders fled or were defeated by the [183.controller.GetName] government. Ice Cube, leading the 'revenge' like government, had rallied the defenders and civilians to fight over every street, house, and room over the city. This led to confusing battles where soldiers and civilians fought over the ruined streets. The most heated engagement came around the government building where it was blown to pieces by the invading attackers. Ice Cube is reported to have fled before the fall of the government building around [?global.date.GetDateStringNoHourLong], citing that 'revenge will come'. As of now, ash and debris still fill the hollow streets."
  bfdinews_cities.6.a: "Revenge against the Revenger..."
  bfdinews_cities.6.b: "I want more revenge!"
  bfdinews_cities.6.c: "Best served cold!"
@@ -887,7 +912,7 @@
  bfdinews_cities.7.c: "Run like cowards!"
 
  bfdinews_cities.8.t: "END OF CASLAND!"
- bfdinews_cities.8.desc: "Casland, the very heart of Goiky, had been taken by the flag of [206.controller.GetName] on [?global.date.GetDateStringNoHourLong]. [GPG.GetLeader] had held press statements before the battle that the city would be ‘held at all costs'. The defenders had prepared to defend their homes with obstacles, strong points, and traps inside the city. The fighting was fierce and deadly with each house costing more blood to capture. However, the preparations were not enough to withstand the waves of attackers and were soon pushed into only a few key sections of the city. One of the last points to fall was the Recommended Characters Council, where the defenders fought to the very last object. The government itself is nowhere to be seen, but is believed to have fled."
+ bfdinews_cities.8.desc: "Casland, the very heart of Goiky, had been taken by the flag of [206.controller.GetName] on [?global.date.GetDateStringNoHourLong]. [GPG.GetLeader] had held press statements before the battle that the city would be 'held at all costs'. The defenders had prepared to defend their homes with obstacles, strong points, and traps inside the city. The fighting was fierce and deadly with each house costing more blood to capture. However, the preparations were not enough to withstand the waves of attackers and were soon pushed into only a few key sections of the city. One of the last points to fall was the Recommended Characters Council, where the defenders fought to the very last object. The government itself is nowhere to be seen, but is believed to have fled."
  bfdinews_cities.8.a: "The very Heart, borken..."
  bfdinews_cities.8.b: "Being the Heart of Goiky was not enough..."
  bfdinews_cities.8.c: "The Heart is now ours!"
@@ -899,13 +924,13 @@
  bfdinews_cities.9.c: "The Red Heart is ours!"
 
  bfdinews_cities.10.t: "END OF CASLAND!"
- bfdinews_cities.10.desc: "The sounds of gunshots still ring in Casland, the heart of Goiky, as fighting is still ongoing. However, most major key areas have been captured by the invading forces on [?global.date.GetDateStringNoHourLong]. The government had rallied various objects to the key defence of the capital, with many rallying to the ‘Order' cause. The attacking forces of the [206.controller.GetName] had a difficult time taking ground as each house and street were protected by defenders determined to die for their country. [GFG.GetLeader] had even been reported to be on the frontline a few times inspiring the defenders. Despite all efforts from the state, the city was taken by the attackers and the defenders are only left to a few pockets. With the government fleeing, is it the end of the Order like state?"
+ bfdinews_cities.10.desc: "The sounds of gunshots still ring in Casland, the heart of Goiky, as fighting is still ongoing. However, most major key areas have been captured by the invading forces on [?global.date.GetDateStringNoHourLong]. The government had rallied various objects to the key defence of the capital, with many rallying to the 'Order' cause. The attacking forces of the [206.controller.GetName] had a difficult time taking ground as each house and street were protected by defenders determined to die for their country. [GFG.GetLeader] had even been reported to be on the frontline a few times inspiring the defenders. Despite all efforts from the state, the city was taken by the attackers and the defenders are only left to a few pockets. With the government fleeing, is it the end of the Order like state?"
  bfdinews_cities.10.a: "Order was not restored, but taken..."
  bfdinews_cities.10.b: "I HATE failed defenses!"
  bfdinews_cities.10.c: "The Ordered Heart is ours!"
 
  bfdinews_cities.11.t: "END OF CASLAND!"
- bfdinews_cities.11.desc: "As of [?global.date.GetDateStringNoHourLong], Casland's defenders have surrendered to the advance of [206.controller.GetName] soldiers. The government had gathered forces and made preparations for key defences in the city. [GDR.GetLeader] had made statements that ‘The heart of Goiky could not fall' and that ‘we shall defend our homes!'. The fighting was fierce and desperate, where every part of the city was fought tooth and nail over. Major fighting came around the Lower House, where the building was taken by the attackers after being turned into ruins. Later the government fled and ordered those that had survived the battle to surrender. The lights of flames are still present in the city, but for a few days the beating heart has stopped."
+ bfdinews_cities.11.desc: "As of [?global.date.GetDateStringNoHourLong], Casland's defenders have surrendered to the advance of [206.controller.GetName] soldiers. The government had gathered forces and made preparations for key defences in the city. [GDR.GetLeader] had made statements that 'The heart of Goiky could not fall' and that 'we shall defend our homes!'. The fighting was fierce and desperate, where every part of the city was fought tooth and nail over. Major fighting came around the Lower House, where the building was taken by the attackers after being turned into ruins. Later the government fled and ordered those that had survived the battle to surrender. The lights of flames are still present in the city, but for a few days the beating heart has stopped."
  bfdinews_cities.11.a: "Freedom to live or die..."
  bfdinews_cities.11.b: "The best efforts were not to save it..."
- bfdinews_cities.11.c: "The ‘Free' Heart is now ours!"
+ bfdinews_cities.11.c: "The 'Free' Heart is now ours!"
