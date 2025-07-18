@@ -717,6 +717,8 @@
  YFC_borderwars.16.desc: "Various reports have arrived to us that armed objects entered the station and attacked. Many of the trains have either been stolen or damaged in the fighting. The bandits had left a few hours ago, but the station and nearby rail have been heavily damaged."
  YFC_borderwars.16.a: "We should prevent more raids from happening!"
 
+# YFC_CRN_SUB
+
  YFC_CRN_sub.1.t: "An Affirmative Response!"
  YFC_CRN_sub.1.desc: "Recently, we sent over a letter with a certain set of demands to The Capitalist Republic of Numismatia. Numismatian officials have sent their final response, accepting the demands. They've said that the changes we've asked for will be implemented in the coming days. Let's hope we can get more victories like this in the future!"
  YFC_CRN_Sub.1.a: "They'll be under our thumb in no time."
@@ -738,6 +740,7 @@
  YFC_CRN_sub.5.a: "Lets see what the future holds."
 
  #replace "tophat" with a variable containing the name of the leader of the military sector
+ 
  YFC_CRN_sub.6.t: "On the Army"
  YFC_CRN_sub.6.desc: "Following the announcement of our intensions to work closer with the Capitalist Republic of Numismatia, Yellow Face and his sectorial leaders decided to hold a meeting to see what was the most important issue in regards to this companionship might me. After many hours, we decided to issue them a demand in regards to the army. \nOur military sector, unsurprisingly, stands alone on their opinion in this issue, believing that the Numismatian army should be integrated into ours, and forced to learn raiding strategies. Top Hat, the leader of the sector, spoke about this passionately, saying that standard military techniques proved to be ineffective in the modern world, and that a disjounted military is an encircled one. \nDespite his speech, every other sectorial disagreed with him, with Wrench, the Railroad sectorial, who had always been a pacifist, vehemently disagreed with this idea. They said that any attempt at forcing a nation into signing away their military was sure to end in disaster. They claimed that we should have separate, but equal militaries, where generals from both sides convine and have to come to agreements together. The debate lasted a little longer, with some insults being thrown about. However, we managed to reach a decision."
  YFC_CRN_sub.6.a: "It's our first demand, lets be cautious."
@@ -753,6 +756,8 @@
  YFC_CRN_sub.8.a: "Accept the demand."
  YFC_CRN_sub.8.b: "Deny the demand."
 
+#For future demands please add the effects of the demand so it is easier/quicker to add.
+#Thank you and have a good day :D
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"

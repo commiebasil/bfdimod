@@ -870,7 +870,7 @@ country_event = {
 	id = YFC_CRN_Sub.1
 	title = YFC_CRN_Sub.1.t
     desc = YFC_CRN_Sub.1.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -885,7 +885,7 @@ country_event = {
 	id = YFC_CRN_Sub.2
 	title = YFC_CRN_Sub.2.t
     desc = YFC_CRN_Sub.2.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -900,7 +900,7 @@ country_event = {
 	id = YFC_CRN_Sub.3
 	title = YFC_CRN_Sub.3.t
     desc = YFC_CRN_Sub.3.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -915,7 +915,7 @@ country_event = {
 	id = YFC_CRN_Sub.4
 	title = YFC_CRN_Sub.4.t
     desc = YFC_CRN_Sub.4.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -929,7 +929,7 @@ country_event = {
 	id = YFC_CRN_Sub.5
 	title = YFC_CRN_Sub.5.t
     desc = YFC_CRN_Sub.5.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -954,7 +954,7 @@ country_event = {
 	id = YFC_CRN_Sub.6
 	title = YFC_CRN_Sub.6.t
     desc = YFC_CRN_Sub.6.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -993,7 +993,7 @@ country_event = {
 	id = YFC_CRN_Sub.7
 	title = YFC_CRN_Sub.7.t
     desc = YFC_CRN_Sub.7.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1009,7 +1009,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.6
+				id = YFC_CRN_Sub.9
 				days = 15
 				random_hours = 100
 			}	
@@ -1028,7 +1028,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.6
+				id = YFC_CRN_Sub.9
 				days = 15
 				random_hours = 100
 			}		
@@ -1042,7 +1042,7 @@ country_event = {
 	id = YFC_CRN_Sub.8
 	title = YFC_CRN_Sub.8.t
     desc = YFC_CRN_Sub.8.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1058,7 +1058,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.6
+				id = YFC_CRN_Sub.9
 				days = 15
 				random_hours = 100
 			}	
@@ -1077,7 +1077,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.6
+				id = YFC_CRN_Sub.9
 				days = 15
 				random_hours = 100
 			}		
@@ -1091,7 +1091,7 @@ country_event = {
 	id = YFC_CRN_Sub.9
 	title = YFC_CRN_Sub.9.t
     desc = YFC_CRN_Sub.9.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1130,7 +1130,7 @@ country_event = {
 	id = YFC_CRN_Sub.10
 	title = YFC_CRN_Sub.10.t
     desc = YFC_CRN_Sub.10.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1179,7 +1179,7 @@ country_event = {
 	id = YFC_CRN_Sub.11
 	title = YFC_CRN_Sub.11.t
     desc = YFC_CRN_Sub.11.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1228,7 +1228,7 @@ country_event = {
 	id = YFC_CRN_Sub.12
 	title = YFC_CRN_Sub.12.t
     desc = YFC_CRN_Sub.12.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1238,7 +1238,7 @@ country_event = {
 		hidden_effect = {
 			CRN = {
 				country_event = {
-					id = YFC_CRN_Sub.7
+					id = YFC_CRN_Sub.13
 					days = 15
 					random_hours = 100
 				}
@@ -1252,7 +1252,7 @@ country_event = {
 		hidden_effect = {
 			CRN = {
 				country_event = {
-					id = YFC_CRN_Sub.8
+					id = YFC_CRN_Sub.14
 					days = 15
 					random_hours = 100
 				}
@@ -1267,7 +1267,7 @@ country_event = {
 	id = YFC_CRN_Sub.13
 	title = YFC_CRN_Sub.13.t
     desc = YFC_CRN_Sub.13.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1283,7 +1283,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.6
+				id = YFC_CRN_Sub.15
 				days = 15
 				random_hours = 100
 			}	
@@ -1302,7 +1302,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.6
+				id = YFC_CRN_Sub.15
 				days = 15
 				random_hours = 100
 			}		
@@ -1316,7 +1316,7 @@ country_event = {
 	id = YFC_CRN_Sub.14
 	title = YFC_CRN_Sub.14.t
     desc = YFC_CRN_Sub.14.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1365,7 +1365,7 @@ country_event = {
 	id = YFC_CRN_Sub.15
 	title = YFC_CRN_Sub.15.t
     desc = YFC_CRN_Sub.15.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1404,7 +1404,7 @@ country_event = {
 	id = YFC_CRN_Sub.16
 	title = YFC_CRN_Sub.16.t
     desc = YFC_CRN_Sub.16.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1420,7 +1420,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.12
+				id = YFC_CRN_Sub.18
 				days = 15
 				random_hours = 100
 			}	
@@ -1439,7 +1439,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.12
+				id = YFC_CRN_Sub.18
 				days = 15
 				random_hours = 100
 			}		
@@ -1453,7 +1453,7 @@ country_event = {
 	id = YFC_CRN_Sub.17
 	title = YFC_CRN_Sub.17.t
     desc = YFC_CRN_Sub.17.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1502,7 +1502,7 @@ country_event = {
 	id = YFC_CRN_Sub.18
 	title = YFC_CRN_Sub.18.t
     desc = YFC_CRN_Sub.18.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1541,7 +1541,7 @@ country_event = {
 	id = YFC_CRN_Sub.19
 	title = YFC_CRN_Sub.19.t
     desc = YFC_CRN_Sub.19.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1557,7 +1557,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.6
+				id = YFC_CRN_Sub.21
 				days = 15
 				random_hours = 100
 			}	
@@ -1576,7 +1576,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.6
+				id = YFC_CRN_Sub.21
 				days = 15
 				random_hours = 100
 			}		
@@ -1590,7 +1590,7 @@ country_event = {
 	id = YFC_CRN_Sub.20
 	title = YFC_CRN_Sub.20.t
     desc = YFC_CRN_Sub.20.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1606,7 +1606,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.15
+				id = YFC_CRN_Sub.21
 				days = 15
 				random_hours = 100
 			}	
@@ -1625,7 +1625,7 @@ country_event = {
 				}
 			}
 			country_event = {
-				id = YFC_CRN_Sub.15
+				id = YFC_CRN_Sub.21
 				days = 15
 				random_hours = 100
 			}		
@@ -1639,7 +1639,7 @@ country_event = {
 	id = YFC_CRN_Sub.21
 	title = YFC_CRN_Sub.21.t
     desc = YFC_CRN_Sub.21.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1678,7 +1678,7 @@ country_event = {
 	id = YFC_CRN_Sub.22
 	title = YFC_CRN_Sub.22.t
     desc = YFC_CRN_Sub.22.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1727,7 +1727,7 @@ country_event = {
 	id = YFC_CRN_Sub.23
 	title = YFC_CRN_Sub.23.t
     desc = YFC_CRN_Sub.23.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1776,7 +1776,7 @@ country_event = {
 	id = YFC_CRN_Sub.24
 	title = YFC_CRN_Sub.24.t
     desc = YFC_CRN_Sub.24.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1815,7 +1815,7 @@ country_event = {
 	id = YFC_CRN_Sub.25
 	title = YFC_CRN_Sub.25.t
     desc = YFC_CRN_Sub.25.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
@@ -1830,7 +1830,7 @@ country_event = {
 	id = YFC_CRN_Sub.26
 	title = YFC_CRN_Sub.26.t
     desc = YFC_CRN_Sub.26.desc
-	picture = GFX_YFC_event1
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
     
