@@ -61,7 +61,7 @@ country_event = {
 	id = YFC_event.4
 	title = YFC_event.4.t
 	desc = YFC_event.4.desc
-	picture = GFX_YFC_event4
+	picture = GFX_Temp_event
 
 	is_triggered_only = yes
 
@@ -72,8 +72,9 @@ country_event = {
 				target = BUN
 				type = topple_government
 			}
+			give_military_access = YFC
 		}
-
+		give_military_access = CRN
 		ai_chance = {
 			base = 1
 		}
@@ -101,7 +102,7 @@ country_event = {
 	id = YFC_event.5
 	title = YFC_event.5.t
 	desc = YFC_event.5.desc
-	picture = GFX_YFC_event5
+	picture = GFX_Temp_event
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -110,30 +111,18 @@ country_event = {
 		name = YFC_event.5.a
 		hidden_effect = {
 			set_country_flag = Won_War_BUN
-			85 = {add_compliance = 10}
-			212 = {add_compliance = 10}
-			217 = {add_compliance = 15}
-			218 = {add_compliance = 15}
+			85 = {add_compliance = 15}
+			212 = {add_compliance = 15}
+			217 = {add_compliance = 30}
+			218 = {add_compliance = 30}
 		}
 		delete_unit_template_and_units = {
 			division_template = "Militia"
 			disband = no 
 		}
-		if = {
-			limit = {
-				has_completed_focus = YFC_focus_hire_militias
-			}
-			delete_unit_template_and_units = {
-				division_template = "Militia"
-				disband = no 
-			}
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 2000
-			}
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
-			amount = 750
+			amount = 2000
 		}
 		complete_national_focus = YFC_focus_a_look_inward
 		add_war_support = 0.02
@@ -145,7 +134,7 @@ country_event = {
 	id = YFC_event.6
 	title = YFC_event.6.t
 	desc = YFC_event.6.desc
-	picture = GFX_YFC_event5
+	picture = GFX_Temp_event
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -181,7 +170,7 @@ country_event = {
 	id = YFC_event.7
 	title = YFC_event.7.t
 	desc = YFC_event.7.desc
-	picture = GFX_YFC_event4
+	picture = GFX_Temp_event
 
 	is_triggered_only = yes
 
@@ -192,9 +181,7 @@ country_event = {
 				target = BUN
 				type = topple_government
 			}
-			give_military_access = YFC
 		}
-		give_military_access = CRN
 
 		add_opinion_modifier = { target = YFC modifier = large_decrease }
 		every_country_with_original_tag = {
@@ -269,7 +256,7 @@ country_event = {
 	id = YFC_event.9
 	title = YFC_event.9.t
 	desc = YFC_event.9.desc
-	picture = GFX_YFC_event4
+	picture = GFX_Temp_event
 
 	is_triggered_only = yes
 
@@ -290,7 +277,7 @@ country_event = {
 	id = YFC_event.10
 	title = YFC_event.10.t
 	desc = YFC_event.10.desc
-	picture = GFX_YFC_event4
+	picture = GFX_Temp_event
 
 	is_triggered_only = yes
 
@@ -298,6 +285,29 @@ country_event = {
 		name = YFC_event.10.a
 		add_stability = -0.1
 		add_war_support = 0.2
+	}
+}
+
+country_event = {
+	# YFC_focus_erasers_stockpiles event
+	id = YFC_event.11
+	title = YFC_event.11.t
+	desc = YFC_event.11.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { # 0% Risk 75% Chance of Bonus Support 
+		name = YFC_event.11.a
+	}
+	option = { # 25% Risk 50% Chance of Bonus Support 
+		name = YFC_event.11.b
+	}
+	option = { # 50% Risk 25% Chance of Bonus Support 
+		name = YFC_event.11.c
+	}
+	option = { # 75% Risk 0% Chance of Bonus Support 
+		name = YFC_event.11.d
 	}
 }
 
@@ -517,7 +527,7 @@ country_event = {
 	id = YFC_borderwars.5
 	title = YFC_borderwars.5.t
 	desc = YFC_borderwars.5.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -545,7 +555,7 @@ country_event = {
 	id = YFC_borderwars.6
 	title = YFC_borderwars.6.t
 	desc = YFC_borderwars.6.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -567,7 +577,7 @@ country_event = {
 	id = YFC_borderwars.7
 	title = YFC_borderwars.7.t
 	desc = YFC_borderwars.7.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -594,7 +604,7 @@ country_event = {
 	id = YFC_borderwars.8
 	title = YFC_borderwars.8.t
 	desc = YFC_borderwars.8.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -622,7 +632,7 @@ country_event = {
 	id = YFC_borderwars.9
 	title = YFC_borderwars.9.t
 	desc = YFC_borderwars.9.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -643,7 +653,7 @@ country_event = {
 	id = YFC_borderwars.10
 	title = YFC_borderwars.10.t
 	desc = YFC_borderwars.10.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -669,7 +679,7 @@ country_event = {
 	id = YFC_borderwars.11
 	title = YFC_borderwars.11.t
 	desc = YFC_borderwars.11.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -721,7 +731,7 @@ country_event = {
 	id = YFC_borderwars.12
 	title = YFC_borderwars.12.t
 	desc = YFC_borderwars.12.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -740,7 +750,7 @@ country_event = {
 	id = YFC_borderwars.13
 	title = YFC_borderwars.13.t
 	desc = YFC_borderwars.13.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -767,7 +777,7 @@ country_event = {
 	id = YFC_borderwars.14
 	title = YFC_borderwars.14.t
 	desc = YFC_borderwars.14.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -796,7 +806,7 @@ country_event = {
 	id = YFC_borderwars.15
 	title = YFC_borderwars.15.t
 	desc = YFC_borderwars.15.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes
@@ -815,7 +825,7 @@ country_event = {
 	id = YFC_borderwars.16
 	title = YFC_borderwars.16.t
 	desc = YFC_borderwars.16.desc
-	picture = GFX_YFC_raids1
+	picture = GFX_Temp_event
 
 	fire_only_once = no
 	is_triggered_only = yes

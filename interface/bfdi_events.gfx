@@ -1,5 +1,10 @@
 SpriteTypes = {
 	spriteType = {
+		name = GFX_Temp_event
+		texturefile = gfx/event_pictures/Temp_Event.dds
+	}
+
+	spriteType = {
 		name = GFX_GOI_event1
 		texturefile = gfx/event_pictures/GOI_event1.dds
 	}

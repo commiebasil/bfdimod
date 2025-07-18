@@ -416,7 +416,7 @@ country_event = {
 	title = GGR_event.14.t
 	desc = GGR_event.14.desc
 	#Update picture pls
-	picture = GFX_GGR_event12
+	picture = GFX_Temp_event
 	
 	is_triggered_only = yes
 	

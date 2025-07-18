@@ -15,7 +15,7 @@ if = {
 	}
 }
 
-set_stability = -0.1
+set_stability = 0
 set_war_support = 0
 
 set_convoys = 20
@@ -44,6 +44,7 @@ set_variable = { var_progress_raids_GGR = 0 }
 set_variable = { var_progress_raids_SRR = 0 }
 
 set_variable = { var_idea_YFC_anarchic_lands_repair = 5 }
+set_variable = { var_idea_YFC_anarchic_lands_PP = -0.5 }
 set_variable = { var_idea_YFC_anarchic_lands_rail = 0 }
 set_variable = { var_idea_YFC_anarchic_lands_node = 0 }
 

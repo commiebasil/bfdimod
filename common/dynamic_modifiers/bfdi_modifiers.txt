@@ -156,6 +156,7 @@ idea_GDR_payments_to_gpr = {
 idea_YFC_anarchic_lands = {
 	icon = GFX_idea_YFC_anarchic_lands
 	
+	political_power_gain = var_idea_YFC_anarchic_lands_PP
 	production_speed_buildings_factor = -5
 	industry_free_repair_factor = var_idea_YFC_anarchic_lands_repair
 	production_speed_rail_way_factor = var_idea_YFC_anarchic_lands_rail

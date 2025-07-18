@@ -666,6 +666,13 @@
  YFC_event.10.desc: "Now... now is the time to begin our raiding efforts! With more objects in both the countryside and cities being ‘hired' we have the ability to begin our raids. We must now use our raiding to not only survive, but to thrive! We need to steal the resources from our neighbors to gather even more strength, wealth, and power!. Sure, this land will fall into a land of anarchy and banditry, but it is a fair price!"
  YFC_event.10.a: "Onwards!"
 
+ YFC_event.11.t: "How Much?"
+ YFC_event.11.desc: "That was the question being discussed by Yellow Face and his sector friends. It would go a long way to rapidly progressing the nation and the company. However, taking any of the money as its risks for its rewards. So, after days of discussions on what to do with the money, it’s been decided that we are..."
+ YFC_event.11.a: "Taking None."
+ YFC_event.11.b: "Taking Some."
+ YFC_event.11.c: "Taking Half."
+ YFC_event.11.d: "Taking Most."
+
  BUN_borderwars.5.t: "Raiders Attacked!"
  BUN_borderwars.5.desc: "When our forces arrived, they found themselves quickly under bandit fire. Despite our best efforts, our forces were overrun and the bandits broke through. This resulted in the nearby towns and villages being set ablaze and much of the equipment was stolen. The bandits have left, but there are still ashes in the air."
  BUN_borderwars.5.a: "We cannot allow more raids to happen!"

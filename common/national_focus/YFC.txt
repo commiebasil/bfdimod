@@ -1,7 +1,6 @@
 #!gfx:interface\bfdi_goals.gfx
 focus_tree = {
 	id = YFC_focus_tree
-	#yf has a national spirit not allowing the nation to make any buildings, there are no research slots, yadda yadda (check the pathway planning doc) 
 	country = {
 		factor = 0
 		modifier = {
@@ -136,7 +135,6 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_demand_end_pillage }
 		
 		cost = 3
-		#increases relations with Numismatia both ways, will force numis down a path of cooperation with yfc and bunch
 		completion_reward = {
 			add_opinion_modifier = { target = CRN modifier = large_increase }
 			every_country_with_original_tag = {
@@ -187,7 +185,6 @@ focus_tree = {
 		mutually_exclusive = { focus = YFC_focus_demand_end_pillage }
 		
 		cost = 2
-		#opens up alt path that lets you become a bunch-like ancap raider state
 		completion_reward = {
 			set_cosmetic_tag = YFC_raiders
 			YFC = { give_guarantee = BUN }
@@ -224,8 +221,6 @@ focus_tree = {
 		x = 2
 		y = 1
 		icon = GFX_focus_YFC_open_foreign_policy
-		#decreases relations with firey, free territory, and communist goiky if they exist yet, as well as any other COMMIES
-		#increases relations with GTR, Numismatia, and Coiny
 		prerequisite = { focus = YFC_focus_the_southern_bandits }
 		cost = 4
 		completion_reward = {
@@ -263,8 +258,6 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_open_foreign_policy }
 		mutually_exclusive = { focus = YFC_focus_YFC_funded_pillaging }
 		cost = 2
-		#gives an event that about border patrol no longer letting the bunch go through YFC territory to raid others
-		#decreases relations with bunch
 		completion_reward = {
 			add_opinion_modifier = { target = BUN modifier = large_decrease }
 			every_country_with_original_tag = {
@@ -308,7 +301,7 @@ focus_tree = {
 
 		allow_branch = { has_completed_focus = YFC_focus_demand_end_pillage }
 		prerequisite = { focus = YFC_focus_demand_end_pillage }
-		cost = 3
+		cost = 6
 		#spawn 6 okay-ish divisions, decreases max amount to be traded away
 		#divs will be deleted on end of war, max amount to trade goes back up
 		completion_reward = {
@@ -424,7 +417,7 @@ focus_tree = {
 				CRN = {
 					country_event = {
 						id = YFC_event.6
-						days = 7
+						days = 10
 						random_hours = 100
 					}
 				}	
@@ -712,7 +705,10 @@ focus_tree = {
 		#gives an increase to your treasury, and an event about stealing from eraser
 		#will make it easier for the bunchivists to chose eraser instead of blocky
 		completion_reward = {
-			
+			country_event = {
+				id = YFC_event.11
+				hour = 1
+			}
 		}
 	}
 
@@ -732,6 +728,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_stability = 0.01
 		}
 	}
 	
@@ -751,6 +748,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_stability = 0.01
 		}
 	}
 }
