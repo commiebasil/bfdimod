@@ -876,6 +876,7 @@ country_event = {
     
     option = {
 		name = YFC_CRN_Sub.1.a
+		custom_effect_tooltip = l_YFC_CRN_UP
 	}
 }
 
@@ -891,6 +892,7 @@ country_event = {
     
     option = {
 		name = YFC_CRN_Sub.2.a
+		custom_effect_tooltip = l_YFC_CRN_DOWN
 	}
 }
 
@@ -936,11 +938,16 @@ country_event = {
     option = {
 		name = YFC_CRN_Sub.5.a
 		add_political_power = 25
+		custom_effect_tooltip = l_YFC_CRN_Start2
+		add_dynamic_modifier = { modifier = idea_CRN_integration_CRN }
+		YFC = {
+			add_dynamic_modifier = { modifier = idea_YFC_integration_YFC }
+		}
 		hidden_effect = {
 			YFC = {
 				country_event = {
 					id = YFC_CRN_Sub.6
-					days = 15
+					days = 10
 					random_hours = 100
 				}
 			}	
@@ -961,6 +968,7 @@ country_event = {
     option = {
 		name = YFC_CRN_Sub.6.a
 		#Peaceful one BUT hurts YFC and buffs CRN
+		custom_effect_tooltip = l_YFC_7_YFC
 		hidden_effect = {
 			CRN = {
 				country_event = {
@@ -975,6 +983,7 @@ country_event = {
 	option = {
 		name = YFC_CRN_Sub.6.b
 		#Violent one BUT does not hurt YFC
+		custom_effect_tooltip = l_YFC_8_YFC
 		hidden_effect = {
 			CRN = {
 				country_event = {
@@ -1000,19 +1009,27 @@ country_event = {
     option = {
 		name = YFC_CRN_Sub.7.a
 		#Yes
+		custom_effect_tooltip = l_YFC_7_CRN
+		army_experience = 20
 		hidden_effect = {
 			YFC = {
 				country_event = {
 					id = YFC_CRN_Sub.1
-					days = 2
-					random_hours = 100
+					days = 1
+					random_hours = 50
 				}
+				add_to_variable = { var_idea_YFC_integration_YFC_army_attack_factor = -0.05 }
+				add_to_variable = { var_idea_YFC_integration_YFC_army_defence_factor = -0.05 }
+				add_to_variable = { var_idea_YFC_integration_YFC_command_power_gain_mult = -0.10 }
 			}
 			country_event = {
 				id = YFC_CRN_Sub.9
 				days = 15
 				random_hours = 100
-			}	
+			}
+			add_to_variable = { var_idea_YFC_integration_CRN_army_attack_factor = 0.05 }
+			add_to_variable = { var_idea_YFC_integration_CRN_army_defence_factor = -0.1 }
+			add_to_variable = { var_idea_YFC_integration_CRN_command_power_gain_mult = 0.1 }
 		}
 	}
 
@@ -1023,8 +1040,8 @@ country_event = {
 			YFC = {
 				country_event = {
 					id = YFC_CRN_Sub.2
-					days = 2
-					random_hours = 100
+					days = 1
+					random_hours = 50
 				}
 			}
 			country_event = {
@@ -1049,19 +1066,27 @@ country_event = {
     option = {
 		name = YFC_CRN_Sub.8.a
 		#Yes
+		custom_effect_tooltip = l_YFC_8_CRN
+		army_experience = 10
 		hidden_effect = {
 			YFC = {
 				country_event = {
 					id = YFC_CRN_Sub.1
-					days = 2
-					random_hours = 100
+					days = 1
+					random_hours = 50
 				}
+				army_experience = 25
+				add_to_variable = { var_idea_YFC_integration_YFC_army_attack_factor = 0.05 }
+				add_to_variable = { var_idea_YFC_integration_YFC_command_power_gain_mult = 0.25 }
 			}
 			country_event = {
 				id = YFC_CRN_Sub.9
 				days = 15
 				random_hours = 100
-			}	
+			}
+			add_to_variable = { var_idea_YFC_integration_CRN_army_attack_factor = 0.05 }
+			add_to_variable = { var_idea_YFC_integration_CRN_army_defence_factor = -0.2 }
+			add_to_variable = { var_idea_YFC_integration_CRN_command_power_gain_mult = -0.25 }	
 		}
 	}
 
@@ -1072,8 +1097,8 @@ country_event = {
 			YFC = {
 				country_event = {
 					id = YFC_CRN_Sub.2
-					days = 2
-					random_hours = 100
+					days = 1
+					random_hours = 50
 				}
 			}
 			country_event = {
@@ -1098,6 +1123,7 @@ country_event = {
     option = {
 		name = YFC_CRN_Sub.9.a
 		#LESS Demanding one
+		custom_effect_tooltip = l_YFC_10_CRN
 		hidden_effect = {
 			YFC = {
 				country_event = {
@@ -1112,6 +1138,7 @@ country_event = {
 	option = {
 		name = YFC_CRN_Sub.9.b
 		#MORE Demanding one
+		custom_effect_tooltip = l_YFC_11_CRN
 		hidden_effect = {
 			YFC = {
 				country_event = {
@@ -1137,31 +1164,38 @@ country_event = {
     option = {
 		name = YFC_CRN_Sub.10.a
 		#Yes
+		custom_effect_tooltip = l_YFC_10_YFC
+		custom_effect_tooltip = l_YFC_CRN_UP
 		hidden_effect = {
 			CRN = {
 				country_event = {
 					id = YFC_CRN_Sub.3
-					days = 2
-					random_hours = 100
+					days = 1
+					random_hours = 50
 				}
+				add_political_power = 50
+				add_to_variable = { var_idea_YFC_integration_CRN_stability_factor = 0.1 }
 			}
 			country_event = {
 				id = YFC_CRN_Sub.12
 				days = 15
 				random_hours = 100
-			}	
+			}
+			add_to_variable = { var_idea_YFC_integration_YFC_war_support_factor = -0.05 }
+			add_to_variable = { var_idea_YFC_integration_YFC_political_power_factor = -0.20 }	
 		}
 	}
 
 	option = {
 		name = YFC_CRN_Sub.10.b
 		#No
+		custom_effect_tooltip = l_YFC_CRN_DOWN
 		hidden_effect = {
 			CRN = {
 				country_event = {
 					id = YFC_CRN_Sub.4
-					days = 2
-					random_hours = 100
+					days = 1
+					random_hours = 50
 				}
 			}
 			country_event = {
@@ -1186,31 +1220,40 @@ country_event = {
     option = {
 		name = YFC_CRN_Sub.11.a
 		#Yes
+		custom_effect_tooltip = l_YFC_11_YFC
+		custom_effect_tooltip = l_YFC_CRN_UP
 		hidden_effect = {
 			CRN = {
 				country_event = {
 					id = YFC_CRN_Sub.3
-					days = 2
-					random_hours = 100
+					days = 1
+					random_hours = 50
 				}
+				add_political_power = 100
+				add_to_variable = { var_idea_YFC_integration_CRN_stability_factor = 0.10 }
+				add_to_variable = { var_idea_YFC_integration_CRN_war_support_factor = 0.05 }
 			}
 			country_event = {
 				id = YFC_CRN_Sub.12
 				days = 15
 				random_hours = 100
-			}	
+			}
+			add_to_variable = { var_idea_YFC_integration_YFC_war_support_factor = -0.05 }
+			add_to_variable = { var_idea_YFC_integration_YFC_political_power_factor = -0.25 }
+			add_political_power = -100	
 		}
 	}
 
 	option = {
 		name = YFC_CRN_Sub.11.b
 		#No
+		custom_effect_tooltip = l_YFC_CRN_DOWN
 		hidden_effect = {
 			CRN = {
 				country_event = {
 					id = YFC_CRN_Sub.4
-					days = 2
-					random_hours = 100
+					days = 1
+					random_hours = 50
 				}
 			}
 			country_event = {

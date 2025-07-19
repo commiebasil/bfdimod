@@ -164,11 +164,23 @@ idea_YFC_anarchic_lands = {
 }
 
 idea_YFC_integration_YFC = { #YFC Buffs
-	icon = chi_warlord_integration5
-	
+	icon = GFX_idea_generic_constitutional_guarantees
+
+	army_attack_factor = var_idea_YFC_integration_YFC_army_attack_factor
+	army_defence_factor = var_idea_YFC_integration_YFC_army_defence_factor
+	command_power_gain_mult = var_idea_YFC_integration_YFC_command_power_gain_mult
+	stability_factor = var_idea_YFC_integration_YFC_stability_factor
+	war_support_factor = var_idea_YFC_integration_YFC_war_support_factor 
+	political_power_factor = var_idea_YFC_integration_YFC_political_power_factor 
 }
 
-idea_YFC_integration_CRN = { #CRN Buffs
-	icon = chi_warlord_integration5
+idea_CRN_integration_CRN = { #CRN Buffs
+	icon = GFX_idea_generic_constitutional_guarantees
 	
+	army_attack_factor = var_idea_YFC_integration_CRN_army_attack_factor
+	army_defence_factor = var_idea_YFC_integration_CRN_army_defence_factor
+	command_power_gain_mult = var_idea_YFC_integration_CRN_command_power_gain_mult
+	stability_factor = var_idea_YFC_integration_CRN_stability_factor
+	war_support_factor = var_idea_YFC_integration_CRN_war_support_factor 
+	political_power_factor = var_idea_YFC_integration_CRN_political_power_factor
 }
