@@ -637,7 +637,7 @@ focus_tree = {
 			}
 		}
 		
-		# allow_branch = { has_country_flag = Won_War_BUN }
+		allow_branch = { has_country_flag = Won_War_BUN } #Remove if you want to show on start of playing 
 		cost = 1
 		#autocompleted a week after the yfc caps the bunch
 		#give event porfa
@@ -776,7 +776,7 @@ focus_tree = {
 		#gives you like 7 events while this focus branch is going on, in which something happens in former bunch territory, and the decision you chose either adds points to annexation or adds points to rebellion
 		#at the ending focus of this branch, if you have resistance under 20% and complience over 80%, you get cores on bunch land and lots of benifits
 		completion_reward = {
-
+			#I'll just do something simlar to the manchukuo bandit decisions and add the UI later
 		}
 	}
 
@@ -794,7 +794,7 @@ focus_tree = {
 		#generally just add whatever effects you think would be balanced
 		#also ai will choose this like 90% of the time
 		completion_reward = {
-			
+			#So is this meant to be a choice or just lore or both?
 		}
 	}
 
@@ -818,7 +818,10 @@ focus_tree = {
 		#removes one civ factory (1M dollars) from monthly income, to account for paying of policemen
 		#gives lots of stability, adds national idea that gives +0.5 political power
 		completion_reward = {
+			custom_effect_tooltip = l_YFC_pp_gain
+			add_to_variable = { var_idea_YFC_anarchic_lands_PP = 0.5 } #Just gonna throw it into this idea
 			
+			#Also where does YFC get a civ to lose this civ?
 		}
 	}
 	
@@ -857,7 +860,7 @@ focus_tree = {
 		cost = 1
 		#gives event about blocky and yf meeting to discuss things, in which blocky proposes he leads a new bunch nation
 		completion_reward = {
-
+			#So is this meant to be a choice or just lore or both?
 		}
 	}
 
@@ -874,7 +877,7 @@ focus_tree = {
 		#every thirty days, you get the next focus in the branch
 		#gives event on completion that gives whatever effects you feel like giving
 		completion_reward = {
-			
+			#Does the countdown start at YFC_focus_the_bunchivist_problem / YFC_focus_a_look_inward or here?
 		}
 	}
 }

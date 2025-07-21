@@ -46,11 +46,11 @@ set_popularities = {
 
 #Anarchic Lands Idea
  set_variable = { var_idea_YFC_anarchic_lands_repair = 5 }
- set_variable = { var_idea_YFC_anarchic_lands_PP = -0.5 }
+ set_variable = { var_idea_YFC_anarchic_lands_PP = -0.75 }
  set_variable = { var_idea_YFC_anarchic_lands_rail = 0 }
  set_variable = { var_idea_YFC_anarchic_lands_node = 0 }
 
-#Subjection YFC Side
+#Subjugation YFC Side
  set_variable = { var_idea_YFC_integration_YFC_army_attack_factor = 0 }
  set_variable = { var_idea_YFC_integration_YFC_army_defence_factor = 0}
  set_variable = { var_idea_YFC_integration_YFC_command_power_gain_mult = 0 }
