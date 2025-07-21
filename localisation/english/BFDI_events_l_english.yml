@@ -779,6 +779,13 @@
  #a: yfc loses a bit of political power, gains a large amount of stability, crn gains political power and stability
  #b: yfc gains a lot of political power, loses a lot of stability
 
+ YFC_CRN_Sub.12.t: "On Communists"
+ YFC_CRN_Sub.12.desc: "No matter what the Numismatians say, it is very clear that they are having problems in regards to the communists fleeing into their country from the south. Each day the communists infect their government more and more, seeping into their policies, corrupting their people, sabatoging capitalist ideals like the vermin they are. This issue will obviously only get worse as time passes. Before this union starts, it is of the utmost importance that the Numismatians gets rid of this threat. But how exactly should we do it without encroaching on their so-called 'rights'?"
+ YFC_CRN_Sub.12.a: "Jail violent communists!"
+ YFC_CRN_Sub.12.b: "Fuck your freedom, ban communism!"
+ #a: crn gains stability, and army exp, yfc loses lots of political power
+ #b: yfc gains a lot of stability and war support, crn loses a small amount of stability
+
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."
