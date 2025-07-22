@@ -311,6 +311,153 @@ country_event = {
 	}
 }
 
+country_event = {
+	# YFC_focus_the_economic_issue event
+	id = YFC_event.12
+	title = YFC_event.12.t
+	desc = YFC_event.12.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_event.12.a
+		complete_national_focus = YFC_focus_industrialize_or_die
+	}
+	option = { 
+		name = YFC_event.12.b
+		# complete_national_focus =
+	}
+}
+
+country_event = {
+	# YFC_focus_clamp_down_on_bunchivism event
+	id = YFC_event.13
+	title = YFC_event.13.t
+	desc = YFC_event.13.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_event.13.a
+		add_political_power = 25
+	}
+}
+
+country_event = {
+	# YFC_focus_foster_new_society event
+	id = YFC_event.14
+	title = YFC_event.14.t
+	desc = YFC_event.14.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_event.14.a
+	}
+}
+
+country_event = {
+	# YFC_focus_leader_of_bunch event
+	id = YFC_event.15
+	title = YFC_event.15.t
+	desc = YFC_event.15.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_event.15.a
+		country_event = {
+			id = YFC_event.16
+			hour = 1
+		}
+	}
+	option = { #skips leader candidates
+		name = YFC_event.15.b 
+	}
+}
+
+country_event = {
+	# YFC_focus_leader_of_bunch event (blocky)
+	id = YFC_event.16
+	title = YFC_event.16.t
+	desc = YFC_event.16.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_event.16.a
+		country_event = {
+			id = YFC_event.17
+			hour = 1
+		}
+	}
+}
+
+country_event = {
+	# YFC_focus_leader_of_bunch event (pen)
+	id = YFC_event.17
+	title = YFC_event.17.t
+	desc = YFC_event.17.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_event.17.a
+		country_event = {
+			id = YFC_event.18
+			hour = 1
+		}
+	}
+}
+
+country_event = {
+	# YFC_focus_leader_of_bunch event (eraser)
+	id = YFC_event.18
+	title = YFC_event.18.t
+	desc = YFC_event.18.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_event.18.a
+	}
+}
+
+country_event = {
+	# YFC_focus_blockys_offer event 
+	id = YFC_event.19
+	title = YFC_event.19.t
+	desc = YFC_event.19.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_event.19.a
+	}
+}
+
+country_event = {
+	# YFC_focus_bunchivist_new_deal countdown event 
+	id = YFC_event.20
+	title = YFC_event.20.t
+	desc = YFC_event.20.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_event.20.a
+	}
+}
+
 ########RAIDS EVENTS########
 
 country_event = {
