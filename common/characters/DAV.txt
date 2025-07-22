@@ -1,0 +1,15 @@
+characters = {
+	DAV_king_david_iv = {
+		name = DAV_king_david_iv
+		portraits = {
+			civilian = {
+				large = GFX_DAV_king_david_iv
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			desc = DAV_king_david_iv_desc
+		}
+	}
+
+}

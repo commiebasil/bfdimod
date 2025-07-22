@@ -5,8 +5,8 @@ state={
 		11871 11872 11873 11874 11875 11876 11877 11878 11879 11880 11881 11882 11883 
 	}
 	history = {
-		owner = EMP
-		add_core_of = EMP
+		owner = DAV
+		add_core_of = DAV
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

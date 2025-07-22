@@ -1,0 +1,36 @@
+
+
+capital = 166
+
+set_research_slots = 2
+
+set_technology = { basic_train = 1 }
+set_technology = { infantry_weapons = 1 }
+if = {
+	limit = { NOT = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		transport = 1
+	}
+}
+
+add_equipment_to_stockpile = {
+    type = train_equipment_1
+    amount = 10
+    producer = GOI
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1" 
+	election_frequency = 48 
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 6
+	fascism = 32
+	neutrality = 61
+	communism = 1
+}
+
+recruit_character = DAV_king_david_iv

@@ -107,13 +107,17 @@
  YFC_DEF: "Corp"
  #If names suck change pls!!!!
  YFC_raiders: "Yellow Face Raiders"
- YFC_raiders_ADJ: "Scammers"
+ YFC_raiders_ADJ: "Scammer"
  YFC_raiders_DEF: "Scam"
  
  SOS: "Objectburg Free State"
  SOS_ADJ: "Objectburger"
  SOS_DEF: "Objectburg Free State"
 
-CRN: "Capitalist Republic of Numismatia"
-CRN_ADJ: "Numismatian"
-CRN_DEF: "Numismatia"
+ CRN: "Capitalist Republic of Numismatia"
+ CRN_ADJ: "Numismatian"
+ CRN_DEF: "Numismatia"
+
+ DAV: "Kingdom of Davidland"
+ DAV_ADJ: "Davidian"
+ DAV_DEF: "Davidland"
