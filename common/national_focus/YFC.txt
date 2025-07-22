@@ -637,7 +637,7 @@ focus_tree = {
 			}
 		}
 		
-		allow_branch = { has_country_flag = Won_War_BUN } #Remove if you want to show on start of playing 
+		#allow_branch = { has_country_flag = Won_War_BUN } #Remove if you want to show on start of playing 
 		cost = 1
 		#autocompleted a week after the yfc caps the bunch
 		#give event porfa
@@ -895,6 +895,100 @@ focus_tree = {
 		#starts countdown timer for 90 days, if you dont get the aformentioned compliance and resistance needed then a bunchivist revolt starts (you can choose to play as the revolt too)
 		#every thirty days, you get the next focus in the branch
 		#gives event on completion that gives whatever effects you feel like giving
+		completion_reward = {
+			
+		}
+	}
+
+	#below foci only unlock and are only visible if resistance and compliance requirements arent met, and the aforementioned timer isnt going off, foci are defined in order of unlock
+	focus = {
+		id = YFC_focus_promise_freedoms
+		relative_position_id = YFC_focus_bunchivist_new_deal
+		x = -2
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_bunchivist_new_deal }
+		cost = 2
+		#gives 5 percent compliance, removes ten percent resistence, lowers pp and stab
+		#gives event as well because atp why not
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_stricter_law
+		relative_position_id = YFC_focus_bunchivist_new_deal
+		x = 2
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_bunchivist_new_deal }
+		cost = 2
+		#removes 15 resistance, takes 5 compliance, money, and gives a bit of army exp
+		#nother event bc i hate myself
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_prepare_for_worst
+		relative_position_id = YFC_focus_bunchivist_new_deal
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_bunchivist_new_deal }
+		cost = 1
+		#autocompleted, gives a small amount of forts near yfc-bunch border
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_trial_over_eraser
+		relative_position_id = YFC_focus_clamp_down_on_bunchivism
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+
+		prerequisite = { focus = YFC_focus_clamp_down_on_bunchivism }
+		cost = 3
+		#trial event, like the trials over leafy
+		#three options
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_execute_pen
+		relative_position_id = YFC_focus_clamp_down_on_bunchivism
+		x = -2
+		y = 1
+		icon = GFX_focus_generic
+
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+
+		prerequisite = { focus = YFC_focus_clamp_down_on_bunchivism }
+		cost = 3
+		#starts three event long event chain about pens story, attempting to evade his execution
+		#no options bc i dont feel like it
+		#also gives political power because atp why not
 		completion_reward = {
 			
 		}
