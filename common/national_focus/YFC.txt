@@ -630,14 +630,15 @@ focus_tree = {
 		relative_position_id = YFC_focus_consolidate_power
 		x = 8
 		y = 0
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_look_inward
 		available = {
 			hidden_trigger = {
 				has_country_flag = Won_War_BUN
 			}
 		}
 		
-		#allow_branch = { has_country_flag = Won_War_BUN } #Remove if you want to show on start of playing 
+		allow_branch = { has_country_flag = Won_War_BUN } #Remove if you want to show on start of playing
+		
 		cost = 1
 		#autocompleted a week after the yfc caps the bunch
 		#give event porfa
@@ -651,7 +652,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_a_look_inward
 		x = -3
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_bunchivist_problem
 		prerequisite = { focus = YFC_focus_a_look_inward }
 		cost = 8
 		#begins the process of attempting to force the bunch to become capitalistic
@@ -672,7 +673,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_a_look_inward
 		x = 3
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_economic_issue
 		prerequisite = { focus = YFC_focus_a_look_inward }
 		cost = 8
 		#begins the process of dealing with internal economic stuff
@@ -696,7 +697,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_the_economic_issue
 		x = -1
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_industrialize_or_die
 		prerequisite = { focus = YFC_focus_the_economic_issue }
 		cost = 5
 		#after an event you get from "the economic issue" if you choose to focus on industrializing, you get this branch
@@ -710,7 +711,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_the_economic_issue
 		x = 1
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_erasers_stockpiles
 
 		available = {
 			has_completed_focus = YFC_focus_the_bunchivist_problem
@@ -732,7 +733,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_industrialize_or_die
 		x = -2
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_develop_peoniele
 		prerequisite = { focus = YFC_focus_industrialize_or_die }
 		cost = 6
 		completion_reward = {
@@ -752,7 +753,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_industrialize_or_die
 		x = 2
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_develop_yoyleton
 		prerequisite = { focus = YFC_focus_industrialize_or_die }
 		cost = 6
 		completion_reward = {

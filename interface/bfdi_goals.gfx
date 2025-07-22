@@ -1518,4 +1518,39 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_establish_sectorialism_other"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_establish_sectorialism_shine.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_look_inward"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_look_inward.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_bunchivist_problem"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_bunchivist_problem.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_economic_issue"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_economic_issue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_industrialize_or_die"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_industrialize_or_die.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_erasers_stockpiles"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_erasers_stockpiles.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_develop_peoniele"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_develop_peoniele.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_develop_yoyleton"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_develop_yoyleton.dds"
+	}
 }

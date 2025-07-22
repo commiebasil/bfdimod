@@ -33,4 +33,7 @@ set_popularities = {
 	communism = 1
 }
 
-recruit_character = DAV_king_david_iv
+recruit_character = DAV_king_david
+
+
+

@@ -270,7 +270,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CRN/CRN_credit_card.dds"
 	}
 	spriteType = {
-		name = "GFX_DAV_king_david_iv"
-		texturefile = "gfx/leaders/DAV/DAV_king_david_iv.dds"
+		name = "GFX_DAV_king_david"
+		texturefile = "gfx/leaders/DAV/DAV_king_david.dds"
 	}
 }
