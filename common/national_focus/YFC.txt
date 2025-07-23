@@ -637,7 +637,7 @@ focus_tree = {
 			}
 		}
 		
-		allow_branch = { has_country_flag = Won_War_BUN } #Remove if you want to show on start of playing
+		# allow_branch = { has_country_flag = Won_War_BUN } #Remove if you want to show on start of playing
 		
 		cost = 1
 		#autocompleted a week after the yfc caps the bunch
@@ -655,16 +655,25 @@ focus_tree = {
 		icon = GFX_focus_YFC_bunchivist_problem
 		prerequisite = { focus = YFC_focus_a_look_inward }
 		cost = 8
-		#begins the process of attempting to force the bunch to become capitalistic
-		#yfc favors blocky, numismatia favors pen, bunch wants eraser to stay
+		#gives an event that lets you send a message to the crn, in which you can choose to tell them that you will be annexing all former bunch territory
+		#or you can tell them that you wish to work with them to make a new reformed bunch society
+
+		#if you choose to tell the crn that you'll be annexing the occupation zone, they have a 50% chance of saying okay
+		#and a 50% chance of saying "no", and they'll begin to work with bunchivist rioters to keep you from doing so
+		#in exchange, bunchivists will help the crn with their internal communist problems
+		#you get a decisions mechanic like the snowy reich one
+
+		#if you choose the new society option, you'll the process of attempting to force the bunch to become capitalistic
+		#complete with an election mechanic!!
+		#there are three candidates, yfc favors blocky, numismatia favors pen, bunch wants eraser to stay
 		#an event chain spanning half a year and 14 events gives you the ability to react to certain happenings
 		#your reaction increases or decreases the likelyhood for your candidate getting chosen
 		#the bunch and numis also get events like this
 		#at the end, if blocky wins, the bunch becomes a puppet of the yfc, and vice versa for numis.
 		#if eraser wins, the bunch becomes a reformed republic, and is fully independent
+
 		completion_reward = {
-			#For a person that hates writing events, really likes having 500 events...
-			#what can i say, the people asked for more flavor events
+			
 		}
 	}
 
@@ -777,10 +786,12 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_foster_new_society }
 		cost = 5
-		#give event about rooting out the bunchivist threat, 
-		#gives ggr like gui decisions mechanic in which you root out bunchivism from former bunch provinces,
+		#autocompleted when you choose to annex the occupation zone
+		#this branch costs a lot of money but the bunch has a pretty big population all things considered
+		#it almost balances out! (it doesnt)
 		#gives you like 7 events while this focus branch is going on, in which something happens in former bunch territory, and the decision you chose either adds points to annexation or adds points to rebellion
 		#at the ending focus of this branch, if you have resistance under 20% and complience over 80%, you get cores on bunch land and lots of benifits
+		#if you dont, the bunchivists will revolt, giving you an event where you can switch countries and play as the bunch revolt!
 		completion_reward = {
 			#I'll just do something simlar to the manchukuo bandit decisions and add the UI later
 			country_event = {
@@ -799,10 +810,12 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_clamp_down_on_bunchivism }
 		cost = 5
-		#gives event but no complicated mechanic because yall are overworked
+		#autocompleted when the crn gives you a response to you saying you want a new bunchivist society, they only have a yes option for now. 
+		#therefore, this also starts the election mechanic
 		#adds comnpliance to bunchivist territories, gives stability and other things probably
 		#generally just add whatever effects you think would be balanced
-		#also ai will choose this like 90% of the time
+		#also ai will choose this like 70% of the time
+		#oh it also gvies you an event talkjing about how blocky is the best choice becuase he's soooo cool
 		completion_reward = {
 			#I think I'll make this one cost money/civs/other things 
 			country_event = {
@@ -829,7 +842,7 @@ focus_tree = {
 
 		prerequisite = { focus = YFC_focus_foster_new_society }
 		cost = 4
-		#removes one civ factory (1M dollars) from monthly income, to account for paying of policemen
+		#removes one civ factory (100k dollars) from monthly income, to account for paying of policemen
 		#gives lots of stability, adds national idea that gives +0.5 political power
 		completion_reward = {
 			custom_effect_tooltip = l_YFC_pp_gain
@@ -840,7 +853,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = YFC_focus_leader_of_bunch
+		id = YFC_focus_stimulate_bunch_business
 		relative_position_id = YFC_focus_foster_new_society
 		x = -1
 		y = 1
@@ -856,8 +869,7 @@ focus_tree = {
 
 		prerequisite = { focus = YFC_focus_foster_new_society }
 		cost = 3
-		#gives event that gives info about possible bunchivist leader candidates, blocky, pen, and eraser
-		#YFC is forced to like eraser bc this branch has too many possibilities as is
+		#idk what to put here i'll ask silver about it later
 		completion_reward = {
 			country_event = {
 				id = YFC_event.15
@@ -873,9 +885,9 @@ focus_tree = {
 		y = 2
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_foster_new_society }
-		prerequisite = { focus = YFC_focus_leader_of_bunch }
+		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
 		cost = 1
-		#gives event about blocky and yf meeting to discuss things, in which blocky proposes he leads a new bunch nation
+		#gives event about blocky and yf meeting to discuss things, in which blocky pgives several propositions
 		completion_reward = {
 			country_event = {
 				id = YFC_event.19
@@ -893,54 +905,9 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_blockys_offer }
 		prerequisite = { focus = YFC_focus_establish_law_presence }
 		cost = 10
-		#starts countdown timer for 90 days, if you dont get the aformentioned compliance and resistance needed then a bunchivist revolt starts (you can choose to play as the revolt too)
-		#every thirty days, you get the next focus in the branch
-		#gives event on completion that gives whatever effects you feel like giving
-		completion_reward = {
-			
-		}
-	}
-
-	#below foci only unlock and are only visible if resistance and compliance requirements arent met, and the aforementioned timer isnt going off, foci are defined in order of unlock
-	focus = {
-		id = YFC_focus_promise_freedoms
-		relative_position_id = YFC_focus_bunchivist_new_deal
-		x = -2
-		y = 1
-		icon = GFX_focus_generic
-		prerequisite = { focus = YFC_focus_bunchivist_new_deal }
-		cost = 2
-		#gives 5 percent compliance, removes ten percent resistence, lowers pp and stab
-		#gives event as well because atp why not
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = YFC_focus_stricter_law
-		relative_position_id = YFC_focus_bunchivist_new_deal
-		x = 2
-		y = 1
-		icon = GFX_focus_generic
-		prerequisite = { focus = YFC_focus_bunchivist_new_deal }
-		cost = 2
-		#removes 15 resistance, takes 5 compliance, money, and gives a bit of army exp
-		#nother event bc i hate myself
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = YFC_focus_prepare_for_worst
-		relative_position_id = YFC_focus_bunchivist_new_deal
-		x = 0
-		y = 1
-		icon = GFX_focus_generic
-		prerequisite = { focus = YFC_focus_bunchivist_new_deal }
-		cost = 1
-		#autocompleted, gives a small amount of forts near yfc-bunch border
+		#gives event talking about giving former bunchivists free rehabilitation for their radicalist ideals
+		#all they have to do is pay a bit of money (large amount for treasury, takes a large amount of civs/passive income)
+		#this is cumpolsary btw, they have to pay you. lmao. massive loss of stability
 		completion_reward = {
 			
 		}
