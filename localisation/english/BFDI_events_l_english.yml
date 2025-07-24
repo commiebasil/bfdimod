@@ -717,6 +717,30 @@
  YFC_borderwars.16.desc: "Various reports have arrived to us that armed objects entered the station and attacked. Many of the trains have either been stolen or damaged in the fighting. The bandits had left a few hours ago, but the station and nearby rail have been heavily damaged."
  YFC_borderwars.16.a: "We should prevent more raids from happening!"
 
+# YFC_BUN
+
+# imma write these since it will 10000 years before we are done, if these suck ass then go rewrite or something else idk 
+
+ YFC_BUN.1.t: "Picking the Cards"
+ YFC_BUN.1.desc: "It has been a few weeks since the Bunch were defeated and captured. Their camps and buildings have been looted and taken to our capital. For us, the main threat is now gone.\n\nOr so is it...? \n\nShockingly, the small population is not happy with our occupation and maintaining control is hard. Does not help that most of the bandits were unfortunately not captured by our forces. Discussions have been going on in those said weeks over what to do with our occupied lands. Some want it where we annex all of our occupation zone and maybe even the Numismatia zone, while others want to try to make an ally out of an enemy. It became heated when Numismatia sent a telegram with which they requested our outlook for the Bunch. With much 'polite' banter being thrown around, what is our goal?"
+ YFC_BUN.1.a: "The Bunch is not needed."
+ YFC_BUN.1.b: "The Olive Branch could work."
+
+ YFC_BUN.2.t: "Already Broken?"
+ YFC_BUN.2.desc: "Our request on the fate of The Bunch was... not what we were expecting. It seems that Yellow Face wishes to take the route of annexation as they believe that The Bunch are not trustworthy. While the message states nothing about our occupation zone, there is a fair chance that they will take our zone one way or another. \n\nAll of this seems hopeless, though we may have one card remaining to play: The Bunch population. We could support them and try to force a Bunch that is not under Yellow Face influence, but could break what is now an uneasy alliance. After much discussion with a tied vote, Credit Card broke the tie with..."
+ YFC_BUN.2.a: "Giving in."
+ YFC_BUN.2.b: "Game of Deception."
+ YFC_BUN.2.c: "Stand Defiant."
+
+ YFC_BUN.3.t: "Numismatia Submits!"
+ YFC_BUN.3.desc: "Numismatia has agreed to our plans for annexation and we now only have to clear out resistance and The Bunch lands will be ours!"
+ YFC_BUN.3.a: "Onwards!"
+
+ YFC_BUN.4.t: "Numismatia Stands Defiant!"
+ YFC_BUN.4.desc: "Numismatia rejected our plans for annexation and it seems our alliance with them has become more fragile than ever. We could back down, but that would obviously make us seem weak. Press on?"
+ YFC_BUN.4.a: "Onwards!"
+ YFC_BUN.4.b: "Maybe that peaceful option was better..."
+
 # YFC_CRN_SUB
 
  YFC_CRN_Sub.1.t: "An Affirmative Response!"

@@ -112,6 +112,12 @@
  l_YFC_allow_rails: "§YAllows the construction of Railways and Supply Depots.§!"
  l_YFC_repair: "§YIncreases Free Repair by 25%§!"
  l_YFC_pp_gain: "§YIncreases Political Power Gain by 0.5§!"
+ l_YFC_BUN_1: "§RWe will take aggressive actions to clear resistance in our occupied lands. However, this comes with the risk of failure...§!"
+ l_YFC_BUN_2: "§RWe will take actions to rebuild The Bunch and gain influence to get them as a puppet. However, they may not be under our control if done incorrectly...§!"
+ l_YFC_BUN_3: "§RWe will allow Yellow Face to annex their occupation zone and may even take ours with no new Bunch state to be created...§!"
+ l_YFC_BUN_4: "§RWe will lie to Yellow Face that we are supportive, but commit to minor amounts of aid to Bunch resistance...§!"
+ l_YFC_BUN_5: "§RWe will not allow Yellow Face to annex their occupation zone and create a new Bunch state with the risk of breaking the uneasy alliance...§!"
+
  l_YFC_CRN_Start: "§YStarts a chain of events where we will try to subjugate Numismatia!§!"
  l_YFC_CRN_Start2: "§YWill start a series of events where demands will be made and given for future effects and modifiers!§!"
  l_YFC_CRN_UP: "§GIncreases the chance that Numismatia accepts submission.§!"

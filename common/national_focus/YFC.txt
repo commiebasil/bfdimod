@@ -633,15 +633,13 @@ focus_tree = {
 		icon = GFX_focus_YFC_look_inward
 		available = {
 			hidden_trigger = {
-				has_country_flag = Won_War_BUN
+				# has_country_flag = Won_War_BUN
 			}
 		}
 		
-		# allow_branch = { has_country_flag = Won_War_BUN } #Remove if you want to show on start of playing
+		# allow_branch = { has_country_flag = Won_War_BUN }
 		
 		cost = 1
-		#autocompleted a week after the yfc caps the bunch
-		#give event porfa
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
 		}
@@ -673,7 +671,13 @@ focus_tree = {
 		#if eraser wins, the bunch becomes a reformed republic, and is fully independent
 
 		completion_reward = {
-			
+			85 = {add_compliance = 5}
+			212 = {add_compliance = 5}
+			country_event = {
+				id = YFC_BUN.1
+				hour = 1
+				random_hours = 2
+			}
 		}
 	}
 
@@ -783,6 +787,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		icon = GFX_focus_generic
+		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_foster_new_society }
 		cost = 5
@@ -793,11 +798,8 @@ focus_tree = {
 		#at the ending focus of this branch, if you have resistance under 20% and complience over 80%, you get cores on bunch land and lots of benifits
 		#if you dont, the bunchivists will revolt, giving you an event where you can switch countries and play as the bunch revolt!
 		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
 			#I'll just do something simlar to the manchukuo bandit decisions and add the UI later
-			country_event = {
-				id = YFC_event.13
-				hour = 1
-			}
 		}
 	}
 
@@ -807,6 +809,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		icon = GFX_focus_generic
+		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_clamp_down_on_bunchivism }
 		cost = 5
@@ -817,11 +820,7 @@ focus_tree = {
 		#also ai will choose this like 70% of the time
 		#oh it also gvies you an event talkjing about how blocky is the best choice becuase he's soooo cool
 		completion_reward = {
-			#I think I'll make this one cost money/civs/other things 
-			country_event = {
-				id = YFC_event.14
-				hour = 1
-			}
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 
@@ -846,7 +845,7 @@ focus_tree = {
 		#gives lots of stability, adds national idea that gives +0.5 political power
 		completion_reward = {
 			custom_effect_tooltip = l_YFC_pp_gain
-			add_to_variable = { var_idea_YFC_anarchic_lands_PP = 0.5 } #Just gonna throw it into this idea
+			add_to_variable = { var_idea_YFC_anarchic_lands_PP = 0.5 }
 			
 			
 		}

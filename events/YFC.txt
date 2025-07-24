@@ -1,6 +1,7 @@
 add_namespace = YFC_event
 add_namespace = YFC_borderwars
 add_namespace = YFC_CRN_Sub
+add_namespace = YFC_BUN
 
 country_event = {
 	id = YFC_event.1
@@ -111,10 +112,10 @@ country_event = {
 		name = YFC_event.5.a
 		hidden_effect = {
 			set_country_flag = Won_War_BUN
-			85 = {add_compliance = 15}
-			212 = {add_compliance = 15}
-			217 = {add_compliance = 30}
-			218 = {add_compliance = 30}
+			85 = {add_compliance = 5}
+			212 = {add_compliance = 5}
+			217 = {add_compliance = 20}
+			218 = {add_compliance = 20}
 		}
 		delete_unit_template_and_units = {
 			division_template = "Militia"
@@ -331,7 +332,7 @@ country_event = {
 }
 
 country_event = {
-	# YFC_focus_clamp_down_on_bunchivism event
+	# UNUSED RN
 	id = YFC_event.13
 	title = YFC_event.13.t
 	desc = YFC_event.13.desc
@@ -346,7 +347,7 @@ country_event = {
 }
 
 country_event = {
-	# YFC_focus_foster_new_society event
+	# UNUSED RN
 	id = YFC_event.14
 	title = YFC_event.14.t
 	desc = YFC_event.14.desc
@@ -2052,3 +2053,118 @@ country_event = {
 
 #26 Events I want to die
 #In the game!!
+
+country_event = { 
+	id = YFC_BUN.1
+	title = YFC_BUN.1.t
+	desc = YFC_BUN.1.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_BUN.1.a
+		custom_effect_tooltip = l_YFC_BUN_1
+		hidden_effect = {
+			CRN = {
+				country_event = {
+					id = YFC_BUN.2
+					days = 2
+					random_hours = 50
+				}
+			}
+		}	
+	}
+
+	option = { 
+		name = YFC_BUN.1.b
+		custom_effect_tooltip = l_YFC_BUN_2
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.2
+	title = YFC_BUN.2.t
+	desc = YFC_BUN.2.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_BUN.2.a
+		custom_effect_tooltip = l_YFC_BUN_3
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_BUN.3
+					days = 2
+					random_hours = 50
+				}
+			}
+		}	
+	}
+
+	option = { 
+		name = YFC_BUN.2.b
+		custom_effect_tooltip = l_YFC_BUN_4
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_BUN.3
+					days = 2
+					random_hours = 50
+				}
+			}
+		}	
+	}
+
+	option = { 
+		name = YFC_BUN.2.c
+		custom_effect_tooltip = l_YFC_BUN_5
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_BUN.4
+					days = 2
+					random_hours = 50
+				}
+			}
+		}	
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.3
+	title = YFC_BUN.3.t
+	desc = YFC_BUN.3.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_BUN.3.a
+		complete_national_focus = YFC_focus_clamp_down_on_bunchivism
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.4
+	title = YFC_BUN.4.t
+	desc = YFC_BUN.4.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_BUN.4.a
+		complete_national_focus = YFC_focus_clamp_down_on_bunchivism
+	}
+
+	option = { 
+		name = YFC_BUN.4.b
+		complete_national_focus = YFC_focus_foster_new_society
+		add_war_support = -0.05
+		add_stability = -0.1
+		add_political_power = -150
+	}
+}
