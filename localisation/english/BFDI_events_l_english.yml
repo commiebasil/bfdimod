@@ -673,6 +673,12 @@
  YFC_event.11.c: "Taking Half."
  YFC_event.11.d: "Taking Most."
 
+ YFC_event.13.t: "What to do with The Head?"
+ YFC_event.13.desc: "It was a very, very long trial over Eraser's fate. The sectors had heated debates over the pros and cons of any of the options we could do. Honestly the amount of these 'heated' debates have been getting concerning. Anyways, a few hours ago most finally agreed on his fate. This said fate was read out to him in his cell, it said the following... \n\n'Eraser, leader of the defunct anarchist Bunch, you have been given the following sentence for your crimes against the Yellow Face Company and their allies...'"
+ YFC_event.13.a: "Acquitted of all charges and will be able to join The Company!"
+ YFC_event.13.b: "Sentence to 30 years in prison!"
+ YFC_event.13.c: "Executed by firing squad!"
+
  BUN_borderwars.5.t: "Raiders Attacked!"
  BUN_borderwars.5.desc: "When our forces arrived, they found themselves quickly under bandit fire. Despite our best efforts, our forces were overrun and the bandits broke through. This resulted in the nearby towns and villages being set ablaze and much of the equipment was stolen. The bandits have left, but there are still ashes in the air."
  BUN_borderwars.5.a: "We cannot allow more raids to happen!"
@@ -740,6 +746,18 @@
  YFC_BUN.4.desc: "Numismatia rejected our plans for annexation and it seems our alliance with them has become more fragile than ever. We could back down, but that would obviously make us seem weak. Press on?"
  YFC_BUN.4.a: "Onwards!"
  YFC_BUN.4.b: "Maybe that peaceful option was better..."
+
+ YFC_BUN.5.t: "Pen Part #1"
+ YFC_BUN.5.desc: "So YFC says pen is too fucking gay and wishes to kill him or something. No fair and free trial cause L bozo. Anyways they most likely go to his cell to get him and shoot him but..."
+ YFC_BUN.5.a: "He ran away..."
+
+ YFC_BUN.6.t: "Pen Part #2"
+ YFC_BUN.6.desc: "So pen is running... running where? Fuck if I know I just add the code and maybe put my dumbass headcanons into this mess of a map game. Oh wait back on script... yeah idk where he is going."
+ YFC_BUN.6.a: "..."
+
+ YFC_BUN.7.t: "Pen Part #3"
+ YFC_BUN.7.desc: "So I think he dies or something... idk man he just ran into a fucking random wall and died from going to fast. Oh wait! Better! he died of skill issue! yes yes!!!"
+ YFC_BUN.7.a: "...what?"
 
 # YFC_CRN_SUB
 

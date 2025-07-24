@@ -928,11 +928,14 @@ focus_tree = {
 		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
 
 		prerequisite = { focus = YFC_focus_clamp_down_on_bunchivism }
-		cost = 3
+		cost = 6
 		#trial event, like the trials over leafy
 		#three options
 		completion_reward = {
-			
+			country_event = {
+				id = YFC_event.13
+				hour = 1
+			}
 		}
 	}
 
@@ -952,12 +955,15 @@ focus_tree = {
 		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
 
 		prerequisite = { focus = YFC_focus_clamp_down_on_bunchivism }
-		cost = 3
+		cost = 6
 		#starts three event long event chain about pens story, attempting to evade his execution
 		#no options bc i dont feel like it
 		#also gives political power because atp why not
 		completion_reward = {
-			
+			country_event = {
+				id = YFC_BUN.5
+				hour = 1
+			}
 		}
 	}
 }

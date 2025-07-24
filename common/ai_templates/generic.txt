@@ -749,7 +749,7 @@ infantry_generic = {
 			}
 		}
 		
-		target_width = 20.0
+		target_width = 10.0 #Trying to make AI less dumb 
 		width_weight = 1.0
 		column_swap_factor = 0.5
 		
@@ -883,7 +883,7 @@ infantry_big_generic = {
 			}
 		}
 		
-		target_width = 40.0
+		target_width = 20.0 #Same thing as above
 		width_weight = 1.5
 		column_swap_factor = 0.5
 		
@@ -996,7 +996,7 @@ mountaineers_generic = {
 			}
 		}
 	
-		target_width = 20.0
+		target_width = 10.0
 		width_weight = 2.0
 		column_swap_factor = 0.2
 		
@@ -1105,7 +1105,7 @@ marines_generic = {
 			}
 		}
 	
-		target_width = 18.0
+		target_width = 12.0
 		width_weight = 1.0
 		column_swap_factor = 0.1
 		
@@ -1189,7 +1189,7 @@ marines_generic = {
 			}
 		}
 	
-		target_width = 20.0
+		target_width = 12.0
 		width_weight = 1.0
 		column_swap_factor = 0.1
 		
@@ -1298,7 +1298,7 @@ paratrooper_generic = {
 			}
 		}
 		
-		target_width = 18.0
+		target_width = 12.0
 		width_weight = 3.0
 		column_swap_factor = 0.1
 		

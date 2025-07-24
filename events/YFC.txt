@@ -332,7 +332,7 @@ country_event = {
 }
 
 country_event = {
-	# UNUSED RN
+	#YFC_focus_trial_over_eraser
 	id = YFC_event.13
 	title = YFC_event.13.t
 	desc = YFC_event.13.desc
@@ -340,9 +340,23 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { 
+	option = { #Eraser is hired into YFC BUT could be used by CRN if they are going against YFC
+		#For what he is hired into idk
 		name = YFC_event.13.a
+		add_political_power = -50
+		85 = {add_compliance = 5}
+		212 = {add_compliance = 5}
+	}
+	option = { #Eraser is jailed
+		name = YFC_event.13.b
 		add_political_power = 25
+	}
+	option = { #Eraser is killed 
+		name = YFC_event.13.c
+		add_political_power = 75
+		add_war_support = 0.02
+		85 = {add_resistance_target = 5}
+		212 = {add_resistance_target = 5}
 	}
 }
 
@@ -2073,6 +2087,8 @@ country_event = {
 					random_hours = 50
 				}
 			}
+			85 = {add_resistance_target = 5}
+			212 = {add_resistance_target = 5}
 		}	
 	}
 
@@ -2115,7 +2131,9 @@ country_event = {
 					random_hours = 50
 				}
 			}
-		}	
+		}
+		217 = {add_compliance = 10}
+		218 = {add_compliance = 10}	
 	}
 
 	option = { 
@@ -2129,7 +2147,9 @@ country_event = {
 					random_hours = 50
 				}
 			}
-		}	
+		}
+		217 = {add_compliance = 20}
+		218 = {add_compliance = 20}		
 	}
 }
 
@@ -2166,5 +2186,62 @@ country_event = {
 		add_war_support = -0.05
 		add_stability = -0.1
 		add_political_power = -150
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.5 #Pen Part 1
+	title = YFC_BUN.5.t
+	desc = YFC_BUN.5.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_BUN.5.a
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.6
+				days = 5
+				random_days = 10
+				random_hours = 50
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.6 #Pen Part 2
+	title = YFC_BUN.6.t
+	desc = YFC_BUN.6.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_BUN.6.a
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.7
+				days = 5
+				random_days = 10
+				random_hours = 50
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.7 #Pen Part 3
+	title = YFC_BUN.7.t
+	desc = YFC_BUN.7.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_BUN.7.a
+		add_political_power = 50
+		85 = {add_resistance_target = 1}
 	}
 }
