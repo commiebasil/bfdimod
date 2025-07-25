@@ -784,7 +784,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_clamp_down_on_bunchivism
 		relative_position_id = YFC_focus_the_bunchivist_problem
-		x = 1
+		x = 0
 		y = 1
 		icon = GFX_focus_generic
 		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
@@ -806,7 +806,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_foster_new_society
 		relative_position_id = YFC_focus_the_bunchivist_problem
-		x = -1
+		x = 0
 		y = 1
 		icon = GFX_focus_generic
 		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
@@ -827,7 +827,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_establish_law_presence
 		relative_position_id = YFC_focus_foster_new_society
-		x = 2
+		x = 1
 		y = 1
 		icon = GFX_focus_generic
 
@@ -854,7 +854,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_stimulate_bunch_business
 		relative_position_id = YFC_focus_foster_new_society
-		x = -1
+		x = -2
 		y = 1
 		icon = GFX_focus_generic
 
@@ -880,7 +880,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_blockys_offer
 		relative_position_id = YFC_focus_foster_new_society
-		x = 0
+		x = -1
 		y = 2
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_foster_new_society }
@@ -915,7 +915,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_trial_over_eraser
 		relative_position_id = YFC_focus_clamp_down_on_bunchivism
-		x = 0
+		x = 1
 		y = 1
 		icon = GFX_focus_generic
 
@@ -942,7 +942,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_execute_pen
 		relative_position_id = YFC_focus_clamp_down_on_bunchivism
-		x = -2
+		x = -1
 		y = 1
 		icon = GFX_focus_generic
 

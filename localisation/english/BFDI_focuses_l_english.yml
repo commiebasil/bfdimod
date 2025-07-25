@@ -999,7 +999,7 @@
  YFC_focus_promote_blocky_desc: "Blocky, despite his short run in BFDI, has proved himself through his feats in The Bunch. He lead many raids, all of which were quick, coordinated, and lead to many decisive victories, where cities burned and profit was plentiful. Eraser may not be happy with us stealing Blocky, but who cares about him am I right?"
 
  YFC_focus_the_pen_problem: "The Pen Problem"
- YFC_focus_the_pen_problem_desc: "Pen promised to pay some 500,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000 dollars (that's '$500 Vigintillion' for all you uneducated folks) to some of the people who voted him back in the game back when BFDI was still ongoing. Somehow, some way that money became owed to us, and now he's essentially indebted to us forever. He claims that he'll do 'anything' to get his debt to go away, but instead of offering to give us money or do labor he... gets on his knees? Regardless, we'll need to begin working on a compromise if we ever want to get anything back."
+ YFC_focus_the_pen_problem_desc: "Pen promised to pay some 500,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000 dollars (that's '$500 Million Vigintillion' for all you uneducated folks) to some of the people who voted him back in the game back when BFDI was still ongoing. Somehow, some way that money became owed to us, and now he's essentially indebted to us forever. The other day, he claimed that he'd do 'anything' to get his debt to go away, but instead of offering to give us money or do labor he... got on his knees? Regardless, we'll need to begin working on a compromise if we ever want to get anything back."
 
  YFC_focus_erasers_training: "Eraser's Training"
  YFC_focus_erasers_training_desc: "Eraser has told us in the past that our units are likely unprepared for what it takes to raid a settlement. Far too organized he says, and too rigid, too afraid, too used to walking in straight lines, shooting when told to shoot, retreating when told to retreat. Training our units with him could definitely give us an edge up against our victims."
@@ -1036,6 +1036,30 @@
 
  YFC_focus_develop_yoyleton: "Develop Yoyleton"
  YFC_focus_develop_yoyleton_desc: "Yoyleton is the most remote place in South Goiky, as of current. Having a small population, with lots of hard workers, that hick town has great potential. Strangely enough, it seems like some teardroppers live there as well. With the town being so far from the sea, it's a bit strange to see them, however, they mind their business, same as everyone else. Perhaps some water features should be in the works."
+
+ YFC_focus_clamp_down_on_bunchivism: "Clamp Down on Bunchivism"
+ YFC_focus_clamp_down_on_bunchivism_desc: "The obvious choice. Bunchivism has been a plague to our trading partners since the dawn of Goikean nation states, no longer shall a raider be able to steal our profits and plunder our bretheren in capital. We shall never, under any circumstance, allow a free Bunch to persist, and anyone who believes otherwise is a traitor to the free market. Let Podgornyv's rioters burn with the power of our might!"
+
+ YFC_focus_trial_over_eraser: "Trial Over Eraser"
+ YFC_focus_trial_over_eraser_desc: "Eraser was found on the frontlines, defending Northern Podgornyv when the war was still ongoing. We made quick work of his army, taking him prisoner shortly after. We intended to leave him there to rot, but apparently, someone managed to get into his cell, or at least close enough to be able to spread his messages to the remaining Bunchivist holdouts. Even now, there are rumors of instructions coming directly from Eraser, informing raider partizans on what to do. Clearly, we need to do something more extreme with him, however, his knowledge on our country, if these rumors are true, is quite... useful. Having someone like him in the cabinet, of course with some corrective punishment, may do us good. Whatever we do, it's important that he stays far away from any resistance efforts."
+
+ YFC_focus_execute_pen: "Pen."
+ YFC_focus_execute_pen_desc: "500 Million Vigintillion. A number so impossibly high, has somehow become owed to us. While the competition was still ongoing, Pen had promised to give his supporters a large sum of money. That amount, became debt, which he tried to pay off using a paper slip. Paper slips, made in the YFC of course, are not a 'real' currency, so the amount owed managed to transfer from his supporters, to us. We have no real interest in forcing him to pay that amount, but we do have an interest in making examples out of debt holders. He's a Bunchivist, was very close, too close, to Eraser, while vocally supporting efforts resisting our reign. The perfect example."
+
+ YFC_focus_foster_new_society: "Foster a New Society"
+ YFC_focus_foster_new_society_desc: "Bunchivists are still people. And with people, there is profit. Obviously, we've lost quite a bit of money from having to deal with the raiders, but if we have their entire population under our thumb, we could make it back in no time! Facilitating a new, reformed Bunch should be easy, and well worth the cost. Oh, the civillians should be allowed to live free and stuff too. That's totally important to us."
+
+ YFC_focus_stimulate_bunch_business: "Stimulate Bunch Businesses"
+ YFC_focus_stimulate_bunch_business_desc: "Podgornyv is currently quite barren. It seems to have at least been lived in when we got there, but there aren't many businesses. In all honesty, that should be expected. The (hopefully former) raider society would pillage anything they came accross. Those savages ruined any chance of Bunchivist business! In other words, we could certainly breathe life into this dying city. Maybe, tax breaks for business owners?"
+
+ YFC_focus_establish_law_presence: "Establish Law Inforcement"
+ YFC_focus_establish_law_presence_desc: "Listen, it's not really the police if they're privately owned. Besides, the former-Bunchivist territories definitely need someone there to establish order. We'll obviously be footing the police's salaries, but we'll probably make it back once they're unneeded. Right?"
+
+ YFC_focus_blockys_offer: "Blocky's offer"
+ YFC_focus_blockys_offer_desc: "Blocky is asking us if he can meet with Yellow Face to discuss his campaign. Or at least, we think? He wasn't the clearest in what he was asking for, besides a meeting to discuss things. Anyways, we can get it scheduled pretty soon."
+
+ YFC_focus_bunchivist_new_deal: "The Bunchivist New Deal"
+ YFC_focus_bunchivist_new_deal_desc: "Admittedly, attempting to convert the Bunchivist society into a less.. stupid one is quite challenging. We're a company, not a government. Well, I guess we are a government. Shit. Anyways, we've just started and already spent more money on this project than anticipated. We need to find a better way to generate money from the population, fast!"
 
  #generic
  generic_focus_industry: "Industry expansion"

@@ -728,22 +728,22 @@
 # imma write these since it will 10000 years before we are done, if these suck ass then go rewrite or something else idk 
 
  YFC_BUN.1.t: "Picking the Cards"
- YFC_BUN.1.desc: "It has been a few weeks since the Bunch were defeated and captured. Their camps and buildings have been looted and taken to our capital. For us, the main threat is now gone.\n\nOr so is it...? \n\nShockingly, the small population is not happy with our occupation and maintaining control is hard. Does not help that most of the bandits were unfortunately not captured by our forces. Discussions have been going on in those said weeks over what to do with our occupied lands. Some want it where we annex all of our occupation zone and maybe even the Numismatia zone, while others want to try to make an ally out of an enemy. It became heated when Numismatia sent a telegram with which they requested our outlook for the Bunch. With much 'polite' banter being thrown around, what is our goal?"
- YFC_BUN.1.a: "The Bunch is not needed."
- YFC_BUN.1.b: "The Olive Branch could work."
+ YFC_BUN.1.desc: "It has been a few weeks since Eraser and his gang of bandits were defeated and captured. Most capital stored in camps and buildings have been looted and taken to our capital. For us, the main threat is now gone.\n\nOr is it...? \n\nShockingly, the small population is not happy with our occupation and maintaining control is hard. Some in Yoyleton say that the company 'isn't cut out for this government stuff'. It does not help that the majority of the bandits were unfortunately not captured by our forces. Discussions have been going on in those said weeks over what to do with our occupied lands. Some say that we rightfully earned the former-Bunchivist land, and should take it for ourselves, while others want to try to make an ally out of the enemy. However, debates quickly became heated when Numismatia sent us telegram, with which they requested our outlook on what should be done with the former Bunch lands. With much 'polite' banter being thrown around at sectorial discussion tables and the like, it is now clear what we shall do."
+ YFC_BUN.1.a: "Every thief shall perish."
+ YFC_BUN.1.b: "Reap the profits from a free, exploitable Bunch!"
 
  YFC_BUN.2.t: "Already Broken?"
- YFC_BUN.2.desc: "Our request on the fate of The Bunch was... not what we were expecting. It seems that Yellow Face wishes to take the route of annexation as they believe that The Bunch are not trustworthy. While the message states nothing about our occupation zone, there is a fair chance that they will take our zone one way or another. \n\nAll of this seems hopeless, though we may have one card remaining to play: The Bunch population. We could support them and try to force a Bunch that is not under Yellow Face influence, but could break what is now an uneasy alliance. After much discussion with a tied vote, Credit Card broke the tie with..."
+ YFC_BUN.2.desc: "Yellow Face's response to our questions on the Bunch's future were... not what we were expecting. It seems that Yellow Face wishes to take the route of annexation, as they believe that former Bunchivists are not trustworthy. While the message states nothing about our occupation zone, there is a fair chance that they will take our piece of the proverbial pie one way or another. \n\nThis seems to be quite bad, not only potentially losing our occupation, but for the regular every day people who lived in the Bunch, or for the former raiders who wished for reform. However, we do have one trick up our sleeves, one way to get things to pan out properly. Neo-Bunchivist revolts. We could support them and forcefully create a new, free state in former Bunch territory, but it could break what is now an uneasy alliance. After much discussion with a tied vote, Credit Card broke the tie with..."
  YFC_BUN.2.a: "Giving in."
  YFC_BUN.2.b: "Game of Deception."
  YFC_BUN.2.c: "Stand Defiant."
 
  YFC_BUN.3.t: "Numismatia Submits!"
- YFC_BUN.3.desc: "Numismatia has agreed to our plans for annexation and we now only have to clear out resistance and The Bunch lands will be ours!"
+ YFC_BUN.3.desc: "In only a few short days, Credit Card and his cabinet gave in to our requests, the former Bunchivist land is ours, fully ours! They've stated that, when we're ready, they'll relinquish control of their occupation zone, giving it to us, of course, and hold no ill will towards us for this decision!"
  YFC_BUN.3.a: "Onwards!"
 
  YFC_BUN.4.t: "Numismatia Stands Defiant!"
- YFC_BUN.4.desc: "Numismatia rejected our plans for annexation and it seems our alliance with them has become more fragile than ever. We could back down, but that would obviously make us seem weak. Press on?"
+ YFC_BUN.4.desc: "Numismatia has rejected our plans for annexation and it seems our alliance with them has become more fragile than ever. We could back down, but that would obviously make us seem weak. Shall we press on?"
  YFC_BUN.4.a: "Onwards!"
  YFC_BUN.4.b: "Maybe that peaceful option was better..."
 
