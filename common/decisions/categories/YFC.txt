@@ -9,7 +9,7 @@ decision_YFC_trade_category = {
 	scripted_gui = bfdi_corp_trade_scriptedgui
 }
 
-ecision_YFC_sector_category = { #Pun will either make this in the next days or will have to buy a new keyboard take your pick!!!!!
+ecision_YFC_sector_category = { 
 	allowed = { tag = YFC }
 	visible = { 
 		always = yes
@@ -31,4 +31,20 @@ decision_YFC_raids_category = {
 	priority = 10
 	icon = decision_category_operation_coinflip
 	visible_when_empty = no
+}
+
+decision_YFC_BUN_category = {
+	#Here is basic idea: Resistance traget is added over time which can never be lowered. If resistance gets over like 80% then YFC has 60-120 days to fix or revolt
+	#Resistance traget stops increasing when compliance is over 60
+	#Crn will also get decisions to increase resistance if they support BUN
+	allowed = { tag = YFC }	
+	visible = { 
+		YFC = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+		}
+	}
+	priority = 10
+	picture = GFX_decision_cat_GFG_reconstruction #Change later plz
+	icon = GFX_decision_category_spr_the_seeds_of_revolution
+	visible_when_empty = yes
 }

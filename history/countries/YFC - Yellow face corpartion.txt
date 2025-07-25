@@ -58,6 +58,8 @@ set_popularities = {
  set_variable = { var_idea_YFC_integration_YFC_war_support_factor = 0 } 
  set_variable = { var_idea_YFC_integration_YFC_political_power_factor = 0 }  
 
+ set_variable = {var = var_YFC_BUN_Anger value = 1 }
+
 recruit_character = YFC_yellow_face
 recruit_character = YFC_lewis
 recruit_character = YFC_david

@@ -1,0 +1,155 @@
+decision_YFC_BUN_category = {
+	YFC_BUN_85_Growing = {
+		activation = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 85
+			85 = {
+				compliance < 60
+			}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			85 = {
+				compliance > 60
+			}
+		}
+		icon = GFX_decision_revolt  
+		is_good = no
+		days_mission_timeout = 45
+		timeout_effect = {
+			85 = {
+				add_resistance_target = {
+					id = var:var_YFC_BUN_Anger
+					amount = 10 
+					tooltip = l_YFC_BUN
+				}
+				add_compliance = -1
+			}
+			hidden_effect = {
+				add_to_variable = { var_YFC_BUN_Anger = 0.5 }
+			}
+		}
+	}
+
+	YFC_BUN_212_Growing = {
+		activation = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 212
+			212 = {
+				compliance < 60
+			}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			212 = {
+				compliance > 60
+			}
+		}
+		icon = GFX_decision_revolt  
+		is_good = no
+		days_mission_timeout = 45
+		timeout_effect = {
+			212 = {
+				add_resistance_target = {
+					id = var:var_YFC_BUN_Anger
+					amount = 10
+					tooltip = l_YFC_BUN
+				}
+				add_compliance = -1
+			}
+			hidden_effect = {
+				add_to_variable = { var_YFC_BUN_Anger = 0.5 }
+			}
+		}
+	}
+
+
+	YFC_BUN_85_Counter = {
+		icon = GFX_decision_generic_prepare_civil_war
+		state_target = yes
+        targets = { state = 85 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 85
+			85 = {
+				compliance < 80
+			}
+		}
+		available = {
+			IF = {
+				limit = {
+					is_ai = no
+				}
+				divisions_in_state = {
+					size > 2
+					state = 85
+				}
+			}
+        }
+		fire_only_once = no
+		cost = 75
+		days_remove = 20
+		days_re_enable = 30
+
+		remove_effect = {
+			85 = {add_resistance = -2.5}
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_political_power > 75
+			}
+		}
+	}
+
+	YFC_BUN_212_Counter = {
+		icon = GFX_decision_generic_prepare_civil_war
+		state_target = yes
+        targets = { state = 212 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 212
+			212 = {
+				compliance < 80
+			}
+		}
+		available = {
+			IF = {
+				limit = {
+					is_ai = no
+				}
+				divisions_in_state = {
+					size > 2
+					state = 212
+				}
+			}
+        }
+		
+		fire_only_once = no
+		cost = 75
+		days_remove = 20
+		days_re_enable = 30
+
+		remove_effect = {
+			212 = {add_resistance = -2.5}
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_political_power > 75
+			}
+		}
+	}
+}

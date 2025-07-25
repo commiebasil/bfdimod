@@ -349,11 +349,11 @@ country_event = {
 	}
 	option = { #Eraser is jailed
 		name = YFC_event.13.b
-		add_political_power = 25
+		add_political_power = 50
 	}
 	option = { #Eraser is killed 
 		name = YFC_event.13.c
-		add_political_power = 75
+		add_political_power = 120
 		add_war_support = 0.02
 		85 = {add_resistance_target = 5}
 		212 = {add_resistance_target = 5}
@@ -2202,9 +2202,9 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = YFC_BUN.6
-				days = 5
-				random_days = 10
-				random_hours = 50
+				days = 7
+				random_days = 15
+				random_hours = 100
 			}
 		}
 	}
@@ -2223,9 +2223,9 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = YFC_BUN.7
-				days = 5
-				random_days = 10
-				random_hours = 50
+				days = 7
+				random_days = 15
+				random_hours = 100
 			}
 		}
 	}

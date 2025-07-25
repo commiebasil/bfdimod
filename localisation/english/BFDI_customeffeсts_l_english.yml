@@ -109,10 +109,11 @@
  l_YFC_raid_run: "§YEnds the raid as a failed raid.§!"
  l_YFC_border_raiders_open: "§YPrevents raids from Bunch!§!"
  l_YFC_border_defence: "§YRaids are less effective against us!§!"
- l_YFC_allow_rails: "§YAllows the construction of Railways and Supply Depots.§!"
- l_YFC_repair: "§YIncreases Free Repair by 25%§!"
- l_YFC_pp_gain: "§YIncreases Political Power Gain by 0.5§!"
- l_YFC_BUN_1: "§RWe will take aggressive actions to clear resistance in our occupied lands. However, this comes with the risk of failure...§!"
+ l_YFC_allow_rails: "Improves §YAnarchic Lands§! National Spirit by:\n- §YRailway construction speed§! §G+500%§!\n- §YSupply Hub construction speed§! §G+500%§!"
+ l_YFC_repair: "Improves §YAnarchic Lands§! National Spirit by:\n- §YFree Repair§! §G+25%§!"
+ l_YFC_pp_gain: "Improves §YAnarchic Lands§! National Spirit by:\n- §YPolitical Power Gain§! §G+0.5§!"
+ l_YFC_BUN: "§RGaining Strength§!"
+ l_YFC_BUN_1: "§RWe will take aggressive actions to clear resistance in our occupied lands. However, this comes with risks if we take too long...§!"
  l_YFC_BUN_2: "§RWe will take actions to rebuild The Bunch and gain influence to get them as a puppet. However, they may not be under our control if done incorrectly...§!"
  l_YFC_BUN_3: "§RWe will allow Yellow Face to annex their occupation zone and may even take ours with no new Bunch state to be created...§!"
  l_YFC_BUN_4: "§RWe will lie to Yellow Face that we are supportive, but commit to minor amounts of aid to Bunch resistance...§!"
@@ -134,5 +135,3 @@
  l_YFC_13_CRN: "Adds the following into the deal we get:\n§Y+5 Army XP§!\n§Y-5% Communist Support§!\n§Y+10% Stability§!"
  l_YFC_14_YFC: "Adds the following into the deal we get if they agree:\n§Y+50 Political Power§!\n§YPolitical Power Gain: 10%§!"
  l_YFC_14_CRN: "Adds the following into the deal we get:\n§Y-10% Communist Support§!\n§Y-0.01 Daily Communist Support§!\n§Y-10% Stability§!\n§YPolitical Power Gain: -10%§!"
-
-

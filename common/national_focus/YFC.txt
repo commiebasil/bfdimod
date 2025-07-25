@@ -639,7 +639,7 @@ focus_tree = {
 		
 		# allow_branch = { has_country_flag = Won_War_BUN }
 		
-		cost = 1
+		cost = 2
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
 		}
