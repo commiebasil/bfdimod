@@ -118,6 +118,7 @@
  l_YFC_BUN_3: "§RWe will allow Yellow Face to annex their occupation zone and may even take ours with no new Bunch state to be created...§!"
  l_YFC_BUN_4: "§RWe will lie to Yellow Face that we are supportive, but commit to minor amounts of aid to Bunch resistance...§!"
  l_YFC_BUN_5: "§RWe will not allow Yellow Face to annex their occupation zone and create a new Bunch state with the risk of breaking the uneasy alliance...§!"
+ l_YFC_BUN_8: "Bunch Supporters will revolt against our rule.\n\n§RIf they capture all of their old victory points they will get their independence!§!\n\n§GHowever, they have limited strength, so if we are able to hold off their attacks they will be weakened to a point of no return!§!\n"
 
  l_YFC_CRN_Start: "§YStarts a chain of events where we will try to subjugate Numismatia!§!"
  l_YFC_CRN_Start2: "§YWill start a series of events where demands will be made and given for future effects and modifiers!§!"
@@ -135,3 +136,5 @@
  l_YFC_13_CRN: "Adds the following into the deal we get:\n§Y+5 Army XP§!\n§Y-5% Communist Support§!\n§Y+10% Stability§!"
  l_YFC_14_YFC: "Adds the following into the deal we get if they agree:\n§Y+50 Political Power§!\n§YPolitical Power Gain: 10%§!"
  l_YFC_14_CRN: "Adds the following into the deal we get:\n§Y-10% Communist Support§!\n§Y-0.01 Daily Communist Support§!\n§Y-10% Stability§!\n§YPolitical Power Gain: -10%§!"
+
+ l_BUN_YFC_1: "Modifies §YOn a Ticking Timed Bomb§! National Spirit by:\n- §YAll Modifiers§! §R-25%§!"

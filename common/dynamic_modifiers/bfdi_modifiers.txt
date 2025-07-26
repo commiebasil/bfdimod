@@ -185,3 +185,14 @@ idea_CRN_integration_CRN = { #CRN Buffs
 	political_power_factor = var_idea_YFC_integration_CRN_political_power_factor
 	communism_drift = var_idea_YFC_integration_CRN_communism_drift
 }
+
+idea_BUN_Ticking_Bomb = { #Bunch Revolt Idea
+	icon = GFX_idea_RAJ_debt_relief
+	
+	stability_factor = var_idea_BUN_Ticking_Bomb_stability_factor
+	war_support_factor = var_idea_BUN_Ticking_Bomb_war_support_factor
+	army_core_attack_factor = var_idea_BUN_Ticking_Bomb_army_core_attack_factor
+	army_core_defence_factor = var_idea_BUN_Ticking_Bomb_army_core_defence_factor
+	surrender_limit = var_idea_BUN_Ticking_Bomb_surrender_limit 
+	ai_focus_aggressive_factor = var_idea_BUN_Ticking_Bomb_ai_focus_aggressive_factor
+}

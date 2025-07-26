@@ -1,4 +1,44 @@
 decision_YFC_BUN_category = {
+	YFC_BUN_Countdown = {
+		activation = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			OR = {
+				AND = {
+					controls_state = 85
+					85 = {
+						resistance > 80
+					}
+				}
+				AND = {
+					controls_state = 212
+					212 = {
+						resistance > 80
+					}
+				}
+			}
+			NOT = {country_exists = BUN}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			85 = {
+				resistance < 70
+			}
+			212 = {
+				resistance < 70
+			}
+		}
+		icon = GFX_decision_revolt  
+		is_good = no
+		days_mission_timeout = 120
+		timeout_effect = {
+			country_event = {
+				id = YFC_BUN.8
+			}
+		}
+	}
+
 	YFC_BUN_85_Growing = {
 		activation = {
 			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
@@ -6,6 +46,7 @@ decision_YFC_BUN_category = {
 			85 = {
 				compliance < 60
 			}
+			NOT = {country_exists = BUN}
 		}
 		available = {
 			always = no
@@ -15,14 +56,15 @@ decision_YFC_BUN_category = {
 				compliance > 60
 			}
 		}
-		icon = GFX_decision_revolt  
+		icon = GFX_decision_generic_civil_support  
 		is_good = no
 		days_mission_timeout = 45
 		timeout_effect = {
 			85 = {
 				add_resistance_target = {
 					id = var:var_YFC_BUN_Anger
-					amount = 10 
+					amount = 15 
+					days = 365
 					tooltip = l_YFC_BUN
 				}
 				add_compliance = -1
@@ -40,6 +82,7 @@ decision_YFC_BUN_category = {
 			212 = {
 				compliance < 60
 			}
+			NOT = {country_exists = BUN}
 		}
 		available = {
 			always = no
@@ -49,14 +92,15 @@ decision_YFC_BUN_category = {
 				compliance > 60
 			}
 		}
-		icon = GFX_decision_revolt  
+		icon = GFX_decision_generic_civil_support  
 		is_good = no
 		days_mission_timeout = 45
 		timeout_effect = {
 			212 = {
 				add_resistance_target = {
 					id = var:var_YFC_BUN_Anger
-					amount = 10
+					amount = 15
+					days = 365
 					tooltip = l_YFC_BUN
 				}
 				add_compliance = -1
@@ -98,7 +142,7 @@ decision_YFC_BUN_category = {
 		days_re_enable = 30
 
 		remove_effect = {
-			85 = {add_resistance = -2.5}
+			85 = {add_resistance = -5}
         }
 
 		ai_will_do = {
@@ -141,7 +185,7 @@ decision_YFC_BUN_category = {
 		days_re_enable = 30
 
 		remove_effect = {
-			212 = {add_resistance = -2.5}
+			212 = {add_resistance = -5}
         }
 
 		ai_will_do = {

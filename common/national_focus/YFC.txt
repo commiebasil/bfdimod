@@ -671,8 +671,9 @@ focus_tree = {
 		#if eraser wins, the bunch becomes a reformed republic, and is fully independent
 
 		completion_reward = {
-			85 = {add_compliance = 5}
-			212 = {add_compliance = 5}
+			#set_compliance as it prevents smartasses from holding focus and getting high compliance before events
+			85 = {set_compliance = 15} 
+			212 = {set_compliance = 15}
 			country_event = {
 				id = YFC_BUN.1
 				hour = 1
@@ -799,7 +800,6 @@ focus_tree = {
 		#if you dont, the bunchivists will revolt, giving you an event where you can switch countries and play as the bunch revolt!
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
-			#I'll just do something simlar to the manchukuo bandit decisions and add the UI later
 		}
 	}
 

@@ -112,8 +112,6 @@ country_event = {
 		name = YFC_event.5.a
 		hidden_effect = {
 			set_country_flag = Won_War_BUN
-			85 = {add_compliance = 5}
-			212 = {add_compliance = 5}
 			217 = {add_compliance = 20}
 			218 = {add_compliance = 20}
 		}
@@ -355,8 +353,8 @@ country_event = {
 		name = YFC_event.13.c
 		add_political_power = 120
 		add_war_support = 0.02
-		85 = {add_resistance_target = 5}
-		212 = {add_resistance_target = 5}
+		85 = {add_compliance = -5}
+		212 = {add_compliance = -5}
 	}
 }
 
@@ -2242,6 +2240,126 @@ country_event = {
 	option = { 
 		name = YFC_BUN.7.a
 		add_political_power = 50
-		85 = {add_resistance_target = 1}
+	}
+}
+
+country_event = { #Round Two For Bunch!
+	#Bunch gets good buffs to attack but will lose momentum every month, meaning YFC just has to hold out till BUN can't keep on running...
+	#If Bunch captures all cores they white peace and keep all cores
+	#I will add being able to play as BUN later when it is all working
+	id = YFC_BUN.8
+	title = YFC_BUN.8.t
+	desc = YFC_BUN.8.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { 
+		name = YFC_BUN.8.a
+		custom_effect_tooltip = l_YFC_BUN_8
+		add_war_support = -0.05
+		add_political_power = -100
+		hidden_effect = {
+			BUN = {
+				add_manpower = 10000
+				add_dynamic_modifier = { modifier = idea_BUN_Ticking_Bomb }
+				remove_ideas = idea_BUN_criminal_state
+				retire_country_leader = yes
+				transfer_state = 85
+				declare_war_on = {
+					target = YFC
+					type = independence_wargoal
+				}
+				division_template = {
+					name = "Armed Insurgents"
+					is_locked = yes
+					division_cap = 10 
+					force_allow_recruiting = yes
+					priority = 0
+					regiments = {
+						irregular_infantry = { x = 0 y = 0 }
+						irregular_infantry = { x = 0 y = 1 }
+						irregular_infantry = { x = 0 y = 2 }
+					}
+				}
+			}	
+			85 = {
+				create_unit = {
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.6 start_experience_factor = 0.05"
+					owner = BUN
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 5360
+					id = 1111111
+				}
+				create_unit = {
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.6 start_experience_factor = 0.05"
+					owner = BUN
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 11196
+					id = 77777
+				}
+				create_unit = {
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.6 start_experience_factor = 0.05"
+					owner = BUN
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 4872
+					id = 44444
+				}
+				create_unit = {
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.6 start_experience_factor = 0.05"
+					owner = BUN
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3944
+					id = 55555
+				}
+				create_unit = {
+					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.85 start_experience_factor = 0.1"
+					owner = BUN
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 5679
+					id = 666666
+				}
+				create_unit = {
+					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+					owner = YFC
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 5679
+					id = 333333
+				}
+			}
+			212 = {
+				add_resistance = -75
+				create_unit = {
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.6 start_experience_factor = 0.05"
+					owner = BUN
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 2838
+					id = 22222
+				}
+				create_unit = {
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.6 start_experience_factor = 0.05"
+					owner = BUN
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 3594
+					id = 333333
+				}
+				create_unit = {
+					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+					owner = YFC
+					count = 1
+					allow_spawning_on_enemy_provs = yes
+					prioritize_location = 4249
+					id = 333333
+				}
+			}
+		}
 	}
 }

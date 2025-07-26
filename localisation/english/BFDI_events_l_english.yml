@@ -759,6 +759,10 @@
  YFC_BUN.7.desc: "So I think he dies or something... idk man he just ran into a fucking random wall and died from going to fast. Oh wait! Better! he died of skill issue! yes yes!!!"
  YFC_BUN.7.a: "...what?"
 
+ YFC_BUN.8.t: "A Rematch!"
+ YFC_BUN.8.desc: "What was already rioting and protesting, became fighting between our forces and anarchist insurgents. The chaos had forced much of our forces to retreat and now all of Podgornyv is under anarchist control. So, it seems now we are fighting against the Bunch again without the Bunch."
+ YFC_BUN.8.a: "Let Them Try!"
+
 # YFC_CRN_SUB
 
  YFC_CRN_Sub.1.t: "An Affirmative Response!"
@@ -827,6 +831,17 @@
  YFC_CRN_Sub.12.b: "Fuck your freedom, ban communism!"
  #a: crn gains stability, and army exp, yfc loses lots of political power
  #b: yfc gains a lot of stability and war support, crn loses a small amount of stability
+
+#BUN
+
+ #Might write later I'm just very sleeply :/
+ BUN_YFC.1.t: "It's over Yellow bros!"
+ BUN_YFC.1.desc: "gg no re capitalist fucks"
+ BUN_YFC.1.a: "Back to the lobby!"
+
+ BUN_YFC.2.t: "We fucking lost"
+ BUN_YFC.2.desc: "Rigged."
+ BUN_YFC.2.a: "fr fr"
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
