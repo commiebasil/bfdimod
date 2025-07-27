@@ -102,6 +102,12 @@ defined_text = {
         }
         localization_key = SOS
     }
+	text = {
+        trigger = {
+            check_variable = { country_select_var = 18 }
+        }
+        localization_key = CRN
+    }
 }
 defined_text = {
 	name = SW_COUNTRYDESC

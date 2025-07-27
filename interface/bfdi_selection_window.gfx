@@ -13,107 +13,131 @@ spriteTypes = {
 		name = "GFX_button_wgrf"
 		texturefile = "gfx/interface/button_wgrf.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_gcmd"
 		texturefile = "gfx/interface/button_gcmd.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_tbt"
 		texturefile = "gfx/interface/button_tbt.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_dipz"
 		texturefile = "gfx/interface/button_dipz.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_ggrr_n"
 		texturefile = "gfx/interface/button_ggrr_n.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_cult"
 		texturefile = "gfx/interface/button_cult.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_gpr"
 		texturefile = "gfx/interface/button_gpr.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_gpg"
 		texturefile = "gfx/interface/button_gpg.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_ggrr_s"
 		texturefile = "gfx/interface/button_ggrr_s.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_ebunch"
 		texturefile = "gfx/interface/button_ebunch.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_ggr"
 		texturefile = "gfx/interface/button_ggr.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_freet"
 		texturefile = "gfx/interface/button_freet.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_gtr"
 		texturefile = "gfx/interface/button_gtr.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_agg"
 		texturefile = "gfx/interface/button_agg.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_sgd"
 		texturefile = "gfx/interface/button_sgd.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_yfc"
 		texturefile = "gfx/interface/button_yfc.dds"
 		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_button_sos"
 		texturefile = "gfx/interface/button_sos.dds"
 		noOfFrames = 3
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_button_crn"
+		texturefile = "gfx/interface/button_crn.dds"
+		noOfFrames = 3
+		transparencecheck = yes
 	}
 	
 	spriteType = {
 		name = "GFX_flags_bg"
 		texturefile = "gfx/interface/flags_bg.dds"
-		noOfFrames = 17
+		noOfFrames = 18
 	}
 }

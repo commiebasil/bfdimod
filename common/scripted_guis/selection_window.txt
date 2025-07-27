@@ -79,6 +79,9 @@ scripted_gui = {
 			sos_click = {
 				set_variable = { country_select_var = 17 }
 			}
+			crn_click = {
+				set_variable = { country_select_var = 18 }
+			}
 			
 			startbutton_click = {
 				if = {
@@ -159,6 +162,11 @@ scripted_gui = {
 					limit = { check_variable = { country_select_var = 16 } }
 					YFC = { change_tag_from = GOI }
 					goto_state = 201
+				}
+				else_if = {
+					limit = { check_variable = { country_select_var = 17 } }
+					SOS = { change_tag_from = GOI }
+					goto_state = 204
 				}
 				
 				if = {

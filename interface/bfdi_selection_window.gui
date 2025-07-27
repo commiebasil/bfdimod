@@ -79,7 +79,6 @@ guiTypes = {
 			spriteType = GFX_button_gcmd
 			pdx_tooltip = WR_GCMD_BTTT
 		}
-		
 		buttonType = {
 			name = "tbt"
 			position = { x = 543 y = 30 }
@@ -91,12 +90,6 @@ guiTypes = {
 			position = { x = 314 y = 277 }
 			spriteType = GFX_button_ggrr_s
 			pdx_tooltip = WR_GGRR_S_BTTT
-		}
-		buttonType = {
-			name = "gtr"
-			position = { x = 300 y = 335 }
-			spriteType = GFX_button_gtr
-			pdx_tooltip = WR_GTR_BTTT
 		}
 		buttonType = {
 			name = "gpg"
@@ -116,7 +109,6 @@ guiTypes = {
 			spriteType = GFX_button_dipz
 			pdx_tooltip = WR_DIPZ_BTTT
 		}
-		
 		buttonType = {
 			name = "wgrf"
 			position = { x = 199 y = 44 }
@@ -142,10 +134,22 @@ guiTypes = {
 			pdx_tooltip = WR_GGR_BTTT
 		}
 		buttonType = {
+			name = "crn"
+			position = { x = 378 y = 387 }
+			spriteType = GFX_button_crn
+			pdx_tooltip = WR_CRN_BTTT
+		}
+		buttonType = {
 			name = "ebunch"
 			position = { x = 440 y = 330 }
 			spriteType = GFX_button_ebunch
 			pdx_tooltip = WR_EBUNCH_BTTT
+		}
+		buttonType = {
+			name = "gtr"
+			position = { x = 300 y = 335 }
+			spriteType = GFX_button_gtr
+			pdx_tooltip = WR_GTR_BTTT
 		}
 		buttonType = {
 			name = "freet"
