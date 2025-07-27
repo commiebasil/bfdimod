@@ -672,6 +672,7 @@ focus_tree = {
 
 		completion_reward = {
 			#set_compliance as it prevents smartasses from holding focus and getting high compliance before events
+			add_manpower = 2500
 			85 = {set_compliance = 15} 
 			212 = {set_compliance = 15}
 			country_event = {

@@ -7,12 +7,14 @@ decision_YFC_BUN_category = {
 					controls_state = 85
 					85 = {
 						resistance > 80
+						compliance < 70
 					}
 				}
 				AND = {
 					controls_state = 212
 					212 = {
 						resistance > 80
+						compliance < 70
 					}
 				}
 			}
@@ -148,7 +150,7 @@ decision_YFC_BUN_category = {
 			add_political_power = 15
         }
 		fire_only_once = no
-		cost = 30
+		cost = 45
 		days_remove = 20
 		days_re_enable = 30
 
@@ -201,7 +203,7 @@ decision_YFC_BUN_category = {
 			add_political_power = 15
         }
 		fire_only_once = no
-		cost = 30
+		cost = 45
 		days_remove = 20
 		days_re_enable = 30
 
@@ -252,8 +254,8 @@ decision_YFC_BUN_category = {
         }
 		fire_only_once = yes
 
-		cost = 60
-		days_remove = 20
+		cost = 75
+		days_remove = 40
 
 		remove_effect = {
 			85 = {
@@ -309,8 +311,8 @@ decision_YFC_BUN_category = {
         }
 		fire_only_once = yes
 
-		cost = 60
-		days_remove = 20
+		cost = 75
+		days_remove = 40
 
 		remove_effect = {
 			212 = {

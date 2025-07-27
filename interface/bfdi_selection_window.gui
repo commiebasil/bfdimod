@@ -202,6 +202,13 @@ guiTypes = {
 			spriteType = GFX_available_text
 			alwaystransparent = yes
 		}
+
+		iconType = {
+			name = "YFC_available"
+			position = { x = 650 y = 305 }
+			spriteType = GFX_available_text
+			alwaystransparent = yes
+		}
 		
 		instantTextBoxType = {
 			name = "countryname"

@@ -19,7 +19,7 @@ political_actions = {
 		}
 		icon = GFX_decision_SWI_consolidate_council_power  
 		is_good = no
-		days_mission_timeout = 35
+		days_mission_timeout = 45
 		timeout_effect = {
                   custom_effect_tooltip = l_BUN_YFC_1
                   hidden_effect = {

@@ -17,7 +17,7 @@ country_event = {
 			modifier = idea_BUN_Ticking_Bomb
 		}
 		has_war_with = YFC
-		AND = { #Fuck why did I have to make everything so complex...
+		AND = { 
 			OR = {
 				AND = {
 					controls_state = 85
