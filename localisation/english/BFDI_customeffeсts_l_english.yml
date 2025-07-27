@@ -112,6 +112,8 @@
  l_YFC_allow_rails: "Improves §YAnarchic Lands§! National Spirit by:\n- §YRailway construction speed§! §G+500%§!\n- §YSupply Hub construction speed§! §G+500%§!"
  l_YFC_repair: "Improves §YAnarchic Lands§! National Spirit by:\n- §YFree Repair§! §G+25%§!"
  l_YFC_pp_gain: "Improves §YAnarchic Lands§! National Spirit by:\n- §YPolitical Power Gain§! §G+0.5§!"
+ l_YFC_PEN: "§YFries§! dies."
+ l_YFC_ERASER: "§YEraser§! dies."
  l_YFC_BUN: "§RGaining Strength§!"
  l_YFC_BUN_1: "§RWe will take aggressive actions to clear resistance in our occupied lands. However, this comes with risks if we take too long...§!"
  l_YFC_BUN_2: "§RWe will take actions to rebuild The Bunch and gain influence to get them as a puppet. However, they may not be under our control if done incorrectly...§!"

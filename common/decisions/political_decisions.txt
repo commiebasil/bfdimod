@@ -6,6 +6,9 @@ political_actions = {
                   has_dynamic_modifier = {
                         modifier = idea_BUN_Ticking_Bomb
                   }
+                  check_variable = {
+                        var_idea_BUN_Ticking_Bomb_surrender_limit > -0.25
+                  }
                   has_war_with = YFC
 		}
 		available = {

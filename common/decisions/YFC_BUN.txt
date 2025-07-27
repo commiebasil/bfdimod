@@ -136,8 +136,19 @@ decision_YFC_BUN_category = {
 				}
 			}
         }
+		cancel_trigger = {
+            NOT = {
+                divisions_in_state = {
+					size > 2
+					state = 85
+				}
+            }
+        }
+        cancel_effect = {
+			add_political_power = 15
+        }
 		fire_only_once = no
-		cost = 75
+		cost = 30
 		days_remove = 20
 		days_re_enable = 30
 
@@ -149,7 +160,7 @@ decision_YFC_BUN_category = {
 			base = 0
 			modifier = {
 				add = 10
-				has_political_power > 75
+				has_political_power > 30
 			}
 		}
 	}
@@ -178,9 +189,19 @@ decision_YFC_BUN_category = {
 				}
 			}
         }
-		
+		cancel_trigger = {
+            NOT = {
+                divisions_in_state = {
+					size > 2
+					state = 212
+				}
+            }
+        }
+        cancel_effect = {
+			add_political_power = 15
+        }
 		fire_only_once = no
-		cost = 75
+		cost = 30
 		days_remove = 20
 		days_re_enable = 30
 
@@ -192,7 +213,121 @@ decision_YFC_BUN_category = {
 			base = 0
 			modifier = {
 				add = 10
-				has_political_power > 75
+				has_political_power > 30
+			}
+		}
+	}
+
+	YFC_BUN_85_Infrastructure = { #Would also cost money or something else
+		icon = GFX_decision_generic_prepare_civil_war
+		state_target = yes
+        targets = { state = 85 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 85
+		}
+		available = {
+			IF = {
+				limit = {
+					is_ai = no
+				}
+				divisions_in_state = {
+					size > 1
+					state = 85
+				}
+			}
+        }
+		cancel_trigger = {
+            NOT = {
+                divisions_in_state = {
+					size > 1
+					state = 85
+				}
+            }
+        }
+        cancel_effect = {
+			add_political_power = 45
+        }
+		fire_only_once = yes
+
+		cost = 60
+		days_remove = 20
+
+		remove_effect = {
+			85 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_compliance = 5
+			}
+        }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 10
+				has_political_power > 60
+			}
+		}
+	}
+
+	YFC_BUN_212_Infrastructure = { #Would also cost money or something else
+		icon = GFX_decision_generic_prepare_civil_war
+		state_target = yes
+        targets = { state = 212 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 212
+		}
+		available = {
+			IF = {
+				limit = {
+					is_ai = no
+				}
+				divisions_in_state = {
+					size > 1
+					state = 212
+				}
+			}
+        }
+		cancel_trigger = {
+            NOT = {
+                divisions_in_state = {
+					size > 1
+					state = 212
+				}
+            }
+        }
+        cancel_effect = {
+			add_political_power = 45
+        }
+		fire_only_once = yes
+
+		cost = 60
+		days_remove = 20
+
+		remove_effect = {
+			212 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_compliance = 5
+			}
+        }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 10
+				has_political_power > 60
 			}
 		}
 	}

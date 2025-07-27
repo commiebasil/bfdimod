@@ -163,6 +163,8 @@
  YFC_BUN_212_Growing: "Growing §RResistance§! in §YOuter Snow plateau§!"
  YFC_BUN_85_Counter: "Suppress §RResistance§! in §YGoiky Hills§!"
  YFC_BUN_212_Counter: "Suppress §RResistance§! in §YOuter Snow plateau§!"
+ YFC_BUN_85_Infrastructure: "Build §GInfrastructure§! in §YGoiky Hills§!"
+ YFC_BUN_212_Infrastructure: "Build §GInfrastructure§! in §YOuter Snow plateau§!"
  YFC_BUN_Countdown: "Countdown to §RFailure!§!"
  YFC_BUN_Countdown_desc: "Resistance movements are at a climax! Riots are in our cities, fighting in the hills, and burning of the rails all in our occupation zones. Should we let this go on, we may have much larger problems arrive..."
 
