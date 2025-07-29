@@ -86,6 +86,7 @@ country_event = {
 		add_political_power = 25
 		hidden_effect = {
 			CRN = {
+				add_opinion_modifier = { target = YFC modifier = betrayed_alliance }
 				country_event = {
 					id = YFC_event.7
 					days = 14
@@ -196,12 +197,12 @@ country_event = {
 	option = {
 		name = YFC_event.7.b
 
-		add_opinion_modifier = { target = YFC modifier = betrayed_alliance }
 		add_war_support = -0.05
 		add_political_power = -50
 
 		ai_chance = {
-			base = 2
+			base = 3
+			modifier = { YFC = {controls_state = 212} add = 3 }
 		}
 	}
 }
@@ -361,7 +362,7 @@ country_event = {
 }
 
 country_event = {
-	# UNUSED RN
+	# YFC_focus_erasers_stockpiles event other
 	id = YFC_event.14
 	title = YFC_event.14.t
 	desc = YFC_event.14.desc
@@ -371,6 +372,7 @@ country_event = {
 
 	option = { 
 		name = YFC_event.14.a
+		add_political_power = 100
 	}
 }
 
@@ -2137,7 +2139,12 @@ country_event = {
 	option = { 
 		name = YFC_BUN.2.c
 		custom_effect_tooltip = l_YFC_BUN_5
-		add_opinion_modifier = { target = YFC modifier = betrayed_alliance }
+		if = {
+			limit = {
+				NOT = {has_opinion_modifier = betrayed_alliance}
+			}
+			add_opinion_modifier = { target = YFC modifier = betrayed_alliance }
+		}	
 		hidden_effect = {
 			YFC = {
 				country_event = {
@@ -2284,6 +2291,13 @@ country_event = { #Round Two For Bunch!
 				remove_ideas = idea_BUN_criminal_state
 				retire_country_leader = yes
 				transfer_state = 85
+				add_country_leader_trait = insurgent_leader
+				if = {
+					limit = {
+						YFC = {controls_state = 217}
+					}
+					transfer_state = 217
+				}
 				declare_war_on = {
 					target = YFC
 					type = independence_wargoal
@@ -2302,8 +2316,9 @@ country_event = { #Round Two For Bunch!
 				}
 			}	
 			85 = {
+				add_resistance = -75
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2311,7 +2326,7 @@ country_event = { #Round Two For Bunch!
 					id = 1111111
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2319,7 +2334,7 @@ country_event = { #Round Two For Bunch!
 					id = 77777
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2327,7 +2342,7 @@ country_event = { #Round Two For Bunch!
 					id = 44444
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2335,7 +2350,7 @@ country_event = { #Round Two For Bunch!
 					id = 55555
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2343,11 +2358,11 @@ country_event = { #Round Two For Bunch!
 					id = 888888
 				}
 				create_unit = {
-					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.90 start_experience_factor = 0.2"
+					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.95 start_experience_factor = 0.2"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
-					prioritize_location = 5679
+					prioritize_location = 3243
 					id = 666666
 				}
 				create_unit = {
@@ -2360,9 +2375,9 @@ country_event = { #Round Two For Bunch!
 				}
 			}
 			212 = {
-				add_resistance = -75
+				add_resistance = -50
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2370,7 +2385,7 @@ country_event = { #Round Two For Bunch!
 					id = 22222
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2390,7 +2405,7 @@ country_event = { #Round Two For Bunch!
 	}
 }
 
-country_event = { #Annex Events 1
+country_event = { #Annex Events 1 
 	id = YFC_BUN.9 
 	title = YFC_BUN.9.t
 	desc = YFC_BUN.9.desc
@@ -2408,7 +2423,7 @@ country_event = { #Annex Events 1
 				id = YFC_BUN.10
 				days = 10
 				random_days = 10
-				random_hours = 100
+				random_hours = 50
 			}
 		}	
 	}
@@ -2425,7 +2440,7 @@ country_event = { #Annex Events 1
 				id = YFC_BUN.10
 				days = 10
 				random_days = 10
-				random_hours = 100
+				random_hours = 50
 			}
 		}	
 		#Would maybe buff militray sector when added
@@ -2440,7 +2455,7 @@ country_event = { #Annex Events 1
 				id = YFC_BUN.10
 				days = 10
 				random_days = 10
-				random_hours = 100
+				random_hours = 50
 			}
 		}		
 		#Would cost money when added
@@ -2463,6 +2478,14 @@ country_event = { #Annex Events 2
 		#Would Buff Sectors
 		85 = {add_compliance = -5}
 		212 = {add_compliance = -5}	
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.11
+				days = 15
+				random_days = 15
+				random_hours = 50
+			}
+		}	
 	}
 	option = { #Integration
 		name = YFC_BUN.10.b
@@ -2470,7 +2493,15 @@ country_event = { #Annex Events 2
 		85 = {add_compliance = 2.5}
 		212 = {add_compliance = 2.5}
 		#Would Minor Buff Sectors
-		#Would cost money when added	
+		#Would cost money when added
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.11
+				days = 15
+				random_days = 15
+				random_hours = 50
+			}
+		}	
 	}
 	option = { #Do nothing
 		name = YFC_BUN.10.c
@@ -2479,5 +2510,228 @@ country_event = { #Annex Events 2
 		85 = {add_compliance = 5}
 		212 = {add_compliance = 5}
 		#Would cost money when added
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.11
+				days = 15
+				random_days = 15
+				random_hours = 50
+			}
+		}
+	}
+}
+
+country_event = { #Annex Events 3
+	id = YFC_BUN.11 
+	title = YFC_BUN.11.t
+	desc = YFC_BUN.11.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	#Would Buff Sectors
+
+	option = { #Top Hat security 
+		name = YFC_BUN.11.a
+		add_manpower = 3500
+		85 = {
+			add_compliance = -5
+			add_resistance = -10
+		}
+		212 = {
+			add_compliance = -5
+			add_resistance = -10
+		}
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.12
+				days = 20
+				random_days = 20
+				random_hours = 50
+			}
+		}
+	}
+	option = { #Taser security
+		name = YFC_BUN.11.b
+		add_manpower = 2000
+		add_political_power = -25
+		85 = {add_compliance = 2.5}
+		212 = {add_compliance = 2.5}
+		#PUT MISSION
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.12
+				days = 20
+				random_days = 20
+				random_hours = 50
+			}
+		}	
+	}
+	option = { #Do nothing
+		name = YFC_BUN.11.c
+		add_political_power = 20
+		85 = {add_compliance = 5}
+		212 = {add_compliance = 5}	
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.12
+				days = 20
+				random_days = 20
+				random_hours = 50
+			}
+		}		
+	}
+}
+
+country_event = { #Annex Events 4
+	id = YFC_BUN.12 
+	title = YFC_BUN.12.t
+	desc = YFC_BUN.12.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { #Give In
+		name = YFC_BUN.12.a
+		add_political_power = -50
+		85 = {
+			add_compliance = 40
+			add_resistance = -50
+			set_demilitarized_zone = yes
+		}
+		212 = {add_compliance = 10}
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.13
+				days = 25
+				random_days = 25
+				random_hours = 50
+			}
+		}
+		#Would HEAVILY lower effects of sectors
+	}
+	option = { #Send Army
+		name = YFC_BUN.12.b
+		add_manpower = 500
+		add_political_power = 25
+		85 = {add_resistance = -7.5}
+		212 = {add_resistance = -5}
+		random = {
+			chance = 40
+			85 = {add_compliance = -5}
+			212 = {add_compliance = -2.5}
+		}
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.13
+				days = 25
+				random_days = 25
+				random_hours = 50
+			}
+		}
+	}
+	option = { #Do nothing
+		name = YFC_BUN.12.c
+		add_political_power = 65
+		add_stability = -0.01
+		random = {
+			chance = 60
+			85 = {add_resistance = 12.5}
+			212 = {add_resistance = 10}
+		}
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.13
+				days = 25
+				random_days = 25
+				random_hours = 50
+			}
+		}			
+	}
+}
+
+country_event = { #Annex Events 5
+	id = YFC_BUN.13 
+	title = YFC_BUN.13.t
+	desc = YFC_BUN.13.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { #Advisor
+		name = YFC_BUN.13.a
+		#Modifers: IDK
+		add_political_power = 30
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.14
+				days = 30
+				random_days = 30
+				random_hours = 50
+			}
+		}
+	}
+	option = { #General
+		name = YFC_BUN.13.b
+		add_political_power = 65
+		85 = {add_resistance = -2}
+		212 = {add_resistance = -2}
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.14
+				days = 30
+				random_days = 30
+				random_hours = 50
+			}
+		}
+	}
+	option = { #Face of annex BUT can be killed if revolt (50/50)
+		name = YFC_BUN.13.c
+		add_political_power = -20
+		85 = {add_compliance = 5}
+		212 = {add_compliance = 5}	
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.14
+				days = 30
+				random_days = 30
+				random_hours = 50
+			}
+		}		
+	}
+}
+
+country_event = { #Annex Events 6
+	id = YFC_BUN.14 
+	title = YFC_BUN.14.t
+	desc = YFC_BUN.14.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { #Lesser State
+		name = YFC_BUN.14.a
+		#Possible State Modifers: IDK
+		#Just modifiers that buff YFC
+		add_political_power = 50
+		85 = {add_compliance = -2.5}
+		212 = {add_compliance = -2.5}
+		#Buff Top Hat and Hammer Sector	
+	}
+	option = { #Integration
+		name = YFC_BUN.14.b
+		add_political_power = 50
+		85 = {add_compliance = 5}
+		212 = {add_compliance = 5}
+		#Buff Beaker and Pipe Sector	
+	}
+	option = { #Autonomous 
+		name = YFC_BUN.14.c
+		#Possible State Modifers: IDK
+		#Just modifiers that hurt YFC
+		add_political_power = 25
+		85 = {add_compliance = 7.5}
+		212 = {add_compliance = 7.5}
+		#Buff Taser Sector			
 	}
 }

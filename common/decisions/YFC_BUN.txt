@@ -2,22 +2,16 @@ decision_YFC_BUN_category = {
 	YFC_BUN_Countdown = {
 		activation = {
 			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
-			OR = {
-				AND = {
-					controls_state = 85
-					85 = {
-						resistance > 80
-						compliance < 70
-					}
+			controls_state = 85
+			85 = {
+				resistance > 80
+				compliance < 70
 				}
-				AND = {
-					controls_state = 212
-					212 = {
-						resistance > 80
-						compliance < 70
-					}
-				}
-			}
+			controls_state = 212
+			212 = {
+				resistance > 80
+				compliance < 70
+			}		
 			NOT = {country_exists = BUN}
 		}
 		available = {
@@ -60,7 +54,7 @@ decision_YFC_BUN_category = {
 		}
 		icon = GFX_decision_generic_civil_support  
 		is_good = no
-		days_mission_timeout = 45
+		days_mission_timeout = 50
 		timeout_effect = {
 			85 = {
 				add_resistance_target = {
@@ -96,7 +90,7 @@ decision_YFC_BUN_category = {
 		}
 		icon = GFX_decision_generic_civil_support  
 		is_good = no
-		days_mission_timeout = 45
+		days_mission_timeout = 50
 		timeout_effect = {
 			212 = {
 				add_resistance_target = {
@@ -155,14 +149,14 @@ decision_YFC_BUN_category = {
 		days_re_enable = 30
 
 		remove_effect = {
-			85 = {add_resistance = -5}
+			85 = {add_resistance = -10}
         }
 
 		ai_will_do = {
 			base = 0
 			modifier = {
 				add = 10
-				has_political_power > 30
+				has_political_power > 45
 			}
 		}
 	}
@@ -208,20 +202,20 @@ decision_YFC_BUN_category = {
 		days_re_enable = 30
 
 		remove_effect = {
-			212 = {add_resistance = -5}
+			212 = {add_resistance = -10}
         }
 
 		ai_will_do = {
 			base = 0
 			modifier = {
 				add = 10
-				has_political_power > 30
+				has_political_power > 45
 			}
 		}
 	}
 
 	YFC_BUN_85_Infrastructure = { #Would also cost money or something else
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_construction
 		state_target = yes
         targets = { state = 85 }
         on_map_mode = map_and_decisions_view
@@ -255,7 +249,7 @@ decision_YFC_BUN_category = {
 		fire_only_once = yes
 
 		cost = 75
-		days_remove = 40
+		days_remove = 45
 
 		remove_effect = {
 			85 = {
@@ -264,7 +258,7 @@ decision_YFC_BUN_category = {
 					level = 1
 					instant_build = yes
 				}
-				add_compliance = 5
+				add_compliance = 10
 			}
         }
 
@@ -272,13 +266,13 @@ decision_YFC_BUN_category = {
 			base = 5
 			modifier = {
 				add = 10
-				has_political_power > 60
+				has_political_power > 75
 			}
 		}
 	}
 
 	YFC_BUN_212_Infrastructure = { #Would also cost money or something else
-		icon = GFX_decision_generic_prepare_civil_war
+		icon = GFX_decision_generic_construction
 		state_target = yes
         targets = { state = 212 }
         on_map_mode = map_and_decisions_view
@@ -312,7 +306,7 @@ decision_YFC_BUN_category = {
 		fire_only_once = yes
 
 		cost = 75
-		days_remove = 40
+		days_remove = 45
 
 		remove_effect = {
 			212 = {
@@ -321,7 +315,7 @@ decision_YFC_BUN_category = {
 					level = 1
 					instant_build = yes
 				}
-				add_compliance = 5
+				add_compliance = 10
 			}
         }
 
@@ -329,7 +323,137 @@ decision_YFC_BUN_category = {
 			base = 5
 			modifier = {
 				add = 10
-				has_political_power > 60
+				has_political_power > 75
+			}
+		}
+	}
+
+	YFC_BUN_85_Outposts = { #Would also cost money or something else
+		icon = GFX_decision_generic_fortification
+		state_target = yes
+        targets = { state = 85 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 85
+		}
+		available = {
+			IF = {
+				limit = {
+					is_ai = no
+				}
+				divisions_in_state = {
+					size > 3
+					state = 85
+				}
+			}
+        }
+		cancel_trigger = {
+            NOT = {
+                divisions_in_state = {
+					size > 3
+					state = 85
+				}
+            }
+        }
+        cancel_effect = {
+			add_political_power = 45
+        }
+		fire_only_once = yes
+
+		cost = 75
+		days_remove = 60
+
+		remove_effect = {
+			add_manpower = 500
+			85 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 5679
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 4572
+				}
+				add_resistance = -25
+			}
+        }
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_political_power > 75
+			}
+		}
+	}
+
+	YFC_BUN_212_Outposts = { #Would also cost money or something else
+		icon = GFX_decision_generic_fortification
+		state_target = yes
+        targets = { state = 212 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 212
+		}
+		available = {
+			IF = {
+				limit = {
+					is_ai = no
+				}
+				divisions_in_state = {
+					size > 3
+					state = 212
+				}
+			}
+        }
+		cancel_trigger = {
+            NOT = {
+                divisions_in_state = {
+					size > 3
+					state = 212
+				}
+            }
+        }
+        cancel_effect = {
+			add_political_power = 45
+        }
+		fire_only_once = yes
+
+		cost = 75
+		days_remove = 60
+
+		remove_effect = {
+			add_manpower = 500
+			212 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 4249
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 11153
+				}
+				add_resistance = -25
+			}
+        }
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_political_power > 75
 			}
 		}
 	}

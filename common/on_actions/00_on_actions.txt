@@ -277,6 +277,18 @@ on_actions = {
 						}
 					}
 				}
+				YFC = {
+					IF = {
+						limit = {
+							NOT = {has_completed_focus = YFC_focus_a_look_inward}
+						}
+					}
+					country_event = {
+						id = YFC_event.5
+						days = 5
+						random_hours = 60
+					}
+				}
 				if = {
 					limit = {
 						NOT = { has_global_flag = fall_of_podgornyv}
@@ -301,6 +313,10 @@ on_actions = {
 								}
 							}
 						} 
+						AND = {
+							YFC = {has_war_with = BUN}
+							CRN = {has_war_with = BUN}
+						}
 					}
 					85 = {
 						transfer_state_to = YFC
@@ -314,13 +330,6 @@ on_actions = {
 					218 = {
 						transfer_state_to = CRN
 					}
-					YFC = {
-						country_event = {
-							id = YFC_event.5
-							days = 5
-							random_hours = 60
-						}
-					}
 				}
 				else_if = {
 					limit = { 
@@ -333,6 +342,8 @@ on_actions = {
 						}
 						85 = {set_compliance = 80}
 						212 = {set_compliance = 80}
+						217 = {add_compliance = 40}
+						218 = {add_compliance = 40}
 					}
 				else = {
 					FROM = {

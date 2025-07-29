@@ -46,5 +46,5 @@ decision_YFC_BUN_category = {
 	priority = 10
 	picture = GFX_decision_cat_GFG_reconstruction #Change later plz
 	icon = GFX_decision_category_spr_the_seeds_of_revolution
-	visible_when_empty = yes
+	visible_when_empty = no
 }
