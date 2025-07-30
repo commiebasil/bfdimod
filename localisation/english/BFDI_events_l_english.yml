@@ -791,6 +791,40 @@
  YFC_BUN.12.b: "Send in more forces."
  YFC_BUN.12.c: "The protests will fade away..."
 
+ YFC_BUN.13.t: "Blocky."
+ YFC_BUN.13.desc: "So about Blocky? Well, he's been doing some minor tasks for us for some time. Granted, his future inside the company has never really been answered. Not to say he's useless, just that the whole dealing with the annexation has been more of a focus for us then him. A few days ago, the question came up in discussions over very minor and frankly boring things. That question has been the center of talks now, and really a few good ideas have been brought up. What is the fate of our ex-Bunch turned ally?"
+ YFC_BUN.13.a: "A Political Advisor!"
+ YFC_BUN.13.b: "A General!"
+ YFC_BUN.13.c: "The face of pro-annexation!"
+
+ YFC_BUN.14.t: "An Equal?"
+ YFC_BUN.14.desc: "'How would the occupation zone fit into our nation's structure?' asked Beaker in, you guessed it, another day of discussions and meetings. It was a good question, as the sectors wanted different things as always. Top Hat and Hammer wanted it to be more of a lesser state compared to our other states, Beaker and Pipe wanted a fully integrated state, and Beaker actually wanted it where it was more autonomous which he argued is more what the objects wanted. So what will it be...?"
+ YFC_BUN.14.a: "A lesser state!"
+ YFC_BUN.14.b: "An integrated state!"
+ YFC_BUN.14.c: "An autonomous state!"
+
+ YFC_BUN.15.t: "Words on Paper..."
+ YFC_BUN.15.desc: "A major engagement broke out today between security forces under Top Hat and pro-Bunch terrorists. It was one of the largest to date, rivaling that of even some of the battles in the war. It took place in some farmlands near Taptop with most of the area being set ablazed. Nothing out of the normal besides the scale, but the events before the engagement are what are interesting. Reports from local civilians and even security forces state that Top Hat's men opted to raid one of the barns, then an argument broke out and fighting broke out.\n\nSo what we could do is... very radical in nature. Top Hat has already stated to us that if any of this information is leaked that our support will be cut. While bad, this could curve some of the growing influence that the military sector had been getting... our pick?"
+ YFC_BUN.15.a: "Blame the whole event on Top Hat."
+ YFC_BUN.15.b: "Apologize and pay for the damages."
+ YFC_BUN.15.c: "Maybe an... 'engagement' could be made."
+
+ #TBH the writing I feel is ass for the last three but 1am me might be tired. 
+ #All are the same event but with diffrent checks if X thing happened or not
+
+ YFC_BUN.16.t.a: "Rights of Defence."
+ YFC_BUN.16.desc.a: "It should have been easy... right? There was no way that these neo-Bunch anarchists were this armed and this many. It has been much of a headache for us and the security forces fighting this revolt. At this rate, if things don't get better, we may have much more problems...\n\n...\n\nBoss...?\n\n...\n\nWell... uh... we just discovered that some of the numbers were mismatched and we have a surplus of funds waiting to be used...\n\n..."
+ YFC_BUN.16.a: "THEN PUT EVERYTHING INTO CRUSHING THEM!"
+
+ YFC_BUN.16.t.b: "Fiddling some of the numbers."
+ YFC_BUN.16.desc.b: "As with every month, we get a report on our profits and expenses. However, an hour after that report was handed to us one of our employees rushed into our discussion room. This act is very frowned upon and would normally cause a decrease in pay, but it came with great news! It turns out that some of the economic numbers were mismatched and we have a surplus of funds lying around to put into something. So what is that something we put our funds into?"
+ YFC_BUN.16.b: "A new railway!"
+ YFC_BUN.16.c: "Some new infrastructure!"
+
+ YFC_BUN.16.t.c: "Final Phase."
+ YFC_BUN.16.desc.c: "We are at the home stretch of the annexation plan. Both our support and resistance have risen to unprecedented heights! It's either a win or a loss, with no in between for us. With this growing stressful matter, we have gotten a lucky break. It turns out that some of the economic numbers were mismatched and we have a surplus of funds lying around to put into the occupation. So with the end coming nearer, we are putting everything into completing the annexation!"
+ YFC_BUN.16.d: "By any amount!"
+
 # YFC_CRN_SUB
 
  YFC_CRN_Sub.1.t: "An Affirmative Response!"

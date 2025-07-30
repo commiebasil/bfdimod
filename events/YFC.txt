@@ -113,6 +113,16 @@ country_event = {
 		name = YFC_event.5.a
 		hidden_effect = {
 			set_country_flag = Won_War_BUN
+			if = {
+				limit = {
+					CRN = {
+						controls_state = 217
+						controls_state = 218
+					}
+				}
+				217 = {add_compliance = 20}
+				218 = {add_compliance = 20}
+			}
 			217 = {add_compliance = 10}
 			218 = {add_compliance = 10}
 		}
@@ -200,9 +210,16 @@ country_event = {
 		add_war_support = -0.05
 		add_political_power = -50
 
+		
+		add_opinion_modifier = { target = YFC modifier = medium_decrease }
+		every_country_with_original_tag = {
+			original_tag_to_check = YFC
+			add_opinion_modifier = { target = CRN modifier = medium_decrease }
+		}
+
 		ai_chance = {
 			base = 3
-			modifier = { YFC = {controls_state = 212} add = 3 }
+			modifier = { YFC = {controls_state = 212} add = 6 }
 		}
 	}
 }
@@ -372,7 +389,7 @@ country_event = {
 
 	option = { 
 		name = YFC_event.14.a
-		add_political_power = 100
+		add_political_power = 75
 	}
 }
 
@@ -2132,8 +2149,6 @@ country_event = {
 				}
 			}
 		}
-		217 = {add_compliance = 10}
-		218 = {add_compliance = 10}	
 	}
 
 	option = { 
@@ -2154,8 +2169,8 @@ country_event = {
 				}
 			}
 		}
-		217 = {add_compliance = 20}
-		218 = {add_compliance = 20}		
+		217 = {add_compliance = 30}
+		218 = {add_compliance = 30}		
 	}
 }
 
@@ -2170,6 +2185,7 @@ country_event = {
 	option = { 
 		name = YFC_BUN.3.a
 		complete_national_focus = YFC_focus_clamp_down_on_bunchivism
+		custom_effect_tooltip = l_GGR_anarchists_decisions_open
 		hidden_effect = {
 			country_event = {
 				id = YFC_BUN.9
@@ -2192,6 +2208,12 @@ country_event = {
 	option = { 
 		name = YFC_BUN.4.a
 		complete_national_focus = YFC_focus_clamp_down_on_bunchivism
+		custom_effect_tooltip = l_GGR_anarchists_decisions_open
+		add_opinion_modifier = { target = CRN modifier = medium_decrease }
+		every_country_with_original_tag = {
+			original_tag_to_check = CRN
+			add_opinion_modifier = { target = YFC modifier = medium_decrease }
+		}
 		hidden_effect = {
 			country_event = {
 				id = YFC_BUN.9
@@ -2205,6 +2227,7 @@ country_event = {
 	option = { 
 		name = YFC_BUN.4.b
 		complete_national_focus = YFC_focus_foster_new_society
+		custom_effect_tooltip = l_GGR_anarchists_decisions_open
 		add_war_support = -0.05
 		add_stability = -0.1
 		add_political_power = -150
@@ -2286,7 +2309,7 @@ country_event = { #Round Two For Bunch!
 		add_political_power = -100
 		hidden_effect = {
 			BUN = {
-				add_manpower = 10000
+				add_manpower = 5000
 				add_dynamic_modifier = { modifier = idea_BUN_Ticking_Bomb }
 				remove_ideas = idea_BUN_criminal_state
 				retire_country_leader = yes
@@ -2366,7 +2389,7 @@ country_event = { #Round Two For Bunch!
 					id = 666666
 				}
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.4 start_experience_factor = 0.05"
 					owner = YFC
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2393,7 +2416,7 @@ country_event = { #Round Two For Bunch!
 					id = 333333
 				}
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.4 start_experience_factor = 0.05"
 					owner = YFC
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2661,7 +2684,7 @@ country_event = { #Annex Events 5
 	option = { #Advisor
 		name = YFC_BUN.13.a
 		#Modifers: IDK
-		add_political_power = 30
+		add_political_power = 45
 		hidden_effect = {
 			country_event = {
 				id = YFC_BUN.14
@@ -2673,7 +2696,7 @@ country_event = { #Annex Events 5
 	}
 	option = { #General
 		name = YFC_BUN.13.b
-		add_political_power = 65
+		add_political_power = 30
 		85 = {add_resistance = -2}
 		212 = {add_resistance = -2}
 		hidden_effect = {
@@ -2687,7 +2710,7 @@ country_event = { #Annex Events 5
 	}
 	option = { #Face of annex BUT can be killed if revolt (50/50)
 		name = YFC_BUN.13.c
-		add_political_power = -20
+		add_political_power = -25
 		85 = {add_compliance = 5}
 		212 = {add_compliance = 5}	
 		hidden_effect = {
@@ -2713,17 +2736,33 @@ country_event = { #Annex Events 6
 		name = YFC_BUN.14.a
 		#Possible State Modifers: IDK
 		#Just modifiers that buff YFC
-		add_political_power = 50
+		add_political_power = 75
 		85 = {add_compliance = -2.5}
 		212 = {add_compliance = -2.5}
 		#Buff Top Hat and Hammer Sector	
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.15
+				days = 35
+				random_days = 35
+				random_hours = 50
+			}
+		}
 	}
 	option = { #Integration
 		name = YFC_BUN.14.b
 		add_political_power = 50
 		85 = {add_compliance = 5}
 		212 = {add_compliance = 5}
-		#Buff Beaker and Pipe Sector	
+		#Buff Beaker and Pipe Sector
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.15
+				days = 35
+				random_days = 35
+				random_hours = 50
+			}
+		}	
 	}
 	option = { #Autonomous 
 		name = YFC_BUN.14.c
@@ -2732,6 +2771,175 @@ country_event = { #Annex Events 6
 		add_political_power = 25
 		85 = {add_compliance = 7.5}
 		212 = {add_compliance = 7.5}
-		#Buff Taser Sector			
+		#Buff Taser Sector
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.15
+				days = 35
+				random_days = 35
+				random_hours = 50
+			}
+		}
+	}
+}
+
+country_event = { #Annex Events 7
+	id = YFC_BUN.15 
+	title = YFC_BUN.15.t
+	desc = YFC_BUN.15.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = { #Blame Top Hat
+		name = YFC_BUN.15.a
+		add_political_power = 50
+		85 = {
+			add_resistance = 15
+			add_compliance = 7.5
+		}
+		212 = {
+			add_resistance = 15
+			add_compliance = 7.5
+		}
+		#Nerf Top Hat Sector
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.16
+				days = 90
+				random_days = 5
+				random_hours = 50
+			}
+		}
+	}
+	option = { #Apologize
+		name = YFC_BUN.15.b
+		add_political_power = -25
+		85 = {add_compliance = 5}
+		212 = {add_compliance = 5}
+		#Would cost money
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.16
+				days = 90
+				random_days = 5
+				random_hours = 50
+			}
+		}	
+	}
+	option = { #Corruption! 
+		name = YFC_BUN.15.c
+		add_political_power = 75
+		85 = {add_compliance = -1}
+		212 = {add_compliance = -1}
+		#Buff Top Hat Sector
+		#Would give money
+		hidden_effect = {
+			country_event = {
+				id = YFC_BUN.16
+				days = 90
+				random_days = 5
+				random_hours = 50
+			}
+		}			
+	}
+}
+
+country_event = { #Annex Events FINAL
+	id = YFC_BUN.16 
+
+	title = {
+		text = YFC_BUN.16.t.a #At war with BUN
+		trigger = {
+			has_war_with = BUN
+		}
+	}
+	title = {
+		text = YFC_BUN.16.t.b #Already cored BUN or compliance over 65
+		trigger = {
+			212 = {compliance > 65}
+			85 = {compliance > 65}
+			NOT = {has_war_with = BUN}
+		}
+	}
+	title = {
+		text = YFC_BUN.16.t.c #Normal one
+	}
+
+	desc = {
+		text = YFC_BUN.16.desc.a #At war with BUN
+		trigger = {
+			has_war_with = BUN
+		}
+	}
+	desc = {
+		text = YFC_BUN.16.desc.b #Already cored BUN or compliance over 65
+		trigger = {
+			212 = {compliance > 65}
+			85 = {compliance > 65}
+			NOT = {has_war_with = BUN}
+		}
+	}
+	desc = {
+		text = YFC_BUN.16.desc.c #Normal one
+	}
+
+	picture = GFX_Temp_event
+	is_triggered_only = yes
+
+	option = { #At war with BUN
+		name = YFC_BUN.16.a
+        trigger = {
+        	has_war_with = BUN
+        }
+		add_manpower = 1000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+		}
+	}
+
+	option = { #Already cored BUN or compliance over 70
+		name = YFC_BUN.16.b
+        trigger = {
+        	212 = {compliance > 70}
+			85 = {compliance > 70}
+			NOT = {has_war_with = BUN}
+        }
+		build_railway = {
+			level = 2
+			start_state = 212
+			target_state = 196
+		}
+	}
+
+	option = { #Already cored BUN or compliance over 70
+		name = YFC_BUN.16.c
+        trigger = {
+        	212 = {compliance > 70}
+			85 = {compliance > 70}
+			NOT = {has_war_with = BUN}
+        }
+		201 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+
+	option = { #Normal one
+		name = YFC_BUN.16.d
+        trigger = {
+			NOT = {has_war_with = BUN}  
+			NOT = {212 = {compliance > 70}}
+			NOT = {85 = {compliance > 70}}	
+        }
+		add_political_power = 50
+		add_timed_idea = {
+			idea = idea_YFC_at_the_finish_line
+			days = 150
+		}
 	}
 }

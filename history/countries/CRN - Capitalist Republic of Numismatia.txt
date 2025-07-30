@@ -50,15 +50,11 @@ set_popularities = {
  set_variable = { var_idea_YFC_integration_CRN_communism_drift = 0 }  
 
 add_ideas = free_trade
+add_ideas = idea_CRN_city_on_a_shining_hill
 
 recruit_character = CRN_credit_card
 recruit_character = CRN_mirror
 recruit_character = CRN_pineapple
-
-
-
-
-
 
 
 

@@ -1553,4 +1553,14 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_develop_yoyleton"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_develop_yoyleton.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_clamp_down_on_bunchivism"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_clamp_down_on_bunchivism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_pen"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_pen.dds"
+	}
 }

@@ -40,7 +40,7 @@ decision_YFC_BUN_category = {
 			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
 			controls_state = 85
 			85 = {
-				compliance < 60
+				compliance < 65
 			}
 			NOT = {country_exists = BUN}
 		}
@@ -49,7 +49,7 @@ decision_YFC_BUN_category = {
 		}
 		cancel_trigger = {
 			85 = {
-				compliance > 60
+				compliance > 65
 			}
 		}
 		icon = GFX_decision_generic_civil_support  
@@ -63,7 +63,6 @@ decision_YFC_BUN_category = {
 					days = 365
 					tooltip = l_YFC_BUN
 				}
-				add_compliance = -1
 			}
 			hidden_effect = {
 				add_to_variable = { var_YFC_BUN_Anger = 0.5 }
@@ -76,7 +75,7 @@ decision_YFC_BUN_category = {
 			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
 			controls_state = 212
 			212 = {
-				compliance < 60
+				compliance < 65
 			}
 			NOT = {country_exists = BUN}
 		}
@@ -85,7 +84,7 @@ decision_YFC_BUN_category = {
 		}
 		cancel_trigger = {
 			212 = {
-				compliance > 60
+				compliance > 65
 			}
 		}
 		icon = GFX_decision_generic_civil_support  
@@ -99,7 +98,6 @@ decision_YFC_BUN_category = {
 					days = 365
 					tooltip = l_YFC_BUN
 				}
-				add_compliance = -1
 			}
 			hidden_effect = {
 				add_to_variable = { var_YFC_BUN_Anger = 0.5 }
@@ -145,8 +143,8 @@ decision_YFC_BUN_category = {
         }
 		fire_only_once = no
 		cost = 45
-		days_remove = 20
-		days_re_enable = 30
+		days_remove = 25
+		days_re_enable = 35
 
 		remove_effect = {
 			85 = {add_resistance = -10}
@@ -198,8 +196,8 @@ decision_YFC_BUN_category = {
         }
 		fire_only_once = no
 		cost = 45
-		days_remove = 20
-		days_re_enable = 30
+		days_remove = 25
+		days_re_enable = 35
 
 		remove_effect = {
 			212 = {add_resistance = -10}

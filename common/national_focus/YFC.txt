@@ -671,10 +671,19 @@ focus_tree = {
 		#if eraser wins, the bunch becomes a reformed republic, and is fully independent
 
 		completion_reward = {
-			#set_compliance as it prevents smartasses from holding focus and getting high compliance before events
 			add_manpower = 2500
-			85 = {set_compliance = 15} 
-			212 = {set_compliance = 15}
+			85 = {add_compliance = 15} 
+			212 = {add_compliance = 15}
+			if = {
+				limit = {
+					YFC = {
+						controls_state = 217
+						controls_state = 218
+					}
+				}
+				217 = {add_compliance = 15}
+				218 = {add_compliance = 15}		
+			}
 			country_event = {
 				id = YFC_BUN.1
 				hour = 1
@@ -799,7 +808,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_the_bunchivist_problem
 		x = 0
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_clamp_down_on_bunchivism
 		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_foster_new_society }
@@ -857,6 +866,7 @@ focus_tree = {
 		#gives lots of stability, adds national idea that gives +0.5 political power
 		completion_reward = {
 			custom_effect_tooltip = l_YFC_pp_gain
+			add_stability = 0.1
 			add_to_variable = { var_idea_YFC_anarchic_lands_PP = 0.5 }
 			
 			
@@ -956,7 +966,7 @@ focus_tree = {
 		relative_position_id = YFC_focus_clamp_down_on_bunchivism
 		x = -1
 		y = 1
-		icon = GFX_focus_generic
+		icon = GFX_focus_YFC_pen
 
 		available = {
 			hidden_trigger = {
@@ -976,6 +986,63 @@ focus_tree = {
 				id = YFC_BUN.5
 				hour = 1
 			}
+		}
+	}
+
+	focus = {
+		id = YFC_focus_fully_cored
+		relative_position_id = YFC_focus_clamp_down_on_bunchivism
+		x = 0
+		y = 2
+		icon = GFX_focus_generic
+
+		available = {
+			85 = {compliance > 75}
+			212 = {compliance > 75}
+		}
+
+		prerequisite = { focus = YFC_focus_execute_pen }
+		prerequisite = { focus = YFC_focus_trial_over_eraser }
+
+		#Epic YFC now has BUN lands
+		#You may change it as always
+
+		cost = 10
+		completion_reward = {
+			add_war_support = 0.05
+			YFC = {
+				add_state_core = 85
+				add_state_core = 212
+				IF = {
+					limit = {
+						AND = {
+							controls_state = 217
+							controls_state = 218
+						}
+					}
+					add_state_core = 217
+					add_state_core = 218
+				}
+			}
+			
+			hidden_effect = {
+				BUN = {
+					remove_state_core = 85
+					remove_state_core = 212
+				}
+				IF = {
+					limit = {
+						YFC = {
+							controls_state = 217
+							controls_state = 218
+						}
+					}
+					remove_state_core = 217
+					remove_state_core = 218
+				}
+			}
+
+			#Maybe an event idk
 		}
 	}
 }
