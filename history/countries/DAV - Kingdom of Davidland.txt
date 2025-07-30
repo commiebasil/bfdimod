@@ -33,7 +33,8 @@ set_popularities = {
 	communism = 1
 }
 
-recruit_character = DAV_king_david
+add_ideas = idea_DAV_the_thousand_year_throne
 
+recruit_character = DAV_king_david
 
 
