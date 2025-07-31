@@ -171,5 +171,10 @@
  YFC_BUN_recruit_locals: "§GRecruit§! local §YObjects§!"
  YFC_BUN_Countdown: "Countdown to §RFailure!§!"
  YFC_BUN_Countdown_desc: "Resistance movements are at a climax! Riots are in our cities, fighting in the hills, and burning of the rails all in our occupation zones. Should we let this go on, we may have much larger problems arrive..."
+ #BUN State Modifiers 
+ BUN_lesser_state: "Lesser State"
+ BUN_autonomous_state: "Autonomous State"
+ BUN_revolt_support: "Neo-Bunch Support"
 
  YFC_BUN_Ticking: "§RWaning Strength!§!"
+

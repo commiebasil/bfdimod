@@ -44,6 +44,7 @@ country_event = {
 		name = BUN_YFC.1.a
 		add_war_support = 0.2
 		add_stability = 0.25
+		country_lock_all_division_template = no
 		delete_unit_template_and_units = {
 			division_template = "Armed Insurgents"
 			disband = no 
@@ -53,7 +54,7 @@ country_event = {
 			country_event = {
 				id = BUN_YFC.2
 				days = 1
-				random_hours = 10
+				random_hours = 4
 			}
 		}
 	}

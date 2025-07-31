@@ -2340,8 +2340,6 @@ country_event = {
 }
 
 country_event = { #Round Two For Bunch!
-	#Bunch gets good buffs to attack but will lose momentum every month, meaning YFC just has to hold out till BUN can't keep on running...
-	#If Bunch captures all cores they white peace and keep all cores
 	#I will add being able to play as BUN later when it is all working
 	id = YFC_BUN.8
 	title = YFC_BUN.8.t
@@ -2353,8 +2351,8 @@ country_event = { #Round Two For Bunch!
 	option = { 
 		name = YFC_BUN.8.a
 		custom_effect_tooltip = l_YFC_BUN_8
-		add_war_support = -0.05
-		add_political_power = -100
+		add_war_support = -0.1
+		add_political_power = -200
 		hidden_effect = {
 			if = {
 				limit = {
@@ -2368,13 +2366,15 @@ country_event = { #Round Two For Bunch!
 			}
 
 			BUN = {
-				add_manpower = 5000
+				add_manpower = 7500
 				add_offsite_building = { type = arms_factory level = 1 }
 				add_dynamic_modifier = { modifier = idea_BUN_Ticking_Bomb }
 				remove_ideas = idea_BUN_criminal_state
 				retire_country_leader = yes
 				transfer_state = 85
 				add_country_leader_trait = insurgent_leader
+				country_lock_all_division_template = yes
+				set_cosmetic_tag = BUN_revolt
 				if = {
 					limit = {
 						YFC = {controls_state = 217}
@@ -2388,7 +2388,7 @@ country_event = { #Round Two For Bunch!
 				division_template = {
 					name = "Armed Insurgents"
 					is_locked = yes
-					division_cap = 10 
+					division_cap = 15
 					force_allow_recruiting = yes
 					priority = 0
 					regiments = {
@@ -2441,11 +2441,11 @@ country_event = { #Round Two For Bunch!
 					id = 888888
 				}
 				create_unit = {
-					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.95 start_experience_factor = 0.2"
+					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.95 start_experience_factor = 0.35"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
-					prioritize_location = 3243
+					prioritize_location = 11220
 					id = 666666
 				}
 				create_unit = {
@@ -2455,6 +2455,10 @@ country_event = { #Round Two For Bunch!
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 5679
 					id = 333333
+				}
+				add_dynamic_modifier = {
+					modifier = BUN_revolt_support
+					days = 730
 				}
 			}
 			212 = {
@@ -2482,6 +2486,10 @@ country_event = { #Round Two For Bunch!
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 4249
 					id = 333333
+				}
+				add_dynamic_modifier = {
+					modifier = BUN_revolt_support
+					days = 730
 				}
 			}
 		}
@@ -2767,7 +2775,7 @@ country_event = { #Annex Events 5
 			}
 		}
 	}
-	option = { #Face of annex BUT can be killed if revolt (50/50)
+	option = { #Face of annex BUT can be killed if revolt 
 		name = YFC_BUN.13.c
 		85 = {add_compliance = 7.5}
 		212 = {add_compliance = 7.5}	
@@ -2793,11 +2801,19 @@ country_event = { #Annex Events 6
 
 	option = { #Lesser State
 		name = YFC_BUN.14.a
-		#Possible State Modifers: IDK
-		#Just modifiers that buff YFC
 		add_political_power = 75
-		85 = {add_compliance = -2.5}
-		212 = {add_compliance = -2.5}
+		85 = {
+			add_compliance = -5
+			add_dynamic_modifier = {
+				modifier = BUN_lesser_state
+			}
+		}
+		212 = {
+			add_compliance = -5
+			add_dynamic_modifier = {
+				modifier = BUN_lesser_state
+			}
+		}
 		#Buff Top Hat and Hammer Sector	
 		hidden_effect = {
 			country_event = {
@@ -2825,11 +2841,19 @@ country_event = { #Annex Events 6
 	}
 	option = { #Autonomous 
 		name = YFC_BUN.14.c
-		#Possible State Modifers: IDK
-		#Just modifiers that hurt YFC
 		add_political_power = 25
-		85 = {add_compliance = 7.5}
-		212 = {add_compliance = 7.5}
+		85 = {
+			add_compliance = 7.5
+			add_dynamic_modifier = {
+				modifier = BUN_autonomous_state
+			}
+		}
+		212 = {
+			add_compliance = 7.5
+			add_dynamic_modifier = {
+				modifier = BUN_autonomous_state
+			}
+		}
 		#Buff Taser Sector
 		hidden_effect = {
 			country_event = {

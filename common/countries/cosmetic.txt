@@ -38,3 +38,7 @@ YFC_raiders = {
 	color = rgb { 204 204 0 }
 	color_ui = rgb { 204 204 0 }
 }
+BUN_revolt = {
+	color = rgb { 255 180 180 }
+	color_ui = rgb { 255 180 180 }
+}

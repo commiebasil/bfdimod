@@ -296,13 +296,13 @@ focus_tree = {
 			}
 		}
 		bypass = {
-			has_completed_focus = YFC_focus_money_arms_capital
+			has_completed_focus = YFC_focus_a_look_inward
 		}
 
 		allow_branch = { has_completed_focus = YFC_focus_demand_end_pillage }
 		prerequisite = { focus = YFC_focus_demand_end_pillage }
 		cost = 6
-		#spawn 6 okay-ish divisions, decreases max amount to be traded away
+		#spawn 6 okay-ish divisions, decreases max amount to be traded away  
 		#divs will be deleted on end of war, max amount to trade goes back up
 		completion_reward = {
 			division_template = {
