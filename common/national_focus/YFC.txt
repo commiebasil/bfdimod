@@ -672,8 +672,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_manpower = 2500
-			85 = {add_compliance = 15} 
-			212 = {add_compliance = 15}
+			85 = {add_compliance = 10} 
+			212 = {add_compliance = 10}
 			if = {
 				limit = {
 					YFC = {
@@ -741,7 +741,7 @@ focus_tree = {
 			has_completed_focus = YFC_focus_the_bunchivist_problem
 		}
 		prerequisite = { focus = YFC_focus_the_economic_issue }
-		cost = 2
+		cost = 5
 		#gives an increase to your treasury, and an event about stealing from eraser
 		#will make it easier for the bunchivists to chose eraser instead of blocky
 		completion_reward = {
@@ -1013,16 +1013,6 @@ focus_tree = {
 			YFC = {
 				add_state_core = 85
 				add_state_core = 212
-				IF = {
-					limit = {
-						AND = {
-							controls_state = 217
-							controls_state = 218
-						}
-					}
-					add_state_core = 217
-					add_state_core = 218
-				}
 			}
 			
 			hidden_effect = {

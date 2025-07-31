@@ -810,6 +810,18 @@ focus_tree = {
 					idea = idea_WGF_coinflip
 					days = 210
 				}
+				IF = {
+					limit = {
+						YFC = {has_completed_focus = YFC_focus_buy_defense_trainings}
+					}
+					YFC = {
+						country_event = {
+							id = YFC_event.21
+							hour = 3
+							random_hours = 6
+						}
+					}
+				}
 				country_event = WGF_event.14
 				set_country_flag = operation_started
 			}

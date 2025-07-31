@@ -123,7 +123,7 @@
  WGF_event.21.t: "Our Situation"
  WGF_event.21.desc: "Firey had been in control over his now sovereign territory for several weeks now, however, most of his supporters didn't actually know what his ideology was like. That was going to change in just a few short hours, because Firey was making morning preparations to give a speech to his new-found subjects. He was currently sitting on a train, being transported to the building he was expected to speak at. Firey was definitely afraid of what might happen to him at the event, even one stutter could ruin his dream of a united, just Goiky. He ran through different scenarios of the things that could possibly go wrong in his head, whilst taking sips of his coffee.\nThe thoughts weighed heavily on his mind, making a slip up feel more and more inevitable.\n\nAs the train car stopped, and Firey stepped out, he saw a large crowd of objects, all around the platform the train had stopped at. All the objects seemed very excited, but for what, Firey didn't know. He started to look around the platform, wondering what they were all excited about. However, as he looked around, he soon realized that all of these people were grinning, wide-eyed, at him. He was the center of attention, people wanted to know his thoughts."
  WGF_event.21.a: "This speech will be light work for him."
- 
+
  #Reich
  GGR_event.1.t: "Behind the ridge"
  GGR_event.1.desc: "The Snowy Plateau is a wonderful region with beautiful objects, although it is quite poor. It has some features, for example: Its population, due to its isolation, is quite united and has a uniform, special culture, unlike other regions of South Goiky. It is particularly autonomous and does not depend so much on foreign trade..."
@@ -676,12 +676,17 @@
  YFC_event.13.t: "What to do with The Head?"
  YFC_event.13.desc: "It was a very, very long trial over Eraser's fate. The sectors had heated debates over the pros and cons of any of the options we could do. Honestly the amount of these 'heated' debates have been getting concerning. Anyways, a few hours ago most finally agreed on his fate. This said fate was read out to him in his cell, it said the following... \n\n'Eraser, leader of the defunct anarchist Bunch, you have been given the following sentence for your crimes against the Yellow Face Company and their allies...'"
  YFC_event.13.a: "Acquitted of all charges and will be able to join The Company!"
- YFC_event.13.b: "Sentence to 30 years in prison!"
+ YFC_event.13.b: "Sentenced to 30 years in prison!"
  YFC_event.13.c: "Executed by firing squad!"
 
  YFC_event.14.t: "Plundering Plunder"
  YFC_event.14.desc: "Out of many of the discussions that the sectorials and Yellow Face had, this one lasted only a few minutes. Who was going to stop us from 'relocating' their money? The air in our conference room? Besides, this wealth will have a much better use than laying around for anarchist use.\n\nA week after the very obvious outcome of the vote, Blocky entered the warehouse holding the money. He took one last look at all of it, as if a chapter of a story had ended and a new one started. Even though he should feel some sort of emotion..."
  YFC_event.14.a: "Nothing was felt...?"
+
+ YFC_event.21.t: "Compilations in the Military District!"
+ YFC_event.21.desc: "With the current invasion of the rotten communists of our ally, Coiny has stated that all assistance will need to move back to defending his country. It’s unfortunately a fair request which we cannot deny. The outcome of the war will be unknown, if even anyone will win. Though... we could send help to Coiny...\n\nThough, should we?"
+ YFC_event.21.a: "Send Volunteers!"
+ YFC_event.21.b: "Our hands are too tied at the moment..."
 
  BUN_borderwars.5.t: "Raiders Attacked!"
  BUN_borderwars.5.desc: "When our forces arrived, they found themselves quickly under bandit fire. Despite our best efforts, our forces were overrun and the bandits broke through. This resulted in the nearby towns and villages being set ablaze and much of the equipment was stolen. The bandits have left, but there are still ashes in the air."
@@ -809,7 +814,7 @@
  YFC_BUN.15.b: "Apologize and pay for the damages."
  YFC_BUN.15.c: "Maybe an... 'engagement' could be made."
 
- #TBH the writing I feel is ass for the last three but 1am me might be tired. 
+ #TBH the writing I feel is ass for event 16 but 1am me might be tired. 
  #All are the same event but with diffrent checks if X thing happened or not
 
  YFC_BUN.16.t.a: "Rights of Defence."
@@ -824,6 +829,31 @@
  YFC_BUN.16.t.c: "Final Phase."
  YFC_BUN.16.desc.c: "We are at the home stretch of the annexation plan. Both our support and resistance have risen to unprecedented heights! It's either a win or a loss, with no in between for us. With this growing stressful matter, we have gotten a lucky break. It turns out that some of the economic numbers were mismatched and we have a surplus of funds lying around to put into the occupation. So with the end coming nearer, we are putting everything into completing the annexation!"
  YFC_BUN.16.d: "By any amount!"
+
+ YFC_BUN.17.t: "The Company Demands our Occupation Zone!"
+ YFC_BUN.17.desc: "The evitable, is now inevitable for us. A few hours ago, we received a telegram from The Yellow Face Company demanding our occupation zone. If we agree to demands, we will at least keep our friendly relations with them. If not... that might have some interesting consequences for the future. After a few hours of discussions, we voted on..."
+ YFC_BUN.17.a: "Handing over our occupation zone."
+ YFC_BUN.17.b: "Handing over our occupation zone."
+
+ YFC_BUN.18.t: "Numismatia yields to our demands!"
+ YFC_BUN.18.desc: "After a few days of waiting, we got our response that Numismatia is willing to hand over their occupation zone to us. This is a great day for the company and our employees."
+ YFC_BUN.18.a: "Great news!"
+
+ YFC_BUN.19.t: "Numismatia denies our demands!"
+ YFC_BUN.19.desc: "After a few days of waiting, we got our response that Numismatia is not going to hand over their occupation zone to us. It seems that their true intentions are now on full display. A war with them while dealing with the resistance is off the table unfortunately. We could take retaliatory action against them, or not?"
+ YFC_BUN.19.a: "Place an Embargo on them!"
+ YFC_BUN.19.b: "Break Relations with them!"
+ YFC_BUN.19.c: "Guess we'll fold..."
+
+ YFC_BUN.20.t: "Ex-Bunch industry destroyed!"
+ YFC_BUN.20.desc: "With our security forces still setting up inside our occupation zone, a terrible attack just occurred. During the night a few days ago, around 10 to 25 objects entered the small industrial district and started planting explosives on the factories. However, these objects must have lacked the knowledge to know that a patrol was wandering in the area and noticed the terrorist attack being set up. Screaming became shooting as a small engagement broke out. The small underequipped group was no match for our forces. However, only one factory was able to save in the chaos. The rest of the factories were blown to pieces. Luckily, everyone that was important was evacuated and our security forces took no losses. Only one object was captured who had no information that he was willing to give up."
+ YFC_BUN.20.a: "Those little sneaky anarchists..."
+
+ YFC_BUN.21.t: "Blocky M.I.A."
+ YFC_BUN.21.desc: "With the neo-Bunch anarchist revolt in progress of being cleared, an object has been unaccounted for: Blocky. He was at Podgornyv and was meant to have evacuated a few days ago. However, his supposed transport left without him and claimed that they thought a different transport group was meant to extract him. So due to this bureaucratic error we just lost a valuable ally, and don't worry the employees have suffered a loss in pay."
+ YFC_BUN.21.a: "Tragic."
+
+
 
 # YFC_CRN_SUB
 
@@ -904,6 +934,10 @@
  BUN_YFC.2.t: "We fucking lost"
  BUN_YFC.2.desc: "Rigged."
  BUN_YFC.2.a: "fr fr"
+
+ BUN_YFC.3.t: "An interesting discovery."
+ BUN_YFC.3.desc: "With our recapture of Podgornyv, the center of the once Great Bunch nation, we found an ex-Bunch member. Blocky was found at one of the last outposts after many of Yellow Face's security forces either died, surrendered, or fled. He claimed that he was always on our side and never wanted to betray us, but was forced to go along with Yellow Face. So then what should be the fate of this ally turned collaborator?"
+ BUN_YFC.3.a: "Screw all options! Kill him!"
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"

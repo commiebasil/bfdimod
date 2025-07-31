@@ -9088,7 +9088,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_focus_YFC_pen"
+		name = "GFX_focus_YFC_pen_shine"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_pen.dds"
 		effectFile = gfx/FX/buttonstate.lua
 		animation = {

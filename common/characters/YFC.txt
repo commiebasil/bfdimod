@@ -84,8 +84,18 @@ characters = {
 			idea_token = idea_YFC_Coiny
 			ledger = army
 			traits = { foreign_advisor }
-			available = { hidden_trigger = { has_completed_focus = YFC_focus_buy_defense_trainings } }
-			visible = { hidden_trigger = { has_completed_focus = YFC_focus_buy_defense_trainings } }
+			available = { 
+				hidden_trigger = { 
+					has_completed_focus = YFC_focus_buy_defense_trainings 
+					GMD = {has_war = no}
+				} 
+			}
+			visible = { 
+				hidden_trigger = { 
+					has_completed_focus = YFC_focus_buy_defense_trainings 
+					GMD = {has_war = no}
+				} 
+			}
 		}
 	}
 	YFC_tophat = {

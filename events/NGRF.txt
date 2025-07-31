@@ -367,3 +367,4 @@ country_event = {
 		name = WGF_event.21.a
 	}
 }
+
