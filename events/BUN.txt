@@ -45,6 +45,7 @@ country_event = {
 		add_war_support = 0.2
 		add_stability = 0.25
 		country_lock_all_division_template = no
+		remove_country_leader_trait = insurgent_leader
 		delete_unit_template_and_units = {
 			division_template = "Armed Insurgents"
 			disband = no 

@@ -31,38 +31,28 @@ units = {
 			name_order = 1
 		}
         location = 166
+        division_template = "Cavalry Guards"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.80
+    }
+	division= {
+        division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+        location = 4388 
         division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.7
-        start_equipment_factor = 0.98
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.95
     }
 	division= {
         division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-        location = 166
-        division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.6
-        start_equipment_factor = 0.97
-    }
-	division= {
-        division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-        location = 4388 
-        division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.6
-        start_equipment_factor = 0.97
-    }
-	division= {
-        division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
         location = 3655 
         division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.6
-        start_equipment_factor = 0.97
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.95
     }
 }

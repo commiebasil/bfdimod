@@ -14,9 +14,11 @@ focus_tree = {
 
 	initial_show_position = { focus = YFC_focus_open_the_market }
 
+ #STARTER PATH
+
 	focus = {
 		id = YFC_focus_consolidate_power
-		x = 13
+		x = 20
 		y = 0
 		icon = GFX_focus_YFC_consolidate_power
 
@@ -89,6 +91,118 @@ focus_tree = {
 		}
 	}
 
+ #ARMY PATH
+
+	focus = {
+		id = YFC_focus_the_grapes_and_the_cherries
+		relative_position_id = YFC_focus_consolidate_power
+		x = -6
+		y = 0
+		icon = GFX_focus_generic
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_establish_sectorialism
+			}
+		}
+		
+		#Okay so after rethinking I think it is better that the path is unlocked in the beginning then later
+		#I feel that only giving the path later hurts the player being able to have choice in free will in if they want to rush war or prepare a bit
+		#It feels that we want them to do what we want in the path and force the rush war
+		#Fight this in DMs if you want to but im having it unlock here though the ai will still rush war
+
+		allow_branch = { has_completed_focus = YFC_focus_establish_sectorialism }
+		
+		cost = 6
+		completion_reward = {
+			army_experience = 20
+			add_manpower = 2000
+		}
+	}
+
+	focus = {
+		id = YFC_focus_create_an_official_base
+		relative_position_id = YFC_focus_the_grapes_and_the_cherries
+		x = -2
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_the_grapes_and_the_cherries }
+		
+		cost = 6
+		completion_reward = {
+			army_experience = 10
+			custom_effect_tooltip = l_YFC_upgrade_army1
+			add_to_variable = { var_idea_YFC_corp_special_forces_attack_factor = 0.15 }
+			add_to_variable = { var_idea_YFC_corp_special_forces_defence_factor = 0.1 }
+		}
+	}
+
+	focus = {
+		id = YFC_focus_expand_operations
+		relative_position_id = YFC_focus_the_grapes_and_the_cherries
+		x = 2
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_the_grapes_and_the_cherries }
+		
+		cost = 6
+		completion_reward = {
+			add_manpower = 2000
+			201 = {
+				create_unit = {
+					division = "name = \"\" division_template = \"Mercenaries Brigade\" start_experience_factor = 0.5 start_equipment_factor = 0.85"
+					count = 1
+					owner = YFC
+				}
+			}
+			custom_effect_tooltip = l_YFC_upgrade_army2
+			add_to_variable = { var_idea_YFC_corp_special_forces_attack_factor = 0.1 }
+		}
+	}
+
+	focus = {
+		id = YFC_focus_form_better_logistics
+		relative_position_id = YFC_focus_create_an_official_base
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_create_an_official_base }
+		mutually_exclusive = { focus = YFC_focus_form_more_divisions }
+		
+		cost = 6
+		completion_reward = {
+			custom_effect_tooltip = l_YFC_upgrade_army3 #May be bugged
+			add_to_variable = { var_idea_YFC_corp_special_forces_no_supply_grace = 120 }
+		}
+	}
+
+	focus = {
+		id = YFC_focus_form_more_divisions
+		relative_position_id = YFC_focus_expand_operations
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_expand_operations }
+		mutually_exclusive = { focus = YFC_focus_form_better_logistics }
+		
+		cost = 6
+		completion_reward = {
+			add_manpower = 3500
+			201 = {
+				create_unit = {
+					division = "name = \"\" division_template = \"Mercenaries Brigade\" start_experience_factor = 0.5 start_equipment_factor = 0.85"
+					count = 1
+					owner = YFC
+				}
+			}
+		}
+	}
+
+ #MAIN PATH
+
 	focus = {
 		id = YFC_focus_the_southern_bandits
 		x = 8
@@ -115,6 +229,10 @@ focus_tree = {
 					random_hours = 12
 				}
 			}
+		}
+
+		ai_will_do = {
+			base = 2
 		}
 	}
 
@@ -207,7 +325,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 1
+			base = 2
 			modifier = {
 				factor = 10
 				has_country_flag = raiders_path
@@ -275,7 +393,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 1
+			base = 2
 			modifier = {
 				factor = 10
 				has_country_flag = money_path

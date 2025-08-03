@@ -163,6 +163,14 @@ idea_YFC_anarchic_lands = {
 	production_speed_supply_node_factor = var_idea_YFC_anarchic_lands_node
 }
 
+idea_YFC_corp = {
+	icon = GFX_idea_generic_war_preparation
+	
+	special_forces_attack_factor  = var_idea_YFC_corp_special_forces_attack_factor
+	special_forces_defence_factor  = var_idea_YFC_corp_special_forces_defence_factor
+	special_forces_no_supply_grace  = var_idea_YFC_corp_special_forces_no_supply_grace
+}
+
 idea_YFC_integration_YFC = { #YFC Buffs
 	icon = GFX_idea_generic_constitutional_guarantees
 

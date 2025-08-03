@@ -962,6 +962,21 @@
  YFC_focus_establish_sectorialism: "Establish Sectorialism"
  YFC_focus_establish_sectorialism_desc: "By allowing friendly competition between different parts of our corporation, we can guarentee that our production, and therefore our profits, will rise. Of course, we can't let one branch have too much power over the government, that would just be foolish."
 
+ YFC_focus_the_grapes_and_the_cherries: "The Grapes and The Cherries"
+ YFC_focus_the_grapes_and_the_cherries_desc: "So our force is good but still kinda bad so some upgrades are needed" #Write pls
+
+ YFC_focus_create_an_official_base: "Create an Official Base"
+ YFC_focus_create_an_official_base_desc: "An HQ in footpathburg is a very cool and good idea" #Write pls
+
+ YFC_focus_expand_operations: "Expand Operations"
+ YFC_focus_expand_operations_desc: "More objects to wage more war and protection" #Write pls
+
+ YFC_focus_form_better_logistics: "Form better Logistics"
+ YFC_focus_form_better_logistics_desc: "We put efforts into supply management and storage for longer supply" #Write pls
+
+ YFC_focus_form_more_divisions: "Form more Divisions"
+ YFC_focus_form_more_divisions_desc: "We put efforts into more hiring of obejcts" #Write pls
+
  YFC_focus_the_southern_bandits: "The Southern Bandits"
  YFC_focus_the_southern_bandits_desc: "Those bandits to the south of us are seriously raising concern among our employees. Some of which are scared of a possible attack, and others who believe we should be taking advantage of them. Only time will tell what happens to the bandits, but we must make sure we're ahead of them at all times."
 

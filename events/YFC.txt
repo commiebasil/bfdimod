@@ -2689,6 +2689,9 @@ country_event = { #Annex Events 4
 			add_compliance = 40
 			add_resistance = -50
 			set_demilitarized_zone = yes
+			add_dynamic_modifier = {
+				modifier = BUN_autonomous_state
+			}
 		}
 		212 = {add_compliance = 10}
 		hidden_effect = {
