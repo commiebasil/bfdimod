@@ -171,6 +171,17 @@
  YFC_BUN_recruit_locals: "§GRecruit§! local §YObjects§!"
  YFC_BUN_Countdown: "Countdown to §RFailure!§!"
  YFC_BUN_Countdown_desc: "Resistance movements are at a climax! Riots are in our cities, fighting in the hills, and burning of the rails all in our occupation zones. Should we let this go on, we may have much larger problems arrive..."
+
+ decision_CRN_BUN_category: "Building The Bunch"
+ decision_CRN_BUN_category_desc: "Despite Yellow Face's claims, there is still a future for the Bunch! We must aid rebel groups to hopefully create a revolt against The Company!"
+ CRN_BUN_85_Fund: "Fund §RResistance§! in §YGoiky Hills§!"
+ CRN_BUN_212_Fund: "Fund §RResistance§! in §YOuter Snow plateau§!"
+ CRN_BUN_217_Infrastructure: "Build §GInfrastructure§! in §YRainy - Hills Pass§!"
+ CRN_BUN_218_Infrastructure: "Build §GInfrastructure§! in §YSnowy Pre-Plateau§!"
+ CRN_BUN_Secretly_Funnel: "Secretly Funnel §RWeapons§! to §YBunch Rebels§!"
+ CRN_BUN_Provide: "Provide §RWeapons§! to §YBunch Rebels§!"
+ CRN_BUN_Sleep_Cells: "Ablisablish §RSleeper Cells§! in our §YOccupation Zone§!"
+
  #BUN State Modifiers 
  BUN_lesser_state: "Lesser State"
  BUN_autonomous_state: "Autonomous State"

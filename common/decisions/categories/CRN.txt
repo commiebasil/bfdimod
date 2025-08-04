@@ -1,0 +1,16 @@
+decision_CRN_BUN_category = {
+	allowed = { tag = CRN }	
+	visible = { 
+		YFC = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			NOT = {has_completed_focus = YFC_focus_fully_cored}
+		}
+		check_variable = {
+			var_CRN_BUN_Support > 0
+		}
+	}
+	priority = 10
+	picture = GFX_decision_cat_GFG_reconstruction #Change later plz
+	icon = GFX_decision_category_spr_the_seeds_of_revolution
+	visible_when_empty = yes
+}

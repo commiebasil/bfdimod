@@ -1,6 +1,3 @@
-#BUN Epic raids!!!!!!!!!!!!!!!!!!!!!
-#Might update Raid events but for now will stay as the YFC ones
-#More of an base to expand later so will be redone one day
 
 decision_BUN_raids_category = {
 	BUN_raid_state_201 = {
@@ -22,16 +19,6 @@ decision_BUN_raids_category = {
 			}
 			NOT = {
 				is_puppet = yes
-			}
-			NOT = {
-				AND = {
-					YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
-					divisions_in_state = {
-						type = infantry
-						size > 2
-						state = 201
-					}
-				}
 			}
 			has_border_war = no
 			has_war = no
@@ -68,7 +55,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -143,7 +130,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -218,7 +205,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -293,7 +280,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -342,16 +329,6 @@ decision_BUN_raids_category = {
 						NOT = { is_guaranteed_by = YFC }
 						NOT = { has_military_access_to = YFC }
 						NOT = { is_puppet = yes }
-						NOT = {
-							AND = {
-								YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
-								divisions_in_state = {
-									type = infantry
-									size > 2
-									state = 214
-								}
-							}
-						}
 					}
 				}
 			}
@@ -381,22 +358,47 @@ decision_BUN_raids_category = {
 				}
 			}
 
-			start_border_war = {
-				change_state_after_war = no
-				attacker = {
-					state = 85
-					num_provinces = 1
-					on_win = YFC_borderwars.1
-					on_lose = YFC_borderwars.2
-					modifier = 0.5
-     				terrain_factor = 0.5
-				}	
-				defender = {
-					state = 214
-					num_provinces = 1
-					on_win = YFC_borderwars.3
-					on_lose = BUN_borderwars.5
-					dig_in_factor = 2
+			IF = {
+				limit = {
+					YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
+				}
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = 85
+						num_provinces = 1
+						on_win = YFC_borderwars.1
+						on_lose = YFC_borderwars.2
+						modifier = 0.3
+						terrain_factor = 0.5
+					}	
+					defender = {
+						state = 214
+						num_provinces = 1
+						on_win = YFC_borderwars.3
+						on_lose = BUN_borderwars.5
+						dig_in_factor = 2
+					}
+				}
+			}
+			ELSE = {
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = 85
+						num_provinces = 1
+						on_win = YFC_borderwars.1
+						on_lose = YFC_borderwars.2
+						modifier = 0.65
+						terrain_factor = 0.5
+					}	
+					defender = {
+						state = 214
+						num_provinces = 1
+						on_win = YFC_borderwars.3
+						on_lose = BUN_borderwars.5
+						dig_in_factor = 2
+					}
 				}
 			}
 		}
@@ -469,7 +471,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -546,7 +548,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {

@@ -341,13 +341,13 @@ on_actions = {
 							}
 						}
 						85 = {
-							set_compliance = 80
+							set_compliance = 90
 							add_dynamic_modifier = {
 								modifier = BUN_lesser_state
 							}
 						}
 						212 = {
-							set_compliance = 80
+							set_compliance = 90
 							add_dynamic_modifier = {
 								modifier = BUN_lesser_state
 							}

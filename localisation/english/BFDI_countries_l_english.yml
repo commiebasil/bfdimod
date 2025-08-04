@@ -74,9 +74,9 @@
  BUN_DEF: "Bunch"
  BUN_ADJ: "Raiders"
 
- BUN_revolt: "Bunch Republic"
- BUN_revolt_DEF: "Bunch Republic"
- BUN_revolt_ADJ: "Neo-Bunch"
+ BUN_revolt: "Neo-Bunch"
+ BUN_revolt_DEF: "Neo-Bunch"
+ BUN_revolt_ADJ: "Neo-Bunchivists"
  
  SRR: "GGRR Administration - South"
  SRR_DEF: "GGRR - South"

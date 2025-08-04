@@ -18,7 +18,7 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_consolidate_power
-		x = 20
+		x = 17
 		y = 0
 		icon = GFX_focus_YFC_consolidate_power
 
@@ -96,7 +96,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_the_grapes_and_the_cherries
 		relative_position_id = YFC_focus_consolidate_power
-		x = -6
+		x = -5
 		y = 0
 		icon = GFX_focus_generic
 		available = {
@@ -205,7 +205,7 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_the_southern_bandits
-		x = 8
+		x = 5
 		y = 0
 		icon = GFX_focus_YFC_southern_bandits
 		
@@ -751,11 +751,11 @@ focus_tree = {
 		icon = GFX_focus_YFC_look_inward
 		available = {
 			hidden_trigger = {
-				has_country_flag = Won_War_BUN
+				#has_country_flag = Won_War_BUN
 			}
 		}
 		
-		allow_branch = { has_country_flag = Won_War_BUN }
+		#allow_branch = { has_country_flag = Won_War_BUN }
 		
 		cost = 2
 		completion_reward = {
@@ -779,7 +779,7 @@ focus_tree = {
 		#in exchange, bunchivists will help the crn with their internal communist problems
 		#you get a decisions mechanic like the snowy reich one
 
-		#if you choose the new society option, you'll the process of attempting to force the bunch to become capitalistic
+		#if you choose the new society option, you'll the process of attempting to force the   bunch to become capitalistic
 		#complete with an election mechanic!!
 		#there are three candidates, yfc favors blocky, numismatia favors pen, bunch wants eraser to stay
 		#an event chain spanning half a year and 14 events gives you the ability to react to certain happenings
@@ -806,6 +806,9 @@ focus_tree = {
 				id = YFC_BUN.1
 				hour = 1
 				random_hours = 2
+			}
+			hidden_effect = {
+				CRN = {set_political_power = 100}
 			}
 		}
 	}

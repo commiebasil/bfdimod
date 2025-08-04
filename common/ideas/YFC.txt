@@ -43,9 +43,8 @@ ideas = {
 		idea_YFC_at_the_finish_line = {
 			picture = generic_morale_bonus
 			modifier = {
-				compliance_growth = 0.5
-				resistance_growth = 0.25
-				required_garrison_factor = -0.25
+				compliance_growth = 1
+				resistance_growth = 1
 			}
 		}
 	}

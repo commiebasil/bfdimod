@@ -2163,6 +2163,7 @@ country_event = {
 		name = YFC_BUN.2.a
 		custom_effect_tooltip = l_YFC_BUN_3
 		hidden_effect = {
+			set_variable = {var_CRN_BUN_Support = 2} #Remove Later
 			YFC = {
 				country_event = {
 					id = YFC_BUN.3
@@ -2177,6 +2178,7 @@ country_event = {
 		name = YFC_BUN.2.b
 		custom_effect_tooltip = l_YFC_BUN_4
 		hidden_effect = {
+			set_variable = {var_CRN_BUN_Support = 2} #1
 			YFC = {
 				country_event = {
 					id = YFC_BUN.3
@@ -2197,6 +2199,7 @@ country_event = {
 			add_opinion_modifier = { target = YFC modifier = betrayed_alliance }
 		}	
 		hidden_effect = {
+			set_variable = {var_CRN_BUN_Support = 2}
 			YFC = {
 				country_event = {
 					id = YFC_BUN.4
@@ -2339,7 +2342,7 @@ country_event = {
 	}
 }
 
-country_event = { #Round Two For Bunch!
+country_event = {
 	#I will add being able to play as BUN later when it is all working
 	id = YFC_BUN.8
 	title = YFC_BUN.8.t
@@ -2351,7 +2354,8 @@ country_event = { #Round Two For Bunch!
 	option = { 
 		name = YFC_BUN.8.a
 		custom_effect_tooltip = l_YFC_BUN_8
-		add_war_support = -0.1
+		add_war_support = -0.2
+		add_stability = -0.05
 		add_political_power = -200
 		hidden_effect = {
 			if = {
@@ -2366,7 +2370,7 @@ country_event = { #Round Two For Bunch!
 			}
 
 			BUN = {
-				add_manpower = 7500
+				add_manpower = 10000
 				add_offsite_building = { type = arms_factory level = 1 }
 				add_dynamic_modifier = { modifier = idea_BUN_Ticking_Bomb }
 				remove_ideas = idea_BUN_criminal_state
@@ -2390,63 +2394,64 @@ country_event = { #Round Two For Bunch!
 					is_locked = yes
 					division_cap = 15
 					force_allow_recruiting = yes
-					priority = 0
+					priority = 2
 					regiments = {
 						irregular_infantry = { x = 0 y = 0 }
 						irregular_infantry = { x = 0 y = 1 }
 						irregular_infantry = { x = 0 y = 2 }
+						irregular_infantry = { x = 0 y = 3 }
 					}
 				}
 			}	
 			85 = {
 				add_resistance = -75
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 5360
-					id = 1111111
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 11196
-					id = 77777
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.8 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 4872
-					id = 44444
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.8 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 3944
-					id = 55555
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.8 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 1932
-					id = 888888
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.95 start_experience_factor = 0.35"
+					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.5 start_experience_factor = 0.35"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 11220
-					id = 666666
+					id = 1967
 				}
 				create_unit = {
 					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.4 start_experience_factor = 0.05"
@@ -2454,7 +2459,7 @@ country_event = { #Round Two For Bunch!
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 5679
-					id = 333333
+					id = 1967
 				}
 				add_dynamic_modifier = {
 					modifier = BUN_revolt_support
@@ -2464,20 +2469,20 @@ country_event = { #Round Two For Bunch!
 			212 = {
 				add_resistance = -50
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.8 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 2838
-					id = 22222
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.8 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 3594
-					id = 333333
+					id = 1967
 				}
 				create_unit = {
 					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.4 start_experience_factor = 0.05"
@@ -2485,11 +2490,42 @@ country_event = { #Round Two For Bunch!
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 4249
-					id = 333333
+					id = 1967
 				}
 				add_dynamic_modifier = {
 					modifier = BUN_revolt_support
 					days = 730
+				}
+			}
+			IF = {
+				limit = {
+					BUN = {
+						has_country_flag = CRN_BUN_Sleeper_Cells_On
+					}
+					AND = {
+						owns_state = 217
+						owns_state = 218
+					}					
+				}
+				217 = {
+					create_unit = {
+						division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.2 start_experience_factor = 0.2"
+						owner = BUN
+						count = 1
+						allow_spawning_on_enemy_provs = yes
+						prioritize_location = 11260
+						id = 1967
+					}
+				}
+				218 = {
+					create_unit = {
+						division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.2 start_experience_factor = 0.2"
+						owner = BUN
+						count = 1
+						allow_spawning_on_enemy_provs = yes
+						prioritize_location = 4581
+						id = 1967
+					}
 				}
 			}
 		}
