@@ -212,13 +212,13 @@ focus_tree = {
 		available = {
 			hidden_trigger = {
 				has_completed_focus = YFC_focus_establish_sectorialism
+				NOT = {has_completed_focus = YFC_focus_a_look_inward}
 			}
 		}
 		
 		allow_branch = { has_completed_focus = YFC_focus_establish_sectorialism }
 
 		cost = 6
-		#gives event talking abt a raid
 		completion_reward = {
 			country_event = YFC_event.2
 			hidden_effect = {

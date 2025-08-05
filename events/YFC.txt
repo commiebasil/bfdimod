@@ -2527,6 +2527,7 @@ country_event = {
 						id = 1967
 					}
 				}
+				BUN = {clr_country_flag = CRN_BUN_Sleeper_Cells_On}
 			}
 		}
 	}

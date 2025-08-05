@@ -181,6 +181,9 @@
  CRN_BUN_Secretly_Funnel: "Secretly Funnel §RWeapons§! to §YBunch Rebels§!"
  CRN_BUN_Provide: "Provide §RWeapons§! to §YBunch Rebels§!"
  CRN_BUN_Sleep_Cells: "Ablisablish §RSleeper Cells§! in our §YOccupation Zone§!"
+ CRN_BUN_Send_Zone: "Send our §GOccupation Zone§! to the §YNeo-Bunchivists§!"
+ CRN_BUN_Deal: "Sign an §GAgreement§! with §YNeo-Bunch§!"
+ CRN_BUN_Deal_desc: "Neo-Bunch is in need of Advisors that can improve their mostly underequipped and untrained army. While we are in need with the growing Communist presence. So logical a deal can be made, our advisors for them to remove... some rivals."
 
  #BUN State Modifiers 
  BUN_lesser_state: "Lesser State"
