@@ -35,6 +35,59 @@ decision_YFC_BUN_category = {
 		}
 	}
 
+	YFC_BUN_Revolt_Victory = {
+	    activation = {
+			country_exists = BUN
+			BUN = {
+				has_dynamic_modifier = {
+					modifier = idea_BUN_Ticking_Bomb
+				}
+				has_war_with = YFC
+			}
+			AND = { 
+				OR = {
+					AND = {
+						BUN = {controls_state = 85}
+						BUN = {controls_state = 212}
+						OR = {
+							CRN = {
+								AND = {
+									controls_state = 217
+									controls_state = 218
+								}
+							}
+							AND = {
+								BUN = {controls_state = 217}
+								BUN = {controls_state = 218}
+							}
+						}
+					}
+					BUN {controls_state = 201}
+				}
+			}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {has_war_with = BUN}
+				OR = {
+					controls_state = 85
+					controls_state = 212
+					controls_state = 217
+					controls_state = 218
+				}
+			}
+		}
+		icon = GFX_decision_eng_puppet_usa  
+		is_good = no
+		days_mission_timeout = 45
+		timeout_effect = {
+
+        }
+    }
+
 	YFC_BUN_85_Growing = {
 		activation = {
 			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
@@ -66,6 +119,12 @@ decision_YFC_BUN_category = {
 			}
 			hidden_effect = {
 				add_to_variable = { var_YFC_BUN_Anger = 0.5 }
+				IF = {
+					limit = {
+						is_ai = yes
+					}
+					add_political_power = 10
+				}
 			}
 		}
 	}
@@ -101,10 +160,50 @@ decision_YFC_BUN_category = {
 			}
 			hidden_effect = {
 				add_to_variable = { var_YFC_BUN_Anger = 0.5 }
+				IF = {
+					limit = {
+						is_ai = yes
+					}
+					add_political_power = 10
+				}
 			}
 		}
 	}
 
+	YFC_BUN_Ceasefire = {
+		icon = GFX_decision_generic_form_nation
+    
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			has_active_mission = YFC_BUN_Revolt_Victory
+			surrender_progress > 0.1
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		remove_effect = {
+			add_political_power = -25
+			hidden_effect = {
+				BUN = {
+					country_event = {
+						id = BUN_YFC.1
+						hours = 1
+						random_hours = 3
+					}
+				}
+			}
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 100
+				surrender_progress > 0.5
+			}
+		}
+	}
 
 	YFC_BUN_85_Counter = {
 		icon = GFX_decision_generic_prepare_civil_war
@@ -467,12 +566,14 @@ decision_YFC_BUN_category = {
 			212 = {
 				compliance > 50
 			}
+			NOT = {controls_state = 217}
+			NOT = {controls_state = 218}
 		}
 
 		fire_only_once = yes
 
 		cost = 50
-		days_remove = 5
+		days_remove = 10
 
 		remove_effect = {
 			CRN = {

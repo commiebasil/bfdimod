@@ -771,6 +771,7 @@
  YFC_BUN.8.t: "A Rematch!"
  YFC_BUN.8.desc: "The riots got too large. Way larger than we could ever handle with a police force. Not even the military could push back the rioters at first, or the 'Neo-Bunchivists' as they call themselves. Not really 'neo' if your predecessor existed less than a few years ago. Regardless, They've taken control of the outskirts of Podgornyv at this point, and we can't hold them back with what we have. Additionally, Coiny and his men are dealing with larger events, and we won't be able to get ahold of them without large sums of money. Not to mention the travel times. So we'll have to rely on the Military Sector and our Mercenaries.\nThe Bandits, despite their combined efforts, aren't just attacking us, they're attacking the combined system of capitalism. If this is war, so be it, we'll win!"
  YFC_BUN.8.a: "Let Them Try."
+ YFC_BUN.8.b: "Break The Chains!"
 
  YFC_BUN.9.t: "Placing the Pawns"
  YFC_BUN.9.desc: "The first step to annex any occupied lands, especially anarchist ones, is the very clear need of leadership of the zone. Sure, we could have a sectorial or Yellow Face himself lead, but maybe we could have a local object be in control. However, that local may also be a supporter... or maybe not?"
@@ -833,7 +834,7 @@
  YFC_BUN.17.t: "The Company Demands our Occupation Zone!"
  YFC_BUN.17.desc: "The evitable, is now inevitable for us. A few hours ago, we received a telegram from The Yellow Face Company demanding our occupation zone. If we agree to demands, we will at least keep our friendly relations with them. If not... that might have some interesting consequences for the future. After a few hours of discussions, we voted on..."
  YFC_BUN.17.a: "Handing over our occupation zone."
- YFC_BUN.17.b: "Handing over our occupation zone."
+ YFC_BUN.17.b: "Denying this empty threat!"
 
  YFC_BUN.18.t: "Numismatia yields to our demands!"
  YFC_BUN.18.desc: "After a few days of waiting, we got our response that Numismatia is willing to hand over their occupation zone to us. This is a great day for the company and our employees."
@@ -846,12 +847,16 @@
  YFC_BUN.19.c: "Guess we'll fold..."
 
  YFC_BUN.20.t: "Ex-Bunch industry destroyed!"
- YFC_BUN.20.desc: "With our security forces still setting up inside our occupation zone, a terrible attack just occurred. During the night a few days ago, around 10 to 25 objects entered the small industrial district and started planting explosives on the factories. However, these objects must have lacked the knowledge to know that a patrol was wandering in the area and noticed the terrorist attack being set up. Screaming became shooting as a small engagement broke out. The small underequipped group was no match for our forces. However, only one factory was able to save in the chaos. The rest of the factories were blown to pieces. Luckily, everyone that was important was evacuated and our security forces took no losses. Only one object was captured who had no information that he was willing to give up."
+ YFC_BUN.20.desc: "With our security forces still setting up inside our occupation zone, a terrible attack just occurred. During the night a few days ago, around 10 to 25 objects entered the small industrial district of Podgornyv and started planting explosives on the factories. However, these objects must have lacked the knowledge to know that a patrol was wandering in the area and noticed the terrorist attack being set up. Screaming became shooting as a small engagement broke out. The small underequipped group was no match for our forces. However, only one factory was able to save in the chaos. The rest of the factories were blown to pieces. Luckily, everyone that was important was evacuated and our security forces took no losses. Only one object was captured who had no information that he was willing to give up."
  YFC_BUN.20.a: "Those little sneaky anarchists..."
 
  YFC_BUN.21.t: "Blocky M.I.A."
  YFC_BUN.21.desc: "With the neo-Bunch anarchist revolt in progress of being cleared, an object has been unaccounted for: Blocky. He was at Podgornyv and was meant to have evacuated a few days ago. However, his supposed transport left without him and claimed that they thought a different transport group was meant to extract him. So due to this bureaucratic error we just lost a valuable ally, and don't worry the employees have suffered a loss in pay."
  YFC_BUN.21.a: "Tragic."
+
+ YFC_BUN.22.t: "Spark Turned Fires!"
+ YFC_BUN.22.desc: "Our efforts have bore fruit, as the Bunch rebels (now called Neo-Bunch) have revolted against The Yellow Face Company. This is a great outcome for undermining their greedy takeover and may give us the tools to become stronger than them. For now, we must make careful but decisive moves."
+ YFC_BUN.22.a: "Crash the Company!"
 
 
 # YFC_CRN_SUB
@@ -937,6 +942,20 @@
  BUN_YFC.3.t: "An interesting discovery."
  BUN_YFC.3.desc: "With our recapture of Podgornyv, the center of the once Great Bunch nation, we found an ex-Bunch member. Blocky was found at one of the last outposts after many of Yellow Face's security forces either died, surrendered, or fled. He claimed that he was always on our side and never wanted to betray us, but was forced to go along with Yellow Face. So then what should be the fate of this ally turned collaborator?"
  BUN_YFC.3.a: "Screw all options! Kill him!"
+
+ BUN_YFC.4.t: "Now to the realities..."
+ BUN_YFC.4.desc: "So we have done it, we have secured our independence. As our civilian fighters are returning back to their homes and things are returning to the pre-war days, they really aren't. The old Bunch that once ruled the land is either dead, missing, or unfortunately with Yellow Face. The old ideas and goals they had are now gone and the already very unstable nation that was held together by banditry is also gone. For now, everything seems fine, but our authority is only really in the capital and non-existent elsewhere."
+ BUN_YFC.4.a: "Broken, but not yet lost."
+
+ BUN_YFC.5.t: "Further United?"
+ BUN_YFC.5.desc: "It's been a few weeks since our victory against our occupiers. Everything has still remained mostly stable for the time being. However, an interesting offer from our friends in the south showed up. It is an agreement to have our countries into an alliance. Dubbed the 'Southern Trading League', it would allow great trading deals to be implemented and improvements to our forces. With our current situation it is a good deal, but we could also go down our own path. After some thinking, we decided that.."
+ BUN_YFC.5.a: "United till the end!"
+ BUN_YFC.5.b: "We'll chart our own course now."
+
+ BUN_YFC.6.t: "A Ceasefire?"
+ BUN_YFC.6.desc: "Our ongoing war to suppress these Neo-Bunch anarchists has hit a deadlock. The sectorials have gotten rowdy with our terrible handling of the war. So when we received an offer from Neo-Bunch on a potential ceasefire, it seemed interesting to save face. The offer itself is simple, us losing all gained territory for them demilitarizing Snowpath and some resource rights. Every Sectorial wants to go through with this deal, as it still means we get something for our efforts. Well, almost every Sectorial... Top Hat wants to put all resources into one last offensive to end Neo-Bunch. Either option is not the greatest, but do we make peace while we can or risk it all?"
+ BUN_YFC.6.a: "Agree to the Ceasefire."
+ BUN_YFC.6.b: "ALL IN!"
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"

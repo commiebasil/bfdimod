@@ -171,6 +171,10 @@
  YFC_BUN_recruit_locals: "§GRecruit§! local §YObjects§!"
  YFC_BUN_Countdown: "Countdown to §RFailure!§!"
  YFC_BUN_Countdown_desc: "Resistance movements are at a climax! Riots are in our cities, fighting in the hills, and burning of the rails all in our occupation zones. Should we let this go on, we may have much larger problems arrive..."
+ YFC_BUN_Revolt_Victory: "§RNearing Defeat!§!"
+ YFC_BUN_Revolt_Victory_desc: "Neo-Bunch holds all of their states! If we fail to counter attack and regain control of one of their states, we will have to suffer the reality of an independent Bunch!"
+ YFC_BUN_Ceasefire: "Accept §RDefeat§!"
+ YFC_BUN_Ceasefire_desc: "Despite all of our efforts, with some of our core territory under Neo-Bunch control, it is time to accept their independence. It may sting and lead to issues later on, but losing the Company would be much worse."
 
  decision_CRN_BUN_category: "Building The Bunch"
  decision_CRN_BUN_category_desc: "Despite Yellow Face's claims, there is still a future for the Bunch! We must aid rebel groups to hopefully create a revolt against The Company!"
@@ -184,11 +188,31 @@
  CRN_BUN_Send_Zone: "Send our §GOccupation Zone§! to the §YNeo-Bunchivists§!"
  CRN_BUN_Deal: "Sign an §GAgreement§! with §YNeo-Bunch§!"
  CRN_BUN_Deal_desc: "Neo-Bunch is in need of Advisors that can improve their mostly underequipped and untrained army. While we are in need with the growing Communist presence. So logical a deal can be made, our advisors for them to remove... some rivals."
+ CRN_BUN_Opportunity: "§RWindow of Opportunity§!"
+ CRN_BUN_Opportunity_desc: "We have a chance to enter the war ourselves while Yellow Face is on the backfoot! However, this move is very unpopular with our population and our army. We will have low support and maybe even draft dodging, but it may be worth it to end the Yellow Face dominance!"
+ CRN_BUN_Manpower: "Send §RVolunteers§!"
+ CRN_BUN_Convert: "Convert §RLocal Soldiers§! in §YPodgornyv§!"
+ CRN_BUN_Revolt_Victory: "§GVictory Near!§!"
+ CRN_BUN_Revolt_Victory_desc: "Neo-Bunch holds all of their states! Should they just hold on a little longer, Yellow Face will have to accept their independence and our efforts!"
 
  #BUN State Modifiers 
  BUN_lesser_state: "Lesser State"
  BUN_autonomous_state: "Autonomous State"
  BUN_revolt_support: "Neo-Bunch Support"
 
- YFC_BUN_Ticking: "§RWaning Strength!§!"
+ decision_BUN_Revolt_category: "Breaking the Company"
+ decision_BUN_Revolt_category_desc: "These capitalists under Yellow Face thought it was over? That we would just submit to their oppression? That they rule over our lands, homes, and objects?\n\n§RToo bad it's not over yet.§!"
+ BUN_Revolt_Ticking: "§RWaning Strength!§!"
+ BUN_Revolt_Ticking_desc: "Despite all efforts, we are running a thin budget for everything. Our strength is slowly being sapped by time itself. We must keep going on the attack before all is lost!"
+ BUN_Revolt_Recruit: "Recruit §RCivilians§!"
+ BUN_Efforts_Workshops: "Setup Volunteer §YWorkshops§!"
+ BUN_Efforts_Production: "Put Efforts into §YProduction§!"
+ BUN_Efforts_Defence: "Put Efforts into §YDefence§!"
+ BUN_Efforts_Offense: "Put Efforts into §YOffense§!"
+ BUN_Efforts_Scavenging: "Put Efforts into §YScavenging§!"
+ BUN_Ceasefire: "Offer §RCeasefire§! to the §YYellow Face Corporation§!"
+ BUN_Ceasefire_desc: "With the current war in a stalemate and our position not as great as it used to be, we could offer a deal for peace. In exchange for ending the war and us gaining all of our core states, we demilitarize Snowpath and offer resource rights."
+ BUN_Revolt_Victory: "§GVictory In Sight!§!"
+ BUN_Revolt_Victory_desc: "We hold all of our states! If we just hold on a little longer, Yellow Face will have no choice but to accept our independence!"
+ 
 

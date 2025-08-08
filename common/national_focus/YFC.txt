@@ -213,6 +213,7 @@ focus_tree = {
 			hidden_trigger = {
 				has_completed_focus = YFC_focus_establish_sectorialism
 				NOT = {has_completed_focus = YFC_focus_a_look_inward}
+				has_war = no
 			}
 		}
 		
@@ -308,7 +309,7 @@ focus_tree = {
 			YFC = { give_guarantee = BUN }
 			BUN = { give_guarantee = YFC }
 			hidden_effect = {
-				add_threat = 0.25
+				add_threat = 0.3
 				#Hidden buff so GGR does not fall quickly
 				IF = {
 					limit = {GGR = {is_ai = yes}}
@@ -547,7 +548,7 @@ focus_tree = {
 						random_hours = 36
 					}
 				}
-				add_threat = 1
+				add_threat = 2
 			}
 			mark_focus_tree_layout_dirty = yes
 		}
@@ -619,7 +620,7 @@ focus_tree = {
 			add_ideas = idea_YFC_show_no_mercy
 			country_event = {
 				id = YFC_event.9
-				hour = 1
+				hours = 1
 			}
 		}
 	}
@@ -639,7 +640,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = YFC_event.10
-				hour = 1
+				hours = 1
 			}
 			custom_effect_tooltip = l_YFC_raids1
 		}
@@ -771,8 +772,6 @@ focus_tree = {
 		icon = GFX_focus_YFC_bunchivist_problem
 		prerequisite = { focus = YFC_focus_a_look_inward }
 		cost = 8
-		#gives an event that lets you send a message to the crn, in which you can choose to tell them that you will be annexing all former bunch territory
-		#or you can tell them that you wish to work with them to make a new reformed bunch society
 
 		#if you choose to tell the crn that you'll be annexing the occupation zone, they have a 50% chance of saying okay
 		#and a 50% chance of saying "no", and they'll begin to work with bunchivist rioters to keep you from doing so
@@ -804,7 +803,7 @@ focus_tree = {
 			}
 			country_event = {
 				id = YFC_BUN.1
-				hour = 1
+				hours = 1
 				random_hours = 2
 			}
 			hidden_effect = {
@@ -831,7 +830,7 @@ focus_tree = {
 			add_to_variable = { var_idea_YFC_anarchic_lands_repair = 0.25 }
 			country_event = {
 				id = YFC_event.12
-				hour = 1
+				hours = 1
 				random_hours = 2
 			}
 		}
@@ -872,13 +871,13 @@ focus_tree = {
 				}
 				country_event = {
 					id = YFC_event.14
-					hour = 1
+					hours = 1
 				}
 			}
 			ELSE = {
 				country_event = {
 					id = YFC_event.11
-					hour = 1
+					hours = 1
 				}
 			}
 		}
@@ -1015,7 +1014,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = YFC_event.15
-				hour = 1
+				hours = 1
 			}
 		}
 	}
@@ -1033,7 +1032,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = YFC_event.19
-				hour = 1
+				hours = 1
 			}
 		}
 	}
@@ -1077,7 +1076,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = YFC_event.13
-				hour = 1
+				hours = 1
 			}
 		}
 	}
@@ -1105,7 +1104,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = YFC_BUN.5
-				hour = 1
+				hours = 1
 			}
 		}
 	}

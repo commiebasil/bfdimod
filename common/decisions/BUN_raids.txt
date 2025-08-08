@@ -22,6 +22,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -97,6 +98,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -172,6 +174,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -247,6 +250,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -332,6 +336,7 @@ decision_BUN_raids_category = {
 					}
 				}
 			}
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -438,6 +443,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -515,6 +521,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -527,8 +534,27 @@ decision_BUN_raids_category = {
  					type = infrastructure
   					damage = 0.5
 				}
+				hidden_effect = {
+					IF = {
+						limit = {
+							controller = {is_ai = yes}
+						}						
+						random = {
+							chance = 100 #20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
+				}
 			}
 			
+
+
 			if = {
 				limit = {
 					is_ai = yes
@@ -564,7 +590,7 @@ decision_BUN_raids_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 10
+				add = 1000 #10
 				has_political_power > 75
 			}
 			modifier = {

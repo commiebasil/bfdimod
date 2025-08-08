@@ -14,16 +14,7 @@ ideas = {
 				tag = BUN
 				defense_bonus_against = 0.1
 			}
-			cancel = {
-				OR = {
-					BUN = {
-						has_government = democratic 
-					}
-					NOT = {
-						country_exists = BUN
-					}
-				}
-			}
+			cancel = {NOT = {country_exists = BUN}}
 		}
 
 		idea_YFC_show_no_mercy = {
@@ -44,7 +35,29 @@ ideas = {
 			picture = generic_morale_bonus
 			modifier = {
 				compliance_growth = 1
-				resistance_growth = 1
+				resistance_growth = 0.5
+			}
+		}
+
+		idea_YFC_operation_enforcement = {
+			picture = CZE_planning_bonus
+			targeted_modifier = {
+				tag = BUN
+				defense_bonus_against = 0.35
+				attack_bonus_against = 0.75
+			}
+			modifier = {
+				supply_consumption_factor = -0.1
+				ai_focus_aggressive_factor = 2
+			}
+			cancel = {NOT = {country_exists = BUN}}
+			on_remove = {
+				if = {
+					limit = { country_exists = BUN }
+					BUN = {country_event = BUN_YFC.1}
+					add_war_support = -0.05
+					add_political_power = -100
+				}
 			}
 		}
 	}

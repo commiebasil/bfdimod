@@ -645,22 +645,27 @@ news_event = {
 	immediate = {
 		set_global_flag = fall_of_podgornyv
 		hidden_effect = {
-			85 = {
-				create_unit = {
-					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.15 start_experience_factor = 0.1"
-					owner = BUN
-					count = 1
-					allow_spawning_on_enemy_provs = no
-					prioritize_location = 4872
-					id = 10
+			IF = {
+				limit = {
+					NOT = {BUN = {has_cosmetic_tag = BUN_revolt}}
 				}
-				create_unit = {
-					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.15 start_experience_factor = 0.1"
-					owner = BUN
-					count = 1
-					allow_spawning_on_enemy_provs = no
-					prioritize_location = 11195
-					id = 11
+				85 = {
+					create_unit = {
+						division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.15 start_experience_factor = 0.1"
+						owner = BUN
+						count = 1
+						allow_spawning_on_enemy_provs = no
+						prioritize_location = 4872
+						id = 10
+					}
+					create_unit = {
+						division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.15 start_experience_factor = 0.1"
+						owner = BUN
+						count = 1
+						allow_spawning_on_enemy_provs = no
+						prioritize_location = 11195
+						id = 11
+					}
 				}
 			}
 		}

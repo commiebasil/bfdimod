@@ -354,6 +354,14 @@ on_actions = {
 						}
 						217 = {add_compliance = 40}
 						218 = {add_compliance = 40}
+						IF = {
+							limit = {YFC = {has_war_with = CRN}}
+							CRN = {
+								white_peace = YFC
+								add_war_support = -0.25
+								add_political_power = -50
+							}
+						}
 					}
 				else = {
 					FROM = {
