@@ -818,20 +818,20 @@
  #TBH the writing I feel is ass for event 16 but 1am me might be tired. 
  #All are the same event but with diffrent checks if X thing happened or not
 
- YFC_BUN.16.t.a: "Rights of Defence."
+ YFC_BUN.16.t.a: "Rights of Defence." #IF revolt somehow already happened
  YFC_BUN.16.desc.a: "It should have been easy... right? There was no way that these neo-Bunch anarchists were this armed and this many. It has been much of a headache for us and the security forces fighting this revolt. At this rate, if things don't get better, we may have much more problems...\n\n...\n\nBoss...?\n\n...\n\nWell... uh... we just discovered that some of the numbers were mismatched and we have a surplus of funds waiting to be used...\n\n..."
  YFC_BUN.16.a: "THEN PUT EVERYTHING INTO CRUSHING THEM!"
 
- YFC_BUN.16.t.b: "Fiddling some of the numbers."
+ YFC_BUN.16.t.b: "Fiddling some of the numbers." #IF already cored
  YFC_BUN.16.desc.b: "As with every month, we get a report on our profits and expenses. However, an hour after that report was handed to us one of our employees rushed into our discussion room. This act is very frowned upon and would normally cause a decrease in pay, but it came with great news! It turns out that some of the economic numbers were mismatched and we have a surplus of funds lying around to put into something. So what is that something we put our funds into?"
  YFC_BUN.16.b: "A new railway!"
  YFC_BUN.16.c: "Some new infrastructure!"
 
- YFC_BUN.16.t.c: "Final Phase."
+ YFC_BUN.16.t.c: "Final Phase." #Normal
  YFC_BUN.16.desc.c: "We are at the home stretch of the annexation plan. Both our support and resistance have risen to unprecedented heights! It's either a win or a loss, with no in between for us. With this growing stressful matter, we have gotten a lucky break. It turns out that some of the economic numbers were mismatched and we have a surplus of funds lying around to put into the occupation. So with the end coming nearer, we are putting everything into completing the annexation!"
  YFC_BUN.16.d: "By any amount!"
 
- YFC_BUN.17.t: "The Company Demands our Occupation Zone!"
+ YFC_BUN.17.t: "The Company Demands our Occupation Zone!" #CRN sees this
  YFC_BUN.17.desc: "The evitable, is now inevitable for us. A few hours ago, we received a telegram from The Yellow Face Company demanding our occupation zone. If we agree to demands, we will at least keep our friendly relations with them. If not... that might have some interesting consequences for the future. After a few hours of discussions, we voted on..."
  YFC_BUN.17.a: "Handing over our occupation zone."
  YFC_BUN.17.b: "Denying this empty threat!"
@@ -854,7 +854,7 @@
  YFC_BUN.21.desc: "With the neo-Bunch anarchist revolt in progress of being cleared, an object has been unaccounted for: Blocky. He was at Podgornyv and was meant to have evacuated a few days ago. However, his supposed transport left without him and claimed that they thought a different transport group was meant to extract him. So due to this bureaucratic error we just lost a valuable ally, and don't worry the employees have suffered a loss in pay."
  YFC_BUN.21.a: "Tragic."
 
- YFC_BUN.22.t: "Spark Turned Fires!"
+ YFC_BUN.22.t: "Spark Turned Fires!" #CRN sees this
  YFC_BUN.22.desc: "Our efforts have bore fruit, as the Bunch rebels (now called Neo-Bunch) have revolted against The Yellow Face Company. This is a great outcome for undermining their greedy takeover and may give us the tools to become stronger than them. For now, we must make careful but decisive moves."
  YFC_BUN.22.a: "Crash the Company!"
 
@@ -935,7 +935,7 @@
  BUN_YFC.1.desc: "gg no re capitalist fucks"
  BUN_YFC.1.a: "Back to the lobby!"
 
- BUN_YFC.2.t: "We fucking lost"
+ BUN_YFC.2.t: "We fucking lost" #YFC sees this
  BUN_YFC.2.desc: "Rigged."
  BUN_YFC.2.a: "fr fr"
 
@@ -952,7 +952,7 @@
  BUN_YFC.5.a: "United till the end!"
  BUN_YFC.5.b: "We'll chart our own course now."
 
- BUN_YFC.6.t: "A Ceasefire?"
+ BUN_YFC.6.t: "A Ceasefire?" #YFC sees this
  BUN_YFC.6.desc: "Our ongoing war to suppress these Neo-Bunch anarchists has hit a deadlock. The sectorials have gotten rowdy with our terrible handling of the war. So when we received an offer from Neo-Bunch on a potential ceasefire, it seemed interesting to save face. The offer itself is simple, us losing all gained territory for them demilitarizing Snowpath and some resource rights. Every Sectorial wants to go through with this deal, as it still means we get something for our efforts. Well, almost every Sectorial... Top Hat wants to put all resources into one last offensive to end Neo-Bunch. Either option is not the greatest, but do we make peace while we can or risk it all?"
  BUN_YFC.6.a: "Agree to the Ceasefire."
  BUN_YFC.6.b: "ALL IN!"
