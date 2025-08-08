@@ -769,48 +769,48 @@
  YFC_BUN.7.a: "'You never amounted to anything anyways.'"
 
  YFC_BUN.8.t: "A Rematch!"
- YFC_BUN.8.desc: "The riots got too large. Way larger than we could ever handle with a police force. Not even the military could push back the rioters at first, or the 'Neo-Bunchivists' as they call themselves. Not really 'neo' if your predecessor existed less than a few years ago. Regardless, They've taken control of the outskirts of Podgornyv at this point, and we can't hold them back with what we have. Additionally, Coiny and his men are dealing with larger events, and we won't be able to get ahold of them without large sums of money. Not to mention the travel times. So we'll have to rely on the Military Sector and our Mercenaries.\nThe Bandits, despite their combined efforts, aren't just attacking us, they're attacking the combined system of capitalism. If this is war, so be it, we'll win!"
+ YFC_BUN.8.desc: "The riots got too large. Way larger than we could ever handle with a police force. Not even the military could push back the rioters at first, or the 'Neo-Bunchivists' as they call themselves. Not really 'neo' if your predecessor existed less than a few years ago. Regardless, They've taken control of the outskirts of Podgornyv, and, at this point, we can't hold them back with what we have. Additionally, Coiny and his men are dealing with larger events, and we won't be able to get ahold of them without large sums of money. Not to mention the travel times. So we'll have to rely on the Military Sector and our Mercenaries.\nThe Bandits, despite their combined efforts, aren't just attacking us, they're attacking the combined system of capitalism. If this is war, so be it, we'll win!"
  YFC_BUN.8.a: "Let Them Try."
  YFC_BUN.8.b: "Break The Chains!"
 
  YFC_BUN.9.t: "Placing the Pawns"
- YFC_BUN.9.desc: "The first step to annex any occupied lands, especially anarchist ones, is the very clear need of leadership of the zone. Sure, we could have a sectorial or Yellow Face himself lead, but maybe we could have a local object be in control. However, that local may also be a supporter... or maybe not?"
+ YFC_BUN.9.desc: "We are, certainly, dealing with a beastly people. The raiders, with anti-capitalist styles of living, need to be contained. With containment, comes law inforcement (private, obviously), and with law inforcement, comes a man to rule them all. Or a woman, really whoever has the best prospects (or pays the most). This obvious realization leads us to the question of who shall become this ruler. Whereas with our law inforcement, we can get any sad sap from Footpathburg, Yoyleton, or otherwise, we have to choose carefully when picking the leader. So, who shall it be?"
  YFC_BUN.9.a: "Head of the Company, Head of the zone!"
  YFC_BUN.9.b: "Top Hat's military power may be good."
  YFC_BUN.9.c: "Br- I mean, 'hire' a local official."
 
  YFC_BUN.10.t: "Monopolies?"
- YFC_BUN.10.desc: "A... interesting question... came up in discussions today. Some of the sectorials, namely Pipe and Hammer, were asking about setting up permanent operations in Bunch. Much money is to be made, but what about the local stores inside Bunch? A suggestion was to integrate the small business with our sectors. Is the potential anger from the population worth it...?"
+ YFC_BUN.10.desc: "An... interesting question... came up in discussions today. Some of the sectorials, namely Pipe and Hammer, were asking about setting up permanent operations in Bunch. Much money is to be made, but what about the local stores inside Bunch? A suggestion was to integrate the small business with our sectors. Is the potential anger from the population worth it...?"
  YFC_BUN.10.a: "MONEY!!!!!"
  YFC_BUN.10.b: "Integration helps both us and them."
  YFC_BUN.10.c: "It's not worth the anger..."
 
  YFC_BUN.11.t: "Issue of Security"
- YFC_BUN.11.desc: "Controlling these lands has been... more complicated than expected. Minor engagements have started to pop up more and more. Top Hat suggested increasing the amount of forces in our occupation zone, which would be costly. Taser suggested recruiting locals, which require training and time. Beaker suggested that any options are costly and useless, which may be not true. Okay... so what seems like a good idea?"
- YFC_BUN.11.a: "Go with Top Hat's idea."
+ YFC_BUN.11.desc: "Controlling these lands has been... more complicated than expected. Minor violent engagements have been popping up more and more accross our occupation zone. There were discussions today in a meeting that the sectorial leaders all attended. This issue also came up, and when it did, a fierce debate started seemingly out of nowhere. Top Hat suggested increasing the amount of forces in our occupation zone, which would be costly. Taser suggested recruiting locals, which require training and time. Beaker stated that any options are costly and useless, which doesn't really address the underlying issue. Who had really been correct, was the question by the end of the meeting."
+ YFC_BUN.11.a: "Top Hat is right."
  YFC_BUN.11.b: "Go with Taser's idea."
- YFC_BUN.11.c: "Go with Beaker's idea."
+ YFC_BUN.11.c: "Beaker's is the logical choice."
 
  YFC_BUN.12.t: "Sparks Emit"
- YFC_BUN.12.desc: "In Podgornyv, very rapid concerns have grown. There had been protests before... but not to this magnitude. Chaos is growing in the streets as security forces are in a standoff with the growing protesters. Their demands are simple, autonomy in our nation. The demand is heavily hated by every sectorial, but maybe it could work? Unpopular and risky move for our credibility sure, but maybe it is worth it?"
- YFC_BUN.12.a: "Give in to demands."
- YFC_BUN.12.b: "Send in more forces."
- YFC_BUN.12.c: "The protests will fade away..."
+ YFC_BUN.12.desc: "Podgornyv is basically in flames at this point. There had been demonstrations earlier, but today has been especially out of hand. Chaos is growing in the streets, security forces in hours long standoffs with the so called 'Neo-Bunchivists'. Their demands are simple, autonomy in our nation, and making theft legal in formerly bunchivist lands. Not a single sectorial doesnt detest this idea, but, giving into the demands would stop the protests, right? If we give in, we may not be popular with the good people over in Footpathburg, but it could be worth it to give in to stop the brewing revolt."
+ YFC_BUN.12.a: "What happens in the Bunch stays in the Bunch, give in."
+ YFC_BUN.12.b: "Send in more forces, our cops can handle this."
+ YFC_BUN.12.c: "The protests will fade away, just do nothing..."
 
- YFC_BUN.13.t: "Blocky."
- YFC_BUN.13.desc: "So about Blocky? Well, he's been doing some minor tasks for us for some time. Granted, his future inside the company has never really been answered. Not to say he's useless, just that the whole dealing with the annexation has been more of a focus for us then him. A few days ago, the question came up in discussions over very minor and frankly boring things. That question has been the center of talks now, and really a few good ideas have been brought up. What is the fate of our ex-Bunch turned ally?"
+ YFC_BUN.13.t: "Blocky's current position."
+ YFC_BUN.13.desc: "So, Blocky. He's been doing some minor tasks for us for some time. Granted, his future inside the company has never really been questioned. Not to say he's useless, just that the whole dealing with the annexation has been more of a focus for us then him. A few days ago, the question came up in discussions over very minor and frankly boring things. That question has been the center of talks now, and a few really good ideas have been brought up. What is the fate of this ex-Bunchivist turned ally?"
  YFC_BUN.13.a: "A Political Advisor!"
  YFC_BUN.13.b: "A General!"
  YFC_BUN.13.c: "The face of pro-annexation!"
 
  YFC_BUN.14.t: "An Equal?"
- YFC_BUN.14.desc: "'How would the occupation zone fit into our nation's structure?' asked Beaker in, you guessed it, another day of discussions and meetings. It was a good question, as the sectors wanted different things as always. Top Hat and Hammer wanted it to be more of a lesser state compared to our other states, Beaker and Pipe wanted a fully integrated state, and Beaker actually wanted it where it was more autonomous which he argued is more what the objects wanted. So what will it be...?"
- YFC_BUN.14.a: "A lesser state!"
+ YFC_BUN.14.desc: "'How would the occupation zone fit into our nation's structure?' asked Beaker in, you guessed it, another day of discussions and meetings. It was a good question, as the sectors wanted different things. Capitalism will likely die before all of our sectorials agree on something. Top Hat and Hammer wanted it to be more of a colony compared to the other cities and the like comprising our current nation, Beaker and Pipe wanted a fully integrated state, however, Beaker said that, despite its status of full integration, it should sitll be partfully autonomous. So what will it be...?"
+ YFC_BUN.14.a: "A colony!"
  YFC_BUN.14.b: "An integrated state!"
  YFC_BUN.14.c: "An autonomous state!"
 
  YFC_BUN.15.t: "Words on Paper..."
- YFC_BUN.15.desc: "A major engagement broke out today between security forces under Top Hat and pro-Bunch terrorists. It was one of the largest to date, rivaling that of even some of the battles in the war. It took place in some farmlands near Taptop with most of the area being set ablazed. Nothing out of the normal besides the scale, but the events before the engagement are what are interesting. Reports from local civilians and even security forces state that Top Hat's men opted to raid one of the barns, then an argument broke out and fighting broke out.\n\nSo what we could do is... very radical in nature. Top Hat has already stated to us that if any of this information is leaked that our support will be cut. While bad, this could curve some of the growing influence that the military sector had been getting... our pick?"
+ YFC_BUN.15.desc: "A major engagement broke out today between Top Hat's security forces and Bunchivist terrorists. It was the largest to date, rivaling that of even some of the battles in the war. It took place in some farmlands near Taptop with most of the area being set ablaze. Nothing out of the ordinary besides the scale, however the events before the engagement are what was interesting to higher command. Reports from local civilians and even security forces state that Top Hat's men opted to raid one of the barns, then an argument broke out. The argument turned to small scuffles, which turned to fights, and now, we're here.\nMany Neo-Bunchivist demonstrators are calling us hypocrites. Our war agains the Bunch was purely justified based on the fact that they were raiders, and now our private police are doing the same thing as them.\nWhat we could do is... sweep it under the rug... Top Hat did say it was likely that his sector would no longer have any foreign support if something like this got out, since all Bunchivists involved were civillians. While bad, this could curve some of the growing influence that the military sector had been getting... our pick?"
  YFC_BUN.15.a: "Blame the whole event on Top Hat."
  YFC_BUN.15.b: "Apologize and pay for the damages."
  YFC_BUN.15.c: "Maybe an... 'engagement' could be made."
@@ -819,7 +819,7 @@
  #All are the same event but with diffrent checks if X thing happened or not
 
  YFC_BUN.16.t.a: "Rights of Defence." #IF revolt somehow already happened
- YFC_BUN.16.desc.a: "It should have been easy... right? There was no way that these neo-Bunch anarchists were this armed and this many. It has been much of a headache for us and the security forces fighting this revolt. At this rate, if things don't get better, we may have much more problems...\n\n...\n\nBoss...?\n\n...\n\nWell... uh... we just discovered that some of the numbers were mismatched and we have a surplus of funds waiting to be used...\n\n..."
+ YFC_BUN.16.desc.a: "This was an, in hindsight, an easy mission. It shouldn't have taken any more than a couple of months to pacify the former, now neo, Bunchivist populations. But now, the Neo-Bunchivists are armed, even moreso than our forces. It has been much of a headache for us and the security forces fighting this revolt. At this rate, if things don't get better, we may have much more problems...\n\nThose were our thoughts this morning. \nThis afternoon, we discovered that some of the profit and expense numbers from one of our sectors were miscalculated, and that we have a surplus of funds waiting to be used."
  YFC_BUN.16.a: "THEN PUT EVERYTHING INTO CRUSHING THEM!"
 
  YFC_BUN.16.t.b: "Fiddling some of the numbers." #IF already cored
@@ -828,26 +828,26 @@
  YFC_BUN.16.c: "Some new infrastructure!"
 
  YFC_BUN.16.t.c: "Final Phase." #Normal
- YFC_BUN.16.desc.c: "We are at the home stretch of the annexation plan. Both our support and resistance have risen to unprecedented heights! It's either a win or a loss, with no in between for us. With this growing stressful matter, we have gotten a lucky break. It turns out that some of the economic numbers were mismatched and we have a surplus of funds lying around to put into the occupation. So with the end coming nearer, we are putting everything into completing the annexation!"
+ YFC_BUN.16.desc.c: "We are at the home stretch of the annexation plan. Both our support and resistance have risen to unprecedented heights! It's either a win or a loss, with no in between for us. Despite these stressful times, we have gotten a lucky break. It turns out that some of the economic numbers were mismatched and we have a surplus of funds lying around to put into the occupation. So with the end coming nearer, we are putting everything into completing the annexation!"
  YFC_BUN.16.d: "By any amount!"
 
  YFC_BUN.17.t: "The Company Demands our Occupation Zone!" #CRN sees this
- YFC_BUN.17.desc: "The evitable, is now inevitable for us. A few hours ago, we received a telegram from The Yellow Face Company demanding our occupation zone. If we agree to demands, we will at least keep our friendly relations with them. If not... that might have some interesting consequences for the future. After a few hours of discussions, we voted on..."
- YFC_BUN.17.a: "Handing over our occupation zone."
- YFC_BUN.17.b: "Denying this empty threat!"
+ YFC_BUN.17.desc: "The inevitable has arrived. A few hours ago, we received a message from The Yellow Face Corporation demanding our occupation zone. With the communist threat eating us alive right now, it'd be much easier to continue relying on Yellow Facer aid, and stay on their good side... However, we've seen what they've been doing to the Neo-Bunchivists in their side of the occupation, and it, to put it simply, is inobjane. Supporting the Yellow Facers in their ventures to 'cleanse' the lands of raiders is to go against the very ideals of our nation. However, with the amount of money they support us with..."
+ YFC_BUN.17.a: "Object rights violations aren't the worst."
+ YFC_BUN.17.b: "They should be wealthy enough to pry this zone from our cold, dead hands."
 
  YFC_BUN.18.t: "Numismatia yields to our demands!"
  YFC_BUN.18.desc: "After a few days of waiting, we got our response that Numismatia is willing to hand over their occupation zone to us. This is a great day for the company and our employees."
  YFC_BUN.18.a: "Great news!"
 
  YFC_BUN.19.t: "Numismatia denies our demands!"
- YFC_BUN.19.desc: "After a few days of waiting, we got our response that Numismatia is not going to hand over their occupation zone to us. It seems that their true intentions are now on full display. A war with them while dealing with the resistance is off the table unfortunately. We could take retaliatory action against them, or not?"
+ YFC_BUN.19.desc: "After a few days of waiting, we got our response that Numismatia is not going to hand over their occupation zone to us. It seems that their true intentions are now on full display. A war with them while dealing with the resistance is off the table, unfortunately. We could take retaliatory action against them, or let this happen."
  YFC_BUN.19.a: "Place an Embargo on them!"
  YFC_BUN.19.b: "Break Relations with them!"
  YFC_BUN.19.c: "Guess we'll fold..."
 
  YFC_BUN.20.t: "Ex-Bunch industry destroyed!"
- YFC_BUN.20.desc: "With our security forces still setting up inside our occupation zone, a terrible attack just occurred. During the night a few days ago, around 10 to 25 objects entered the small industrial district of Podgornyv and started planting explosives on the factories. However, these objects must have lacked the knowledge to know that a patrol was wandering in the area and noticed the terrorist attack being set up. Screaming became shooting as a small engagement broke out. The small underequipped group was no match for our forces. However, only one factory was able to save in the chaos. The rest of the factories were blown to pieces. Luckily, everyone that was important was evacuated and our security forces took no losses. Only one object was captured who had no information that he was willing to give up."
+ YFC_BUN.20.desc: "With our security forces still setting up inside our occupation zone, a terrible attack just occurred. During the night a few days ago, around 10 to 25 objects entered the small industrial district of Podgornyv and started planting explosives on the factories. However, these objects must have lacked the knowledge that a patrol was wandering in the area who noticed the terrorist attack being set up. Screaming matches became gunshots as a small engagement broke out. The small, underequipped group was no match for our forces. However, only one factory was able to be saved in the chaos. The rest of the factories were blown to pieces. Luckily, everyone that was important was evacuated and our security forces took no losses. Only one object was captured, who had no information that he was willing to give up."
  YFC_BUN.20.a: "Those little sneaky anarchists..."
 
  YFC_BUN.21.t: "Blocky M.I.A."
@@ -855,7 +855,7 @@
  YFC_BUN.21.a: "Tragic."
 
  YFC_BUN.22.t: "Spark Turned Fires!" #CRN sees this
- YFC_BUN.22.desc: "Our efforts have bore fruit, as the Bunch rebels (now called Neo-Bunch) have revolted against The Yellow Face Company. This is a great outcome for undermining their greedy takeover and may give us the tools to become stronger than them. For now, we must make careful but decisive moves."
+ YFC_BUN.22.desc: "Our efforts have bore fruit, as the Bunch rebels (now called the Neo-Bunch) have revolted against The Yellow Face Corporation! This is a great outcome for undermining their greedy takeover and may give us the tools to become stronger than them. For now, we must make careful but decisive moves."
  YFC_BUN.22.a: "Crash the Company!"
 
 
@@ -930,30 +930,33 @@
 
 #BUN
 
- #Might write later I'm just very sleeply :/
- BUN_YFC.1.t: "It's over Yellow bros!"
- BUN_YFC.1.desc: "gg no re capitalist fucks"
- BUN_YFC.1.a: "Back to the lobby!"
+ BUN_YFC.1.t: "The Yellow Facer Ideology Crumbles." #if eraser is killed or working in the YFC's govt
+ BUN_YFC.1.desc: "We're finally free! After our defeat in the war with the old bunch, against the Yellow Facers, they split us up, and tried to get rid of our sprits, but we survived. Thrived even! And we're back now, better than ever! Sadly, Eraser is nowhere to be found, and Pen's been killed. Blocky, that traitor, decided to side with the Corporation, so, there's no one directly in line to really head anything. We'll sort that out later, for now, we've gotta make sure this revolution doesn't die!"
+ BUN_YFC.1.a: "The Bunch, forever and always!"
 
- BUN_YFC.2.t: "We fucking lost" #YFC sees this
- BUN_YFC.2.desc: "Rigged."
- BUN_YFC.2.a: "fr fr"
+ BUN_YFC.1.t.z: "The Yellow Facer Ideology Crumbles." #if eraser is jailed
+ BUN_YFC.1.desc.z: "We're finally free! After our defeat in the war with the old bunch, against the Yellow Facers, they split us up, and tried to get rid of our sprits, but we survived. Thrived even! And we're back now, better than ever! Eraser was broken out of jail a couple of hours ago too, and he seems to almost be ready to lead us again! We say 'almost' because he's still dealing with the grief from Pen's unfortunate death. Blocky, that traitor, decided to side with the Corporation, so, Eraser'll be the only one leading us for now. We'll sort out government stuff later, for now, we've gotta make sure this revolution doesn't die!"
+ BUN_YFC.1.b: "The Bunch, forever and always!"
+
+ BUN_YFC.2.t: "Our Darkest Day." #YFC sees this
+ BUN_YFC.2.desc: "This was probably the easiest task we've had to do in the time that this corporation has existed. Employee purges are certainly in order, there's no reason this situation should've gotten out of hand. Layoffs in every sector, immediately! We can't believe this, but somehow, Bunchivist sympathizers, or 'Neo-Bunchivists', as they're calling themselves, are now openly at war with us. Their sick group of bandits even claims to run some of our cities! De facto, they're theirs, but de jure, they're still ours. Lets get control back, and kill that communist scum!"
+ BUN_YFC.2.a: "Blame Georgetown!"
 
  BUN_YFC.3.t: "An interesting discovery."
- BUN_YFC.3.desc: "With our recapture of Podgornyv, the center of the once Great Bunch nation, we found an ex-Bunch member. Blocky was found at one of the last outposts after many of Yellow Face's security forces either died, surrendered, or fled. He claimed that he was always on our side and never wanted to betray us, but was forced to go along with Yellow Face. So then what should be the fate of this ally turned collaborator?"
- BUN_YFC.3.a: "Screw all options! Kill him!"
+ BUN_YFC.3.desc: "We finally recaptured our capital, Podgornyv! The birthplace of Eraser, now in ruins due to the Corporate scum to the north. However, today we found something hilarious. Blocky, a former member of the old Bunch's oligarchy was found at one of the last outposts after all of the corporation's security forces either died, surrendered, or fled. He was practically on his knees, begging for us to spare him! He tried lying to us, saying he was 'forced to go along with the Yellow Facers' or whatever, but he can't fool us!"
+ BUN_YFC.3.a: "Bite the bullet, traitor!"
 
- BUN_YFC.4.t: "Now to the realities..."
- BUN_YFC.4.desc: "So we have done it, we have secured our independence. As our civilian fighters are returning back to their homes and things are returning to the pre-war days, they really aren't. The old Bunch that once ruled the land is either dead, missing, or unfortunately with Yellow Face. The old ideas and goals they had are now gone and the already very unstable nation that was held together by banditry is also gone. For now, everything seems fine, but our authority is only really in the capital and non-existent elsewhere."
+ BUN_YFC.4.t: "Reality."
+ BUN_YFC.4.desc: "So, we won our independence back fully, but, what exactly do we do now? The old Bunch is gone, even in spirit. Freedom fighters are returning home, and whether they go to Podgornyv, Greenville, Taptop, or anywhere else, the place just isn't the same as it was just some years back. Our leadership is barely existant, and, many don't even listen to it. Some objects've even been saying that the Yellow Facers were better!"
  BUN_YFC.4.a: "Broken, but not yet lost."
 
  BUN_YFC.5.t: "Further United?"
- BUN_YFC.5.desc: "It's been a few weeks since our victory against our occupiers. Everything has still remained mostly stable for the time being. However, an interesting offer from our friends in the south showed up. It is an agreement to have our countries into an alliance. Dubbed the 'Southern Trading League', it would allow great trading deals to be implemented and improvements to our forces. With our current situation it is a good deal, but we could also go down our own path. After some thinking, we decided that.."
- BUN_YFC.5.a: "United till the end!"
+ BUN_YFC.5.desc: "It's been a few weeks since our victory against our occupiers. Everything has still been pretty stable. Recently though, an interesting offer from our friends to the south showed up. It's an agreement to have our countries into an alliance, they call it the 'Southern Trading League', and it would allow for great trading deals to be implemented and improvements to our forces. All they want in exchange is for us to not raid them, which seems fair, considering this could help us get into other foreign markets as well. It's definitely a good deal, however, we don't know exactly what motives the Numismatians have. We could try braving it alone, but nation building isn't a strong suit of any of the Bunch's leaders. After some thinking, we decided that.."
+ BUN_YFC.5.a: "We're united till the end!"
  BUN_YFC.5.b: "We'll chart our own course now."
 
  BUN_YFC.6.t: "A Ceasefire?" #YFC sees this
- BUN_YFC.6.desc: "Our ongoing war to suppress these Neo-Bunch anarchists has hit a deadlock. The sectorials have gotten rowdy with our terrible handling of the war. So when we received an offer from Neo-Bunch on a potential ceasefire, it seemed interesting to save face. The offer itself is simple, us losing all gained territory for them demilitarizing Snowpath and some resource rights. Every Sectorial wants to go through with this deal, as it still means we get something for our efforts. Well, almost every Sectorial... Top Hat wants to put all resources into one last offensive to end Neo-Bunch. Either option is not the greatest, but do we make peace while we can or risk it all?"
+ BUN_YFC.6.desc: "Our ongoing war to suppress those Neo-Bunch anarchists has hit a deadlock. The sectorials have gotten rowdy, raving about our terrible handling of the war. So when we received an offer from the Neo-Bunch regarding a potential ceasefire, it seemed like a good option to try and save face. The offer itself is simple, us losing all gained territory for them demilitarizing Snowpath and some resource rights. Every Sectorial wants to go through with this deal, as it still means we get something for our efforts. Well, almost every Sectorial... Top Hat wants to put all of our resources into one last offensive to end Neo-Bunch. Either option is not the greatest, but do we make peace while we can or risk it all?"
  BUN_YFC.6.a: "Agree to the Ceasefire."
  BUN_YFC.6.b: "ALL IN!"
 

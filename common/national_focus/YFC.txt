@@ -929,7 +929,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		icon = GFX_focus_YFC_clamp_down_on_bunchivism
-		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+		#allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_foster_new_society }
 		cost = 5
@@ -1110,10 +1110,121 @@ focus_tree = {
 	}
 
 	focus = {
-		id = YFC_focus_fully_cored
+		id = YFC_focus_blocky_stands_tall
 		relative_position_id = YFC_focus_clamp_down_on_bunchivism
 		x = 0
 		y = 2
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_execute_pen }
+		prerequisite = { focus = YFC_focus_trial_over_eraser }
+
+		cost = 3 #change to whatever idc
+		#gives BUN_YFC 13
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_reeducation
+		relative_position_id = YFC_focus_blocky_stands_tall
+		x = -2
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_blocky_stands_tall }
+		prerequisite = { focus = YFC_focus_execute_pen }
+
+		cost = 3
+		#event about sending the bunchies to reeducation camps
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_give_them_infrastructure
+		relative_position_id = YFC_focus_blocky_stands_tall
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_blocky_stands_tall }
+
+		cost = 3
+		#event with decisions on how many resources to put into giving the bunch infrastructure, the most resources the more money you lose, anmd more compliance you gain
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_strengthen_the_law
+		relative_position_id = YFC_focus_give_them_infrastructure
+		x = 1
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_give_them_infrastructure }
+		prerequisite = { focus = YFC_focus_reeducation }
+
+		cost = 3
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_ban_theft
+		relative_position_id = YFC_focus_reeducation
+		x = 1
+		y = 2
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_give_them_infrastructure }
+		prerequisite = { focus = YFC_focus_reeducation }
+
+		cost = 3
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_remove_oligarchical_sentiment
+		relative_position_id = YFC_focus_trial_over_eraser
+		x = 1
+		y = 2
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_trial_over_eraser }
+
+		cost = 3
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_prepare_longterm_leadership
+		relative_position_id = YFC_focus_strengthen_the_law
+		x = 2
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_remove_oligarchical_sentiment }
+		prerequisite = { focus = YFC_focus_strengthen_the_law }
+
+	}
+
+
+
+	focus = {
+		id = YFC_focus_fully_cored
+		relative_position_id = YFC_focus_clamp_down_on_bunchivism
+		x = 1
+		y = 6
 		icon = GFX_focus_generic
 
 		available = {
@@ -1121,9 +1232,10 @@ focus_tree = {
 			212 = {compliance > 75}
 		}
 
-		prerequisite = { focus = YFC_focus_execute_pen }
-		prerequisite = { focus = YFC_focus_trial_over_eraser }
-
+		prerequisite = { focus = YFC_focus_ban_theft }
+		prerequisite = { focus = YFC_focus_strengthen_the_law }
+		prerequisite = { focus = YFC_focus_prepare_longterm_leadership }
+		
 		#Epic YFC now has BUN lands
 		#You may change it as always
 
