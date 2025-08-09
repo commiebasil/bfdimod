@@ -856,8 +856,8 @@
  YFC_BUN.22.a: "Crash the Company!"
 
  YFC_BUN.23.t: "Reeducation Camps"
- YFC_BUN.23.desc: "text text bla bla"
- YFC_BUN.23.a: "write pls"
+ YFC_BUN.23.desc: "Some objects living in our occupation zone simply arent ready to face the reality that their ideology is stupid. Recently, Top Hat came to us with a suggestion. He said that we should make... education facilities... in various cities to clean the minds of any raiders. This is an excellent idea, and is sure to keep that ideology from festering! If we ignore any building codes, the ones we use for buildings where rich people live, then we can get these facilities built at a price of nearly zero. Lets take this chance!"
+ YFC_BUN.23.a: "They won't even remember being a Bunchivist..."
 
 
 # YFC_CRN_SUB
@@ -934,6 +934,10 @@
  #So I really did not explain my vision of Neo-Bunch (my bad) but I feel that thae authority that the bandits has no longer exists, and also ecomony and militray are gone
  #Kinda like Kingdom of Afghanistan with high decentralization and only power in the captial 
  #So no raids YET 
+
+ #yeah i agree fully
+ #i also think that the bunch's events need to sound a lot more casual than the events from the yellow facers or even numismatia
+ #im trying to make sure each nation has a somewhat distinct style of speaking to the player, which i hope reflects well down below
 
  BUN_YFC.1.t: "The Yellow Facer Ideology Crumbles." #if eraser is killed or working in the YFC's govt
  BUN_YFC.1.desc: "We're finally free! After our defeat in the war with the old bunch, against the Yellow Facers, they split us up, and tried to get rid of our sprits, but we survived. Thrived even! And we're back now, better than ever! Sadly, Eraser is nowhere to be found, and Pen's been killed. Blocky, that traitor, decided to side with the Corporation, so, there's no one directly in line to really head anything. We'll sort that out later, for now, we've gotta make sure this revolution doesn't die!"

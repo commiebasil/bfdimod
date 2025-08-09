@@ -896,6 +896,7 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_YFC_develop_peoniele
 		prerequisite = { focus = YFC_focus_industrialize_or_die }
+		mutually_exclusive = { focus = YFC_focus_develop_yoyleton }
 		cost = 6
 		completion_reward = {
 			196 = {
@@ -916,6 +917,7 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_YFC_develop_yoyleton
 		prerequisite = { focus = YFC_focus_industrialize_or_die }
+		mutually_exclusive = { focus = YFC_focus_develop_peoniele }
 		cost = 6
 		completion_reward = {
 			216 = {
@@ -926,6 +928,125 @@ focus_tree = {
 				}
 			}
 			add_stability = 0.01
+		}
+	}
+
+	focus = {
+		id = YFC_focus_military_industrial_complex
+		relative_position_id = YFC_focus_industrialize_or_die
+		x = 0
+		y = 2
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_develop_peoniele focus = YFC_focus_develop_yoyleton }
+		cost = 3
+		#buff military sector
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_expand_northern_trade
+		relative_position_id = YFC_focus_develop_yoyleton
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_develop_yoyleton }
+		cost = 3
+		#makes trade with coiny and teardrop beach territory more profitable
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_scope_out_sea_trade
+		relative_position_id = YFC_focus_develop_peoniele
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_develop_peoniele }
+		cost = 3
+		#gives event about sending people out to look at the eastern sea board, in 2 months you get another event abt what they found
+		#secretly helps with 3rd part of tree (eastern seaboard colonization)
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_spread_out_sectors
+		relative_position_id = YFC_focus_military_industrial_complex
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_military_industrial_complex }
+		cost = 3
+		#gives event about moving different sectors from footpathburg to other locations
+		#science goes to yoyleton, railroad goes to peoniele, rest stay
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_peoniele_the_second_city
+		relative_position_id = YFC_focus_scope_out_sea_trade
+		x = 0
+		y = 2
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_spread_out_sectors }
+		prerequisite = { focus = YFC_focus_scope_out_sea_trade focus = YFC_focus_expand_northern_trade }
+		mutually_exclusive = { focus = YFC_focus_big_yoyleton }
+		cost = 3
+		#gives event about adding stuff to peoniele, event you get should differ based on if you already took develop peoniele or not
+		#gives you the option on how much to develop peoniele
+		#adding more gives you money, but doing too much makes you lose stability
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_big_yoyleton
+		relative_position_id = YFC_focus_expand_northern_trade
+		x = 0
+		y = 2
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_spread_out_sectors }
+		prerequisite = { focus = YFC_focus_scope_out_sea_trade focus = YFC_focus_expand_northern_trade }
+		mutually_exclusive = { focus = YFC_focus_peoniele_the_second_city }
+		cost = 3
+		#gives event that lets you choose how much to develop the city
+		#choosing an option starts a decisions timer, and the bigger you choose to make it, the longer the timer
+		#the timer costs money when its on going, and gives all of the money back plus some extra when it's done
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_population_boom
+		relative_position_id = YFC_focus_spread_out_sectors
+		x = 0
+		y = 2
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_spread_out_sectors }
+		prerequisite = { focus = YFC_focus_peoniele_the_second_city focus = YFC_focus_big_yoyleton }
+		cost = 3
+		#give event about the large population, highly variable based on what you chose
+		#NONE of these overlap except for 7 and 4
+		#1develop peoniele -> peoniele the second city -> chose large dev (event about large profits but a slightly angry populace, and how yoyleton is still in ruins
+		#2develop peoniele -> peoniele the second city -> chose medium or small dev (event about large profits and neglected yoyleton)
+		#3develop peoniele -> big yoyleton -> chose any large or medium dev (event on having a happy populace and big profits)
+		#4develop peoniele -> big yoyleton -> chose small (event about cities not living up to expectations, upset sectorials, but still happy population)
+		#5develop yoyleton -> big yoyleton -> chose large or medium dev (event about large profits, good trade with north, happy populace, but neglected peoniele)
+		#6develop yoyleton -> big yoyleton -> chose small dev (event about not developing enough, neglected peoniele, angry sectorials)
+		#7develop yoyleton -> peoniele the second city -> chose small dev (same event as #4)
+		#8develop yoyleton -> peoniele the second city -> chose medium dev (event about big profits, and happy population)
+		#9develop yoyleton -> peoniele the second city -> chose large dev (event about large profits, happy sectorials, but mad peoniele populace)
+		completion_reward = {
+			
 		}
 	}
 
@@ -1221,8 +1342,10 @@ focus_tree = {
 		}
 
 		cost = 5
+		#gives event detailing how eraser's cult of personality worked, talks about banning the populace from talking about him or his friends for the time being
+		#basically erasing history
 		completion_reward = {
-			#Idk what this is meant to do
+			
 		}
 	}
 
