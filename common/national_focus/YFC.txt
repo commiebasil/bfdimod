@@ -798,8 +798,8 @@ focus_tree = {
 						controls_state = 218
 					}
 				}
-				217 = {add_compliance = 15}
-				218 = {add_compliance = 15}		
+				217 = {add_compliance = 20}
+				218 = {add_compliance = 20}		
 			}
 			country_event = {
 				id = YFC_BUN.1
@@ -807,7 +807,13 @@ focus_tree = {
 				random_hours = 2
 			}
 			hidden_effect = {
-				CRN = {set_political_power = 100}
+				CRN = {
+					set_political_power = 100
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = -3000
+					}
+				}
 			}
 		}
 	}
@@ -929,16 +935,11 @@ focus_tree = {
 		x = 0
 		y = 1
 		icon = GFX_focus_YFC_clamp_down_on_bunchivism
-		#allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_foster_new_society }
 		cost = 5
-		#autocompleted when you choose to annex the occupation zone
-		#this branch costs a lot of money but the bunch has a pretty big population all things considered
-		#it almost balances out! (it doesnt)
-		#gives you like 7 events while this focus branch is going on, in which something happens in former bunch territory, and the decision you chose either adds points to annexation or adds points to rebellion
-		#at the ending focus of this branch, if you have resistance under 20% and complience over 80%, you get cores on bunch land and lots of benifits
-		#if you dont, the bunchivists will revolt, giving you an event where you can switch countries and play as the bunch revolt!
+
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
 		}
@@ -1067,10 +1068,14 @@ focus_tree = {
 			}
 		}
 		
+		bypass = {
+			country_exists = BUN
+		}
+
 		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
 
 		prerequisite = { focus = YFC_focus_clamp_down_on_bunchivism }
-		cost = 6
+		cost = 5
 		#trial event, like the trials over leafy
 		#three options
 		completion_reward = {
@@ -1096,11 +1101,12 @@ focus_tree = {
 		
 		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
 
+		bypass = {
+			country_exists = BUN
+		}
+
 		prerequisite = { focus = YFC_focus_clamp_down_on_bunchivism }
-		cost = 6
-		#starts three event long event chain about pens story, attempting to evade his execution
-		#no options bc i dont feel like it
-		#also gives political power because atp why not
+		cost = 3
 		completion_reward = {
 			country_event = {
 				id = YFC_BUN.5
@@ -1109,69 +1115,64 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = YFC_focus_blocky_stands_tall
-		relative_position_id = YFC_focus_clamp_down_on_bunchivism
-		x = 0
-		y = 2
-		icon = GFX_focus_generic
+	#Okay so Imma remove the following focuses as this is more meant to be a bit quicker not a 2-3 year adventure:
 
-		prerequisite = { focus = YFC_focus_execute_pen }
-		prerequisite = { focus = YFC_focus_trial_over_eraser }
+	#YFC_focus_blocky_stands_tall > I rather have the events be seemless and less mess. Also events do sort of setup the timeline of either revolt or annex 
+	#YFC_focus_give_them_infrastructure > Already done in decisions, also I don't think Bunch should turn into a super highway
+	#YFC_focus_prepare_longterm_leadership > Done as the first event, and the 6th event more puts the future of the state 
 
-		cost = 3 #change to whatever idc
-		#gives BUN_YFC 13
-		completion_reward = {
-			
-		}
-	}
 
 	focus = {
 		id = YFC_focus_reeducation
-		relative_position_id = YFC_focus_blocky_stands_tall
-		x = -2
+		relative_position_id = YFC_focus_execute_pen
+		x = -1
 		y = 1
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_focus_blocky_stands_tall }
-		prerequisite = { focus = YFC_focus_execute_pen }
+		prerequisite = { focus = YFC_focus_execute_pen focus = YFC_focus_trial_over_eraser }
 
-		cost = 3
+		bypass = {
+			country_exists = BUN
+		}
+
+		cost = 5
 		#event about sending the bunchies to reeducation camps
 		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = YFC_focus_give_them_infrastructure
-		relative_position_id = YFC_focus_blocky_stands_tall
-		x = 0
-		y = 1
-		icon = GFX_focus_generic
-
-		prerequisite = { focus = YFC_focus_blocky_stands_tall }
-
-		cost = 3
-		#event with decisions on how many resources to put into giving the bunch infrastructure, the most resources the more money you lose, anmd more compliance you gain
-		completion_reward = {
-			
+			country_event = {
+				id = YFC_BUN.23
+				hours = 1
+			}
 		}
 	}
 
 	focus = {
 		id = YFC_focus_strengthen_the_law
-		relative_position_id = YFC_focus_give_them_infrastructure
+		relative_position_id = YFC_focus_execute_pen
 		x = 1
 		y = 1
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_focus_give_them_infrastructure }
-		prerequisite = { focus = YFC_focus_reeducation }
+		prerequisite = { focus = YFC_focus_execute_pen focus = YFC_focus_trial_over_eraser }
 
-		cost = 3
+		bypass = {
+			country_exists = BUN
+		}
+
+		cost = 4
 		completion_reward = {
-			
+			#Decision that allows increase compliance speed for stability and money
+			85 = {add_resistance = -2} 
+			212 = {add_resistance = -2}
+			if = {
+				limit = {
+					YFC = {
+						controls_state = 217
+						controls_state = 218
+					}
+				}
+				217 = {add_resistance = -15}
+				218 = {add_resistance = -15}		
+			}
 		}
 	}
 
@@ -1179,15 +1180,30 @@ focus_tree = {
 		id = YFC_focus_ban_theft
 		relative_position_id = YFC_focus_reeducation
 		x = 1
-		y = 2
+		y = 1
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_focus_give_them_infrastructure }
-		prerequisite = { focus = YFC_focus_reeducation }
+		prerequisite = { focus = YFC_focus_reeducation  focus = YFC_focus_strengthen_the_law }
+
+		bypass = {
+			country_exists = BUN
+		}
 
 		cost = 3
 		completion_reward = {
-			
+			add_political_power = 35
+			85 = {add_compliance = 2} 
+			212 = {add_compliance = 2}
+			if = {
+				limit = {
+					YFC = {
+						controls_state = 217
+						controls_state = 218
+					}
+				}
+				217 = {add_compliance = 5}
+				218 = {add_compliance = 5}		
+			} 
 		}
 	}
 
@@ -1200,31 +1216,21 @@ focus_tree = {
 
 		prerequisite = { focus = YFC_focus_trial_over_eraser }
 
-		cost = 3
+		bypass = {
+			country_exists = BUN
+		}
+
+		cost = 5
 		completion_reward = {
-			
+			#Idk what this is meant to do
 		}
 	}
-
-	focus = {
-		id = YFC_focus_prepare_longterm_leadership
-		relative_position_id = YFC_focus_strengthen_the_law
-		x = 2
-		y = 1
-		icon = GFX_focus_generic
-
-		prerequisite = { focus = YFC_focus_remove_oligarchical_sentiment }
-		prerequisite = { focus = YFC_focus_strengthen_the_law }
-
-	}
-
-
 
 	focus = {
 		id = YFC_focus_fully_cored
 		relative_position_id = YFC_focus_clamp_down_on_bunchivism
 		x = 1
-		y = 6
+		y = 4
 		icon = GFX_focus_generic
 
 		available = {
@@ -1232,16 +1238,13 @@ focus_tree = {
 			212 = {compliance > 75}
 		}
 
+		prerequisite = { focus = YFC_focus_remove_oligarchical_sentiment }
 		prerequisite = { focus = YFC_focus_ban_theft }
-		prerequisite = { focus = YFC_focus_strengthen_the_law }
-		prerequisite = { focus = YFC_focus_prepare_longterm_leadership }
 		
-		#Epic YFC now has BUN lands
-		#You may change it as always
-
-		cost = 10
+		cost = 7
 		completion_reward = {
 			add_war_support = 0.05
+			add_political_power = 50
 			YFC = {
 				add_state_core = 85
 				add_state_core = 212

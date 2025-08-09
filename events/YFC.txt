@@ -2433,7 +2433,7 @@ country_event = {
 			}
 			216 = {
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.3 start_experience_factor = 0.05"
+					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.25 start_experience_factor = 0.05"
 					owner = YFC
 					count = 2
 					id = 1967
@@ -2441,7 +2441,7 @@ country_event = {
 			}
 			YFC = {
 				add_offsite_building = { type = arms_factory level = 2 }
-				add_manpower = 30000
+				add_manpower = 15000
 			}
 		}
 		ai_chance = {
@@ -2467,6 +2467,11 @@ country_event = {
 				add_ideas = idea_BUN_collapsed_economy
 				add_ideas = idea_BUN_armed_militia
 				add_ideas = idea_BUN_unstable_future
+				set_equipment_fraction = 1
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = var_BUN_Bonus_Guns
+				}
 				set_political_power = 25
 				if = {
 					limit = {
@@ -3319,5 +3324,20 @@ country_event = { #CRN sees pog
 		name = YFC_BUN.22.a
 		add_political_power = 25
 		add_war_support = 0.01
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.23 
+	title = YFC_BUN.23.t
+	desc = YFC_BUN.23.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.23.a
+		85 = {add_compliance = 2}
+		212 = {add_compliance = 2}
 	}
 }

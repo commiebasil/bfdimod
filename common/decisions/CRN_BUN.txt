@@ -241,6 +241,7 @@ decision_CRN_BUN_category = {
 							type = infantry_equipment
 							amount = 200
 						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 200 }}
 					}
 				}
 				40 = {
@@ -249,6 +250,7 @@ decision_CRN_BUN_category = {
 							type = infantry_equipment
 							amount = 400
 						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 400 }}
 					}
 				}
 				30 = {
@@ -257,6 +259,7 @@ decision_CRN_BUN_category = {
 							type = infantry_equipment
 							amount = 600
 						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 600 }}
 					}
 				}
 				10 = {
@@ -265,6 +268,7 @@ decision_CRN_BUN_category = {
 							type = infantry_equipment
 							amount = 800
 						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 800 }}
 					}
 				}
 			}
@@ -323,6 +327,7 @@ decision_CRN_BUN_category = {
 								type = infantry_equipment
 								amount = 500
 							}
+							hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 500 }}
 						}
 					}
 					ELSE = {
@@ -339,6 +344,7 @@ decision_CRN_BUN_category = {
 								type = infantry_equipment
 								amount = 600
 							}
+							hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 600 }}
 						}
 					}
 					ELSE = {
@@ -347,6 +353,7 @@ decision_CRN_BUN_category = {
 								type = infantry_equipment
 								amount = 300
 							}
+							hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 300 }}
 						}
 					}
 				}
@@ -356,6 +363,7 @@ decision_CRN_BUN_category = {
 							type = infantry_equipment
 							amount = 650
 						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 650 }}
 					}
 				}
 				5 = {
@@ -364,6 +372,7 @@ decision_CRN_BUN_category = {
 							type = infantry_equipment
 							amount = 800
 						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 800 }}
 					}
 				}
 			}
@@ -612,6 +621,7 @@ decision_CRN_BUN_category = {
 					type = infantry_equipment
 					amount = 250
 				}
+				hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 250 }}
 			}
         }
 

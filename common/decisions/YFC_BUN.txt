@@ -241,8 +241,8 @@ decision_YFC_BUN_category = {
 			add_political_power = 15
         }
 		fire_only_once = no
-		cost = 45
-		days_remove = 25
+		cost = 50
+		days_remove = 30
 		days_re_enable = 35
 
 		remove_effect = {
@@ -294,8 +294,8 @@ decision_YFC_BUN_category = {
 			add_political_power = 15
         }
 		fire_only_once = no
-		cost = 45
-		days_remove = 25
+		cost = 50
+		days_remove = 30
 		days_re_enable = 35
 
 		remove_effect = {
@@ -555,6 +555,82 @@ decision_YFC_BUN_category = {
 		}
 	}
 
+	YFC_BUN_85_intergate = {
+		icon = GFX_decision_generic_operation
+		state_target = yes
+        targets = { state = 85 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 85
+			85 = {
+				compliance < 85
+				compliance > 65
+				resistance < 40
+			}
+		}
+
+		fire_only_once = no
+		cost = 20
+		days_remove = 50
+		days_re_enable = 30
+
+		modifier = {
+			political_power_gain = -0.50
+		}
+
+		remove_effect = {
+			85 = {add_compliance = 10}
+        }
+
+		ai_will_do = {
+			base = 50
+			modifier = {
+				add = 100
+				has_political_power > 25
+			}
+		}
+	}
+
+	YFC_BUN_212_intergate = {
+		icon = GFX_decision_generic_operation
+		state_target = yes
+        targets = { state = 212 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 212
+			212 = {
+				compliance < 85
+				compliance > 65
+				resistance < 40
+			}
+		}
+
+		fire_only_once = no
+		cost = 20
+		days_remove = 50
+		days_re_enable = 30
+
+		modifier = {
+			political_power_gain = -0.50
+		}
+
+		remove_effect = {
+			212 = {add_compliance = 10}
+        }
+
+		ai_will_do = {
+			base = 50
+			modifier = {
+				add = 100
+				has_political_power > 25
+			}
+		}
+	}
+
 	YFC_BUN_Demand_Zone = { 
 		icon = GFX_decision_infiltrate_state
       
@@ -572,8 +648,8 @@ decision_YFC_BUN_category = {
 
 		fire_only_once = yes
 
-		cost = 50
-		days_remove = 10
+		cost = 65
+		days_remove = 15
 
 		remove_effect = {
 			CRN = {
@@ -603,7 +679,7 @@ decision_YFC_BUN_category = {
 
 		fire_only_once = yes
 
-		cost = 35
+		cost = 50
 		days_remove = 100
 
 		modifier = {
@@ -616,6 +692,38 @@ decision_YFC_BUN_category = {
 			modifier = {
 				add = 10
 				has_political_power > 35
+			}
+		}
+	}
+
+	YFC_BUN_mobilize_reserves = { 
+		icon = GFX_decision_SWE_set_army_budget
+      
+		visible = {
+			country_exists = BUN
+			BUN = {
+				has_dynamic_modifier = {
+					modifier = idea_BUN_Ticking_Bomb
+				}
+				has_war_with = YFC
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 20
+		days_remove = 50
+
+		modifier = {
+			war_support_weekly = -0.01
+			weekly_manpower = 650
+		}
+
+		ai_will_do = {
+			base = 20
+			modifier = {
+				add = 100
+				has_political_power > 20
 			}
 		}
 	}

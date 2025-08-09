@@ -116,8 +116,8 @@ country_event = {
 
 	option = {
 		name = BUN_YFC.4.a
-		add_ideas = {idea_BUN_victorious_in_blood}
-		add_ideas = {disarmed_nation}
+		add_ideas = idea_BUN_victorious_in_blood
+		add_ideas = disarmed_nation
 		hidden_effect = {
 			IF = {
 				limit = {

@@ -815,9 +815,6 @@
  YFC_BUN.15.b: "Apologize and pay for the damages."
  YFC_BUN.15.c: "Maybe an... 'engagement' could be made."
 
- #TBH the writing I feel is ass for event 16 but 1am me might be tired. 
- #All are the same event but with diffrent checks if X thing happened or not
-
  YFC_BUN.16.t.a: "Rights of Defence." #IF revolt somehow already happened
  YFC_BUN.16.desc.a: "This was an, in hindsight, an easy mission. It shouldn't have taken any more than a couple of months to pacify the former, now neo, Bunchivist populations. But now, the Neo-Bunchivists are armed, even moreso than our forces. It has been much of a headache for us and the security forces fighting this revolt. At this rate, if things don't get better, we may have much more problems...\n\nThose were our thoughts this morning. \nThis afternoon, we discovered that some of the profit and expense numbers from one of our sectors were miscalculated, and that we have a surplus of funds waiting to be used."
  YFC_BUN.16.a: "THEN PUT EVERYTHING INTO CRUSHING THEM!"
@@ -857,6 +854,10 @@
  YFC_BUN.22.t: "Spark Turned Fires!" #CRN sees this
  YFC_BUN.22.desc: "Our efforts have bore fruit, as the Bunch rebels (now called the Neo-Bunch) have revolted against The Yellow Face Corporation! This is a great outcome for undermining their greedy takeover and may give us the tools to become stronger than them. For now, we must make careful but decisive moves."
  YFC_BUN.22.a: "Crash the Company!"
+
+ YFC_BUN.23.t: "Reeducation Camps"
+ YFC_BUN.23.desc: "text text bla bla"
+ YFC_BUN.23.a: "write pls"
 
 
 # YFC_CRN_SUB
@@ -930,6 +931,10 @@
 
 #BUN
 
+ #So I really did not explain my vision of Neo-Bunch (my bad) but I feel that thae authority that the bandits has no longer exists, and also ecomony and militray are gone
+ #Kinda like Kingdom of Afghanistan with high decentralization and only power in the captial 
+ #So no raids YET 
+
  BUN_YFC.1.t: "The Yellow Facer Ideology Crumbles." #if eraser is killed or working in the YFC's govt
  BUN_YFC.1.desc: "We're finally free! After our defeat in the war with the old bunch, against the Yellow Facers, they split us up, and tried to get rid of our sprits, but we survived. Thrived even! And we're back now, better than ever! Sadly, Eraser is nowhere to be found, and Pen's been killed. Blocky, that traitor, decided to side with the Corporation, so, there's no one directly in line to really head anything. We'll sort that out later, for now, we've gotta make sure this revolution doesn't die!"
  BUN_YFC.1.a: "The Bunch, forever and always!"
@@ -939,8 +944,8 @@
  BUN_YFC.1.b: "The Bunch, forever and always!"
 
  BUN_YFC.2.t: "Our Darkest Day." #YFC sees this
- BUN_YFC.2.desc: "This was probably the easiest task we've had to do in the time that this corporation has existed. Employee purges are certainly in order, there's no reason this situation should've gotten out of hand. Layoffs in every sector, immediately! We can't believe this, but somehow, Bunchivist sympathizers, or 'Neo-Bunchivists', as they're calling themselves, are now openly at war with us. Their sick group of bandits even claims to run some of our cities! De facto, they're theirs, but de jure, they're still ours. Lets get control back, and kill that communist scum!"
- BUN_YFC.2.a: "Blame Georgetown!"
+ BUN_YFC.2.desc: "This was probably the easiest task we've had to do in the time that this corporation has existed. Employee purges are certainly in order, there's no reason this situation should've gotten out of hand. Layoffs in every sector, immediately! We can't believe this, but somehow, Bunchivist sympathizers, or 'Neo-Bunchivists', as they're calling themselves, have regained contorl of all their lost lands. De facto, they're theirs, but de jure, they're still ours. Lets get control back, and kill that communist scum!"
+ BUN_YFC.2.a: "Who to blame...?"
 
  BUN_YFC.3.t: "An interesting discovery."
  BUN_YFC.3.desc: "We finally recaptured our capital, Podgornyv! The birthplace of Eraser, now in ruins due to the Corporate scum to the north. However, today we found something hilarious. Blocky, a former member of the old Bunch's oligarchy was found at one of the last outposts after all of the corporation's security forces either died, surrendered, or fled. He was practically on his knees, begging for us to spare him! He tried lying to us, saying he was 'forced to go along with the Yellow Facers' or whatever, but he can't fool us!"
@@ -951,7 +956,7 @@
  BUN_YFC.4.a: "Broken, but not yet lost."
 
  BUN_YFC.5.t: "Further United?"
- BUN_YFC.5.desc: "It's been a few weeks since our victory against our occupiers. Everything has still been pretty stable. Recently though, an interesting offer from our friends to the south showed up. It's an agreement to have our countries into an alliance, they call it the 'Southern Trading League', and it would allow for great trading deals to be implemented and improvements to our forces. All they want in exchange is for us to not raid them, which seems fair, considering this could help us get into other foreign markets as well. It's definitely a good deal, however, we don't know exactly what motives the Numismatians have. We could try braving it alone, but nation building isn't a strong suit of any of the Bunch's leaders. After some thinking, we decided that.."
+ BUN_YFC.5.desc: "It's been a few weeks since our victory against our occupiers. Everything has still been pretty stable. Recently though, an interesting offer from our friends to the south showed up. It's an agreement to have our countries into an alliance, they call it the 'Southern Trading League', and it would allow for great trading deals to be implemented and improvements to our forces. It's definitely a good deal, however, we don't know exactly what motives the Numismatians have. We could try braving it alone, but nation building isn't a strong suit of any of the Bunch's leaders. After some thinking, we decided that.."
  BUN_YFC.5.a: "We're united till the end!"
  BUN_YFC.5.b: "We'll chart our own course now."
 
