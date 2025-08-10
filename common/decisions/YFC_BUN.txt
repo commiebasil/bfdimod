@@ -711,12 +711,26 @@ decision_YFC_BUN_category = {
 
 		fire_only_once = yes
 
-		cost = 20
+		cost = 35
 		days_remove = 50
 
 		modifier = {
-			war_support_weekly = -0.01
+			war_support_weekly = -0.005
 			weekly_manpower = 650
+		}
+
+		timeout_effect = {
+			IF = {
+				limit = {is_ai = yes}
+			}
+			216 = {
+				create_unit = {
+					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+					owner = YFC
+					count = 2
+					id = 1967
+				}
+			}
 		}
 
 		ai_will_do = {

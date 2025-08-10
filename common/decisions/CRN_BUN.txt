@@ -240,6 +240,7 @@ decision_CRN_BUN_category = {
 						add_equipment_to_stockpile = {
 							type = infantry_equipment
 							amount = 200
+							producer = CRN
 						}
 						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 200 }}
 					}
@@ -249,6 +250,7 @@ decision_CRN_BUN_category = {
 						add_equipment_to_stockpile = {
 							type = infantry_equipment
 							amount = 400
+							producer = CRN
 						}
 						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 400 }}
 					}
@@ -258,6 +260,7 @@ decision_CRN_BUN_category = {
 						add_equipment_to_stockpile = {
 							type = infantry_equipment
 							amount = 600
+							producer = CRN
 						}
 						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 600 }}
 					}
@@ -267,6 +270,7 @@ decision_CRN_BUN_category = {
 						add_equipment_to_stockpile = {
 							type = infantry_equipment
 							amount = 800
+							producer = CRN
 						}
 						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 800 }}
 					}
@@ -326,6 +330,7 @@ decision_CRN_BUN_category = {
 							add_equipment_to_stockpile = {
 								type = infantry_equipment
 								amount = 500
+								producer = CRN
 							}
 							hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 500 }}
 						}
@@ -343,6 +348,7 @@ decision_CRN_BUN_category = {
 							add_equipment_to_stockpile = {
 								type = infantry_equipment
 								amount = 600
+								producer = CRN
 							}
 							hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 600 }}
 						}
@@ -352,6 +358,7 @@ decision_CRN_BUN_category = {
 							add_equipment_to_stockpile = {
 								type = infantry_equipment
 								amount = 300
+								producer = CRN
 							}
 							hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 300 }}
 						}
@@ -362,6 +369,7 @@ decision_CRN_BUN_category = {
 						add_equipment_to_stockpile = {
 							type = infantry_equipment
 							amount = 650
+							producer = CRN
 						}
 						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 650 }}
 					}
@@ -371,6 +379,7 @@ decision_CRN_BUN_category = {
 						add_equipment_to_stockpile = {
 							type = infantry_equipment
 							amount = 800
+							producer = CRN
 						}
 						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 800 }}
 					}
@@ -620,6 +629,7 @@ decision_CRN_BUN_category = {
 				add_equipment_to_stockpile = {
 					type = infantry_equipment
 					amount = 250
+					producer = CRN
 				}
 				hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 250 }}
 			}
@@ -670,7 +680,7 @@ decision_CRN_BUN_category = {
 				target = YFC
 				type = topple_government
 			}
-			create_faction = "Anti-Yellow Face Alliance" #tbh might change the name but idk what else to put
+			create_faction = "Anti-Yellow Face Alliance"
 			add_to_faction = BUN
 			hidden_effect = {
 				clr_country_flag = CRN_BUN_Sent_Aid

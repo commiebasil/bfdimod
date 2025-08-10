@@ -35,6 +35,21 @@ decision_BUN_raids_category = {
  					type = infrastructure
   					damage = 0.5
 				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
+				}
 			}
 			
 			if = {
@@ -110,6 +125,21 @@ decision_BUN_raids_category = {
 				damage_building = {
  					type = infrastructure
   					damage = 0.5
+				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
 				}
 			}
 			
@@ -187,6 +217,21 @@ decision_BUN_raids_category = {
  					type = infrastructure
   					damage = 0.5
 				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
+				}
 			}
 			
 			if = {
@@ -262,6 +307,21 @@ decision_BUN_raids_category = {
 				damage_building = {
  					type = infrastructure
   					damage = 0.5
+				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
 				}
 			}
 			
@@ -348,6 +408,21 @@ decision_BUN_raids_category = {
 				damage_building = {
  					type = infrastructure
   					damage = 0.5
+				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
 				}
 			}
 			
@@ -456,6 +531,21 @@ decision_BUN_raids_category = {
  					type = infrastructure
   					damage = 0.5
 				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
+				}
 			}
 			
 			if = {
@@ -536,11 +626,9 @@ decision_BUN_raids_category = {
 				}
 				hidden_effect = {
 					IF = {
-						limit = {
-							controller = {is_ai = yes}
-						}						
+						limit = {controller = {is_ai = yes}}						
 						random = {
-							chance = 100 #20
+							chance = 20
 							controller = {
 								diplomatic_relation = {
 									country = BUN

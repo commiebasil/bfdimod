@@ -2163,6 +2163,7 @@ country_event = {
 	option = { 
 		name = YFC_BUN.2.a
 		custom_effect_tooltip = l_YFC_BUN_3
+		add_political_power = 75
 		hidden_effect = {
 			set_variable = {var_CRN_BUN_Support = 0} 
 			YFC = {
@@ -2172,12 +2173,17 @@ country_event = {
 					random_hours = 50
 				}
 			}
+		}
+		ai_chance = {
+			base = 5
+			modifier = {has_opinion_modifier = betrayed_alliance add = -5 }
 		}	
 	}
 
 	option = { 
 		name = YFC_BUN.2.b
 		custom_effect_tooltip = l_YFC_BUN_4
+		add_political_power = 25
 		hidden_effect = {
 			set_variable = {var_CRN_BUN_Support = 1}
 			YFC = {
@@ -2188,11 +2194,16 @@ country_event = {
 				}
 			}
 		}
+		ai_chance = {
+			base = 1 
+			modifier = {has_opinion_modifier = betrayed_alliance add = 3 }
+		}	
 	}
 
 	option = { 
 		name = YFC_BUN.2.c
 		custom_effect_tooltip = l_YFC_BUN_5
+		add_war_support = 0.02
 		if = {
 			limit = {
 				NOT = {has_opinion_modifier = betrayed_alliance}
@@ -2210,7 +2221,11 @@ country_event = {
 			}
 		}
 		217 = {add_compliance = 30}
-		218 = {add_compliance = 30}		
+		218 = {add_compliance = 30}	
+		ai_chance = {
+			base = 0 
+			modifier = {has_opinion_modifier = betrayed_alliance add = 10 }
+		}		
 	}
 }
 
@@ -2433,9 +2448,9 @@ country_event = {
 			}
 			216 = {
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.25 start_experience_factor = 0.05"
+					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
 					owner = YFC
-					count = 2
+					count = 3
 					id = 1967
 				}
 			}
@@ -2471,6 +2486,7 @@ country_event = {
 				add_equipment_to_stockpile = {
 					type = infantry_equipment
 					amount = var_BUN_Bonus_Guns
+					producer = CRN
 				}
 				set_political_power = 25
 				if = {
@@ -2530,7 +2546,7 @@ country_event = {
 					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.5 start_experience_factor = 0.35"
+					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.65 start_experience_factor = 0.35"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2538,7 +2554,7 @@ country_event = {
 					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.25 start_experience_factor = 0.05"
+					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
 					owner = YFC
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2569,7 +2585,7 @@ country_event = {
 					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.4 start_experience_factor = 0.05"
+					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.45 start_experience_factor = 0.05"
 					owner = YFC
 					count = 1
 					allow_spawning_on_enemy_provs = yes

@@ -29,8 +29,8 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.65
 				production_speed_buildings_factor = -0.5
-				industrial_capacity_factory = -0.1
-				research_speed_factor = -0.5
+				industrial_capacity_factory = -0.25
+				research_speed_factor = -0.75
 				local_resources_factor = -0.25	
 			}
 		}
@@ -38,10 +38,11 @@ ideas = {
 		idea_BUN_armed_militia  = { 
 			picture = generic_manpower_bonus
 			modifier = {
-				resistance_target_on_our_occupied_states = 0.1
-				conscription = 0.05
+				resistance_target_on_our_occupied_states = 0.15
+				conscription = 0.1
 				army_org_factor = -0.1
 				experience_gain_army_factor = -0.75
+				mobilization_speed = 0.5
 			}
 			cancel = {
 				NOT = { has_war_with = YFC }
@@ -53,7 +54,7 @@ ideas = {
 			modifier = {
 				political_power_gain = -0.65
 				party_popularity_stability_factor = -0.25
-				stability_factor = -0.1
+				stability_factor = -0.25
 			}
 		}
 

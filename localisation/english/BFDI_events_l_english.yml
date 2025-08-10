@@ -180,9 +180,10 @@
  GGR_event.13.desc: "We are faced with a big problem: The reserve units treacherously went over to the side of the enemy, having been subjected to his propaganda. This significantly impacts our rear and can lead to the destruction of the front."
  GGR_event.13.a: "Traitors!"
 
- GGR_event.14.t: "WICHTIG!"
- GGR_event.14.desc: "With anarchists inside our great lands, there are still more threats that are from the outside. To the north, the bandits led by the Easer threaten our warehouses and bases that contain the weapons to deal with them and the anarchists. §RProtect our northern borders to prevent the loss of such weaponry!§!"
- GGR_event.14.a: "Understood."
+ GGR_event.14.t: "Aid from the Snow Fascists!"
+ GGR_event.14.desc: "We received an import of guns from Großgoikysreich a few hours ago. While they claim it is for 'Crushing the Bandits', it could very easily be for larger goals we don't have the information on. Should we accept this import of rifles?"
+ GGR_event.14.a: "Accept!"
+ GGR_event.14.b: "Deny!"
  
 #PROVISIONAL GOVERNMENT
  GPG_event.1.t: "A Mess"

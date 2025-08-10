@@ -132,7 +132,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 10
 			custom_effect_tooltip = l_YFC_upgrade_army1
-			add_to_variable = { var_idea_YFC_corp_special_forces_attack_factor = 0.15 }
+			add_to_variable = { var_idea_YFC_corp_special_forces_attack_factor = 0.1 }
 			add_to_variable = { var_idea_YFC_corp_special_forces_defence_factor = 0.1 }
 		}
 	}
@@ -811,7 +811,7 @@ focus_tree = {
 					set_political_power = 100
 					add_equipment_to_stockpile = {
 						type = infantry_equipment
-						amount = -3000
+						amount = -5000
 					}
 				}
 			}
@@ -1036,7 +1036,7 @@ focus_tree = {
 		cost = 3
 		#give event about the large population, highly variable based on what you chose
 		#NONE of these overlap except for 7 and 4
-		#1develop peoniele -> peoniele the second city -> chose large dev (event about large profits but a slightly angry populace, and how yoyleton is still in ruins
+		#1develop peoniele -> peoniele the second city -> chose large dev (event about large profits but a slightly angry populace, and how yoyleton is still in ruins)
 		#2develop peoniele -> peoniele the second city -> chose medium or small dev (event about large profits and neglected yoyleton)
 		#3develop peoniele -> big yoyleton -> chose any large or medium dev (event on having a happy populace and big profits)
 		#4develop peoniele -> big yoyleton -> chose small (event about cities not living up to expectations, upset sectorials, but still happy population)
@@ -1046,7 +1046,9 @@ focus_tree = {
 		#8develop yoyleton -> peoniele the second city -> chose medium dev (event about big profits, and happy population)
 		#9develop yoyleton -> peoniele the second city -> chose large dev (event about large profits, happy sectorials, but mad peoniele populace)
 		completion_reward = {
-			
+			#I thought liberalize was the one where YFC gets more population and this path was more about production 
+			#Maybe I forgot the plot idk
+			#Also I not gonna have this many events bro I'll just put something on the focus explaining the effects (9 events...)
 		}
 	}
 
@@ -1235,13 +1237,6 @@ focus_tree = {
 			}
 		}
 	}
-
-	#Okay so Imma remove the following focuses as this is more meant to be a bit quicker not a 2-3 year adventure:
-
-	#YFC_focus_blocky_stands_tall > I rather have the events be seemless and less mess. Also events do sort of setup the timeline of either revolt or annex 
-	#YFC_focus_give_them_infrastructure > Already done in decisions, also I don't think Bunch should turn into a super highway
-	#YFC_focus_prepare_longterm_leadership > Done as the first event, and the 6th event more puts the future of the state 
-
 
 	focus = {
 		id = YFC_focus_reeducation

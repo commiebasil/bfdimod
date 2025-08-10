@@ -808,8 +808,14 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = l_GGR_focus_postpones_riot
-			custom_effect_tooltip = l_GGR_focus_new_decisions
-			add_political_power = 25
+			IF = {
+				limit = {has_dlc = "La Resistance"}
+				custom_effect_tooltip = l_GGR_focus_new_decisions
+				add_political_power = 25
+			}
+			ELSE = {
+				add_political_power = 100
+			}
 			set_country_flag = schneeschutz_done
 		}
 	}

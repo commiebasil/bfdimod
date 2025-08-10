@@ -73,6 +73,8 @@
  GGR_industry_develop_resources_in_snowy_ridge: "Resources development in §8Northern Ridge§!"
  GGR_industry_segregate_nonbinary: "Segregate §tNon-Binary§! Objects"
  
+ GGR_YFC_BUN_aid: "Send Assistance To Yellow Face"
+ GGR_YFC_BUN_aid_desc: "With the current resurgence of the Bandit threat at our Northern border, we could aid The Yellow Face Company that is at a state of war against them. While we have far different ideals and structure in government, sending aid may be a good option."
  
  decisions_GPG_congress_category: "§7RCC Congress§!"
  l_decisions_congress_title: "§GCurrent government support§!"
