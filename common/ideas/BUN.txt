@@ -40,9 +40,9 @@ ideas = {
 			modifier = {
 				resistance_target_on_our_occupied_states = 0.15
 				conscription = 0.1
-				army_org_factor = -0.1
+				army_org_factor = -0.2
 				experience_gain_army_factor = -0.75
-				mobilization_speed = 0.5
+				mobilization_speed = 1
 			}
 			cancel = {
 				NOT = { has_war_with = YFC }

@@ -2473,7 +2473,7 @@ country_event = {
     
     immediate = {
 			BUN = {
-				add_manpower = 7500
+				add_manpower = 10000
 				add_offsite_building = { type = arms_factory level = 1 }
 				add_dynamic_modifier = { modifier = idea_BUN_Ticking_Bomb }
 				add_ideas = low_economic_mobilisation
