@@ -716,10 +716,18 @@ decision_YFC_BUN_category = {
 
 		modifier = {
 			war_support_weekly = -0.005
-			weekly_manpower = 650
+			weekly_manpower = 750
 		}
 
 		timeout_effect = {
+			216 = {
+				create_unit = {
+					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
+					owner = YFC
+					count = 1
+					id = 1967
+				}
+			}
 			IF = {
 				limit = {is_ai = yes}
 			}

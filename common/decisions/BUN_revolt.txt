@@ -19,7 +19,7 @@ decision_BUN_Revolt_category = {
 		}
 		icon = GFX_decision_SWI_consolidate_council_power  
 		is_good = no
-		days_mission_timeout = 35
+		days_mission_timeout = 30
 		timeout_effect = {
             custom_effect_tooltip = l_BUN_YFC_1
             hidden_effect = {
@@ -137,7 +137,7 @@ decision_BUN_Revolt_category = {
 		remove_effect = {
 			85 = {
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.35 start_experience_factor = 0.1"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.3 start_experience_factor = 0.1"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes

@@ -60,7 +60,7 @@ political_actions = {
                 has_equipment = {infantry_equipment > 2000}
 			}
 			modifier = {
-				add = 3	
+				add = 6	
                 has_army_size = {size > 8}
 			}
 			modifier = {
@@ -70,6 +70,10 @@ political_actions = {
             modifier = {
 				add = 3
                 YFC = {surrender_progress > 0.2}
+			}
+            modifier = {
+				add = 6
+                YFC = {surrender_progress > 0.5}
 			}
             modifier = {
 				add = 6
