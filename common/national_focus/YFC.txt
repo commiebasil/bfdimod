@@ -31,10 +31,10 @@ focus_tree = {
 			country_event = YFC_event.1
 			hidden_effect = {
 				random_list = {
-					70 = {
+					99 = { #70
 						set_country_flag = money_path
 					}
-					30 = {
+					1 = { #30
 						set_country_flag = raiders_path
 					}
 				}
@@ -233,7 +233,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 2
+			base = 10
 		}
 	}
 
@@ -289,7 +289,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 2
+			base = 10
 		}
 	}
 
@@ -328,7 +328,7 @@ focus_tree = {
 		ai_will_do = {
 			base = 2
 			modifier = {
-				factor = 10
+				factor = 100
 				has_country_flag = raiders_path
 			}
 		}
@@ -362,7 +362,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 2
+			base = 10
 		}
 	}
 
@@ -396,7 +396,7 @@ focus_tree = {
 		ai_will_do = {
 			base = 2
 			modifier = {
-				factor = 10
+				factor = 100
 				has_country_flag = money_path
 			}
 		}
@@ -448,7 +448,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			base = 10
+			base = 15
 		}
 	}
 
@@ -471,6 +471,10 @@ focus_tree = {
 		cost = 3
 		completion_reward = {
 			
+		}
+
+		ai_will_do = {
+			base = 10
 		}
 	}
 
@@ -508,6 +512,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = l_YFC_foreign_advisor
 			add_ideas = idea_YFC_United_Clash
+		}
+
+		ai_will_do = {
+			base = 10
 		}
 	}
 
@@ -752,11 +760,11 @@ focus_tree = {
 		icon = GFX_focus_YFC_look_inward
 		available = {
 			hidden_trigger = {
-				#has_country_flag = Won_War_BUN
+				has_country_flag = Won_War_BUN
 			}
 		}
 		
-		#allow_branch = { has_country_flag = Won_War_BUN }
+		allow_branch = { has_country_flag = Won_War_BUN }
 		
 		cost = 2
 		completion_reward = {
