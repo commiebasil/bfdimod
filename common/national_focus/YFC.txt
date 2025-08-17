@@ -1047,8 +1047,10 @@ focus_tree = {
 		#9develop yoyleton -> peoniele the second city -> chose large dev (event about large profits, happy sectorials, but mad peoniele populace)
 		completion_reward = {
 			#I thought liberalize was the one where YFC gets more population and this path was more about production 
+			#re; they both lead to more pop, it's jsut different means of getting there
 			#Maybe I forgot the plot idk
 			#Also I not gonna have this many events bro I'll just put something on the focus explaining the effects (9 events...)
+			#re; we WILL be having this many events no matter WHAT you say
 		}
 	}
 
@@ -1074,7 +1076,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		icon = GFX_focus_generic
-		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
+		#allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_clamp_down_on_bunchivism }
 		cost = 5
