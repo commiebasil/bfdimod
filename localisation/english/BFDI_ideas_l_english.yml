@@ -127,15 +127,19 @@
  
  idea_BUN_criminal_state: "Criminal State"
  idea_BUN_criminal_state_desc: "Banditry was on the heels of the coming chaos. From the Great-Goikian Railroad in the north to the Snowy Plateau in the south, a kind of 'republic' of bandits and thieves took shape in the center of the continent. The main activity here is raids on neighbors. The most famous group here was Eraser, Pen and Blocky's bunch, or just Eraser's bunch."
+
  idea_BUN_Ticking_Bomb: "On a Ticking Timed Bomb"
- idea_BUN_Ticking_Bomb_desc: "bla bla" #Bunch Revolt Idea. got limted time to win so yeah ticking time bomb as the buffs go away and nerfs get added over time
+ idea_BUN_Ticking_Bomb_desc: "We can not win a drawn out war. If the war takes too long, we'll start losing supplies, having men defect, having our foreign allies get routed out, and anything else that is bad and could also happen. We don't just want a decisive war, we need it." #add some like red text saying the buffs go away over time
  idea_BUN_greenville_treaty: "Greenville Treaty"
+
  idea_BUN_collapsed_economy: "Collapsed Economy"
- idea_BUN_collapsed_economy_desc: "bla bla" #All industry was blown up or stolen so no money :sad:. Given in revolt
+ idea_BUN_collapsed_economy_desc: "Our economy was gutted by the corporatists. Currently, almost all of our buildings and industry have been destroyed, and most of the old Bunch's wealth is gone for good. All we can do now is hope for a miracle."
+
  idea_BUN_armed_militia: "Armed Militia"
- idea_BUN_armed_militia_desc: "bla bla" #Everyone hates YFC so civilian militia. Given in revolt
+ idea_BUN_armed_militia_desc: "Even though we only revolted a little bit ago, our population loves us. So many men are voluntarily throwing themselves on the frontlines! The civilians have risen up to free former Bunchvisist lands from the tyranny of the Yellow Facers."
+
  idea_BUN_unstable_future: "Unstable Future"
- idea_BUN_unstable_future_desc: "bla bla" #Bunch leadership and goals gone, so unknown paths to take. Given in revolt
+ idea_BUN_unstable_future_desc: "Without our leaders, goals, or most of what made the old Bunch so good, most of the people in our government are clueless. We don't know where we're going with this, or what to do after this is all over. Lets just hope for the best."
  idea_BUN_victorious_in_blood: "Victorious in Blood"
  
  idea_SRR_great_goiky_railroad: "Great-Goikian Railroad"
