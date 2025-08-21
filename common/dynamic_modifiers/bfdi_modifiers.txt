@@ -163,7 +163,7 @@ idea_YFC_anarchic_lands = {
 	production_speed_supply_node_factor = var_idea_YFC_anarchic_lands_node
 }
 
-idea_YFC_corp = {
+idea_YFC_corp = { #Yellow Face's cool mercenaries
 	icon = GFX_idea_generic_war_preparation
 	
 	special_forces_attack_factor  = var_idea_YFC_corp_special_forces_attack_factor
@@ -171,7 +171,7 @@ idea_YFC_corp = {
 	special_forces_no_supply_grace  = var_idea_YFC_corp_special_forces_no_supply_grace
 }
 
-idea_YFC_integration_YFC = { #YFC Buffs
+idea_YFC_integration_YFC = { #YFC Buffs and nerfs in the deal
 	icon = GFX_idea_generic_constitutional_guarantees
 
 	army_attack_factor = var_idea_YFC_integration_YFC_army_attack_factor
@@ -182,7 +182,7 @@ idea_YFC_integration_YFC = { #YFC Buffs
 	political_power_factor = var_idea_YFC_integration_YFC_political_power_factor 
 }
 
-idea_CRN_integration_CRN = { #CRN Buffs
+idea_CRN_integration_CRN = { #CRN Buffs and nerfs in the deal
 	icon = GFX_idea_generic_constitutional_guarantees
 	
 	army_attack_factor = var_idea_YFC_integration_CRN_army_attack_factor
