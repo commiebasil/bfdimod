@@ -1087,6 +1087,12 @@ focus_tree = {
 			#Im rebeling fuck you!!!!!!!!!!!!!
 			#For the sake of simplicity and not giving the player a headache over really just population, stability, and money, imma lower the outcomes to 4-5 
 			#Unless... you make the event GFX?
+
+			#re; you and i both know that having me touch the event gfx would end in disaster
+			#we're already like 300 event pictures behind, what's one more?
+			#anyways, think of how could it'd be to get a different event each time you replay the yfc
+			#also hyper specific highly dynamic events are cool and i will be adding more of those
+			#so get ready for like 98 more events :DD
 		}
 	}
 
