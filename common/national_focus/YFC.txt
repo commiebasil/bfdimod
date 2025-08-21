@@ -31,10 +31,10 @@ focus_tree = {
 			country_event = YFC_event.1
 			hidden_effect = {
 				random_list = {
-					99 = { #70
+					70 = { 
 						set_country_flag = money_path
 					}
-					1 = { #30
+					30 = { 
 						set_country_flag = raiders_path
 					}
 				}
@@ -439,7 +439,7 @@ focus_tree = {
 			}
 			201 = {
 				create_unit = {
-					division = "name = \"Militia\" division_template = \"Militia\" start_experience_factor = 0.05"
+					division = "name = \"Militia\" division_template = \"Militia\" start_experience_factor = 0.1"
 					count = 6
 					owner = YFC
 				}
@@ -470,7 +470,7 @@ focus_tree = {
 		#buffs the bonus given by trading with coiny
 		cost = 3
 		completion_reward = {
-			
+			add_command_power = 25
 		}
 
 		ai_will_do = {
@@ -913,6 +913,10 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
+				add_victory_points = {
+					province = 3655
+					value = 5
+				}
 			}
 			add_stability = 0.01
 		}
@@ -934,6 +938,10 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
+				add_victory_points = {
+					province = 4388
+					value = 5
+				}
 			}
 			add_stability = 0.01
 		}
@@ -946,10 +954,10 @@ focus_tree = {
 		y = 2
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_develop_peoniele focus = YFC_focus_develop_yoyleton }
-		cost = 3
-		#buff military sector
+		cost = 5
+		#buff military sector (How so? Like cost, influence, or buffs)
 		completion_reward = {
-			
+			add_war_support = 0.01
 		}
 	}
 
@@ -960,10 +968,19 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_develop_yoyleton }
-		cost = 3
+		cost = 5
 		#makes trade with coiny and teardrop beach territory more profitable
 		completion_reward = {
-			
+			add_opinion_modifier = { target = GMD modifier = medium_increase }
+			every_country_with_original_tag = {
+				original_tag_to_check = GMD
+				add_opinion_modifier = { target = YFC modifier = medium_increase }
+			}	
+			add_opinion_modifier = { target = TBT modifier = medium_increase }
+			every_country_with_original_tag = {
+				original_tag_to_check = TBT
+				add_opinion_modifier = { target = YFC modifier = medium_increase }
+			}	
 		}
 	}
 
@@ -974,7 +991,7 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_develop_peoniele }
-		cost = 3
+		cost = 5
 		#gives event about sending people out to look at the eastern sea board, in 2 months you get another event abt what they found
 		#secretly helps with 3rd part of tree (eastern seaboard colonization)
 		completion_reward = {
@@ -989,11 +1006,12 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_military_industrial_complex }
-		cost = 3
+		cost = 5
 		#gives event about moving different sectors from footpathburg to other locations
 		#science goes to yoyleton, railroad goes to peoniele, rest stay
 		completion_reward = {
-			
+			#Does this change anything with the sectors?
+			add_political_power = 25
 		}
 	}
 
@@ -1011,7 +1029,13 @@ focus_tree = {
 		#gives you the option on how much to develop peoniele
 		#adding more gives you money, but doing too much makes you lose stability
 		completion_reward = {
-			
+			196 = {
+				add_extra_state_shared_building_slots = 2
+				add_victory_points = {
+					province = 3655
+					value = 5
+				}
+			}
 		}
 	}
 
@@ -1029,7 +1053,13 @@ focus_tree = {
 		#choosing an option starts a decisions timer, and the bigger you choose to make it, the longer the timer
 		#the timer costs money when its on going, and gives all of the money back plus some extra when it's done
 		completion_reward = {
-			
+			216 = {
+				add_extra_state_shared_building_slots = 2
+				add_victory_points = {
+					province = 4388
+					value = 5
+				}
+			}
 		}
 	}
 
@@ -1054,11 +1084,9 @@ focus_tree = {
 		#8develop yoyleton -> peoniele the second city -> chose medium dev (event about big profits, and happy population)
 		#9develop yoyleton -> peoniele the second city -> chose large dev (event about large profits, happy sectorials, but mad peoniele populace)
 		completion_reward = {
-			#I thought liberalize was the one where YFC gets more population and this path was more about production 
-			#re; they both lead to more pop, it's jsut different means of getting there
-			#Maybe I forgot the plot idk
-			#Also I not gonna have this many events bro I'll just put something on the focus explaining the effects (9 events...)
-			#re; we WILL be having this many events no matter WHAT you say
+			#Im rebeling fuck you!!!!!!!!!!!!!
+			#For the sake of simplicity and not giving the player a headache over really just population, stability, and money, imma lower the outcomes to 4-5 
+			#Unless... you make the event GFX?
 		}
 	}
 

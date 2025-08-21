@@ -8,14 +8,14 @@ state={
 		owner = GOI
 		add_core_of = GOI
 		victory_points = {
-			166 25
+			166 30
 		}
 		buildings = {
 			infrastructure = 2
 		}
 	}
-	manpower= 75233
+	manpower= 85233
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 	local_supplies=0.000
 }

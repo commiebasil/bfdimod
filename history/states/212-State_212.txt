@@ -7,6 +7,7 @@ state={
 	history={
 		owner = GOI
 		add_core_of = GOI
+		victory_points = {1146 5}
 		victory_points = {
 			4249 10
 		}

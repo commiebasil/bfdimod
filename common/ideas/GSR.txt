@@ -12,7 +12,7 @@ ideas = {
 			picture = GSR_tireless_work
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.1
-				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.1 #never gonna reach the cap
 				political_power_gain = -0.5
 			}
 		}
@@ -25,6 +25,7 @@ ideas = {
 				war_support_factor = 0.1
 				recruitable_population = 0.05
 				political_power_gain = -0.25
+				industrial_capacity_factory = 0.05
 			}
 		}
 		

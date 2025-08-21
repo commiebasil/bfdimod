@@ -3,7 +3,7 @@ ideas = {
 		idea_GFG_production = {
 			picture = GFG_production
 			modifier = {
-				consumer_goods_factor = -0.15
+				industrial_capacity_factory = 0.15 #It does not need consumer_goods_factor when it can't even build
 				production_factory_efficiency_gain_factor = 0.1
 				stability_factor = -0.2
 			}

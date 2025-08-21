@@ -195,7 +195,7 @@ idea_CRN_integration_CRN = { #CRN Buffs
 }
 
 idea_BUN_Ticking_Bomb = { #Bunch Revolt Idea
-	icon = GFX_idea_RAJ_debt_relief
+	icon = GFX_idea_BUN_ticking_bomb
 	
 	stability_factor = var_idea_BUN_Ticking_Bomb_stability_factor
 	war_support_factor = var_idea_BUN_Ticking_Bomb_war_support_factor

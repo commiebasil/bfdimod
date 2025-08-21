@@ -1,0 +1,116 @@
+#GFG AI 101
+#Change if you want to!!!!
+
+
+## CIVIL WAR ##
+
+GFG_civil_war = {
+    #Fun fact! Having more divs are better then having no divs
+	allowed = {
+		original_tag = GFG
+	}
+	enable = {
+		country_exists = GPG
+		country_exists = GDR 
+		country_exists = GSR
+	}
+
+	abort = {
+		has_war = no
+	}
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = infantry_equipment_1
+		value = -1000
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 65
+	}
+	ai_strategy = {
+		type = ignore_army_incompetence
+		value = 50
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 20
+	}
+}
+
+## ARMY PLACEMENT ##
+
+GFG_rush_GPR = {
+    #GFG will rush war on GPR 
+	allowed = {
+		original_tag = GFG
+	}
+	enable = {
+		focus_progress = {
+			focus = GFG_focus_break_the_line
+			progress > 0.01
+		}
+	}
+
+	abort = {
+		has_war = yes
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = GPR
+		value = 300
+	}
+}
+
+## INDUSTRY ##
+
+GFG_500_guns = {
+    #GFG uses ideas to have 500 guns for later 
+	allowed = {
+		original_tag = GFG
+	}
+	enable = {
+		has_idea = idea_GFG_rearmament
+	}
+
+	abort = {
+		NOT = {has_idea = idea_GFG_rearmament}
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 250
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = infantry_weapons1
+		value = 350
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = infantry_weapons2
+		value = 100
+	}
+}
+
+GFG_militarization = {
+    #GFG wants to now make even more mils 
+	allowed = {
+		original_tag = GFG
+	}
+	enable = {
+		has_idea = idea_GFG_militarization
+	}
+
+	abort = {
+		NOT = {has_idea = idea_GFG_militarization}
+	}
+
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio
+		value = 30
+	}
+}

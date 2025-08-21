@@ -161,17 +161,17 @@ focus_tree = {
         base = 10
 		}
 		
-		completion_reward = {
+		completion_reward = { #One day I want to rework the whole civil war but for now this will do
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 2000
+				amount = 1500
 				producer = GPR
 			}
 			hidden_effect = {
 				GPR = {
 					add_equipment_to_stockpile = {
 						type = infantry_equipment
-						amount = -2000
+						amount = -1500
 					}
 				}
 			}

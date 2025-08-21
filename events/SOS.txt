@@ -9,7 +9,7 @@ country_event = {
 	
 	immediate = {
 		random_list = {
-			99 = {
+			99 = { 
 				add_country_leader_role = {
 					character = SOS_pin
 					promote_leader = yes
@@ -18,7 +18,7 @@ country_event = {
 					}
 				}
 			}
-			1 = {
+			1 = { 
 				add_country_leader_role = {
 					character = SOS_joke_pin
 					promote_leader = yes

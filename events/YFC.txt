@@ -2374,6 +2374,8 @@ country_event = {
 		add_political_power = -200
 		add_threat = 0.5
 		hidden_effect = {
+			add_state_claim = 85
+			add_state_claim = 212
 			if = {
 				limit = {
 					has_country_flag = has_blocky_be_face
@@ -2401,7 +2403,7 @@ country_event = {
 				}
 				216 = {
 					create_unit = {
-						division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.5 start_experience_factor = 0.05"
+						division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.5 start_experience_factor = 0.05"
 						owner = YFC
 						count = 2
 						id = 1967
@@ -2448,7 +2450,7 @@ country_event = {
 			}
 			216 = {
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+					division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
 					owner = YFC
 					count = 3
 					id = 1967
@@ -2456,7 +2458,9 @@ country_event = {
 			}
 			YFC = {
 				add_offsite_building = { type = arms_factory level = 2 }
-				add_manpower = 15000
+				add_manpower = 20000
+				add_state_claim = 85
+				add_state_claim = 212
 			}
 		}
 		ai_chance = {
@@ -2489,6 +2493,11 @@ country_event = {
 					producer = CRN
 				}
 				set_political_power = 25
+				set_popularities = {
+					fascism = 32
+					radical_thoughts = 30
+					neutrality = 38
+				}
 				if = {
 					limit = {
 						YFC = {controls_state = 217}
@@ -2546,7 +2555,7 @@ country_event = {
 					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Freedom Fighters\" division_template = \"Eraser's bunch\" start_equipment_factor = 0.4 start_experience_factor = 0.35"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.5 start_experience_factor = 0.3"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2554,7 +2563,7 @@ country_event = {
 					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+					division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.15 start_experience_factor = 0.05"
 					owner = YFC
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -2585,7 +2594,7 @@ country_event = {
 					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.45 start_experience_factor = 0.05"
+					division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.45 start_experience_factor = 0.05"
 					owner = YFC
 					count = 1
 					allow_spawning_on_enemy_provs = yes
@@ -3102,8 +3111,8 @@ country_event = { #Annex Events FINAL
 	title = {
 		text = YFC_BUN.16.t.b #Already cored BUN or compliance over 65
 		trigger = {
-			212 = {compliance > 65}
-			85 = {compliance > 65}
+			212 = {compliance > 70}
+			85 = {compliance > 70}
 			NOT = {has_war_with = BUN}
 		}
 	}
@@ -3120,8 +3129,8 @@ country_event = { #Annex Events FINAL
 	desc = {
 		text = YFC_BUN.16.desc.b #Already cored BUN or compliance over 65
 		trigger = {
-			212 = {compliance > 65}
-			85 = {compliance > 65}
+			212 = {compliance > 70}
+			85 = {compliance > 70}
 			NOT = {has_war_with = BUN}
 		}
 	}
@@ -3184,7 +3193,7 @@ country_event = { #Annex Events FINAL
 		add_political_power = 50
 		add_timed_idea = {
 			idea = idea_YFC_at_the_finish_line
-			days = 150
+			days = 210
 		}
 	}
 }

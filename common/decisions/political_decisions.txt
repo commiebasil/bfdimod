@@ -43,6 +43,7 @@ political_actions = {
 		}
 
         remove_effect = {
+            army_experience = 5
             hidden_effect = {
                 YFC = {
                     country_event = {

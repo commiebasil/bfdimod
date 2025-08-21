@@ -1,0 +1,256 @@
+infantry_GDR = {
+
+	available_for = {
+		GDR
+	}
+
+	role = infantry
+
+	upgrade_prio = {
+		base = 5
+
+		modifier = {
+			factor = 1
+		}
+	}
+
+	infantry_civil_war_GDR = {
+		division_names_group = GDR_Inf_01
+		upgrade_prio = {
+			base = 1
+
+			modifier = {
+				factor = 1.5
+			}
+		}
+
+		can_upgrade_in_field = {
+            has_equipment = { support_equipment_1 > 25 }
+        }
+
+		target_template = {	
+			
+			regiments = {
+				infantry = 4
+			}
+		}
+
+		replace_at_match = 0.75
+        replace_with = infantry_civil_war_upgrade_GDR
+        target_min_match = 0.75
+	}
+
+	infantry_civil_war_upgrade_GDR = {
+		division_names_group = GDR_Inf_01
+		upgrade_prio = {
+			base = 1
+			modifier = {
+				factor = 0
+				arms_factory < 3
+			}
+
+			modifier = {
+				factor = 3
+				arms_factory > 3
+			}
+		}
+
+		can_upgrade_in_field = {
+        	has_equipment = { infantry_equipment > 100 }
+        }
+
+		target_template = {
+			
+			support = {
+				recon = 1
+			}
+
+			regiments = {
+				infantry = 4
+			}
+		}
+
+		replace_at_match = 0.75
+        replace_with = infantry_early_GDR
+        target_min_match = 0.75
+	}
+
+	infantry_early_GDR = {
+		#Unlocked after civil war is done
+		division_names_group = GDR_Inf_01
+		upgrade_prio = {
+			base = 2
+			modifier = {
+				factor = 3
+			}
+		}
+
+		can_upgrade_in_field = {
+			has_equipment = { motorized_equipment_1 > 100 }
+        }
+
+		enable = {
+			NOT = { country_exists = GPG }
+			NOT = { country_exists = GFG }
+			NOT = { country_exists = GSR }
+		}
+
+		target_template = {
+			
+			regiments = {
+				cavalry = 5
+			}
+		}
+
+		replace_at_match = 0.75
+        replace_with = infantry_early_upgrade_GDR
+        target_min_match = 0.75
+	}
+
+	infantry_early_upgrade_GDR = {
+		division_names_group = GDR_Inf_01
+		upgrade_prio = {
+			base = 3
+			modifier = {
+				factor = 0
+				has_tech = motorised_infantry
+			}
+
+			modifier = {
+				factor = 3
+				has_tech = motorised_infantry
+			}
+		}
+
+		target_template = {
+
+			regiments = {
+				motorized = 5
+			}	
+		}
+	}
+}
+
+
+garrison_GDR = {
+	available_for = {
+		GDR
+	}
+	
+	role = garrison
+	
+	upgrade_prio = {
+		factor = 1
+
+		modifier = {
+			factor = 2
+			NOT = { ai_has_role_template = garrison }
+		}
+	}
+
+
+	garrison_GDR = {
+		division_names_group = GDR_Inf_01
+		reinforce_prio = 0
+		custom_icon = 7
+	
+		upgrade_prio = {
+			factor = 1
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		enable = {
+			NOT = { country_exists = GPG }
+			NOT = { country_exists = GFG }
+			NOT = { country_exists = GSR }
+		}
+
+		target_template = {
+			
+			regiments = {
+				infantry = 4
+			}
+		}
+	}
+}
+	
+
+suppression_GDR = {
+	
+	role = suppression
+	available_for = {
+		GDR
+	}
+	upgrade_prio = {
+		base = 0.5
+
+		modifier = {
+			factor = 5
+			has_war = yes
+		}
+	}
+
+	suppression_generic = {
+		division_names_group = GDR_Cav_01
+		reinforce_prio = 0
+		custom_icon = 13
+	
+		upgrade_prio = {
+			base = 2
+		}
+		
+		target_template = {
+
+			support = {
+				military_police = 1
+			}
+
+			regiments = {
+				cavalry = 3
+			}
+		}
+	}
+}
+
+
+# Non-complete list of sub-units
+
+# REGIMENTS:
+# - infantry
+# - light_armor
+# - medium_armor
+# - heavy_armor
+# - super_heavy_armor
+# - modern_armor
+# - cavalry
+# - motorized
+# - mechanized
+# - marine
+# - mountaineers
+# - paratrooper
+# - artillery_brigade
+# - anti_air_brigade
+# - anti_tank_brigade
+# - light_tank_destroyer_brigade
+# - medium_tank_destroyer_brigade
+# - heavy_tank_destroyer_brigade
+# - super_heavy_tank_destroyer_brigade
+# - modern_tank_destroyer_brigade
+# - light_sp_anti_air_brigade
+# - light_sp_artillery_brigade
+
+# SUPPORT:
+# - engineer
+# - recon
+# - signal_company
+# - maintenance_company
+# - artillery
+# - anti_air
+# - anti_tank
+# - field_hospital
+# - logistics_company
+# - military_police
+# - rocket_artillery

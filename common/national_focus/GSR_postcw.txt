@@ -138,12 +138,9 @@ focus_tree = {
 			country_event = GSR_event.4
 			add_stability = -0.15
 			hidden_effect = {
-				if = {
-					limit = { has_completed_focus = GSR_focus_new_economic_policy }
-					country_event = {
-						id = GSR_event.6
-						days = 10
-					}
+			country_event = {
+					id = GSR_event.6
+					days = 7
 				}
 			}
 		}
@@ -393,7 +390,6 @@ focus_tree = {
 		
 		allow_branch = {
 			has_completed_focus = GSR_focus_casland_process
-			has_completed_focus = GSR_focus_new_economic_policy
 		}
 		
 		cost = 1
@@ -423,7 +419,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_stability = 0.05
-			add_political_power = 50
+			add_political_power = 100
 		}
 	}
 	
@@ -592,7 +588,7 @@ focus_tree = {
 		
 		prerequisite = { focus = GSR_focus_peoples_constitution }
 		
-		available = { has_political_power > 100 } #ik it should be 99 but who really cares lol :P
+		available = { has_political_power > 50 } #ik it should be 99 but who really cares lol :P
 		
 		cost = 6
 		
@@ -601,7 +597,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_political_power = -100
+			add_political_power = -50 #Lowing it as this path does take a while
 			country_event = GSR_event.8
 		}
 	}

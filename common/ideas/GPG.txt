@@ -41,7 +41,7 @@ ideas = {
 			modifier = {
 				army_attack_factor = 0.25
 				army_defence_factor = -0.25
-				ai_focus_aggressive_factor = 1
+				ai_focus_aggressive_factor = 2
 			}
 		}
 		
@@ -63,7 +63,7 @@ ideas = {
 			picture = GPG_12_hours_working_day
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.1
-				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.1 #never gonna reach the cap
 			}
 		}
 		

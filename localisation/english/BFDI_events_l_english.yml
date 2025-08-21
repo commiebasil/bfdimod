@@ -385,7 +385,7 @@
  GPG_event.46.a: "Let them come."
 
  GPG_event.47.t: "The Wind Changes Directions!"
- GPG_event.47.desc: "With Pie winning the vote it seems that not only were some of our council members unhappy, but one of our generals.  Cloudy had submitted his resignation a few hours ago citing 'Disillusioned with the current government'. For now, it seems that he will not be with us in the upcoming days."
+ GPG_event.47.desc: "With Pie winning the vote it seems that not only were some of our council members unhappy, but one of our generals. Cloudy had submitted his resignation a few hours ago citing 'Disillusioned with the current government'. For now, it seems that he will not be with us in the upcoming days."
  GPG_event.47.a: "Interesting..."
  
  #GDR
@@ -486,7 +486,7 @@
  GSR_event.9.a: "They'll change their minds."
  
  GSR_event.10.t: "Right Way"
- GSR_event.10.desc: "No one has ever achieved success like ours! The Toilers Front and the Chairman lead us forward to a bright future for Goiky!/n/nLong live the Toilers Front!/nLong live the Toilers Front!"
+ GSR_event.10.desc: "No one has ever achieved success like ours! The Toilers Front and the Chairman lead us forward to a bright future for Goiky!\n\nLong live the Toilers Front!\nLong live the Toilers Front!"
  GSR_event.10.a: "Long live the Toilers Front!"
  
  GSR_event.11.t: "Backstab!"

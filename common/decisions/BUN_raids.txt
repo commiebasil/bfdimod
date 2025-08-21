@@ -678,7 +678,7 @@ decision_BUN_raids_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 1000 #10
+				add = 10 
 				has_political_power > 75
 			}
 			modifier = {

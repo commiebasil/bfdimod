@@ -833,10 +833,9 @@ news_event = {
 					province = 711
 					value = 5
 				}
-				set_province_name = { id = 711 name = "Burned Gorge Town" }
+				set_province_name = { id = 711 name = "Gorge Town Ruins" }
 				add_compliance = -10
-				add_resistance_target = 30
-				add_resistance = 10
+				add_resistance = 55
 			}
 
 		}

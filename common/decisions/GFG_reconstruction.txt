@@ -36,6 +36,9 @@ decision_GFG_reconstruction_category = {
 				add_to_variable = { var_GFG_crisis_pfegf = 0.05 }
 			}
         }
+		ai_will_do = {
+			base = 50
+		}
     }
 	
 	GFG_reconstruction_recharnd = {
@@ -75,6 +78,9 @@ decision_GFG_reconstruction_category = {
 				add_to_variable = { var_GFG_crisis_pfegf = 0.05 }
 			}
         }
+		ai_will_do = {
+			base = 50
+		}
     }
 	
 	GFG_reconstruction_greensteel = {
@@ -114,6 +120,9 @@ decision_GFG_reconstruction_category = {
 				add_to_variable = { var_GFG_crisis_pfegf = 0.05 }
 			}
         }
+		ai_will_do = {
+			base = 50
+		}
     }
 	
 	GFG_reconstruction_plainy = {
@@ -153,5 +162,8 @@ decision_GFG_reconstruction_category = {
 				add_to_variable = { var_GFG_crisis_pfegf = 0.05 }
 			}
         }
+		ai_will_do = {
+			base = 50
+		}
     }
 }

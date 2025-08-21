@@ -114,6 +114,9 @@ decisions_GPG_lawnland_category = {
 			add_to_variable = { var_GPG_war_progressbar = 10 }
 			hidden_effect = { GPG_on_lawnland_progressbar_change = yes }
 		}
+		ai_will_do = {
+			base = 25
+		}
     }
 	
 	GPG_back_down_decision = {

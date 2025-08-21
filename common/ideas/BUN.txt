@@ -42,7 +42,7 @@ ideas = {
 				conscription = 0.1
 				army_org_factor = -0.2
 				experience_gain_army_factor = -0.75
-				mobilization_speed = 1
+				mobilization_speed = 2.5
 			}
 			cancel = {
 				NOT = { has_war_with = YFC }

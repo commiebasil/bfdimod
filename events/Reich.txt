@@ -208,6 +208,7 @@ country_event = {
 				transfer_state_to = SMG 
 			}
 			SMG = { 
+				retire_country_leader = yes
 				inherit_technology = GGR 
 				change_tag_from = GGR
 				random_list = {

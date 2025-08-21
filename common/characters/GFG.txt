@@ -4,6 +4,7 @@ characters = {
 		portraits = { civilian = { large = GFX_GPG_triumvirate } }
 		country_leader = {
 			ideology = fascism_ideology
+			traits = { skilled_military_staff }
 		}
 	}
 	

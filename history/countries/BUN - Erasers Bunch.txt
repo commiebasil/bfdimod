@@ -19,7 +19,7 @@ set_stability = 0.32
 
 add_equipment_to_stockpile = {
     type = train_equipment_1
-    amount = 12
+    amount = 6
     producer = GOI
 }
 
@@ -34,7 +34,7 @@ set_popularities = {
 	democratic = 28
 	fascism = 30
 	neutrality = 41
-	communism = 1
+	radical_thoughts = 1
 }
 
 #Revolt BUN 

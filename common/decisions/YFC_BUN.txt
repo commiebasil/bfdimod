@@ -123,7 +123,7 @@ decision_YFC_BUN_category = {
 					limit = {
 						is_ai = yes
 					}
-					add_political_power = 10
+					add_political_power = 30
 				}
 			}
 		}
@@ -164,7 +164,7 @@ decision_YFC_BUN_category = {
 					limit = {
 						is_ai = yes
 					}
-					add_political_power = 10
+					add_political_power = 30
 				}
 			}
 		}
@@ -573,7 +573,7 @@ decision_YFC_BUN_category = {
 
 		fire_only_once = no
 		cost = 20
-		days_remove = 50
+		days_remove = 30
 		days_re_enable = 30
 
 		modifier = {
@@ -611,7 +611,7 @@ decision_YFC_BUN_category = {
 
 		fire_only_once = no
 		cost = 20
-		days_remove = 50
+		days_remove = 30
 		days_re_enable = 30
 
 		modifier = {
@@ -652,6 +652,8 @@ decision_YFC_BUN_category = {
 		days_remove = 15
 
 		remove_effect = {
+			add_state_claim = 217
+			add_state_claim = 218
 			CRN = {
 				country_event = {
 					id = YFC_BUN.17
@@ -722,7 +724,7 @@ decision_YFC_BUN_category = {
 		timeout_effect = {
 			216 = {
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
+					division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
 					owner = YFC
 					count = 1
 					id = 1967
@@ -733,7 +735,7 @@ decision_YFC_BUN_category = {
 			}
 			216 = {
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+					division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
 					owner = YFC
 					count = 2
 					id = 1967

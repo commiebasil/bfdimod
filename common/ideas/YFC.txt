@@ -12,7 +12,10 @@ ideas = {
 			picture = YFC_United_Clash
 			targeted_modifier = {
 				tag = BUN
-				defense_bonus_against = 0.1
+				defense_bonus_against = 0.15
+			}
+			modifier = {
+				ai_focus_aggressive_factor = 1
 			}
 			cancel = {NOT = {country_exists = BUN}}
 		}
@@ -37,14 +40,15 @@ ideas = {
 				compliance_growth = 1
 				resistance_growth = 0.5
 			}
+			cancel = {country_exists = BUN}
 		}
 
 		idea_YFC_operation_enforcement = {
 			picture = CZE_planning_bonus
 			targeted_modifier = {
 				tag = BUN
-				defense_bonus_against = 0.35
-				attack_bonus_against = 0.75
+				defense_bonus_against = 0.5
+				attack_bonus_against = 1
 			}
 			modifier = {
 				supply_consumption_factor = -0.1
