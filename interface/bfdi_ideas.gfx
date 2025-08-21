@@ -426,6 +426,11 @@ spriteTypes = {
 		name = GFX_idea_BUN_criminal_state
 		texturefile = gfx/interface/ideas/idea_BUN_criminal_state.dds
 	}
+
+	spriteType = {
+		name = GFX_idea_BUN_ticking_bomb
+		texturefile = gfx/interface/ideas/idea_BUN_ticking_bomb.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_NRR_between_two_fires
