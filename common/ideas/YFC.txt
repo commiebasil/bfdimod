@@ -34,7 +34,7 @@ ideas = {
 			}
 		}
 
-		idea_YFC_at_the_finish_line = {
+		idea_YFC_at_the_finish_line = { #Close to gaining the compliance but also growing resistance, so a race to the end. Given at last of annex events
 			picture = generic_morale_bonus
 			modifier = {
 				compliance_growth = 1
@@ -43,7 +43,7 @@ ideas = {
 			cancel = {country_exists = BUN}
 		}
 
-		idea_YFC_operation_enforcement = {
+		idea_YFC_operation_enforcement = { #Last ditch attack by YFC during revolt, ALL IN!!!!!. Given by choice in a event where a ceasefire could be made
 			picture = CZE_planning_bonus
 			targeted_modifier = {
 				tag = BUN

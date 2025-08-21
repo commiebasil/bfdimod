@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		idea_CRN_city_on_a_shining_hill = {
+		idea_CRN_city_on_a_shining_hill = { #Have fun 
 			picture = RAJ_external_investments
 			modifier = {
 				stability_factor = 0.05
@@ -10,7 +10,7 @@ ideas = {
 			}
 		}
 
-		idea_CRN_greenville_treaty = { 
+		idea_CRN_greenville_treaty = { #Deal with BUN, some communists are... removed by some 'unknown and hard to get' criminals. Given by a decision
 			picture = generic_deal_with_the_devil2
 			modifier = {
 				communism_drift = -0.01
