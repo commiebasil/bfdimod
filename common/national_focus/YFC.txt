@@ -764,7 +764,7 @@ focus_tree = {
 			}
 		}
 		
-		allow_branch = { has_country_flag = Won_War_BUN }
+		#allow_branch = { has_country_flag = Won_War_BUN }
 		
 		cost = 2
 		completion_reward = {
@@ -853,7 +853,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_industrialize_or_die
 		relative_position_id = YFC_focus_the_economic_issue
-		x = -1
+		x = 1
 		y = 1
 		icon = GFX_focus_YFC_industrialize_or_die
 		prerequisite = { focus = YFC_focus_the_economic_issue }
@@ -867,7 +867,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_erasers_stockpiles
 		relative_position_id = YFC_focus_the_economic_issue
-		x = 1
+		x = -1
 		y = 1
 		icon = GFX_focus_YFC_erasers_stockpiles
 
@@ -1115,7 +1115,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_foster_new_society
 		relative_position_id = YFC_focus_the_bunchivist_problem
-		x = 0
+		x = -1
 		y = 1
 		icon = GFX_focus_generic
 		#allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
@@ -1127,9 +1127,24 @@ focus_tree = {
 		#adds comnpliance to bunchivist territories, gives stability and other things probably
 		#generally just add whatever effects you think would be balanced
 		#also ai will choose this like 70% of the time
-		#oh it also gvies you an event talkjing about how blocky is the best choice becuase he's soooo cool
+		#oh it also gvies you an event talkjing about how you'll have an election to see who runs the bunch etc etc whatever blah
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+	focus = {
+		id = YFC_focus_support_blocky
+		relative_position_id = YFC_focus_the_bunchivist_problem
+		x = 1
+		y = 1
+		icon = GFX_focus_generic
+		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
+		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
+		cost = 3
+		#required to do any of the election mechanic decisions, gives event talking abt blocky
+		completion_reward = {
+			
 		}
 	}
 
@@ -1164,7 +1179,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_stimulate_bunch_business
 		relative_position_id = YFC_focus_foster_new_society
-		x = -2
+		x = -1
 		y = 1
 		icon = GFX_focus_generic
 
@@ -1188,35 +1203,85 @@ focus_tree = {
 	}
 
 	focus = {
-		id = YFC_focus_blockys_offer
-		relative_position_id = YFC_focus_foster_new_society
-		x = -1
-		y = 2
+		id = YFC_focus_free_pows
+		relative_position_id = YFC_focus_establish_law_presence
+		x = 2
+		y = 1
 		icon = GFX_focus_generic
-		prerequisite = { focus = YFC_focus_foster_new_society }
+
+		prerequisite = { focus = YFC_focus_establish_law_presence }
 		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
-		cost = 1
-		#gives event about blocky and yf meeting to discuss things, in which blocky pgives several propositions
+		cost = 3
+		#more stab less pp
+		#event that lets you choose how many pows to free, more pows, more stab, less pp
 		completion_reward = {
-			country_event = {
-				id = YFC_event.19
-				hours = 1
-			}
+			
 		}
 	}
 
 	focus = {
-		id = YFC_focus_bunchivist_new_deal
-		relative_position_id = YFC_focus_blockys_offer
+		id = YFC_focus_advertise_YFC_products
+		relative_position_id = YFC_focus_stimulate_bunch_business
+		x = 1
+		y = 2
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
+		cost = 3
+		#gives a bit extra passive income
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_allow_people_enter #allow entrance to the bunch
+		relative_position_id = YFC_focus_establish_law_presence
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_establish_law_presence }
+		cost = 3
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_banks_too_big_to_fail
+		relative_position_id = YFC_focus_allow_people_enter
 		x = 1
 		y = 1
 		icon = GFX_focus_generic
-		prerequisite = { focus = YFC_focus_blockys_offer }
-		prerequisite = { focus = YFC_focus_establish_law_presence }
+		prerequisite = { focus = YFC_focus_allow_people_enter }
+		prerequisite = { focus = YFC_focus_free_pows }
+		cost = 3
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_insentivize_employment
+		relative_position_id = YFC_focus_banks_too_big_to_fail
+		x = -3
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_banks_too_big_to_fail }
+		prerequisite = { focus = YFC_focus_advertise_YFC_products }
+		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
+	}
+
+	focus = {
+		id = YFC_focus_bunchivist_new_deal
+		relative_position_id = YFC_focus_banks_too_big_to_fail
+		x = 2
+		y = 1
+		icon = GFX_focus_generic
+		prerequisite = { focus = YFC_focus_banks_too_big_to_fail }
+		prerequisite = { focus = YFC_focus_free_pows }
 		cost = 10
-		#gives event talking about giving former bunchivists free rehabilitation for their radicalist ideals
-		#all they have to do is pay a bit of money (large amount for treasury, takes a large amount of civs/passive income)
-		#this is cumpolsary btw, they have to pay you. lmao. massive loss of stability
+		
 		completion_reward = {
 			
 		}
