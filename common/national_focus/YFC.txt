@@ -1306,7 +1306,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_trial_over_eraser
 		relative_position_id = YFC_focus_clamp_down_on_bunchivism
-		x = 1
+		x = 2
 		y = 1
 		icon = GFX_focus_generic
 
@@ -1337,7 +1337,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_execute_pen
 		relative_position_id = YFC_focus_clamp_down_on_bunchivism
-		x = -1
+		x = 0
 		y = 1
 		icon = GFX_focus_YFC_pen
 
