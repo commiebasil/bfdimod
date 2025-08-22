@@ -28,22 +28,22 @@ units = {
         name = "Eraser's bunch"
         location = 3944 # GGRR - S Border
         division_template = "Eraser's bunch"
-        start_experience_factor = 0.75
-        start_equipment_factor = 0.7
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.6
     }
 	division= {
         name = "Podgornyv Bandits"
         location = 5679 # Podgornyv
         division_template = "Bandits"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.35
+        start_equipment_factor = 0.3
     }
 	division= {
         name = "Snowpath Bandits"
         location = 4249 # Snowpath
         division_template = "Bandits"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.35
+        start_equipment_factor = 0.3
     }
 	division= {
         name = "Highwaymen"

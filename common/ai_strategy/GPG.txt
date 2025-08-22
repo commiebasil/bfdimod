@@ -39,6 +39,31 @@ GPG_civil_war = {
 	}
 }
 
+GPG_GPR_trade = {
+	allowed = {
+		original_tag = GPG
+	}
+	enable = {
+		has_completed_focus = GPG_focus_cabinet_resisted
+		has_idea = idea_GPG_factionalism
+		has_war = no
+	}
+
+	abort = {
+		OR = {
+			has_war = yes
+			NOT = {has_idea = idea_GPG_factionalism}
+		}	
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers
+		ratio = 1000
+		states = { 145 }
+		subtract_fronts_from_need = yes
+	}
+}
+
 ## INDUSTRY ##
 
 GPG_rearmament = {

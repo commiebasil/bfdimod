@@ -4,7 +4,7 @@ ideas = {
 			picture = RAJ_external_investments
 			modifier = {
 				stability_factor = 0.05
-				political_power_gain = 0.25
+				monthly_population = 0.25
 				trade_opinion_factor = 0.25
 				faction_trade_opinion_factor = 0.1
 			}

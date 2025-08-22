@@ -2128,7 +2128,7 @@ country_event = {
 	id = YFC_BUN.1
 	title = YFC_BUN.1.t
 	desc = YFC_BUN.1.desc
-	picture = GFX_Temp_event
+	picture = GFX_YFC_BUN1
 
 	is_triggered_only = yes
 
@@ -2233,7 +2233,7 @@ country_event = {
 	id = YFC_BUN.3
 	title = YFC_BUN.3.t
 	desc = YFC_BUN.3.desc
-	picture = GFX_Temp_event
+	picture = GFX_YFC_BUN3
 
 	is_triggered_only = yes
 
@@ -2262,7 +2262,7 @@ country_event = {
 	id = YFC_BUN.4
 	title = YFC_BUN.4.t
 	desc = YFC_BUN.4.desc
-	picture = GFX_Temp_event
+	picture = GFX_YFC_BUN3
 
 	is_triggered_only = yes
 
@@ -2410,8 +2410,8 @@ country_event = {
 					}
 				}
 				YFC = {
-					add_offsite_building = { type = arms_factory level = 1 }
-					add_manpower = 10000
+					add_offsite_building = { type = arms_factory level = 2 }
+					add_manpower = 20000
 				}
 			}
 		}
@@ -2457,8 +2457,8 @@ country_event = {
 				}
 			}
 			YFC = {
-				add_offsite_building = { type = arms_factory level = 2 }
-				add_manpower = 20000
+				add_offsite_building = { type = arms_factory level = 3 }
+				add_manpower = 30000
 				add_state_claim = 85
 				add_state_claim = 212
 			}
@@ -3356,12 +3356,13 @@ country_event = {
 	id = YFC_BUN.23 
 	title = YFC_BUN.23.t
 	desc = YFC_BUN.23.desc
-	picture = GFX_Temp_event
+	picture = GFX_YFC_BUN23
 
 	is_triggered_only = yes
 
 	option = {
 		name = YFC_BUN.23.a
+		add_political_power = 20
 		85 = {add_compliance = 2}
 		212 = {add_compliance = 2}
 	}

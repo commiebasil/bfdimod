@@ -14,18 +14,61 @@ country_event = {
 		add_political_power = 25
 		hidden_effect = {
 			if = {
-				limit = { is_ai = yes }
+				limit = { 
+					is_ai = yes
+					OR = {
+						is_historical_focus_on = no	
+						has_game_rule = { rule = GPG_ai_behavior option = RANDOM }
+					} 
+				}
 				random_list = {
-					30 = {
+					40 = {
 						set_country_flag = stability_save_path
 					}
-					40 = {
+					30 = {
 						set_country_flag = civil_war_path
 					}
 					30 = {
 						set_country_flag = fries_path
 					}
 				}
+			}
+			else_if = {
+				limit = {
+					is_ai = yes
+					OR = {
+						has_game_rule = { rule = GPG_ai_behavior option = MAINTAIN_PEACE_NO_FRIES }
+						has_game_rule = { rule = GPG_ai_behavior option = MAINTAIN_PEACE_FRIES }
+					}		
+				}
+				set_country_flag = stability_save_path
+			}
+			else_if = {
+				limit = {
+					is_ai = yes
+					OR = {
+						has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_FRIES }
+						has_game_rule = { rule = GPG_ai_behavior option = DEFAULT }			
+					}
+					is_historical_focus_on = yes	
+				}
+				set_country_flag = fries_path
+			}
+			else_if = {
+				limit = {
+					is_ai = yes
+					OR = {
+						has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_SOCIALIST }
+						has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_ANARCHIST }	
+						has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_FASCIST }	
+						has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_YOYLELANDIA }
+						has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_DEMOCRATIC }			
+					}	
+				}
+				set_country_flag = civil_war_path
+			}
+			else = {
+				set_country_flag = civil_war_path
 			}
 		}
 	}
@@ -49,6 +92,10 @@ country_event = {
 					}
 				}
 			}
+		}
+
+		ai_chance = {
+			base = 0
 		}
 	}
 }
@@ -284,7 +331,10 @@ country_event = {
 			base = 0
 			modifier = {
 				add = 10
-				has_country_flag = fries_path
+				OR = {
+					has_country_flag = fries_path
+					has_game_rule = { rule = GPG_ai_behavior option = MAINTAIN_PEACE_FRIES }
+				}
 			}
 		}
 		set_country_flag = second_question
@@ -313,6 +363,7 @@ country_event = {
 					has_country_flag = civil_war_path
 					has_country_flag = stability_save_path
 				}
+				NOT = {has_game_rule = { rule = GPG_ai_behavior option = MAINTAIN_PEACE_FRIES }}
 			}
 		}
 		set_country_flag = second_question
@@ -897,31 +948,133 @@ country_event = {
 	option = {
 		name = GPG_event.20.a
 		hidden_effect = {
-			#scripted effect
+			if = {
+				limit = {is_ai = yes}
+				GPG = {
+					add_manpower = 20000
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 2000
+					}
+				}
+			}
+			else = {
+				GPG = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 500
+					}
+				}
+			}
 			gpg_civil_war = yes
 			goto_state = 8
 		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 100
+				OR = {
+					has_country_flag = fries_path
+					has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_NO_FRIES }
+					has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_FRIES }
+				}	
+			}
+		}
 	}
+
 	option = {
 		name = GPG_event.20.b
-		GSR = { change_tag_from = GPG }
 		hidden_effect = {
+			if = {
+				limit = {is_ai = yes}
+				GSR = {
+					add_manpower = 20000
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 2000
+					}
+				}
+			}
+			else = {
+				GSR = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 500
+					}
+				}
+			}
+			GSR = { change_tag_from = GPG }
 			gpg_civil_war = yes
 			goto_state = 10 
 		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 100
+				OR = {
+					has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_SOCIALIST }
+					has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_ANARCHIST }
+				}	
+			}
+		}
 	}
+
 	option = {
 		name = GPG_event.20.c
-		GDR = { change_tag_from = GPG }
 		hidden_effect = {
+			if = {
+				limit = {is_ai = yes}
+				GDR = {
+					add_manpower = 20000
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 2000
+					}
+				}
+			}
+			else = {
+				GDR = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 500
+					}
+				}
+			}
+			GDR = { change_tag_from = GPG }
 			gpg_civil_war = yes
 			goto_state = 145
 		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 100
+				has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_DEMOCRATIC }
+			}
+		}
 	}
+
 	option = {
 		name = GPG_event.20.d
-		GFG = { change_tag_from = GPG }
 		hidden_effect = {
+			if = {
+				limit = {is_ai = yes}
+				GFG = {
+					add_manpower = 20000
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 2000
+					}
+				}
+			}
+			else = {
+				GFG = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 500
+					}
+				}
+			}
+			GFG = { change_tag_from = GPG }
 			gpg_civil_war = yes
 			if = {
 				limit = {
@@ -933,6 +1086,16 @@ country_event = {
 			}
 			else = {
 				goto_state = 158
+			}
+		}
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 100
+				OR = {
+					has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_FASCIST }
+					has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_YOYLELANDIA }
+				}	
 			}
 		}
 	}
@@ -1109,6 +1272,7 @@ country_event = {
 	
 	option = {
 		name = GPG_event.24.a
+		add_political_power = 25
 		activate_mission = GPG_mission_deal_with_democrats
 		activate_mission = GPG_mission_deal_with_toilers_front
 		activate_mission = GPG_mission_deal_with_iron_hand
@@ -1116,6 +1280,20 @@ country_event = {
 			set_country_flag = gpg_provgov_second_tree
 			mark_focus_tree_layout_dirty = yes
 			complete_national_focus = GPG_focus_cabinet_resisted
+			if = {
+				limit = {
+					is_ai = yes
+					OR = {
+						has_game_rule = { rule = GPG_ai_behavior option = MAINTAIN_PEACE_NO_FRIES }
+						has_game_rule = { rule = GPG_ai_behavior option = MAINTAIN_PEACE_FRIES }
+					}	
+				}
+				add_political_power = 50
+				country_lock_all_division_template = no
+				complete_national_focus = GPG_focus_bake_taco
+				complete_national_focus = GPG_focus_break_up_the_brilliant
+				complete_national_focus = GPG_focus_yoylemetal_hand
+			}
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -1857,7 +2035,6 @@ country_event = {
 
 country_event = {
 	id = GPG_event.47
-	#Cloudy leaves >:(
 	title = GPG_event.47.t
 	desc = GPG_event.47.desc
 	picture = GFX_WGF_event17

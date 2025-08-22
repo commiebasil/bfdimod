@@ -439,6 +439,102 @@ allow_scorched_earth = {
 	}
 }
 
+
+ ##  ###     ###  ### #  #  ##  #   # ###  ##  ###  
+#  #  #      #  # #   #  # #  # #   #  #  #  # #  # 
+####  #      ###  ##  #### ####  # #   #  #  # ###  
+#  #  #      #  # #   #  # #  #  # #   #  #  # #  # 
+#  # ###     ###  ### #  # #  #   #   ###  ##  #  # 
+
+
+
+GGR_ai_behavior = {
+	name = "GGR_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = DESTORY_ANARCHISTS
+		text = "RULE_OPTION_DESTORY_ANARCHISTS"
+		desc = "RULE_OPTION_DESTORY_ANARCHISTS_GGR_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = COLLAPSE_COUNTRY
+		text = "RULE_OPTION_COLLAPSE_COUNTRY"
+		desc = "RULE_OPTION_COLLAPSE_COUNTRY_GGR_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+
+GPG_ai_behavior = {
+	name = "GPG_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = MAINTAIN_PEACE_NO_FRIES
+		text = "RULE_OPTION_MAINTAIN_PEACE_NO_FRIES"
+		desc = "RULE_OPTION_MAINTAIN_PEACE_NO_FRIES_GPG_AI_DESC"
+	}
+	option = {
+		name = MAINTAIN_PEACE_FRIES
+		text = "RULE_OPTION_MAINTAIN_PEACE_FRIES"
+		desc = "RULE_OPTION_MAINTAIN_PEACE_FRIES_GPG_AI_DESC"
+	}
+	option = {
+		name = CIVIL_WAR_NO_FRIES
+		text = "RULE_OPTION_CIVIL_WAR_NO_FRIES"
+		desc = "RULE_OPTION_CIVIL_WAR_NO_FRIES_GPG_AI_DESC"
+	}
+	option = {
+		name = CIVIL_WAR_FRIES
+		text = "RULE_OPTION_CIVIL_WAR_FRIES"
+		desc = "RULE_OPTION_CIVIL_WAR_FRIES_GPG_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CIVIL_WAR_SOCIALIST
+		text = "RULE_OPTION_CIVIL_WAR_SOCIALIST"
+		desc = "RULE_OPTION_CIVIL_WAR_SOCIALIST_GPG_AI_DESC"
+	}
+	option = {
+		name = CIVIL_WAR_ANARCHIST
+		text = "RULE_OPTION_CIVIL_WAR_ANARCHIST"
+		desc = "RULE_OPTION_CIVIL_WAR_ANARCHISTS_GPG_AI_DESC"
+	}
+	option = {
+		name = CIVIL_WAR_FASCIST
+		text = "RULE_OPTION_CIVIL_WAR_FASCIST"
+		desc = "RULE_OPTION_CIVIL_WAR_FASCIST_GPG_AI_DESC"
+	}
+	option = {
+		name = CIVIL_WAR_YOYLELANDIA
+		text = "RULE_OPTION_CIVIL_WAR_YOYLELANDIA"
+		desc = "RULE_OPTION_CIVIL_WAR_YOYLELANDIA_GPG_AI_DESC"
+	}
+	option = {
+		name = CIVIL_WAR_DEMOCRATIC
+		text = "RULE_OPTION_CIVIL_WAR_DEMOCRATIC"
+		desc = "RULE_OPTION_CIVIL_WAR_DEMOCRATIC_GPG_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+
 ###  ###  ## ###  ##  ###   ##  #  # 
 #  # #   #   #   #  # #  # #  # #  # 
 ###  ##   #  ##  #### ###  #    #### 
@@ -549,3 +645,6 @@ obsolete_focus_branches_visibility = {
 		allow_achievements = yes
 	}
 }
+
+
+

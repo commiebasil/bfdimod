@@ -44,7 +44,7 @@ difficulty_settings = {
 	difficulty_setting = {
 		key = "custom_diff_strong_gpg"
 		modifier = diff_strong_ai_generic
-		countries = { GPG }
+		countries = { GPG GDR GSR GFG }
 		multiplier = 2.0
 	}
 	difficulty_setting = {
@@ -87,6 +87,12 @@ difficulty_settings = {
 		key = "custom_diff_strong_agg"
 		modifier = diff_strong_ai_generic
 		countries = { AGG }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_YFC"
+		modifier = diff_strong_ai_generic
+		countries = { YFC }
 		multiplier = 2.0
 	}
 }

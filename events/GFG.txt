@@ -56,6 +56,13 @@ country_event = {
 		complete_national_focus = GFG_focus_neverending_victory
 		mark_focus_tree_layout_dirty = yes
 		add_stability = 0.1
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 100
+				has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_FASCIST }
+			}
+		}
 	}
 	
 	option = {
@@ -66,6 +73,13 @@ country_event = {
 		mark_focus_tree_layout_dirty = yes
 		add_stability = 0.05
 		add_war_support = 0.05
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 100
+				has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_YOYLELANDIA }
+			}
+		}
 	}
 }
 

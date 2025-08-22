@@ -193,13 +193,6 @@ country_event = {
 	option = {
 		name = GGR_event.8.a
 		kill_country_leader = yes
-		add_country_leader_role = {
-			character = GGR_grassy
-			promote_leader = yes
-			country_leader = {
-				ideology = gen_nazism
-			}
-		}
 		hidden_effect = {
 			add_threat = 3
 			15 = { 
@@ -208,7 +201,6 @@ country_event = {
 				transfer_state_to = SMG 
 			}
 			SMG = { 
-				retire_country_leader = yes
 				inherit_technology = GGR 
 				change_tag_from = GGR
 				random_list = {

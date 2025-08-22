@@ -129,7 +129,7 @@
  idea_BUN_criminal_state_desc: "Banditry was on the heels of the coming chaos. From the Great-Goikian Railroad in the north to the Snowy Plateau in the south, a kind of 'republic' of bandits and thieves took shape in the center of the continent. The main activity here is raids on neighbors. The most famous group here was Eraser, Pen and Blocky's bunch, or just Eraser's bunch."
 
  idea_BUN_Ticking_Bomb: "On a Ticking Timed Bomb"
- idea_BUN_Ticking_Bomb_desc: "We can not win a drawn out war. If the war takes too long, we'll start losing supplies, having men defect, having our foreign allies get routed out, and anything else that is bad and could also happen. We don't just want a decisive war, we need it." #add some like red text saying the buffs go away over time
+ idea_BUN_Ticking_Bomb_desc: "We can not win a drawn out war. If the war takes too long, we'll start losing supplies, having men defect, having our foreign allies get routed out, and anything else that is bad and could also happen. We don't just want a decisive war, we need it." 
  idea_BUN_greenville_treaty: "Greenville Treaty"
 
  idea_BUN_collapsed_economy: "Collapsed Economy"
@@ -168,10 +168,12 @@
  idea_SOS_goiky_fleet: "Goiky Fleet"
  idea_SOS_goiky_fleet_desc: "With Goiky collapse, the vast merchant fleet of the eastern coast was left to fend for itself. The state with its capital in St. Objectburg also grew into surrounding territories that depended on the fleet. As a result, a fairly strong player was formed in the very heart of the Goiky. Royalist sentiments are also strong here..."
 
+ #Slightly reworded as none of the starting Ideas are stated in First Person
+
  idea_CRN_city_on_a_shining_hill: "City on a Shining Hill"
- idea_CRN_city_on_a_shining_hill_desc: "Our democracy is the strongest in Goiky. People seeking refuge from other, lesser states, always flock to our republic. Our ideals of freedom, liberty, and justice above all, attract the minds of Goikeans the continent over. It is important that, no matter what paths we may take in the future, we keep these ideals close to our hearts!"
+ idea_CRN_city_on_a_shining_hill_desc: "The democracy here is the strongest in Goiky. People seeking refuge from other, 'lesser states', always flock to the republic. The ideals of freedom, liberty, and justice above all, attract the minds of Goikeans all over the continent. It is important that, no matter what paths that are taken in the future, they shall keep these ideals close to their hearts!"
  idea_CRN_greenville_treaty: "Greenville Treaty"
 
  idea_DAV_the_thousand_year_throne: "The Thousand Year Throne"
- idea_DAV_the_thousand_year_throne_desc: "Our rule over the Davidian Islands has been solidified for longer than the Goikean continent had a population. Even in the ancient days of Yoylelanders, there was a Davidian on the throne, and loyal subjects on his islands. With God at the helm, our rightous dynasty will continue for a thousand years over. No petty riot could ever end our reign."
+ idea_DAV_the_thousand_year_throne_desc: "The rule over the Davidian Islands has been solidified for longer than the Goikean continent had a population. Even in the ancient days of Yoylelanders, there was a Davidian on the throne, and loyal subjects on his islands. With God at the helm, their rightous dynasty will continue for a thousand years over. No petty riot could ever end the reign."
 
