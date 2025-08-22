@@ -1099,10 +1099,10 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_clamp_down_on_bunchivism
 		relative_position_id = YFC_focus_the_bunchivist_problem
-		x = 0
+		x = -1
 		y = 1
 		icon = GFX_focus_YFC_clamp_down_on_bunchivism
-		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+		#allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_foster_new_society }
 		cost = 5
@@ -1113,12 +1113,28 @@ focus_tree = {
 	}
 
 	focus = {
+		id = YFC_focus_study_snowballs_supression
+		relative_position_id = YFC_focus_the_bunchivist_problem
+		x = 1
+		y = 1
+		icon = GFX_focus_generic
+		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
+		cost = 2
+		#gives like 60 extra days until the revolt starts
+		#requites you to have completed "remove oligarchical sentiment"
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
 		id = YFC_focus_foster_new_society
 		relative_position_id = YFC_focus_the_bunchivist_problem
 		x = -1
 		y = 1
 		icon = GFX_focus_generic
-		#allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
+		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_clamp_down_on_bunchivism }
 		cost = 5
