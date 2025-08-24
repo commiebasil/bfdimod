@@ -431,10 +431,35 @@ spriteTypes = {
 		name = GFX_idea_BUN_ticking_bomb
 		texturefile = gfx/interface/ideas/idea_BUN_ticking_bomb.dds
 	}
+
+	spriteType = {
+		name = GFX_idea_BUN_armed_militia
+		texturefile = gfx/interface/ideas/idea_BUN_armed_militia.dds
+	}
+
+	spriteType = {
+		name = GFX_idea_BUN_collapsed_economy
+		texturefile = gfx/interface/ideas/idea_BUN_collapsed_economy.dds
+	}
+
+	spriteType = {
+		name = GFX_idea_BUN_unstable_future
+		texturefile = gfx/interface/ideas/idea_BUN_unstable_future.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_NRR_between_two_fires
 		texturefile = gfx/interface/ideas/idea_NRR_between_two_fires.dds
+	}
+
+	spriteType = {
+		name = GFX_idea_CRN_city_on_a_shining_hill
+		texturefile = gfx/interface/ideas/idea_CRN_city_on_a_shining_hill.dds
+	}
+
+	spriteType = {
+		name = GFX_idea_DAV_the_thousand_year_throne
+		texturefile = gfx/interface/ideas/idea_DAV_the_thousand_year_throne.dds
 	}
 	
 	spriteType = {

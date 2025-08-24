@@ -1,10 +1,10 @@
 ideas = {
 	country = {
 		idea_CRN_city_on_a_shining_hill = { #Have fun 
-			picture = RAJ_external_investments
+			picture = CRN_city_on_a_shining_hill
 			modifier = {
 				stability_factor = 0.05
-				monthly_population = 0.25
+				monthly_population = 0.5
 				trade_opinion_factor = 0.25
 				faction_trade_opinion_factor = 0.1
 			}

@@ -25,7 +25,7 @@ ideas = {
 		#All these ideas will become modifiers when Neo-Bunch gets stuff
 
 		idea_BUN_collapsed_economy = { #All industry was blown up or stolen so no money :sad:. Given in revolt
-			picture = generic_economic_crisis
+			picture = BUN_collapsed_economy
 			modifier = {
 				consumer_goods_factor = 0.65
 				production_speed_buildings_factor = -0.5
@@ -36,7 +36,7 @@ ideas = {
 		}
 
 		idea_BUN_armed_militia  = { #Everyone hates YFC so civilian militia. Given in revolt
-			picture = generic_manpower_bonus
+			picture = BUN_armed_militia
 			modifier = {
 				resistance_target_on_our_occupied_states = 0.15
 				conscription = 0.1
@@ -50,7 +50,7 @@ ideas = {
 		}
 
 		idea_BUN_unstable_future  = { #Bunch leadership and goals gone, so unknown paths to take. Given in revolt
-			picture = generic_neutrality_drift_bonus
+			picture = BUN_unstable_future
 			modifier = {
 				political_power_gain = -0.65
 				party_popularity_stability_factor = -0.25

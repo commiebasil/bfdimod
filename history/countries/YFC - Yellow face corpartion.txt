@@ -39,10 +39,6 @@ set_popularities = {
 	communism = 6
 }
 
-#Raids
- set_variable = { var_currently_raiding_YFC = 0 }
- set_variable = { var_progress_raids_GGR = 0 }
- set_variable = { var_progress_raids_SRR = 0 }
 
 #Anarchic Lands Idea
  set_variable = { var_idea_YFC_anarchic_lands_repair = 5 }

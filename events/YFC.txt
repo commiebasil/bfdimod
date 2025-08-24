@@ -340,7 +340,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { 
-		name = YFC_event.12.a
+		name = YFC_event.12.a 
 		complete_national_focus = YFC_focus_industrialize_or_die
 	}
 	option = { 
@@ -526,6 +526,156 @@ country_event = {
 				add_opinion_modifier = { target = YFC modifier = refused_help }
 			}
 		}
+	}
+}
+
+country_event = {
+	id = YFC_event.22 #Buildup city event
+	title = YFC_event.22.t
+    desc = YFC_event.22.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { #Small
+		name = YFC_event.22.a
+		hidden_effect = {
+			add_to_variable = { var_YFC_upgrade_level = 1 }
+		}
+	}
+
+	option = { #Medium
+		name = YFC_event.22.b
+		hidden_effect = {
+			add_to_variable = { var_YFC_upgrade_level = 2 }
+		}
+	}
+
+	option = { #Large
+		name = YFC_event.22.c
+		hidden_effect = {
+			add_to_variable = { var_YFC_upgrade_level = 3 }
+		}
+	}
+}
+
+country_event = {
+	id = YFC_event.23 #Buildup city event OUTCOME #1
+	title = YFC_event.23.t
+    desc = YFC_event.23.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.23.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.24 #Buildup city event OUTCOME #2
+	title = YFC_event.24.t
+    desc = YFC_event.24.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.24.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.25 #Buildup city event OUTCOME #3
+	title = YFC_event.25.t
+    desc = YFC_event.25.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.25.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.26 #Buildup city event OUTCOME #4+7
+	title = YFC_event.26.t
+    desc = YFC_event.26.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.26.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.27 #Buildup city event OUTCOME #5
+	title = YFC_event.27.t
+    desc = YFC_event.27.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.27.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.28 #Buildup city event OUTCOME #6
+	title = YFC_event.28.t
+    desc = YFC_event.28.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.28.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.29 #Buildup city event OUTCOME #8
+	title = YFC_event.29.t
+    desc = YFC_event.29.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.29.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.30 #Buildup city event OUTCOME #9
+	title = YFC_event.30.t
+    desc = YFC_event.30.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.30.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
 	}
 }
 

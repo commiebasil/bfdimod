@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		idea_DAV_the_thousand_year_throne = { #Have fun
-			picture = generic_monarchist_uprising
+			picture = DAV_the_thousand_year_throne
 			modifier = {
 				stability_factor = 0.10
 				drift_defence_factor = 0.75

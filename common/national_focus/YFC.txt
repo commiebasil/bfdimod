@@ -309,6 +309,10 @@ focus_tree = {
 			YFC = { give_guarantee = BUN }
 			BUN = { give_guarantee = YFC }
 			hidden_effect = {
+				#Raids
+				set_variable = { var_currently_raiding_YFC = 0 }
+				set_variable = { var_progress_raids_GGR = 0 }
+				set_variable = { var_progress_raids_SRR = 0 }
 				add_threat = 0.3
 				#Hidden buff so GGR does not fall quickly
 				IF = {
@@ -760,7 +764,7 @@ focus_tree = {
 		icon = GFX_focus_YFC_look_inward
 		available = {
 			hidden_trigger = {
-				has_country_flag = Won_War_BUN
+				#has_country_flag = Won_War_BUN
 			}
 		}
 		
@@ -843,7 +847,7 @@ focus_tree = {
 			custom_effect_tooltip = l_YFC_repair
 			add_to_variable = { var_idea_YFC_anarchic_lands_repair = 0.25 }
 			country_event = {
-				id = YFC_event.12
+				id = YFC_event.12 #This still needs text
 				hours = 1
 				random_hours = 2
 			}
@@ -860,7 +864,9 @@ focus_tree = {
 		cost = 5
 		#after an event you get from "the economic issue" if you choose to focus on industrializing, you get this branch
 		completion_reward = {
-			
+			hidden_effect = {
+				set_variable = { var_YFC_upgrade_level = 0 }
+			}
 		}
 	}
 	
@@ -1006,7 +1012,7 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_military_industrial_complex }
-		cost = 5
+		cost = 6
 		#gives event about moving different sectors from footpathburg to other locations
 		#science goes to yoyleton, railroad goes to peoniele, rest stay
 		completion_reward = {
@@ -1014,6 +1020,9 @@ focus_tree = {
 			add_political_power = 25
 		}
 	}
+
+	#For less headache i'm putting both as the same event has an output of a variable
+	#Just easier for the 9 if/elseif/else statements
 
 	focus = {
 		id = YFC_focus_peoniele_the_second_city
@@ -1024,10 +1033,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_spread_out_sectors }
 		prerequisite = { focus = YFC_focus_scope_out_sea_trade focus = YFC_focus_expand_northern_trade }
 		mutually_exclusive = { focus = YFC_focus_big_yoyleton }
-		cost = 3
-		#gives event about adding stuff to peoniele, event you get should differ based on if you already took develop peoniele or not
-		#gives you the option on how much to develop peoniele
-		#adding more gives you money, but doing too much makes you lose stability
+		cost = 5
 		completion_reward = {
 			196 = {
 				add_extra_state_shared_building_slots = 2
@@ -1036,6 +1042,7 @@ focus_tree = {
 					value = 5
 				}
 			}
+			hidden_effect = {country_event = YFC_event.22}		
 		}
 	}
 
@@ -1048,10 +1055,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_spread_out_sectors }
 		prerequisite = { focus = YFC_focus_scope_out_sea_trade focus = YFC_focus_expand_northern_trade }
 		mutually_exclusive = { focus = YFC_focus_peoniele_the_second_city }
-		cost = 3
-		#gives event that lets you choose how much to develop the city
-		#choosing an option starts a decisions timer, and the bigger you choose to make it, the longer the timer
-		#the timer costs money when its on going, and gives all of the money back plus some extra when it's done
+		cost = 5
 		completion_reward = {
 			216 = {
 				add_extra_state_shared_building_slots = 2
@@ -1060,6 +1064,7 @@ focus_tree = {
 					value = 5
 				}
 			}
+			hidden_effect = {country_event = YFC_event.22}
 		}
 	}
 
@@ -1071,28 +1076,116 @@ focus_tree = {
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_spread_out_sectors }
 		prerequisite = { focus = YFC_focus_peoniele_the_second_city focus = YFC_focus_big_yoyleton }
-		cost = 3
+		cost = 8
 		#give event about the large population, highly variable based on what you chose
 		#NONE of these overlap except for 7 and 4
-		#1develop peoniele -> peoniele the second city -> chose large dev (event about large profits but a slightly angry populace, and how yoyleton is still in ruins)
-		#2develop peoniele -> peoniele the second city -> chose medium or small dev (event about large profits and neglected yoyleton)
-		#3develop peoniele -> big yoyleton -> chose any large or medium dev (event on having a happy populace and big profits)
-		#4develop peoniele -> big yoyleton -> chose small (event about cities not living up to expectations, upset sectorials, but still happy population)
-		#5develop yoyleton -> big yoyleton -> chose large or medium dev (event about large profits, good trade with north, happy populace, but neglected peoniele)
-		#6develop yoyleton -> big yoyleton -> chose small dev (event about not developing enough, neglected peoniele, angry sectorials)
-		#7develop yoyleton -> peoniele the second city -> chose small dev (same event as #4)
-		#8develop yoyleton -> peoniele the second city -> chose medium dev (event about big profits, and happy population)
-		#9develop yoyleton -> peoniele the second city -> chose large dev (event about large profits, happy sectorials, but mad peoniele populace)
+		#1	develop peoniele -> peoniele the second city -> chose large dev (event about large profits but a slightly angry populace, and how yoyleton is still in ruins)
+		#2	develop peoniele -> peoniele the second city -> chose medium or small dev (event about large profits and neglected yoyleton)
+		#3	develop peoniele -> big yoyleton -> chose any large or medium dev (event on having a happy populace and big profits)
+		#4	develop peoniele -> big yoyleton -> chose small (event about cities not living up to expectations, upset sectorials, but still happy population)
+		#5	develop yoyleton -> big yoyleton -> chose large or medium dev (event about large profits, good trade with north, happy populace, but neglected peoniele)
+		#6	develop yoyleton -> big yoyleton -> chose small dev (event about not developing enough, neglected peoniele, angry sectorials)
+		#7	develop yoyleton -> peoniele the second city -> chose small dev (same event as #4)
+		#8	develop yoyleton -> peoniele the second city -> chose medium dev (event about big profits, and happy population)
+		#9	develop yoyleton -> peoniele the second city -> chose large dev (event about large profits, happy sectorials, but mad peoniele populace)
 		completion_reward = {
-			#Im rebeling fuck you!!!!!!!!!!!!!
-			#For the sake of simplicity and not giving the player a headache over really just population, stability, and money, imma lower the outcomes to 4-5 
-			#Unless... you make the event GFX?
-
-			#re; you and i both know that having me touch the event gfx would end in disaster
-			#we're already like 300 event pictures behind, what's one more?
-			#anyways, think of how could it'd be to get a different event each time you replay the yfc
-			#also hyper specific highly dynamic events are cool and i will be adding more of those
-			#so get ready for like 98 more events :DD
+			#Also wait why is this called population_boom when pop does not change?????? (Unhappy/Happy is not a reason)
+			custom_effect_tooltip = l_YFC_POP
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_completed_focus = YFC_focus_develop_peoniele
+						has_completed_focus = YFC_focus_peoniele_the_second_city
+						check_variable = {
+							var_YFC_upgrade_level = 3
+						}
+					}
+					country_event = YFC_event.23
+				}
+				ELSE_IF = {
+					limit = {
+						has_completed_focus = YFC_focus_develop_peoniele
+						has_completed_focus = YFC_focus_peoniele_the_second_city
+						check_variable = {
+							var_YFC_upgrade_level < 3
+						}
+					}
+					country_event = YFC_event.24
+				}
+				ELSE_IF = {
+					limit = {
+						has_completed_focus = YFC_focus_develop_peoniele
+						has_completed_focus = YFC_focus_big_yoyleton
+						check_variable = {
+							var_YFC_upgrade_level > 1
+						}
+					}
+					country_event = YFC_event.25
+				}
+				ELSE_IF = {
+					limit = {
+						has_completed_focus = YFC_focus_develop_peoniele
+						has_completed_focus = YFC_focus_big_yoyleton
+						check_variable = {
+							var_YFC_upgrade_level = 1
+						}
+					}
+					country_event = YFC_event.26
+				}
+				ELSE_IF = {
+					limit = {
+						has_completed_focus = YFC_focus_develop_yoyleton
+						has_completed_focus = YFC_focus_big_yoyleton
+						check_variable = {
+							var_YFC_upgrade_level > 1
+						}
+					}
+					country_event = YFC_event.27
+				}
+				ELSE_IF = {
+					limit = {
+						has_completed_focus = YFC_focus_develop_yoyleton
+						has_completed_focus = YFC_focus_big_yoyleton
+						check_variable = {
+							var_YFC_upgrade_level = 1
+						}
+					}
+					country_event = YFC_event.28
+				}
+				ELSE_IF = {
+					limit = {
+						has_completed_focus = YFC_focus_develop_yoyleton
+						has_completed_focus = YFC_focus_peoniele_the_second_city
+						check_variable = {
+							var_YFC_upgrade_level = 1
+						}
+					}
+					country_event = YFC_event.26
+				}
+				ELSE_IF = {
+					limit = {
+						has_completed_focus = YFC_focus_develop_yoyleton
+						has_completed_focus = YFC_focus_peoniele_the_second_city
+						check_variable = {
+							var_YFC_upgrade_level = 2
+						}
+					}
+					country_event = YFC_event.29
+				}
+				ELSE_IF = {
+					limit = {
+						has_completed_focus = YFC_focus_develop_yoyleton
+						has_completed_focus = YFC_focus_peoniele_the_second_city
+						check_variable = {
+							var_YFC_upgrade_level = 3
+						}
+					}
+					country_event = YFC_event.30
+				}
+				ELSE = {
+					#Pick the fallback event if somehow this breaks
+				}
+			}
 		}
 	}
 
@@ -1112,21 +1205,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = YFC_focus_study_snowballs_supression
-		relative_position_id = YFC_focus_the_bunchivist_problem
-		x = 1
-		y = 1
-		icon = GFX_focus_generic
-		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
-		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
-		cost = 2
-		#gives like 60 extra days until the revolt starts
-		#requites you to have completed "remove oligarchical sentiment"
-		completion_reward = {
-			
-		}
-	}
+	#Gonna can YFC_focus_study_snowballs_supression I want the path too be FAST and also revolt only starts by resistance of over 80
 
 	focus = {
 		id = YFC_focus_foster_new_society
@@ -1354,7 +1433,7 @@ focus_tree = {
 		}
 
 		prerequisite = { focus = YFC_focus_clamp_down_on_bunchivism }
-		cost = 3
+		cost = 5
 		completion_reward = {
 			country_event = {
 				id = YFC_BUN.5
@@ -1399,7 +1478,7 @@ focus_tree = {
 			country_exists = BUN
 		}
 
-		cost = 4
+		cost = 5
 		completion_reward = {
 			#Decision that allows increase compliance speed for stability and money
 			85 = {add_resistance = -2} 
@@ -1430,7 +1509,7 @@ focus_tree = {
 			country_exists = BUN
 		}
 
-		cost = 3
+		cost = 5
 		completion_reward = {
 			add_political_power = 35
 			85 = {add_compliance = 2} 
@@ -1484,7 +1563,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_remove_oligarchical_sentiment }
 		prerequisite = { focus = YFC_focus_ban_theft }
 		
-		cost = 7
+		cost = 8
 		completion_reward = {
 			add_war_support = 0.05
 			add_political_power = 50
