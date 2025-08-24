@@ -81,8 +81,6 @@ focus_tree = {
 		#Top Hat becomes a field marshal
 		#Pipe becomes an advisor, granting +15% railroad construction speed and +30% supply hub construction speed, YFC is able to build railroads and supply hubs
 		completion_reward = {
-			army_experience = 15
-			air_experience = 15
 			recruit_character = YFC_tophat
 			custom_effect_tooltip = l_YFC_allow_rails
 			add_to_variable = { var_idea_YFC_anarchic_lands_rail = 5 }
@@ -173,7 +171,7 @@ focus_tree = {
 		
 		cost = 6
 		completion_reward = {
-			custom_effect_tooltip = l_YFC_upgrade_army3 #May be bugged
+			custom_effect_tooltip = l_YFC_upgrade_army3 
 			add_to_variable = { var_idea_YFC_corp_special_forces_no_supply_grace = 120 }
 		}
 	}
@@ -197,6 +195,33 @@ focus_tree = {
 					count = 1
 					owner = YFC
 				}
+			}
+		}
+	}
+
+	focus = {
+		id = YFC_focus_teachings_of_war
+		relative_position_id = YFC_focus_the_grapes_and_the_cherries
+		x = 0
+		y = 3
+		icon = GFX_focus_generic
+
+		available = {
+			has_war = yes
+		}
+
+		prerequisite = { focus = YFC_focus_form_more_divisions focus = YFC_focus_form_better_logistics }
+		
+		cost = 8
+		completion_reward = {
+			army_experience = 30
+			custom_effect_tooltip = l_YFC_upgrade_army4
+			add_to_variable = { var_idea_YFC_corp_experience_gain_army = 0.01 }
+			add_to_variable = { var_idea_YFC_corp_special_forces_attack_factor = 0.05 }
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = special_forces_doctrine
 			}
 		}
 	}
@@ -860,6 +885,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		icon = GFX_focus_YFC_industrialize_or_die
+		allow_branch = { has_completed_focus = YFC_focus_industrialize_or_die }
 		prerequisite = { focus = YFC_focus_the_economic_issue }
 		cost = 5
 		#after an event you get from "the economic issue" if you choose to focus on industrializing, you get this branch
@@ -1195,7 +1221,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		icon = GFX_focus_YFC_clamp_down_on_bunchivism
-		#allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+		allow_branch = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_foster_new_society }
 		cost = 5

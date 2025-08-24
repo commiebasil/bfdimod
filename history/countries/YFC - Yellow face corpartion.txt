@@ -50,6 +50,7 @@ set_popularities = {
  set_variable = { var_idea_YFC_corp_special_forces_attack_factor = -0.15 }
  set_variable = { var_idea_YFC_corp_special_forces_defence_factor = 0 }
  set_variable = { var_idea_YFC_corp_special_forces_no_supply_grace = 0 }
+ set_variable = { var_idea_YFC_corp_experience_gain_army = 0 }
 
 #Subjugation YFC Side
  set_variable = { var_idea_YFC_integration_YFC_army_attack_factor = 0 }

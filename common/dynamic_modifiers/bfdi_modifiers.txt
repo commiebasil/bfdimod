@@ -169,6 +169,7 @@ idea_YFC_corp = { #Yellow Face's cool mercenaries. Given in start
 	special_forces_attack_factor  = var_idea_YFC_corp_special_forces_attack_factor
 	special_forces_defence_factor  = var_idea_YFC_corp_special_forces_defence_factor
 	special_forces_no_supply_grace  = var_idea_YFC_corp_special_forces_no_supply_grace
+	experience_gain_army = var_idea_YFC_corp_experience_gain_army
 }
 
 idea_YFC_integration_YFC = { #YFC Buffs and nerfs in the deal. Given in YFC_focus_numismatian_subjugation

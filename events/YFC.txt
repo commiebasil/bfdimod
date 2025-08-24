@@ -254,11 +254,6 @@ country_event = {
 		custom_effect_tooltip = l_YFC_border_defence
 
 		hidden_effect = {
-			add_victory_points = {
-				province = 240
-				value = 5
-			}
-
 			201 = {
 				damage_building = {
 					type = infrastructure
@@ -282,13 +277,6 @@ country_event = {
 	option = {
 		name = YFC_event.9.a
 		army_experience = 20
-
-		hidden_effect = {
-			add_victory_points = {
-				province = 24
-				value = 5
-			}
-		}
 	}
 }
 
