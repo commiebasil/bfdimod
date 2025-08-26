@@ -885,7 +885,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		icon = GFX_focus_YFC_industrialize_or_die
-		allow_branch = { has_completed_focus = YFC_focus_industrialize_or_die }
+		#allow_branch = { has_completed_focus = YFC_focus_industrialize_or_die }
 		prerequisite = { focus = YFC_focus_the_economic_issue }
 		cost = 5
 		#after an event you get from "the economic issue" if you choose to focus on industrializing, you get this branch
@@ -1116,6 +1116,7 @@ focus_tree = {
 		#9	develop yoyleton -> peoniele the second city -> chose large dev (event about large profits, happy sectorials, but mad peoniele populace)
 		completion_reward = {
 			#Also wait why is this called population_boom when pop does not change?????? (Unhappy/Happy is not a reason)
+			#re; you gain pop regardless i jsut didnt feel like writing in the commetns
 			custom_effect_tooltip = l_YFC_POP
 			hidden_effect = {
 				IF = {
@@ -1239,7 +1240,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		icon = GFX_focus_generic
-		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
+		#allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
 		mutually_exclusive = { focus = YFC_focus_clamp_down_on_bunchivism }
 		cost = 5
