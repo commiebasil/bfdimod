@@ -2287,6 +2287,8 @@ country_event = {
 	option = { 
 		name = YFC_BUN.1.b
 		custom_effect_tooltip = l_YFC_BUN_2
+		complete_national_focus = YFC_focus_foster_new_society
+		custom_effect_tooltip = l_GGR_anarchists_decisions_open
 	}
 }
 

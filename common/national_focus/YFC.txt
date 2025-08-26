@@ -820,7 +820,7 @@ focus_tree = {
 		#there are three candidates, yfc favors blocky, numismatia favors pen, bunch wants eraser to stay
 		#an event chain spanning half a year and 14 events gives you the ability to react to certain happenings
 		#your reaction increases or decreases the likelyhood for your candidate getting chosen
-		#the bunch and numis also get events like this
+		#numis also get events like this
 		#at the end, if blocky wins, the bunch becomes a puppet of the yfc, and vice versa for numis.
 		#if eraser wins, the bunch becomes a reformed republic, and is fully independent
 
@@ -1251,6 +1251,10 @@ focus_tree = {
 		#oh it also gvies you an event talkjing about how you'll have an election to see who runs the bunch etc etc whatever blah
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
+			85 = {add_compliance = 20} 
+			212 = {add_compliance = 20}
+			217 = {add_compliance = 20} 
+			218 = {add_compliance = 20}
 		}
 	}
 
@@ -1262,7 +1266,7 @@ focus_tree = {
 		icon = GFX_focus_generic
 		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
-		cost = 3
+		cost = 5
 		#required to do any of the election mechanic decisions, gives event talking abt blocky
 		completion_reward = {
 			
@@ -1285,7 +1289,7 @@ focus_tree = {
 		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
 
 		prerequisite = { focus = YFC_focus_foster_new_society }
-		cost = 4
+		cost = 5
 		#removes one civ factory (100k dollars) from monthly income, to account for paying of policemen
 		#gives lots of stability, adds national idea that gives +0.5 political power
 		completion_reward = {
@@ -1310,11 +1314,10 @@ focus_tree = {
 			}
 		}
 		
-		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
-
 		prerequisite = { focus = YFC_focus_foster_new_society }
-		cost = 3
+		cost = 5
 		#idk what to put here i'll ask silver about it later
+		#:sob:
 		completion_reward = {
 			country_event = {
 				id = YFC_event.15
@@ -1331,12 +1334,11 @@ focus_tree = {
 		icon = GFX_focus_generic
 
 		prerequisite = { focus = YFC_focus_establish_law_presence }
-		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
-		cost = 3
+		cost = 5
 		#more stab less pp
 		#event that lets you choose how many pows to free, more pows, more stab, less pp
 		completion_reward = {
-			
+			#I'm a dumbass what is 'pows' 
 		}
 	}
 
@@ -1347,11 +1349,11 @@ focus_tree = {
 		y = 2
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
-		cost = 3
+		prerequisite = { focus = YFC_focus_stimulate_bunch_business  focus = YFC_focus_establish_law_presence }
+		cost = 5
 		#gives a bit extra passive income
 		completion_reward = {
-			
+			add_political_power = 25
 		}
 	}
 
@@ -1362,9 +1364,9 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_establish_law_presence }
-		cost = 3
+		cost = 5
 		completion_reward = {
-			
+			#What does this mean
 		}
 	}
 
@@ -1374,11 +1376,10 @@ focus_tree = {
 		x = 1
 		y = 1
 		icon = GFX_focus_generic
-		prerequisite = { focus = YFC_focus_allow_people_enter }
-		prerequisite = { focus = YFC_focus_free_pows }
-		cost = 3
+		prerequisite = { focus = YFC_focus_allow_people_enter focus = YFC_focus_free_pows }
+		cost = 5
 		completion_reward = {
-			
+			#What does this mean?
 		}
 	}
 
@@ -1391,6 +1392,10 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_banks_too_big_to_fail }
 		prerequisite = { focus = YFC_focus_advertise_YFC_products }
 		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
+		cost = 5
+		completion_reward = {
+			#What does this mean?
+		}
 	}
 
 	focus = {
@@ -1401,10 +1406,9 @@ focus_tree = {
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_banks_too_big_to_fail }
 		prerequisite = { focus = YFC_focus_free_pows }
-		cost = 10
-		
+		cost = 8
 		completion_reward = {
-			
+			#Does this end the election stuff or is it an outside timer?
 		}
 	}
 
