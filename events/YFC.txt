@@ -454,7 +454,7 @@ country_event = {
 }
 
 country_event = {
-	# YFC_focus_blockys_offer event 
+	# YFC_focus_support_blocky event 
 	id = YFC_event.19
 	title = YFC_event.19.t
 	desc = YFC_event.19.desc

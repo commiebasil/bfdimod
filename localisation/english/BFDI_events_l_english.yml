@@ -685,7 +685,7 @@
  YFC_event.14.a: "Nothing was felt...?"
 
  YFC_event.21.t: "Compilations in the Military District!"
- YFC_event.21.desc: "With the current invasion of the rotten communists of our ally, Coiny has stated that all assistance will need to move back to defending his country. It’s unfortunately a fair request which we cannot deny. The outcome of the war will be unknown, if even anyone will win. Though... we could send help to Coiny...\n\nThough, should we?"
+ YFC_event.21.desc: "With the current invasion of the rotten communists of our ally, Coiny has stated that all assistance will need to move back to defending his country. It's unfortunately a fair request which we cannot deny. The outcome of the war will be unknown, if even anyone will win. Though... we could send help to Coiny...\n\nThough, should we?"
  YFC_event.21.a: "Send Volunteers!"
  YFC_event.21.b: "Our hands are too tied at the moment..."
 
@@ -853,7 +853,7 @@
  YFC_BUN.21.a: "Tragic."
 
  YFC_BUN.22.t: "Spark Turned Fires!" #CRN sees this
- YFC_BUN.22.desc: "Our efforts have bore fruit, as the Bunch rebels (now called the Neo-Bunch) have revolted against The Yellow Face Corporation! This is a great outcome for undermining their greedy takeover and may give us the tools to become stronger than them. For now, we must make careful but decisive moves."
+ YFC_BUN.22.desc: "Our efforts have bore fruit, as the Bunch rebels (now called the Neo-Bunch) have revolted against The Yellow Face Corporation! This is a great outcome for us. Undermining their greedy takeover and may give us the tools to become stronger than them. For now, we must make careful but decisive moves."
  YFC_BUN.22.a: "Crash the Company!"
 
  YFC_BUN.23.t: "Reeducation Camps"
@@ -966,7 +966,7 @@
  BUN_YFC.5.b: "We'll chart our own course now."
 
  BUN_YFC.6.t: "A Ceasefire?" #YFC sees this
- BUN_YFC.6.desc: "Our ongoing war to suppress those Neo-Bunch anarchists has hit a deadlock. The sectorials have gotten rowdy, raving about our terrible handling of the war. So when we received an offer from the Neo-Bunch regarding a potential ceasefire, it seemed like a good option to try and save face. The offer itself is simple, us losing all gained territory for them demilitarizing Snowpath and some resource rights. Every Sectorial wants to go through with this deal, as it still means we get something for our efforts. Well, almost every Sectorial... Top Hat wants to put all of our resources into one last offensive to end Neo-Bunch. Either option is not the greatest, but do we make peace while we can or risk it all?"
+ BUN_YFC.6.desc: "Our ongoing war to suppress those Neo-Bunch anarchists has hit a deadlock. The sectorials have gotten rowdy, raving about our terrible handling of the war. So when we received an offer from the Neo-Bunch regarding a potential ceasefire, it seemed like a good option to try and save face. The offer itself is simple, us losing all gained territory for them demilitarizing Snowpath and some resource rights. Every Sectorial wants to go through with this deal, as it still means we gain something for our efforts. Well, almost every Sectorial... Top Hat wants to put all our resources into one last offensive to end Neo-Bunch. No option here is good, but we have to choose. Shall we make peace while we can, or risk it all?"
  BUN_YFC.6.a: "Agree to the Ceasefire."
  BUN_YFC.6.b: "ALL IN!"
 
