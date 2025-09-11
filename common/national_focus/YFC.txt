@@ -1027,7 +1027,15 @@ focus_tree = {
 		#gives event about sending people out to look at the eastern sea board, in 2 months you get another event abt what they found
 		#secretly helps with 3rd part of tree (eastern seaboard colonization)
 		completion_reward = {
-			
+			add_political_power = 10 #Change later to money or something else
+			hidden_effect = {
+				country_event = {
+					id = YFC_event.15 
+					days = 55
+					random_days = 15
+					hours = 6
+				}
+			}
 		}
 	}
 
@@ -1042,7 +1050,7 @@ focus_tree = {
 		#gives event about moving different sectors from footpathburg to other locations
 		#science goes to yoyleton, railroad goes to peoniele, rest stay
 		completion_reward = {
-			#Does this change anything with the sectors?
+			#Does this change anything with the sectors??
 			add_political_power = 25
 		}
 	}
@@ -1115,8 +1123,10 @@ focus_tree = {
 		#8	develop yoyleton -> peoniele the second city -> chose medium dev (event about big profits, and happy population)
 		#9	develop yoyleton -> peoniele the second city -> chose large dev (event about large profits, happy sectorials, but mad peoniele populace)
 		completion_reward = {
-			#Also wait why is this called population_boom when pop does not change?????? (Unhappy/Happy is not a reason)
+			
 			#re; you gain pop regardless i jsut didnt feel like writing in the commetns
+			#Okay so I added minor (250%) and major (500%) population gain state modifiers so just put somewhere for each event on which state gets which effect and for how long
+
 			custom_effect_tooltip = l_YFC_POP
 			hidden_effect = {
 				IF = {
@@ -1232,8 +1242,6 @@ focus_tree = {
 		}
 	}
 
-	#Gonna can YFC_focus_study_snowballs_supression I want the path too be FAST and also revolt only starts by resistance of over 80
-
 	focus = {
 		id = YFC_focus_foster_new_society
 		relative_position_id = YFC_focus_the_bunchivist_problem
@@ -1250,6 +1258,13 @@ focus_tree = {
 		#generally just add whatever effects you think would be balanced
 		#also ai will choose this like 70% of the time
 		#oh it also gvies you an event talkjing about how you'll have an election to see who runs the bunch etc etc whatever blah
+
+		#So for the overall influence system I have a few ideas on how to make it 
+		#A: Have Bunch become a puppet and use the ideology system
+		#B: Have basic numbers on decisions tab
+		#C: I learn GFX and try to make something cool
+		#D: Something else idk
+
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
 			85 = {add_compliance = 20} 
@@ -1270,7 +1285,7 @@ focus_tree = {
 		cost = 5
 		#required to do any of the election mechanic decisions, gives event talking abt blocky
 		completion_reward = {
-			
+			country_event = YFC_event.19
 		}
 	}
 
@@ -1318,12 +1333,11 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_foster_new_society }
 		cost = 5
 		#idk what to put here i'll ask silver about it later
-		#:sob:
+
+		#Idea: Open decsions to invest into bunch, costs money and maybe manpower but increases influence
+
 		completion_reward = {
-			country_event = {
-				id = YFC_event.15
-				hours = 1
-			}
+
 		}
 	}
 
@@ -1339,7 +1353,7 @@ focus_tree = {
 		#more stab less pp
 		#event that lets you choose how many pows to free, more pows, more stab, less pp
 		completion_reward = {
-			#I'm a dumbass what is 'pows' 
+			#I'll swap stab for influence with a hidden small amount also added to Bunch influence
 		}
 	}
 
@@ -1353,6 +1367,9 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_stimulate_bunch_business  focus = YFC_focus_establish_law_presence }
 		cost = 5
 		#gives a bit extra passive income
+
+		#Idea: Increases influence of Hammer and Taser
+
 		completion_reward = {
 			add_political_power = 25
 		}
@@ -1368,6 +1385,9 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 			#What does this mean
+
+			#Idea: Add population modifier to Bunch states
+
 		}
 	}
 
@@ -1380,7 +1400,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_allow_people_enter focus = YFC_focus_free_pows }
 		cost = 5
 		completion_reward = {
-			#What does this mean?
+			#What does this mean??
 		}
 	}
 
@@ -1395,7 +1415,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
 		cost = 5
 		completion_reward = {
-			#What does this mean?
+			#What does this mean??
 		}
 	}
 
@@ -1410,6 +1430,7 @@ focus_tree = {
 		cost = 8
 		completion_reward = {
 			#Does this end the election stuff or is it an outside timer?
+			#Or does it just autocomplete?
 		}
 	}
 
@@ -1434,8 +1455,6 @@ focus_tree = {
 
 		prerequisite = { focus = YFC_focus_clamp_down_on_bunchivism }
 		cost = 5
-		#trial event, like the trials over leafy
-		#three options
 		completion_reward = {
 			country_event = {
 				id = YFC_event.13
@@ -1487,7 +1506,6 @@ focus_tree = {
 		}
 
 		cost = 5
-		#event about sending the bunchies to reeducation camps
 		completion_reward = {
 			country_event = {
 				id = YFC_BUN.23
@@ -1575,7 +1593,10 @@ focus_tree = {
 		#gives event detailing how eraser's cult of personality worked, talks about banning the populace from talking about him or his friends for the time being
 		#basically erasing history
 		completion_reward = {
-			
+			country_event = {
+				id = YFC_BUN.24
+				hours = 1
+			}
 		}
 	}
 
@@ -1624,3 +1645,5 @@ focus_tree = {
 		}
 	}
 }
+
+

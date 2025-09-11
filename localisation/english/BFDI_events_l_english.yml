@@ -685,9 +685,17 @@
  YFC_event.14.a: "Nothing was felt...?"
 
  YFC_event.21.t: "Compilations in the Military District!"
- YFC_event.21.desc: "With the current invasion of the rotten communists of our ally, Coiny has stated that all assistance will need to move back to defending his country. It's unfortunately a fair request which we cannot deny. The outcome of the war will be unknown, if even anyone will win. Though... we could send help to Coiny...\n\nThough, should we?"
+ YFC_event.21.desc: "With the current invasion of the rotten communists of our ally, Coiny has stated that all assistance will need to move back to defending his country. It's unfortunately a fair request which we cannot deny. The outcome of the war will be unknown, if even anyone will win. We could send aid to Coiny...\n\nThough, should we?"
  YFC_event.21.a: "Send Volunteers!"
  YFC_event.21.b: "Our hands are too tied at the moment..."
+
+ YFC_event.22.t.a: "YFC_focus_peoniele_the_second_city focus" #ZDubbz write
+ YFC_event.22.t.b: "YFC_focus_big_yoyleton focus" #ZDubbz write
+ YFC_event.22.desc.a: "YFC_focus_peoniele_the_second_city focus" #ZDubbz write
+ YFC_event.22.desc.b: "YFC_focus_big_yoyleton focus" #ZDubbz write
+ YFC_event.22.a: "Small bla bla" #ZDubbz write
+ YFC_event.22.b: "Medium bla bla" #ZDubbz write
+ YFC_event.22.c: "Large bla bla" #ZDubbz write
 
  BUN_borderwars.5.t: "Raiders Attacked!"
  BUN_borderwars.5.desc: "When our forces arrived, they found themselves quickly under bandit fire. Despite our best efforts, our forces were overrun and the bandits broke through. This resulted in the nearby towns and villages being set ablaze and much of the equipment was stolen. The bandits have left, but there are still ashes in the air."

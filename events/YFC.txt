@@ -383,7 +383,7 @@ country_event = {
 }
 
 country_event = {
-	# YFC_focus_leader_of_bunch event
+	#N/A
 	id = YFC_event.15
 	title = YFC_event.15.t
 	desc = YFC_event.15.desc
@@ -393,18 +393,11 @@ country_event = {
 
 	option = { 
 		name = YFC_event.15.a
-		country_event = {
-			id = YFC_event.16
-			hours = 1
-		}
-	}
-	option = { #skips leader candidates
-		name = YFC_event.15.b 
 	}
 }
 
 country_event = {
-	# YFC_focus_leader_of_bunch event (blocky)
+	#N/A
 	id = YFC_event.16
 	title = YFC_event.16.t
 	desc = YFC_event.16.desc
@@ -422,7 +415,7 @@ country_event = {
 }
 
 country_event = {
-	# YFC_focus_leader_of_bunch event (pen)
+	#N/A
 	id = YFC_event.17
 	title = YFC_event.17.t
 	desc = YFC_event.17.desc
@@ -440,7 +433,7 @@ country_event = {
 }
 
 country_event = {
-	# YFC_focus_leader_of_bunch event (eraser)
+	#N/A
 	id = YFC_event.18
 	title = YFC_event.18.t
 	desc = YFC_event.18.desc
@@ -519,10 +512,34 @@ country_event = {
 
 country_event = {
 	id = YFC_event.22 #Buildup city event
-	title = YFC_event.22.t
-    desc = YFC_event.22.desc
 	picture = GFX_Temp_event
 	
+	title = {
+		text = YFC_event.22.t.a 
+		trigger = {
+			has_completed_focus = YFC_focus_peoniele_the_second_city
+		}
+	}
+	title = {
+		text = YFC_event.22.t.b 
+		trigger = {
+			has_completed_focus = YFC_focus_big_yoyleton
+		}
+	}
+
+	desc = {
+		text = YFC_event.22.desc.a
+		trigger = {
+			has_completed_focus = YFC_focus_peoniele_the_second_city
+		}
+	}
+	desc = {
+		text = YFC_event.22.desc.b
+		trigger = {
+			has_completed_focus = YFC_focus_big_yoyleton
+		}
+	}
+
 	is_triggered_only = yes
     
     option = { #Small
@@ -3505,5 +3522,21 @@ country_event = {
 		add_political_power = 20
 		85 = {add_compliance = 2}
 		212 = {add_compliance = 2}
+	}
+}
+
+country_event = { #YFC_focus_remove_oligarchical_sentiment
+	id = YFC_BUN.24 
+	title = YFC_BUN.24.t
+	desc = YFC_BUN.24.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.24.a
+		add_stability = -0.01
+		85 = {add_resistance = -5}
+		212 = {add_compliance = -5}
 	}
 }

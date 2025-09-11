@@ -220,4 +220,6 @@
  BUN_Revolt_Victory: "§GVictory In Sight!§!"
  BUN_Revolt_Victory_desc: "We hold all of our states! If we just hold on a little longer, Yellow Face will have no choice but to accept our independence!"
  
-
+#Generic State Modifiers
+ minor_population_boost: "Minor Population Growth"
+ major_population_boost: "Major Population Growth"
