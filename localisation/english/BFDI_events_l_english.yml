@@ -689,13 +689,13 @@
  YFC_event.21.a: "Send Volunteers!"
  YFC_event.21.b: "Our hands are too tied at the moment..."
 
- YFC_event.22.t.a: "YFC_focus_peoniele_the_second_city focus" #ZDubbz write
- YFC_event.22.t.b: "YFC_focus_big_yoyleton focus" #ZDubbz write
- YFC_event.22.desc.a: "YFC_focus_peoniele_the_second_city focus" #ZDubbz write
- YFC_event.22.desc.b: "YFC_focus_big_yoyleton focus" #ZDubbz write
- YFC_event.22.a: "Small bla bla" #ZDubbz write
- YFC_event.22.b: "Medium bla bla" #ZDubbz write
- YFC_event.22.c: "Large bla bla" #ZDubbz write
+ YFC_event.22.t.a: "Promoting Peoniele"
+ YFC_event.22.t.b: "Yoyleton, Yellow Face Corporation"
+ YFC_event.22.desc.a: "Ah, Peoniele. \nHer flowers and meadows, once tranquil, and alone, are now dotted with buildings, business, and most importantly, profits. The bright green grass is no longer the only 'green' in this city, especially with the influx of people that the extra job opportunities have brought. We can already taste the future of this city. It tastes green...." 
+ YFC_event.22.desc.b: "Yoyleton's water features attracted significantly more teardroppers than we expected, but a large population is a large population! These teardroppers pay well of course, not to mention the other north -- east? -- Goikeans that have moved in. To our surprise, a majority of the people who've moved in seem to be into engineering. Yoyleton could be a great place of innovation, and new inventions are sorely needed. Some of the fans of the Yellow Face Corporation say we need to 'stop governing so much' and 'make actual products again', so investing in this city more, even now that our projects are nearing completion, could be useful." 
+ YFC_event.22.a: "More projects are in order!" 
+ YFC_event.22.b: "The city shall rise further!" 
+ YFC_event.22.c: "The city shall rise further!" 
 
  BUN_borderwars.5.t: "Raiders Attacked!"
  BUN_borderwars.5.desc: "When our forces arrived, they found themselves quickly under bandit fire. Despite our best efforts, our forces were overrun and the bandits broke through. This resulted in the nearby towns and villages being set ablaze and much of the equipment was stolen. The bandits have left, but there are still ashes in the air."
