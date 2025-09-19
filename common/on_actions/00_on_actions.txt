@@ -378,4 +378,18 @@ on_actions = {
 			set_global_flag = capitulation
 		}
 	}
+
+	on_monthly = { #MONEY GAIN
+		effect = {
+			IF = {
+				limit = {
+					has_country_flag = has_money_system
+					country_exists = ROOT
+				}
+				set_temp_variable = { civ_count = ROOT.num_of_civilian_factories }
+				multiply_temp_variable = {civ_count = 100} #As 100K
+				add_to_variable = { money_amount = civ_count }
+			}
+		}
+	}
 }

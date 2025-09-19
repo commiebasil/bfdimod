@@ -1123,9 +1123,8 @@ focus_tree = {
 		#8	develop yoyleton -> peoniele the second city -> chose medium dev (event about big profits, and happy population)
 		#9	develop yoyleton -> peoniele the second city -> chose large dev (event about large profits, happy sectorials, but mad peoniele populace)
 		completion_reward = {
-			
-			#re; you gain pop regardless i jsut didnt feel like writing in the commetns
-			#Okay so I added minor (250%) and major (500%) population gain state modifiers so just put somewhere for each event on which state gets which effect and for how long
+		
+			#Turns out population gain does not work as state modifier (why idk) so I'll have to think up a plan B
 
 			custom_effect_tooltip = l_YFC_POP
 			hidden_effect = {

@@ -10,7 +10,7 @@ decision_YFC_foster_category = {
 		}
 		icon = GFX_decision_revolt  
 		is_good = yes
-		days_mission_timeout = 200
+		days_mission_timeout = 400
 		timeout_effect = {
 			#country_event = {id = YFC_BUN.8}
 		}
