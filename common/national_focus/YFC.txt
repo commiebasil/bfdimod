@@ -1050,7 +1050,7 @@ focus_tree = {
 		#gives event about moving different sectors from footpathburg to other locations
 		#science goes to yoyleton, railroad goes to peoniele, rest stay
 		completion_reward = {
-			#Does this change anything with the sectors??
+			#New: it can make them slightly more efficient
 			add_political_power = 25
 		}
 	}
@@ -1258,12 +1258,8 @@ focus_tree = {
 		#generally just add whatever effects you think would be balanced
 		#also ai will choose this like 70% of the time
 		#oh it also gvies you an event talkjing about how you'll have an election to see who runs the bunch etc etc whatever blah
-
-		#So for the overall influence system I have a few ideas on how to make it 
-		#A: Have Bunch become a puppet and use the ideology system
-		#B: Have basic numbers on decisions tab
-		#C: I learn GFX and try to make something cool
-		#D: Something else idk
+		
+		#New: election mechanic would be a gui decisions thing, with eraser's bunch becoming a puppet if blocky or pen wins the election
 
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
@@ -1332,12 +1328,8 @@ focus_tree = {
 		
 		prerequisite = { focus = YFC_focus_foster_new_society }
 		cost = 5
-		#idk what to put here i'll ask silver about it later
-
-		#Idea: Open decsions to invest into bunch, costs money and maybe manpower but increases influence
-
 		completion_reward = {
-
+			#Open decsions to invest into bunch, costs money and maybe manpower but increases influence
 		}
 	}
 
@@ -1376,7 +1368,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = YFC_focus_allow_people_enter #allow entrance to the bunch
+		id = YFC_focus_allow_people_enter
 		relative_position_id = YFC_focus_establish_law_presence
 		x = 0
 		y = 1
@@ -1384,10 +1376,20 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_establish_law_presence }
 		cost = 5
 		completion_reward = {
-			#What does this mean
-
-			#Idea: Add population modifier to Bunch states
-
+			85 = {
+				add_dynamic_modifier = {
+					modifier = minor_population_boost
+					days = 360
+				}
+				add_compliance = 5
+			}
+			212 = {
+				add_dynamic_modifier = {
+					modifier = minor_population_boost
+					days = 360
+				}
+				add_compliance = 5
+			}
 		}
 	}
 
@@ -1400,7 +1402,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_allow_people_enter focus = YFC_focus_free_pows }
 		cost = 5
 		completion_reward = {
-			#What does this mean??
+			#What does this mean?
 		}
 	}
 
@@ -1415,7 +1417,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
 		cost = 5
 		completion_reward = {
-			#What does this mean??
+			#What does this mean?
 		}
 	}
 
@@ -1429,8 +1431,8 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_free_pows }
 		cost = 8
 		completion_reward = {
-			#Does this end the election stuff or is it an outside timer?
-			#Or does it just autocomplete?
+			#bunchivist new deal is just a policy
+			#Timer is separate 
 		}
 	}
 

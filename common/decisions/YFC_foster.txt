@@ -1,0 +1,82 @@
+decision_YFC_foster_category = {
+	YFC_foster_Countdown = { #Countdown to election
+		activation = {
+			has_completed_focus = YFC_focus_foster_new_society	
+			has_completed_focus = YFC_focus_support_blocky
+			NOT = {country_exists = BUN}
+		}
+		available = {
+			always = no
+		}
+		icon = GFX_decision_revolt  
+		is_good = yes
+		days_mission_timeout = 200
+		timeout_effect = {
+			#country_event = {id = YFC_BUN.8}
+		}
+	}
+
+	YFC_foster_propaganda = { 
+		icon = GFX_decision_infiltrate_state
+      
+		visible = {
+			has_completed_focus = YFC_focus_support_blocky
+			has_completed_focus = YFC_focus_foster_new_society
+		}
+
+		fire_only_once = no
+		cost = 50
+		days_remove = 30
+		days_re_enable = 30
+
+		remove_effect = {
+
+        }
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_political_power > 50
+			}
+		}
+	}
+
+	YFC_foster_Infrastructure = { #Would also cost money or something else
+		icon = GFX_decision_generic_construction
+		state_target = yes
+        targets = { 85 212 217 218 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_stimulate_bunch_business
+			has_completed_focus = YFC_focus_support_blocky
+			has_completed_focus = YFC_focus_foster_new_society
+			NOT = {country_exists = BUN}
+		}
+
+		fire_only_once = yes
+
+		cost = 60
+		days_remove = 45
+
+		remove_effect = {
+			FROM = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_compliance = 5
+			}
+        }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 10
+				has_political_power > 60
+			}
+		}
+	}
+}
