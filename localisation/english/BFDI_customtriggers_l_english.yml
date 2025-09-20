@@ -27,3 +27,5 @@
  decision_cost_ie_2000_blocked: "£infantry_equipment_text_icon §R2000§!"
  decision_cost_ie_1000: "£infantry_equipment_text_icon §Y1000§!"
  decision_cost_ie_1000_blocked: "£infantry_equipment_text_icon §R1000§!"
+
+ l_money_cost_100K: "Have at least §G100K§! dollars"

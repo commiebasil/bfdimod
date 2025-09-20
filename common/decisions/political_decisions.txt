@@ -92,8 +92,9 @@ political_actions = {
 
         available = {
             ROOT = {
-                check_variable = {
-                    money_amount > 100000
+                custom_trigger_tooltip = {
+                    tooltip = l_money_cost_100K
+                    check_variable = { money_amount > 1 }
                 }
             }
         }
@@ -105,7 +106,7 @@ political_actions = {
         days_re_enable = 45
 
 		complete_effect = {
-            subtract_from_variable = { money_amount = 100 }
+            subtract_from_variable = { money_amount = 1 }
 		}
 
         remove_effect = {
