@@ -1649,8 +1649,6 @@ focus_tree = {
 			#Maybe an event idk
 		}
 	}
-<<<<<<< HEAD
-=======
 
 	focus = {
 		id = YFC_focus_sectorial_squabbles
@@ -1663,97 +1661,6 @@ focus_tree = {
 		#automatically completes a little bit after you finish the break diplomacy thingy
 		#gives event abt the sectorials being in big turmoil over the change of government
 		#starts hidden 180 day timer to the yoyleton uprising
-<<<<<<< HEAD
-=======
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = YFC_focus_the_military_rises
-		relative_position_id = YFC_focus_sectorial_squabbles
-		x = -2
-		y = 1
-		icon = GFX_focus_generic
-
-		prerequisite = { focus = YFC_focus_sectorial_squabbles }
-		mutually_exclusive = { focus = YFC_focus_unitary_corporation }
-
-		cost = 3
-		#opens up the siding with the military path (IMPOSSIBLE if blocky is the sectorial for the military)
-		#nother event
-		#you have a stronger military for the uprising but are more prone to economic crashes and will likely lose money
-		#completes with 159 days left until uprising
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = YFC_focus_a_real_army
-		relative_position_id = YFC_focus_the_military_rises
-		x = -1
-		y = 1
-		icon = GFX_focus_generic
-
-		prerequisite = { focus = YFC_focus_the_military_rises }
-
-		available = {
-			hidden_trigger = {
-				has_completed_focus = YFC_focus_the_military_rises
-			}
-		}
-		
-		allow_branch = { has_completed_focus = YFC_focus_the_military_rises }
-
-		cost = 3
-		#allows the player to chose a merc group to stick with (pay for recurringly), and unlocks the grapes and cherries, letting the player improve those mercs in a seperate mini-branch
-		#this focus and the others at it's height complete with 138 days left until uprising
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = YFC_focus_invest_in_tophat
-		relative_position_id = YFC_focus_the_military_rises
-		x = 3
-		y = 1
-		icon = GFX_focus_generic
-
-		prerequisite = { focus = YFC_focus_the_military_rises }
-
-		available = {
-			hidden_trigger = {
-				has_completed_focus = YFC_focus_the_military_rises
-			}
-		}
-		
-		allow_branch = { has_completed_focus = YFC_focus_the_military_rises }
-
-		cost = 3
-		#rises popularity of military sector, removes political power and a bit of money
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = YFC_focus_unitary_corporation
-		relative_position_id = YFC_focus_sectorial_squabbles
-		x = 2
-		y = 1
-		icon = GFX_focus_generic
-
-		prerequisite = { focus = YFC_focus_sectorial_squabbles }
-		mutually_exclusive = { focus = YFC_focus_the_military_rises }
-
-		cost = 3
-		#opens up the crazy YF path
-		#you have more money and the uprising will be smaller, but the military will be weaker
-		#completes with 159 days left until uprising
->>>>>>> a87da2bfc43c58b19d93a92ef506ac1521d747f8
 		completion_reward = {
 			
 		}
@@ -1846,7 +1753,94 @@ focus_tree = {
 			
 		}
 	}
->>>>>>> a87da2bfc43c58b19d93a92ef506ac1521d747f8
+
+	focus = {
+		id = YFC_focus_the_military_rises
+		relative_position_id = YFC_focus_sectorial_squabbles
+		x = -2
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_sectorial_squabbles }
+		mutually_exclusive = { focus = YFC_focus_unitary_corporation }
+
+		cost = 3
+		#opens up the siding with the military path (IMPOSSIBLE if blocky is the sectorial for the military)
+		#nother event
+		#you have a stronger military for the uprising but are more prone to economic crashes and will likely lose money
+		#completes with 159 days left until uprising
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_a_real_army
+		relative_position_id = YFC_focus_the_military_rises
+		x = -1
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_the_military_rises }
+
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_the_military_rises
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_the_military_rises }
+
+		cost = 3
+		#allows the player to chose a merc group to stick with (pay for recurringly), and unlocks the grapes and cherries, letting the player improve those mercs in a seperate mini-branch
+		#this focus and the others at it's height complete with 138 days left until uprising
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_invest_in_tophat
+		relative_position_id = YFC_focus_the_military_rises
+		x = 3
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_the_military_rises }
+
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_the_military_rises
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_the_military_rises }
+
+		cost = 3
+		#rises popularity of military sector, removes political power and a bit of money
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_unitary_corporation
+		relative_position_id = YFC_focus_sectorial_squabbles
+		x = 2
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_sectorial_squabbles }
+		mutually_exclusive = { focus = YFC_focus_the_military_rises }
+
+		cost = 3
+		#opens up the crazy YF path
+		#you have more money and the uprising will be smaller, but the military will be weaker
+		#completes with 159 days left until uprising
+		completion_reward = {
+			
+		}
+	}
 }
 
 
