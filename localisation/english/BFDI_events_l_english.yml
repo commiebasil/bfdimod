@@ -942,14 +942,25 @@
  YFC_CRN_Sub.13.desc: "It's no secret that we've been having some trouble with the communist objects in our nation. Trying to get rid of them through normal means has been... quite difficult. Luckily, a demand from the Yellow Facers just came in the mail last Saturday. Of course, we didn't read it then, because who cares about the government on the weekends? It's Monday morning, and, their 'demand' is moreso... a request? It's quite simple really, just saying 'Jail violent commies pls, signed YF', but it's a great excuse to do what the majority of us have wanted to do for a while. Just tell the people 'the YFC told us to jail communists, sorry not sorry', and boom, problem solved.\nBut like seriously, the Yellow Facers have got to get better at writing letters."
  YFC_CRN_Sub.13.a: "Let's not let this power get to our heads."
  YFC_CRN_Sub.13.b: "...The communists can remain free."
+ #a: crn gains some stability, loses a small percent of communist support, has their weekly communism support go down for like a month or two
+ #b: communist support goes up, stability goes down, bit of army exp
 
  YFC_CRN_Sub.14.t: "With Apologies to the NPfSP" 
  YFC_CRN_Sub.14.desc: "A knock on our door today. A heavy, rapid one. 'Come in', said the object on the other side, voice laced with concern. The Yellow Facer's were back with another demand. One harsher than most of their others. In short, they want us to criminalize the ideology of Communism. \nNow, regardless of your thoughts and opinions about this economic system, outlawing it does go against the first amendment of our constitution, right? Surely you won't accept this. That would be ridiculous."
  YFC_CRN_Sub.14.a: "Ridiculous we are."
  YFC_CRN_Sub.14.b: "Of course not, we won't lick the Yellow Facer boot."
+ #a: crn's communism support reduces sharply, loses lots of stability, weekly communism support goes up, surprisingly (should have more affects when crn gets more content)
+ #b: crn's communism support goes up a small amount, gains stab and pp
 
  YFC_CRN_Sub.15.t: "To the Ideals of Free Trade"
- YFC_CRN_Sub.15.desc: ""
+ YFC_CRN_Sub.15.desc: "For some reason, there was a raid on a northern town last night. It was perpetrated by the Bunch, no doubt. This raid, despite the fact that it didn't affect us much, did still raise a question around noon today. What should we do about Bunchivist raids after we integrate with the YFC? The YFC, no doubt, has quite close ties to the Bunch, currently. We could likely pull a couple of strings to get them to stop the raids.\nThough, we also don't know how we'd go about the exchange of goods, especially seeing as the YFC looks like it's planning to cut itself off from the outside world soon. How much liberty would they allow us over trading with countries on the outside after this is all said and done? Well, really, how much are we willing to fight in order to maintain our own trade relations?"
+ YFC_CRN_Sub.15.a: "We just need a stop to raids, let's not push too much."
+ YFC_CRN_Sub.15.b: "The freer the market, the freer the people!"
+ #yfc gains pp, crn loses a bit of money
+ #crn gains pp, probably something else too idc
+
+ YFC_CRN_Sub.16.t: "On Raiding"
+ YFC_CRN_Sub.16.desc: ""
 
 #BUN
 
