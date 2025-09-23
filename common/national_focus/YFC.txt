@@ -722,13 +722,13 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_numismatian_subjugation }
 		prerequisite = { focus = YFC_focus_promote_blocky }
 		cost = 7
-		#if YFC is ai, it gets annexed by the bunch, otherwise, the bunch becomes a puppet of the yfc
+		#if YFC is ai & the bunch is a player, yfc gets annexed by the bunch
 		completion_reward = {
 			IF = {
-				limit = { YFC = { is_ai = no } }
-				puppet = BUN
-			}
-			ELSE = {
+				limit = { 
+					YFC = { is_ai = yes } 
+					BUN = { is_ai = no }
+				}
 				BUN = { 
 					annex_country = {
 						target = YFC
@@ -741,7 +741,7 @@ focus_tree = {
 					215 = {add_compliance = 50}
 					196 = {add_compliance = 50}
 					216 = {add_compliance = 50}
-				}	
+				}
 			}
 			hidden_effect = {
 				add_manpower = 2000
@@ -1643,6 +1643,20 @@ focus_tree = {
 			}
 
 			#Maybe an event idk
+		}
+	}
+
+	focus = {
+		id = YFC_focus_sectorial_squabbles
+		relative_position_id = YFC_focus_consolidate_power
+		x = 8
+		y = 0
+		icon = GFX_focus_generic
+
+		cost = 1
+		#unlocks a little bit after you finish the break diplomacy thingy
+		completion_reward = {
+			
 		}
 	}
 }
