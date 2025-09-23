@@ -374,6 +374,21 @@ on_actions = {
 					target = ROOT
 					transfer_troops = no
 				}
+				IF = {
+					limit = {
+						has_country_flag = has_money_system
+						ROOT = {has_country_flag = has_money_system}
+						ROOT = {
+							check_variable = {
+								money_amount > 1
+							}
+						}
+					}
+					add_to_temp_variable = { stolen_amount = ROOT.money_amount } #Steals their money
+					multiply_temp_variable = {stolen_amount = 0.5}
+					add_to_variable = { money_amount = stolen_amount }
+					ROOT = {set_variable = {money_amount = 0}}
+				}
 			}
 			set_global_flag = capitulation
 		}
