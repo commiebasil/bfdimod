@@ -82,39 +82,4 @@ political_actions = {
 			}
 		}
     }
-
-    Check_My_Cool_Code_If_Money_Worked = { 
-		icon = GFX_decision_generic_protection
-      
-		visible = {
-            has_country_flag = has_money_system
-		}
-
-        available = {
-            ROOT = {
-                custom_trigger_tooltip = {
-                    tooltip = l_money_cost_100K
-                    check_variable = { money_amount > 1 }
-                }
-            }
-        }
-
-		fire_only_once = no
-
-		cost = 25
-        days_remove = 30
-        days_re_enable = 45
-
-		complete_effect = {
-            subtract_from_variable = { money_amount = 1 }
-		}
-
-        remove_effect = {
-            army_experience = 10
-        }
-
-        ai_will_do = {
-			base = 5
-		}
-    }
 }  

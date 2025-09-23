@@ -235,7 +235,19 @@ scripted_gui = {
 				}
 				every_possible_country = {
 					set_country_flag = has_money_system
-					set_variable = { money_amount = 0.05 }
+					IF = {
+						limit = {
+							tag = YFC
+						}
+						set_variable = { money_amount = 12 }
+					}
+					ELSE = {
+						set_variable_to_random = {
+							var = money_amount
+							min = -3
+							max = 2
+						}
+					}
 				}
 			}
 		}
@@ -330,7 +342,19 @@ scripted_gui = {
 				}
 				every_possible_country = {
 					set_country_flag = has_money_system
-					set_variable = { money_amount = 0.05 }
+					IF = {
+						limit = {
+							tag = YFC
+						}
+						set_variable = { money_amount = 12 }
+					}
+					ELSE = {
+						set_variable_to_random = {
+							var = money_amount
+							min = -3
+							max = 2
+						}
+					}
 				}
 			}
 			cancel_click = {

@@ -39,9 +39,10 @@ ideas = {
 		idea_GPG_drawn_out_war = {
 			picture = GPG_battle_for_casland
 			modifier = {
-				army_attack_factor = 0.25
-				army_defence_factor = -0.25
-				ai_focus_aggressive_factor = 2
+				planning_speed = 0.5
+				army_attack_factor = 0.3
+				army_defence_factor = -0.3
+				ai_focus_aggressive_factor = 5
 			}
 		}
 		
