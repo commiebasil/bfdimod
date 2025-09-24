@@ -32,6 +32,9 @@ country_event = {
 		name = YFC_event.2.b
 		give_military_access = BUN
 		custom_effect_tooltip = l_YFC_border_raiders_open
+		custom_effect_tooltip = l_money_gain_300K
+		add_to_variable = { money_amount = 3 }
+		BUN = {subtract_from_variable = { money_amount = 3 }}
 	}
 }
 
@@ -45,6 +48,9 @@ country_event = {
 
     option = {
 		name = YFC_event.3.a
+		custom_effect_tooltip = l_money_lose_1M
+		subtract_from_variable = { money_amount = 10 }
+		SRR = {add_to_variable = { money_amount = 10 }}
 		214 = {
 			if = {
 				limit = { is_owned_by = SRR }
@@ -2635,6 +2641,7 @@ country_event = {
     immediate = {
 			BUN = {
 				add_manpower = 10000
+				add_command_power = 50
 				add_offsite_building = { type = arms_factory level = 1 }
 				add_dynamic_modifier = { modifier = idea_BUN_Ticking_Bomb }
 				add_ideas = low_economic_mobilisation
@@ -2664,6 +2671,21 @@ country_event = {
 				declare_war_on = {
 					target = YFC
 					type = independence_wargoal
+				}
+				retire_character = BUN_eraser
+				every_unit_leader = {
+					IF = {
+						limit = {
+							is_country_leader = no
+						}
+						random = {
+							chance = 50
+							retire = yes
+						}
+					}
+					ELSE = {
+						promote_leader = yes
+					}
 				}
 				division_template = {
 					name = "Armed Insurgents"
