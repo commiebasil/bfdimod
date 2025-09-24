@@ -963,19 +963,19 @@
  YFC_focus_establish_sectorialism_desc: "By allowing friendly competition between different parts of our corporation, we can guarentee that our production, and therefore our profits, will rise. Of course, we can't let one branch have too much power over the government, that would just be foolish."
 
  YFC_focus_the_grapes_and_the_cherries: "The Grapes and The Cherries"
- YFC_focus_the_grapes_and_the_cherries_desc: "???" #Write pls and also include that we are allowing their HQ in our captial
+ YFC_focus_the_grapes_and_the_cherries_desc: "Some mercenaries have decided to set up their base of operations in Footpathburg. Buying mercenaries does seem to be quite the good idea, so, why not try it? Of course, we should also help them set up operations, as a sign of good will." 
 
  YFC_focus_invest_in_speed: "Invest In Speed"
- YFC_focus_invest_in_speed_desc: "???" #Write pls
+ YFC_focus_invest_in_speed_desc: "Some working under Tophat in the military sector say that the Cherry Company is too slow... Perhaps, if we search hard enough, we could find a different group, better suited to our needs." 
 
  YFC_focus_invest_in_power: "Invest In Power"
- YFC_focus_invest_in_power_desc: "???" #Write pls
+ YFC_focus_invest_in_power_desc: "Some working under Tophat in the military sector say that the Cherry Company is too weak... Perhaps, if we search hard enough, we could find a different group, better suited to our needs." 
 
  YFC_focus_purchase_support_package: "Purchase Support Package"
- YFC_focus_purchase_support_package_desc: "???" #Write pls
+ YFC_focus_purchase_support_package_desc: "Despite not having the means to man our own armies, we can certainly man foreign ones when the time comes. We've worked quite well with the Combined Grape Affiliation, so, why not buy a couple extra things to arm them with when the time comes?"
 
  YFC_focus_purchase_ordnance_package: "Purchase Ordnance Package"
- YFC_focus_purchase_ordnance_package_desc: "???" #Write pls
+ YFC_focus_purchase_ordnance_package_desc: "The sheer force of the Unnamed Mercenary Brotherhood yields great results, however, with extra firepower, they could be even greater. It is well within our budget to buy some extra artillery for the purpose of arming the UMB even further, if we happen to buy them in the future."
 
  YFC_focus_teachings_of_war: "???"
  YFC_focus_teachings_of_war_desc: "???"
@@ -999,7 +999,7 @@
  YFC_focus_demand_end_pillage_desc: "Those damn raiders have stolen long enough. There is no place for Socialist thiefs in the free market, their very existance is an act against communism, and we must put an end to this raiding before it gets out of hand. Pillaging is bad for business."
 
  YFC_focus_hire_militias: "Hire Militias"
- YFC_focus_hire_militias_desc: "Despite already having some mercenaries, it isn't enough for a possible war with the raiders. We can hire temporary militias to fill our numbers temporarily, though we obviously can't let unstable militants stay within our country after the war."
+ YFC_focus_hire_militias_desc: "Despite having willing guards, acting in favor of the company, their purpose is home defense, not foreign defense. They are not ready for war. Despite this, we can, for a time, buy some militias to stay back in rebel territory while our real mercenaries get the job done."
 
  YFC_focus_coiny_cooperation: "Military District Cooperation"
  YFC_focus_coiny_cooperation_desc: "It is no secret what the North Goiky 'Revolutionary' Front wants to do. They've made it clear that they want to rule all of Goiky's northern coast, and Firey has a personal vendetta Coiny. We must help our newfound ally in repelling these attacks, less they fall to Socialism. Besides, socialism is bad for business!"
