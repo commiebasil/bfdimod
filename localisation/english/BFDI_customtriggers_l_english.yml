@@ -16,6 +16,7 @@
  l_GPG_cw_victory_trigger: "§YVictory in the civil war has been achieved§!"
  congress_goodend: "Stability established in Casland"
  cw_done: "Casland's Government is Stable"
+ l_decisions_YFC_divs: "No Active Mercenaries"
  l_decisions_YFC_raids_GGR_3: "Have §Y3§! successful raids against Großgoikysreich!"
  l_decisions_YFC_raids_GGR_5: "Have §Y5§! successful raids against Großgoikysreich!"
  l_decisions_YFC_raids_GGR_7: "Have §Y7§! successful raids against Großgoikysreich!"
@@ -29,5 +30,6 @@
  decision_cost_ie_1000_blocked: "£infantry_equipment_text_icon §R1000§!"
 
  l_money_cost_100K: "Costs §G100K Dollars§!"
+ l_money_cost_500K: "Costs §G500K Dollars§!"
  l_money_cost_1M: "Costs §G1M Dollars§!"
  l_money_cost_2_5M: "Costs §G2.5M Dollars§!"

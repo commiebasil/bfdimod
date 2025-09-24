@@ -103,22 +103,29 @@ focus_tree = {
 			}
 		}
 		
-		#Okay so after rethinking I think it is better that the path is unlocked in the beginning then later
-		#I feel that only giving the path later hurts the player being able to have choice in free will in if they want to rush war or prepare a bit
-		#It feels that we want them to do what we want in the path and force the rush war
-		#Fight this in DMs if you want to but im having it unlock here though the ai will still rush war
-
 		allow_branch = { has_completed_focus = YFC_focus_establish_sectorialism }
 		
-		cost = 6
+		cost = 5
 		completion_reward = {
-			army_experience = 20
-			add_manpower = 2000
+			custom_effect_tooltip = l_YFC_mercs_div
+			division_template = {
+				name = "Cherry Company"
+				is_locked = yes
+				priority = 2
+				template_counter = 3
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 2 y = 0 }
+				}
+			}
 		}
 	}
 
 	focus = {
-		id = YFC_focus_create_an_official_base
+		id = YFC_focus_invest_in_speed
 		relative_position_id = YFC_focus_the_grapes_and_the_cherries
 		x = -2
 		y = 1
@@ -128,15 +135,26 @@ focus_tree = {
 		
 		cost = 6
 		completion_reward = {
-			army_experience = 10
-			custom_effect_tooltip = l_YFC_upgrade_army1
-			add_to_variable = { var_idea_YFC_corp_special_forces_attack_factor = 0.1 }
-			add_to_variable = { var_idea_YFC_corp_special_forces_defence_factor = 0.1 }
+			custom_effect_tooltip = l_YFC_mercs_div
+			division_template = {
+				name = "Combined Grape Affiliation"
+				is_locked = yes
+				priority = 2
+				template_counter = 3
+				regiments = {
+					cavalry = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry = { x = 1 y = 0 }
+					cavalry = { x = 1 y = 1 }
+					cavalry = { x = 2 y = 0 }
+					cavalry = { x = 2 y = 1 }
+				}
+			}
 		}
 	}
 
 	focus = {
-		id = YFC_focus_expand_operations
+		id = YFC_focus_invest_in_power
 		relative_position_id = YFC_focus_the_grapes_and_the_cherries
 		x = 2
 		y = 1
@@ -146,54 +164,88 @@ focus_tree = {
 		
 		cost = 6
 		completion_reward = {
-			add_manpower = 2000
-			201 = {
-				create_unit = {
-					division = "name = \"\" division_template = \"Mercenaries Brigade\" start_experience_factor = 0.5 start_equipment_factor = 0.85"
-					count = 1
-					owner = YFC
+			custom_effect_tooltip = l_YFC_mercs_div
+			division_template = {
+				name = "Unnamed Mercenary Brotherhood"
+				is_locked = yes
+				priority = 2
+				template_counter = 3
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
 				}
 			}
-			custom_effect_tooltip = l_YFC_upgrade_army2
-			add_to_variable = { var_idea_YFC_corp_special_forces_attack_factor = 0.1 }
 		}
 	}
 
 	focus = {
-		id = YFC_focus_form_better_logistics
-		relative_position_id = YFC_focus_create_an_official_base
+		id = YFC_focus_purchase_support_package
+		relative_position_id = YFC_focus_invest_in_speed
 		x = 0
 		y = 1
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_focus_create_an_official_base }
-		mutually_exclusive = { focus = YFC_focus_form_more_divisions }
+		available = {
+			custom_trigger_tooltip = {
+                tooltip = l_money_cost_2_5M
+                check_variable = { money_amount > 25 }
+            }
+		}
+
+		prerequisite = { focus = YFC_focus_invest_in_speed }
+		mutually_exclusive = { focus = YFC_focus_purchase_ordnance_package }
 		
 		cost = 6
 		completion_reward = {
-			custom_effect_tooltip = l_YFC_upgrade_army3 
-			add_to_variable = { var_idea_YFC_corp_special_forces_no_supply_grace = 120 }
+			subtract_from_variable = { money_amount = 25 }
+			custom_effect_tooltip = l_YFC_mercs_upgrade_cav
+			hidden_effect = {
+				add_units_to_division_template = {
+					template_name = "Combined Grape Affiliation"
+					support = {
+						engineer = 0
+						recon = 0
+						logistics_company = 0
+					}
+				}
+			}
 		}
 	}
 
 	focus = {
-		id = YFC_focus_form_more_divisions
-		relative_position_id = YFC_focus_expand_operations
+		id = YFC_focus_purchase_ordnance_package
+		relative_position_id = YFC_focus_invest_in_power
 		x = 0
 		y = 1
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_focus_expand_operations }
-		mutually_exclusive = { focus = YFC_focus_form_better_logistics }
+		available = {
+			custom_trigger_tooltip = {
+                tooltip = l_money_cost_2_5M
+                check_variable = { money_amount > 25 }
+            }
+		}
+
+		prerequisite = { focus = YFC_focus_invest_in_power }
+		mutually_exclusive = { focus = YFC_focus_purchase_support_package }
 		
 		cost = 6
 		completion_reward = {
-			add_manpower = 3500
-			201 = {
-				create_unit = {
-					division = "name = \"\" division_template = \"Mercenaries Brigade\" start_experience_factor = 0.5 start_equipment_factor = 0.85"
-					count = 1
-					owner = YFC
+			subtract_from_variable = { money_amount = 25 }
+			custom_effect_tooltip = l_YFC_mercs_upgrade_inf
+			hidden_effect = {
+				add_units_to_division_template = {
+					template_name = "Unnamed Mercenary Brotherhood"
+					regiments = {
+						artillery_brigade = 3
+					}
+					support = {
+						artillery = 0
+					}
 				}
 			}
 		}
@@ -205,24 +257,18 @@ focus_tree = {
 		x = 0
 		y = 3
 		icon = GFX_focus_generic
+		
+		allow_branch = { available = no }
 
 		available = {
 			has_war = yes
 		}
 
-		prerequisite = { focus = YFC_focus_form_more_divisions focus = YFC_focus_form_better_logistics }
+		prerequisite = { focus = YFC_focus_the_grapes_and_the_cherries }
 		
 		cost = 8
 		completion_reward = {
-			army_experience = 30
-			custom_effect_tooltip = l_YFC_upgrade_army4
-			add_to_variable = { var_idea_YFC_corp_experience_gain_army = 0.01 }
-			add_to_variable = { var_idea_YFC_corp_special_forces_attack_factor = 0.05 }
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.5
-				uses = 2
-				category = special_forces_doctrine
-			}
+
 		}
 	}
 

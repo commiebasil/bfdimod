@@ -155,6 +155,9 @@
  decisions_YFC_trade_sells5: "Sells §gManpower§!."
  decisions_YFC_trade_sells6: "Sells a §YYellowface§!."
 
+ yfc_mercenaries_normal: "Purchase §tCherry Company§!"
+ yfc_mercenaries_cav: "Purchase §7Combined Grape Affiliation§!"
+ yfc_mercenaries_strong: "Purchase §2Unnamed Mercenary Brotherhood§!"
  decision_YFC_raids_category: "Raids for the wealth."
  YFC_raid_state_24: "Commit a Raid!"
  YFC_raid_state_214: "Commit a Raid!"

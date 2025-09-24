@@ -59,6 +59,168 @@ political_actions = {
 			}
 		}
 	}
+
+	yfc_mercenaries_normal = {
+		icon = GFX_decision_SWE_set_army_budget
+
+		visible = {
+			tag = YFC
+			controls_state = 201
+			YFC = {has_completed_focus = YFC_focus_the_grapes_and_the_cherries}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+                tooltip = l_decisions_YFC_divs
+                NOT = {has_country_flag = has_active_mercenaries}
+            }
+			custom_trigger_tooltip = {
+                tooltip = l_money_cost_500K
+                check_variable = { money_amount > 5 }
+            }
+		}
+
+		fire_only_once = no
+		days_remove = 180
+		days_re_enable = 90
+
+		complete_effect = {
+			subtract_from_variable = { money_amount = 5 }
+			201 = {
+				create_unit = {
+					division = "name = \"Mercenaries\" division_template = \"Cherry Company\" start_experience_factor = 0.75"
+					owner = YFC
+					count = 4
+					id = 1984
+				}
+			}
+			hidden_effect = {set_country_flag = has_active_mercenaries}
+		}
+
+		remove_effect = {
+			delete_unit_template_and_units = {
+				division_template = "Cherry Company"
+				disband = no
+			}
+			hidden_effect = {clr_country_flag = has_active_mercenaries}
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 50
+				has_war = yes
+			}
+		}
+	}
+
+	yfc_mercenaries_cav = {
+		icon = GFX_decision_SWE_set_army_budget
+
+		visible = {
+			tag = YFC
+			controls_state = 201
+			YFC = {has_completed_focus = YFC_focus_invest_in_speed}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+                tooltip = l_decisions_YFC_divs
+                NOT = {has_country_flag = has_active_mercenaries}
+            }
+			custom_trigger_tooltip = {
+                tooltip = l_money_cost_1M
+                check_variable = { money_amount > 10 }
+            }
+		}
+
+		fire_only_once = no
+		days_remove = 180
+		days_re_enable = 90
+
+		complete_effect = {
+			subtract_from_variable = { money_amount = 10 }
+			201 = {
+				create_unit = {
+					division = "name = \"Mercenaries\" division_template = \"Combined Grape Affiliation\" start_experience_factor = 0.95"
+					owner = YFC
+					count = 4
+					id = 1984
+				}
+			}
+			hidden_effect = {set_country_flag = has_active_mercenaries}
+		}
+
+		remove_effect = {
+			delete_unit_template_and_units = {
+				division_template = "Combined Grape Affiliation"
+				disband = no
+			}
+			hidden_effect = {clr_country_flag = has_active_mercenaries}
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 100
+				has_war = yes
+			}
+		}
+	}
+
+	yfc_mercenaries_strong = {
+		icon = GFX_decision_SWE_set_army_budget
+
+		visible = {
+			tag = YFC
+			controls_state = 201
+			YFC = {has_completed_focus = YFC_focus_invest_in_power}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+                tooltip = l_decisions_YFC_divs
+                NOT = {has_country_flag = has_active_mercenaries}
+            }
+			custom_trigger_tooltip = {
+                tooltip = l_money_cost_1M
+                check_variable = { money_amount > 10 }
+            }
+		}
+
+		fire_only_once = no
+		days_remove = 180
+		days_re_enable = 90
+
+		complete_effect = {
+			subtract_from_variable = { money_amount = 10 }
+			201 = {
+				create_unit = {
+					division = "name = \"Mercenaries\" division_template = \"Unnamed Mercenary Brotherhood\" start_experience_factor = 0.95"
+					owner = YFC
+					count = 4
+					id = 1984
+				}
+			}
+			hidden_effect = {set_country_flag = has_active_mercenaries}
+		}
+
+		remove_effect = {
+			delete_unit_template_and_units = {
+				division_template = "Unnamed Mercenary Brotherhood"
+				disband = no
+			}
+			hidden_effect = {clr_country_flag = has_active_mercenaries}
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 100
+				has_war = yes
+			}
+		}
+	}
 }
 
 #If any are trash you may change or remove them!
@@ -82,7 +244,6 @@ economy_decisions = {
 		fire_only_once = no
 		days_remove = 180
 		days_re_enable = 360
-
 		cost = 35
 
 		ai_will_do = {
@@ -339,7 +500,7 @@ economy_decisions = {
 
 		modifier = {
 			industrial_capacity_factory = 0.1
-			production_factory_efficiency_gain_factor = 0.5
+			production_factory_efficiency_gain_factor = 0.3
 		}
 
 		complete_effect = {

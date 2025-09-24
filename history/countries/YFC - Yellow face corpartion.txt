@@ -46,12 +46,6 @@ set_popularities = {
  set_variable = { var_idea_YFC_anarchic_lands_rail = 0 }
  set_variable = { var_idea_YFC_anarchic_lands_node = 0 }
 
-#Fruit&Vegetables Corp Idea
- set_variable = { var_idea_YFC_corp_special_forces_attack_factor = -0.15 }
- set_variable = { var_idea_YFC_corp_special_forces_defence_factor = 0 }
- set_variable = { var_idea_YFC_corp_special_forces_no_supply_grace = 0 }
- set_variable = { var_idea_YFC_corp_experience_gain_army = 0 }
-
 #Subjugation YFC Side
  set_variable = { var_idea_YFC_integration_YFC_army_attack_factor = 0 }
  set_variable = { var_idea_YFC_integration_YFC_army_defence_factor = 0}
@@ -75,7 +69,6 @@ add_ideas = disarmed_nation
 
 add_ideas = idea_YFC_no_more_advertisements_foundation
 add_dynamic_modifier = { modifier = idea_YFC_anarchic_lands }
-add_dynamic_modifier = { modifier = idea_YFC_corp }
 
 
 

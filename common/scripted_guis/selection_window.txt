@@ -239,12 +239,12 @@ scripted_gui = {
 						limit = {
 							tag = YFC
 						}
-						set_variable = { money_amount = 12 }
+						set_variable = { money_amount = 16.5 }
 					}
 					ELSE = {
 						set_variable_to_random = {
 							var = money_amount
-							min = -3
+							min = -0.5
 							max = 2
 						}
 					}
@@ -346,12 +346,12 @@ scripted_gui = {
 						limit = {
 							tag = YFC
 						}
-						set_variable = { money_amount = 12 }
+						set_variable = { money_amount = 16.5 }
 					}
 					ELSE = {
 						set_variable_to_random = {
 							var = money_amount
-							min = -3
+							min = -0.5
 							max = 2
 						}
 					}
