@@ -26,7 +26,7 @@ units = {
 		}
         location = 4388 
         division_template = "Cavalry Guards"
-        start_experience_factor = 0.1
+        start_experience_factor = 0.05
         start_equipment_factor = 0.65
     }
 	division= {
@@ -36,7 +36,7 @@ units = {
 		}
         location = 3655 
         division_template = "Cavalry Guards"
-        start_experience_factor = 0.2
+        start_experience_factor = 0.05
         start_equipment_factor = 0.65
     }
 }

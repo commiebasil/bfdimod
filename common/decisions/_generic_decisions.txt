@@ -88,7 +88,7 @@ political_actions = {
 			subtract_from_variable = { money_amount = 5 }
 			201 = {
 				create_unit = {
-					division = "name = \"Mercenaries\" division_template = \"Cherry Company\" start_experience_factor = 0.75"
+					division = "name = \"Mercenaries\" division_template = \"Cherry Company\" start_experience_factor = 0.7"
 					owner = YFC
 					count = 4
 					id = 1984

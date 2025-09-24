@@ -190,6 +190,7 @@ focus_tree = {
 		icon = GFX_focus_generic
 
 		available = {
+			has_tech = tech_support #Required as it is needed for the equipment to spawn in
 			custom_trigger_tooltip = {
                 tooltip = l_money_cost_2_5M
                 check_variable = { money_amount > 25 }
@@ -209,7 +210,7 @@ focus_tree = {
 					support = {
 						engineer = 0
 						recon = 0
-						logistics_company = 0
+						military_police = 0
 					}
 				}
 			}
@@ -224,6 +225,7 @@ focus_tree = {
 		icon = GFX_focus_generic
 
 		available = {
+			has_tech = gw_artillery #Required as it is needed for the equipment to spawn in
 			custom_trigger_tooltip = {
                 tooltip = l_money_cost_2_5M
                 check_variable = { money_amount > 25 }

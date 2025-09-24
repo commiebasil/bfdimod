@@ -35,7 +35,7 @@ GDR_civil_war = {
 	}
 	ai_strategy = {
 		type = force_build_armies
-		value = 20
+		value = 30
 	}
 }
 
