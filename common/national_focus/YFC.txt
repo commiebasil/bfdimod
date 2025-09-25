@@ -93,8 +93,7 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_the_grapes_and_the_cherries
-		relative_position_id = YFC_focus_consolidate_power
-		x = -5
+		x = 5
 		y = 0
 		icon = GFX_focus_generic
 		available = {
@@ -278,7 +277,8 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_the_southern_bandits
-		x = 5
+		relative_position_id = YFC_focus_consolidate_power
+		x = -5
 		y = 0
 		icon = GFX_focus_YFC_southern_bandits
 		
@@ -1700,7 +1700,7 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_sectorial_squabbles
 		relative_position_id = YFC_focus_consolidate_power
-		x = 8
+		x = 7
 		y = 0
 		icon = GFX_focus_generic
 
@@ -1752,7 +1752,7 @@ focus_tree = {
 
 		cost = 3
 		#allows the player to chose a merc group to stick with (pay for recurringly), and unlocks the grapes and cherries, letting the player improve those mercs in a seperate mini-branch
-		#this focus and the others at it's height complete with 138 days left until uprising
+		#finishes with either 138, 107, or 96 days until the uprising fires
 		completion_reward = {
 			
 		}
@@ -1776,7 +1776,113 @@ focus_tree = {
 		allow_branch = { has_completed_focus = YFC_focus_the_military_rises }
 
 		cost = 3
-		#rises popularity of military sector, removes political power and a bit of money
+		#rises popularity of military sector, removes some political power and a bit of money
+		#finishes with either 138, 107, or 96 days until the uprising fires
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_coordinate_with_beaker
+		relative_position_id = YFC_focus_the_military_rises
+		x = 1
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_the_military_rises }
+
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_the_military_rises
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_the_military_rises }
+
+		cost = 3
+		#gives event talking about beaker and tophat working together behind the scenes
+		#gives some stability, gives free research on some random tech idc
+		#finishes with either 138, 107, or 96 days until the uprising fires
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_study_reich_tactics
+		relative_position_id = YFC_focus_a_real_army
+		x = -1
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_a_real_army }
+
+		mutually_exclusive = { focus = YFC_focus_research_ammunition }
+
+		cost = 4
+		#gives spirit that makes all troops faster, hidden effect that makes snowball send divs to help you with yoyleton uprising
+		#finishes with 68 days until yoyleton uprising
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_research_ammunition
+		relative_position_id = YFC_focus_a_real_army
+		x = 1
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_a_real_army }
+		prerequisite = { focus = YFC_focus_coordinate_with_beaker }
+
+		mutually_exclusive = { focus = YFC_focus_study_reich_tactics }
+
+		cost = 4
+		#gives spirit that makes troops do more damage, gives 50 army exp and 2x 50% cost reductions to superior firepower army research thingy
+		#finishes with 68 days until yoyleton uprising
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_solidify_tophat_position
+		relative_position_id = YFC_focus_invest_in_tophat
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_invest_in_tophat }
+		prerequisite = { focus = YFC_focus_coordinate_with_beaker }
+
+		cost = 5
+		#nother event about him gaining more support, with the help of beaker
+		#finishes with like 33 days until the yoyleton uprising
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_militaristic_domination
+		relative_position_id = YFC_focus_research_ammunition
+		x = 1
+		y = 1.35
+		icon = GFX_focus_generic
+
+		prerequisite = {
+			focus = YFC_focus_study_reich_tactics
+			focus = YFC_focus_research_ammunition
+		}
+		prerequisite = { focus = YFC_focus_solidify_tophat_position }
+
+		cost = 7
+		#custom tooltip telling the player this will start a civil war
+		#doesnt actually because focus will auto-stop when the yoyleton uprising starts
+		#say the focus does some other things to to make the player think it's real
 		completion_reward = {
 			
 		}
