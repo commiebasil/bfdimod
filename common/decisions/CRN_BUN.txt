@@ -1,0 +1,726 @@
+decision_CRN_BUN_category = {
+	#I might add one day for having the decisions with the characters but for now seems like too much
+	#This is also before CRN will most likey be nerfed 
+
+	CRN_BUN_Revolt_Victory = {
+	    activation = {
+			country_exists = BUN
+			BUN = {
+				has_dynamic_modifier = {
+					modifier = idea_BUN_Ticking_Bomb
+				}
+			}
+			check_variable = {
+				var_CRN_BUN_Support > 0
+			}
+			AND = { 
+				OR = {
+					AND = {
+						BUN = {controls_state = 85}
+						BUN = {controls_state = 212}
+						OR = {
+							AND = {
+								controls_state = 217
+								controls_state = 218
+							}
+							AND = {
+								BUN = {controls_state = 217}
+								BUN = {controls_state = 218}
+							}
+						}
+					}
+					BUN {controls_state = 201}
+				}
+			}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {BUN = {has_dynamic_modifier { modifier = idea_BUN_Ticking_Bomb }}}
+				YFC = {
+					OR = {
+						controls_state = 85
+						controls_state = 212
+						controls_state = 217
+						controls_state = 218
+					}
+				}
+			}
+		}
+		icon = GFX_decision_eng_puppet_usa  
+		is_good = yes
+		days_mission_timeout = 45
+		timeout_effect = {
+
+        }
+    }
+
+	CRN_BUN_85_Fund = {
+		icon = GFX_decision_gre_investment_decisions
+		state_target = yes
+        targets = { state = 85 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			85 = {
+				compliance < 80
+			}
+			NOT = {country_exists = BUN}
+			check_variable = {
+				var_CRN_BUN_Support > 0
+			}
+		}
+
+		fire_only_once = no
+		cost = 50
+		days_remove = 35
+		days_re_enable = 30
+
+		remove_effect = {
+			85 = {add_resistance = 2}
+			hidden_effect = {
+				set_country_flag = CRN_BUN_Sent_Aid
+			}
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_political_power > 45
+			}
+		}
+	}
+
+	CRN_BUN_212_Fund = {
+		icon = GFX_decision_gre_investment_decisions
+		state_target = yes
+        targets = { state = 212 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			212 = {
+				compliance < 80
+			}
+			NOT = {country_exists = BUN}
+			check_variable = {
+				var_CRN_BUN_Support > 0
+			}
+		}
+
+		fire_only_once = no
+		cost = 50
+		days_remove = 35
+		days_re_enable = 30
+
+		remove_effect = {
+			212 = {add_resistance = 2}
+			hidden_effect = {
+				set_country_flag = CRN_BUN_Sent_Aid
+			}
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_political_power > 45
+			}
+		}
+	}
+
+	CRN_BUN_217_Infrastructure = { #Would also cost money or something else
+		icon = GFX_decision_generic_construction
+		state_target = yes
+        targets = { state = 217 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			controls_state = 217
+		}
+		fire_only_once = yes
+
+		cost = 75
+		days_remove = 45
+
+		remove_effect = {
+			217 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_compliance = 20
+			}
+        }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 10
+				has_political_power > 75
+			}
+		}
+	}
+
+	CRN_BUN_218_Infrastructure = { #Would also cost money or something else
+		icon = GFX_decision_generic_construction
+		state_target = yes
+        targets = { state = 218 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			controls_state = 218
+		}
+		fire_only_once = yes
+
+		cost = 75
+		days_remove = 45
+
+		remove_effect = {
+			218 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_compliance = 20
+			}
+        }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 10
+				has_political_power > 75
+			}
+		}
+	}
+
+	CRN_BUN_Secretly_Funnel = { 
+		icon = GFX_decision_generic_industry
+      
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			check_variable = {
+				var_CRN_BUN_Support > 0
+			}
+		}
+		fire_only_once = no
+
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 999
+			}
+		}
+		custom_cost_text = decision_cost_ie_1000
+		days_remove = 100
+		days_re_enable = 30
+
+		complete_effect = {
+            hidden_effect = {
+                add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -1000
+				}
+				set_country_flag = CRN_BUN_Sent_Aid
+            }
+		}
+
+		remove_effect = {
+			random_list = {
+				20 = {
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 200
+							producer = CRN
+						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 200 }}
+					}
+				}
+				40 = {
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 400
+							producer = CRN
+						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 400 }}
+					}
+				}
+				30 = {
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 600
+							producer = CRN
+						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 600 }}
+					}
+				}
+				10 = {
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 800
+							producer = CRN
+						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 800 }}
+					}
+				}
+			}
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				has_equipment = {
+					infantry_equipment > 999
+				}
+			}
+		}
+	}
+
+	CRN_BUN_Provide = { 
+		icon = GFX_decision_generic_industry
+      
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			check_variable = {
+				var_CRN_BUN_Support > 1
+			}
+		}
+		fire_only_once = no
+
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 999
+			}
+		}
+		custom_cost_text = decision_cost_ie_1000
+		days_remove = 30
+		days_re_enable = 30
+
+		complete_effect = {
+            hidden_effect = {
+                add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -1000
+				}
+				set_country_flag = CRN_BUN_Sent_Aid
+            }
+		}
+
+		remove_effect = {
+			random_list = {
+				40 = {
+					IF = {
+						limit = {
+							country_exists = BUN
+						}
+						BUN = {
+							add_equipment_to_stockpile = {
+								type = infantry_equipment
+								amount = 500
+								producer = CRN
+							}
+							hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 500 }}
+						}
+					}
+					ELSE = {
+
+					}
+				}
+				35 = {
+					IF = {
+						limit = {
+							country_exists = BUN
+						}
+						BUN = {
+							add_equipment_to_stockpile = {
+								type = infantry_equipment
+								amount = 600
+								producer = CRN
+							}
+							hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 600 }}
+						}
+					}
+					ELSE = {
+						BUN = {
+							add_equipment_to_stockpile = {
+								type = infantry_equipment
+								amount = 300
+								producer = CRN
+							}
+							hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 300 }}
+						}
+					}
+				}
+				20 = {
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 650
+							producer = CRN
+						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 650 }}
+					}
+				}
+				5 = {
+					BUN = {
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 800
+							producer = CRN
+						}
+						hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 800 }}
+					}
+				}
+			}
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 5
+				has_equipment = {
+					infantry_equipment > 999
+				}
+			}
+		}
+	}
+
+	CRN_BUN_Sleep_Cells = { 
+		icon = GFX_decision_FIN_weapon_caches
+      
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			check_variable = {
+				var_CRN_BUN_Support > 0
+			}
+			controls_state = 217
+			controls_state = 218
+			NOT = {country_exists = BUN}
+		}
+		fire_only_once = yes
+
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment > 1999
+			}
+		}
+		custom_cost_text = decision_cost_ie_2000
+		days_remove = 60
+
+		modifier = {
+			political_power_gain = -0.50
+		}
+
+		complete_effect = {
+            hidden_effect = {
+                add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -2000
+				}
+				set_country_flag = CRN_BUN_Sent_Aid
+            }
+		}
+
+		remove_effect = {
+			hidden_effect = {
+				BUN = { set_country_flag = CRN_BUN_Sleeper_Cells_On }
+			} 
+			custom_effect_tooltip = l_CRN_Sleep
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 15
+				has_equipment = {
+					infantry_equipment > 999
+				}
+			}
+		}
+	}
+
+	CRN_BUN_Send_Zone = { 
+		icon = GFX_decision_infiltrate_state
+      
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			check_variable = {
+				var_CRN_BUN_Support > 0
+			}
+			country_exists = BUN
+			controls_state = 217
+			controls_state = 218
+		}
+
+		fire_only_once = yes
+		cost = 35
+		days_remove = 10
+
+		remove_effect = {
+			add_stability = -0.01
+			add_war_support = -0.03
+			BUN = {
+				transfer_state = 217
+				transfer_state = 218
+				add_manpower = 5000
+			}
+			hidden_effect = {
+				IF = {
+					limit = {
+						BUN = {
+							has_country_flag = CRN_BUN_Sleeper_Cells_On
+							has_dynamic_modifier = {
+								modifier = idea_BUN_Ticking_Bomb
+							}
+						}				
+					}
+					217 = {
+						create_unit = {
+							division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.2 start_experience_factor = 0.2"
+							owner = BUN
+							count = 1
+							allow_spawning_on_enemy_provs = yes
+							prioritize_location = 11260
+							id = 1967
+						}
+					}
+					218 = {
+						create_unit = {
+							division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.2 start_experience_factor = 0.2"
+							owner = BUN
+							count = 1
+							allow_spawning_on_enemy_provs = yes
+							prioritize_location = 4581
+							id = 1967
+						}
+					}
+				}
+				add_opinion_modifier = { target = BUN modifier = medium_increase }
+				every_country_with_original_tag = {
+					original_tag_to_check = BUN
+					add_opinion_modifier = { target = CRN modifier = offered_support }
+				}
+			}
+        }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 25
+				has_political_power > 50
+			}
+		}
+	}
+
+	CRN_BUN_Deal = { 
+		icon = GFX_decision_hol_exchange_intelligence_data
+      
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			check_variable = {
+				var_CRN_BUN_Support > 1
+			}
+			country_exists = BUN
+		}
+
+		fire_only_once = yes
+		cost = 75
+		days_remove = 100
+
+		modifier = {
+			political_power_gain = -1
+		}
+
+		remove_effect = {
+			BUN = { add_ideas = idea_BUN_greenville_treaty }
+			CRN = { add_ideas = idea_CRN_greenville_treaty }
+			hidden_effect = {
+				add_opinion_modifier = { target = BUN modifier = medium_increase }
+				every_country_with_original_tag = {
+					original_tag_to_check = BUN
+					add_opinion_modifier = { target = CRN modifier = offered_support }
+				}
+			}
+        }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 25
+				has_political_power > 50
+			}
+		}
+	}
+
+	CRN_BUN_Manpower = { 
+		icon = GFX_decision_SWE_set_army_budget
+      
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			check_variable = {
+				var_CRN_BUN_Support > 0
+			}
+			country_exists = BUN
+		}
+
+		fire_only_once = yes
+		available = {
+			has_manpower > 2000
+		}
+		cost = 25
+		days_remove = 50
+
+		complete_effect = {
+			add_manpower = -2000
+		}
+
+		remove_effect = {
+			BUN = {add_manpower = 2000}
+			hidden_effect = {
+				add_opinion_modifier = { target = BUN modifier = medium_increase }
+				every_country_with_original_tag = {
+					original_tag_to_check = BUN
+					add_opinion_modifier = { target = CRN modifier = offered_support }
+				}
+			}
+        }
+
+		ai_will_do = {
+			base = 5
+		}
+	}
+
+	CRN_BUN_Convert = { 
+		icon = GFX_decision_generic_brainwash
+      
+		visible = {
+			YFC = { has_completed_focus = YFC_focus_clamp_down_on_bunchivism }
+			check_variable = {
+				var_CRN_BUN_Support > 0
+			}
+			YFC = {has_country_flag = has_YFC_BUN_recruit_locals}
+		}
+
+		fire_only_once = yes
+		cost = 50
+		days_remove = 100
+
+		modifier = {
+			weekly_manpower = 20
+			political_power_gain = -0.5
+		}
+
+		remove_effect = {
+			85 = {add_resistance = 5}
+			BUN = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 250
+					producer = CRN
+				}
+				hidden_effect = {add_to_variable = { var_BUN_Bonus_Guns = 250 }}
+			}
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 15
+				has_political_power > 50
+			}
+		}
+	}
+
+	CRN_BUN_Opportunity = {
+		activation = {
+			country_exists = BUN
+			hidden_trigger = {
+    			has_country_flag = CRN_BUN_Sent_Aid
+			}	
+			BUN = {
+                has_dynamic_modifier = {
+                    modifier = idea_BUN_Ticking_Bomb
+                }
+			}
+			NOT = {CRN = {has_war_with = YFC}}
+		}
+		available = {
+			hidden_trigger = {
+    			has_country_flag = CRN_BUN_Sent_Aid
+			}	
+		}
+		cancel_trigger = {
+			NOT = {country_exists = BUN}
+			NOT = {BUN = {has_war_with = YFC}}
+			hidden_trigger = {NOT = {has_country_flag = CRN_BUN_Sent_Aid}}
+		}
+		icon = GFX_decision_generic_assassination  
+		is_good = no
+		selectable_mission = yes
+		days_mission_timeout = 120
+		complete_effect = {
+			add_political_power = -250
+			add_stability = -0.1
+			add_war_support = -0.3
+			add_threat = 2.5
+			declare_war_on = {
+				target = YFC
+				type = topple_government
+			}
+			create_faction = "Anti-Yellow Face Alliance"
+			add_to_faction = BUN
+			hidden_effect = {
+				clr_country_flag = CRN_BUN_Sent_Aid
+				IF = {
+					limit = {
+						YFC = {is_ai = yes}
+					}
+					216 = {
+						create_unit = {
+							division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+							owner = YFC
+							count = 2
+							id = 1967
+						}
+					}
+					YFC = {
+						add_offsite_building = { type = arms_factory level = 1 }
+						add_manpower = 5000
+					}
+				}
+			}
+		}
+		timeout_effect = {
+			hidden_effect = {
+				clr_country_flag = CRN_BUN_Sent_Aid
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 100
+				BUN = {surrender_progress > 0.8}
+			}
+			modifier = {
+				add = 100
+				AND = {
+					BUN = {is_ai = no}
+					YFC = {is_ai = yes}
+				}
+			}
+		}
+	}
+}

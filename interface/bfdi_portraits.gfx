@@ -197,6 +197,11 @@ spriteTypes = {
 		name = "GFX_BUN_eraser"
 		texturefile = "gfx/leaders/BUN/BUN_eraser.dds"
 	}
+
+	spriteType = {
+		name = "GFX_BUN_shackles"
+		texturefile = "gfx/leaders/BUN/BUN_shackles.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_SRR_wrench"

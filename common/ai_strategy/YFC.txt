@@ -1,0 +1,34 @@
+#YFC AI 101
+#Change if you want to!!!!
+
+
+## ARMY PLACEMENT ##
+
+YFC_focus_erasers_stockpiles_hate_raiders = {
+    #Until YFC either kills or ally raiders be ready for WAAAARRRRR!!!!!!!!!!!!!!
+    allowed = {
+		original_tag = YFC
+	}
+	enable = {
+		country_exists = BUN
+		has_war = no
+		NOT = {has_completed_focus = YFC_focus_a_look_inward}
+		NOT = {has_completed_focus = YFC_focus_YFC_funded_pillaging}
+	}
+
+	abort = {
+		OR = {
+			has_completed_focus = YFC_focus_YFC_funded_pillaging
+            NOT = {country_exists = BUN}
+			has_war = yes
+			has_completed_focus = YFC_focus_a_look_inward
+		}
+	}
+
+	ai_strategy = {
+        type = prepare_for_war
+        id = BUN
+        value = 2000
+    }
+}
+

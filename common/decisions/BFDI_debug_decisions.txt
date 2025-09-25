@@ -54,7 +54,7 @@ decisions_BFDI_debug = {
 					}
 					add_timed_idea = {
 						idea = idea_debug_battle_royale
-						days = 500
+						days = 1000
 					}
 					if = {
 						limit = {
@@ -78,7 +78,7 @@ decisions_BFDI_debug = {
 				}
 				country_event = GOI_event.69
 				random = {
-					chance = 5
+					chance = 10 
 					set_province_name = { id = 1061 name = "Tilted Towers" }
 					set_province_name = { id = 827 name = "Tomato Town" }
 					set_province_name = { id = 4378 name = "Pleasant Park" }

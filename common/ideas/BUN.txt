@@ -8,5 +8,66 @@ ideas = {
 				consumer_goods_factor = 0.1
 			}
 		}
+
+		idea_BUN_greenville_treaty = { #Deal with CRN, where BUN get's advisors. Given by CRN
+			picture = generic_deal_with_the_devil2
+			modifier = {
+				max_planning_factor = 0.1
+				experience_loss_factor = -0.25
+				army_org_factor = 0.05
+			}
+			cancel = {
+				NOT = { country_exists = BUN }
+				NOT = { has_war_with = CRN }
+			}
+		}
+
+		#All these ideas will become modifiers when Neo-Bunch gets stuff
+
+		idea_BUN_collapsed_economy = { #All industry was blown up or stolen so no money :sad:. Given in revolt
+			picture = BUN_collapsed_economy
+			modifier = {
+				consumer_goods_factor = 0.65
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.25
+				research_speed_factor = -0.75
+				local_resources_factor = -0.25	
+			}
+		}
+
+		idea_BUN_armed_militia  = { #Everyone hates YFC so civilian militia. Given in revolt
+			picture = BUN_armed_militia
+			modifier = {
+				resistance_target_on_our_occupied_states = 0.15
+				conscription = 0.1
+				army_org_factor = -0.2
+				experience_gain_army_factor = -0.75
+				mobilization_speed = 2.5
+			}
+			cancel = {
+				NOT = { has_war_with = YFC }
+			}
+		}
+
+		idea_BUN_unstable_future  = { #Bunch leadership and goals gone, so unknown paths to take. Given in revolt
+			picture = BUN_unstable_future
+			modifier = {
+				political_power_gain = -0.65
+				party_popularity_stability_factor = -0.25
+				stability_factor = -0.25
+			}
+		}
+
+		idea_BUN_victorious_in_blood = { #Most people now want peace and it's hard to change laws due to weak government. Given when won
+			picture = generic_victors_of_ww1
+			modifier = {
+				offensive_war_stability_factor = -0.35
+				defensive_war_stability_factor = 0.35
+				mobilization_speed = -0.25
+				economy_cost_factor = 0.65
+				trade_laws_cost_factor = 0.2
+				mobilization_laws_cost_factor = 0.9
+			}
+		}
 	}
 }

@@ -958,38 +958,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			hidden_effect = {
-				if = {
-					limit = {
-						OR = {
-							has_non_aggression_pact_with = AGG
-							has_non_aggression_pact_with = SGD
-						}
-					}
-					ai_strategy = {
-						type = prepare_for_war
-						id = GPR
-						value = 100
-					}
-				}
-				else = {
-					ai_strategy = {
-						type = prepare_for_war
-						id = GPR
-						value = 80
-					}
-					ai_strategy = {
-						type = prepare_for_war
-						id = AGG
-						value = 10
-					}
-					ai_strategy = {
-						type = prepare_for_war
-						id = SGD
-						value = 10
-					}
-				}	
-			}	
+		
 		}
 	}
 	

@@ -45,7 +45,7 @@ decisions_GDR_congress_category = {
 		cost = 50
 		days_remove = 25
         fire_only_once = yes
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = l_GDR_congress_casland_influence_increase
 			if = {
 				limit = { check_variable = { var_GDR_congress_progressbar < 91 } }
@@ -54,6 +54,10 @@ decisions_GDR_congress_category = {
 			else = {
 				set_variable = { var_GDR_congress_progressbar = 100 }
 			}
+		}
+
+		ai_will_do = {
+			base = 25
 		}
 	}
 }

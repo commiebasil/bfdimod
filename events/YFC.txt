@@ -2,6 +2,7 @@ add_namespace = YFC_event
 add_namespace = YFC_borderwars
 add_namespace = YFC_CRN_Sub
 add_namespace = YFC_BUN
+add_namespace = YFC_hidden_event
 
 country_event = {
 	id = YFC_event.1
@@ -31,6 +32,9 @@ country_event = {
 		name = YFC_event.2.b
 		give_military_access = BUN
 		custom_effect_tooltip = l_YFC_border_raiders_open
+		custom_effect_tooltip = l_money_gain_300K
+		add_to_variable = { money_amount = 3 }
+		BUN = {subtract_from_variable = { money_amount = 3 }}
 	}
 }
 
@@ -44,6 +48,9 @@ country_event = {
 
     option = {
 		name = YFC_event.3.a
+		custom_effect_tooltip = l_money_lose_1M
+		subtract_from_variable = { money_amount = 10 }
+		SRR = {add_to_variable = { money_amount = 10 }}
 		214 = {
 			if = {
 				limit = { is_owned_by = SRR }
@@ -219,7 +226,7 @@ country_event = {
 
 		ai_chance = {
 			base = 3
-			modifier = { YFC = {controls_state = 212} add = 6 }
+			modifier = { YFC = {controls_state = 212} add = 12 }
 		}
 	}
 }
@@ -253,11 +260,6 @@ country_event = {
 		custom_effect_tooltip = l_YFC_border_defence
 
 		hidden_effect = {
-			add_victory_points = {
-				province = 240
-				value = 5
-			}
-
 			201 = {
 				damage_building = {
 					type = infrastructure
@@ -281,13 +283,6 @@ country_event = {
 	option = {
 		name = YFC_event.9.a
 		army_experience = 20
-
-		hidden_effect = {
-			add_victory_points = {
-				province = 24
-				value = 5
-			}
-		}
 	}
 }
 
@@ -339,7 +334,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { 
-		name = YFC_event.12.a
+		name = YFC_event.12.a 
 		complete_national_focus = YFC_focus_industrialize_or_die
 	}
 	option = { 
@@ -394,7 +389,7 @@ country_event = {
 }
 
 country_event = {
-	# YFC_focus_leader_of_bunch event
+	#N/A
 	id = YFC_event.15
 	title = YFC_event.15.t
 	desc = YFC_event.15.desc
@@ -404,18 +399,11 @@ country_event = {
 
 	option = { 
 		name = YFC_event.15.a
-		country_event = {
-			id = YFC_event.16
-			hour = 1
-		}
-	}
-	option = { #skips leader candidates
-		name = YFC_event.15.b 
 	}
 }
 
 country_event = {
-	# YFC_focus_leader_of_bunch event (blocky)
+	#N/A
 	id = YFC_event.16
 	title = YFC_event.16.t
 	desc = YFC_event.16.desc
@@ -427,13 +415,13 @@ country_event = {
 		name = YFC_event.16.a
 		country_event = {
 			id = YFC_event.17
-			hour = 1
+			hours = 1
 		}
 	}
 }
 
 country_event = {
-	# YFC_focus_leader_of_bunch event (pen)
+	#N/A
 	id = YFC_event.17
 	title = YFC_event.17.t
 	desc = YFC_event.17.desc
@@ -445,13 +433,13 @@ country_event = {
 		name = YFC_event.17.a
 		country_event = {
 			id = YFC_event.18
-			hour = 1
+			hours = 1
 		}
 	}
 }
 
 country_event = {
-	# YFC_focus_leader_of_bunch event (eraser)
+	#N/A
 	id = YFC_event.18
 	title = YFC_event.18.t
 	desc = YFC_event.18.desc
@@ -465,7 +453,7 @@ country_event = {
 }
 
 country_event = {
-	# YFC_focus_blockys_offer event 
+	# YFC_focus_support_blocky event 
 	id = YFC_event.19
 	title = YFC_event.19.t
 	desc = YFC_event.19.desc
@@ -489,6 +477,216 @@ country_event = {
 
 	option = { 
 		name = YFC_event.20.a
+	}
+}
+
+country_event = {
+	id = YFC_event.21
+	title = YFC_event.21.t
+    desc = YFC_event.21.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = YFC_event.21.a
+		trigger = {
+			has_manpower > 2000
+		}
+		add_manpower = -2000
+		GMD = {add_manpower = 2000}
+		deactivate_advisor = idea_YFC_Coiny
+		hidden_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = GMD
+				add_opinion_modifier = { target = YFC modifier = offered_support }
+			}
+		}
+	}
+
+	option = {
+		name = YFC_event.21.b
+		deactivate_advisor = idea_YFC_Coiny
+		hidden_effect = {
+			every_country_with_original_tag = {
+				original_tag_to_check = GMD
+				add_opinion_modifier = { target = YFC modifier = refused_help }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = YFC_event.22 #Buildup city event
+	picture = GFX_Temp_event
+	
+	title = {
+		text = YFC_event.22.t.a 
+		trigger = {
+			has_completed_focus = YFC_focus_peoniele_the_second_city
+		}
+	}
+	title = {
+		text = YFC_event.22.t.b 
+		trigger = {
+			has_completed_focus = YFC_focus_big_yoyleton
+		}
+	}
+
+	desc = {
+		text = YFC_event.22.desc.a
+		trigger = {
+			has_completed_focus = YFC_focus_peoniele_the_second_city
+		}
+	}
+	desc = {
+		text = YFC_event.22.desc.b
+		trigger = {
+			has_completed_focus = YFC_focus_big_yoyleton
+		}
+	}
+
+	is_triggered_only = yes
+    
+    option = { #Small
+		name = YFC_event.22.a
+		hidden_effect = {
+			add_to_variable = { var_YFC_upgrade_level = 1 }
+		}
+	}
+
+	option = { #Medium
+		name = YFC_event.22.b
+		hidden_effect = {
+			add_to_variable = { var_YFC_upgrade_level = 2 }
+		}
+	}
+
+	option = { #Large
+		name = YFC_event.22.c
+		hidden_effect = {
+			add_to_variable = { var_YFC_upgrade_level = 3 }
+		}
+	}
+}
+
+country_event = {
+	id = YFC_event.23 #Buildup city event OUTCOME #1
+	title = YFC_event.23.t
+    desc = YFC_event.23.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.23.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.24 #Buildup city event OUTCOME #2
+	title = YFC_event.24.t
+    desc = YFC_event.24.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.24.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.25 #Buildup city event OUTCOME #3
+	title = YFC_event.25.t
+    desc = YFC_event.25.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.25.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.26 #Buildup city event OUTCOME #4+7
+	title = YFC_event.26.t
+    desc = YFC_event.26.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.26.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.27 #Buildup city event OUTCOME #5
+	title = YFC_event.27.t
+    desc = YFC_event.27.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.27.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.28 #Buildup city event OUTCOME #6
+	title = YFC_event.28.t
+    desc = YFC_event.28.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.28.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.29 #Buildup city event OUTCOME #8
+	title = YFC_event.29.t
+    desc = YFC_event.29.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.29.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = YFC_event.30 #Buildup city event OUTCOME #9
+	title = YFC_event.30.t
+    desc = YFC_event.30.desc
+	picture = GFX_Temp_event
+	
+	is_triggered_only = yes
+    
+    option = { 
+		name = YFC_event.30.a
+		add_political_power = 25 #Replace with money
+		add_stability = -0.01
 	}
 }
 
@@ -2091,7 +2289,7 @@ country_event = {
 	id = YFC_BUN.1
 	title = YFC_BUN.1.t
 	desc = YFC_BUN.1.desc
-	picture = GFX_Temp_event
+	picture = GFX_YFC_BUN1
 
 	is_triggered_only = yes
 
@@ -2112,6 +2310,8 @@ country_event = {
 	option = { 
 		name = YFC_BUN.1.b
 		custom_effect_tooltip = l_YFC_BUN_2
+		complete_national_focus = YFC_focus_foster_new_society
+		custom_effect_tooltip = l_GGR_anarchists_decisions_open
 	}
 }
 
@@ -2126,21 +2326,9 @@ country_event = {
 	option = { 
 		name = YFC_BUN.2.a
 		custom_effect_tooltip = l_YFC_BUN_3
+		add_political_power = 75
 		hidden_effect = {
-			YFC = {
-				country_event = {
-					id = YFC_BUN.3
-					days = 2
-					random_hours = 50
-				}
-			}
-		}	
-	}
-
-	option = { 
-		name = YFC_BUN.2.b
-		custom_effect_tooltip = l_YFC_BUN_4
-		hidden_effect = {
+			set_variable = {var_CRN_BUN_Support = 0} 
 			YFC = {
 				country_event = {
 					id = YFC_BUN.3
@@ -2149,11 +2337,36 @@ country_event = {
 				}
 			}
 		}
+		ai_chance = {
+			base = 5
+			modifier = {has_opinion_modifier = betrayed_alliance add = -5 }
+		}	
+	}
+
+	option = { 
+		name = YFC_BUN.2.b
+		custom_effect_tooltip = l_YFC_BUN_4
+		add_political_power = 25
+		hidden_effect = {
+			set_variable = {var_CRN_BUN_Support = 1}
+			YFC = {
+				country_event = {
+					id = YFC_BUN.3
+					days = 2
+					random_hours = 50
+				}
+			}
+		}
+		ai_chance = {
+			base = 1 
+			modifier = {has_opinion_modifier = betrayed_alliance add = 3 }
+		}	
 	}
 
 	option = { 
 		name = YFC_BUN.2.c
 		custom_effect_tooltip = l_YFC_BUN_5
+		add_war_support = 0.02
 		if = {
 			limit = {
 				NOT = {has_opinion_modifier = betrayed_alliance}
@@ -2161,6 +2374,7 @@ country_event = {
 			add_opinion_modifier = { target = YFC modifier = betrayed_alliance }
 		}	
 		hidden_effect = {
+			set_variable = {var_CRN_BUN_Support = 2}
 			YFC = {
 				country_event = {
 					id = YFC_BUN.4
@@ -2170,7 +2384,11 @@ country_event = {
 			}
 		}
 		217 = {add_compliance = 30}
-		218 = {add_compliance = 30}		
+		218 = {add_compliance = 30}	
+		ai_chance = {
+			base = 0 
+			modifier = {has_opinion_modifier = betrayed_alliance add = 10 }
+		}		
 	}
 }
 
@@ -2178,7 +2396,7 @@ country_event = {
 	id = YFC_BUN.3
 	title = YFC_BUN.3.t
 	desc = YFC_BUN.3.desc
-	picture = GFX_Temp_event
+	picture = GFX_YFC_BUN3
 
 	is_triggered_only = yes
 
@@ -2193,6 +2411,12 @@ country_event = {
 				random_days = 15
 				random_hours = 100
 			}
+			country_event = {
+				id = YFC_BUN.20
+				days = 10
+				random_days = 5
+				random_hours = 50
+			}
 		}
 	}
 }
@@ -2201,7 +2425,7 @@ country_event = {
 	id = YFC_BUN.4
 	title = YFC_BUN.4.t
 	desc = YFC_BUN.4.desc
-	picture = GFX_Temp_event
+	picture = GFX_YFC_BUN3
 
 	is_triggered_only = yes
 
@@ -2220,6 +2444,12 @@ country_event = {
 				days = 15
 				random_days = 15
 				random_hours = 100
+			}
+			country_event = {
+				id = YFC_BUN.20
+				days = 10
+				random_days = 5
+				random_hours = 50
 			}
 		}
 	}
@@ -2291,10 +2521,7 @@ country_event = {
 	}
 }
 
-country_event = { #Round Two For Bunch!
-	#Bunch gets good buffs to attack but will lose momentum every month, meaning YFC just has to hold out till BUN can't keep on running...
-	#If Bunch captures all cores they white peace and keep all cores
-	#I will add being able to play as BUN later when it is all working
+country_event = {
 	id = YFC_BUN.8
 	title = YFC_BUN.8.t
 	desc = YFC_BUN.8.desc
@@ -2305,16 +2532,136 @@ country_event = { #Round Two For Bunch!
 	option = { 
 		name = YFC_BUN.8.a
 		custom_effect_tooltip = l_YFC_BUN_8
-		add_war_support = -0.05
-		add_political_power = -100
+		add_war_support = -0.2
+		add_stability = -0.05
+		add_political_power = -200
+		add_threat = 0.5
 		hidden_effect = {
+			add_state_claim = 85
+			add_state_claim = 212
+			if = {
+				limit = {
+					has_country_flag = has_blocky_be_face
+				}
+				country_event = {
+					id = YFC_BUN.21
+					days = 3
+					random_hours = 50
+				}
+			}
 			BUN = {
-				add_manpower = 5000
-				add_dynamic_modifier = { modifier = idea_BUN_Ticking_Bomb }
+				transfer_state = 85
 				remove_ideas = idea_BUN_criminal_state
 				retire_country_leader = yes
-				transfer_state = 85
 				add_country_leader_trait = insurgent_leader
+				country_lock_all_division_template = yes
+				set_cosmetic_tag = BUN_revolt
+			}
+			country_event = {
+				id = YFC_hidden_event.1
+			}
+			IF = {
+				limit = {
+					YFC = {is_ai = yes}
+				}
+				216 = {
+					create_unit = {
+						division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.5 start_experience_factor = 0.05"
+						owner = YFC
+						count = 2
+						id = 1967
+					}
+				}
+				YFC = {
+					add_offsite_building = { type = arms_factory level = 2 }
+					add_manpower = 20000
+				}
+			}
+		}
+	}
+
+	option = { 
+		name = YFC_BUN.8.b
+		custom_effect_tooltip = l_YFC_BUN_8_O
+		hidden_effect = {
+			add_war_support = -0.2
+			add_stability = -0.05
+			add_political_power = -200
+			add_threat = 0.5
+			if = {
+				limit = {
+					has_country_flag = has_blocky_be_face
+				}
+				country_event = {
+					id = YFC_BUN.21
+					days = 3
+					random_hours = 50
+				}
+			}
+			BUN = {
+				transfer_state = 85
+				remove_ideas = idea_BUN_criminal_state
+				retire_country_leader = yes
+				add_country_leader_trait = insurgent_leader
+				country_lock_all_division_template = yes
+				set_cosmetic_tag = BUN_revolt
+			}
+			BUN = { change_tag_from = YFC }
+			goto_state = 85
+			country_event = {
+				id = YFC_hidden_event.1
+			}
+			216 = {
+				create_unit = {
+					division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+					owner = YFC
+					count = 3
+					id = 1967
+				}
+			}
+			YFC = {
+				add_offsite_building = { type = arms_factory level = 3 }
+				add_manpower = 30000
+				add_state_claim = 85
+				add_state_claim = 212
+			}
+		}
+		ai_chance = {
+			base = 0 
+		}
+	}
+}
+
+country_event = {
+    id = YFC_hidden_event.1
+    
+    is_triggered_only = yes
+	hidden = yes
+    
+    immediate = {
+			BUN = {
+				add_manpower = 10000
+				add_command_power = 50
+				add_offsite_building = { type = arms_factory level = 1 }
+				add_dynamic_modifier = { modifier = idea_BUN_Ticking_Bomb }
+				add_ideas = low_economic_mobilisation
+				add_ideas = extensive_conscription
+				add_ideas = closed_economy
+				add_ideas = idea_BUN_collapsed_economy
+				add_ideas = idea_BUN_armed_militia
+				add_ideas = idea_BUN_unstable_future
+				set_equipment_fraction = 1
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = var_BUN_Bonus_Guns
+					producer = CRN
+				}
+				set_political_power = 25
+				set_popularities = {
+					fascism = 32
+					radical_thoughts = 30
+					neutrality = 38
+				}
 				if = {
 					limit = {
 						YFC = {controls_state = 217}
@@ -2325,108 +2672,167 @@ country_event = { #Round Two For Bunch!
 					target = YFC
 					type = independence_wargoal
 				}
+				retire_character = BUN_eraser
+				every_unit_leader = {
+					IF = {
+						limit = {
+							is_country_leader = no
+						}
+						random = {
+							chance = 50
+							retire = yes
+						}
+					}
+					ELSE = {
+						promote_leader = yes
+					}
+				}
 				division_template = {
 					name = "Armed Insurgents"
 					is_locked = yes
-					division_cap = 10 
-					force_allow_recruiting = yes
-					priority = 0
+					priority = 1
 					regiments = {
 						irregular_infantry = { x = 0 y = 0 }
 						irregular_infantry = { x = 0 y = 1 }
 						irregular_infantry = { x = 0 y = 2 }
+						irregular_infantry = { x = 0 y = 3 }
 					}
 				}
 			}	
 			85 = {
 				add_resistance = -75
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 5360
-					id = 1111111
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
-					owner = BUN
-					count = 1
-					allow_spawning_on_enemy_provs = yes
-					prioritize_location = 11196
-					id = 77777
-				}
-				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 4872
-					id = 44444
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 3944
-					id = 55555
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 1932
-					id = 888888
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Bandits\" division_template = \"Bandits\" start_equipment_factor = 0.95 start_experience_factor = 0.2"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.5 start_experience_factor = 0.3"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
-					prioritize_location = 3243
-					id = 666666
+					prioritize_location = 11220
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.4 start_experience_factor = 0.05"
+					division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.15 start_experience_factor = 0.05"
 					owner = YFC
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 5679
-					id = 333333
+					id = 1967
+				}
+				add_dynamic_modifier = {
+					modifier = BUN_revolt_support
+					days = 730
 				}
 			}
 			212 = {
 				add_resistance = -50
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
-					prioritize_location = 2838
-					id = 22222
+					prioritize_location = 450
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.75 start_experience_factor = 0.05"
+					division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.1 start_experience_factor = 0.05"
 					owner = BUN
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 3594
-					id = 333333
+					id = 1967
 				}
 				create_unit = {
-					division = "name = \"Military Police\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.4 start_experience_factor = 0.05"
+					division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.45 start_experience_factor = 0.05"
 					owner = YFC
 					count = 1
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 4249
-					id = 333333
+					id = 1967
+				}
+				add_dynamic_modifier = {
+					modifier = BUN_revolt_support
+					days = 730
 				}
 			}
-		}
+			IF = {
+				limit = {
+					BUN = {
+						has_country_flag = CRN_BUN_Sleeper_Cells_On
+					}
+					AND = {
+						owns_state = 217
+						owns_state = 218
+					}					
+				}
+				217 = {
+					create_unit = {
+						division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.2 start_experience_factor = 0.2"
+						owner = BUN
+						count = 1
+						allow_spawning_on_enemy_provs = yes
+						prioritize_location = 11260
+						id = 1967
+					}
+				}
+				218 = {
+					create_unit = {
+						division = "name = \"Insurgents\" division_template = \"Armed Insurgents\" start_equipment_factor = 0.2 start_experience_factor = 0.2"
+						owner = BUN
+						count = 1
+						allow_spawning_on_enemy_provs = yes
+						prioritize_location = 4581
+						id = 1967
+					}
+				}
+				BUN = {clr_country_flag = CRN_BUN_Sleeper_Cells_On}
+			}
+			IF = {
+				limit = {
+					CRN = {has_country_flag = CRN_BUN_Sent_Aid}
+				}
+				CRN = {
+					country_event = {
+						id = YFC_BUN.22
+						days = 1
+						random_hours = 24
+					}
+				}
+			}
 	}
 }
+
+
 
 country_event = { #Annex Events 1 
 	id = YFC_BUN.9 
@@ -2576,12 +2982,12 @@ country_event = { #Annex Events 3
 	}
 	option = { #Taser security
 		name = YFC_BUN.11.b
-		add_manpower = 2000
 		add_political_power = -25
-		85 = {add_compliance = 2.5}
-		212 = {add_compliance = 2.5}
-		#PUT MISSION
+		85 = {add_compliance = 1}
+		212 = {add_compliance = 1}
+		unlock_decision_tooltip = YFC_BUN_recruit_locals
 		hidden_effect = {
+			set_country_flag = has_YFC_BUN_recruit_locals
 			country_event = {
 				id = YFC_BUN.12
 				days = 20
@@ -2589,6 +2995,9 @@ country_event = { #Annex Events 3
 				random_hours = 50
 			}
 		}	
+		ai_chance = {
+			base = 20 #Change Later
+		}
 	}
 	option = { #Do nothing
 		name = YFC_BUN.11.c
@@ -2621,6 +3030,9 @@ country_event = { #Annex Events 4
 			add_compliance = 40
 			add_resistance = -50
 			set_demilitarized_zone = yes
+			add_dynamic_modifier = {
+				modifier = BUN_autonomous_state
+			}
 		}
 		212 = {add_compliance = 10}
 		hidden_effect = {
@@ -2632,11 +3044,13 @@ country_event = { #Annex Events 4
 			}
 		}
 		#Would HEAVILY lower effects of sectors
+		ai_chance = {
+			base = 0
+		}
 	}
 	option = { #Send Army
 		name = YFC_BUN.12.b
-		add_manpower = 500
-		add_political_power = 25
+		add_manpower = -500
 		85 = {add_resistance = -7.5}
 		212 = {add_resistance = -5}
 		random = {
@@ -2655,7 +3069,7 @@ country_event = { #Annex Events 4
 	}
 	option = { #Do nothing
 		name = YFC_BUN.12.c
-		add_political_power = 65
+		add_political_power = 75
 		add_stability = -0.01
 		random = {
 			chance = 60
@@ -2708,18 +3122,21 @@ country_event = { #Annex Events 5
 			}
 		}
 	}
-	option = { #Face of annex BUT can be killed if revolt (50/50)
+	option = { #Face of annex BUT can be killed if revolt 
 		name = YFC_BUN.13.c
-		add_political_power = -25
-		85 = {add_compliance = 5}
-		212 = {add_compliance = 5}	
+		85 = {add_compliance = 7.5}
+		212 = {add_compliance = 7.5}	
 		hidden_effect = {
+			set_country_flag = has_blocky_be_face
 			country_event = {
 				id = YFC_BUN.14
 				days = 30
 				random_days = 30
 				random_hours = 50
 			}
+		}
+		ai_chance = {
+			base = 20 #Change Later
 		}		
 	}
 }
@@ -2734,11 +3151,19 @@ country_event = { #Annex Events 6
 
 	option = { #Lesser State
 		name = YFC_BUN.14.a
-		#Possible State Modifers: IDK
-		#Just modifiers that buff YFC
 		add_political_power = 75
-		85 = {add_compliance = -2.5}
-		212 = {add_compliance = -2.5}
+		85 = {
+			add_compliance = -5
+			add_dynamic_modifier = {
+				modifier = BUN_lesser_state
+			}
+		}
+		212 = {
+			add_compliance = -5
+			add_dynamic_modifier = {
+				modifier = BUN_lesser_state
+			}
+		}
 		#Buff Top Hat and Hammer Sector	
 		hidden_effect = {
 			country_event = {
@@ -2766,11 +3191,19 @@ country_event = { #Annex Events 6
 	}
 	option = { #Autonomous 
 		name = YFC_BUN.14.c
-		#Possible State Modifers: IDK
-		#Just modifiers that hurt YFC
 		add_political_power = 25
-		85 = {add_compliance = 7.5}
-		212 = {add_compliance = 7.5}
+		85 = {
+			add_compliance = 7.5
+			add_dynamic_modifier = {
+				modifier = BUN_autonomous_state
+			}
+		}
+		212 = {
+			add_compliance = 7.5
+			add_dynamic_modifier = {
+				modifier = BUN_autonomous_state
+			}
+		}
 		#Buff Taser Sector
 		hidden_effect = {
 			country_event = {
@@ -2857,8 +3290,8 @@ country_event = { #Annex Events FINAL
 	title = {
 		text = YFC_BUN.16.t.b #Already cored BUN or compliance over 65
 		trigger = {
-			212 = {compliance > 65}
-			85 = {compliance > 65}
+			212 = {compliance > 70}
+			85 = {compliance > 70}
 			NOT = {has_war_with = BUN}
 		}
 	}
@@ -2875,8 +3308,8 @@ country_event = { #Annex Events FINAL
 	desc = {
 		text = YFC_BUN.16.desc.b #Already cored BUN or compliance over 65
 		trigger = {
-			212 = {compliance > 65}
-			85 = {compliance > 65}
+			212 = {compliance > 70}
+			85 = {compliance > 70}
 			NOT = {has_war_with = BUN}
 		}
 	}
@@ -2939,7 +3372,193 @@ country_event = { #Annex Events FINAL
 		add_political_power = 50
 		add_timed_idea = {
 			idea = idea_YFC_at_the_finish_line
-			days = 150
+			days = 210
 		}
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.17 
+	title = YFC_BUN.17.t
+	desc = YFC_BUN.17.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.17.a
+		add_stability = -0.05
+		add_political_power = -100
+
+
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_BUN.18
+					days = 3
+					random_hours = 50
+				}
+			}	
+		}
+	}
+	option = {
+		name = YFC_BUN.17.b
+		add_war_support = 0.02
+
+		hidden_effect = {
+			YFC = {
+				country_event = {
+					id = YFC_BUN.19
+					days = 3
+					random_hours = 50
+				}
+			}
+		}	
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.18 
+	title = YFC_BUN.18.t
+	desc = YFC_BUN.18.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.18.a
+		transfer_state = 217
+		transfer_state = 218
+		218 = {add_resistance = 30}
+		217 = {add_resistance = 30}
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.19 
+	title = YFC_BUN.19.t
+	desc = YFC_BUN.19.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.19.a
+		add_political_power = -50
+
+		diplomatic_relation = {
+			country = CRN
+			relation = embargo
+			active = yes
+		}
+
+		add_opinion_modifier = { target = CRN modifier = small_decrease }
+		every_country_with_original_tag = {
+			original_tag_to_check = CRN
+			add_opinion_modifier = { target = YFC modifier = small_decrease }
+		}
+	}
+	option = {
+		name = YFC_BUN.19.b
+		add_war_support = 0.02
+		add_political_power = -50
+
+		add_opinion_modifier = { target = CRN modifier = large_decrease }
+		every_country_with_original_tag = {
+			original_tag_to_check = CRN
+			add_opinion_modifier = { target = YFC modifier = large_decrease }
+		}
+	}
+
+	option = {
+		name = YFC_BUN.19.c
+		add_political_power = 20
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.20 
+	title = YFC_BUN.20.t
+	desc = YFC_BUN.20.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.20.a
+		add_political_power = 20
+
+		85 = {
+			remove_building = {
+				type = arms_factory
+				level = 2
+			}
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+			add_resistance = 5
+		}
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.21 
+	title = YFC_BUN.21.t
+	desc = YFC_BUN.21.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.21.a
+		add_political_power = -35
+	}
+}
+
+country_event = { #CRN sees pog
+	id = YFC_BUN.22 
+	title = YFC_BUN.22.t
+	desc = YFC_BUN.22.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.22.a
+		add_political_power = 25
+		add_war_support = 0.01
+	}
+}
+
+country_event = { 
+	id = YFC_BUN.23 
+	title = YFC_BUN.23.t
+	desc = YFC_BUN.23.desc
+	picture = GFX_YFC_BUN23
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.23.a
+		add_political_power = 20
+		85 = {add_compliance = 2}
+		212 = {add_compliance = 2}
+	}
+}
+
+country_event = { #YFC_focus_remove_oligarchical_sentiment
+	id = YFC_BUN.24 
+	title = YFC_BUN.24.t
+	desc = YFC_BUN.24.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.24.a
+		add_stability = -0.01
+		85 = {add_resistance = -5}
+		212 = {add_compliance = -5}
 	}
 }

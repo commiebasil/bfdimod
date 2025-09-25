@@ -1,12 +1,12 @@
 armor_generic = {
 
 	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
+		GGR
+		WGF
+		GPG
+		GSR
+		GFG
+		GDR
 	}
 
 	roles = {
@@ -501,12 +501,12 @@ armor_generic = {
 garrison_generic = {
 
 	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
+		GGR
+		WGF
+		GPG
+		GSR
+		GFG
+		GDR
 	}
 	
 	roles = {
@@ -708,21 +708,12 @@ suppression_generic = {
 infantry_generic = {
 
 	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
-		CHI
-		PRC 
-		GXC
-		YUN
-		SHX
-		XSM
-		SIK
-		MEN
-		MAN
+		GGR
+		WGF
+		GPG
+		GSR
+		GFG
+		GDR
 	}
 
 	roles = {
@@ -826,21 +817,12 @@ infantry_generic = {
 infantry_big_generic = {
 
 	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
-		CHI
-		PRC 
-		GXC
-		YUN
-		SHX
-		XSM
-		SIK
-		MEN
-		MAN
+		GGR
+		WGF
+		GPG
+		GSR
+		GFG
+		GDR
 	}
 
 	roles = {
@@ -961,12 +943,12 @@ infantry_big_generic = {
 mountaineers_generic = {
 
 	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
+		GGR
+		WGF
+		GPG
+		GSR
+		GFG
+		GDR
 	}
 
 	roles = {
@@ -1070,12 +1052,12 @@ mountaineers_generic = {
 marines_generic = {
 
 	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
+		GGR
+		WGF
+		GPG
+		GSR
+		GFG
+		GDR
 	}
 
 	roles = {
@@ -1263,12 +1245,12 @@ marines_generic = {
 paratrooper_generic = {
 
 	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
+		GGR
+		WGF
+		GPG
+		GSR
+		GFG
+		GDR
 	}
 
 	roles = {

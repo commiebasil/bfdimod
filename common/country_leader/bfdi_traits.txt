@@ -47,13 +47,15 @@ leader_traits = {
 	}
 
 	foreign_advisor = {
+		sprite = 13
+
 		army_defence_factor = 0.1
 		breakthrough_factor = 0.1
 	}
 
 	tax_reformer = {
 		stability_factor = 0.05
-		political_power_gain = 0.1
+		consumer_goods_factor = -0.1
 	}
 
 	market_interventionist = {
@@ -73,9 +75,20 @@ leader_traits = {
 	}
 
 	insurgent_leader = {
-		equipment_capture_factor = 0.15
+		equipment_capture = 0.15
 		army_morale_factor = 0.1
 		army_speed_factor = 0.05
+		attrition = -0.25
 		ai_focus_aggressive_factor = 0.5
+	}
+
+	anarchist_annihilator = {
+		communism_drift = -0.01
+		communism_acceptance = -50
+		ai_focus_peaceful_factor = -0.5
+	}
+
+	skilled_military_staff = { #The great Iron Hand buff
+		army_org_factor = 0.1
 	}
 }

@@ -9,15 +9,16 @@ characters = {
 		}
 		country_leader = {
 			ideology = oligarchism
+			traits = { anarchist_annihilator }
 			desc = YFC_yellow_face_desc
 		}
 		field_marshal = {
 			traits = { offensive_doctrine politically_connected }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 5
-			logistics_skill = 3
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 2
 		}
 	}
 	YFC_lewis = {
@@ -61,11 +62,11 @@ characters = {
 			} 
 		}
 		corps_commander = {
-			skill = 2
-			attack_skill = 3
+			skill = 1
+			attack_skill = 2
 			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 4
+			planning_skill = 1
+			logistics_skill = 3
 			traits = { infantry_officer }
 		}
 		
@@ -84,8 +85,20 @@ characters = {
 			idea_token = idea_YFC_Coiny
 			ledger = army
 			traits = { foreign_advisor }
-			available = { hidden_trigger = { has_completed_focus = YFC_focus_buy_defense_trainings } }
-			visible = { hidden_trigger = { has_completed_focus = YFC_focus_buy_defense_trainings } }
+			available = { 
+				hidden_trigger = { 
+					has_completed_focus = YFC_focus_buy_defense_trainings 
+					GMD = {has_war = no}
+					country_event = GMD
+				} 
+			}
+			visible = { 
+				hidden_trigger = { 
+					has_completed_focus = YFC_focus_buy_defense_trainings 
+					GMD = {has_war = no}
+					country_event = GMD
+				} 
+			}
 		}
 	}
 	YFC_tophat = {
@@ -97,10 +110,10 @@ characters = {
 		}
 		field_marshal = {
 			traits = { politically_connected armor_officer trait_reckless organisational_leader }
-			skill = 3
-			attack_skill = 3
+			skill = 2
+			attack_skill = 2
 			defense_skill = 2
-			planning_skill = 4
+			planning_skill = 3
 			logistics_skill = 2
 		}
 	}

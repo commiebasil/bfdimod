@@ -1,0 +1,176 @@
+#GPG AI 101
+#Change if you want to!!!!
+
+
+## CIVIL WAR ##
+
+GPG_civil_war = {
+    #Fun fact! Having more divs are better then having no divs
+	allowed = {
+		original_tag = GPG
+	}
+	enable = {
+		country_exists = GFG
+		country_exists = GDR 
+		country_exists = GSR
+	}
+
+	abort = {
+		has_war = no
+	}
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = infantry_equipment_1
+		value = -1000
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 65
+	}
+	ai_strategy = {
+		type = ignore_army_incompetence
+		value = 50
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 30
+	}
+}
+
+GPG_GPR_trade = {
+	allowed = {
+		original_tag = GPG
+	}
+	enable = {
+		has_completed_focus = GPG_focus_cabinet_resisted
+		has_idea = idea_GPG_factionalism
+		has_war = no
+	}
+
+	abort = {
+		OR = {
+			has_war = yes
+			NOT = {has_idea = idea_GPG_factionalism}
+		}	
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers
+		ratio = 1000
+		states = { 145 }
+		subtract_fronts_from_need = yes
+	}
+}
+
+## INDUSTRY ##
+
+GPG_rearmament = {
+    #GPG wants cool tech 
+	allowed = {
+		original_tag = GPG
+	}
+	enable = {
+		has_idea = idea_GPG_rearmament
+	}
+
+	abort = {
+		NOT = {has_idea = idea_GPG_rearmament}
+	}
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = infantry_weapons1
+		value = 300
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = infantry_weapons2
+		value = 150
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = artillery1
+		value = 300
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = artillery2
+		value = 150
+	}
+}
+
+## INDUSTRY ##
+
+GPG_rebuild = {
+    #GPG wants to have high standing army 
+	allowed = {
+		original_tag = GPG
+	}
+	enable = {
+		OR = {
+			has_completed_focus = GPG_focus_never_again
+			has_completed_focus = GPG_focus_third_congress
+		}
+	}
+
+	abort = {
+		has_army_size = {
+            size > 15
+        }
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = 250
+	}
+}
+
+GPG_high_support = {
+    #GPG wants trucks and good support equipment 
+	allowed = {
+		original_tag = GPG
+	}
+	enable = {
+		OR = {
+			has_completed_focus = GPG_focus_never_again
+			has_completed_focus = GPG_focus_third_congress
+		}
+	}
+
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = tech_trucks
+		value = 750
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = motorised_infantry
+		value = 350
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = infantry_weapons2
+		value = 25
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = tech_field_hospital
+		value = 45
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = tech_logistics_company
+		value = 45
+	}
+	ai_strategy = {
+		type = min_wanted_supply_trucks
+		value = 200
+	}
+}

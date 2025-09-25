@@ -15,8 +15,25 @@ decision_BUN_raids_category = {
 				}
 			}
 		}
+		NOT = {has_cosmetic_tag = BUN_revolt}
 	}
 	priority = 10
 	icon = decision_category_operation_coinflip
 	visible_when_empty = no
+}
+
+decision_BUN_Revolt_category = {
+	allowed = { tag = BUN }
+	visible = { 
+		tag = BUN
+        country_exists = BUN
+        has_dynamic_modifier = {
+            modifier = idea_BUN_Ticking_Bomb
+        }
+        has_war_with = YFC
+	}
+	priority = 15
+	picture = GFX_decision_cat_GFG_reconstruction #Change later plz
+	icon = GFX_decision_category_spr_the_seeds_of_revolution
+	visible_when_empty = yes
 }

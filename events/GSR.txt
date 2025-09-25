@@ -25,10 +25,24 @@ country_event = {
 	option = {
 		name = GSR_event.2.a
 		complete_national_focus = GSR_focus_successful_revolution
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 100
+				has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_SOCIALIST }
+			}
+		}
 	}
 	option = {
 		name = GSR_event.2.b
 		complete_national_focus = GSR_focus_objects_liberation
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = 100
+				has_game_rule = { rule = GPG_ai_behavior option = CIVIL_WAR_ANARCHIST }
+			}
+		}
 	}
 }
 

@@ -1,20 +1,4 @@
 division_template = {
-    name = "Mercenaries Brigade"
-    division_names_group = YFC_Mou_01
-    regiments = {
-        mountaineers = { x = 0 y = 0 }
-        mountaineers = { x = 0 y = 1 }
-        mountaineers = { x = 0 y = 2 }
-        mountaineers = { x = 1 y = 0 }
-        mountaineers = { x = 1 y = 1 }
-    }
-    is_locked = yes
-    division_cap = 5
-    force_allow_recruiting = yes
-	priority = 2
-}
-
-division_template = {
     name = "Cavalry Guards"
     division_names_group = YFC_Cav_01
     regiments = {
@@ -31,38 +15,28 @@ units = {
 			name_order = 1
 		}
         location = 166
-        division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.7
-        start_equipment_factor = 0.98
+        division_template = "Cavalry Guards"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.80
     }
 	division= {
         division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-        location = 166
-        division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.6
-        start_equipment_factor = 0.97
+        location = 4388 
+        division_template = "Cavalry Guards"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.65
     }
 	division= {
         division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-        location = 4388 
-        division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.6
-        start_equipment_factor = 0.97
-    }
-	division= {
-        division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
         location = 3655 
-        division_template = "Mercenaries Brigade"
-        start_experience_factor = 0.6
-        start_equipment_factor = 0.97
+        division_template = "Cavalry Guards"
+        start_experience_factor = 0.05
+        start_equipment_factor = 0.65
     }
 }

@@ -335,6 +335,11 @@ country_event = {
 		add_stability = -0.5
 		add_war_support = -0.5
 		add_political_power = -500
+		hidden_effect = {
+			GMD = {
+				add_manpower = 25000 #Give Coiny hope! (JK it will be a never ending war xd)
+			}
+		}
 	}
 }
 
@@ -367,3 +372,4 @@ country_event = {
 		name = WGF_event.21.a
 	}
 }
+

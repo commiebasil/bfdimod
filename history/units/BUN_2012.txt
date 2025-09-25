@@ -17,6 +17,7 @@ division_template = {
 		cavalry = { x = 1 y = 2 }
 	}
 	is_locked = yes
+    division_cap = 1
 	priority = 2
 	template_counter = 2
 }
@@ -27,42 +28,42 @@ units = {
         name = "Eraser's bunch"
         location = 3944 # GGRR - S Border
         division_template = "Eraser's bunch"
-        start_experience_factor = 0.7
-        start_equipment_factor = 1
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.6
     }
 	division= {
         name = "Podgornyv Bandits"
         location = 5679 # Podgornyv
         division_template = "Bandits"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.6
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
     }
 	division= {
         name = "Snowpath Bandits"
         location = 4249 # Snowpath
         division_template = "Bandits"
-        start_experience_factor = 0.3
-        start_equipment_factor = 0.6
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
     }
 	division= {
         name = "Highwaymen"
         location = 1013 # GGRR - S Border
         division_template = "Bandits"
-        start_experience_factor = 0.15
-        start_equipment_factor = 0.4
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
     }
     division= {
         name = "Plunderers"
         location = 4581 # The Colosseum
         division_template = "Bandits"
-        start_experience_factor = 0.15
-        start_equipment_factor = 0.4
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
     }
     division= {
         name = "Pillagers"
         location = 11260 # Greeny Village
         division_template = "Bandits"
-        start_experience_factor = 0.15
-        start_equipment_factor = 0.4
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.15
     }
 }

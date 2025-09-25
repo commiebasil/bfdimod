@@ -1,0 +1,358 @@
+#Took from GER since I have no idea what the fuck I am doing
+
+infantry_GGR = {
+
+	available_for = {
+		GGR
+	}
+
+	role = infantry
+
+	upgrade_prio = {
+		base = 5
+
+		modifier = {
+			factor = 1
+		}
+	}
+
+	infantry_early_GGR = {
+		division_names_group = GGR_Inf_01
+		upgrade_prio = {
+			base = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+
+		can_upgrade_in_field = {
+            has_equipment = { artillery_equipment > 25 }
+			has_equipment = { support_equipment_1 > 25 }
+        }
+
+		target_template = {	
+			
+			regiments = {
+				infantry = 6
+			}
+		}
+
+		replace_at_match = 0.5
+        replace_with = infantry_early_upgrade_GGR
+        target_min_match = 0.5
+	}
+
+	infantry_early_upgrade_GGR = {
+		division_names_group = GGR_Inf_01
+		upgrade_prio = {
+			base = 1
+			modifier = {
+				factor = 0
+				arms_factory < 3
+			}
+
+			modifier = {
+				factor = 3
+				arms_factory > 3
+			}
+		}
+
+		target_template = {
+
+			support = {
+				engineer = 1
+				artillery = 1
+			}
+
+			regiments = {
+				infantry = 6
+			}
+		}
+	}
+}
+
+
+armored_GGR = {
+
+	available_for = {
+		GGR
+	}
+	
+	role = armor
+	
+	upgrade_prio = {
+		base = 2
+
+		modifier = {
+			factor = 4
+			OR = {
+				has_tech = basic_medium_tank
+				has_tech = basic_medium_tank_chassis
+			}
+		}
+	}
+
+	light_armor_early_GGR = {
+		division_names_group = GRR_Arm_01
+		upgrade_prio = {
+			base = 1
+
+			modifier = {
+				factor = 2
+			}
+		}
+		
+		enable = {
+            has_completed_focus = GGR_focus_forest_tanks
+			OR = {
+				has_tech = gwtank
+				has_tech = gwtank_chassis
+			}	
+        }
+
+		target_template = {
+			
+			support = {
+				artillery = 1
+			}
+			
+			regiments = {
+				light_armor = 3
+				cavalry = 3
+			}
+		}
+	}
+
+	light_armor_GGR = {
+		division_names_group = GRR_Arm_01
+		upgrade_prio = {
+			base = 1
+
+			modifier = {
+				factor = 1.5
+			}
+		}
+		
+		enable = {
+            has_completed_focus = GGR_focus_forest_tanks
+			OR = {
+				has_tech = basic_light_tank
+				has_tech = basic_light_tank_chassis
+			}
+			has_tech = motorised_infantry	
+        }
+
+		target_template = {
+			
+			support = {
+				artillery = 1
+				mot_recon = 1
+			}
+			
+			regiments = {
+				light_armor = 3
+				motorized = 3
+			}
+		}
+	}
+
+	medium_armor_early_GGR = {
+		division_names_group = GRR_Arm_01
+		upgrade_prio = {
+			base = 1
+
+			modifier = {
+				factor = 4
+				OR = {
+					has_tech = basic_medium_tank
+					has_tech = basic_medium_tank_chassis
+				}
+				has_tech = motorised_infantry
+			}
+		}
+
+		enable = {
+            has_completed_focus = GGR_focus_forest_tanks
+			OR = {
+				has_tech = basic_medium_tank
+				has_tech = basic_medium_tank_chassis
+			}
+			has_tech = motorised_infantry	
+        }
+
+		# this is a stop-gap towards medium tanks, if deployed dont upgrade to medium tanks until we burn out our light tanks
+		can_upgrade_in_field = {
+			has_equipment = { basic_light_tank < 600 }
+			has_equipment = { light_tank_chassis < 600 } 
+		}
+
+		target_template = {
+			
+			support = {
+				mot_recon = 1
+				artillery = 1
+			}
+			
+			regiments = {
+				medium_armor = 2
+				light_armor = 2
+				motorized = 4
+			}
+		}
+	}
+}
+
+
+garrison_GGR = {
+	available_for = {
+		GGR
+	}
+	
+	role = garrison
+	
+	upgrade_prio = {
+		factor = 1
+
+		modifier = {
+			factor = 5
+			NOT = { ai_has_role_template = garrison }
+		}
+	}
+
+
+	garrison_GGR = {
+		division_names_group = GGR_Inf_01
+		reinforce_prio = 0
+		custom_icon = 7
+	
+		upgrade_prio = {
+			factor = 1
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		target_template = {
+
+			regiments = {
+				infantry = 4
+			}
+		}
+	}
+}
+	
+
+mountaineers_GGR = {
+
+	available_for = {
+		GGR
+	}
+	
+	role = mountaineers
+	
+	upgrade_prio = {
+		factor = 2
+
+		modifier = {
+			factor = 0
+			NOT = {
+				has_tech = tech_mountaineers
+			}
+		}
+	}
+	
+	mountaineers_default_GGR = {
+		division_names_group = GGR_Inf_01
+		upgrade_prio = {
+			base = 2
+		}
+
+		target_template = {
+			
+			support = {
+				engineer = 1
+				logistics_company = 1
+			}
+			
+			regiments = {
+				mountaineers = 5
+				artillery_brigade = 1
+			}
+		}
+	}
+}
+
+
+suppression_GGR = {
+	
+	role = suppression
+	available_for = {
+		GGR
+	}
+	upgrade_prio = {
+		base = 0.5
+
+		modifier = {
+			factor = 5
+			has_war = yes
+		}
+	}
+
+	suppression_generic = {
+		division_names_group = GGR_Cav_01
+		reinforce_prio = 0
+		custom_icon = 13
+	
+		upgrade_prio = {
+			base = 2
+		}
+		
+		target_template = {
+			regiments = {
+				cavalry = 2
+			}
+		}
+	}
+}
+
+
+# Non-complete list of sub-units
+
+# REGIMENTS:
+# - infantry
+# - light_armor
+# - medium_armor
+# - heavy_armor
+# - super_heavy_armor
+# - modern_armor
+# - cavalry
+# - motorized
+# - mechanized
+# - marine
+# - mountaineers
+# - paratrooper
+# - artillery_brigade
+# - anti_air_brigade
+# - anti_tank_brigade
+# - light_tank_destroyer_brigade
+# - medium_tank_destroyer_brigade
+# - heavy_tank_destroyer_brigade
+# - super_heavy_tank_destroyer_brigade
+# - modern_tank_destroyer_brigade
+# - light_sp_anti_air_brigade
+# - light_sp_artillery_brigade
+
+# SUPPORT:
+# - engineer
+# - recon
+# - signal_company
+# - maintenance_company
+# - artillery
+# - anti_air
+# - anti_tank
+# - field_hospital
+# - logistics_company
+# - military_police
+# - rocket_artillery

@@ -35,6 +35,59 @@ decision_YFC_BUN_category = {
 		}
 	}
 
+	YFC_BUN_Revolt_Victory = {
+	    activation = {
+			country_exists = BUN
+			BUN = {
+				has_dynamic_modifier = {
+					modifier = idea_BUN_Ticking_Bomb
+				}
+				has_war_with = YFC
+			}
+			AND = { 
+				OR = {
+					AND = {
+						BUN = {controls_state = 85}
+						BUN = {controls_state = 212}
+						OR = {
+							CRN = {
+								AND = {
+									controls_state = 217
+									controls_state = 218
+								}
+							}
+							AND = {
+								BUN = {controls_state = 217}
+								BUN = {controls_state = 218}
+							}
+						}
+					}
+					BUN {controls_state = 201}
+				}
+			}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {has_war_with = BUN}
+				OR = {
+					controls_state = 85
+					controls_state = 212
+					controls_state = 217
+					controls_state = 218
+				}
+			}
+		}
+		icon = GFX_decision_eng_puppet_usa  
+		is_good = no
+		days_mission_timeout = 45
+		timeout_effect = {
+
+        }
+    }
+
 	YFC_BUN_85_Growing = {
 		activation = {
 			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
@@ -66,6 +119,12 @@ decision_YFC_BUN_category = {
 			}
 			hidden_effect = {
 				add_to_variable = { var_YFC_BUN_Anger = 0.5 }
+				IF = {
+					limit = {
+						is_ai = yes
+					}
+					add_political_power = 30
+				}
 			}
 		}
 	}
@@ -101,10 +160,50 @@ decision_YFC_BUN_category = {
 			}
 			hidden_effect = {
 				add_to_variable = { var_YFC_BUN_Anger = 0.5 }
+				IF = {
+					limit = {
+						is_ai = yes
+					}
+					add_political_power = 30
+				}
 			}
 		}
 	}
 
+	YFC_BUN_Ceasefire = {
+		icon = GFX_decision_generic_form_nation
+    
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			has_active_mission = YFC_BUN_Revolt_Victory
+			surrender_progress > 0.1
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		remove_effect = {
+			add_political_power = -25
+			hidden_effect = {
+				BUN = {
+					country_event = {
+						id = BUN_YFC.1
+						hours = 1
+						random_hours = 3
+					}
+				}
+			}
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 100
+				surrender_progress > 0.5
+			}
+		}
+	}
 
 	YFC_BUN_85_Counter = {
 		icon = GFX_decision_generic_prepare_civil_war
@@ -142,8 +241,8 @@ decision_YFC_BUN_category = {
 			add_political_power = 15
         }
 		fire_only_once = no
-		cost = 45
-		days_remove = 25
+		cost = 50
+		days_remove = 30
 		days_re_enable = 35
 
 		remove_effect = {
@@ -195,8 +294,8 @@ decision_YFC_BUN_category = {
 			add_political_power = 15
         }
 		fire_only_once = no
-		cost = 45
-		days_remove = 25
+		cost = 50
+		days_remove = 30
 		days_re_enable = 35
 
 		remove_effect = {
@@ -452,6 +551,203 @@ decision_YFC_BUN_category = {
 			modifier = {
 				add = 10
 				has_political_power > 75
+			}
+		}
+	}
+
+	YFC_BUN_85_intergate = {
+		icon = GFX_decision_generic_operation
+		state_target = yes
+        targets = { state = 85 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 85
+			85 = {
+				compliance < 85
+				compliance > 65
+				resistance < 40
+			}
+		}
+
+		fire_only_once = no
+		cost = 20
+		days_remove = 30
+		days_re_enable = 30
+
+		modifier = {
+			political_power_gain = -0.50
+		}
+
+		remove_effect = {
+			85 = {add_compliance = 10}
+        }
+
+		ai_will_do = {
+			base = 50
+			modifier = {
+				add = 100
+				has_political_power > 25
+			}
+		}
+	}
+
+	YFC_BUN_212_intergate = {
+		icon = GFX_decision_generic_operation
+		state_target = yes
+        targets = { state = 212 }
+        on_map_mode = map_and_decisions_view
+        
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			controls_state = 212
+			212 = {
+				compliance < 85
+				compliance > 65
+				resistance < 40
+			}
+		}
+
+		fire_only_once = no
+		cost = 20
+		days_remove = 30
+		days_re_enable = 30
+
+		modifier = {
+			political_power_gain = -0.50
+		}
+
+		remove_effect = {
+			212 = {add_compliance = 10}
+        }
+
+		ai_will_do = {
+			base = 50
+			modifier = {
+				add = 100
+				has_political_power > 25
+			}
+		}
+	}
+
+	YFC_BUN_Demand_Zone = { 
+		icon = GFX_decision_infiltrate_state
+      
+		visible = {
+			has_completed_focus = YFC_focus_clamp_down_on_bunchivism
+			85 = {
+				compliance > 50
+			}
+			212 = {
+				compliance > 50
+			}
+			NOT = {controls_state = 217}
+			NOT = {controls_state = 218}
+		}
+
+		fire_only_once = yes
+
+		cost = 65
+		days_remove = 15
+
+		remove_effect = {
+			add_state_claim = 217
+			add_state_claim = 218
+			CRN = {
+				country_event = {
+					id = YFC_BUN.17
+					days = 2
+					random_hours = 24
+				}
+			}
+        }
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_political_power > 50
+			}
+		}
+	}
+
+	YFC_BUN_recruit_locals = { 
+		icon = GFX_decision_SWE_set_army_budget
+      
+		visible = {
+			has_country_flag = has_YFC_BUN_recruit_locals
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+		days_remove = 100
+
+		modifier = {
+			resistance_growth = -0.2
+			weekly_manpower = 100
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+				add = 10
+				has_political_power > 35
+			}
+		}
+	}
+
+	YFC_BUN_mobilize_reserves = { 
+		icon = GFX_decision_SWE_set_army_budget
+      
+		visible = {
+			country_exists = BUN
+			BUN = {
+				has_dynamic_modifier = {
+					modifier = idea_BUN_Ticking_Bomb
+				}
+				has_war_with = YFC
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 35
+		days_remove = 50
+
+		modifier = {
+			war_support_weekly = -0.005
+			weekly_manpower = 750
+		}
+
+		timeout_effect = {
+			216 = {
+				create_unit = {
+					division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.65 start_experience_factor = 0.05"
+					owner = YFC
+					count = 1
+					id = 1967
+				}
+			}
+			IF = {
+				limit = {is_ai = yes}
+			}
+			216 = {
+				create_unit = {
+					division = "name = \"\" division_template = \"Cavalry Guards\" start_equipment_factor = 0.2 start_experience_factor = 0.05"
+					owner = YFC
+					count = 2
+					id = 1967
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 20
+			modifier = {
+				add = 100
+				has_political_power > 20
 			}
 		}
 	}

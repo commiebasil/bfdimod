@@ -32,7 +32,7 @@ GGR_protect_raiders = {
 }
 
 
-GGR_FFT_preparation = {
+GGR_FFT_preparation_and_war = {
     #GGR sends troops to FFT
 	allowed = {
 		original_tag = GGR
@@ -43,10 +43,7 @@ GGR_FFT_preparation = {
 				focus = GGR_focus_partizan_war
 				progress > 0.01
 			}
-			AND = {
-				country_exists = FFT
-				has_completed_focus = GGR_focus_partizan_war
-			}
+			has_war_with = FFT
 		}
 	}
 
@@ -57,13 +54,12 @@ GGR_FFT_preparation = {
 	ai_strategy = {
         type = prepare_for_war
         id = FFT
-        value = 200
+        value = 500
     }
-    ai_strategy = {
-        type = front_unit_request
-        id = FFT
-        value = 250
-    }
+	ai_strategy = {
+		type = garrison
+		value = -75
+	}
 }
 
 ## INDUSTRY ##
@@ -74,26 +70,92 @@ GGR_tanks = {
 		original_tag = GGR
 	}
 	enable = {
+		NOT = {has_dlc = "No Step Back"}
 		has_army_size = {
-            size > 10
+            size > 8
         }
 		has_completed_focus = GGR_focus_forest_tanks
 	}
 
 	abort = {
-		#Might add something to stop tanks
-		always = no 
+		has_army_size = {
+			size > 1
+			type = armor
+		}
 	}
 
+
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = 1000
+	}
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
-		value = 30
+		value = 75
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = gwtank
+		value = 1000
 	}
 	ai_strategy = {
 		type = research_weight_factor
 		id = basic_light_tank
-		value = 50
+		value = 750
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = tech_trucks
+		value = 100
+	}
+}
+
+GGR_tanks_NSB = {
+    #NSB Version
+	allowed = {
+		original_tag = GGR
+	}
+	enable = {
+		has_dlc = "No Step Back"
+		has_army_size = {
+            size > 8
+        }
+		has_completed_focus = GGR_focus_forest_tanks
+	}
+
+	abort = {
+		has_army_size = {
+			size > 1
+			type = armor
+		}
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = 1000
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 75
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = gwtank_chassis
+		value = 1000
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = basic_light_tank_chassis
+		value = 750
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = tech_trucks
+		value = 1000
 	}
 }
 
@@ -110,13 +172,14 @@ GGR_huge_army = {
 
 	abort = {
 		has_army_size = {
-            size > 20
+            size > 10
         }
 	}
 
 	ai_strategy = {
-		type = force_build_armies
-		value = 21
+		type = build_army
+		id = infantry
+		value = 250
 	}
 }
 
@@ -146,5 +209,26 @@ GGR_cheap_guns = {
 		type = equipment_production_factor
 		id = infantry
 		value = 1000
+	}
+}
+
+GGR_four_year = {
+    #Tells GGR that when anarchists are done mass build civs
+	allowed = {
+		original_tag = GGR
+	}
+	enable = {
+		industrial_complex < 25
+		NOT = {country_exists = FFT}
+	}
+
+	abort = {
+		industrial_complex > 25
+	}
+
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 150
 	}
 }

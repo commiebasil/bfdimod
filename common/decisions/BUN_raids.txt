@@ -1,6 +1,3 @@
-#BUN Epic raids!!!!!!!!!!!!!!!!!!!!!
-#Might update Raid events but for now will stay as the YFC ones
-#More of an base to expand later so will be redone one day
 
 decision_BUN_raids_category = {
 	BUN_raid_state_201 = {
@@ -23,18 +20,9 @@ decision_BUN_raids_category = {
 			NOT = {
 				is_puppet = yes
 			}
-			NOT = {
-				AND = {
-					YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
-					divisions_in_state = {
-						type = infantry
-						size > 2
-						state = 201
-					}
-				}
-			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -46,6 +34,21 @@ decision_BUN_raids_category = {
 				damage_building = {
  					type = infrastructure
   					damage = 0.5
+				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
 				}
 			}
 			
@@ -61,22 +64,48 @@ decision_BUN_raids_category = {
 				}
 			}
 
-			start_border_war = {
-				change_state_after_war = no
-				attacker = {
-					state = 212
-					num_provinces = 1
-					on_win = YFC_borderwars.1
-					on_lose = YFC_borderwars.2
-					modifier = 0.5
-     				terrain_factor = 0.5
-				}	
-				defender = {
-					state = 201
-					num_provinces = 1
-					on_win = YFC_borderwars.3
-					on_lose = BUN_borderwars.5
-					dig_in_factor = 2
+			IF = {
+				limit = {
+					YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
+					YFC = {controls_state = 214}
+				}
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = 212
+						num_provinces = 1
+						on_win = YFC_borderwars.1
+						on_lose = YFC_borderwars.2
+						modifier = 0.25
+						terrain_factor = 0.5			
+					}	
+					defender = {
+						state = 201
+						num_provinces = 1
+						on_win = YFC_borderwars.3
+						on_lose = BUN_borderwars.5
+						dig_in_factor = 2
+					}
+				}
+			}
+			ELSE = {
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = 212
+						num_provinces = 1
+						on_win = YFC_borderwars.1
+						on_lose = YFC_borderwars.2
+						modifier = 0.65	
+						terrain_factor = 0.5			
+					}	
+					defender = {
+						state = 201
+						num_provinces = 1
+						on_win = YFC_borderwars.3
+						on_lose = BUN_borderwars.5
+						dig_in_factor = 2
+					}
 				}
 			}
 		}
@@ -110,6 +139,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -121,6 +151,21 @@ decision_BUN_raids_category = {
 				damage_building = {
  					type = infrastructure
   					damage = 0.5
+				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
 				}
 			}
 			
@@ -143,7 +188,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -185,6 +230,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -196,6 +242,21 @@ decision_BUN_raids_category = {
 				damage_building = {
  					type = infrastructure
   					damage = 0.5
+				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
 				}
 			}
 			
@@ -218,7 +279,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -260,6 +321,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -271,6 +333,21 @@ decision_BUN_raids_category = {
 				damage_building = {
  					type = infrastructure
   					damage = 0.5
+				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
 				}
 			}
 			
@@ -293,7 +370,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -342,19 +419,10 @@ decision_BUN_raids_category = {
 						NOT = { is_guaranteed_by = YFC }
 						NOT = { has_military_access_to = YFC }
 						NOT = { is_puppet = yes }
-						NOT = {
-							AND = {
-								YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
-								divisions_in_state = {
-									type = infantry
-									size > 2
-									state = 214
-								}
-							}
-						}
 					}
 				}
 			}
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -366,6 +434,21 @@ decision_BUN_raids_category = {
 				damage_building = {
  					type = infrastructure
   					damage = 0.5
+				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
 				}
 			}
 			
@@ -381,22 +464,48 @@ decision_BUN_raids_category = {
 				}
 			}
 
-			start_border_war = {
-				change_state_after_war = no
-				attacker = {
-					state = 85
-					num_provinces = 1
-					on_win = YFC_borderwars.1
-					on_lose = YFC_borderwars.2
-					modifier = 0.5
-     				terrain_factor = 0.5
-				}	
-				defender = {
-					state = 214
-					num_provinces = 1
-					on_win = YFC_borderwars.3
-					on_lose = BUN_borderwars.5
-					dig_in_factor = 2
+			IF = {
+				limit = {
+					YFC = {has_completed_focus = YFC_focus_demand_end_pillage}
+					YFC = {controls_state = 214}
+				}
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = 85
+						num_provinces = 1
+						on_win = YFC_borderwars.1
+						on_lose = YFC_borderwars.2
+						modifier = 0.3
+						terrain_factor = 0.5
+					}	
+					defender = {
+						state = 214
+						num_provinces = 1
+						on_win = YFC_borderwars.3
+						on_lose = BUN_borderwars.5
+						dig_in_factor = 2
+					}
+				}
+			}
+			ELSE = {
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = 85
+						num_provinces = 1
+						on_win = YFC_borderwars.1
+						on_lose = YFC_borderwars.2
+						modifier = 0.65
+						terrain_factor = 0.5
+					}	
+					defender = {
+						state = 214
+						num_provinces = 1
+						on_win = YFC_borderwars.3
+						on_lose = BUN_borderwars.5
+						dig_in_factor = 2
+					}
 				}
 			}
 		}
@@ -436,6 +545,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -447,6 +557,21 @@ decision_BUN_raids_category = {
 				damage_building = {
  					type = infrastructure
   					damage = 0.5
+				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
 				}
 			}
 			
@@ -469,7 +594,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -513,6 +638,7 @@ decision_BUN_raids_category = {
 			}
 			has_border_war = no
 			has_war = no
+			NOT = {has_cosmetic_tag = BUN_revolt}
 		}
 
 		fire_only_once = no
@@ -525,8 +651,25 @@ decision_BUN_raids_category = {
  					type = infrastructure
   					damage = 0.5
 				}
+				hidden_effect = {
+					IF = {
+						limit = {controller = {is_ai = yes}}						
+						random = {
+							chance = 20
+							controller = {
+								diplomatic_relation = {
+									country = BUN
+									relation = embargo
+									active = yes
+								}
+							}
+						}
+					}
+				}
 			}
 			
+
+
 			if = {
 				limit = {
 					is_ai = yes
@@ -546,7 +689,7 @@ decision_BUN_raids_category = {
 					num_provinces = 1
 					on_win = YFC_borderwars.1
 					on_lose = YFC_borderwars.2
-					modifier = 0.5
+					modifier = 0.65
      				terrain_factor = 0.5
 				}	
 				defender = {
@@ -562,7 +705,7 @@ decision_BUN_raids_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 10
+				add = 10 
 				has_political_power > 75
 			}
 			modifier = {

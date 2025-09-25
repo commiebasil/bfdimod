@@ -137,8 +137,16 @@ focus_tree = {
 		
 		cost = 8
 		
+		historical_ai = {
+			NOT = {has_game_rule = { rule = GGR_ai_behavior option = COLLAPSE_COUNTRY }}
+		}
+
 		ai_will_do = {
-        base = 10
+        	base = 10
+			modifier = {
+				add = -100
+				has_game_rule = { rule = GGR_ai_behavior option = COLLAPSE_COUNTRY }
+			}
 		}
 		
 		completion_reward = {
@@ -616,8 +624,16 @@ focus_tree = {
 		
 		cost = 8
 		
+		historical_ai = {
+			NOT = {has_game_rule = { rule = GGR_ai_behavior option = COLLAPSE_COUNTRY }}
+		}
+
 		ai_will_do = {
-        base = 8
+        	base = 8
+			modifier = {
+				add = -100
+				has_game_rule = { rule = GGR_ai_behavior option = COLLAPSE_COUNTRY }
+			}
 		}
 		
 		completion_reward = {
@@ -808,8 +824,14 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = l_GGR_focus_postpones_riot
-			custom_effect_tooltip = l_GGR_focus_new_decisions
-			add_political_power = 25
+			IF = {
+				limit = {has_dlc = "La Resistance"}
+				custom_effect_tooltip = l_GGR_focus_new_decisions
+				add_political_power = 25
+			}
+			ELSE = {
+				add_political_power = 100
+			}
 			set_country_flag = schneeschutz_done
 		}
 	}

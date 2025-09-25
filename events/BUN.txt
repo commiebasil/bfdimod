@@ -8,42 +8,14 @@ country_event = {
 	picture = GFX_Temp_event
 
 	fire_only_once = yes
-	is_triggered_only = no
-
-	trigger = {
-		tag = BUN
-		country_exists = BUN
-		has_dynamic_modifier = {
-			modifier = idea_BUN_Ticking_Bomb
-		}
-		has_war_with = YFC
-		AND = { 
-			OR = {
-				AND = {
-					controls_state = 85
-					controls_state = 212
-					OR = {
-						CRN = {
-							AND = {
-								controls_state = 217
-								controls_state = 218
-							}
-						}
-						AND = {
-							controls_state = 217
-							controls_state = 218
-						}
-					}
-				}
-				controls_state = 201
-			}
-		}
-	}
-
+	is_triggered_only = yes
+	
 	option = {
 		name = BUN_YFC.1.a
-		add_war_support = 0.2
-		add_stability = 0.25
+		add_war_support = 0.1
+		add_stability = 0.05
+		country_lock_all_division_template = no
+		remove_country_leader_trait = insurgent_leader
 		delete_unit_template_and_units = {
 			division_template = "Armed Insurgents"
 			disband = no 
@@ -52,8 +24,15 @@ country_event = {
 		YFC = {
 			country_event = {
 				id = BUN_YFC.2
-				days = 1
-				random_hours = 10
+				hours = 2
+				random_hours = 2
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = BUN_YFC.4
+				days = 12
+				random_hours = 50
 			}
 		}
 	}
@@ -74,6 +53,12 @@ country_event = {
 		add_stability = -0.2
 		add_political_power = -300
 		white_peace = BUN
+		IF = {
+			limit = {
+				has_war_with = CRN
+			}
+			white_peace = CRN
+		}
 		BUN = {
 			transfer_state = 212
 			transfer_state = 85
@@ -90,6 +75,165 @@ country_event = {
 				transfer_state = 218
 			}
 		}	
+	}
+}
+
+country_event = {
+	id = BUN_YFC.3
+	title = BUN_YFC.3.t
+	desc = BUN_YFC.3.desc
+	picture = GFX_Temp_event
+
+	fire_only_once = yes
+	is_triggered_only = no
+
+	trigger = {
+		tag = BUN
+		country_exists = BUN
+		has_dynamic_modifier = {
+			modifier = idea_BUN_Ticking_Bomb
+		}
+		has_war_with = YFC
+		controls_province = 5679
+		YFC = {has_country_flag = has_blocky_be_face}
+	}
+
+	option = {
+		name = BUN_YFC.3.a
+		add_war_support = 0.05
+		custom_effect_tooltip = l_YFC_BLOCKY
+	}
+}
+
+country_event = { 
+	id = BUN_YFC.4
+	title = BUN_YFC.4.t
+	desc = BUN_YFC.4.desc
+	picture = GFX_Temp_event
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = BUN_YFC.4.a
+		add_ideas = idea_BUN_victorious_in_blood
+		add_ideas = disarmed_nation
+		add_manpower = 5000
+		hidden_effect = {
+			IF = {
+				limit = {
+					CRN = {
+						check_variable = {
+							var_CRN_BUN_Support > 0
+						}
+					}
+				}
+				country_event = {
+					id = BUN_YFC.5
+					days = 7
+					random_hours = 50
+				}
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = BUN_YFC.5
+	title = BUN_YFC.5.t
+	desc = BUN_YFC.5.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = BUN_YFC.5.a
+		IF = {
+			limit = {
+				is_in_faction_with = CRN
+			}
+			CRN = {set_faction_name = "Southern Trading League"}
+		}
+		ELSE = {
+			CRN = {
+				create_faction = "Southern Trading League"
+				add_to_faction = BUN
+			}
+		}
+	}
+
+	option = {
+		name = BUN_YFC.5.b
+		add_political_power = 25
+	}
+}
+
+country_event = { 
+	id = BUN_YFC.6
+	title = BUN_YFC.6.t
+	desc = BUN_YFC.6.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = BUN_YFC.6.a
+		white_peace = BUN
+		add_war_support = -0.05
+		add_political_power = -50
+		IF = {
+			limit = {
+				has_war_with = CRN
+			}
+			white_peace = CRN
+		}
+		BUN = {
+			transfer_state = 212
+			transfer_state = 85
+			give_resource_rights = { receiver = YFC state = 85 }
+			IF = {
+				limit = {
+					CRN = {
+						AND = {
+							NOT = {controls_state = 217}
+							NOT = {controls_state = 218}
+						}
+					}
+				}
+				transfer_state = 217
+				transfer_state = 218
+			}
+		}
+		212 = {set_demilitarized_zone = yes}	
+		hidden_effect = {
+			BUN = {
+				country_lock_all_division_template = no
+				remove_country_leader_trait = insurgent_leader
+				delete_unit_template_and_units = {
+					division_template = "Armed Insurgents"
+					disband = no 
+				}
+				remove_dynamic_modifier = { modifier = idea_BUN_Ticking_Bomb }
+				country_event = {
+					id = BUN_YFC.4
+					days = 12
+					random_hours = 50
+				}
+			}
+		}
+	}
+
+	option = {
+		name = BUN_YFC.6.b
+		add_manpower = 5000
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 2500
+		}
+		add_timed_idea = {
+			idea = idea_YFC_operation_enforcement
+			days = 60
+		}
 	}
 }
 

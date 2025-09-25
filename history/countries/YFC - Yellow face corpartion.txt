@@ -39,10 +39,6 @@ set_popularities = {
 	communism = 6
 }
 
-#Raids
- set_variable = { var_currently_raiding_YFC = 0 }
- set_variable = { var_progress_raids_GGR = 0 }
- set_variable = { var_progress_raids_SRR = 0 }
 
 #Anarchic Lands Idea
  set_variable = { var_idea_YFC_anarchic_lands_repair = 5 }
@@ -66,9 +62,10 @@ recruit_character = YFC_david
 recruit_character = YFC_dora
 recruit_character = YFC_Coiny
 
-add_manpower = 5000
+add_manpower = 2500
 
 add_ideas = free_trade
+add_ideas = disarmed_nation
 
 add_ideas = idea_YFC_no_more_advertisements_foundation
 add_dynamic_modifier = { modifier = idea_YFC_anarchic_lands }

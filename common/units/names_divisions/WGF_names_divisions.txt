@@ -30,6 +30,11 @@ WGF_INF_01 = {
 		18 = { "%dya 'Sickle' Brigade" }
 		19 = { "%dya 'Guards' Brigade" }
 		20 = { "%dya 'Embers' Brigade" }
+		21 = { "%dya 'Revolution' Brigade" }
+		22 = { "%dya 'Comrade' Brigade" }
+		23 = { "%dya 'Inferno' Brigade" }
+		24 = { "%dya 'Heat' Brigade" }
+		25 = { "%dya 'Youth' Brigade" }
 	}
 }
 
@@ -50,5 +55,10 @@ WGF_Cav_01 = {
 		3 = { "%dya 'Yellow’ Cavalry" }
 		4 = { "%dya Cavalry" }
 		5 = { "%dya Cavalry" }
+		6 = { "%dya Cavalry" }
+		7 = { "%dya Cavalry" }
+		8 = { "%dya Cavalry" }
+		9 = { "%dya Cavalry" }
+		10 = { "%dya Cavalry" }
 	}
 }	

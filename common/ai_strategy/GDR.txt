@@ -1,0 +1,80 @@
+#GDR AI 101
+#Change if you want to!!!!
+
+
+## CIVIL WAR ##
+
+GDR_civil_war = {
+    #Fun fact! Having more divs are better then having no divs
+	allowed = {
+		original_tag = GDR
+	}
+	enable = {
+		country_exists = GPG
+		country_exists = GSR 
+		country_exists = GFG
+	}
+
+	abort = {
+		has_war = no
+	}
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = infantry_equipment_1
+		value = -1000
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 65
+	}
+	ai_strategy = {
+		type = ignore_army_incompetence
+		value = 50
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 30
+	}
+}
+
+
+## INDUSTRY ##
+
+
+GDR_high_support = {
+    #GDR wants fast divs 
+	allowed = {
+		original_tag = GDR
+	}
+	enable = {
+		NOT = {country_exists = GPG}
+		NOT = {country_exists = GSR}
+		NOT = {country_exists = GFG}
+	}
+
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = tech_trucks
+		value = 2000
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = motorised_infantry
+		value = 2000
+	}
+	ai_strategy = {
+		type = research_weight_factor
+		id = infantry_weapons2
+		value = 30
+	}
+	ai_strategy = {
+		type = min_wanted_supply_trucks
+		value = 200
+	}
+}
