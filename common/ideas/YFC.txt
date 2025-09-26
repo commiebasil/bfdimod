@@ -64,5 +64,26 @@ ideas = {
 				}
 			}
 		}
+
+		idea_YFC_military_restructuring = {
+			picture = CZE_planning_bonus
+			modifier = {
+				training_time_army_factor = 0.5
+				army_org_factor = -0.25
+				army_attack_factor= -0.1
+				army_morale_factor = -0.15
+				command_power_gain_mult = -0.75
+			}
+		}
+
+		idea_YFC_new_army = {
+			picture = CZE_planning_bonus
+			modifier = {
+				conscription = 0.02
+				army_org_factor = 0.15
+				army_morale = 0.1
+				command_power_gain_mult = 0.25
+			}
+		}
 	}
 }

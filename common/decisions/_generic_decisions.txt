@@ -247,10 +247,10 @@ economy_decisions = {
 		cost = 35
 
 		ai_will_do = {
-			factor = 1
+			base = 0
 			modifier = {
 				check_variable = { money_amount > 25 }
-				factor = 5
+				add = 5
 			}
 		}
 
@@ -286,10 +286,10 @@ economy_decisions = {
 		cost = 35
 
 		ai_will_do = {
-			factor = 1
+			base = 0
 			modifier = {
 				check_variable = { money_amount > 25 }
-				factor = 5
+				add = 5
 			}
 		}
 
@@ -325,10 +325,10 @@ economy_decisions = {
 		cost = 35
 
 		ai_will_do = {
-			factor = 1
+			base = 0
 			modifier = {
 				check_variable = { money_amount > 30 }
-				factor = 5
+				add = 5
 			}
 		}
 
@@ -363,10 +363,10 @@ economy_decisions = {
 		cost = 35
 
 		ai_will_do = {
-			factor = 1
+			base = 0
 			modifier = {
 				check_variable = { money_amount > 30 }
-				factor = 5
+				add = 5
 			}
 		}
 
@@ -401,10 +401,10 @@ economy_decisions = {
 		cost = 35
 
 		ai_will_do = {
-			factor = 1
+			base = 0
 			modifier = {
 				check_variable = { money_amount > 25 }
-				factor = 5
+				add = 5
 			}
 		}
 
@@ -448,10 +448,10 @@ economy_decisions = {
 		cost = 35
 
 		ai_will_do = {
-			factor = 1
+			base = 0
 			modifier = {
 				check_variable = { money_amount > 25 }
-				factor = 5
+				add = 5
 			}
 		}
 
@@ -491,10 +491,10 @@ economy_decisions = {
 		cost = 35
 
 		ai_will_do = {
-			factor = 1
+			base = 0
 			modifier = {
 				check_variable = { money_amount > 30 }
-				factor = 5
+				add = 5
 			}
 		}
 
@@ -633,14 +633,14 @@ propaganda_efforts = {
 		cost = 35
 
 		ai_will_do = {
-			factor = 1
+			base = 0
 			modifier = {
-				num_of_factories < 30
-				factor = 0
+				has_manpower < 5000
+				add = 10
 			}
 			modifier = {
 				check_variable = { money_amount > 25 }
-				factor = 5
+				add = 5
 			}
 		}
 

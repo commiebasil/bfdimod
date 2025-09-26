@@ -30,6 +30,7 @@
  decision_cost_ie_1000_blocked: "£infantry_equipment_text_icon §R1000§!"
 
  l_money_cost_100K: "Costs §G100K Dollars§!"
+ l_money_cost_300K: "Costs §G300K Dollars§!"
  l_money_cost_500K: "Costs §G500K Dollars§!"
  l_money_cost_1M: "Costs §G1M Dollars§!"
  l_money_cost_2_5M: "Costs §G2.5M Dollars§!"
