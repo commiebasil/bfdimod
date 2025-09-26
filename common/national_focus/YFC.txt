@@ -1317,6 +1317,11 @@ focus_tree = {
 			212 = {add_compliance = 20}
 			217 = {add_compliance = 20} 
 			218 = {add_compliance = 20}
+			hidden_effect = {
+				set_variable = { var_foster_BUN_support = 10 } #High but can't rise quickly
+				set_variable = { var_foster_YFC_support = 1 }
+				set_variable = { var_foster_CRN_support = 1 }
+			}
 		}
 	}
 
@@ -1709,7 +1714,10 @@ focus_tree = {
 		#gives event abt the sectorials being in big turmoil over the change of government
 		#starts hidden 180 day timer to the yoyleton uprising
 		completion_reward = {
-			
+			#How long till it autocompletes?
+			#Since their is still the CRN stuff
+			#Maybe for that make like 2-3 events spanning like 8 months or so that explain the rising issues and that way the player knows that there is more stuff.
+			#Also also I think we should add some minor things before this happens (Like no events and just +10 Army XP or something) as the change is a little to fast
 		}
 	}
 
@@ -1754,7 +1762,8 @@ focus_tree = {
 		#allows the player to chose a merc group to stick with (pay for recurringly), and unlocks the grapes and cherries, letting the player improve those mercs in a seperate mini-branch
 		#this focus and the others at it's height complete with 138 days left until uprising
 		completion_reward = {
-			
+			#I'll be moving it to the military tree (Though you need to control YFC captial to buy Mercenary groups)
+			#The tradeoff is no permanent units and no buffs
 		}
 	}
 
