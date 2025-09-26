@@ -7,7 +7,7 @@ decision_BUN_Revolt_category = {
                 modifier = idea_BUN_Ticking_Bomb
             }
             check_variable = {
-                var_idea_BUN_Ticking_Bomb_surrender_limit > 0.24
+                var_idea_BUN_Ticking_Bomb_surrender_limit > 0.25
             }
             has_war_with = YFC
 		}
@@ -342,7 +342,7 @@ decision_BUN_Revolt_category = {
 			}
 			has_war_with = YFC
 			check_variable = {
-                var_idea_BUN_Ticking_Bomb_surrender_limit < 0.24
+                var_idea_BUN_Ticking_Bomb_surrender_limit < 0.25
             }
 			NOT = {has_active_mission = BUN_Revolt_Victory}
 		}

@@ -107,7 +107,16 @@
  idea_GFG_militarization: "Militarization"
  
  idea_GTR_golfball_s_lab: "Golfball's lab"
- idea_GTR_golfball_s_lab_desc: "Before recent events, the GB factory was the technological center of the entirety Goiky. Now, like everything else, it's on the decline. Golfball, as the owner of the factory, led it while the waves of anarchy swept over Goiky. Although this entity is still not fully aware of itself as a state, it has gigantic potential and technical capabilities, and it is even possible that under the flag of Golfball, Goiky will again enter an era of prosperity..."
+ idea_GTR_golfball_s_lab_desc: "Before recent events, The Goiky University was the technological center of the entire continent. Now, like everything else, Alma mater is on the decline. Golfball led it while the waves of anarchy swept over Goiky. Although this entity is still not fully aware of itself as a state, it has gigantic potential and technical capabilities, and it is even possible that under the flag of Golfball, Goiky will again enter an era of prosperity..."
+ idea_GTR_goiky_university: "§7Goiky University§!"
+ idea_GTR_goiky_university_desc: "Adds §G1§! research slot!"
+ idea_GTR_announcergrad_supplying_problems: "Announcergrad Supply Issues"
+ idea_GTR_unsettled_government: "Rudimentary Government"
+ idea_GTR_unsettled_government_desc: "§tBlocks divisions creation!§!"
+ idea_GTR_tennis_ball: "Tennis Ball"
+ idea_GTR_tennis_ball_desc: "Tennis Ball took on himself the entire administrative part of the work of the new regime."
+ idea_GTR_test_tube: "Flask"
+ idea_GTR_test_tube_desc: "Who's II?"
  
  idea_GGR_fascist_dictatorship: "Fascist dictatorship"
  idea_GGR_fascist_dictatorship_desc: "The Snowy Plateau has been historically quite a poor region of Goiky. After the onset of anarchy and the radicalization of society, the Großgoikysreich was formed here - a reactionary state of an open dictatorship, driven by ultramilitarism and nationalism. The segregation of 'wrong' objects according to many criteria is actively practiced - from the presence of upper limbs to size. Led by Snowball, the local government promotes ideas of expansionism and the physical destruction of the opposition."
@@ -158,6 +167,8 @@
  idea_YFC_no_more_advertisements_foundation_desc: "After the arrival of Yellow Face with his “Mercenaries,” the lands began to prosper, but every day there less and less news or advertising."
  idea_YFC_anarchic_lands: "Anarchic Lands"
  idea_YFC_anarchic_lands_desc: "Due to us never really controlling the lands we “claim” we are §tunable to build buildings, have any starting research slots, and produce our own weapons without purchasing or 'acquiring' from others.§!"
+ idea_YFC_corp: "Fruit&Vegetables Corp."
+ idea_YFC_corp_desc: "Once a group of soldiers of hire, have become the majority of the forces under Yellow Face. Despite being soldiers for hire, many don't have good combat experience and are better as a show of force then a force..."
  idea_YFC_United_Clash: "Defense Contractors"
  idea_YFC_show_no_mercy: "Show No Mercy"
  idea_YFC_at_the_finish_line: "At the Finish Line"
@@ -165,6 +176,8 @@
 
  idea_SOS_goiky_fleet: "Goiky Fleet"
  idea_SOS_goiky_fleet_desc: "With Goiky collapse, the vast merchant fleet of the eastern coast was left to fend for itself. The state with its capital in St. Objectburg also grew into surrounding territories that depended on the fleet. As a result, a fairly strong player was formed in the very heart of the Goiky. Royalist sentiments are also strong here..."
+
+ #Slightly reworded as none of the starting Ideas are stated in First Person
 
  idea_CRN_city_on_a_shining_hill: "City on a Shining Hill"
  idea_CRN_city_on_a_shining_hill_desc: "The democracy here is the strongest in Goiky. People seeking refuge from other, 'lesser states', always flock to the republic. The ideals of freedom, liberty, and justice above all, attract the minds of Goikeans all over the continent. It is important that, no matter what paths that are taken in the future, they shall keep these ideals close to their hearts!"

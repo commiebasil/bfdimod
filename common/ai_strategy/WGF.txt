@@ -39,7 +39,7 @@ WGF_GMD_preparation = {
 }
 
 WGF_GMD_war = {
-    #Tell Firey that 10 divs can shockingly beat 1 div (NO WAY!!!!!!!!!!!!)
+    #Tell Firey that 10 divs can shocking beat 1 div (NO WAY!!!!!!!!!!!!)
 	allowed = {
 		original_tag = WGF
 	}

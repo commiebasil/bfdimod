@@ -52,7 +52,6 @@ add_ideas = limited_conscription
 add_ideas = idea_BUN_criminal_state
 
 recruit_character = BUN_eraser
-recruit_character = BUN_shackles
 
 set_country_flag = game_not_started
 

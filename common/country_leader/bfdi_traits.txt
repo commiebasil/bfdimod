@@ -54,11 +54,15 @@ leader_traits = {
 	}
 
 	tax_reformer = {
+		sprite = 13
+	
 		stability_factor = 0.05
 		consumer_goods_factor = -0.1
 	}
 
 	market_interventionist = {
+		sprite = 13
+	
 		production_speed_industrial_complex_factor = 0.10
 		production_factory_max_efficiency_factor = -0.05
 		line_change_production_efficiency_factor = 0.08
@@ -67,6 +71,8 @@ leader_traits = {
 	}
 
 	free_market_proponent = {
+		sprite = 13
+	
 		consumer_goods_factor = 0.1
 		political_power_factor = -0.05
 		production_factory_max_efficiency_factor = 0.1
@@ -75,6 +81,8 @@ leader_traits = {
 	}
 
 	insurgent_leader = {
+		sprite = 13
+	
 		equipment_capture = 0.15
 		army_morale_factor = 0.1
 		army_speed_factor = 0.05
@@ -83,6 +91,8 @@ leader_traits = {
 	}
 
 	anarchist_annihilator = {
+		sprite = 13
+	
 		communism_drift = -0.01
 		communism_acceptance = -50
 		ai_focus_peaceful_factor = -0.5
@@ -90,5 +100,13 @@ leader_traits = {
 
 	skilled_military_staff = { #The great Iron Hand buff
 		army_org_factor = 0.1
+	}
+	
+	second_hand = {
+		sprite = 13
+	
+		stability_factor = 0.05
+		political_power_gain = 0.1
+		consumer_goods_factor = -0.05
 	}
 }

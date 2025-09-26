@@ -112,9 +112,10 @@
  l_YFC_allow_rails: "Improves §YAnarchic Lands§! National Spirit by:\n- §YRailway construction speed:§! §G+500%§!\n- §YSupply Hub construction speed:§! §G+500%§!"
  l_YFC_repair: "Improves §YAnarchic Lands§! National Spirit by:\n- §YFree Repair:§! §G+25%§!"
  l_YFC_pp_gain: "Improves §YAnarchic Lands§! National Spirit by:\n- §YPolitical Power Gain:§! §G+0.5§!"
- l_YFC_mercs_div: "§YUnlocks a new Mercenary Division that can be hired in decisions!§!"
- l_YFC_mercs_upgrade_cav: "§YAdds Engineer, Cavalry Recon, and Military Police Support Companies to future Combined Grape Affiliation Divisions.§!"
- l_YFC_mercs_upgrade_inf: "§YAdds Support Artillery and a Artillery battalion to future Unnamed Mercenary Brotherhood Divisions.§!"
+ l_YFC_upgrade_army1: "Improves §YFruit&Vegetables Corp.§! National Spirit by:\n- §YSpecial Forces Attack:§! §G+10%§!\n- §YSpecial Forces Defence:§! §G+10%§!"
+ l_YFC_upgrade_army2: "Improves §YFruit&Vegetables Corp.§! National Spirit by:\n- §YSpecial Forces Attack:§! §G+10%§!"
+ l_YFC_upgrade_army3: "Improves §YFruit&Vegetables Corp.§! National Spirit by:\n- §YSpecial Forces Supply Grace:§! §G+120 Hours§!"
+ l_YFC_upgrade_army4: "Improves §YFruit&Vegetables Corp.§! National Spirit by:\n- §YSpecial Forces Attack:§! §G+5%§!\n- §YArmy Experience Gain:§! §G+0.01 Daily§!"
  l_YFC_PEN: "§YPen§! dies."
  l_YFC_ERASER: "§YEraser§! dies."
  l_YFC_BLOCKY: "§YBlocky§! dies."
@@ -148,6 +149,3 @@
  l_BUN_YFC_1: "Modifies §YOn a Ticking Timed Bomb§! National Spirit by:\n- §YAll Modifiers§! §R-25%§!"
 
  l_CRN_Sleep: "§YIf a Pro-Bunch revolt occurs, rebels trained by us will spawn in support.§!"
-
- l_money_gain_300K: "Gain §G300K Dollars§!"
- l_money_lose_1M: "Lose §G1M Dollars§!"

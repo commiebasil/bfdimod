@@ -1,0 +1,8 @@
+decision_GTR_project_1_category = {
+	allowed = { tag = GTR }
+	priority = 100
+	icon = GFX_decision_GTR_project_1_category
+
+	visible_when_empty = yes
+	scripted_gui = decisions_GTR_project_1_scriptedgui
+}

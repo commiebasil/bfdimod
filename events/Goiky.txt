@@ -482,14 +482,18 @@ country_event = {
     
     immediate = {
 		GTR = {
+			transfer_state = 89
 			transfer_state = 209
 			
+			add_state_core = 89
 			add_state_core = 209
 			
+			89 = { set_demilitarized_zone = no }
 			209 = { set_demilitarized_zone = no }
 		}
 		GOI = {
-				remove_state_core = 209
+			remove_state_core = 89
+			remove_state_core = 209
 		}
 	}
 }

@@ -14,12 +14,44 @@ characters = {
 		}
 		field_marshal = {
 			traits = { offensive_doctrine politically_connected }
-			skill = 2
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 4
-			logistics_skill = 2
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 3
 		}
+	}
+	YFC_lewis = {
+		name = YFC_lewis
+		portraits = { 
+			civilian = { 
+				small = GFX_idea_YFC_lewis	
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_YFC_lewis
+			ledger = army
+			traits = { popular_figurehead }
+		}
+		
+	
+	}
+	YFC_dora = {
+		name = YFC_dora
+		portraits = { 
+			civilian = { 
+				small = GFX_idea_YFC_dora	
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = idea_YFC_dora
+			ledger = army
+			traits = { special_authorities }
+		}
+		
+	
 	}
 	YFC_david = {
 		name = YFC_david
@@ -30,13 +62,15 @@ characters = {
 			} 
 		}
 		corps_commander = {
-			skill = 1
-			attack_skill = 2
+			skill = 2
+			attack_skill = 3
 			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
 			traits = { infantry_officer }
 		}
+		
+	
 	}
 
 	YFC_Coiny = {
@@ -76,10 +110,10 @@ characters = {
 		}
 		field_marshal = {
 			traits = { politically_connected armor_officer trait_reckless organisational_leader }
-			skill = 2
-			attack_skill = 2
+			skill = 3
+			attack_skill = 3
 			defense_skill = 2
-			planning_skill = 3
+			planning_skill = 4
 			logistics_skill = 2
 		}
 	}

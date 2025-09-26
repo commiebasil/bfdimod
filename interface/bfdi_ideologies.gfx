@@ -3,4 +3,8 @@ spriteTypes = {
 		name = GFX_ideology_radical_thoughts_group
 		textureFile = gfx/interface/ideologies/radical_thoughts_group.dds
 	}
+	spriteType = {
+		name = GFX_ideology_technocratism
+		textureFile = gfx/interface/ideologies/technocratism.dds
+	}
 }

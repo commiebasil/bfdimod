@@ -963,22 +963,22 @@
  YFC_focus_establish_sectorialism_desc: "By allowing friendly competition between different parts of our corporation, we can guarentee that our production, and therefore our profits, will rise. Of course, we can't let one branch have too much power over the government, that would just be foolish."
 
  YFC_focus_the_grapes_and_the_cherries: "The Grapes and The Cherries"
- YFC_focus_the_grapes_and_the_cherries_desc: "Some mercenaries have decided to set up their base of operations in Footpathburg. Buying mercenaries does seem to be quite the good idea, so, why not try it? Of course, we should also help them set up operations, as a sign of good will." 
+ YFC_focus_the_grapes_and_the_cherries_desc: "So our force is good but still kinda bad so some upgrades are needed" #Write pls
 
- YFC_focus_invest_in_speed: "Invest In Speed"
- YFC_focus_invest_in_speed_desc: "Some working under Tophat in the military sector say that the Cherry Company is too slow... Perhaps, if we search hard enough, we could find a different group, better suited to our needs." 
+ YFC_focus_create_an_official_base: "Create an Official Base"
+ YFC_focus_create_an_official_base_desc: "An HQ in footpathburg is a very cool and good idea" #Write pls
 
- YFC_focus_invest_in_power: "Invest In Power"
- YFC_focus_invest_in_power_desc: "Some working under Tophat in the military sector say that the Cherry Company is too weak... Perhaps, if we search hard enough, we could find a different group, better suited to our needs." 
+ YFC_focus_expand_operations: "Expand Operations"
+ YFC_focus_expand_operations_desc: "More objects to wage more war and protection" #Write pls
 
- YFC_focus_purchase_support_package: "Purchase Support Package"
- YFC_focus_purchase_support_package_desc: "Despite not having the means to man our own armies, we can certainly man foreign ones when the time comes. We've worked quite well with the Combined Grape Affiliation, so, why not buy a couple extra things to arm them with when the time comes?"
+ YFC_focus_form_better_logistics: "Form Better Logistics"
+ YFC_focus_form_better_logistics_desc: "We put efforts into supply management and storage for longer supply" #Write pls
 
- YFC_focus_purchase_ordnance_package: "Purchase Ordnance Package"
- YFC_focus_purchase_ordnance_package_desc: "The sheer force of the Unnamed Mercenary Brotherhood yields great results, however, with extra firepower, they could be even greater. It is well within our budget to buy some extra artillery for the purpose of arming the UMB even further, if we happen to buy them in the future."
+ YFC_focus_form_more_divisions: "Form More Divisions"
+ YFC_focus_form_more_divisions_desc: "We put efforts into more hiring of obejcts" #Write pls
 
- YFC_focus_teachings_of_war: "???"
- YFC_focus_teachings_of_war_desc: "???"
+ YFC_focus_teachings_of_war: "Teachings of Warfare"
+ YFC_focus_teachings_of_war: "We have learned much cool things from war and bla bla we are better" #Write pls
 
  YFC_focus_the_southern_bandits: "The Southern Bandits"
  YFC_focus_the_southern_bandits_desc: "Those bandits to the south of us are seriously raising concern among our employees. Some of which are scared of a possible attack, and others who believe we should be taking advantage of them. Only time will tell what happens to the bandits, but we must make sure we're ahead of them at all times."
@@ -999,7 +999,7 @@
  YFC_focus_demand_end_pillage_desc: "Those damn raiders have stolen long enough. There is no place for Socialist thiefs in the free market, their very existance is an act against communism, and we must put an end to this raiding before it gets out of hand. Pillaging is bad for business."
 
  YFC_focus_hire_militias: "Hire Militias"
- YFC_focus_hire_militias_desc: "Despite having willing guards, acting in favor of the company, their purpose is home defense, not foreign defense. They are not ready for war. Despite this, we can, for a time, buy some militias to stay back in rebel territory while our real mercenaries get the job done."
+ YFC_focus_hire_militias_desc: "Despite already having some mercenaries, it isn't enough for a possible war with the raiders. We can hire temporary militias to fill our numbers temporarily, though we obviously can't let unstable militants stay within our country after the war."
 
  YFC_focus_coiny_cooperation: "Military District Cooperation"
  YFC_focus_coiny_cooperation_desc: "It is no secret what the North Goiky 'Revolutionary' Front wants to do. They've made it clear that they want to rule all of Goiky's northern coast, and Firey has a personal vendetta Coiny. We must help our newfound ally in repelling these attacks, less they fall to Socialism. Besides, socialism is bad for business!"
@@ -1053,7 +1053,7 @@
  YFC_focus_develop_peoniele_desc: "Peoniele, the supposed birthplace of Goiky's flowers, its natural beauty goes unseen anywhere else on the continent. Regardless of how nice it is, a good enough amount of people live there. A starting population is great for a city, however, we need to make sure to keep its natural beauty in tact, as to keep the current population from being unhappy. For now, turning dirt paths into roads and making a couple of apartments should be enough to house workers, then we can start on the big stuff."
 
  YFC_focus_develop_yoyleton: "Develop Yoyleton"
- YFC_focus_develop_yoyleton_desc: "Yoyleton is the most remote place in North Goiky, as of current. Having a small population, with lots of hard workers, that hick town has great potential. Strangely enough, it seems like some teardroppers live there as well. With the town being so far from the sea, it's a bit strange to see them, however, they mind their business, same as everyone else. Perhaps some water features should be in the works."
+ YFC_focus_develop_yoyleton_desc: "Yoyleton is the most remote place in South Goiky, as of current. Having a small population, with lots of hard workers, that hick town has great potential. Strangely enough, it seems like some teardroppers live there as well. With the town being so far from the sea, it's a bit strange to see them, however, they mind their business, same as everyone else. Perhaps some water features should be in the works."
 
  YFC_focus_clamp_down_on_bunchivism: "Clamp Down on Bunchivism"
  YFC_focus_clamp_down_on_bunchivism_desc: "The obvious choice. Bunchivism has been a plague to our trading partners since the dawn of Goikean nation states, no longer shall a raider be able to steal our profits and plunder our bretheren in capital. We shall never, under any circumstance, allow a free Bunch to persist, and anyone who believes otherwise is a traitor to the free market. Let Podgornyv's rioters burn with the power of our might!"
@@ -1078,6 +1078,43 @@
 
  YFC_focus_bunchivist_new_deal: "The Bunchivist New Deal"
  YFC_focus_bunchivist_new_deal_desc: "Admittedly, attempting to convert the Bunchivist society into a less.. stupid one is quite challenging. We're a company, not a government. Well, I guess we are a government. Shit. Anyways, we've just started and already spent more money on this project than anticipated. We need to find a better way to generate money from the population, fast!"
+ 
+ #GOIKY TECHNOCRATIC REPUBLIC
+ GTR_focus_project_1: "Project #1"
+ GTR_focus_project_1_desc: ""
+ 
+ GTR_focus_stage_1: "First Stage"
+ GTR_focus_stage_1_desc: "Everything must be carefully planned, for the fate of all of Goiky depends on us. Our university is capable of this project, and we must fullfill this task."
+ 
+ GTR_focus_best_minds: "Best Minds"
+ GTR_focus_best_minds_desc: "The campus is filled with the brightest minds from across the continent. They must be recruited to help restore Dream Island."
+ 
+ GTR_focus_make_a_recipe: "Make a Recipe"
+ GTR_focus_make_a_recipe_desc: "Oven, 320 degrees F... It's necessary to write a clear recipe for making the sauce for everything to go well."
+ 
+ GTR_focus_stage_2: "Second Stage"
+ GTR_focus_stage_2_desc: "This project requires a huge amount of resources, we need to get them at any cost."
+ 
+ GTR_focus_austerity_politics: "Austerity"
+ GTR_focus_austerity_politics_desc: "Let's collect crumbs from everyone, for the common good. It may cause some small issues, but it's necessary."
+ 
+ GTR_focus_integrate_greenheart: "Integrate Greenheart"
+ GTR_focus_integrate_greenheart_desc: "Greenhart's fields are full of many different resources and are not occupied by any military group, we need to take advantage of this opportunity."
+ 
+ GTR_focus_get_digging: "Get Digging!"
+ GTR_focus_get_digging_desc: "We must dig our teeth into the earth and pull out of it everything that might be needed."
+ 
+ GTR_focus_stage_3: "Third Stage"
+ GTR_focus_stage_3_desc: "The resources and plan are ready. We're one step close to success. It's time to move on to practice."
+ 
+ GTR_focus_mix_it_up: "Mix It Up"
+ GTR_focus_mix_it_up_desc: "Let's combine the ingredients!"
+ 
+ GTR_focus_get_the_oven_ready: "Get The Oven Ready"
+ GTR_focus_get_the_oven_ready_desc: "It's time to bake."
+ 
+ GTR_focus_testings: "§YTest§!"
+ GTR_focus_testings_desc: "Everything is ready. It's now or never, the fate of all objects of the world depends on us."
 
  #generic
  generic_focus_industry: "Industry expansion"

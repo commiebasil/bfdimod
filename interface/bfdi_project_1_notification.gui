@@ -1,0 +1,52 @@
+guiTypes = {
+	containerWindowType = {
+		name = "project1NotifContainer"
+		position = { x = -250 y = -175 }
+		size = { width = 500 height = 300 }
+		orientation = center
+		
+		background = {
+			name = "imageframe"
+			spriteType = GFX_tiled_bg
+		}
+		
+		containerWindowType = {
+			name = "textbg_container"
+			position = { x = -165 y = 45 }
+			orientation = center_up
+			size = { width = 340 height = 60 }
+			
+			background = {
+				name = "textbg"
+				spriteType = GFX_tiled_window_small
+			}
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x = -90 y = 63 }
+			text = "STAGE 1 Complete!"
+			font = hoi_24header
+			orientation = center_up
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "desc"
+			position = { x = -95 y = -20 }
+			maxWidth = 205
+			text = "Check out your decisions!"
+			font = hoi_18mbs
+			orientation = center
+			format = center
+		}
+		
+		buttonType = {
+			name = "ok"
+			spriteType = GFX_main_lobby_button
+			buttonText = "ok"
+			buttonFont = hoi_20bs
+			position = { x = 112 y = 200 }
+		}
+	}
+}

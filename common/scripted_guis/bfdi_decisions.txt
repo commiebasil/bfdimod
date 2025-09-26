@@ -139,3 +139,87 @@ scripted_gui = {
 		}
 	}
 }
+
+scripted_gui = {
+	decisions_GTR_project_1_scriptedgui = {
+		window_name = project_1_decisions_container
+		context_type = decision_category
+		parent_window_token = decision_tab
+		
+		properties = {
+			stageimage = {
+				image = "[PROJECT1_STAGEIMAGE]"
+			}
+			title = {
+				text = "[PROJECT1_TITLE]"
+			}
+			progressbar_stage1 = {
+				frame = var_GTR_progressbar_stage1
+			}
+			progressbar_stage2 = {
+				frame = var_GTR_progressbar_stage2
+			}
+			progressbar_stage3 = {
+				frame = var_GTR_progressbar_stage3
+			}
+		}
+		
+		effects = {
+			stage_1_button_click = {
+				set_country_flag = GTR_stage1_selected
+				clr_country_flag = GTR_stage2_selected
+				clr_country_flag = GTR_stage3_selected
+			}
+			stage_2_button_click = {
+				set_country_flag = GTR_stage2_selected
+				clr_country_flag = GTR_stage1_selected
+				clr_country_flag = GTR_stage3_selected
+			}
+			stage_3_button_click = {
+				set_country_flag = GTR_stage3_selected
+				clr_country_flag = GTR_stage1_selected
+				clr_country_flag = GTR_stage2_selected
+			}
+		}
+		
+		triggers = {
+			progressbar_stage1_visible = { has_country_flag = GTR_stage1_selected }
+			progressbar_stage2_visible = { has_country_flag = GTR_stage2_selected }
+			progressbar_stage3_visible = { has_country_flag = GTR_stage3_selected }
+			
+			done_visible = {
+				OR = {
+					AND = {
+						has_country_flag = GTR_stage1_selected
+						check_variable = { var_GTR_progressbar_stage1 = 100 }
+					}
+					AND = {
+						has_country_flag = GTR_stage2_selected
+						check_variable = { var_GTR_progressbar_stage2 = 100 }
+					}
+					AND = {
+						has_country_flag = GTR_stage3_selected
+						check_variable = { var_GTR_progressbar_stage3 = 100 }
+					}
+				}
+			}
+			
+			stage_3_button_click_enabled = {
+				AND = {
+					has_country_flag = stage1_done
+					has_country_flag = stage2_done
+				}
+			}
+		}
+	}
+}
+
+#not really decisions but who cares
+scripted_gui = {
+	GTR_project1_notif_scriptedgui = {
+		window_name = project1NotifContainer
+		context_type = player_context
+		
+		visible = { has_country_flag = project1_notif_enabled }
+	}
+}

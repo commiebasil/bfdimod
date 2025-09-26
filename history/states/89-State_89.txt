@@ -1,16 +1,21 @@
-
 state={
 	id=89
 	name="STATE_89"
 	provinces={
-		43 71 236 368 394 500 845 905 1505 1508 1631 1641 1680 1817 1884 1960 2269 2342 2964 2965 3102 3315 3452 3558 3699 4118 4622 4763 4833 5067 5073 5558 5748 6122 6250 6376 7593 7620 7716 7717 7842 7843 7854 7875 7897 7909 7970 7982 8013 8025 8037 8132 8133 8171 8181 8192 8230 8317 8350 8374 
+		3545 4236 
 	}
 	history = {
-		owner = EMP
-		add_core_of = EMP
-	}
-	manpower=10000
+		owner = GOI
+		controller = GOI
+		victory_points = { 3545 30 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			3545 = { nuclear_facility = 1 }
+		}
+	}	
+	manpower=29677
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 	local_supplies=0.000
 }

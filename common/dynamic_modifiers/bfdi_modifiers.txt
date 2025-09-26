@@ -161,7 +161,15 @@ idea_YFC_anarchic_lands = {
 	industry_free_repair_factor = var_idea_YFC_anarchic_lands_repair
 	production_speed_rail_way_factor = var_idea_YFC_anarchic_lands_rail
 	production_speed_supply_node_factor = var_idea_YFC_anarchic_lands_node
-	mobilization_laws_cost_factor = 5
+}
+
+idea_YFC_corp = { #Yellow Face's cool mercenaries. Given in start
+	icon = GFX_idea_generic_war_preparation
+	
+	special_forces_attack_factor  = var_idea_YFC_corp_special_forces_attack_factor
+	special_forces_defence_factor  = var_idea_YFC_corp_special_forces_defence_factor
+	special_forces_no_supply_grace  = var_idea_YFC_corp_special_forces_no_supply_grace
+	experience_gain_army = var_idea_YFC_corp_experience_gain_army
 }
 
 idea_YFC_integration_YFC = { #YFC Buffs and nerfs in the deal. Given in YFC_focus_numismatian_subjugation

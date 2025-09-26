@@ -367,6 +367,26 @@ spriteTypes = {
 		name = GFX_idea_GTR_golfball_s_lab
 		texturefile = gfx/interface/ideas/idea_GTR_golfball_s_lab.dds
 	}
+	spriteType = {
+		name = GFX_idea_GTR_goiky_university
+		texturefile = gfx/interface/ideas/idea_GTR_goiky_university.dds
+	}
+	spriteType = {
+		name = GFX_idea_GTR_announcergrad_supplying_problems
+		texturefile = gfx/interface/ideas/idea_GTR_announcergrad_supplying_problems.dds
+	}
+	spriteType = {
+		name = GFX_idea_GTR_unsettled_government
+		texturefile = gfx/interface/ideas/idea_GTR_unsettled_government.dds
+	}
+	spriteType = {
+		name = GFX_idea_GTR_tennis_ball
+		texturefile = gfx/interface/ideas/idea_GTR_tennis_ball.dds
+	}
+	spriteType = {
+		name = GFX_idea_GTR_test_tube
+		texturefile = gfx/interface/ideas/idea_CRN_test_tube.dds
+	}
 	
 	spriteType = {
 		name = GFX_idea_GGR_fascist_dictatorship

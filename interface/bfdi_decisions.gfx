@@ -404,4 +404,98 @@ spriteTypes = {
 		name = "GFX_decisions_GDR_congress_campaign"
 		textureFile = "gfx/interface/decisions/GFX_decisions_GDR_congress_campaign.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decision_GTR_project_1_category"
+		textureFile = "gfx/interface/decisions/decision_category_project_1.dds"
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_decisions_GTR_project_1_bg"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_bg.dds"
+		noOfFrames = 9
+		animation_rate_fps = 15
+		loadType = "INGAME"
+		transparencecheck = no
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project_1_button_stage_1"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_button_stage_1.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project_1_button_stage_2"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_button_stage_2.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project_1_button_stage_3"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_button_stage_3.dds"
+		noOfFrames = 3
+	}
+	
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_small_transparent"
+		size= { x=96 y=96 }
+		textureFile = "gfx/interface/tiles/tiled_window_small_transparent.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	
+	progressbartype = {
+		name = "GFX_decisions_GTR_project_1_progressbar_stage_1"
+		size = { x = 454 y = 57 }
+		textureFile1 = "gfx/interface/decisions/GFX_decisions_GTR_project_1_progressbar_stage1.dds"
+		textureFile2 = "gfx/interface/decisions/GFX_decisions_GTR_project_1_progressbar_bg.dds"
+		effectFile = "gfx/FX/progress.lua"
+		color = { 97 97 97 }
+		colortwo = { 95 183 199 }
+	}
+	
+	progressbartype = {
+		name = "GFX_decisions_GTR_project_1_progressbar_stage_2"
+		size = { x = 454 y = 57 }
+		textureFile1 = "gfx/interface/decisions/GFX_decisions_GTR_project_1_progressbar_stage2.dds"
+		textureFile2 = "gfx/interface/decisions/GFX_decisions_GTR_project_1_progressbar_bg.dds"
+		effectFile = "gfx/FX/progress.lua"
+		color = { 97 97 97 }
+		colortwo = { 205 193 112 }
+	}
+	
+	progressbartype = {
+		name = "GFX_decisions_GTR_project_1_progressbar_stage_3"
+		size = { x = 454 y = 57 }
+		textureFile1 = "gfx/interface/decisions/GFX_decisions_GTR_project_1_progressbar_stage3.dds"
+		textureFile2 = "gfx/interface/decisions/GFX_decisions_GTR_project_1_progressbar_bg.dds"
+		effectFile = "gfx/FX/progress.lua"
+		color = { 97 97 97 }
+		colortwo = { 212 118 105 }
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project_1_image_stage_1"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_image_stage_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project_1_image_stage_2"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_image_stage_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project_1_image_stage_3"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_image_stage_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project_1_image_done"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_image_done.dds"
+	}
 }

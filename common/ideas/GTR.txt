@@ -4,8 +4,35 @@ ideas = {
 			picture = GTR_golfball_s_lab
 			modifier = {
 				political_power_gain = 0.25
-				research_speed_factor = 0.07
-				consumer_goods_factor = 0.02
+				research_speed_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		idea_GTR_goiky_university = {
+			picture = GTR_goiky_university
+			modifier = {
+				research_speed_factor = 0.1
+				stability_factor = 0.1
+				war_support_factor = -0.1
+			}
+		}
+		idea_GTR_announcergrad_supplying_problems = {
+			picture = GTR_announcergrad_supplying_problems
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = -0.5
+			}
+		}
+		idea_GTR_unsettled_government = {
+			picture = GTR_unsettled_government
+			modifier = {
+				consumer_goods_factor = 0.2
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				political_power_gain = -0.5
+			}
+			on_add = {
+				country_lock_all_division_template = yes
 			}
 		}
 	}

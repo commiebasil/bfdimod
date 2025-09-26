@@ -1563,4 +1563,75 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_pen"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_pen.dds"
 	}
+	
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_GTR_project_1"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_project_1.dds"
+		noOfFrames = 9
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GTR_stage_1"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_stage_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GTR_best_minds"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_best_minds.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GTR_make_a_recipe"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_make_a_recipe.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GTR_stage_2"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_stage_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GTR_austerity_politics"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_austerity_politics.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GTR_integrate_greenheart"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_integrate_greenheart.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GTR_get_digging"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_get_digging.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GTR_stage_3"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_stage_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GTR_mix_it_up"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_mix_it_up.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_GTR_get_the_oven_ready"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_get_the_oven_ready.dds"
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_GTR_testings"
+		texturefile = "gfx/interface/goals/GFX_focus_GTR_testings.dds"
+		noOfFrames = 9
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		allwaystransparent = yes
+	}
 }

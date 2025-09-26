@@ -51,7 +51,7 @@ BUN_revolt_support = {
 
 }
 
-minor_population_boost = { #DOES NOT WORK
+minor_population_boost = {
 	enable = { always = yes }
 
 	icon = GFX_decision_eng_propaganda_campaigns
@@ -59,7 +59,7 @@ minor_population_boost = { #DOES NOT WORK
 	monthly_population = 2.5
 }
 
-major_population_boost = { #DOES NOT WORK
+major_population_boost = {
 	enable = { always = yes }
 
 	icon = GFX_decision_eng_propaganda_campaigns

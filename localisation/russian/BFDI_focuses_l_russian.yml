@@ -930,6 +930,43 @@
  GFG_focus_break_the_line: "§tПересечение Линии§!"
  GFG_focus_break_the_line_desc: "Пришло время разгромить ублюдков в Гринпорте раз и навсегда!"
  
+ #GOIKY TECHNOCRATIC REPUBLIC
+ GTR_focus_project_1: "Проект №1"
+ GTR_focus_project_1_desc: ""
+ 
+ GTR_focus_stage_1: "Первый Этап"
+ GTR_focus_stage_1_desc: "Необходимо всё тщательно спланировать, ибо от этого зависит судьба всего Гойки. Наш университет способен на это, и мы обязаны перед всеми обджектами приступить к выполнению этого задания."
+ 
+ GTR_focus_best_minds: "Лучшие Умы"
+ GTR_focus_best_minds_desc: "Кампус полон светлейших умов со всего континента. Необходимо привлечь их для работы над восстановлением Острова Мечты."
+ 
+ GTR_focus_make_a_recipe: "Составить Рецепт"
+ GTR_focus_make_a_recipe_desc: "Печь, 320 градусов по Фаренгейту... Необходимо написать чёткий рецепт приготовления соуса, чтобы всё прошло хорошо."
+ 
+ GTR_focus_stage_2: "Вторая Стадия"
+ GTR_focus_stage_2_desc: "Проект требует огромного количества ресурсов, нам нужно добыть их любой ценой."
+ 
+ GTR_focus_austerity_politics: "Жёсткая экономия"
+ GTR_focus_austerity_politics_desc: "Соберём со всех по крошкам, во имя всеобщего блага. Пусть это и создаст некоторые лишения, но это необходимо."
+ 
+ GTR_focus_integrate_greenheart: "Включить Гринхарт"
+ GTR_focus_integrate_greenheart_desc: "Поля Гринхарта полны множества различных ресурсов и не заняты ни одной из военных группировок, нам необходимо использовать этот шанс."
+ 
+ GTR_focus_get_digging: "Копай!"
+ GTR_focus_get_digging_desc: "Мы должны зубами вгрызться в землю и вытащить из неё всё, что там может понадобиться."
+ 
+ GTR_focus_stage_3: "Третья Стадия"
+ GTR_focus_stage_3_desc: "Ресурсы и план подготовлены. Мы в шаге от успеха. Пора перейти к практике."
+ 
+ GTR_focus_mix_it_up: "Замешать"
+ GTR_focus_mix_it_up_desc: "Объединим ингредиенты!"
+ 
+ GTR_focus_get_the_oven_ready: "Нагреть Печь"
+ GTR_focus_get_the_oven_ready_desc: "Пришло время запекать."
+ 
+ GTR_focus_testings: "§YТестирование§!"
+ GTR_focus_testings_desc: "Всё готово. Сейчас или никогда, судьба всех обджектов мира зависит от нас."
+ 
  #generic
  generic_focus_industry: "Развитие промышленности"
  generic_focus_army: "Армия"
