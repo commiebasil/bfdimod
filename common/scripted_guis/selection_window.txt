@@ -9,12 +9,14 @@ scripted_gui = {
 		
 		triggers = {
 			demoerror_visible = {
-				NOT = { OR = { 
-					check_variable = { country_select_var = 1 }
-					check_variable = { country_select_var = 8 }
-					check_variable = { country_select_var = 11 }
-					check_variable = { country_select_var = 16 }
-						}
+				NOT = {
+					OR = { 
+						check_variable = { country_select_var = 1 }
+						check_variable = { country_select_var = 8 }
+						check_variable = { country_select_var = 11 }
+						check_variable = { country_select_var = 13 }
+						check_variable = { country_select_var = 16 }
+					}
 				}
 			}
 			startbutton_click_enabled = {
@@ -22,6 +24,7 @@ scripted_gui = {
 					check_variable = { country_select_var = 1 }
 					check_variable = { country_select_var = 8 }
 					check_variable = { country_select_var = 11 }
+					check_variable = { country_select_var = 13 }
 					check_variable = { country_select_var = 16 }
 				}
 			}
@@ -232,8 +235,16 @@ scripted_gui = {
 							random_hours = 12
 						}
 					}
-				}
-				every_possible_country = {
+					
+					GTR = {
+						country_event = {
+							id = GTR_event.1
+							days = 3
+							random_hours = 12
+						}
+					}
+
+					every_possible_country = {
 					set_country_flag = has_money_system
 					IF = {
 						limit = {
@@ -248,6 +259,7 @@ scripted_gui = {
 							max = 2
 						}
 					}
+
 				}
 			}
 		}
@@ -340,6 +352,15 @@ scripted_gui = {
 						random_hours = 12
 					}
 				}
+				
+				GTR = {
+					country_event = {
+						id = GTR_event.1
+						days = 3
+						random_hours = 12
+					}
+				}
+
 				every_possible_country = {
 					set_country_flag = has_money_system
 					IF = {

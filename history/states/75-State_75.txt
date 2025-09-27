@@ -2,12 +2,19 @@ state={
 	id=75
 	name="STATE_75"
 	provinces={
-		1201 1463 2020 2715 2955 3629 3638 3705 4122 4261 5046 5327 6294 7505 7519 7541 7552 7575 7582 7592 7597 7605 7606 7626 7646 7705 7774 
+		331 862 1589 2132 2845 3605 3741 4174 4431 5084 5094 5215 5344 5451 5664 5678 11157 11172 11173 11189 11200 11211 11214 
 	}
 	history = {
-		owner = EMP
-		add_core_of = EMP
+		owner = GOI
+		controller = GOI
+		victory_points = { 862 5 }
+		victory_points = { 5215 5 }
+		buildings = {
+			infrastructure = 2
+		}
 	}
-	manpower = 10000
-	state_category = rural
+	manpower=21830
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

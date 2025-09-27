@@ -244,6 +244,9 @@ ideologies = {
 
 			centrism = {
 			}
+			
+			technocratism = {
+			}
 		}
 
 		dynamic_faction_names = {

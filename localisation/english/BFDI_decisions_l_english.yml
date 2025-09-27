@@ -158,6 +158,7 @@
  yfc_mercenaries_normal: "Purchase §tCherry Company§!"
  yfc_mercenaries_cav: "Purchase §7Combined Grape Affiliation§!"
  yfc_mercenaries_strong: "Purchase §2Unnamed Mercenary Brotherhood§!"
+
  decision_YFC_raids_category: "Raids for the wealth."
  YFC_raid_state_24: "Commit a Raid!"
  YFC_raid_state_214: "Commit a Raid!"
@@ -239,6 +240,24 @@
  BUN_Ceasefire_desc: "With the current war in a stalemate and our position not as great as it used to be, we could offer a deal for peace. In exchange for ending the war and us gaining all of our core states, we demilitarize Snowpath and offer resource rights."
  BUN_Revolt_Victory: "§GVictory In Sight!§!"
  BUN_Revolt_Victory_desc: "We hold all of our states! If we just hold on a little longer, Yellow Face will have no choice but to accept our independence!"
+ 
+ #GTR
+ decision_GTR_project_1_category: "Project #1"
+ decisions_GTR_project_1_button_stage_1: "STAGE 1"
+ decisions_GTR_project_1_button_stage_2: "STAGE 2"
+ decisions_GTR_project1_stage3_button: "STAGE 3"
+ decisions_GTR_project1_stage3_button_blocked: "§tBLOCKED§!"
+ decisions_GTR_project1_stage1_title: "STAGE 1: §4PLANNING§!"
+ decisions_GTR_project_1_button_stage_done: "§6DONE§!"
+ decisions_GTR_project1_stage1_desc: "Destiny of whole §7Goiky§! depends on this project.\n\nWe must carefully and steadily plan everything, for the sake of objects of the World."
+ decisions_GTR_project1_stage1_progress_weekly: "Weekly progress: §4[?var_GTR_weekly_progress_stage1]%§!"
+ decisions_GTR_project1_stage2_title: "STAGE 2: §YOBTAINING§!"
+ decisions_GTR_project1_stage2_desc: "The Project requires large investments of a wide range of §9resources§!.\n\nWe must obtain them at any cost, for the sake of future of §7Goiky§!."
+ decisions_GTR_project1_stage2_progress_weekly: "Weekly progress: §Y[?var_GTR_weekly_progress_stage2]%§!"
+ decisions_GTR_project1_stage3_title: "STAGE 3: §tMIXING§!"
+ decisions_GTR_project1_stage3_desc: "All preparations are done. Now or never, we'll rescue §7Goiky§! from abyss of anarchy and crisis.\n\n§RLet us combine the ingredients.§!"
+ decisions_GTR_project1_stage3_progress_weekly: "Weekly progress: §t[?var_GTR_weekly_progress_stage3]%§!"
+ decisions_GTR_project1_stage3_button_tt: "§tGet two previous stages done.§!"
  
 #Generic State Modifiers
  minor_population_boost: "Minor Population Growth"

@@ -1,0 +1,133 @@
+guiTypes = {
+	containerWindowType = {
+		name = "project_1_decisions_container"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 600 }
+		
+		iconType = {
+			name = "bg"
+			position = { x = 0 y = -15 }
+			spriteType = GFX_decisions_GTR_project_1_bg
+		}
+		
+		containerWindowType = {
+			name = "stagebuttons"
+			position = { x = 26 y = 203 }
+			size = { width = 440 height = 70 }
+			background = {
+				name = "buttonsbg"
+				spriteType = GFX_tiled_plain_bg
+			}
+			
+			buttonType = {
+				name = "stage_1_button"
+				position = { x = 10 y = 12 }
+				origin = center_left
+				buttonText = [PROJECT1_BUTTON_STAGE1]
+				buttonFont = hoi_30header
+				spriteType = GFX_decisions_GTR_project_1_button_stage_1
+			}
+			
+			buttonType = {
+				name = "stage_2_button"
+				position = { x = 150 y = 12 }
+				origin = center
+				buttonText = [PROJECT1_BUTTON_STAGE2]
+				buttonFont = hoi_30header
+				spriteType = GFX_decisions_GTR_project_1_button_stage_2
+			}
+			
+			buttonType = {
+				name = "stage_3_button"
+				position = { x = 290 y = 12 }
+				origin = center_right
+				buttonText = [PROJECT1_BUTTON_STAGE3]
+				buttonFont = hoi_30header
+				spriteType = GFX_decisions_GTR_project_1_button_stage_3
+			}
+		}
+			
+		containerWindowType = {
+			name = "imageframe_container"
+			position = { x = 26 y = 270 }
+			size = { width = 200 height = 250 }
+			
+			background = {
+				name = "imageframe"
+				spriteType = GFX_tiled_bg
+			}
+		}
+		
+		containerWindowType = {
+			name = "textbg_container"
+			position = { x = 223 y = 273 }
+			size = { width = 240 height = 245 }
+			
+			background = {
+				name = "textbg"
+				spriteType = GFX_tiled_window_small_transparent
+			}
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 241 y = 285 }
+			text = "[PROJECT1_TITLE]"
+			font = hoi_24header
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "desc"
+			position = { x = 241 y = 320 }
+			maxWidth = 205
+			text = "[PROJECT1_DESC]"
+			font = hoi_18mbs
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "progress_weekly"
+			position = { x = 241 y = 455 }
+			text = "[PROJECT1_WP]"
+			font = hoi_24header
+			format = left
+		}
+		
+		iconType = {
+			name = "progressbar_stage1"
+			position = { x = 18 y = 517 }
+			spriteType = GFX_decisions_GTR_project_1_progressbar_stage_1
+		}
+		iconType = {
+			name = "progressbar_stage2"
+			position = { x = 18 y = 517 }
+			spriteType = GFX_decisions_GTR_project_1_progressbar_stage_2
+		}
+		iconType = {
+			name = "progressbar_stage3"
+			position = { x = 18 y = 517 }
+			spriteType = GFX_decisions_GTR_project_1_progressbar_stage_3
+		}
+		
+		instantTextBoxType = {
+			name = "made_progress"
+			position = { x = 146 y = 531 }
+			text = "[PROJECT1_PROGRESS_MADE]"
+			font = hoi_24header
+			format = center
+		}
+		
+		iconType = {
+			name = "stageimage"
+			position = { x = 40 y = 284 }
+			spriteType = GFX_decisions_GTR_project_1_image_stage_1
+		}
+		
+		iconType = {
+			name = "done"
+			position = { x = 320 y = 420 }
+			spriteType = GFX_decisions_GTR_project_1_image_done
+		}
+	}
+}

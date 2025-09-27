@@ -1,33 +1,20 @@
-
 state={
 	id=209
 	name="STATE_209"
-
-	resources = {
-		steel = 15
+	provinces={
+		2737 4960 
 	}
-
-	history={
+	history = {
 		owner = GOI
-		add_core_of = GOI
-		victory_points = {
-			2737 10 
-		}
-		victory_points = {
-			3545 15
-		}
+		controller = GOI
+		victory_points = { 2737 20 }
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 1
 		}
-
 	}
-
-	provinces={
-		331 440 702 739 838 862 1235 1589 1898 2080 2132 2278 2343 2355 2615 2737 2845 2941 2976 3220 3375 3398 3527 3545 3605 3741 3813 3862 4174 4236 4431 4755 4765 4784 4960 4972 5068 5084 5094 5215 5344 5451 5567 5664 5678 5759 5775 11157 11172 11173 11175 11189 11192 11200 11210 11211 11214 11217 11219 11226 11262 11265 11270 11277 11289 11305 
-	}
-	manpower=73111
+	manpower=46823
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 	local_supplies=0.000
 }

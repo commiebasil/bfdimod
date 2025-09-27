@@ -16,22 +16,275 @@ focus_tree = {
 	
 	
 	focus = {
-		id = GTR_focus_placeholder
-		x = 5
-		y = 3
+		id = GTR_focus_project_1
+		x = 10
+		y = 0
 
-		icon = GFX_focus_WGF_our_situation
+		icon = GFX_focus_GTR_project_1
 		
-		available = { hidden_trigger = { NOT = { has_global_flag = focus_take_prevention } } }
+		available = { always = no }
 		
-		cost = 6 
+		cost = 0 
 		
 		ai_will_do = {
-        base = 5
+			base = 5
 		}
 		
 		completion_reward = {
-			add_war_support = 0.05
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_stage_1
+		relative_position_id = GTR_focus_project_1
+		x = -3
+		y = 1
+
+		icon = GFX_focus_GTR_stage_1
+		
+		prerequisite = { focus = GTR_focus_project_1 }
+		
+		available = { always = no }
+		
+		cost = 0 
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_best_minds
+		relative_position_id = GTR_focus_project_1
+		x = -3
+		y = 2
+
+		icon = GFX_focus_GTR_best_minds
+		
+		prerequisite = { focus = GTR_focus_stage_1 }
+		
+		available = { always = no }
+		
+		cost = 0 
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_make_a_recipe
+		relative_position_id = GTR_focus_project_1
+		x = -3
+		y = 3
+
+		icon = GFX_focus_GTR_make_a_recipe
+		
+		prerequisite = { focus = GTR_focus_best_minds }
+		
+		available = { always = no }
+		
+		cost = 0 
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_stage_2
+		relative_position_id = GTR_focus_project_1
+		y = 1
+
+		icon = GFX_focus_GTR_stage_2
+		
+		prerequisite = { focus = GTR_focus_project_1 }
+		
+		available = { always = no }
+		
+		cost = 0 
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_austerity_politics
+		relative_position_id = GTR_focus_project_1
+		x = -1
+		y = 2
+
+		icon = GFX_focus_GTR_austerity_politics
+		
+		prerequisite = { focus = GTR_focus_stage_2 }
+		
+		available = { always = no }
+		
+		cost = 0 
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_integrate_greenheart
+		relative_position_id = GTR_focus_project_1
+		x = 1
+		y = 2
+
+		icon = GFX_focus_GTR_integrate_greenheart
+		
+		prerequisite = { focus = GTR_focus_stage_2 }
+		
+		available = { always = no }
+		
+		cost = 0 
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_get_digging
+		relative_position_id = GTR_focus_project_1
+		y = 3
+
+		icon = GFX_focus_GTR_get_digging
+		
+		prerequisite = { focus = GTR_focus_austerity_politics }
+		prerequisite = { focus = GTR_focus_integrate_greenheart }
+		
+		available = { always = no }
+		
+		cost = 0 
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_stage_3
+		relative_position_id = GTR_focus_project_1
+		y = 1
+		x = 3
+
+		icon = GFX_focus_GTR_stage_3
+		
+		prerequisite = { focus = GTR_focus_project_1 }
+		
+		available = { always = no }
+		
+		cost = 0 
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_mix_it_up
+		relative_position_id = GTR_focus_project_1
+		y = 2
+		x = 3
+
+		icon = GFX_focus_GTR_mix_it_up
+		
+		prerequisite = { focus = GTR_focus_stage_3 }
+		
+		available = { always = no }
+		
+		cost = 0 
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_get_the_oven_ready
+		relative_position_id = GTR_focus_project_1
+		y = 3
+		x = 3
+
+		icon = GFX_focus_GTR_get_the_oven_ready
+		
+		prerequisite = { focus = GTR_focus_mix_it_up }
+		
+		available = { always = no }
+		
+		cost = 0
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GTR_focus_testings
+		relative_position_id = GTR_focus_project_1
+		y = 5
+		
+		icon = GFX_focus_GTR_testings
+		
+		prerequisite = { focus = GTR_focus_make_a_recipe }
+		prerequisite = { focus = GTR_focus_get_digging }
+		prerequisite = { focus = GTR_focus_get_the_oven_ready }
+		
+		available = { always = no }
+		
+		cost = 0 
+		
+		ai_will_do = {
+			base = 5
+		}
+		
+		completion_reward = {
+			
 		}
 	}
 }

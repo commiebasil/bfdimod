@@ -1,10 +1,10 @@
 
 
-capital = 209
+capital = 89
 
 set_variable = { var_YCF_tradeSell_index = 1 }
 
-set_research_slots = 2
+set_research_slots = 4
 
 set_technology = { basic_train = 1 }
 
@@ -26,6 +26,24 @@ set_popularities = {
 	neutrality = 100
 }
 
+set_country_flag = GTR_stage1_selected
+set_variable = { var_GTR_progressbar_stage1 = 5 }
+set_variable = { var_GTR_progressbar_stage2 = 5 }
+set_variable = { var_GTR_progressbar_stage3 = 5 }
+set_variable = { var_GTR_weekly_progress_stage1 = 2 }
+set_variable = { var_GTR_weekly_progress_stage2 = 2 }
+set_variable = { var_GTR_weekly_progress_stage3 = 0 }
+
+add_ideas = undisturbed_isolation
+add_ideas = disarmed_nation
+add_ideas = closed_economy
+
 add_ideas = idea_GTR_golfball_s_lab
+add_ideas = idea_GTR_goiky_university
+add_ideas = idea_GTR_announcergrad_supplying_problems
+add_ideas = idea_GTR_unsettled_government
 
 recruit_character = GTR_golfball
+recruit_character = GTR_tennis_ball
+recruit_character = GTR_test_tube
+recruit_character = GTR_calculator

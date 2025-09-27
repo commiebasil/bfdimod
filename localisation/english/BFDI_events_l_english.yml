@@ -1002,6 +1002,11 @@
  BUN_YFC.6.a: "Agree to the Ceasefire."
  BUN_YFC.6.b: "ALL IN!"
 
+ #GOIKY TECHNOCRATIC REPUBLIC
+ GTR_event.1.t: "Gaudeamus Igitur"
+ GTR_event.1.desc: "'It's still not over!' - Emotionally, Golfball shouted in her characteristic voice. Tennis Ball continues to eat her head with these small problems 'bout stupid bureaucracy and supplying. Who the hell can be worried with those things when there is a chance to save a whole civilization? We are on the verge of a breakthrough, and now we can't let ourselves think of those little things!"
+ GTR_event.1.a: "We can still save everything."
+
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
  bfdinews.1.desc: "After two years of competition, Battle For Dream Island is coming to an end. According to the results of the final vote, the winner was ... Firey! Coiny collapsed as a result. This news has already excited the public and caused considerable resentment in Goiky's society. Leaks also report that Firey allowed everyone on the island except Leafy, his best friend. The reasons are not yet known, but we are monitoring developments.."
@@ -1114,6 +1119,7 @@
  bfdinews.26.a: "Eyes on the prize."
  bfdinews.26.b: "How dare they!"
  bfdinews.26.c: "Interesting times..."
+
 
 #City fall events
 

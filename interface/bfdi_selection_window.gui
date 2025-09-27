@@ -147,7 +147,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "gtr"
-			position = { x = 300 y = 335 }
+			position = { x = 293 y = 333 }
 			spriteType = GFX_button_gtr
 			pdx_tooltip = WR_GTR_BTTT
 		}
@@ -185,6 +185,13 @@ guiTypes = {
 		iconType = {
 			name = "WGF_available"
 			position = { x = 230 y = 80 }
+			spriteType = GFX_available_text
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "GTR_available"
+			position = { x = 328 y = 380 }
 			spriteType = GFX_available_text
 			alwaystransparent = yes
 		}

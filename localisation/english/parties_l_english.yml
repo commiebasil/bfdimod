@@ -5,12 +5,12 @@
  democratic_noun:0 "Democracy"
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
- radical_thoughts: "Radical Thought"
- radical_thoughts_noun: "Radical Thought"
+ radical_thoughts:0 "Radical Thought"
+ radical_thoughts_noun:0 "Radical Thought"
  fascism_desc:0 "Totalitarian Regime"
  communism_desc:0 "Totalitarian Regime"
  democratic_desc:0 "Democratic Regime"
- radical_thoughts_desc: "Ultratotalitarian Regime"
+ radical_thoughts_desc:0 "Ultratotalitarian Regime"
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  liberalism:0 "Liberalism"
@@ -51,9 +51,12 @@
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
  
- ultranationalism: "Ultranationalism"
- ultranationalism_desc: "Goiky unification. At any cost."
+ ultranationalism:0 "Ultranationalism"
+ ultranationalism_desc:0 "Goiky unification. At any cost."
  
- cultism: "Cultism"
- cultism_desc: "Cultism is a general word that characterizes ideological movements that arose on the outskirts of the Evil Forest. Absolute worship of one's idol and extreme cruelty are their common characteristics."
+ cultism:0 "Cultism"
+ cultism_desc:0 "Cultism is a general word that characterizes ideological movements that arose on the outskirts of the Evil Forest. Absolute worship of one's idol and extreme cruelty are their common characteristics."
+ 
+ technocratism:0 "Technocracy"
+ technocratism_desc:0 "This state's main goal is enhance society through social and especially technological innovation. Science, Technology, Engineering, and Math all come together to form states like these."
  
