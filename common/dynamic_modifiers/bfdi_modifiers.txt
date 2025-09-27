@@ -161,6 +161,7 @@ idea_YFC_anarchic_lands = {
 	industry_free_repair_factor = var_idea_YFC_anarchic_lands_repair
 	production_speed_rail_way_factor = var_idea_YFC_anarchic_lands_rail
 	production_speed_supply_node_factor = var_idea_YFC_anarchic_lands_node
+	mobilization_laws_cost_factor = 5
 }
 
 idea_YFC_integration_YFC = { #YFC Buffs and nerfs in the deal. Given in YFC_focus_numismatian_subjugation

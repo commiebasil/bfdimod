@@ -93,8 +93,7 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_the_grapes_and_the_cherries
-		relative_position_id = YFC_focus_consolidate_power
-		x = -5
+		x = 5
 		y = 0
 		icon = GFX_focus_generic
 		available = {
@@ -254,23 +253,34 @@ focus_tree = {
 	}
 
 	focus = {
-		id = YFC_focus_teachings_of_war
+		id = YFC_focus_military_restructuring
 		relative_position_id = YFC_focus_the_grapes_and_the_cherries
 		x = 0
 		y = 3
 		icon = GFX_focus_generic
 		
-		allow_branch = { available = no }
+		allow_branch = { has_completed_focus = YFC_focus_a_real_army }
 
 		available = {
-			has_war = yes
+			hidden_trigger = {has_completed_focus = YFC_focus_a_real_army}
 		}
 
 		prerequisite = { focus = YFC_focus_the_grapes_and_the_cherries }
 		
 		cost = 8
-		completion_reward = {
 
+		select_effect = {
+			add_ideas = idea_YFC_military_restructuring
+		}
+
+		completion_reward = {
+			#Need to add tooltips explain this but I'm lazy and I'll come back to it when I start working on this
+
+			remove_ideas = idea_YFC_military_restructuring
+			add_ideas = idea_YFC_new_army
+			add_manpower = 5000
+			army_experience = 20
+			add_command_power = 25
 		}
 	}
 
@@ -278,7 +288,8 @@ focus_tree = {
 
 	focus = {
 		id = YFC_focus_the_southern_bandits
-		x = 5
+		relative_position_id = YFC_focus_consolidate_power
+		x = -5
 		y = 0
 		icon = GFX_focus_YFC_southern_bandits
 		
@@ -387,7 +398,6 @@ focus_tree = {
 				set_variable = { var_progress_raids_GGR = 0 }
 				set_variable = { var_progress_raids_SRR = 0 }
 				add_threat = 0.3
-				#Hidden buff so GGR does not fall quickly
 				IF = {
 					limit = {GGR = {is_ai = yes}}
 					GGR = {
@@ -490,6 +500,10 @@ focus_tree = {
 			hidden_trigger = {
 				has_completed_focus = YFC_focus_demand_end_pillage
 			}
+			custom_trigger_tooltip = {
+                tooltip = l_money_cost_300K
+                check_variable = { money_amount > 3 }
+            }
 		}
 		bypass = {
 			has_completed_focus = YFC_focus_a_look_inward
@@ -501,6 +515,7 @@ focus_tree = {
 		#spawn 6 okay-ish divisions, decreases max amount to be traded away  
 		#divs will be deleted on end of war, max amount to trade goes back up
 		completion_reward = {
+			subtract_from_variable = { money_amount = 3 }
 			division_template = {
 				name = "Militia"
 				is_locked = yes
@@ -521,7 +536,7 @@ focus_tree = {
 					owner = YFC
 				}
 			}
-			add_manpower = 5000
+			add_manpower = 1000
 		}
 
 		ai_will_do = {
@@ -583,10 +598,17 @@ focus_tree = {
 		icon = GFX_focus_YFC_buy_defense_trainings
 		prerequisite = { focus = YFC_focus_CRN_cooperation }
 		prerequisite = { focus = YFC_focus_coiny_cooperation }
-		#gives coiny as military high command, which gives +10% defense and breakthrough
-		#gives national spirit that gives +10% defense until war ends
+
+		available = {
+			custom_trigger_tooltip = {
+                tooltip = l_money_cost_100K
+                check_variable = { money_amount > 1 }
+            }
+		}
+
 		cost = 4
 		completion_reward = {
+			subtract_from_variable = { money_amount = 1 }
 			custom_effect_tooltip = l_YFC_foreign_advisor
 			add_ideas = idea_YFC_United_Clash
 		}
@@ -877,7 +899,6 @@ focus_tree = {
 		#if eraser wins, the bunch becomes a reformed republic, and is fully independent
 
 		completion_reward = {
-			add_manpower = 2500
 			85 = {add_compliance = 10} 
 			212 = {add_compliance = 10}
 			if = {
@@ -1318,6 +1339,11 @@ focus_tree = {
 			212 = {add_compliance = 20}
 			217 = {add_compliance = 20} 
 			218 = {add_compliance = 20}
+			hidden_effect = {
+				set_variable = { var_foster_BUN_support = 10 } #High but can't rise quickly
+				set_variable = { var_foster_YFC_support = 1 }
+				set_variable = { var_foster_CRN_support = 1 }
+			}
 		}
 	}
 
@@ -1701,16 +1727,21 @@ focus_tree = {
 	focus = {
 		id = YFC_focus_sectorial_squabbles
 		relative_position_id = YFC_focus_consolidate_power
-		x = 8
+		x = 7
 		y = 0
 		icon = GFX_focus_generic
 
-		cost = 1
+		allow_branch = { has_completed_focus = YFC_focus_break_diplomacy }
+
+		cost = 5
 		#automatically completes a little bit after you finish the break diplomacy thingy
 		#gives event abt the sectorials being in big turmoil over the change of government
 		#starts hidden 180 day timer to the yoyleton uprising
 		completion_reward = {
-			
+			#How long till it autocompletes?
+			#Since their is still the CRN stuff
+			#Maybe for that make like 2-3 events spanning like 8 months or so that explain the rising issues and that way the player knows that there is more stuff.
+			#Also also I think we should add some minor things before this happens (Like no events and just +10 Army XP or something) as the change is a little to fast
 		}
 	}
 
@@ -1753,9 +1784,10 @@ focus_tree = {
 
 		cost = 3
 		#allows the player to chose a merc group to stick with (pay for recurringly), and unlocks the grapes and cherries, letting the player improve those mercs in a seperate mini-branch
-		#this focus and the others at it's height complete with 138 days left until uprising
+		#finishes with either 138, 107, or 96 days until the uprising fires
 		completion_reward = {
-			
+			#Okay okay so I might now do a middle ground plan where the player picks for which merc group to stick with BUT removes the buying part and keeps the units permanently
+			#Seasoned grants 8 divs while the other two grant 6 divs
 		}
 	}
 
@@ -1777,97 +1809,117 @@ focus_tree = {
 		allow_branch = { has_completed_focus = YFC_focus_the_military_rises }
 
 		cost = 3
-		#rises popularity of military sector, removes political power and a bit of money
+		#rises popularity of military sector, removes some political power and a bit of money
+		#finishes with either 138, 107, or 96 days until the uprising fires
 		completion_reward = {
-			
+			#Would this prevent the high sector influence penalty?
 		}
 	}
 
 	focus = {
-		id = YFC_focus_unitary_corporation
-		relative_position_id = YFC_focus_sectorial_squabbles
-		x = 2
-		y = 1
-		icon = GFX_focus_generic
-
-		prerequisite = { focus = YFC_focus_sectorial_squabbles }
-		mutually_exclusive = { focus = YFC_focus_the_military_rises }
-
-		cost = 3
-		#opens up the crazy YF path
-		#you have more money and the uprising will be smaller, but the military will be weaker
-		#completes with 159 days left until uprising
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = YFC_focus_the_military_rises
-		relative_position_id = YFC_focus_sectorial_squabbles
-		x = -2
-		y = 1
-		icon = GFX_focus_generic
-
-		prerequisite = { focus = YFC_focus_sectorial_squabbles }
-		mutually_exclusive = { focus = YFC_focus_unitary_corporation }
-
-		cost = 3
-		#opens up the siding with the military path (IMPOSSIBLE if blocky is the sectorial for the military)
-		#nother event
-		#you have a stronger military for the uprising but are more prone to economic crashes and will likely lose money
-		#completes with 159 days left until uprising
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = YFC_focus_a_real_army
+		id = YFC_focus_coordinate_with_beaker
 		relative_position_id = YFC_focus_the_military_rises
+		x = 1
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_the_military_rises }
+
+		available = {
+			hidden_trigger = {
+				has_completed_focus = YFC_focus_the_military_rises
+			}
+		}
+		
+		allow_branch = { has_completed_focus = YFC_focus_the_military_rises }
+
+		cost = 3
+		#gives event talking about beaker and tophat working together behind the scenes
+		#gives some stability, gives free research on some random tech idc
+		#finishes with either 138, 107, or 96 days until the uprising fires
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = YFC_focus_study_reich_tactics
+		relative_position_id = YFC_focus_a_real_army
 		x = -1
 		y = 1
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_focus_the_military_rises }
+		prerequisite = { focus = YFC_focus_a_real_army }
 
-		available = {
-			hidden_trigger = {
-				has_completed_focus = YFC_focus_the_military_rises
-			}
-		}
-		
-		allow_branch = { has_completed_focus = YFC_focus_the_military_rises }
+		mutually_exclusive = { focus = YFC_focus_research_ammunition }
 
-		cost = 3
-		#allows the player to chose a merc group to stick with (pay for recurringly), and unlocks the grapes and cherries, letting the player improve those mercs in a seperate mini-branch
-		#this focus and the others at it's height complete with 138 days left until uprising
+		cost = 4
+		#gives spirit that makes all troops faster, hidden effect that makes snowball send divs to help you with yoyleton uprising
+		#finishes with 68 days until yoyleton uprising
 		completion_reward = {
-			
+			#Why would snowball help?
+			#Also snowball might still be dealing with their internal issues or just collapse so maybe an event or something???
+			#Also reich goes into anti-partisan tatics so maybe less supply use or something instead? 
 		}
 	}
 
 	focus = {
-		id = YFC_focus_invest_in_tophat
-		relative_position_id = YFC_focus_the_military_rises
-		x = 3
+		id = YFC_focus_research_ammunition
+		relative_position_id = YFC_focus_a_real_army
+		x = 1
 		y = 1
 		icon = GFX_focus_generic
 
-		prerequisite = { focus = YFC_focus_the_military_rises }
+		prerequisite = { focus = YFC_focus_a_real_army }
+		prerequisite = { focus = YFC_focus_coordinate_with_beaker }
 
-		available = {
-			hidden_trigger = {
-				has_completed_focus = YFC_focus_the_military_rises
-			}
-		}
-		
-		allow_branch = { has_completed_focus = YFC_focus_the_military_rises }
+		mutually_exclusive = { focus = YFC_focus_study_reich_tactics }
 
-		cost = 3
-		#rises popularity of military sector, removes political power and a bit of money
+		cost = 4
+		#gives spirit that makes troops do more damage, gives 50 army exp and 2x 50% cost reductions to superior firepower army research thingy
+		#finishes with 68 days until yoyleton uprising
 		completion_reward = {
-			
+			#How about +5% army attack or somthing?
+		}
+	}
+
+	focus = {
+		id = YFC_focus_solidify_tophat_position
+		relative_position_id = YFC_focus_invest_in_tophat
+		x = 0
+		y = 1
+		icon = GFX_focus_generic
+
+		prerequisite = { focus = YFC_focus_invest_in_tophat }
+		prerequisite = { focus = YFC_focus_coordinate_with_beaker }
+
+		cost = 5
+		#nother event about him gaining more support, with the help of beaker
+		#finishes with like 33 days until the yoyleton uprising
+		completion_reward = {
+			#More support how?
+		}
+	}
+
+	focus = {
+		id = YFC_focus_militaristic_domination
+		relative_position_id = YFC_focus_research_ammunition
+		x = 1
+		y = 1.35
+		icon = GFX_focus_generic
+
+		prerequisite = {
+			focus = YFC_focus_study_reich_tactics
+			focus = YFC_focus_research_ammunition
+		}
+		prerequisite = { focus = YFC_focus_solidify_tophat_position }
+
+		cost = 7
+		#custom tooltip telling the player this will start a civil war
+		#doesnt actually because focus will auto-stop when the yoyleton uprising starts
+		#say the focus does some other things to to make the player think it's real
+		completion_reward = {
+			#Spongebob
 		}
 	}
 

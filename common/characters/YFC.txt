@@ -21,38 +21,6 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-	YFC_lewis = {
-		name = YFC_lewis
-		portraits = { 
-			civilian = { 
-				small = GFX_idea_YFC_lewis	
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = idea_YFC_lewis
-			ledger = army
-			traits = { popular_figurehead }
-		}
-		
-	
-	}
-	YFC_dora = {
-		name = YFC_dora
-		portraits = { 
-			civilian = { 
-				small = GFX_idea_YFC_dora	
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = idea_YFC_dora
-			ledger = army
-			traits = { special_authorities }
-		}
-		
-	
-	}
 	YFC_david = {
 		name = YFC_david
 		portraits = { 
@@ -69,8 +37,6 @@ characters = {
 			logistics_skill = 3
 			traits = { infantry_officer }
 		}
-		
-	
 	}
 
 	YFC_Coiny = {

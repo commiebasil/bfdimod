@@ -149,5 +149,9 @@
 
  l_CRN_Sleep: "§YIf a Pro-Bunch revolt occurs, rebels trained by us will spawn in support.§!"
 
+
+
+
  l_money_gain_300K: "Gain §G300K Dollars§!"
- l_money_lose_1M: "Lose §G1M Dollars§!"
+
+ l_money_lose_1M: "Lose §R1M Dollars§!"

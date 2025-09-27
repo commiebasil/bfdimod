@@ -2,7 +2,6 @@ decision_YFC_foster_category = {
 	YFC_foster_Countdown = { #Countdown to election
 		activation = {
 			has_completed_focus = YFC_focus_foster_new_society	
-			has_completed_focus = YFC_focus_support_blocky
 			NOT = {country_exists = BUN}
 		}
 		available = {
@@ -30,7 +29,9 @@ decision_YFC_foster_category = {
 		days_re_enable = 30
 
 		remove_effect = {
-
+			hidden_effect = {
+				add_to_variable = { var_foster_YFC_support = 0.5 }
+			}
         }
 
 		ai_will_do = {
@@ -46,7 +47,7 @@ decision_YFC_foster_category = {
 		icon = GFX_decision_generic_construction
 		state_target = yes
         targets = { 85 212 217 218 }
-        on_map_mode = map_and_decisions_view
+        on_map_mode = map_only
         
 		visible = {
 			has_completed_focus = YFC_focus_stimulate_bunch_business
@@ -58,7 +59,7 @@ decision_YFC_foster_category = {
 		fire_only_once = yes
 
 		cost = 60
-		days_remove = 45
+		days_remove = 60
 
 		remove_effect = {
 			FROM = {
@@ -68,6 +69,9 @@ decision_YFC_foster_category = {
 					instant_build = yes
 				}
 				add_compliance = 5
+			}
+			hidden_effect = {
+				add_to_variable = { var_foster_YFC_support = 1 }
 			}
         }
 

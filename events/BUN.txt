@@ -1,3 +1,4 @@
+add_namespace = BUN_event
 add_namespace = BUN_YFC
 add_namespace = BUN_borderwars
 
