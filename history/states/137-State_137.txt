@@ -7,7 +7,13 @@ state={
 	history = {
 		owner = DAV
 		add_core_of = DAV
+		victory_points = { 4273 8 }
+		victory_points = { 9714 2 }
+		buildings = {
+            infrastructure = 2
+			4273 = { naval_base = 1 }
+        }
 	}
 	manpower = 10000
-	state_category = rural
+	state_category = town
 }
