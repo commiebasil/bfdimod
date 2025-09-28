@@ -221,5 +221,11 @@ scripted_gui = {
 		context_type = player_context
 		
 		visible = { has_country_flag = project1_notif_enabled }
+		
+		effects = {
+			ok_click = {
+				clr_country_flag = project1_notif_enabled
+			}
+		}
 	}
 }

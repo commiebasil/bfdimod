@@ -148,6 +148,11 @@
  l_BUN_YFC_1: "Modifies §YOn a Ticking Timed Bomb§! National Spirit by:\n- §YAll Modifiers§! §R-25%§!"
 
  l_CRN_Sleep: "§YIf a Pro-Bunch revolt occurs, rebels trained by us will spawn in support.§!"
+ 
+ l_GTR_project1_start: "Work on the §4Project #1§! begins.\n\n§tCheck your decisions tab!§!"
+ l_GTR_adds_progress_stage1: "Speeds up §3Research work§! on The Project!"
+ l_GTR_adds_progress_stage2: "Speeds up §YResource extraction§! for The Project!"
+ l_GTR_adds_progress_stage3: "Speeds up §tThe Final Stage§! of The Project!"
 
 
  l_money_gain_300K: "Gain §G300K Dollars§!"

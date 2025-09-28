@@ -16,6 +16,8 @@
  l_GPG_cw_victory_trigger: "§YПобеда в гражданской войне одержана§!"
  congress_goodend: "Стабильность в Кэсленде сохранена"
  cw_done: "Ситуация стабильна"
+ l_GTR_prev_stages_done: "§YПредыдущие стадии завершены§!"
+ l_GTR_all_stages_done: "§YВсе приготовления завершены§!"
  
  decision_cost_ie_500_pp_50: "£infantry_equipment_text_icon §Y500§! £political_power"
  decision_cost_ie_500_pp_50_blocked: "£infantry_equipment_text_icon §R500§! £political_power"

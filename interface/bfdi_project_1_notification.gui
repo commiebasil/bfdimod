@@ -4,10 +4,21 @@ guiTypes = {
 		position = { x = -250 y = -175 }
 		size = { width = 500 height = 300 }
 		orientation = center
+		moveable = yes
+		show_sound = menu_open_window
+		fade_time = 100
+		fade_type = linear
 		
 		background = {
-			name = "imageframe"
+			name = "frame"
 			spriteType = GFX_tiled_bg
+		}
+		
+		iconType = {
+			name = "bg"
+			position = { x = -20 y = -15 }
+			spriteType = GFX_decisions_GTR_project_1_notif_bg
+			alwaystransparent = yes
 		}
 		
 		containerWindowType = {
@@ -25,17 +36,29 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = -90 y = 63 }
-			text = "STAGE 1 Complete!"
+			text = GTR_project1_notif_title
 			font = hoi_24header
 			orientation = center_up
 			format = center
 		}
 		
+		containerWindowType = {
+			name = "descbg_container"
+			position = { x = -165 y = 105 }
+			orientation = center_up
+			size = { width = 340 height = 150 }
+			
+			background = {
+				name = "textbg"
+				spriteType = GFX_tiled_window_small_transparent
+			}
+		}
+		
 		instantTextBoxType = {
 			name = "desc"
-			position = { x = -95 y = -20 }
+			position = { x = -95 y = -32 }
 			maxWidth = 205
-			text = "Check out your decisions!"
+			text = GTR_project1_notif_desc
 			font = hoi_18mbs
 			orientation = center
 			format = center
@@ -44,9 +67,10 @@ guiTypes = {
 		buttonType = {
 			name = "ok"
 			spriteType = GFX_main_lobby_button
-			buttonText = "ok"
+			buttonText = GTR_project1_notif_button
 			buttonFont = hoi_20bs
 			position = { x = 112 y = 200 }
+			shortcut = "RETURN"
 		}
 	}
 }
