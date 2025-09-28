@@ -98,7 +98,7 @@ political_actions = {
 		}
 
 		remove_effect = {
-			delete_unit_template_and_units = {
+			delete_units = {
 				division_template = "Cherry Company"
 				disband = no
 			}
@@ -152,7 +152,7 @@ political_actions = {
 		}
 
 		remove_effect = {
-			delete_unit_template_and_units = {
+			delete_units = {
 				division_template = "Combined Grape Affiliation"
 				disband = no
 			}
@@ -206,7 +206,7 @@ political_actions = {
 		}
 
 		remove_effect = {
-			delete_unit_template_and_units = {
+			delete_units = {
 				division_template = "Unnamed Mercenary Brotherhood"
 				disband = no
 			}
