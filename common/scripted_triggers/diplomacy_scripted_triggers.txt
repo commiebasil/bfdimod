@@ -902,9 +902,22 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 		}
 	}
 }
+
 DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
-	always = no
+	IF = {
+		limit = {
+			has_game_rule = {
+				rule = allow_war_goals
+				option = RULE_OPTION_BLOCKED
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_LICENSING_BLOCKED_TT
+			always = no
+		}
+	}
 }
+
 DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 	if = {
 		limit = {
