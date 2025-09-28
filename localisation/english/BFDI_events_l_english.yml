@@ -1004,28 +1004,28 @@
 
  #GOIKY TECHNOCRATIC REPUBLIC
  GTR_event.1.t: "Gaudeamus Igitur"
- GTR_event.1.desc: "'It's still not over!' - Emotionally, Golfball shouted in her characteristic voice. Tennis Ball continues to eat her head with these small problems 'bout stupid bureaucracy and supplying. Who the hell can be worried with those things when there is a chance to save a whole civilization? We are on the verge of a breakthrough, and now we can't let ourselves think of those little things!"
+ GTR_event.1.desc: "'It's still not over!' - Golf Ball emotionally shouted in her characteristic voice. Tennis Ball's past words continued to eat at her. The  small problems about stupid bureaucracy and supplies rang through her head. Tennis Ball was likely right about needing proper administration, but who the hell could concern themselves with that when there's a chance to save a whole civilization?! We are on the verge of a breakthrough, we can't worry ourselves over government administration!"
  GTR_event.1.a: "We can still save everything."
  
  GTR_event.2.t: "Blurred Microscope | Event for ZDubbz"
- GTR_event.2.desc: "Something flavourful, maybe about difficult situation with research facilities of the University. Test Tube could be included here too"
- GTR_event.2.a: "Button"
+ GTR_event.2.desc: "Test Tube's day was quite a bit more challenging than she had anticipated. Working at the tippity top of South Goiky's University Research Facility was already quite challenging, but a small mishap suddenly became the worst part of her day. \nBeing assigned to work with and research small, unicellular organisms today, she of course needed her microscope. Getting it from one of the technology rooms a floor above today's workstation was quick and easy. She returned, and got started on her work. Entering numbers, working through spreadsheets, writing results, all standard stuff for her. Easy stuff, even. \nThough, nearing the end of the day's assignment, she noticed that one result contradicted with another. Something in her head told her to look back at her work, and she did so, for a while. Contradiction after contradiction, she realized the microscope she had been using was faulty. \nYet another set back."
+ GTR_event.2.a: "Unfortunate, pay more attention."
  
  GTR_event.3.t: "Dream Sauce Recipe"
- GTR_event.3.desc: "Beryllium-8 bring to Be(OH)2, add 10 ml by every litre of the compound.\n\nWheat flour, dissolved in water, ~30 l.\n\Soil yeast 10 g by every litre of the compound.\n\nGrind the metal shavings thoroughly..."
+ GTR_event.3.desc: "Beryllium-8 bring to Be(OH)2, add 10 ml by every liter of the compound.\n\nWheat flour, dissolved in water, ~30 l.\n\nSoil yeast 10 g by every liter of the compound.\n\nGrind the metal shavings thoroughly..."
  GTR_event.3.a: "Sounds delicious!"
  
- GTR_event.4.t: "Supply Crisis | Event for ZDubbz"
- GTR_event.4.desc: "Something flavourful about resources depletion in university and Announcergrad."
- GTR_event.4.a: "Button"
+ GTR_event.4.t: "Supply Crisis"
+ GTR_event.4.desc: "Golf Ball looked outside from her place in front of the window. In front of her, she saw the glorious campus of South Goiky University. The campus she had helped improved. Wonderful.\nShe nearly forgot to think about the people, outside. Huddled around a stand that was selling bread, they all looked quite upset. Another food shortage, she supposed. It was fine really, there'd been a few in the last months, never lasting more than a week. People could go without eating for a week. \nSuddenly, the lights in her office shut off. Walking into the hallway, she'd realized the entire building lost power."
+ GTR_event.4.a: "Maybe we should do something about this..."
  
  GTR_event.5.t: "Greenheart Roses"
- GTR_event.5.desc: "The virgin fields to the south are home to amazing crops from various plant families. For example, wild roses here lack the characteristic needles on their stems, making them a delight to pick. They possess a wonderful fragrance that permeates the vastness of Greenheart."
+ GTR_event.5.desc: "The virgin fields to the south are home to amazing crops from various plant families. For example, the wild roses here lack the characteristic needles on their stems, making them a delight to pick. They possess a wonderful fragrance that permeates the vastness of Greenheart."
  GTR_event.5.a: "Filling up the herbarium."
  
- GTR_event.6.t: "Now or Never | Event for ZDubbz"
- GTR_event.6.desc: "Something flavourful. Crisis in Announcergrad becomes bigger and bigger, but project is almost done, so we must finish it asap"
- GTR_event.6.a: "Button"
+ GTR_event.6.t: "Now or Never"
+ GTR_event.6.desc: "The supplies have reached even lower numbers. Despite being able to restore the power to pretty much every building, no doubt to her genius, there were still shortages in every other sector. People were missing food, projects were missing resources, university lessons were even getting canceled. People were dying. Golf Ball clearly couldn't put off working on this issue even longer. People in Announcergrad, which was basically an extension of the campus, were holding demonstrations as well, according to some of the rumors she'd been hearing. No shortage had ever lasted this long before."
+ GTR_event.6.a: "We need to do something about this."
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
