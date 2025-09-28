@@ -258,6 +258,9 @@
  decisions_GTR_project1_stage3_desc: "All preparations are done. Now or never, we'll rescue §7Goiky§! from abyss of anarchy and crisis.\n\n§RLet us combine the ingredients.§!"
  decisions_GTR_project1_stage3_progress_weekly: "Weekly progress: §t[?var_GTR_weekly_progress_stage3]%§!"
  decisions_GTR_project1_stage3_button_tt: "§tGet two previous stages done.§!"
+ GTR_project1_notif_title: "Stage is Complete!"
+ GTR_project1_notif_desc: "Looks like some progress is made in our §4Project§!!\n\nCheck out Decisions Window!"
+ GTR_project1_notif_button: "Okay"
  
 #Generic State Modifiers
  minor_population_boost: "Minor Population Growth"

@@ -439,4 +439,47 @@ on_actions = {
 			}
 		}
 	}
+	
+	on_weekly_GTR = { #PROJECT 1 MECHANIC
+		effect = {
+			if = {
+				limit = { has_country_flag = project1_mechanic_started }
+				if = {
+					limit = { check_variable = { var_GTR_progressbar_stage1 < 100 } }
+					add_to_variable = { var_GTR_progressbar_stage1 = var_GTR_weekly_progress_stage1 }
+					if = {
+						limit = { check_variable = { var_GTR_progressbar_stage1 > 100 } }
+						set_variable = { var_GTR_progressbar_stage1 = 100 }
+						set_variable = { var_GTR_weekly_progress_stage1 = 0 }
+						set_country_flag = stage1_done
+						set_country_flag = project1_notif_enabled
+					}
+				}
+				
+				if = {
+					limit = { check_variable = { var_GTR_progressbar_stage2 < 100 } }
+					add_to_variable = { var_GTR_progressbar_stage2 = var_GTR_weekly_progress_stage2 }
+					if = {
+						limit = { check_variable = { var_GTR_progressbar_stage2 > 100 } }
+						set_variable = { var_GTR_progressbar_stage2 = 100 }
+						set_variable = { var_GTR_weekly_progress_stage2 = 0 }
+						set_country_flag = stage2_done
+						set_country_flag = project1_notif_enabled
+					}
+				}
+				
+				if = {
+					limit = { check_variable = { var_GTR_progressbar_stage3 < 100 } }
+					add_to_variable = { var_GTR_progressbar_stage3 = var_GTR_weekly_progress_stage3 }
+					if = {
+						limit = { check_variable = { var_GTR_progressbar_stage3 > 100 } }
+						set_variable = { var_GTR_progressbar_stage3 = 100 }
+						set_variable = { var_GTR_weekly_progress_stage3 = 0 }
+						set_country_flag = stage3_done
+						set_country_flag = project1_notif_enabled
+					}
+				}
+			}
+		}
+	}
 }

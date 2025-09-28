@@ -1006,6 +1006,26 @@
  GTR_event.1.t: "Gaudeamus Igitur"
  GTR_event.1.desc: "'It's still not over!' - Emotionally, Golfball shouted in her characteristic voice. Tennis Ball continues to eat her head with these small problems 'bout stupid bureaucracy and supplying. Who the hell can be worried with those things when there is a chance to save a whole civilization? We are on the verge of a breakthrough, and now we can't let ourselves think of those little things!"
  GTR_event.1.a: "We can still save everything."
+ 
+ GTR_event.2.t: "Blurred Microscope | Event for ZDubbz"
+ GTR_event.2.desc: "Something flavourful, maybe about difficult situation with research facilities of the University. Test Tube could be included here too"
+ GTR_event.2.a: "Button"
+ 
+ GTR_event.3.t: "Dream Sauce Recipe"
+ GTR_event.3.desc: "Beryllium-8 bring to Be(OH)2, add 10 ml by every litre of the compound.\n\nWheat flour, dissolved in water, ~30 l.\n\Soil yeast 10 g by every litre of the compound.\n\nGrind the metal shavings thoroughly..."
+ GTR_event.3.a: "Sounds delicious!"
+ 
+ GTR_event.4.t: "Supply Crisis | Event for ZDubbz"
+ GTR_event.4.desc: "Something flavourful about resources depletion in university and Announcergrad."
+ GTR_event.4.a: "Button"
+ 
+ GTR_event.5.t: "Greenheart Roses"
+ GTR_event.5.desc: "The virgin fields to the south are home to amazing crops from various plant families. For example, wild roses here lack the characteristic needles on their stems, making them a delight to pick. They possess a wonderful fragrance that permeates the vastness of Greenheart."
+ GTR_event.5.a: "Filling up the herbarium."
+ 
+ GTR_event.6.t: "Now or Never | Event for ZDubbz"
+ GTR_event.6.desc: "Something flavourful. Crisis in Announcergrad becomes bigger and bigger, but project is almost done, so we must finish it asap"
+ GTR_event.6.a: "Button"
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"

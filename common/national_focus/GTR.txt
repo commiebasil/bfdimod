@@ -24,6 +24,8 @@ focus_tree = {
 		
 		available = { always = no }
 		
+		allow_branch = { has_country_flag = project1_mechanic_started }
+		
 		cost = 0 
 		
 		ai_will_do = {
@@ -45,16 +47,17 @@ focus_tree = {
 		
 		prerequisite = { focus = GTR_focus_project_1 }
 		
-		available = { always = no }
-		
-		cost = 0 
+		cost = 2 
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
-			
+			country_event = {
+				id = GTR_event.2
+				random_hours = 12
+			}
 		}
 	}
 	
@@ -68,16 +71,17 @@ focus_tree = {
 		
 		prerequisite = { focus = GTR_focus_stage_1 }
 		
-		available = { always = no }
-		
-		cost = 0 
+		cost = 3 
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = l_GTR_adds_progress_stage1
+			hidden_effect = {
+				add_to_variable = { var_GTR_weekly_progress_stage1 = 2 }
+			}
 		}
 	}
 	
@@ -91,16 +95,21 @@ focus_tree = {
 		
 		prerequisite = { focus = GTR_focus_best_minds }
 		
-		available = { always = no }
-		
-		cost = 0 
+		cost = 3 
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = l_GTR_adds_progress_stage1
+			hidden_effect = {
+				add_to_variable = { var_GTR_weekly_progress_stage1 = 2 }
+			}
+			country_event = {
+				id = GTR_event.3
+				random_hours = 12
+			}
 		}
 	}
 	
@@ -113,16 +122,17 @@ focus_tree = {
 		
 		prerequisite = { focus = GTR_focus_project_1 }
 		
-		available = { always = no }
-		
-		cost = 0 
+		cost = 2 
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
-			
+			country_event = {
+				id = GTR_event.4
+				random_hours = 12
+			}
 		}
 	}
 	
@@ -136,16 +146,18 @@ focus_tree = {
 		
 		prerequisite = { focus = GTR_focus_stage_2 }
 		
-		available = { always = no }
-		
-		cost = 0 
+		cost = 3 
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
-			
+			add_stability = -0.05
+			custom_effect_tooltip = l_GTR_adds_progress_stage2
+			hidden_effect = {
+				add_to_variable = { var_GTR_weekly_progress_stage2 = 2 }
+			}
 		}
 	}
 	
@@ -159,16 +171,17 @@ focus_tree = {
 		
 		prerequisite = { focus = GTR_focus_stage_2 }
 		
-		available = { always = no }
-		
-		cost = 0 
+		cost = 3 
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
-			
+			country_event = {
+				id = GTR_event.5
+				random_hours = 12
+			}
 		}
 	}
 	
@@ -182,16 +195,25 @@ focus_tree = {
 		prerequisite = { focus = GTR_focus_austerity_politics }
 		prerequisite = { focus = GTR_focus_integrate_greenheart }
 		
-		available = { always = no }
-		
-		cost = 0 
+		cost = 3 
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
-			
+			77 = {
+				add_resource = {
+					type = steel
+					amount = 20
+				}
+			}
+			89 = {
+				add_resource = {
+					type = aluminium
+					amount = 10
+				}
+			}
 		}
 	}
 	
@@ -205,16 +227,26 @@ focus_tree = {
 		
 		prerequisite = { focus = GTR_focus_project_1 }
 		
-		available = { always = no }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GTR_prev_stages_done
+				
+				has_country_flag = stage1_done
+				has_country_flag = stage2_done
+			}
+		}
 		
-		cost = 0 
+		cost = 3 
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
-			
+			country_event = {
+				id = GTR_event.6
+				random_hours = 12
+			}
 		}
 	}
 	
@@ -228,16 +260,17 @@ focus_tree = {
 		
 		prerequisite = { focus = GTR_focus_stage_3 }
 		
-		available = { always = no }
-		
-		cost = 0 
+		cost = 3 
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = l_GTR_adds_progress_stage3
+			hidden_effect = {
+				add_to_variable = { var_GTR_weekly_progress_stage3 = 2 }
+			}
 		}
 	}
 	
@@ -251,16 +284,17 @@ focus_tree = {
 		
 		prerequisite = { focus = GTR_focus_mix_it_up }
 		
-		available = { always = no }
-		
-		cost = 0
+		cost = 3
 		
 		ai_will_do = {
 			base = 5
 		}
 		
 		completion_reward = {
-			
+			custom_effect_tooltip = l_GTR_adds_progress_stage3
+			hidden_effect = {
+				add_to_variable = { var_GTR_weekly_progress_stage3 = 2 }
+			}
 		}
 	}
 	
@@ -275,9 +309,17 @@ focus_tree = {
 		prerequisite = { focus = GTR_focus_get_digging }
 		prerequisite = { focus = GTR_focus_get_the_oven_ready }
 		
-		available = { always = no }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GTR_all_stages_done
+				
+				has_country_flag = stage1_done
+				has_country_flag = stage2_done
+				has_country_flag = stage3_done
+			}
+		}
 		
-		cost = 0 
+		cost = 5 
 		
 		ai_will_do = {
 			base = 5

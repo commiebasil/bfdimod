@@ -498,4 +498,9 @@ spriteTypes = {
 		name = "GFX_decisions_GTR_project_1_image_done"
 		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_image_done.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project_1_notif_bg"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_notif_bg.dds"
+	}
 }

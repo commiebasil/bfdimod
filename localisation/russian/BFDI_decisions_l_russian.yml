@@ -146,3 +146,6 @@
  decisions_GTR_project1_stage3_title: "СТАДИЯ 3: §tСБОРКА§!"
  decisions_GTR_project1_stage3_desc: "Все приготовления сделаны.\n\nСейчас или никогда, мы вытащим §7Гойки§! из пучины кризиса и анархии. §RОбъединим ингредиенты.§!"
  decisions_GTR_project1_stage3_progress_weekly: "Еженедельный прогресс: §t[?var_GTR_weekly_progress_stage3]%§!"
+ GTR_project1_notif_title: "Стадия Завершена!"
+ GTR_project1_notif_desc: "Похоже, в §4Проекте§! наблюдается прогресс!\n\nПроверьте своё окно решений!"
+ GTR_project1_notif_button: "Окей"
