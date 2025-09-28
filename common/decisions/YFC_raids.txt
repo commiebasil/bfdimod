@@ -1,23 +1,20 @@
 decision_YFC_raids_category = {
-	YFC_raid_state_24 = {
+	YFC_raid_state_201 = {
 		icon = GFX_decision_generic_confiscation
 		state_target = yes
-        targets = { state = 24 }
+        targets = { state = 24 214 }
         on_map_mode = map_only
         
 		visible = {
 			controls_state = 201
-			NOT = {
-				controls_state = 24
-			}
+			NOT = {controls_state = FROM}
 			has_border_war = no
 			has_war = no
 		}
 
 		fire_only_once = no
 		cost = 25
-		days_re_enable = 60
-
+		days_re_enable = 45
 
 		complete_effect = {
 			24 = {
@@ -38,10 +35,10 @@ decision_YFC_raids_category = {
      				terrain_factor = 0.5
 				}	
 				defender = {
-					state = 24
+					state = FROM
 					num_provinces = 1
 					on_win = YFC_borderwars.3
-					on_lose =YFC_borderwars.4
+					on_lose = YFC_borderwars.4
 					dig_in_factor = 2
 				}
 			}
@@ -63,71 +60,7 @@ decision_YFC_raids_category = {
 		}
 	}
 
-    YFC_raid_state_214 = {
-		icon = GFX_decision_generic_confiscation
-		state_target = yes
-        targets = { state = 214 }
-        on_map_mode = map_only
-        
-		visible = {
-			controls_state = 201
-			NOT = {
-				controls_state = 214
-			}
-			has_border_war = no
-			has_war = no	
-		}
-
-		fire_only_once = no
-		cost = 25
-		days_re_enable = 75
-
-
-		complete_effect = {
-			214 = {
-				damage_building = {
- 					type = infrastructure
-  					damage = 0.25
-				}
-			}
-
-			start_border_war = {
-				change_state_after_war = no
-				attacker = {
-					state = 201
-					num_provinces = 1
-					on_win = YFC_borderwars.1
-					on_lose = YFC_borderwars.2
-					modifier = 0.15
-     				terrain_factor = 0.5
-				}	
-				defender = {
-					state = 214
-					num_provinces = 1
-					on_win = YFC_borderwars.3
-					on_lose =YFC_borderwars.4
-					dig_in_factor = 2
-				}
-			}
-		}
-
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				has_political_power > 25
-			}
-			modifier = {
-				add = -10
-				AND = {
-					214 = {controller = {is_ai = no}}
-					214 = {controller = {has_war = yes}}
-				}
-			}
-		}
-	}
-
-    YFC_raid_state_210 = {
+	YFC_raid_state_214 = {
 		icon = GFX_decision_generic_confiscation
 		state_target = yes
         targets = { state = 210 }
@@ -135,19 +68,17 @@ decision_YFC_raids_category = {
         
 		visible = {
 			controls_state = 214
-			NOT = {
-				controls_state = 210
-			}
+			NOT = {controls_state = FROM}
 			has_border_war = no
-			has_war = no	
+			has_war = no
 		}
 
 		fire_only_once = no
 		cost = 25
-		days_re_enable = 75
+		days_re_enable = 45
 
 		complete_effect = {
-			210 = {
+			24 = {
 				damage_building = {
  					type = infrastructure
   					damage = 0.25
@@ -165,7 +96,7 @@ decision_YFC_raids_category = {
      				terrain_factor = 0.5
 				}	
 				defender = {
-					state = 210
+					state = FROM
 					num_provinces = 1
 					on_win = YFC_borderwars.3
 					on_lose =YFC_borderwars.4
@@ -183,8 +114,8 @@ decision_YFC_raids_category = {
 			modifier = {
 				add = -10
 				AND = {
-					210 = {controller = {is_ai = no}}
-					210 = {controller = {has_war = yes}}
+					24 = {controller = {is_ai = no}}
+					24 = {controller = {has_war = yes}}
 				}
 			}
 		}
