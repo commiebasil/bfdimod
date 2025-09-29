@@ -1,0 +1,9 @@
+characters = {
+	UGA_mammal_bone = {
+		name = UGA_mammal_bone
+		portraits = { civilian = { large = GFX_UGA_mammal_bone } }
+		country_leader = {
+			ideology = primalism
+		}
+	}
+}

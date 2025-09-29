@@ -570,6 +570,27 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = bfdinews.27
+	title = bfdinews.27.t
+	desc = bfdinews.27.desc
+	picture = GFX_bfdinews27
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = bfdinews.26.a
+		if = {
+			limit = { UGA = { is_ai = no } }
+			set_variable = { var_demo_end = 9 }
+			set_global_flag = demo_ended
+		}
+	}
+	
+}
+
 #City Fall events#
 
 news_event = {

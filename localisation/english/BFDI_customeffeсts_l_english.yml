@@ -151,9 +151,14 @@
  
  l_GTR_project1_start: "Work on the §4Project #1§! begins.\n\n§tCheck your decisions tab!§!"
  l_GTR_adds_progress_stage1: "Speeds up §3Research work§! on The Project!"
- l_GTR_adds_progress_stage2: "Speeds up §YResource extraction§! for The Project!"
+ l_GTR_adds_progress_stage2: "Speeds up §9Resource extraction§! for The Project!"
  l_GTR_adds_progress_stage3: "Speeds up §tThe Final Stage§! of The Project!"
-
+ l_GTR_slowdown_stage1: "Slows down §3Research work§! on The Project!"
+ l_GTR_slowdown_stage2: "Slows down §9Resource extraction§! for The Project!"
+ l_GTR_slowdown_stage3: "Slows down §tThe Final Stage§! of The Project!"
+ l_GTR_resources_requisition: "Adds §710%§! progress to §YThe Second Stage§!"
+ l_GTR_opens_requistion: "Allows §tRequisition§!."
+ l_GTR_outbreak: "§tThere will be catastrophical consequences.§!"
 
  l_money_gain_300K: "Gain §G300K Dollars§!"
 

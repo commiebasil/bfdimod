@@ -57,6 +57,9 @@
  cultism:0 "Cultism"
  cultism_desc:0 "Cultism is a general word that characterizes ideological movements that arose on the outskirts of the Evil Forest. Absolute worship of one's idol and extreme cruelty are their common characteristics."
  
+ primalism: "Primitive Society"
+ primalism_desc: "Laws of the Jungles are ruling over this community. No place for science."
+ 
  technocratism:0 "Technocracy"
  technocratism_desc:0 "This state's main goal is enhance society through social and especially technological innovation. Science, Technology, Engineering, and Math all come together to form states like these."
  

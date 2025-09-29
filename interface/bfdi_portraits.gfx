@@ -282,4 +282,9 @@ spriteTypes = {
 		name = "GFX_DAV_king_david"
 		texturefile = "gfx/leaders/DAV/DAV_king_david.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_UGA_mammal_bone"
+		texturefile = "gfx/leaders/UGA/UGA_mammal_bone.dds"
+	}
 }

@@ -15,6 +15,11 @@ country_event = {
 			set_country_flag = project1_mechanic_started
 			complete_national_focus = GTR_focus_project_1
 			mark_focus_tree_layout_dirty = yes
+			country_event = {
+				id = GTR_event.7
+				days = 5
+				random_hours = 12
+			}
 		}
 	}
 }
@@ -74,6 +79,10 @@ country_event = {
 			remove_core_of = EMP
 			set_demilitarized_zone = no
 		}
+		add_days_mission_timeout = {
+			mission = GTR_project1_outbreak_mission
+			days = 30
+		}
 	}
 }
 
@@ -87,5 +96,91 @@ country_event = {
 	
 	option = {
 		name = GTR_event.6.a
+	}
+}
+
+country_event = {
+	id = GTR_event.7
+	title = GTR_event.7.t
+	desc = GTR_event.7.desc
+	picture = GFX_GTR_event7
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GTR_event.7.a
+		activate_mission = GTR_project1_outbreak_mission
+	}
+}
+
+country_event = {
+	id = GTR_event.8
+	title = GTR_event.8.t
+	desc = GTR_event.8.desc
+	picture = GFX_GTR_event8
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GTR_event.8.a
+		custom_effect_tooltip = l_GTR_its_over_sob
+		hidden_effect = {
+			89 = {
+				transfer_state_to = UGA
+				add_core_of = UGA
+				remove_core_of = GTR
+			}
+			209 = {
+				transfer_state_to = UGA
+				add_core_of = UGA
+				remove_core_of = GTR
+			}
+			77 = {
+				transfer_state_to = UGA
+				add_core_of = UGA
+				remove_core_of = GTR
+				remove_core_of = EMP
+				set_demilitarized_zone = no
+			}
+			94 = {
+				transfer_state_to = UGA
+				add_core_of = UGA
+				remove_core_of = EMP
+				set_demilitarized_zone = no
+			}
+			82 = {
+				transfer_state_to = UGA
+				add_core_of = UGA
+				remove_core_of = EMP
+				set_demilitarized_zone = no
+			}
+			75 = {
+				transfer_state_to = UGA
+				add_core_of = UGA
+				remove_core_of = EMP
+				set_demilitarized_zone = no
+			}
+			if = {
+				limit = { is_ai = no }
+				UGA = { change_tag_from = ROOT }
+			}
+			every_possible_country = {
+				limit = {
+					OR = {
+						is_ai = no
+						tag = UGA
+					}
+				}
+				news_event = {
+					id = bfdinews.27
+					days = 5
+					random_hours = 12
+				}
+			}
+			set_province_name = {
+				id = 3545
+				name = UNIVERSITY_DESTROYED
+			}
+		}
 	}
 }

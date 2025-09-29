@@ -155,6 +155,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.05
 			custom_effect_tooltip = l_GTR_adds_progress_stage2
+			custom_effect_tooltip = l_GTR_opens_requistion
 			hidden_effect = {
 				add_to_variable = { var_GTR_weekly_progress_stage2 = 2 }
 			}
@@ -213,6 +214,10 @@ focus_tree = {
 					type = aluminium
 					amount = 10
 				}
+			}
+			custom_effect_tooltip = l_GTR_adds_progress_stage2
+			hidden_effect = {
+				add_to_variable = { var_GTR_weekly_progress_stage2 = 2 }
 			}
 		}
 	}

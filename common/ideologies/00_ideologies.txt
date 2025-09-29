@@ -188,6 +188,9 @@ ideologies = {
 			
 			cultism = {
 			}
+			
+			primalism = {
+			}
 		}
 
 		dynamic_faction_names = {
