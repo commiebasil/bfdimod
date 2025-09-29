@@ -1340,7 +1340,7 @@ focus_tree = {
 			217 = {add_compliance = 20} 
 			218 = {add_compliance = 20}
 			hidden_effect = {
-				set_variable = { var_foster_BUN_support = 10 } #High but can't rise quickly
+				set_variable = { var_foster_BUN_support = 15 } #High but can't rise quickly
 				set_variable = { var_foster_YFC_support = 1 }
 				set_variable = { var_foster_CRN_support = 1 }
 			}

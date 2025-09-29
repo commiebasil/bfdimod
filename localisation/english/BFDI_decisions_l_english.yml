@@ -160,15 +160,14 @@
  yfc_mercenaries_strong: "Purchase §2Unnamed Mercenary Brotherhood§!"
 
  decision_YFC_raids_category: "Raids for the wealth." #You can't even see it :sob:
- YFC_raid_state_24: "Commit a Raid!"
  YFC_raid_state_214: "Commit a Raid!"
- YFC_raid_state_210: "Commit a Raid!"
+ YFC_raid_state_201: "Commit a Raid!"
  YFC_raid_run_backwards_desc: "If our raid becomes too costly, withdrawing is not a bad choice..."
 
  decision_YFC_foster_category: "Fostering A New Bunch"
- decision_YFC_foster_category_desc: "Something bla bla I'll get an idea later xd"
+ decision_YFC_foster_category_desc: "Something bla bla I'll get an idea later xd \n§RCURRENT ERASER SUPPORT:§! [?var_foster_BUN_support|Y1]\n§YCURRENT YELLOWFACE SUPPORT:§! [?var_foster_YFC_support|Y1]\n§7CURRENT NUMISMATIA SUPPORT:§! [?var_foster_CRN_support|Y1]"
  YFC_foster_Countdown: "§RElection§! Countdown!"
- YFC_foster_propaganda: "Create Pro-YellowFace §GPropaganda§!"
+ YFC_foster_propaganda: "Create §GPro-YellowFace Propaganda§!"
  YFC_foster_Infrastructure: "Build §GInfrastructure§!"
 
  decision_YFC_BUN_category: "Breaking The Bunch"
