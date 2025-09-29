@@ -6,7 +6,10 @@ state={
 	history={
 		owner = DAV
 		add_core_of = DAV
-
+		victory_points = { 6361 11 }
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={

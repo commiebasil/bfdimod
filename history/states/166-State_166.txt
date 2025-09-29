@@ -7,9 +7,21 @@ state={
 	history = {
 		owner = DAV
 		add_core_of = DAV
+		victory_points = { 341 32 }
+		victory_points = { 4391 12 }
+		victory_points = { 2179 14 }
+		victory_points = { 11857 7 }
+		buildings = {
+            infrastructure = 4
+            industrial_complex = 3
+			arms_factory = 3
+			4391 = { naval_base = 4 }
+			2179 = { naval_base = 6 }
+			11857 = { naval_base = 1 }
+        }
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 	local_supplies=0.000
 }

@@ -42,6 +42,7 @@ decisions_BFDI_debug = {
         }
         complete_effect = {	
 			custom_effect_tooltip = tt_GOI_debug_1
+			country_lock_all_division_template = no
 			hidden_effect = {
 				every_country = {
 					limit = { 
@@ -52,6 +53,7 @@ decisions_BFDI_debug = {
 							tag = GOI
 						}
 					}
+					country_lock_all_division_template = no
 					add_timed_idea = {
 						idea = idea_debug_battle_royale
 						days = 1000
@@ -108,6 +110,7 @@ decisions_BFDI_debug = {
         }
         complete_effect = {	
 			custom_effect_tooltip = tt_GOI_debug_2
+			country_lock_all_division_template = no
 			hidden_effect = {
 				add_timed_idea = {
 					idea = idea_debug_battle_royale
@@ -117,6 +120,7 @@ decisions_BFDI_debug = {
 					create_faction = "United Goiky"
 				}
 				every_other_country = {
+					country_lock_all_division_template = no
 					limit = { 
 						NOT = {
 							tag = EMP

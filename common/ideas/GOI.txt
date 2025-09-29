@@ -38,13 +38,15 @@ ideas = {
 			picture = ARG_envoy_to_london
 			modifier = {
 				mobilization_speed = 5
-				surrender_limit = 1
-				production_factory_efficiency_gain_factor = 0.3
+				surrender_limit = 0.1
+				production_factory_efficiency_gain_factor = 0.35
 				training_time_army_factor = -0.5
 				war_support_factor = 0.2
 				weekly_manpower = 500
 				out_of_supply_factor = -0.25
 				conscription = 0.75
+				equipment_capture = 0.25
+				compliance_growth = 1
 				ai_desired_divisions_factor = 2
 				ai_focus_aggressive_factor = 0.5
 			}
