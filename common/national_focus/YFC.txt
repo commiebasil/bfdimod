@@ -51,7 +51,7 @@ focus_tree = {
 
 		prerequisite = { focus = YFC_focus_consolidate_power }
 
-		cost = 4
+		cost = 5
 		#opens the trade menu, in decisions tab
 		#basically, just lets you choose who to send resources to, what to send, and tells you what other countries want, and are offering in exchange
 		completion_reward = {
@@ -74,7 +74,7 @@ focus_tree = {
 
 		prerequisite = { focus = YFC_focus_open_the_market }
 
-		cost = 4
+		cost = 5
 		#opens the sectors decisions tab
 		#allows you to choose how much of each thing you produce, however letting a sector get too much power could lead to dire circumstances..
 		#Military sector: Top Hat; Railing sector: Pipe; Scientific sector: Beaker; Construction Sector: Hammer; Electronics Sector: Taser
@@ -337,7 +337,7 @@ focus_tree = {
 
 		prerequisite = { focus = YFC_focus_demand_end_pillage }
 		
-		cost = 3
+		cost = 4
 		completion_reward = {
 			add_opinion_modifier = { target = CRN modifier = large_increase }
 			every_country_with_original_tag = {
@@ -366,7 +366,7 @@ focus_tree = {
 			has_completed_focus = YFC_focus_money_arms_capital
 		}
 		#this and the following focus give you bonuses to the amount you can export in the trade decisions tab until war is declared on the bunch, though it costs a hit in the amount of research slots the GTR is willing to sell. also decreases mils by one
-		cost = 3
+		cost = 5
 
 		completion_reward = {
 			
@@ -387,7 +387,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_sell_them_guns }
 		mutually_exclusive = { focus = YFC_focus_demand_end_pillage }
 		
-		cost = 2
+		cost = 3
 		completion_reward = {
 			set_cosmetic_tag = YFC_raiders
 			YFC = { give_guarantee = BUN }
@@ -428,7 +428,7 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_YFC_open_foreign_policy
 		prerequisite = { focus = YFC_focus_the_southern_bandits }
-		cost = 4
+		cost = 5
 		completion_reward = {
 			every_country = {
 				limit = { has_government = communism }
@@ -463,7 +463,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_the_southern_bandits }
 		prerequisite = { focus = YFC_focus_open_foreign_policy }
 		mutually_exclusive = { focus = YFC_focus_YFC_funded_pillaging }
-		cost = 2
+		cost = 3
 		completion_reward = {
 			add_opinion_modifier = { target = BUN modifier = large_decrease }
 			every_country_with_original_tag = {
@@ -560,7 +560,7 @@ focus_tree = {
 		allow_branch = { has_completed_focus = YFC_focus_demand_end_pillage }
 		prerequisite = { focus = YFC_focus_demand_end_pillage }
 		#buffs the bonus given by trading with coiny
-		cost = 3
+		cost = 4
 		completion_reward = {
 			add_command_power = 25
 		}
@@ -584,7 +584,7 @@ focus_tree = {
 		
 		prerequisite = { focus = YFC_focus_coiny_cooperation }
 		#allows you to exploit coiny's military factories, selling coiny's guns instead of yours, so you dont lose military factories, in exchange, buffs from coiny are less potent
-		cost = 2
+		cost = 4
 		completion_reward = {
 
 		}
@@ -606,7 +606,7 @@ focus_tree = {
             }
 		}
 
-		cost = 4
+		cost = 5
 		completion_reward = {
 			subtract_from_variable = { money_amount = 1 }
 			custom_effect_tooltip = l_YFC_foreign_advisor
@@ -678,7 +678,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = YFC_focus_YFC_funded_pillaging }
 		allow_branch = { has_completed_focus = YFC_focus_YFC_funded_pillaging }
-		cost = 3
+		cost = 5
 		#replace tophat with blocky as head of the military sector
 		#give short event
 		completion_reward = {
@@ -699,7 +699,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = YFC_focus_YFC_funded_pillaging }
 		allow_branch = { has_completed_focus = YFC_focus_YFC_funded_pillaging }
-		cost = 3
+		cost = 5
 		#give short event about pen's debt, and how yellow face believes he should spend his life paying it back with labor
 		#eraser and blocky think he should have his debt forgiven
 		completion_reward = {
@@ -720,7 +720,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = YFC_focus_YFC_funded_pillaging }
 		allow_branch = { has_completed_focus = YFC_focus_YFC_funded_pillaging }
-		cost = 3
+		cost = 5
 		#gives event about Eraser training our soldiers to be prepared for raids
 		#gives national spirit called "Show No Mercy" that gives higher attack on non-core, speed, recovery/moral and recruitable pop, but lower defense, lower non-core manpower, higher resistance, and lower compliance
 		completion_reward = {
@@ -738,9 +738,8 @@ focus_tree = {
 		x = 1
 		y = 1
 		icon = GFX_focus_YFC_a_raid_o3
-		prerequisite = { focus = YFC_focus_erasers_training }
-		prerequisite = { focus = YFC_focus_promote_blocky }
-		cost = 5
+		prerequisite = { focus = YFC_focus_promote_blocky focus = YFC_focus_erasers_training }
+		cost = 7
 		#opens up decisions to raid nations, obv gives event because i LOVE making events
 		#decisions are only shown on map so it doesnt flood the actual tab
 		#also raids are just border wars that give events after completion, if it was successful, it gives a success event, and pressing its button gives you a random amount of things (guns, arty, civs, you get it) 
@@ -765,7 +764,7 @@ focus_tree = {
 			}
 		}
 		allow_branch = { has_completed_focus = YFC_focus_YFC_funded_pillaging }
-		cost = 3
+		cost = 5
 		#gives an event about wanting to subjugate the crn, with the event starting an event chain, in which you have to make the right choices. 
 		#each event in the chain gives you the ability to choose between subjugation through violence or subjugation through diplomacy, and in a year the yfc either puppet them if you chose mainly diplomatic events, or declare war on them if you mainly chose violence
 		completion_reward = {
@@ -964,6 +963,7 @@ focus_tree = {
 		#after an event you get from "the economic issue" if you choose to focus on industrializing, you get this branch
 		completion_reward = {
 			hidden_effect = {
+				mark_focus_tree_layout_dirty = yes
 				set_variable = { var_YFC_upgrade_level = 0 }
 			}
 		}
@@ -1197,7 +1197,7 @@ focus_tree = {
 		#9	develop yoyleton -> peoniele the second city -> chose large dev (event about large profits, happy sectorials, but mad peoniele populace)
 		completion_reward = {
 		
-			#Turns out population gain does not work as state modifier (why idk) so I'll have to think up a plan B
+			#Okay new idea use % of current pop = 500K > 50% > 250%
 
 			custom_effect_tooltip = l_YFC_POP
 			hidden_effect = {
@@ -1406,7 +1406,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_foster_new_society }
 		cost = 5
 		completion_reward = {
-			#Open decsions to invest into bunch, costs money and maybe manpower but increases influence
+			
 		}
 	}
 
@@ -1440,6 +1440,7 @@ focus_tree = {
 		#Idea: Increases influence of Hammer and Taser
 
 		completion_reward = {
+			#300K Fine?
 			add_political_power = 25
 		}
 	}
@@ -1453,20 +1454,19 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_establish_law_presence }
 		cost = 5
 		completion_reward = {
+			set_temp_variable = { 85POP = 85.state_population_k }
+			multiply_temp_variable = {85POP = 100} 
 			85 = {
-				add_dynamic_modifier = {
-					modifier = minor_population_boost
-					days = 360
-				}
+				add_manpower = 85POP
 				add_compliance = 5
 			}
+			set_temp_variable = { 212POP = 212.state_population_k }
+			multiply_temp_variable = {212POP = 100} 
 			212 = {
-				add_dynamic_modifier = {
-					modifier = minor_population_boost
-					days = 360
-				}
+				add_manpower = 212POP
 				add_compliance = 5
 			}
+			add_to_variable = { var_foster_YFC_support = 1 }
 		}
 	}
 
@@ -1479,7 +1479,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_allow_people_enter focus = YFC_focus_free_pows }
 		cost = 5
 		completion_reward = {
-			#What does this mean?
+			#What does this mean??
 		}
 	}
 
@@ -1494,7 +1494,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
 		cost = 5
 		completion_reward = {
-			#What does this mean?
+			#What does this mean??
 		}
 	}
 
@@ -1736,7 +1736,6 @@ focus_tree = {
 		cost = 5
 		#automatically completes a little bit after you finish the break diplomacy thingy
 		#gives event abt the sectorials being in big turmoil over the change of government
-		#starts hidden 180 day timer to the yoyleton uprising
 		completion_reward = {
 			#How long till it autocompletes?
 			#Since their is still the CRN stuff
@@ -1759,7 +1758,6 @@ focus_tree = {
 		#opens up the siding with the military path (IMPOSSIBLE if blocky is the sectorial for the military)
 		#nother event
 		#you have a stronger military for the uprising but are more prone to economic crashes and will likely lose money
-		#completes with 159 days left until uprising
 		completion_reward = {
 			
 		}
@@ -1784,7 +1782,6 @@ focus_tree = {
 
 		cost = 3
 		#allows the player to chose a merc group to stick with (pay for recurringly), and unlocks the grapes and cherries, letting the player improve those mercs in a seperate mini-branch
-		#finishes with either 138, 107, or 96 days until the uprising fires
 		completion_reward = {
 			#Okay okay so I might now do a middle ground plan where the player picks for which merc group to stick with BUT removes the buying part and keeps the units permanently
 			#Seasoned grants 8 divs while the other two grant 6 divs
@@ -1810,9 +1807,9 @@ focus_tree = {
 
 		cost = 3
 		#rises popularity of military sector, removes some political power and a bit of money
-		#finishes with either 138, 107, or 96 days until the uprising fires
 		completion_reward = {
 			#Would this prevent the high sector influence penalty?
+			#New: Yes
 		}
 	}
 
@@ -1836,7 +1833,6 @@ focus_tree = {
 		cost = 3
 		#gives event talking about beaker and tophat working together behind the scenes
 		#gives some stability, gives free research on some random tech idc
-		#finishes with either 138, 107, or 96 days until the uprising fires
 		completion_reward = {
 			
 		}
@@ -1855,10 +1851,7 @@ focus_tree = {
 
 		cost = 4
 		#gives spirit that makes all troops faster, hidden effect that makes snowball send divs to help you with yoyleton uprising
-		#finishes with 68 days until yoyleton uprising
 		completion_reward = {
-			#Why would snowball help?
-			#Also snowball might still be dealing with their internal issues or just collapse so maybe an event or something???
 			#Also reich goes into anti-partisan tatics so maybe less supply use or something instead? 
 		}
 	}
@@ -1877,9 +1870,9 @@ focus_tree = {
 
 		cost = 4
 		#gives spirit that makes troops do more damage, gives 50 army exp and 2x 50% cost reductions to superior firepower army research thingy
-		#finishes with 68 days until yoyleton uprising
 		completion_reward = {
 			#How about +5% army attack or somthing?
+			#New: Sounds good
 		}
 	}
 
@@ -1895,9 +1888,9 @@ focus_tree = {
 
 		cost = 5
 		#nother event about him gaining more support, with the help of beaker
-		#finishes with like 33 days until the yoyleton uprising
 		completion_reward = {
 			#More support how?
+			#New: Lore stuff
 		}
 	}
 
@@ -1936,7 +1929,6 @@ focus_tree = {
 		cost = 3
 		#opens up the crazy YF path
 		#you have more money and the uprising will be smaller, but the military will be weaker
-		#completes with 159 days left until uprising
 		completion_reward = {
 			
 		}

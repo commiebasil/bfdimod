@@ -336,6 +336,7 @@ country_event = {
 	option = { 
 		name = YFC_event.12.a 
 		complete_national_focus = YFC_focus_industrialize_or_die
+		
 	}
 	option = { 
 		name = YFC_event.12.b
@@ -3212,5 +3213,64 @@ country_event = { #YFC_focus_remove_oligarchical_sentiment
 		add_stability = -0.01
 		85 = {add_resistance = -5}
 		212 = {add_compliance = -5}
+	}
+}
+
+country_event = { #Election BUN Wins!
+	id = YFC_BUN.25 
+	title = YFC_BUN.25.t
+	desc = YFC_BUN.25.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.25.a
+		BUN = {
+			transfer_state = 85
+			transfer_state = 212
+			transfer_state = 217
+			transfer_state = 218
+		}
+	}
+}
+
+country_event = { #Election YFC Wins!
+	id = YFC_BUN.26 
+	title = YFC_BUN.26.t
+	desc = YFC_BUN.26.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.26.a
+		BUN = {
+			transfer_state = 85
+			transfer_state = 212
+			transfer_state = 217
+			transfer_state = 218
+		}
+		YFC = {puppet = BUN}
+	}
+}
+
+country_event = { #Election CRN Wins!
+	id = YFC_BUN.27 
+	title = YFC_BUN.27.t
+	desc = YFC_BUN.27.desc
+	picture = GFX_Temp_event
+
+	is_triggered_only = yes
+
+	option = {
+		name = YFC_BUN.27.a
+		BUN = {
+			transfer_state = 85
+			transfer_state = 212
+			transfer_state = 217
+			transfer_state = 218
+		}
+		CRN = {puppet = BUN}
 	}
 }

@@ -7,16 +7,34 @@ decision_YFC_foster_category = {
 		available = {
 			always = no
 		}
-		icon = GFX_decision_revolt  
+		icon = GFX_decision_generic_form_nation  
 		is_good = yes
 		days_mission_timeout = 400
 		timeout_effect = {
-			#country_event = {id = YFC_BUN.8}
+			IF = {
+				limit = {YFC = {is_ai = no}}
+				add_to_variable = { var_foster_YFC_support = 5 }
+			}
+			IF = {
+				limit = {CRN = {is_ai = no}}
+				add_to_variable = { var_foster_CRN_support = 5 }
+			}
+			random_list = {
+				var_foster_BUN_support = {
+					country_event = {id = YFC_BUN.25 }
+				}
+				var_foster_YFC_support = {
+					country_event = {id = YFC_BUN.26 }
+				}
+				var_foster_CRN_support = {
+					country_event = {id = YFC_BUN.27 }
+				}
+			}
 		}
 	}
 
 	YFC_foster_propaganda = { 
-		icon = GFX_decision_infiltrate_state
+		icon = GFX_decision_eng_propaganda_campaigns
       
 		visible = {
 			has_completed_focus = YFC_focus_support_blocky
@@ -26,7 +44,7 @@ decision_YFC_foster_category = {
 		fire_only_once = no
 		cost = 50
 		days_remove = 30
-		days_re_enable = 30
+		days_re_enable = 15
 
 		remove_effect = {
 			hidden_effect = {
@@ -58,7 +76,7 @@ decision_YFC_foster_category = {
 
 		fire_only_once = yes
 
-		cost = 60
+		cost = 25
 		days_remove = 60
 
 		remove_effect = {

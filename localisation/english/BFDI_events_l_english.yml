@@ -717,33 +717,7 @@
  YFC_borderwars.4.desc: "The city is red. Roads, the sides of buildings, cars, parks, lights, windows, all stained with red. The raiders came last night, they stole, killed, burned, then left. No one expected them, and by the time soldiers arrived to defend, it was far too late. So many people are dead. So many."
  YFC_borderwars.4.a: "We can't let this happen again."
 
- YFC_borderwars.11.t: "Successful Jailbreak!"
- YFC_borderwars.11.desc: "Our forces were able to overwhelm the guards at the work camp and freed the objects being held there. Many escaped with our forces and joined our ranks. They have already taught our generals new skills in raiding and combat. The mine was also razed by our forces as they were leaving."
- YFC_borderwars.11.a: "Different ideologies, but great skills!"
-
- YFC_borderwars.12.t: "Unsuccessful Jailbreak!"
- YFC_borderwars.12.desc: "Our forces attempted to clear the work camps of enemy guards, but were overwhelmed and forced to flee from the overwhelming defences. The mines were damaged in the fighting, but the anarchists were failed to be freed and most of our forces were lost."
- YFC_borderwars.12.a: "Such 'skills' were not needed anyway..."
-
- YFC_borderwars.13.t: "Reports from The Great Ridge!"
- YFC_borderwars.13.desc: "It's unclear what is happening, but due to failed defences in the north the Yellow Face Raiders have attacked one of the work camps. Those traitorous anarchists might have escaped in the fighting and the mines may be damaged. This disaster has set us back a bit."
- YFC_borderwars.13.a: "We cannot allow more attacks to happen!"
-
- YFC_borderwars.14.t: "Heist of the Year!"
- YFC_borderwars.14.desc: "Our forces were able to reach the station and seize it. It was clear that the administration was not expecting a raid that deep into their lands. The trains were robbed and railed quickly into our lands. The station was also set on fire as we were leaving."
- YFC_borderwars.14.a: "No longer running on time!"
-
- YFC_borderwars.15.t: "Robbery gone wrong!"
- YFC_borderwars.15.desc: "As our forces entered the station, they were ambushed by both soldiers and police. It was clear that the administration was ready for our entry and brought forces. After an hour-long engagement, our forces fled and failed to take any of the trains in the station. The only good news was that the station and nearby rails were damaged in the process."
- YFC_borderwars.15.a: "Cops called."
-
- YFC_borderwars.16.t: "Chaos at the Great Goiky Railroad Head Station!"
- YFC_borderwars.16.desc: "Various reports have arrived to us that armed objects entered the station and attacked. Many of the trains have either been stolen or damaged in the fighting. The bandits had left a few hours ago, but the station and nearby rail have been heavily damaged."
- YFC_borderwars.16.a: "We should prevent more raids from happening!"
-
 # YFC_BUN
-
-# imma write these since it will 10000 years before we are done, if these suck ass then go rewrite or something else idk 
 
  YFC_BUN.1.t: "Picking the Cards"
  YFC_BUN.1.desc: "It has been a few weeks since Eraser and his gang of bandits were defeated and captured. Most capital stored in camps and buildings have been looted and taken to our capital. For us, the main threat is now gone.\n\nOr is it...? \n\nShockingly, the small population is not happy with our occupation and maintaining control is hard. Some in Yoyleton say that the company 'isn't cut out for this government stuff'. It does not help that the majority of the bandits were unfortunately not captured by our forces. Discussions have been going on in those said weeks over what to do with our occupied lands. Some say that we rightfully earned the former-Bunchivist land, and should take it for ourselves, while others want to try to make an ally out of the enemy. However, debates quickly became heated when Numismatia sent us telegram, with which they requested our outlook on what should be done with the former Bunch lands. With much 'polite' banter being thrown around at sectorial discussion tables and the like, it is now clear what we shall do."
