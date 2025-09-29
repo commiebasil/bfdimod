@@ -717,7 +717,33 @@
  YFC_borderwars.4.desc: "The city is red. Roads, the sides of buildings, cars, parks, lights, windows, all stained with red. The raiders came last night, they stole, killed, burned, then left. No one expected them, and by the time soldiers arrived to defend, it was far too late. So many people are dead. So many."
  YFC_borderwars.4.a: "We can't let this happen again."
 
+ YFC_borderwars.11.t: "Successful Jailbreak!"
+ YFC_borderwars.11.desc: "Our forces were able to overwhelm the guards at the work camp and freed the objects being held there. Many escaped with our forces and joined our ranks. They have already taught our generals new skills in raiding and combat. The mine was also razed by our forces as they were leaving."
+ YFC_borderwars.11.a: "Different ideologies, but great skills!"
+
+ YFC_borderwars.12.t: "Unsuccessful Jailbreak!"
+ YFC_borderwars.12.desc: "Our forces attempted to clear the work camps of enemy guards, but were overwhelmed and forced to flee from the overwhelming defences. The mines were damaged in the fighting, but the anarchists were failed to be freed and most of our forces were lost."
+ YFC_borderwars.12.a: "Such 'skills' were not needed anyway..."
+
+ YFC_borderwars.13.t: "Reports from The Great Ridge!"
+ YFC_borderwars.13.desc: "It's unclear what is happening, but due to failed defences in the north the Yellow Face Raiders have attacked one of the work camps. Those traitorous anarchists might have escaped in the fighting and the mines may be damaged. This disaster has set us back a bit."
+ YFC_borderwars.13.a: "We cannot allow more attacks to happen!"
+
+ YFC_borderwars.14.t: "Heist of the Year!"
+ YFC_borderwars.14.desc: "Our forces were able to reach the station and seize it. It was clear that the administration was not expecting a raid that deep into their lands. The trains were robbed and railed quickly into our lands. The station was also set on fire as we were leaving."
+ YFC_borderwars.14.a: "No longer running on time!"
+
+ YFC_borderwars.15.t: "Robbery gone wrong!"
+ YFC_borderwars.15.desc: "As our forces entered the station, they were ambushed by both soldiers and police. It was clear that the administration was ready for our entry and brought forces. After an hour-long engagement, our forces fled and failed to take any of the trains in the station. The only good news was that the station and nearby rails were damaged in the process."
+ YFC_borderwars.15.a: "Cops called."
+
+ YFC_borderwars.16.t: "Chaos at the Great Goiky Railroad Head Station!"
+ YFC_borderwars.16.desc: "Various reports have arrived to us that armed objects entered the station and attacked. Many of the trains have either been stolen or damaged in the fighting. The bandits had left a few hours ago, but the station and nearby rail have been heavily damaged."
+ YFC_borderwars.16.a: "We should prevent more raids from happening!"
+
 # YFC_BUN
+
+# imma write these since it will 10000 years before we are done, if these suck ass then go rewrite or something else idk 
 
  YFC_BUN.1.t: "Picking the Cards"
  YFC_BUN.1.desc: "It has been a few weeks since Eraser and his gang of bandits were defeated and captured. Most capital stored in camps and buildings have been looted and taken to our capital. For us, the main threat is now gone.\n\nOr is it...? \n\nShockingly, the small population is not happy with our occupation and maintaining control is hard. Some in Yoyleton say that the company 'isn't cut out for this government stuff'. It does not help that the majority of the bandits were unfortunately not captured by our forces. Discussions have been going on in those said weeks over what to do with our occupied lands. Some say that we rightfully earned the former-Bunchivist land, and should take it for ourselves, while others want to try to make an ally out of the enemy. However, debates quickly became heated when Numismatia sent us telegram, with which they requested our outlook on what should be done with the former Bunch lands. With much 'polite' banter being thrown around at sectorial discussion tables and the like, it is now clear what we shall do."
@@ -981,7 +1007,7 @@
  GTR_event.1.desc: "'It's still not over!' - Golf Ball emotionally shouted in her characteristic voice. Tennis Ball's past words continued to eat at her. The  small problems about stupid bureaucracy and supplies rang through her head. Tennis Ball was likely right about needing proper administration, but who the hell could concern themselves with that when there's a chance to save a whole civilization?! We are on the verge of a breakthrough, we can't worry ourselves over government administration!"
  GTR_event.1.a: "We can still save everything."
  
- GTR_event.2.t: "Blurred Microscope | Event for ZDubbz"
+ GTR_event.2.t: "Blurred Microscope"
  GTR_event.2.desc: "Test Tube's day was quite a bit more challenging than she had anticipated. Working at the tippity top of South Goiky's University Research Facility was already quite challenging, but a small mishap suddenly became the worst part of her day. \nBeing assigned to work with and research small, unicellular organisms today, she of course needed her microscope. Getting it from one of the technology rooms a floor above today's workstation was quick and easy. She returned, and got started on her work. Entering numbers, working through spreadsheets, writing results, all standard stuff for her. Easy stuff, even. \nThough, nearing the end of the day's assignment, she noticed that one result contradicted with another. Something in her head told her to look back at her work, and she did so, for a while. Contradiction after contradiction, she realized the microscope she had been using was faulty. \nYet another set back."
  GTR_event.2.a: "Unfortunate, pay more attention."
  
@@ -990,16 +1016,16 @@
  GTR_event.3.a: "Sounds delicious!"
  
  GTR_event.4.t: "Supply Crisis"
- GTR_event.4.desc: "Golf Ball looked outside from her place in front of the window. In front of her, she saw the glorious campus of South Goiky University. The campus she had helped improved. Wonderful.\nShe nearly forgot to think about the people, outside. Huddled around a stand that was selling bread, they all looked quite upset. Another food shortage, she supposed. It was fine really, there'd been a few in the last months, never lasting more than a week. People could go without eating for a week. \nSuddenly, the lights in her office shut off. Walking into the hallway, she'd realized the entire building lost power."
+ GTR_event.4.desc: "Golfball looked outside from her place in front of the window. In front of her, she saw the glorious campus of South Goiky University. The campus she had helped improved. Wonderful.\nShe nearly forgot to think about the people, outside. Huddled around a stand that was selling bread, they all looked quite upset. Another food shortage, she supposed. It was fine really, there'd been a few in the last months, never lasting more than a week. People could go without eating for a week. \nSuddenly, the lights in her office shut off. Walking into the hallway, she'd realized the entire building lost power."
  GTR_event.4.a: "Maybe we should do something about this..."
  
  GTR_event.5.t: "Greenheart Roses"
  GTR_event.5.desc: "The virgin fields to the south are home to amazing crops from various plant families. For example, the wild roses here lack the characteristic needles on their stems, making them a delight to pick. They possess a wonderful fragrance that permeates the vastness of Greenheart."
  GTR_event.5.a: "Filling up the herbarium."
  
- GTR_event.6.t: "Now or Never"
- GTR_event.6.desc: "The supplies have reached even lower numbers. Despite being able to restore the power to pretty much every building, no doubt to her genius, there were still shortages in every other sector. People were missing food, projects were missing resources, university lessons were even getting canceled. People were dying. Golf Ball clearly couldn't put off working on this issue even longer. People in Announcergrad, which was basically an extension of the campus, were holding demonstrations as well, according to some of the rumors she'd been hearing. No shortage had ever lasted this long before."
- GTR_event.6.a: "We need to do something about this."
+ GTR_event.6.t: "Last Preparations"
+ GTR_event.6.desc: "The supplies have reached even lower numbers. Despite being able to restore the power to pretty much every building, no doubt to her genius, there were still shortages in every other sector. People were missing food, projects were missing resources, university lessons were even getting canceled. People were dying. Golf Ball clearly couldn't put off working on this issue even longer. People in Announcergrad were holding demonstrations as well, according to some of the rumors she'd been hearing. No shortage had ever lasted this long before."
+ GTR_event.6.a: "We need to finish The Project."
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
