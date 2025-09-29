@@ -7,4 +7,8 @@ spriteTypes = {
 		name = GFX_ideology_technocratism
 		textureFile = gfx/interface/ideologies/technocratism.dds
 	}
+	spriteType = {
+		name = GFX_ideology_primalism
+		textureFile = gfx/interface/ideologies/primalism.dds
+	}
 }

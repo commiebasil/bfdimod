@@ -503,4 +503,41 @@ spriteTypes = {
 		name = "GFX_decisions_GTR_project_1_notif_bg"
 		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project_1_notif_bg.dds"
 	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_decisions_GTR_project1_outbreak_mission"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project1_outbreak_mission.dds"
+		noOfFrames = 9
+		animation_rate_fps = 15
+		loadType = "INGAME"
+		transparencecheck = no
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project1_slowdown_stage1_mission"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project1_slowdown_stage1_mission.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project1_slowdown_stage2_mission"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project1_slowdown_stage2_mission.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project1_slowdown_stage3_mission"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project1_slowdown_stage3_mission.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project1_resources_requisition"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project1_resources_requisition.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decisions_GTR_project1_research_reassignments"
+		textureFile = "gfx/interface/decisions/GFX_decisions_GTR_project1_research_reassignments.dds"
+	}
 }

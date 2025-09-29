@@ -106,6 +106,10 @@ DAV = {
 	color = rgb { 172 187 191 }
 	color_ui = rgb { 172 187 191 }
 }
+UGA = {
+	color = rgb { 23 46 25 }
+	color_ui = rgb { 23 46 25 }
+}
 D01 = {
 	color = rgb { 122 179 97 }
 	color_ui = rgb { 159 233 126 }

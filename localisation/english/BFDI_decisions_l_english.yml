@@ -251,6 +251,13 @@
  GTR_project1_notif_title: "Stage is Complete!"
  GTR_project1_notif_desc: "Looks like some progress is made in our §4Project§!!\n\nCheck out Decisions Window!"
  GTR_project1_notif_button: "Okay"
+ GTR_project1_outbreak_mission: "§RAnnouncergrad Outbreak§!"
+ GTR_project1_outbreak_mission_desc: "Supply issues cause unrest among Announcergrad objects, and it'll inevitably lead out to riots if we're not going to finish The Project soon..."
+ GTR_project1_slowdown_stage1_mission: "§4First Stage Slowdown§!"
+ GTR_project1_slowdown_stage2_mission: "§YSecond Stage Slowdown§!"
+ GTR_project1_slowdown_stage3_mission: "§tThird Stage Slowdown§!"
+ GTR_project1_resources_requisition: "Resources §9Requisition§!"
+ GTR_project1_research_reassignments: "Reassign §4Sciencists§!"
  
 #Generic State Modifiers
  minor_population_boost: "Minor Population Growth"
