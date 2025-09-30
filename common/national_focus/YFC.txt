@@ -1,4 +1,3 @@
-#!gfx:interface\bfdi_goals.gfx
 focus_tree = {
 	id = YFC_focus_tree
 	country = {
@@ -1598,10 +1597,22 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_bunch_fostered }
 		cost = 8
 		completion_reward = {
+			set_country_flag = Allow_Musketeers
+			mark_focus_tree_layout_dirty = yes
 			YFC = {
 				create_faction = "The Three Musketeers"
 				add_to_faction = BUN
 				add_to_faction = CRN
+			}
+			hidden_effect = {
+				CRN = {
+					set_country_flag = Allow_Musketeers
+					mark_focus_tree_layout_dirty = yes
+				}
+				BUN = {
+					set_country_flag = Allow_Musketeers
+					mark_focus_tree_layout_dirty = yes
+				}
 			}
 			add_stability = 0.05
 		}
