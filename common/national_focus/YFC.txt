@@ -296,8 +296,6 @@ focus_tree = {
 		available = {
 			hidden_trigger = {
 				has_completed_focus = YFC_focus_establish_sectorialism
-				NOT = {has_completed_focus = YFC_focus_a_look_inward}
-				has_war = no
 			}
 		}
 		
@@ -740,8 +738,6 @@ focus_tree = {
 		icon = GFX_focus_YFC_a_raid_o3
 		prerequisite = { focus = YFC_focus_promote_blocky focus = YFC_focus_erasers_training }
 		cost = 7
-		#opens up decisions to raid nations, obv gives event because i LOVE making events
-		#decisions are only shown on map so it doesnt flood the actual tab
 		#also raids are just border wars that give events after completion, if it was successful, it gives a success event, and pressing its button gives you a random amount of things (guns, arty, civs, you get it) 
 		completion_reward = {
 			country_event = {
@@ -814,7 +810,7 @@ focus_tree = {
 			}
 			ELSE = {
 				YFC = {
-					create_faction = "???" #ZDubbz have fun
+					create_faction = "Bandit Pack"
 					add_to_faction = BUN
 				}
 				add_political_power = 25
@@ -862,11 +858,11 @@ focus_tree = {
 		icon = GFX_focus_YFC_look_inward
 		available = {
 			hidden_trigger = {
-				has_country_flag = Won_War_BUN
+				#has_country_flag = Won_War_BUN
 			}
 		}
 		
-		allow_branch = { has_country_flag = Won_War_BUN }
+		#allow_branch = { has_country_flag = Won_War_BUN }
 		
 		cost = 2
 		completion_reward = {
@@ -1340,9 +1336,26 @@ focus_tree = {
 			217 = {add_compliance = 20} 
 			218 = {add_compliance = 20}
 			hidden_effect = {
-				set_variable = { var_foster_BUN_support = 15 } #High but can't rise quickly
+				IF = {
+					limit = {
+						YFC = {controls_state = 217}
+					}
+					set_variable = { var_foster_BUN_support = 15 } #High but can't rise quickly
+					set_variable = { var_foster_CRN_support = 0 }
+				}
+				ELSE = {
+					set_variable = { var_foster_BUN_support = 10 } #High but can't rise quickly
+					set_variable = { var_foster_CRN_support = 5 }
+				}
 				set_variable = { var_foster_YFC_support = 1 }
-				set_variable = { var_foster_CRN_support = 1 }
+				IF = {
+					limit = {YFC = {is_ai = no}}
+					add_to_variable = { var_foster_YFC_support = 5 }
+				}
+				IF = {
+					limit = {CRN = {is_ai = no}}
+					add_to_variable = { var_foster_CRN_support = 5 }
+				}
 			}
 		}
 	}
@@ -1358,6 +1371,7 @@ focus_tree = {
 		cost = 5
 		#required to do any of the election mechanic decisions, gives event talking abt blocky
 		completion_reward = {
+			custom_effect_tooltip = l_YFC_BUN_foster
 			country_event = YFC_event.19
 		}
 	}
@@ -1370,6 +1384,10 @@ focus_tree = {
 		icon = GFX_focus_generic
 
 		available = {
+			custom_trigger_tooltip = {
+                tooltip = l_money_cost_100K
+                check_variable = { money_amount > 1 }
+            }
 			hidden_trigger = {
 				has_completed_focus = YFC_focus_foster_new_society
 			}
@@ -1383,10 +1401,33 @@ focus_tree = {
 		#gives lots of stability, adds national idea that gives +0.5 political power
 		completion_reward = {
 			custom_effect_tooltip = l_YFC_pp_gain
-			add_stability = 0.1
+			add_stability = 0.05
 			add_to_variable = { var_idea_YFC_anarchic_lands_PP = 0.5 }
-			
-			
+			subtract_from_variable = { money_amount = 1 }
+			85 = {
+				add_compliance = 10
+				add_resistance = -15
+			} 
+			212 = {
+				add_compliance = 10
+				add_resistance = -15
+			}
+			IF = {
+				limit = {
+					AND = {
+						YFC = {controls_state = 217}
+						YFC = {controls_state = 218}
+					}		
+				}
+				217 = {
+					add_compliance = 5
+					add_resistance = -10
+				} 
+				218 = {
+					add_compliance = 5
+					add_resistance = -10
+				}
+			}
 		}
 	}
 	
@@ -1398,6 +1439,7 @@ focus_tree = {
 		icon = GFX_focus_generic
 
 		available = {
+			has_completed_focus = YFC_focus_support_blocky
 			hidden_trigger = {
 				has_completed_focus = YFC_focus_foster_new_society
 			}
@@ -1406,7 +1448,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_foster_new_society }
 		cost = 5
 		completion_reward = {
-			
+			custom_effect_tooltip = l_YFC_BUN_foster
 		}
 	}
 
@@ -1441,6 +1483,7 @@ focus_tree = {
 
 		completion_reward = {
 			#300K Fine?
+			#ZDubbz
 			add_political_power = 25
 		}
 	}
@@ -1454,8 +1497,9 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_establish_law_presence }
 		cost = 5
 		completion_reward = {
+			custom_effect_tooltip = l_YFC_BUN_foster_gain
 			set_temp_variable = { 85POP = 85.state_population_k }
-			multiply_temp_variable = {85POP = 100} 
+			multiply_temp_variable = {85POP = 150} 
 			85 = {
 				add_manpower = 85POP
 				add_compliance = 5
@@ -1466,7 +1510,7 @@ focus_tree = {
 				add_manpower = 212POP
 				add_compliance = 5
 			}
-			add_to_variable = { var_foster_YFC_support = 1 }
+			add_to_variable = { var_foster_YFC_support = 1.5 }
 		}
 	}
 
@@ -1480,6 +1524,7 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 			#What does this mean??
+			#ZDubbz
 		}
 	}
 
@@ -1495,6 +1540,7 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 			#What does this mean??
+			#ZDubbz
 		}
 	}
 
@@ -1508,8 +1554,56 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_free_pows }
 		cost = 8
 		completion_reward = {
-			#bunchivist new deal is just a policy
-			#Timer is separate 
+			custom_effect_tooltip = l_YFC_BUN_foster_gain
+			add_to_variable = { var_foster_YFC_support = 3 }
+		}
+	}
+
+	focus = {
+		id = YFC_focus_bunch_fostered #PROPOSED
+		relative_position_id = YFC_focus_bunchivist_new_deal
+		x = -2.5
+		y = 1
+		icon = GFX_focus_generic
+
+		#autocompleted after election, disables the decisions
+
+		available = {
+			always = no
+		}
+
+		prerequisite = { focus = YFC_focus_bunchivist_new_deal }
+		prerequisite = { focus = YFC_focus_insentivize_employment }
+		cost = 5
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+	focus = {
+		id = YFC_focus_united_by_profits #PROPOSED
+		relative_position_id = YFC_focus_bunch_fostered
+		x = 0
+		y = 2
+		icon = GFX_focus_generic
+
+		allow_branch = { has_completed_focus = YFC_focus_bunch_fostered }
+
+		#Creates The Three Musketeers factions and their shared focus tree
+
+		available = {
+			hidden_trigger = {has_completed_focus = YFC_focus_bunch_fostered}
+		}
+
+		prerequisite = { focus = YFC_focus_bunch_fostered }
+		cost = 8
+		completion_reward = {
+			YFC = {
+				create_faction = "The Three Musketeers"
+				add_to_faction = BUN
+				add_to_faction = CRN
+			}
+			add_stability = 0.05
 		}
 	}
 

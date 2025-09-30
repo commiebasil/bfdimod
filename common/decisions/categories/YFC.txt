@@ -52,7 +52,7 @@ decision_YFC_foster_category = {
 	visible = { 
 		YFC = {
 			has_completed_focus = YFC_focus_foster_new_society
-			#NOT = {has_completed_focus = YFC_focus_fully_cored}
+			NOT = {has_completed_focus = YFC_focus_bunch_fostered}
 		}
 	}
 	priority = 10

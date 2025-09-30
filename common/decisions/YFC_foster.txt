@@ -3,6 +3,7 @@ decision_YFC_foster_category = {
 		activation = {
 			has_completed_focus = YFC_focus_foster_new_society	
 			NOT = {country_exists = BUN}
+			NOT = {has_completed_focus = YFC_focus_bunch_fostered}
 		}
 		available = {
 			always = no
@@ -11,14 +12,6 @@ decision_YFC_foster_category = {
 		is_good = yes
 		days_mission_timeout = 400
 		timeout_effect = {
-			IF = {
-				limit = {YFC = {is_ai = no}}
-				add_to_variable = { var_foster_YFC_support = 5 }
-			}
-			IF = {
-				limit = {CRN = {is_ai = no}}
-				add_to_variable = { var_foster_CRN_support = 5 }
-			}
 			random_list = {
 				var_foster_BUN_support = {
 					country_event = {id = YFC_BUN.25 }
@@ -32,6 +25,26 @@ decision_YFC_foster_category = {
 			}
 		}
 	}
+	
+	YFC_foster_gaining_support = { 
+		activation = {
+			has_completed_focus = YFC_focus_foster_new_society	
+			NOT = {country_exists = BUN}
+			NOT = {has_completed_focus = YFC_focus_bunch_fostered}
+		}
+		available = {
+			always = no
+		}
+		icon = GFX_decision_generic_form_nation  
+		is_good = yes
+		days_mission_timeout = 35
+		timeout_effect = {
+			custom_effect_tooltip = l_YFC_BUN_foster_gain_bad
+			hidden_effect = {
+				add_to_variable = { var_foster_BUN_support = 0.2 }
+			}
+		}
+	}
 
 	YFC_foster_propaganda = { 
 		icon = GFX_decision_eng_propaganda_campaigns
@@ -39,6 +52,7 @@ decision_YFC_foster_category = {
 		visible = {
 			has_completed_focus = YFC_focus_support_blocky
 			has_completed_focus = YFC_focus_foster_new_society
+			NOT = {has_completed_focus = YFC_focus_bunch_fostered}
 		}
 
 		fire_only_once = no
@@ -47,6 +61,7 @@ decision_YFC_foster_category = {
 		days_re_enable = 15
 
 		remove_effect = {
+			custom_effect_tooltip = l_YFC_BUN_foster_gain
 			hidden_effect = {
 				add_to_variable = { var_foster_YFC_support = 0.5 }
 			}
@@ -72,6 +87,14 @@ decision_YFC_foster_category = {
 			has_completed_focus = YFC_focus_support_blocky
 			has_completed_focus = YFC_focus_foster_new_society
 			NOT = {country_exists = BUN}
+			NOT = {has_completed_focus = YFC_focus_bunch_fostered}
+		}
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = l_money_cost_200K
+                check_variable = { money_amount > 2 }
+            }
 		}
 
 		fire_only_once = yes
@@ -79,7 +102,12 @@ decision_YFC_foster_category = {
 		cost = 25
 		days_remove = 60
 
+		complete_effect = {
+			subtract_from_variable = { money_amount = 2 }
+		}
+
 		remove_effect = {
+			custom_effect_tooltip = l_YFC_BUN_foster_gain
 			FROM = {
 				add_building_construction = {
 					type = infrastructure

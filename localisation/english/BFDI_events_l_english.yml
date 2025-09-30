@@ -669,10 +669,10 @@
 
  YFC_event.11.t: "How Much?"
  YFC_event.11.desc: "It is no surprise that the large sums of money that Eraser managed to stockpile in his months as a plunderer could be useful for our industrialization efforts, however, many of our sectorial leaders have been in open debate about the exact amount needed. In an attempt to ease the tensions between the sectorials, Yellow Face decided to step in and make a concrete decision. He stated that we will be..."
- YFC_event.11.a: "Taking None."
- YFC_event.11.b: "Taking Some."
- YFC_event.11.c: "Taking Half."
- YFC_event.11.d: "Taking Most."
+ YFC_event.11.a: "Taking None." #0 Taken, 0% Risk
+ YFC_event.11.b: "Taking Some." #200K Taken, 25% Risk
+ YFC_event.11.c: "Taking Half." #400K Taken, 50% Risk
+ YFC_event.11.d: "Taking Most." #700K Taken, 75% Risk
 
  YFC_event.13.t: "What to do with The Head?"
  YFC_event.13.desc: "It was a very, very long trial over Eraser's fate. The sectors had heated debates over the pros and cons of any of the options we could do. Honestly the amount of these 'heated' debates have been getting concerning. Anyways, a few hours ago most finally agreed on his fate. This said fate was read out to him in his cell, it said the following... \n\n'Eraser, leader of the defunct anarchist Bunch, you have been given the following sentence for your crimes against the Yellow Face Company and their allies...'"
@@ -682,7 +682,11 @@
 
  YFC_event.14.t: "Plundering Plunder"
  YFC_event.14.desc: "Out of many of the discussions that the sectorials and Yellow Face had, this one lasted only a few minutes. Who was going to stop us from 'relocating' their money? The air in our conference room? Besides, this wealth will have a much better use than laying around for anarchist use.\n\nA week after the very obvious outcome of the vote, Blocky entered the warehouse holding the money. He took one last look at all of it, as if a chapter of a story had ended and a new one started. Even though he should feel some sort of emotion..."
- YFC_event.14.a: "Nothing was felt...?"
+ YFC_event.14.a: "Nothing was felt...?" #800K Taken
+
+ YFC_event.19.t: "New Face Of a New Bunch"
+ YFC_event.19.desc: "ZDubbz plz write" #Cough
+ YFC_event.19.a: "???"
 
  YFC_event.21.t: "Compilations in the Military District!"
  YFC_event.21.desc: "With the current invasion of the rotten communists of our ally, Coiny has stated that all assistance will need to move back to defending his country. It's unfortunately a fair request which we cannot deny. The outcome of the war will be unknown, if even anyone will win. We could send aid to Coiny...\n\nThough, should we?"
@@ -842,6 +846,21 @@
  YFC_BUN.23.desc: "Some objects living in our occupation zone simply arent ready to face the reality that their ideology is stupid. Recently, Top Hat came to us with a suggestion. He said that we should make... education facilities... in various cities to clean the minds of any raiders. This is an excellent idea, and is sure to keep that ideology from festering! If we ignore any building codes, the ones we use for buildings where rich people live, then we can get these facilities built at a price of nearly zero. Lets take this chance!"
  YFC_BUN.23.a: "They won't even remember being a Bunchivist..."
 
+ YFC_BUN.24.t: "The 'Heart' of The Bunch"
+ YFC_BUN.24.desc: "bla bla bla" #ZDubbz
+ YFC_BUN.24.a: "???"
+
+ YFC_BUN.25.t: "Eraser Wins!" 
+ YFC_BUN.25.desc: "Bla bla BLA!"
+ YFC_BUN.25.a: "I ate lego"
+
+ YFC_BUN.26.t: "Blocky Wins!"
+ YFC_BUN.26.desc: "Bla bla BLA!"
+ YFC_BUN.26.a: "I ate lego"
+
+ YFC_BUN.27.t: "Pen Wins!"
+ YFC_BUN.27.desc: "Bla bla BLA!"
+ YFC_BUN.27.a: "I ate lego"
 
 # YFC_CRN_SUB
 
@@ -938,13 +957,8 @@
 
 #BUN
 
- #So I really did not explain my vision of Neo-Bunch (my bad) but I feel that thae authority that the bandits has no longer exists, and also ecomony and militray are gone
- #Kinda like Kingdom of Afghanistan with high decentralization and only power in the captial 
- #So no raids YET 
-
- #yeah i agree fully
- #i also think that the bunch's events need to sound a lot more casual than the events from the yellow facers or even numismatia
  #im trying to make sure each nation has a somewhat distinct style of speaking to the player, which i hope reflects well down below
+ # :D
 
  BUN_YFC.1.t: "The Yellow Facer Ideology Crumbles." #if eraser is killed or working in the YFC's govt
  BUN_YFC.1.desc: "We're finally free! After our defeat in the war with the old bunch, against the Yellow Facers, they split us up, and tried to get rid of our sprits, but we survived. Thrived even! And we're back now, better than ever! Sadly, Eraser is nowhere to be found, and Pen's been killed. Blocky, that traitor, decided to side with the Corporation, so, there's no one directly in line to really head anything. We'll sort that out later, for now, we've gotta make sure this revolution doesn't die!"
