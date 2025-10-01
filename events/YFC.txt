@@ -3226,6 +3226,7 @@ country_event = { #Election BUN Wins!
 
 	option = {
 		name = YFC_BUN.25.a
+		complete_national_focus = YFC_focus_bunch_fostered
 		BUN = {
 			transfer_state = 85
 			transfer_state = 212
@@ -3245,6 +3246,7 @@ country_event = { #Election YFC Wins!
 
 	option = {
 		name = YFC_BUN.26.a
+		complete_national_focus = YFC_focus_bunch_fostered
 		BUN = {
 			transfer_state = 85
 			transfer_state = 212
@@ -3265,6 +3267,7 @@ country_event = { #Election CRN Wins!
 
 	option = {
 		name = YFC_BUN.27.a
+		complete_national_focus = YFC_focus_bunch_fostered
 		BUN = {
 			transfer_state = 85
 			transfer_state = 212

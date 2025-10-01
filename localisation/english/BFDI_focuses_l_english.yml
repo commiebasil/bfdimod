@@ -963,22 +963,22 @@
  YFC_focus_establish_sectorialism_desc: "By allowing friendly competition between different parts of our corporation, we can guarentee that our production, and therefore our profits, will rise. Of course, we can't let one branch have too much power over the government, that would just be foolish."
 
  YFC_focus_the_grapes_and_the_cherries: "The Grapes and The Cherries"
- YFC_focus_the_grapes_and_the_cherries_desc: "So our force is good but still kinda bad so some upgrades are needed" #Write pls
+ YFC_focus_the_grapes_and_the_cherries_desc: "Some mercenaries have decided to set up their base of operations in Footpathburg. Buying mercenaries does seem to be quite the good idea, so, why not try it? Of course, we should also help them set up operations, as a sign of good will." 
 
- YFC_focus_create_an_official_base: "Create an Official Base"
- YFC_focus_create_an_official_base_desc: "An HQ in footpathburg is a very cool and good idea" #Write pls
+ YFC_focus_invest_in_speed: "Invest In Speed"
+ YFC_focus_invest_in_speed_desc: "Some working under Tophat in the military sector say that the Cherry Company is too slow... Perhaps, if we search hard enough, we could find a different group, better suited to our needs."
 
- YFC_focus_expand_operations: "Expand Operations"
- YFC_focus_expand_operations_desc: "More objects to wage more war and protection" #Write pls
+ YFC_focus_invest_in_power: "Invest In Power"
+ YFC_focus_invest_in_power_desc: "Some working under Tophat in the military sector say that the Cherry Company is too weak... Perhaps, if we search hard enough, we could find a different group, better suited to our needs." 
 
- YFC_focus_form_better_logistics: "Form Better Logistics"
- YFC_focus_form_better_logistics_desc: "We put efforts into supply management and storage for longer supply" #Write pls
+ YFC_focus_purchase_support_package: "Purchase Support Package"
+ YFC_focus_purchase_support_package_desc: "Despite not having the means to man our own armies, we can certainly man foreign ones when the time comes. We've worked quite well with the Combined Grape Affiliation, so, why not buy a couple extra things to arm them with when the time comes?"
 
- YFC_focus_form_more_divisions: "Form More Divisions"
- YFC_focus_form_more_divisions_desc: "We put efforts into more hiring of obejcts" #Write pls
+ YFC_focus_purchase_ordnance_package: "Purchase Ordnance Package"
+ YFC_focus_purchase_ordnance_package_desc: "The sheer force of the Unnamed Mercenary Brotherhood yields great results, however, with extra firepower, they could be even greater. It is well within our budget to buy some extra artillery for the purpose of arming the UMB even further, if we happen to buy them in the future."
 
- YFC_focus_teachings_of_war: "Teachings of Warfare"
- YFC_focus_teachings_of_war: "We have learned much cool things from war and bla bla we are better" #Write pls
+ YFC_focus_teachings_of_war: "???"
+ YFC_focus_teachings_of_war_desc: "???"
 
  YFC_focus_the_southern_bandits: "The Southern Bandits"
  YFC_focus_the_southern_bandits_desc: "Those bandits to the south of us are seriously raising concern among our employees. Some of which are scared of a possible attack, and others who believe we should be taking advantage of them. Only time will tell what happens to the bandits, but we must make sure we're ahead of them at all times."

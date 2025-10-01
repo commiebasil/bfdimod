@@ -25,7 +25,7 @@
  GOI_event.6.a: "The future is hazy."
  
  GOI_event.7.t: "Report"
- GOI_event.7.desc: "'...The most hopeless objects were the last to leave the city; Without legs and arms, with cracks, bent, and others mutilated by this dark time. All recovery centers were destroyed or were under the control of bandits, and it was impossible to provide any clear help to these unfortunate people. The evacuation was carried out in a hurry and very unorganized, especially in the final waves, for example: in the eastern outskirts, 17 trucks were lost on the road on the 20th alone, 10 of them were stolen by local bandits, and 7 were burned. Slightly better situation in the north...'"
+ GOI_event.7.desc: "'...The most hopeless objects were the last to leave the city; Without legs and arms, with cracks, bent, and others mutilated by this dark time. All recovery centers were destroyed or were under the control of bandits, and it was impossible to provide any clear help to these unfortunate objects. The evacuation was carried out in a hurry and very unorganized, especially in the final waves, for example: in the eastern outskirts, 17 trucks were lost on the road on the 20th alone, 10 of them were stolen by local bandits, and 7 were burned. Slightly better situation in the north...'"
  GOI_event.7.a: "Interesting excerpt."
  
  GOI_event.8.t: "Battle for Goiky"
@@ -46,7 +46,7 @@
  WGF_event.1.a: "The fire won't go out."
  
  WGF_event.2.t: "Case #8"
- WGF_event.2.desc: "CONCLUSION ON CASE #8 ABOUT THE DISAPPEARANCE OF D.I.:\nAfter the research work carried out described on page 9 of this document and hearings of witnesses, Leafy's guilt in the loss of people's property, which led to particularly large economic losses, becomes undeniable. A court hearing in the case will take place in the next few months."
+ WGF_event.2.desc: "CONCLUSION ON CASE #8 ABOUT THE DISAPPEARANCE OF D.I.:\nAfter the research work carried out described on page 9 of this document and hearings of witnesses, Leafy's guilt in the loss of objects's property, which led to particularly large economic losses, becomes undeniable. A court hearing in the case will take place in the next few months."
  WGF_event.2.a: "Let it be so."
  
  WGF_event.3.t: "Trial"
@@ -121,7 +121,7 @@
  WGF_event.20.a: "Idiots."
  
  WGF_event.21.t: "Our Situation"
- WGF_event.21.desc: "Firey had been in control over his now sovereign territory for several weeks now, however, most of his supporters didn't actually know what his ideology was like. That was going to change in just a few short hours, because Firey was making morning preparations to give a speech to his new-found subjects. He was currently sitting on a train, being transported to the building he was expected to speak at. Firey was definitely afraid of what might happen to him at the event, even one stutter could ruin his dream of a united, just Goiky. He ran through different scenarios of the things that could possibly go wrong in his head, whilst taking sips of his coffee.\nThe thoughts weighed heavily on his mind, making a slip up feel more and more inevitable.\n\nAs the train car stopped, and Firey stepped out, he saw a large crowd of objects, all around the platform the train had stopped at. All the objects seemed very excited, but for what, Firey didn't know. He started to look around the platform, wondering what they were all excited about. However, as he looked around, he soon realized that all of these people were grinning, wide-eyed, at him. He was the center of attention, people wanted to know his thoughts."
+ WGF_event.21.desc: "Firey had been in control over his now sovereign territory for several weeks now, however, most of his supporters didn't actually know what his ideology was like. That was going to change in just a few short hours, because Firey was making morning preparations to give a speech to his new-found subjects. He was currently sitting on a train, being transported to the building he was expected to speak at. Firey was definitely afraid of what might happen to him at the event, even one stutter could ruin his dream of a united, just Goiky. He ran through different scenarios of the things that could possibly go wrong in his head, whilst taking sips of his coffee.\nThe thoughts weighed heavily on his mind, making a slip up feel more and more inevitable.\n\nAs the train car stopped, and Firey stepped out, he saw a large crowd of objects, all around the platform the train had stopped at. All the objects seemed very excited, but for what, Firey didn't know. He started to look around the platform, wondering what they were all excited about. However, as he looked around, he soon realized that all of these objects were grinning, wide-eyed, at him. He was the center of attention. They all wanted to know his thoughts."
  WGF_event.21.a: "This speech will be light work for him."
 
  #Reich
@@ -287,7 +287,7 @@
  GPG_event.22.a: "This will lead to dire consequences."
  
  GPG_event.23.t: "Successful completion of the congress"
- GPG_event.23.desc: "Wonderful job! The Cabinet managed to maintain stability in the state and consensus on key issues was successfully found! The Republic is moving forward, and its people are happy."
+ GPG_event.23.desc: "Wonderful job! The Cabinet managed to maintain stability in the state and consensus on key issues was successfully found! The Republic is moving forward, and its objects are happy."
  GPG_event.23.a: "Forwards, Goiky!"
  
  GPG_event.24.t: "Counterattack"
@@ -412,7 +412,7 @@
  GDR_event.5.c: "...Barf Bag!"
  
  GDR_event.6.t: "Total Devastation"
- GDR_event.6.desc: "[GDR_GETLEADERNAME] looked at the graffiti on the walls of a ruined building on the outskirts of Casland. The symbols ranged from smily faces, to hammers adourned with sickles. From names of common people to names of leaders, with death wishes next to them. Weird looking letter 'S's to symbols only known to the most radical of Iron Hand supporters. Casland, and the surrounding areas, have been in decline ever since the fall of old Goiky. A terrible civil war has destroyed the provisional government and driven our objects into harsh poverty."
+ GDR_event.6.desc: "[GDR_GETLEADERNAME] looked at the graffiti on the walls of a ruined building on the outskirts of Casland. The symbols ranged from smily faces, to hammers adourned with sickles. From names of common objects to names of leaders, with death wishes next to them. Weird looking letter 'S's to symbols only known to the most radical of Iron Hand supporters. Casland, and the surrounding areas, have been in decline ever since the fall of old Goiky. A terrible civil war has destroyed the provisional government and driven our objects into harsh poverty."
  GDR_event.6.a: "It's time to act!"
  
  GDR_event.7.t: "New Life"
@@ -531,7 +531,7 @@
  GFG_event.2.a: "Heil Goiky!"
  
  GFG_event.3.t: "Long-lost Yoyleland"  
- GFG_event.3.desc: "For a very long time, rumors have been circulating around objects of Goiky about a forgotten region in the depths of the uninhabited northern continent. Legends about the mysterious disappearance of the local people and about the incredible technologies and secrets these lands keep have spread widely across the Greeny Plains and have taken root here in Casland. Many of our ranks support the idea of continuity with this great northern race and believe that the modern objects of Goiky are its direct heritage."
+ GFG_event.3.desc: "For a very long time, rumors have been circulating around objects of Goiky about a forgotten region in the depths of the uninhabited northern continent. Legends about the mysterious disappearance of the local objects and about the incredible technologies and secrets these lands keep have spread widely across the Greeny Plains and have taken root here in Casland. Many of our ranks support the idea of continuity with this great northern race and believe that the modern objects of Goiky are its direct heritage."
  GFG_event.3.a: "Interesting."
  
  GFG_event.4.t: "Traitors"
@@ -609,7 +609,7 @@
  GFG_event.19.a: "Approved!"
  
  GFG_event.20.t: "Nation"
- GFG_event.20.desc: "The perplexed residents of Casland listened to the radio broadcast.\n\n'From now on, there is no longer any 'Goykian' nation. We are Yoylese!' - The speakers rang with enthusiasm, and the new Yoylese people listened to them."
+ GFG_event.20.desc: "The perplexed residents of Casland listened to the radio broadcast.\n\n'From now on, there is no longer any 'Goykian' nation. We are Yoylese!' - The speakers rang with enthusiasm, and the new Yoylese objects listened to them."
  GFG_event.20.a: "Purple flag."
  
  GFG_event.21.t: "Succesful Agreement!"
@@ -669,10 +669,10 @@
 
  YFC_event.11.t: "How Much?"
  YFC_event.11.desc: "It is no surprise that the large sums of money that Eraser managed to stockpile in his months as a plunderer could be useful for our industrialization efforts, however, many of our sectorial leaders have been in open debate about the exact amount needed. In an attempt to ease the tensions between the sectorials, Yellow Face decided to step in and make a concrete decision. He stated that we will be..."
- YFC_event.11.a: "Taking None."
- YFC_event.11.b: "Taking Some."
- YFC_event.11.c: "Taking Half."
- YFC_event.11.d: "Taking Most."
+ YFC_event.11.a: "Taking None." #0 Taken, 0% Risk
+ YFC_event.11.b: "Taking Some." #200K Taken, 25% Risk
+ YFC_event.11.c: "Taking Half." #400K Taken, 50% Risk
+ YFC_event.11.d: "Taking Most." #700K Taken, 75% Risk
 
  YFC_event.13.t: "What to do with The Head?"
  YFC_event.13.desc: "It was a very, very long trial over Eraser's fate. The sectors had heated debates over the pros and cons of any of the options we could do. Honestly the amount of these 'heated' debates have been getting concerning. Anyways, a few hours ago most finally agreed on his fate. This said fate was read out to him in his cell, it said the following... \n\n'Eraser, leader of the defunct anarchist Bunch, you have been given the following sentence for your crimes against the Yellow Face Company and their allies...'"
@@ -682,7 +682,11 @@
 
  YFC_event.14.t: "Plundering Plunder"
  YFC_event.14.desc: "Out of many of the discussions that the sectorials and Yellow Face had, this one lasted only a few minutes. Who was going to stop us from 'relocating' their money? The air in our conference room? Besides, this wealth will have a much better use than laying around for anarchist use.\n\nA week after the very obvious outcome of the vote, Blocky entered the warehouse holding the money. He took one last look at all of it, as if a chapter of a story had ended and a new one started. Even though he should feel some sort of emotion..."
- YFC_event.14.a: "Nothing was felt...?"
+ YFC_event.14.a: "Nothing was felt...?" #800K Taken
+
+ YFC_event.19.t: "New Face Of a New Bunch"
+ YFC_event.19.desc: "ZDubbz plz write" #Cough
+ YFC_event.19.a: "???"
 
  YFC_event.21.t: "Compilations in the Military District!"
  YFC_event.21.desc: "With the current invasion of the rotten communists of our ally, Coiny has stated that all assistance will need to move back to defending his country. It's unfortunately a fair request which we cannot deny. The outcome of the war will be unknown, if even anyone will win. We could send aid to Coiny...\n\nThough, should we?"
@@ -702,7 +706,7 @@
  BUN_borderwars.5.a: "We cannot allow more raids to happen!"
 
  YFC_borderwars.1.t: "Success!"
- YFC_borderwars.1.desc: "The raid was a success! We quickly subjugated the population, inspiring fear in the people of the city. Though the fires in the distance burn high, our profit soar higher."
+ YFC_borderwars.1.desc: "The raid was a success! We quickly subjugated the population, inspiring fear in the objects of the city. Though the fires in the distance burn high, our profit soar higher."
  YFC_borderwars.1.a: "There's more where that came from!"
 
  YFC_borderwars.2.t: "Failure..."
@@ -710,11 +714,11 @@
  YFC_borderwars.2.a: "We'll come back stronger, with hookers and blackjack!"
 
  YFC_borderwars.3.t: "A Succesful Defense!"
- YFC_borderwars.3.desc: "The raiders came in the night, late at night at that. Nearly no one was awake, and from far outside the city limits we heard loud shouting. Suddenly, there was a gunshot, and it felt as if the whole city woke at the same time. Objects wandered outside of their houses, 'What was that?'s and 'I've got work in the morning.'s softly flying through the air. Suddenly, a soldier of ours bursted out of a room, soon a hundred more followed, then a thousand, then two thousand. It had turned from a typical night to an all out battle. The raiders fought hard, burning our buildings, killing our people, breaking equipment. We fought harder, maiming the raiders, stealing their own guns from them, burning them alive. \nIt was barbaric, sure, but in the end we won. We defended ourselves. We made examples out of them."
- YFC_borderwars.3.a: "And we'll do it again for our people."
+ YFC_borderwars.3.desc: "The raiders came in the night, late at night at that. Nearly no one was awake, and from far outside the city limits we heard loud shouting. Suddenly, there was a gunshot, and it felt as if the whole city woke at the same time. Objects wandered outside of their houses, 'What was that?'s and 'I've got work in the morning.'s softly flying through the air. Suddenly, a soldier of ours bursted out of a room, soon a hundred more followed, then a thousand, then two thousand. It had turned from a typical night to an all out battle. The raiders fought hard, burning our buildings, killing our denizens, breaking equipment. We fought harder, maiming the raiders, stealing their own guns from them, burning them alive. \nIt was barbaric, sure, but in the end we won. We defended ourselves. We made examples out of them."
+ YFC_borderwars.3.a: "And we'll do it again for our inhabitants."
 
  YFC_borderwars.4.t: "In The Defense..."
- YFC_borderwars.4.desc: "The city is red. Roads, the sides of buildings, cars, parks, lights, windows, all stained with red. The raiders came last night, they stole, killed, burned, then left. No one expected them, and by the time soldiers arrived to defend, it was far too late. So many people are dead. So many."
+ YFC_borderwars.4.desc: "The city is red. Roads, the sides of buildings, cars, parks, lights, windows, all stained with red. The raiders came last night, they stole, killed, burned, then left. No one expected them, and by the time soldiers arrived to defend, it was far too late. So many objects are dead. So many."
  YFC_borderwars.4.a: "We can't let this happen again."
 
 # YFC_BUN
@@ -725,7 +729,7 @@
  YFC_BUN.1.b: "Reap the profits from a free, exploitable Bunch!"
 
  YFC_BUN.2.t: "Already Broken?"
- YFC_BUN.2.desc: "Yellow Face's response to our questions on the Bunch's future were... not what we were expecting. It seems that Yellow Face wishes to take the route of annexation, as they believe that former Bunchivists are not trustworthy. While the message states nothing about our occupation zone, there is a fair chance that they will take our piece of the proverbial pie one way or another. \n\nThis seems to be quite bad, not only potentially losing our occupation, but for the regular every day people who lived in the Bunch, or for the former raiders who wished for reform. However, we do have one trick up our sleeves, one way to get things to pan out properly. Neo-Bunchivist revolts. We could support them and forcefully create a new, free state in former Bunch territory, but it could break what is now an uneasy alliance. After much discussion with a tied vote, Credit Card broke the tie with..."
+ YFC_BUN.2.desc: "Yellow Face's response to our questions on the Bunch's future were... not what we were expecting. It seems that Yellow Face wishes to take the route of annexation, as they believe that former Bunchivists are not trustworthy. While the message states nothing about our occupation zone, there is a fair chance that they will take our piece of the proverbial pie one way or another. \n\nThis seems to be quite bad, not only potentially losing our occupation, but for the regular every day objects who lived in the Bunch, or for the former raiders who wished for reform. However, we do have one trick up our sleeves, one way to get things to pan out properly. Neo-Bunchivist revolts. We could support them and forcefully create a new, free state in former Bunch territory, but it could break what is now an uneasy alliance. After much discussion with a tied vote, Credit Card broke the tie with..."
  YFC_BUN.2.a: "Giving in."
  YFC_BUN.2.b: "Game of Deception."
  YFC_BUN.2.c: "Stand Defiant."
@@ -757,7 +761,7 @@
  YFC_BUN.8.b: "Break The Chains!"
 
  YFC_BUN.9.t: "Placing the Pawns"
- YFC_BUN.9.desc: "We are, certainly, dealing with a beastly people. The raiders, with anti-capitalist styles of living, need to be contained. With containment, comes law inforcement (private, obviously), and with law inforcement, comes a man to rule them all. Or a woman, really whoever has the best prospects (or pays the most). This obvious realization leads us to the question of who shall become this ruler. Whereas with our law inforcement, we can get any sad sap from Footpathburg, Yoyleton, or otherwise, we have to choose carefully when picking the leader. So, who shall it be?"
+ YFC_BUN.9.desc: "We are, certainly, dealing with a beastly group. The raiders, with anti-capitalist styles of living, need to be contained. With containment, comes law inforcement (private, obviously), and with law inforcement, comes a man to rule them all. Or a woman, really whoever has the best prospects (or pays the most). This obvious realization leads us to the question of who shall become this ruler. Whereas with our law inforcement, we can get any sad sap from Footpathburg, Yoyleton, or otherwise, we have to choose carefully when picking the leader. So, who shall it be?"
  YFC_BUN.9.a: "Head of the Company, Head of the zone!"
  YFC_BUN.9.b: "Top Hat's military power may be good."
  YFC_BUN.9.c: "Br- I mean, 'hire' a local official."
@@ -775,7 +779,7 @@
  YFC_BUN.11.c: "Beaker's is the logical choice."
 
  YFC_BUN.12.t: "Sparks Emit"
- YFC_BUN.12.desc: "Podgornyv is basically in flames at this point. There had been demonstrations earlier, but today has been especially out of hand. Chaos is growing in the streets, security forces in hours long standoffs with the so called 'Neo-Bunchivists'. Their demands are simple, autonomy in our nation, and making theft legal in formerly bunchivist lands. Not a single sectorial doesnt detest this idea, but, giving into the demands would stop the protests, right? If we give in, we may not be popular with the good people over in Footpathburg, but it could be worth it to give in to stop the brewing revolt."
+ YFC_BUN.12.desc: "Podgornyv is basically in flames at this point. There had been demonstrations earlier, but today has been especially out of hand. Chaos is growing in the streets, security forces in hours long standoffs with the so called 'Neo-Bunchivists'. Their demands are simple, autonomy in our nation, and making theft legal in formerly bunchivist lands. Not a single sectorial doesnt detest this idea, but, giving into the demands would stop the protests, right? If we give in, we may not be popular with the good objects over in Footpathburg, but it could be worth it to give in to stop the brewing revolt."
  YFC_BUN.12.a: "What happens in the Bunch stays in the Bunch, give in."
  YFC_BUN.12.b: "Send in more forces, our cops can handle this."
  YFC_BUN.12.c: "The protests will fade away, just do nothing..."
@@ -839,9 +843,24 @@
  YFC_BUN.22.a: "Crash the Company!"
 
  YFC_BUN.23.t: "Reeducation Camps"
- YFC_BUN.23.desc: "Some objects living in our occupation zone simply arent ready to face the reality that their ideology is stupid. Recently, Top Hat came to us with a suggestion. He said that we should make... education facilities... in various cities to clean the minds of any raiders. This is an excellent idea, and is sure to keep that ideology from festering! If we ignore any building codes, the ones we use for buildings where rich people live, then we can get these facilities built at a price of nearly zero. Lets take this chance!"
+ YFC_BUN.23.desc: "Some objects living in our occupation zone simply arent ready to face the reality that their ideology is stupid. Recently, Top Hat came to us with a suggestion. He said that we should make... education facilities... in various cities to clean the minds of any raiders. This is an excellent idea, and is sure to keep that ideology from festering! If we ignore any building codes, the ones we use for buildings where rich objects live, then we can get these facilities built at a price of nearly zero. Lets take this chance!"
  YFC_BUN.23.a: "They won't even remember being a Bunchivist..."
 
+ YFC_BUN.24.t: "The 'Heart' of The Bunch"
+ YFC_BUN.24.desc: "The oligarchy that had ruled over Podgornyv. Despite losing power to us over a year ago now, many objects still claim that they would be 'loyal' to the 'rightful owners of Podgornyv' if given the chance. Clearly, allowing the objects there to cling to ideas like these could be harmful for the furtherance of our state. Luckily, there are some pretty easy ways to attack this could-be issue.\nMany Bunchivists have made murals to the late Pen. We can easily make a case for considering these murals as graffiti, and get them removed without much hastle. If objects can't publically display support Bunchivist figures, they'll believe support for them is a dwindling, dying cause."
+ YFC_BUN.24.a: "You could barely call it 'art' anyways."
+
+ YFC_BUN.25.t: "Eraser Wins!" #YFC sees this
+ YFC_BUN.25.desc: "Despite our efforts in campaigning, it seems as the nominee preferred most by the Bunch's population was Eraser. To establish good will with the reformed Bunchivists, and because Numismatian officials wouldn't like it if we forged the votes, we must accept his victory. In a speech given earlier today, Eraser promised to be impartial to his citizens, to allow them to continue living life as they had previously, and to work together with both us, and Numismatia, to further entrench the ideals of capitalism in Goiky's society."
+ YFC_BUN.25.a: "Well, that isn't so bad."
+
+ YFC_BUN.26.t: "Blocky Wins!" #YFC sees this
+ YFC_BUN.26.desc: "Our campaigns have worked! Results from the ballots, observed by Numismatian officials, have recently made their way to Footpathburg, which report Blocky winning the favor of a majority of the Bunch's objects. Blocky, reportedly, promised to represent the ideals of capitalism at the heels of this newfound nation, and work together with both of our militaries. Despite the fact that those words are far too... professionally mannered for him, we will accept his alleged speech as an open invitation for a future of coöperation!"
+ YFC_BUN.26.a: "We know for sure he'll work well with us..."
+
+ YFC_BUN.27.t: "Pen Wins!" #YFC sees this
+ YFC_BUN.27.desc: "Despite our efforts in campaigning, it seems as the nominee preferred most by the Bunch's population was Pen. For some reason, Pen was the candidate Numismatia had funded. Why anyone would willingly ask for Pen to do anything is beyond nearly every corporate executive, however, we must still accept his victory. Pen still has quite the large amount of debt owed to us, however, Numismatia has been insistent on getting us to clear, or at least reduce the amount of debt. Hopefully, word of this campaign doesn't spread to the Bunchivist objects, the dollar knows we can't afford another war."
+ YFC_BUN.27.a: "Bitch better have my money!"
 
 # YFC_CRN_SUB
 
@@ -886,7 +905,7 @@
 
  YFC_CRN_Sub.9.t: "In Regards to Civil Liberties"
  YFC_CRN_Sub.9.desc: "It is no surprise that Eraser has noticed the frequent exchange of messages between us and the Yellow Face Coporation. Strangely, Eraser sent us a letter, wishing to know our intentions in terms of civil liberties. It was a surprise to the cabinet when they recieved word of this demand, seeing as they had somehow managed to gloss over a discussion of personal freedoms entirely. Eraser's message stated that a response would be passed on to the Yellow Facers, so it's as good of a time as ever to write our own set of demands. \nWe obviously believe that life, liberty, and the persuit of happiness should be available, but should stricter guidelines be set?"
- YFC_CRN_Sub.9.a: "If we keep them vague, we can still keep people happy."
+ YFC_CRN_Sub.9.a: "If we keep them vague, we can still keep our objects happy."
  YFC_CRN_Sub.9.b: "They will never take our rights, we must be strict about this."
  #a: crn loses a bit of stability
  #b: crn gains a bit of stability, loses a lot of pp
@@ -906,14 +925,14 @@
  #b: yfc gains a lot of political power, loses a lot of stability
 
  YFC_CRN_Sub.12.t: "On Communists"
- YFC_CRN_Sub.12.desc: "No matter what the Numismatians say, it is very clear that they are having problems in regards to the communists fleeing into their country from the south. Each day the communists infect their government more and more, seeping into their policies, corrupting their people, sabatoging capitalist ideals like the vermin they are. This issue will obviously only get worse as time passes. Before this union starts, it is of the utmost importance that the Numismatians gets rid of this threat. But how exactly should we do it without encroaching on their so-called 'rights'?"
+ YFC_CRN_Sub.12.desc: "No matter what the Numismatians say, it is very clear that they are having problems in regards to the communists fleeing into their country from the south. Each day the communists infect their government more and more, seeping into their policies, corrupting their objects, sabatoging capitalist ideals like the vermin they are. This issue will obviously only get worse as time passes. Before this union starts, it is of the utmost importance that the Numismatians gets rid of this threat. But how exactly should we do it without encroaching on their so-called 'rights'?"
  YFC_CRN_Sub.12.a: "Jail violent communists!"
  YFC_CRN_Sub.12.b: "Fuck your freedom, ban communism!"
  #a: crn gains stability, and army exp, yfc loses lots of political power, and a small amount of money
  #b: yfc gains a lot of stability and war support, crn loses a small amount of stability
 
  YFC_CRN_Sub.13.t: "A Suggestion for Our Communism Problem"
- YFC_CRN_Sub.13.desc: "It's no secret that we've been having some trouble with the communist objects in our nation. Trying to get rid of them through normal means has been... quite difficult. Luckily, a demand from the Yellow Facers just came in the mail last Saturday. Of course, we didn't read it then, because who cares about the government on the weekends? It's Monday morning, and, their 'demand' is moreso... a request? It's quite simple really, just saying 'Jail violent commies pls, signed YF', but it's a great excuse to do what the majority of us have wanted to do for a while. Just tell the people 'the YFC told us to jail communists, sorry not sorry', and boom, problem solved.\nBut like seriously, the Yellow Facers have got to get better at writing letters."
+ YFC_CRN_Sub.13.desc: "It's no secret that we've been having some trouble with the communist objects in our nation. Trying to get rid of them through normal means has been... quite difficult. Luckily, a demand from the Yellow Facers just came in the mail last Saturday. Of course, we didn't read it then, because who cares about the government on the weekends? It's Monday morning, and, their 'demand' is moreso... a request? It's quite simple really, just saying 'Jail violent commies pls, signed YF', but it's a great excuse to do what the majority of us have wanted to do for a while. Just tell the objects we lead 'the YFC told us to jail communists, sorry not sorry', and boom, problem solved.\nBut like seriously, the Yellow Facers have got to get better at writing letters."
  YFC_CRN_Sub.13.a: "Let's not let this power get to our heads."
  YFC_CRN_Sub.13.b: "...The communists can remain free."
  #a: crn gains some stability, loses a small percent of communist support, has their weekly communism support go down for like a month or two
@@ -938,13 +957,8 @@
 
 #BUN
 
- #So I really did not explain my vision of Neo-Bunch (my bad) but I feel that thae authority that the bandits has no longer exists, and also ecomony and militray are gone
- #Kinda like Kingdom of Afghanistan with high decentralization and only power in the captial 
- #So no raids YET 
-
- #yeah i agree fully
- #i also think that the bunch's events need to sound a lot more casual than the events from the yellow facers or even numismatia
  #im trying to make sure each nation has a somewhat distinct style of speaking to the player, which i hope reflects well down below
+ # :D
 
  BUN_YFC.1.t: "The Yellow Facer Ideology Crumbles." #if eraser is killed or working in the YFC's govt
  BUN_YFC.1.desc: "We're finally free! After our defeat in the war with the old bunch, against the Yellow Facers, they split us up, and tried to get rid of our sprits, but we survived. Thrived even! And we're back now, better than ever! Sadly, Eraser is nowhere to be found, and Pen's been killed. Blocky, that traitor, decided to side with the Corporation, so, there's no one directly in line to really head anything. We'll sort that out later, for now, we've gotta make sure this revolution doesn't die!"
@@ -990,7 +1004,7 @@
  GTR_event.3.a: "Sounds delicious!"
  
  GTR_event.4.t: "Supply Crisis"
- GTR_event.4.desc: "Golfball looked outside from her place in front of the window. In front of her, she saw the glorious campus of South Goiky University. The campus she had helped improved. Wonderful.\nShe nearly forgot to think about the people, outside. Huddled around a stand that was selling bread, they all looked quite upset. Another food shortage, she supposed. It was fine really, there'd been a few in the last months, never lasting more than a week. People could go without eating for a week. \nSuddenly, the lights in her office shut off. Walking into the hallway, she'd realized the entire building lost power."
+ GTR_event.4.desc: "Golfball looked outside from her place in front of the window. In front of her, she saw the glorious campus of South Goiky University. The campus she had helped improved. Wonderful.\nShe nearly forgot to think about the objects, outside. Huddled around a stand that was selling bread, they all looked quite upset. Another food shortage, she supposed. It was fine really, there'd been a few in the last months, never lasting more than a week. Objects could go without eating for a week. \nSuddenly, the lights in her office shut off. Walking into the hallway, she'd realized the entire building lost power."
  GTR_event.4.a: "Maybe we should do something about this..."
  
  GTR_event.5.t: "Greenheart Roses"
@@ -998,7 +1012,7 @@
  GTR_event.5.a: "Filling up the herbarium."
  
  GTR_event.6.t: "Last Preparations"
- GTR_event.6.desc: "The supplies have reached even lower numbers. Despite being able to restore the power to pretty much every building, no doubt to her genius, there were still shortages in every other sector. People were missing food, projects were missing resources, university lessons were even getting canceled. People were dying. Golf Ball clearly couldn't put off working on this issue even longer. People in Announcergrad were holding demonstrations as well, according to some of the rumors she'd been hearing. No shortage had ever lasted this long before."
+ GTR_event.6.desc: "The supplies have reached even lower numbers. Despite being able to restore the power to pretty much every building, no doubt to her genius, there were still shortages in every other sector. Objects were missing food, projects were missing resources, university lessons were even getting canceled. Objects were dying. Golf Ball clearly couldn't put off working on this issue even longer. The objects in Announcergrad were holding demonstrations as well, according to some of the rumors she'd been hearing. No shortage had ever lasted this long before."
  GTR_event.6.a: "We need to finish The Project."
  
  GTR_event.7.t: "Unrest in Announcergrad!"
