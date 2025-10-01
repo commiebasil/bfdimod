@@ -37,7 +37,7 @@ decision_YFC_foster_category = {
 		}
 		icon = GFX_decision_generic_form_nation  
 		is_good = yes
-		days_mission_timeout = 35
+		days_mission_timeout = 25
 		timeout_effect = {
 			custom_effect_tooltip = l_YFC_BUN_foster_gain_bad
 			hidden_effect = {
@@ -72,6 +72,47 @@ decision_YFC_foster_category = {
 			modifier = {
 				add = 10
 				has_political_power > 50
+			}
+		}
+	}
+
+	YFC_foster_fund = { 
+		icon = GFX_decision_eng_propaganda_campaigns
+      
+		visible = {
+			has_completed_focus = YFC_focus_support_blocky
+			has_completed_focus = YFC_focus_foster_new_society
+			NOT = {has_completed_focus = YFC_focus_bunch_fostered}
+		}
+
+		fire_only_once = no
+		cost = 0
+		days_remove = 15
+		days_re_enable = 10
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = l_money_cost_100K
+                check_variable = { money_amount > 1 }
+            }
+		}
+
+		complete_effect = {
+			subtract_from_variable = { money_amount = 1 }
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = l_YFC_BUN_foster_gain
+			hidden_effect = {
+				add_to_variable = { var_foster_YFC_support = 0.5 }
+			}
+        }
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				check_variable = { money_amount > 5 }
 			}
 		}
 	}
@@ -117,15 +158,19 @@ decision_YFC_foster_category = {
 				add_compliance = 5
 			}
 			hidden_effect = {
-				add_to_variable = { var_foster_YFC_support = 1 }
+				add_to_variable = { var_foster_YFC_support = 1.5 }
 			}
         }
 
 		ai_will_do = {
-			base = 5
+			base = 0
 			modifier = {
 				add = 10
-				has_political_power > 60
+				has_political_power > 25
+			}
+			modifier = {
+				add = 100
+				check_variable = { money_amount > 5 }
 			}
 		}
 	}

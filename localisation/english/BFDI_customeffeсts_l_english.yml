@@ -152,6 +152,9 @@
 
  l_CRN_Sleep: "§YIf a Pro-Bunch revolt occurs, rebels trained by us will spawn in support.§!"
  
+ l_OWN: "§YImproves OWN National Spirit!§!"
+ l_UDC: "§YImproves UDC National Spirit!§!"
+
  l_GTR_project1_start: "Work on the §4Project #1§! begins.\n\n§tCheck your decisions tab!§!"
  l_GTR_adds_progress_stage1: "Speeds up §3Research work§! on The Project!"
  l_GTR_adds_progress_stage2: "Speeds up §9Resource extraction§! for The Project!"
@@ -163,6 +166,8 @@
  l_GTR_opens_requistion: "Allows §tRequisition§!."
  l_GTR_outbreak: "§tThere will be catastrophical consequences.§!"
 
+ l_money_gain_200K: "Gain §G200K Dollars§!"
  l_money_gain_300K: "Gain §G300K Dollars§!"
-
+ l_money_gain_400K: "Gain §G400K Dollars§!"
+ l_money_gain_700K: "Gain §G700K Dollars§!"
  l_money_lose_1M: "Lose §R1M Dollars§!"

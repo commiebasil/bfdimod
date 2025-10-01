@@ -197,3 +197,25 @@ idea_BUN_Ticking_Bomb = { #Bunch Revolt Idea
 	surrender_limit = var_idea_BUN_Ticking_Bomb_surrender_limit 
 	ai_focus_aggressive_factor = var_idea_BUN_Ticking_Bomb_ai_focus_aggressive_factor
 }
+
+idea_Musketeers_OWN = { #Musketeers OWN
+	icon = GFX_idea_generic_constitutional_guarantees
+	
+	trade_opinion_factor = var_own_trade_opinion_factor
+	political_power_factor = var_own_political_power_factor
+	production_lack_of_resource = var_own_production_lack_of_resource
+	min_export = var_own_min_export
+	consumer_goods_factor = var_own_consumer_goods_factor
+	local_resources_factor = var_own_local_resources_factor
+}
+
+idea_Musketeers_UDC = { #Musketeers UDC
+	icon = GFX_idea_generic_constitutional_guarantees
+	
+	army_org_factor = var_udc_army_org_factor
+	experience_gain_army_factor = var_udc_experience_gain_army_factor
+	training_time_factor = var_udc_training_time_factor
+	max_command_power = var_udc_max_command_power
+	command_power_gain_mult = var_udc_command_power_gain_mult
+	max_planning_factor = var_udc_max_planning_factor
+}

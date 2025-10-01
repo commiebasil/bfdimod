@@ -1079,6 +1079,36 @@
  YFC_focus_bunchivist_new_deal: "The Bunchivist New Deal"
  YFC_focus_bunchivist_new_deal_desc: "Admittedly, attempting to convert the Bunchivist society into a less.. stupid one is quite challenging. We're a company, not a government. Well, I guess we are a government. Shit. Anyways, we've just started and already spent more money on this project than anticipated. We need to find a better way to generate money from the population, fast!"
  
+ Musketeers_three_musketeers: "Three Musketeers"
+ Musketeers_three_musketeers_desc: "text here" #Placeholder I WILL come up with something 
+
+ Musketeers_form_own: "Form OWN"
+ Musketeers_form_own_desc: "OWN is 'Organization of the Wealth Nations' btw" #Placeholder I WILL come up with something
+
+ Musketeers_grant_drilling_subsidies: "Grant Drilling Subsidies"
+ Musketeers_grant_drilling_subsidies_desc: "text holder" #Placeholder I WILL come up with something
+
+ Musketeers_unite_trading_deals: "Unite Trading Deals"
+ Musketeers_unite_trading_deals_desc: "text here" #Placeholder I WILL come up with something 
+
+ Musketeers_build_new_mines: "Build New Mines"
+ Musketeers_build_new_mines_desc: "text here" #Placeholder I WILL come up with something 
+
+ Musketeers_gather_contracts: "Gather Contracts"
+ Musketeers_gather_contracts_desc: "text here" #Placeholder I WILL come up with something 
+
+ Musketeers_form_udc: "FORM UDC"
+ Musketeers_form_udc_desc: "UDC is United Defence Command btw" #Placeholder I WILL come up with something 
+
+ Musketeers_conduct_military_drills: "Conduct Military Drills"
+ Musketeers_conduct_military_drills_desc: "text here" #Placeholder I WILL come up with something 
+
+ Musketeers_tighten_command: "Tighten Command"
+ Musketeers_tighten_command_desc: "text here" #Placeholder I WILL come up with something 
+
+ Musketeers_rules_of_war: "Learn the Rules of War"
+ Musketeers_rules_of_war_desc: "text here" #Placeholder I WILL come up with something 
+
  #GOIKY TECHNOCRATIC REPUBLIC
  GTR_focus_project_1: "Project #1"
  GTR_focus_project_1_desc: ""

@@ -19,6 +19,8 @@ focus_tree = {
 	default = yes
 	reset_on_civilwar = no
 	
+	initial_show_position = { focus = generic_focus_industry }
+
 	focus = {
 		id = generic_focus_industry
 		x = 5

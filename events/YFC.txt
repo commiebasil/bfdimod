@@ -310,17 +310,44 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { # 0% Risk 75% Chance of Bonus Support 
+	option = { 
 		name = YFC_event.11.a
 	}
-	option = { # 25% Risk 50% Chance of Bonus Support 
+	option = { 
 		name = YFC_event.11.b
+		custom_effect_tooltip = l_money_gain_200K
+		add_to_variable = { money_amount = 2 }
+		random = {
+			chance = 25
+			custom_effect_tooltip = l_YFC_BUN_foster_gain_bad
+			hidden_effect = {
+				add_to_variable = { var_foster_BUN_support = 1 }
+			}
+		}
 	}
-	option = { # 50% Risk 25% Chance of Bonus Support 
+	option = {  
 		name = YFC_event.11.c
+		custom_effect_tooltip = l_money_gain_400K
+		add_to_variable = { money_amount = 4 }
+		random = {
+			chance = 50
+			custom_effect_tooltip = l_YFC_BUN_foster_gain_bad
+			hidden_effect = {
+				add_to_variable = { var_foster_BUN_support = 2 }
+			}
+		}
 	}
-	option = { # 75% Risk 0% Chance of Bonus Support 
+	option = { 
 		name = YFC_event.11.d
+		custom_effect_tooltip = l_money_gain_700K
+		add_to_variable = { money_amount = 7 }
+		random = {
+			chance = 75
+			custom_effect_tooltip = l_YFC_BUN_foster_gain_bad
+			hidden_effect = {
+				add_to_variable = { var_foster_BUN_support = 3 }
+			}
+		}
 	}
 }
 
