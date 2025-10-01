@@ -71,7 +71,7 @@ guiTypes = {
 			text = cap_window_close_button
 			font = hoi_18mbs
 			spriteType = GFX_button_221x34
-			shortcut = ESCAPE
+			shortcut = "RETURN"
 			position = { x = 140 y = 285 }
 		}
 	}

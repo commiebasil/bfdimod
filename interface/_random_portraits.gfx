@@ -1,0 +1,41 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_unknown"
+		textureFile = "gfx/leaders/leader_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_land_1"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_land_2"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_land_3"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_navy_1"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_navy_2"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_navy_3"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_navy_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_spy_1"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_spy_2"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_2.dds"
+	}
+}

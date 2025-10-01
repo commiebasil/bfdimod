@@ -1,40 +1,5 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_Portrait_Goiky_Generic_land_1"
-		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_land_1.dds
-	}
-	spriteType = {
-		name = "GFX_Portrait_Goiky_Generic_land_2"
-		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_land_2.dds
-	}
-	spriteType = {
-		name = "GFX_Portrait_Goiky_Generic_land_3"
-		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_land_3.dds
-	}
-	spriteType = {
-		name = "GFX_Portrait_Goiky_Generic_navy_1"
-		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_navy_1.dds
-	}
-	spriteType = {
-		name = "GFX_Portrait_Goiky_Generic_navy_2"
-		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_navy_2.dds
-	}
-	spriteType = {
-		name = "GFX_Portrait_Goiky_Generic_navy_3"
-		texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_navy_3.dds
-	}
-	spriteType = {
-        name = "GFX_Portrait_Goiky_Generic_spy_1"
-        texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_1.dds
-    }
-    spriteType = {
-        name = "GFX_Portrait_Goiky_Generic_spy_2"
-        texturefile = gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_2.dds
-    }
-
-
-
-	spriteType = {
 		name = "GFX_GOI_power_vacuum"
 		texturefile = "gfx/leaders/GOI/GOI_power_vacuum.dds"
 	}
