@@ -412,7 +412,9 @@ country_event = {
 
 	option = { 
 		name = YFC_event.14.a
-		add_political_power = 75
+		custom_effect_tooltip = l_money_gain_800K
+		add_to_variable = { money_amount = 8 }
+		add_political_power = 50
 	}
 }
 
@@ -441,10 +443,7 @@ country_event = {
 
 	option = { 
 		name = YFC_event.16.a
-		country_event = {
-			id = YFC_event.17
-			hours = 1
-		}
+
 	}
 }
 
@@ -459,10 +458,7 @@ country_event = {
 
 	option = { 
 		name = YFC_event.17.a
-		country_event = {
-			id = YFC_event.18
-			hours = 1
-		}
+
 	}
 }
 

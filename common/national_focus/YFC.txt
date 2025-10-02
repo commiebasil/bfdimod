@@ -1368,7 +1368,7 @@ focus_tree = {
 		icon = GFX_focus_generic
 		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
-		cost = 5
+		cost = 3
 		#required to do any of the election mechanic decisions, gives event talking abt blocky
 		completion_reward = {
 			custom_effect_tooltip = l_YFC_BUN_foster
@@ -1495,7 +1495,7 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_establish_law_presence }
-		cost = 5
+		cost = 3
 		completion_reward = {
 			custom_effect_tooltip = l_YFC_BUN_foster_gain
 			set_temp_variable = { 85POP = 85.state_population_k }
@@ -1553,6 +1553,7 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_free_pows }
 		cost = 8
 		completion_reward = {
+			country_event = YFC_event.20
 			custom_effect_tooltip = l_YFC_BUN_foster_gain
 			add_to_variable = { var_foster_YFC_support = 3 }
 		}

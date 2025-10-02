@@ -10,7 +10,7 @@ decision_YFC_foster_category = {
 		}
 		icon = GFX_decision_generic_form_nation  
 		is_good = yes
-		days_mission_timeout = 400
+		days_mission_timeout = 450
 		timeout_effect = {
 			random_list = {
 				var_foster_BUN_support = {
