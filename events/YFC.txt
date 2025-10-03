@@ -491,7 +491,7 @@ country_event = {
 }
 
 country_event = {
-	# YFC_focus_bunchivist_new_deal countdown event 
+	# YFC_focus_bunchivist_new_deal event 
 	id = YFC_event.20
 	title = YFC_event.20.t
 	desc = YFC_event.20.desc
@@ -576,6 +576,8 @@ country_event = {
 		name = YFC_event.22.a
 		hidden_effect = {
 			add_to_variable = { var_YFC_upgrade_level = 1 }
+			#How much is cost?
+			#ZDubbz
 		}
 	}
 
@@ -583,6 +585,8 @@ country_event = {
 		name = YFC_event.22.b
 		hidden_effect = {
 			add_to_variable = { var_YFC_upgrade_level = 2 }
+			#How much is cost?
+			#ZDubbz
 		}
 	}
 
@@ -590,6 +594,8 @@ country_event = {
 		name = YFC_event.22.c
 		hidden_effect = {
 			add_to_variable = { var_YFC_upgrade_level = 3 }
+			#How much is cost?
+			#ZDubbz
 		}
 	}
 }
@@ -606,6 +612,8 @@ country_event = {
 		name = YFC_event.23.a
 		add_political_power = 25 #Replace with money
 		add_stability = -0.01
+		#Please list money and population increase by %
+		#ZDubbz
 	}
 }
 
@@ -621,6 +629,8 @@ country_event = {
 		name = YFC_event.24.a
 		add_political_power = 25 #Replace with money
 		add_stability = -0.01
+		#Please list money and population increase by %
+		#ZDubbz
 	}
 }
 
@@ -636,6 +646,8 @@ country_event = {
 		name = YFC_event.25.a
 		add_political_power = 25 #Replace with money
 		add_stability = -0.01
+		#Please list money and population increase by %
+		#ZDubbz
 	}
 }
 
@@ -651,6 +663,8 @@ country_event = {
 		name = YFC_event.26.a
 		add_political_power = 25 #Replace with money
 		add_stability = -0.01
+		#Please list money and population increase by %
+		#ZDubbz
 	}
 }
 
@@ -666,6 +680,8 @@ country_event = {
 		name = YFC_event.27.a
 		add_political_power = 25 #Replace with money
 		add_stability = -0.01
+		#Please list money and population increase by %
+		#ZDubbz
 	}
 }
 
@@ -681,6 +697,8 @@ country_event = {
 		name = YFC_event.28.a
 		add_political_power = 25 #Replace with money
 		add_stability = -0.01
+		#Please list money and population increase by %
+		#ZDubbz
 	}
 }
 
@@ -696,6 +714,8 @@ country_event = {
 		name = YFC_event.29.a
 		add_political_power = 25 #Replace with money
 		add_stability = -0.01
+		#Please list money and population increase by %
+		#ZDubbz
 	}
 }
 
@@ -711,6 +731,8 @@ country_event = {
 		name = YFC_event.30.a
 		add_political_power = 25 #Replace with money
 		add_stability = -0.01
+		#Please list money and population increase by %
+		#ZDubbz
 	}
 }
 

@@ -1124,9 +1124,6 @@ focus_tree = {
 		}
 	}
 
-	#For less headache i'm putting both as the same event has an output of a variable
-	#Just easier for the 9 if/elseif/else statements
-
 	focus = {
 		id = YFC_focus_peoniele_the_second_city
 		relative_position_id = YFC_focus_scope_out_sea_trade
@@ -1540,6 +1537,7 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 			#So I'll make it where the player gains 300K 
+			#ZDubbz
 		}
 	}
 
