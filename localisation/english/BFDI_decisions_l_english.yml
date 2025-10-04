@@ -213,6 +213,13 @@
  CRN_BUN_Revolt_Victory: "§GVictory Near!§!"
  CRN_BUN_Revolt_Victory_desc: "Neo-Bunch holds all of their states! Should they just hold on a little longer, Yellow Face will have to accept their independence and our efforts!"
 
+ decision_CRN_foster_category: "Fostering A New Bunch"
+ decision_CRN_foster_category_desc: "Something bla bla I'll get an idea later xd \n\n§RCURRENT @BUN ERASER SUPPORT:§! [?YFC.var_foster_BUN_support|Y1]\n§8CURRENT @YFC BLOCKY SUPPORT:§! [?YFC.var_foster_YFC_support|Y1]\n§7CURRENT @CRN PEN SUPPORT:§! [?YFC.var_foster_CRN_support|Y1]"
+ CRN_foster_Countdown: "§YUpcoming Election§!"
+ CRN_foster_propaganda: "Create §GPro-Pen Propaganda§!"
+ CRN_foster_gaining_support: "Growing §RPro-Eraser Support§!"
+ CRN_foster_fund: "Fund §GCampaign Efforts§!"
+
  #BUN State Modifiers 
  BUN_lesser_state: "Lesser State"
  BUN_autonomous_state: "Autonomous State"

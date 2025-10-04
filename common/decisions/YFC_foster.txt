@@ -37,7 +37,7 @@ decision_YFC_foster_category = {
 		}
 		icon = GFX_decision_generic_form_nation  
 		is_good = yes
-		days_mission_timeout = 25
+		days_mission_timeout = 30
 		timeout_effect = {
 			custom_effect_tooltip = l_YFC_BUN_foster_gain_bad
 			hidden_effect = {
@@ -56,8 +56,8 @@ decision_YFC_foster_category = {
 		}
 
 		fire_only_once = no
-		cost = 50
-		days_remove = 30
+		cost = 40
+		days_remove = 20
 		days_re_enable = 15
 
 		remove_effect = {

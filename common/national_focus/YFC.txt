@@ -1325,7 +1325,7 @@ focus_tree = {
 		#oh it also gvies you an event talkjing about how you'll have an election to see who runs the bunch etc etc whatever blah
 		
 		#New: election mechanic would be a gui decisions thing, with eraser's bunch becoming a puppet if blocky or pen wins the election
-
+		
 		completion_reward = {
 			mark_focus_tree_layout_dirty = yes
 			85 = {add_compliance = 20} 
@@ -1365,6 +1365,14 @@ focus_tree = {
 		icon = GFX_focus_generic
 		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
 		prerequisite = { focus = YFC_focus_the_bunchivist_problem }
+
+		bypass = {
+			OR = {
+				has_completed_focus = YFC_focus_bunch_fostered
+				country_exists = BUN
+			}
+		}
+
 		cost = 3
 		#required to do any of the election mechanic decisions, gives event talking abt blocky
 		completion_reward = {
@@ -1393,6 +1401,14 @@ focus_tree = {
 		allow_branch = { has_completed_focus = YFC_focus_foster_new_society }
 
 		prerequisite = { focus = YFC_focus_foster_new_society }
+
+		bypass = {
+			OR = {
+				has_completed_focus = YFC_focus_bunch_fostered
+				country_exists = BUN
+			}
+		}
+
 		cost = 5
 		#removes one civ factory (100k dollars) from monthly income, to account for paying of policemen
 		#gives lots of stability, adds national idea that gives +0.5 political power
@@ -1443,6 +1459,14 @@ focus_tree = {
 		}
 		
 		prerequisite = { focus = YFC_focus_foster_new_society }
+
+		bypass = {
+			OR = {
+				has_completed_focus = YFC_focus_bunch_fostered
+				country_exists = BUN
+			}
+		}
+
 		cost = 5
 		completion_reward = {
 			custom_effect_tooltip = l_YFC_BUN_foster
@@ -1457,6 +1481,14 @@ focus_tree = {
 		icon = GFX_focus_generic
 
 		prerequisite = { focus = YFC_focus_establish_law_presence }
+
+		bypass = {
+			OR = {
+				has_completed_focus = YFC_focus_bunch_fostered
+				country_exists = BUN
+			}
+		}
+
 		cost = 5
 		#more stab less pp
 		#event that lets you choose how many pows to free, more pows, more stab, less pp
@@ -1473,6 +1505,14 @@ focus_tree = {
 		icon = GFX_focus_generic
 
 		prerequisite = { focus = YFC_focus_stimulate_bunch_business  focus = YFC_focus_establish_law_presence }
+
+		bypass = {
+			OR = {
+				has_completed_focus = YFC_focus_bunch_fostered
+				country_exists = BUN
+			}
+		}
+
 		cost = 5
 		#gives a bit extra passive income
 
@@ -1492,6 +1532,14 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_establish_law_presence }
+
+		bypass = {
+			OR = {
+				has_completed_focus = YFC_focus_bunch_fostered
+				country_exists = BUN
+			}
+		}
+
 		cost = 3
 		completion_reward = {
 			custom_effect_tooltip = l_YFC_BUN_foster_gain
@@ -1518,6 +1566,14 @@ focus_tree = {
 		y = 1
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_allow_people_enter focus = YFC_focus_free_pows }
+
+		bypass = {
+			OR = {
+				has_completed_focus = YFC_focus_bunch_fostered
+				country_exists = BUN
+			}
+		}
+
 		cost = 5
 		completion_reward = {
 			#What does this mean??
@@ -1534,6 +1590,14 @@ focus_tree = {
 		prerequisite = { focus = YFC_focus_banks_too_big_to_fail }
 		prerequisite = { focus = YFC_focus_advertise_YFC_products }
 		prerequisite = { focus = YFC_focus_stimulate_bunch_business }
+
+		bypass = {
+			OR = {
+				has_completed_focus = YFC_focus_bunch_fostered
+				country_exists = BUN
+			}
+		}
+
 		cost = 5
 		completion_reward = {
 			#So I'll make it where the player gains 300K 
@@ -1549,7 +1613,15 @@ focus_tree = {
 		icon = GFX_focus_generic
 		prerequisite = { focus = YFC_focus_banks_too_big_to_fail }
 		prerequisite = { focus = YFC_focus_free_pows }
-		cost = 8
+
+		bypass = {
+			OR = {
+				has_completed_focus = YFC_focus_bunch_fostered
+				country_exists = BUN
+			}
+		}
+
+		cost = 5
 		completion_reward = {
 			country_event = YFC_event.20
 			custom_effect_tooltip = l_YFC_BUN_foster_gain

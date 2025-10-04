@@ -14,3 +14,17 @@ decision_CRN_BUN_category = {
 	icon = GFX_decision_category_spr_the_seeds_of_revolution
 	visible_when_empty = yes
 }
+
+decision_CRN_foster_category = {
+	allowed = { tag = CRN }	
+	visible = { 
+		YFC = {
+			has_completed_focus = YFC_focus_foster_new_society
+			NOT = {has_completed_focus = YFC_focus_bunch_fostered}
+		}
+	}
+	priority = 10
+	picture = GFX_decision_cat_GFG_reconstruction #Change later plz
+	icon = GFX_decision_category_spr_the_seeds_of_revolution
+	visible_when_empty = yes
+}
