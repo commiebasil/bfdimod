@@ -1563,6 +1563,16 @@ SpriteTypes = {
 		name = "GFX_focus_YFC_pen"
 		texturefile = "gfx/interface/goals/GFX_focus_YFC_pen.dds"
 	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_big_yoyleton"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_big_yoyleton.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_YFC_expand_northern_trade"
+		texturefile = "gfx/interface/goals/GFX_focus_YFC_expand_northern_trade.dds"
+	}
 	
 	
 	frameAnimatedSpriteType = {
