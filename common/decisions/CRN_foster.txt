@@ -1,0 +1,115 @@
+decision_CRN_foster_category = { 
+	CRN_foster_Countdown = { #Same as YFC BUT does not have any effects
+		activation = {
+			YFC = {
+				has_completed_focus = YFC_focus_foster_new_society
+				NOT = {has_completed_focus = YFC_focus_bunch_fostered}
+			}	
+			NOT = {country_exists = BUN}		
+		}
+		available = {
+			always = no
+		}
+		icon = GFX_decision_generic_form_nation  
+		is_good = yes
+		days_mission_timeout = 450
+		timeout_effect = {
+
+		}
+	}
+	
+	CRN_foster_gaining_support = { #Same as YFC BUT does not have any effects
+		activation = {
+			YFC = {
+				has_completed_focus = YFC_focus_foster_new_society
+				NOT = {has_completed_focus = YFC_focus_bunch_fostered}
+			}	
+			NOT = {country_exists = BUN}
+		}
+		available = {
+			always = no
+		}
+		icon = GFX_decision_generic_form_nation  
+		is_good = yes
+		days_mission_timeout = 30
+		timeout_effect = {
+			custom_effect_tooltip = l_YFC_BUN_foster_gain_bad
+		}
+	}
+
+	CRN_foster_propaganda = { 
+		icon = GFX_decision_eng_propaganda_campaigns
+      
+		visible = {
+			YFC = {
+				has_completed_focus = YFC_focus_foster_new_society
+				NOT = {has_completed_focus = YFC_focus_bunch_fostered}
+			}	
+			NOT = {country_exists = BUN}
+		}
+
+		fire_only_once = no
+		cost = 35
+		days_remove = 15
+		days_re_enable = 10
+
+		remove_effect = {
+			custom_effect_tooltip = l_YFC_BUN_foster_gain
+			hidden_effect = {
+				YFC = {add_to_variable = { var_foster_CRN_support = 0.5 }}
+			}
+        }
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_political_power > 35
+			}
+		}
+	}
+
+	CRN_foster_fund = { 
+		icon = GFX_decision_eng_propaganda_campaigns
+      
+		visible = {
+			YFC = {
+				has_completed_focus = YFC_focus_foster_new_society
+				NOT = {has_completed_focus = YFC_focus_bunch_fostered}
+			}	
+			NOT = {country_exists = BUN}	
+		}
+
+		fire_only_once = no
+		cost = 0
+		days_remove = 15
+		days_re_enable = 10
+
+		available = {
+            custom_trigger_tooltip = {
+                tooltip = l_money_cost_100K
+                check_variable = { money_amount > 1 }
+            }
+		}
+
+		complete_effect = {
+			subtract_from_variable = { money_amount = 1 }
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = l_YFC_BUN_foster_gain
+			hidden_effect = {
+				YFC = {add_to_variable = { var_foster_CRN_support = 0.5 }}
+			}
+        }
+
+		ai_will_do = {
+			base = -10
+			modifier = {
+				add = 10
+				check_variable = { money_amount > 5 }
+			}
+			modifier = {has_opinion_modifier = betrayed_alliance add = 10 }
+		}
+	}
+}

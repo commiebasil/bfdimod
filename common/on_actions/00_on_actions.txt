@@ -437,14 +437,6 @@ on_actions = {
 				multiply_temp_variable = {adding_amount = combined_modifer}
 				add_to_variable = { money_amount = adding_amount }
 			}
-
-			IF = {
-				limit = {has_game_rule = { rule = allow_war_goals option = RULE_OPTION_ALLOWED }}
-				set_rule = {
-					desc = TAG #Plz don't tell me I need this
-					can_not_declare_war = no
-				}
-			}
 		}
 	}
 	
@@ -494,6 +486,52 @@ on_actions = {
 						set_country_flag = stage3_done
 						set_country_flag = project1_notif_enabled
 						country_event = GTR_event.9
+					}
+				}
+			}
+		}
+	}
+
+	on_join_faction = { #Join Faction
+		effect = {
+			IF = { #Musketeers
+				limit = {
+					FROM = {has_country_flag = Allow_Musketeers}
+				}
+				set_country_flag = Allow_Musketeers
+				IF = {
+					limit = {has_completed_focus = Musketeers_form_own}
+					add_dynamic_modifier = {
+						modifier = idea_Musketeers_OWN
+					}
+				}
+				IF = {
+					limit = {has_completed_focus = Musketeers_form_udc}
+					add_dynamic_modifier = {
+						modifier = idea_Musketeers_UDC
+					}
+				}
+			}
+		}
+	}
+
+	on_leave_faction = { #Leave Faction
+		effect = {
+			IF = { #Musketeers
+				limit = {
+					FROM = {has_country_flag = Allow_Musketeers}
+				}
+				clr_country_flag = Allow_Musketeers
+				IF = {
+					limit = {has_completed_focus = Musketeers_form_own}
+					remove_dynamic_modifier = {
+						modifier = idea_Musketeers_OWN
+					}
+				}
+				IF = {
+					limit = {has_completed_focus = Musketeers_form_udc}
+					remove_dynamic_modifier = {
+						modifier = idea_Musketeers_UDC
 					}
 				}
 			}

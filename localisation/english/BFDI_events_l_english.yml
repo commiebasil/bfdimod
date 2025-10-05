@@ -684,9 +684,17 @@
  YFC_event.14.desc: "Out of many of the discussions that the sectorials and Yellow Face had, this one lasted only a few minutes. Who was going to stop us from 'relocating' their money? The air in our conference room? Besides, this wealth will have a much better use than laying around for anarchist use.\n\nA week after the very obvious outcome of the vote, Blocky entered the warehouse holding the money. He took one last look at all of it, as if a chapter of a story had ended and a new one started. Even though he should feel some sort of emotion..."
  YFC_event.14.a: "Nothing was felt...?" #800K Taken
 
+ YFC_event.15.t: "YFC_focus_scope_out_sea_trade event"
+ YFC_event.15.desc: "ZDubbz plz write"
+ YFC_event.15.a: "Cough"
+
  YFC_event.19.t: "New Face Of a New Bunch"
  YFC_event.19.desc: "ZDubbz plz write" #Cough
  YFC_event.19.a: "???"
+
+ YFC_event.20.t: "YFC_focus_bunchivist_new_deal event"
+ YFC_event.20.desc: "ZDubbz plz write"
+ YFC_event.20.a: "Cough"
 
  YFC_event.21.t: "Compilations in the Military District!"
  YFC_event.21.desc: "With the current invasion of the rotten communists of our ally, Coiny has stated that all assistance will need to move back to defending his country. It's unfortunately a fair request which we cannot deny. The outcome of the war will be unknown, if even anyone will win. We could send aid to Coiny...\n\nThough, should we?"
@@ -700,6 +708,38 @@
  YFC_event.22.a: "It just needs a little bit extra." 
  YFC_event.22.b: "Let us flesh out this city more, it's feeble." 
  YFC_event.22.c: "Pure economic opportunity is in the palms of this city's planner. It shall be the YFC's largest." 
+
+ YFC_event.23.t: "City outcome event text"
+ YFC_event.23.desc: "ZDubbz plz write"
+ YFC_event.23.a: "Cough"
+
+ YFC_event.24.t: "City outcome event text"
+ YFC_event.24.desc: "ZDubbz plz write"
+ YFC_event.24.a: "Cough"
+
+ YFC_event.25.t: "City outcome event text"
+ YFC_event.25.desc: "ZDubbz plz write"
+ YFC_event.25.a: "Cough"
+
+ YFC_event.26.t: "City outcome event text"
+ YFC_event.26.desc: "ZDubbz plz write"
+ YFC_event.26.a: "Cough"
+
+ YFC_event.27.t: "City outcome event text"
+ YFC_event.27.desc: "ZDubbz plz write"
+ YFC_event.27.a: "Cough"
+
+ YFC_event.28.t: "City outcome event text"
+ YFC_event.28.desc: "ZDubbz plz write"
+ YFC_event.28.a: "Cough"
+
+ YFC_event.29.t: "City outcome event text"
+ YFC_event.29.desc: "ZDubbz plz write"
+ YFC_event.29.a: "Cough"
+
+ YFC_event.30.t: "City outcome event text"
+ YFC_event.30.desc: "ZDubbz plz write"
+ YFC_event.30.a: "Cough"
 
  BUN_borderwars.5.t: "Raiders Attacked!"
  BUN_borderwars.5.desc: "When our forces arrived, they found themselves quickly under bandit fire. Despite our best efforts, our forces were overrun and the bandits broke through. This resulted in the nearby towns and villages being set ablaze and much of the equipment was stolen. The bandits have left, but there are still ashes in the air."
