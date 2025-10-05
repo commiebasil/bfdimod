@@ -29,10 +29,7 @@ ideas = {
 				consumer_goods_factor = 0.2
 				stability_factor = -0.1
 				war_support_factor = -0.1
-				political_power_gain = -0.5
-			}
-			on_add = {
-				country_lock_all_division_template = yes
+				political_power_gain = -2
 			}
 		}
 	}

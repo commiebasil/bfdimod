@@ -38,4 +38,17 @@ spriteTypes = {
 		name = "GFX_Portrait_Goiky_Generic_spy_2"
 		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_spy_2.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_scientist_1"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_scientist_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_scientist_2"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_scientist_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Goiky_Generic_scientist_3"
+		textureFile = "gfx/leaders/Goiky/Portrait_Goiky_Generic_scientist_3.dds"
+	}
 }

@@ -184,3 +184,49 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = GTR_event.9
+	title = GTR_event.9.t
+	desc = GTR_event.9.desc
+	picture = GFX_GTR_event9
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GTR_event.9.a
+	}
+}
+
+country_event = {
+	id = GTR_event.10
+	title = GTR_event.10.t
+	desc = GTR_event.10.desc
+	picture = GFX_GTR_event10
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GTR_event.10.a
+		custom_effect_tooltip = l_GTR_nuclear_annihilation
+		hidden_effect = {
+			launch_nuke = {
+				province = 3545 #:sob:
+			}
+			goto_province = 3545
+			every_possible_country = {
+				limit = {
+					OR = {
+						is_ai = no
+						tag = UGA
+					}
+				}
+				news_event = {
+					id = bfdinews.28
+					days = 2
+					random_hours = 12
+				}
+			}
+		}
+	}
+}

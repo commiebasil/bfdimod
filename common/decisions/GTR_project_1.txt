@@ -1,7 +1,7 @@
 decision_GTR_project_1_category = {
 	GTR_project1_outbreak_mission = {
 		priority = 100
-		days_mission_timeout = 200
+		days_mission_timeout = 230
 		timeout_effect = {
 			custom_effect_tooltip = l_GTR_outbreak
 			hidden_effect = {
@@ -9,7 +9,15 @@ decision_GTR_project_1_category = {
 				country_event = GTR_event.8
 			}
 		}
-		available = { always = no }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = l_GTR_all_stages_done
+				has_country_flag = stage1_done
+				has_country_flag = stage2_done
+				has_country_flag = stage3_done
+			}
+		}
+		selectable_mission = no
 		activation = { always = no }
 		
 		icon = GFX_decisions_GTR_project1_outbreak_mission
@@ -103,6 +111,10 @@ decision_GTR_project_1_category = {
 				set_variable = { var_GTR_progressbar_stage2 = 100 }
 				set_variable = { var_GTR_weekly_progress_stage2 = 0 }
 				set_country_flag = stage2_done
+				if = {
+					limit = { has_country_flag = stage1_done }
+					set_variable = { var_GTR_weekly_progress_stage3 = 10 }
+				}
 				set_country_flag = project1_notif_enabled
 			}
 		}

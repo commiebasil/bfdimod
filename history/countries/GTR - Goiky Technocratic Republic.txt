@@ -10,6 +10,12 @@ set_war_support = 0.3
 
 set_technology = { basic_train = 1 }
 
+add_equipment_to_stockpile = {
+    type = train_equipment_1
+    amount = 10
+    producer = GOI
+}
+
 if = {
 	limit = { NOT = { has_dlc = "Man the Guns" } }
 	set_technology = {

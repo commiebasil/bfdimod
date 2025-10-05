@@ -1022,6 +1022,14 @@
  GTR_event.8.t: "Time is up."
  GTR_event.8.desc: "The frenzied crowd burst into the corridors and classrooms, tearing everything in their path.\n\nHungry.\n\nAs they began to force their way into Golfball's office, the last sensible decision was made."
  GTR_event.8.a: "It was no pain."
+ 
+ GTR_event.9.t: "Preparations done!"
+ GTR_event.9.desc: "Composite is ready! Now we can begin testing. We're one step away from saving Goiky! Everything should go according to plan."
+ GTR_event.9.a: "Let us begin."
+ 
+ GTR_event.10.t: "Unforeseen concequences"
+ GTR_event.10.desc: "We've lost contact with the University. An earthquake shook a twenty-miles radius of the campus, windows were blown out in Announcergrad. There are reports of a mushroom cloud of smoke visible for miles from the supposed explosion.."
+ GTR_event.10.a: "THE HECK HAPPENED THERE?"
 
 #NEWS
  bfdinews.1.t: "Firey won Dream Island!"
@@ -1139,6 +1147,10 @@
  bfdinews.27.t: "Goiky University in shambles!"
  bfdinews.27.desc: "Breaking news from the frenzied city of Announcergrad! It appears the population of the starving city has revolted and razed the continent's largest university to the ground. Nothing exact  not is known yet, but it's already terrifying. Our correspondents will continue to monitor developments."
  bfdinews.27.a: "Tragical."
+ 
+ bfdinews.28.t: "Explosion in University!"
+ bfdinews.28.desc: "Our correspondents from Central Goiky report on the aftermath of the accident that occurred near Announcergrad! A mushroom cloud of smoke several miles high was reportedly visible from the town to the south, and windows were blown out in the town. The number of casualties is unknown at this time, but we will continue to monitor the situation."
+ bfdinews.28.a: "A lot of dead, it seems."
 
 
 #City fall events
