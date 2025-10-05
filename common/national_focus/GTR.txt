@@ -322,16 +322,31 @@ focus_tree = {
 				has_country_flag = stage2_done
 				has_country_flag = stage3_done
 			}
+			hidden_trigger = {
+				NOT = { has_country_flag = ohh_thats_bad }
+			}
 		}
+		cancel_if_invalid = yes
 		
-		cost = 5 
+		cost = 10 
 		
 		ai_will_do = {
 			base = 5
 		}
 		
+		select_effect = {
+			hidden_effect = {
+				country_event = {
+					id = GTR_event.10
+					days = 14
+					random_days = 2
+					random_hours = 12
+				}
+			}
+		}
+		
 		completion_reward = {
-			
+			custom_effect_tooltip = l_GTR_testings
 		}
 	}
 }

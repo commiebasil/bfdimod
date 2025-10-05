@@ -581,14 +581,28 @@ news_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = bfdinews.26.a
+		name = bfdinews.27.a
 		if = {
 			limit = { UGA = { is_ai = no } }
 			set_variable = { var_demo_end = 9 }
 			set_global_flag = demo_ended
 		}
 	}
+}
+
+news_event = {
+	id = bfdinews.28
+	title = bfdinews.28.t
+	desc = bfdinews.28.desc
+	picture = GFX_bfdinews28
 	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = bfdinews.28.a
+	}
 }
 
 #City Fall events#

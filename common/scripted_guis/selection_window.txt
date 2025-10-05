@@ -242,6 +242,7 @@ scripted_gui = {
 							days = 3
 							random_hours = 12
 						}
+						country_lock_all_division_template = yes
 					}
 
 					every_possible_country = {
@@ -359,6 +360,7 @@ scripted_gui = {
 						days = 3
 						random_hours = 12
 					}
+					country_lock_all_division_template = yes
 				}
 
 				every_possible_country = {

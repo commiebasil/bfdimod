@@ -62,10 +62,14 @@ continent = {
 
 	scientist = {
 		female = {
-			"GFX_Portrait_Goiky_Generic_land_1"
+			"GFX_Portrait_Goiky_Generic_scientist_1"
+			"GFX_Portrait_Goiky_Generic_scientist_2"
+			"GFX_Portrait_Goiky_Generic_scientist_3"
 		}
 		male = {
-			"GFX_Portrait_Goiky_Generic_land_1"
+			"GFX_Portrait_Goiky_Generic_scientist_1"
+			"GFX_Portrait_Goiky_Generic_scientist_2"
+			"GFX_Portrait_Goiky_Generic_scientist_3"
 		}
 	}
 }

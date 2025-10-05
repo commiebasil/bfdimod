@@ -162,6 +162,8 @@
  l_GTR_resources_requisition: "Adds §710%§! progress to §YThe Second Stage§!"
  l_GTR_opens_requistion: "Allows §tRequisition§!."
  l_GTR_outbreak: "§tThere will be catastrophical consequences.§!"
+ l_GTR_testings: "§5Testings are starting...§!"
+ l_GTR_nuclear_annihilation: "§tThat's bad...§!"
 
  l_money_gain_300K: "Gain §G300K Dollars§!"
 

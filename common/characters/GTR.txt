@@ -1,10 +1,18 @@
 characters = {
 	GTR_golfball = {
 		name = GTR_golfball
-		portraits = { civilian = { large = GFX_GTR_golfball } }
+		portraits = {
+			civilian = { large = GFX_GTR_golfball }
+		}
 		country_leader = {
 			ideology = technocratism
 			desc = GTR_golfball_desc
+		}
+		scientist = {
+			traits = { scientist_trait_nuclear_specialist scientist_trait_brilliant_theorist }
+			skills = {
+				specialization_nuclear = 2
+			}
 		}
 	}
 	GTR_tennis_ball = {
